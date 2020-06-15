@@ -19,8 +19,8 @@ const Index: NextPage = () => {
                   height='704px'
                   viewBox='0 0 1075 704'
                   className='w-full h-24 sm:h-32 md:h-48 lg:h-64 item'>
-                  <title>404</title>
-                  <desc>Created with Sketch by Xtrios team.</desc>
+                  <title>F1 car - Formula1.plus</title>
+                  <desc>Created with Sketch by Vipin.</desc>
                   <defs></defs>
                   <g
                     id='Page-1'

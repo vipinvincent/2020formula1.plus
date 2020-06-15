@@ -1,6 +1,6 @@
 {
-  "name": "f1plus",
-  "description": "Formula1 Plus - Formula 1 Latest News, Insights, Live Grand Prix Updates, Schedule, Standings, Drivers, Teams, Results and much more...",
+  "name": "formula1.plus",
+  "description": "Formula1 Plus - Formula 1 Latest News, Insights, Live Grand Prix Updates, Schedule, Standings, Drivers, Teams, Results and much more... ",
   "version": "1.0.0",
   "scripts": {
     "dev": "next",

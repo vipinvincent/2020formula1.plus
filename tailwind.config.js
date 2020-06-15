@@ -4,10 +4,10 @@ module.exports = {
     extend: {
       colors: {
         primary: {
-          on: '#202020',
-          hover: '#E6E6E6',
-          focus: '#E6E6E6',
-          active: '#E6E6E6',
+          on: '#212121',
+          hover: '#212121',
+          focus: '#212121',
+          active: '#212121',
         },
         black: {
           25: 'rgba(0, 0, 0, 0.25)',
