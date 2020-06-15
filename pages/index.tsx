@@ -11,7 +11,7 @@ const IndexPage = () => (
     <div className='w-full h-screen flex flex-col items-center content-center justify-center px-4'>
       <div className='w-full h-full max-w-5xl rounded text-center text-black-70 my-6 mx-24 px-8 pb-8'>
         <div className='w-full h-full flex flex-col items-center content-center justify-center text-normal font-normal leading-tight'>
-          <div className='w-full h-24 sm:h-40 md:h-48 lg:h-64 xl:h-84'>
+          <div className='w-full h-40 sm:h-48 md:h-64 lg:h-64 xl:h-84'>
             <motion.div
               initial={{ opacity: 0, scale: 0.95 }}
               animate={{ opacity: 1, scale: 1 }}
@@ -21,7 +21,7 @@ const IndexPage = () => (
                 height='323px'
                 viewBox='0 0 1537 323'
                 version='1.1'
-                className='w-full h-24 sm:h-32 md:h-48 lg:h-64 item'>
+                className='w-full h-40 sm:h-48 md:h-64 lg:h-64 xl:h-84 item'>
                 <title>F1 car - Formula1.plus</title>
                 <desc>Created with Sketch by Vipin.</desc>
                 <defs>
