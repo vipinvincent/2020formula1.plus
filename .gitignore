@@ -102,3 +102,16 @@ dist
 
 # TernJS port file
 .tern-port
+
+# misc
+.DS_Store
+.env
+.env.prod
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+;
+sw.js
+sw.js.map
+workbox-*.js
+workbox-*.js.map
