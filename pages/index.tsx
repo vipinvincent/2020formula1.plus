@@ -83,31 +83,31 @@ const IndexPage = () => (
                       transition={spinTransition}
                       id='front-tyre'>
                       <circle
-                        id='Oval'
+                        id='Oval-1'
                         fill='#333333'
                         fillRule='nonzero'
                         cx='98.5'
                         cy='98.5'
                         r='98.5'></circle>
                       <circle
-                        id='Oval'
+                        id='Oval-2'
                         fill='#FFD318'
                         fillRule='nonzero'
                         cx='98'
                         cy='98'
                         r='82'></circle>
                       <polygon
-                        id='Shape'
+                        id='Shape-1'
                         fill='#333333'
                         fillRule='nonzero'
                         points='121.85801 4.28182 145.646845 29.94208 121.85801 55.606 74.2839806 55.606 50.4951456 29.94208 74.2839806 4.28182'></polygon>
                       <polygon
-                        id='Shape'
+                        id='Shape-2'
                         fill='#333333'
                         fillRule='nonzero'
                         points='134.862864 121.46404 171.725728 154.14784 134.862864 186.83164 61.1371359 186.83164 24.2742718 154.14784 61.1371359 121.46404'></polygon>
                       <rect
-                        id='Rectangle-path'
+                        id='Rectangle-path-1'
                         fill='#333333'
                         fillRule='nonzero'
                         transform='translate(34.364958, 149.222450) rotate(-31.944753) translate(-34.364958, -149.222450) '
@@ -116,7 +116,7 @@ const IndexPage = () => (
                         width='19.4638296'
                         height='10.7200177'></rect>
                       <rect
-                        id='Rectangle-path'
+                        id='Rectangle-path-2'
                         fill='#333333'
                         fillRule='nonzero'
                         transform='translate(161.712845, 148.936232) rotate(38.000000) translate(-161.712845, -148.936232) '
@@ -125,7 +125,7 @@ const IndexPage = () => (
                         width='19.4308252'
                         height='10.70184'></rect>
                       <rect
-                        id='Rectangle-path'
+                        id='Rectangle-path-3'
                         fill='#333333'
                         fillRule='nonzero'
                         transform='translate(56.142018, 31.895926) rotate(58.000000) translate(-56.142018, -31.895926) '
@@ -134,7 +134,7 @@ const IndexPage = () => (
                         width='19.4308252'
                         height='10.70184'></rect>
                       <rect
-                        id='Rectangle-path'
+                        id='Rectangle-path-4'
                         fill='#333333'
                         fillRule='nonzero'
                         transform='translate(139.822816, 31.895498) rotate(-58.000000) translate(-139.822816, -31.895498) '
@@ -143,35 +143,35 @@ const IndexPage = () => (
                         width='19.4308252'
                         height='10.70184'></rect>
                       <circle
-                        id='Oval'
+                        id='Oval-3'
                         fill='#333333'
                         fillRule='nonzero'
                         cx='98'
                         cy='98'
                         r='75'></circle>
                       <circle
-                        id='Oval'
+                        id='Oval-4'
                         fill='#A8A8A8'
                         fillRule='nonzero'
                         cx='97.5'
                         cy='97.5'
                         r='54.5'></circle>
                       <circle
-                        id='Oval'
+                        id='Oval-5'
                         fill='#7F7F7F'
                         fillRule='nonzero'
                         cx='98.5'
                         cy='98.5'
                         r='45.5'></circle>
                       <circle
-                        id='Oval'
+                        id='Oval-6'
                         fill='#FFFFFF'
                         fillRule='nonzero'
                         cx='98.5'
                         cy='98.5'
                         r='39.3171296'></circle>
                       <rect
-                        id='Rectangle-path'
+                        id='Rectangle-path-6'
                         fill='#7F7F7F'
                         fillRule='nonzero'
                         transform='translate(98.499756, 99.000056) rotate(-162.000000) translate(-98.499756, -99.000056) '
@@ -180,7 +180,7 @@ const IndexPage = () => (
                         width='87.1794872'
                         height='6.6'></rect>
                       <rect
-                        id='Rectangle-path'
+                        id='Rectangle-path-7'
                         fill='#7F7F7F'
                         fillRule='nonzero'
                         transform='translate(98.500000, 99.000000) rotate(-90.000000) translate(-98.500000, -99.000000) '
@@ -189,7 +189,7 @@ const IndexPage = () => (
                         width='87.1794872'
                         height='6.6'></rect>
                       <rect
-                        id='Rectangle-path'
+                        id='Rectangle-path-8'
                         fill='#7F7F7F'
                         fillRule='nonzero'
                         transform='translate(98.498767, 98.999058) rotate(-54.000000) translate(-98.498767, -98.999058) '
@@ -198,7 +198,7 @@ const IndexPage = () => (
                         width='87.1794872'
                         height='6.6'></rect>
                       <rect
-                        id='Rectangle-path'
+                        id='Rectangle-path-9'
                         fill='#7F7F7F'
                         fillRule='nonzero'
                         transform='translate(98.500055, 98.999754) rotate(162.000000) translate(-98.500055, -98.999754) '
@@ -207,7 +207,7 @@ const IndexPage = () => (
                         width='87.1794872'
                         height='6.6'></rect>
                       <rect
-                        id='Rectangle-path'
+                        id='Rectangle-path-10'
                         fill='#7F7F7F'
                         fillRule='nonzero'
                         transform='translate(98.500934, 99.001244) rotate(-126.000000) translate(-98.500934, -99.001244) '
@@ -216,21 +216,21 @@ const IndexPage = () => (
                         width='87.1794872'
                         height='6.6'></rect>
                       <circle
-                        id='Oval'
+                        id='Oval-8'
                         fill='#7F7F7F'
                         fillRule='nonzero'
                         cx='98.5'
                         cy='98.5'
                         r='16.5'></circle>
                       <circle
-                        id='Oval'
+                        id='Oval-9'
                         fill='#FFFFFF'
                         fillRule='nonzero'
                         cx='98.5'
                         cy='98.5'
                         r='6.5'></circle>
                       <image
-                        id='Bitmap'
+                        id='Bitmap-1'
                         x='64'
                         y='21.0464286'
                         width='70.6941538'
@@ -243,31 +243,31 @@ const IndexPage = () => (
                       transition={spinTransition}
                       id='rear-tyre'>
                       <circle
-                        id='Oval'
+                        id='Oval-11'
                         fill='#333333'
                         fillRule='nonzero'
                         cx='98.5'
                         cy='98.5'
                         r='98.5'></circle>
                       <circle
-                        id='Oval'
+                        id='Oval-12'
                         fill='#FFD318'
                         fillRule='nonzero'
                         cx='98'
                         cy='98'
                         r='82'></circle>
                       <polygon
-                        id='Shape'
+                        id='Shape-12'
                         fill='#333333'
                         fillRule='nonzero'
                         points='121.85801 4.28182 145.646845 29.94208 121.85801 55.606 74.2839806 55.606 50.4951456 29.94208 74.2839806 4.28182'></polygon>
                       <polygon
-                        id='Shape'
+                        id='Shape-13'
                         fill='#333333'
                         fillRule='nonzero'
                         points='134.862864 121.46404 171.725728 154.14784 134.862864 186.83164 61.1371359 186.83164 24.2742718 154.14784 61.1371359 121.46404'></polygon>
                       <rect
-                        id='Rectangle-path'
+                        id='Rectangle-path-20'
                         fill='#333333'
                         fillRule='nonzero'
                         transform='translate(34.364958, 149.222450) rotate(-31.944753) translate(-34.364958, -149.222450) '
@@ -276,7 +276,7 @@ const IndexPage = () => (
                         width='19.4638296'
                         height='10.7200177'></rect>
                       <rect
-                        id='Rectangle-path'
+                        id='Rectangle-path-21'
                         fill='#333333'
                         fillRule='nonzero'
                         transform='translate(161.712845, 148.936232) rotate(38.000000) translate(-161.712845, -148.936232) '
@@ -285,7 +285,7 @@ const IndexPage = () => (
                         width='19.4308252'
                         height='10.70184'></rect>
                       <rect
-                        id='Rectangle-path'
+                        id='Rectangle-path-22'
                         fill='#333333'
                         fillRule='nonzero'
                         transform='translate(56.142018, 31.895926) rotate(58.000000) translate(-56.142018, -31.895926) '
@@ -294,7 +294,7 @@ const IndexPage = () => (
                         width='19.4308252'
                         height='10.70184'></rect>
                       <rect
-                        id='Rectangle-path'
+                        id='Rectangle-path-23'
                         fill='#333333'
                         fillRule='nonzero'
                         transform='translate(139.822816, 31.895498) rotate(-58.000000) translate(-139.822816, -31.895498) '
@@ -303,35 +303,35 @@ const IndexPage = () => (
                         width='19.4308252'
                         height='10.70184'></rect>
                       <circle
-                        id='Oval'
+                        id='Oval-20'
                         fill='#333333'
                         fillRule='nonzero'
                         cx='98'
                         cy='98'
                         r='75'></circle>
                       <circle
-                        id='Oval'
+                        id='Oval-21'
                         fill='#A8A8A8'
                         fillRule='nonzero'
                         cx='97.5'
                         cy='97.5'
                         r='54.5'></circle>
                       <circle
-                        id='Oval'
+                        id='Oval-22'
                         fill='#7F7F7F'
                         fillRule='nonzero'
                         cx='98.5'
                         cy='98.5'
                         r='45.5'></circle>
                       <circle
-                        id='Oval'
+                        id='Oval-23'
                         fill='#FFFFFF'
                         fillRule='nonzero'
                         cx='98.5'
                         cy='98.5'
                         r='39.3171296'></circle>
                       <rect
-                        id='Rectangle-path'
+                        id='Rectangle-path-30'
                         fill='#7F7F7F'
                         fillRule='nonzero'
                         transform='translate(98.499756, 99.000056) rotate(-162.000000) translate(-98.499756, -99.000056) '
@@ -340,7 +340,7 @@ const IndexPage = () => (
                         width='87.1794872'
                         height='6.6'></rect>
                       <rect
-                        id='Rectangle-path'
+                        id='Rectangle-path-31'
                         fill='#7F7F7F'
                         fillRule='nonzero'
                         transform='translate(98.500000, 99.000000) rotate(-90.000000) translate(-98.500000, -99.000000) '
@@ -349,7 +349,7 @@ const IndexPage = () => (
                         width='87.1794872'
                         height='6.6'></rect>
                       <rect
-                        id='Rectangle-path'
+                        id='Rectangle-path-32'
                         fill='#7F7F7F'
                         fillRule='nonzero'
                         transform='translate(98.498767, 98.999058) rotate(-54.000000) translate(-98.498767, -98.999058) '
@@ -358,7 +358,7 @@ const IndexPage = () => (
                         width='87.1794872'
                         height='6.6'></rect>
                       <rect
-                        id='Rectangle-path'
+                        id='Rectangle-path-33'
                         fill='#7F7F7F'
                         fillRule='nonzero'
                         transform='translate(98.500055, 98.999754) rotate(162.000000) translate(-98.500055, -98.999754) '
@@ -367,7 +367,7 @@ const IndexPage = () => (
                         width='87.1794872'
                         height='6.6'></rect>
                       <rect
-                        id='Rectangle-path'
+                        id='Rectangle-path-34'
                         fill='#7F7F7F'
                         fillRule='nonzero'
                         transform='translate(98.500934, 99.001244) rotate(-126.000000) translate(-98.500934, -99.001244) '
@@ -383,14 +383,14 @@ const IndexPage = () => (
                         cy='98.5'
                         r='16.5'></circle>
                       <circle
-                        id='Oval'
+                        id='Oval-30'
                         fill='#FFFFFF'
                         fillRule='nonzero'
                         cx='98.5'
                         cy='98.5'
                         r='6.5'></circle>
                       <image
-                        id='Bitmap'
+                        id='Bitmap-2'
                         x='64'
                         y='21.0464286'
                         width='70.6941538'
