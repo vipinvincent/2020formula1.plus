@@ -19,10 +19,202 @@ body {
   margin: 0;
 }
 body {
-  background: #113049;
+  background: #ffffff;
+}
+.container {
+  min-width: 320px;
+  max-width: 1920px !important;
+  margin: 0 auto;
 }
 .min-container {
   min-width: 320px;
+}
+@media (max-width: 1024px) {
+  .navigation {
+    height: calc(100vh - 136px) !important;
+  }
+}
+@media (min-width: 1025px) {
+  .navigation {
+    height: calc(100vh - 88px) !important;
+  }
+}
+@media (min-width: 1920px) {
+  .navigation {
+    height: 5rem !important;
+    padding-top: 1.25rem;
+  }
+}
+.navigation .text,
+.three-d-text {
+  text-shadow: 1px 1px 1px #666666;
+}
+@media (max-width: 640px) {
+  .navigation .text {
+    font-size: 0.5rem;
+  }
+}
+.ferrari .main-body {
+  fill: #dc0000;
+}
+.ferrari .side-body {
+  fill: #b00000;
+}
+.ferrari .halo {
+  fill: #534c53;
+}
+.ferrari .rear-wing {
+  fill: #cc161d;
+}
+.ferrari .text {
+  color: #dc0000;
+}
+.mercedes .main-body {
+  fill: #e5faf8;
+}
+.mercedes .side-body {
+  fill: #050608;
+}
+.mercedes .halo {
+  fill: red;
+}
+.mercedes .rear-wing {
+  fill: #26282c;
+}
+.mercedes .text {
+  color: #00d2be;
+}
+.haas .main-body {
+  fill: #fafbfd;
+}
+.haas .side-body {
+  fill: #181212;
+}
+.haas .halo {
+  fill: #414443;
+}
+.haas .rear-wing {
+  fill: #fd2333;
+}
+.haas .text {
+  color: #787878;
+}
+.mclaren .main-body {
+  fill: #ff8700;
+}
+.mclaren .side-body {
+  fill: #017de9;
+}
+.mclaren .halo {
+  fill: #ffab00;
+}
+.mclaren .rear-wing {
+  fill: #66bdfc;
+}
+.mclaren .text {
+  color: #ff8700;
+}
+.alfaromeo .main-body {
+  fill: #a1041c;
+}
+.alfaromeo .side-body {
+  fill: #cedbe4;
+}
+.alfaromeo .halo {
+  fill: #ef000a;
+}
+.alfaromeo .rear-wing {
+  fill: #960000;
+}
+.alfaromeo .text {
+  color: #960000;
+}
+.redbull .main-body {
+  fill: #252b35;
+}
+.redbull .side-body {
+  fill: #fe2b3d;
+}
+.redbull .halo {
+  fill: #232425;
+}
+.redbull .rear-wing {
+  fill: #0600ef;
+}
+.redbull .text {
+  color: #0600ef;
+}
+.renault .main-body {
+  fill: #fff500;
+}
+.renault .side-body {
+  fill: #000000;
+}
+.renault .halo {
+  fill: #000000;
+}
+.renault .rear-wing {
+  fill: #000000;
+}
+.renault .text {
+  color: #fff500;
+}
+.alphatauri .main-body {
+  fill: #0a2840;
+}
+.alphatauri .side-body {
+  fill: #ffffff;
+}
+.alphatauri .halo {
+  fill: #0a2840;
+}
+.alphatauri .rear-wing {
+  fill: #0a2840;
+}
+.alphatauri .text {
+  color: #0a2840;
+}
+.williams .main-body {
+  fill: #ffffff;
+}
+.williams .side-body {
+  fill: #0082fa;
+}
+.williams .halo {
+  fill: #0082fa;
+}
+.williams .rear-wing {
+  fill: #0082fa;
+}
+.williams .text {
+  color: #0082fa;
+}
+.racingpoint .main-body {
+  fill: #f596c8;
+}
+.racingpoint .side-body {
+  fill: #ffffff;
+}
+.racingpoint .halo {
+  fill: #e2e6eb;
+}
+.racingpoint .rear-wing {
+  fill: #ffffff;
+}
+.racingpoint .text {
+  color: #f596c8;
+}
+.bg-espn {
+  background: #cc242e;
+}
+.bg-skysports {
+  background: #ea0519;
+}
+.bg-bbc {
+  background: #ffd230;
+}
+.bg-autosports {
+  background: #df0f03;
 }
 @tailwind base;
 @tailwind components;
