@@ -262,7 +262,7 @@ const Main: React.FC = () => {
             <p className='mt-1 text-base leading-normal text-gray-700'>
               Visit{' '}
               <ContentLink
-                href='https://www.autosport.com/f1/news/150189/renault-will-still-involve-ricciardo-in-car-developmenthttps://the-race.com/formula-1/ricciardo-f1-at-mugello-would-be-insane/'
+                href='https://the-race.com/formula-1/ricciardo-f1-at-mugello-would-be-insane/'
                 target='_blank'>
                 the-race.com
               </ContentLink>{' '}
