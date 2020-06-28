@@ -1,5 +1,4 @@
 import React from 'react'
-import ContentLink from 'components/link/ContentLink'
 
 const Driver: React.FC = () => {
   return (
