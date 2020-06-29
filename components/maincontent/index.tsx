@@ -159,7 +159,7 @@ const Main: React.FC = () => {
       <div className='relative bg-white-100 rounded shadow-xs mt-4'>
         <div className='h-32 sm:h-40 lg:absolute lg:left-0 lg:h-full lg:w-1/3'>
           <img
-            className='w-full h-full object-contain lg:object-cover rounded-l bg-autosports'
+            className='w-full h-full object-contain rounded-l bg-autosports'
             src='https://i1.sndcdn.com/avatars-000304785988-u42e59-t500x500.jpg'
             alt='autosport.com'
           />
@@ -234,7 +234,7 @@ const Main: React.FC = () => {
       <div className='relative bg-white-100 rounded shadow-xs mt-4'>
         <div className='h-32 sm:h-40 lg:absolute lg:left-0 lg:h-full lg:w-1/3'>
           <img
-            className='w-full h-full object-contain rounded-l bg-gray-800 px-8'
+            className='w-full h-full object-contain rounded-l bg-gray-800 px-8 py-8'
             src='https://cdn.the-race.com/wp-content/uploads/2020/02/02055753/the-race-logo-full-white.png'
             alt='the-race.com'
           />
@@ -274,7 +274,7 @@ const Main: React.FC = () => {
       <div className='relative bg-white-100 rounded shadow-xs mt-4'>
         <div className='h-32 sm:h-40 lg:absolute lg:left-0 lg:h-full lg:w-1/3'>
           <img
-            className='w-full h-full object-contain rounded-l bg-white-50 px-8'
+            className='w-full h-full object-contain rounded-l bg-white-50 p-8'
             src='https://www.grandprix247.com/wp-content/uploads/2019/12/gp247-2020-logo-1200.png'
             alt='grandprix247.com'
           />
@@ -315,7 +315,7 @@ const Main: React.FC = () => {
       <div className='relative bg-white-100 rounded shadow-xs mt-4'>
         <div className='h-32 sm:h-40 lg:absolute lg:left-0 lg:h-full lg:w-1/3'>
           <img
-            className='w-full h-full object-contain rounded-l bg-white-50 px-8'
+            className='w-full h-full object-contain rounded-l bg-white-50 p-8'
             src='https://www.planetf1.com/content/themes/planet/img/svg/logo.svg'
             alt='planetf1.com'
           />

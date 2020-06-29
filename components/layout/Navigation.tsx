@@ -28,7 +28,7 @@ const Navigation: React.FunctionComponent = () => (
         <div className='flex'>
           <F1Car />
         </div>
-        <div className='text-center text'>mclaren</div>
+        <div className='text-center text'>McLaren</div>
       </div>
       <div className='h-16 py-2 flex flex-col alfaromeo'>
         <div className='flex'>
