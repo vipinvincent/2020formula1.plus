@@ -1,5 +1,5 @@
 import React from 'react'
-import ContentLink from 'components/link/ContentLink'
+// import ContentLink from 'components/link/ContentLink'
 
 const Driver: React.FC = () => {
   return (
@@ -177,11 +177,11 @@ const Driver: React.FC = () => {
             </div>
           </div>
 
-          <p className='my-2 pr-4 text-base leading-normal text-gray-700 text-right'>
+          {/* <p className='my-2 pr-4 text-base leading-normal text-gray-700 text-right'>
             <ContentLink href='/driver-standings' target='_self'>
               View complete list
             </ContentLink>
-          </p>
+          </p> */}
         </div>
       </div>
     </div>
