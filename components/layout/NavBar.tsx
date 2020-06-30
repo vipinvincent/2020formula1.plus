@@ -9,28 +9,32 @@ const GoTop = dynamic(() => import('components/icons/gotop'))
 const NavBar: React.FunctionComponent = () => (
   <nav className='w-full mx-auto flex justify-center container'>
     <div className='w-full flex flex-row justify-between h-12 bg-black-85'>
-      <a href='/'>
+      <a href='/' className='bg-black-25 hover:bg-black-75 inline-block'>
         <div className='h-32 py-2 flex flex-col ferrari'>
           <div className='flex'>
             <Home />
           </div>
         </div>
       </a>
-      <a href='/circuit-details'>
+      <a
+        href='/circuit-details'
+        className='bg-black-25 hover:bg-black-75 inline-block'>
         <div className='h-32 py-2 flex flex-col ferrari'>
           <div className='flex'>
             <Team />
           </div>
         </div>
       </a>
-      <a href='/driver-standings'>
+      <a
+        href='/driver-standings'
+        className='bg-black-25 hover:bg-black-75 inline-block'>
         <div className='h-32 py-2 flex flex-col ferrari'>
           <div className='flex'>
             <Driver />
           </div>
         </div>
       </a>
-      <a href='#top'>
+      <a href='#top' className='bg-black-25 hover:bg-black-75 inline-block'>
         <div className='h-32 py-2 flex flex-col ferrari'>
           <div className='flex'>
             <GoTop />
