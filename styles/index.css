@@ -204,6 +204,9 @@ body {
 .racingpoint .text {
   color: #f596c8;
 }
+.bg-ferrari {
+  background: #dc0000;
+}
 .bg-espn {
   background: #cc242e;
 }
@@ -215,6 +218,9 @@ body {
 }
 .bg-autosports {
   background: #df0f03;
+}
+.bg-photobg {
+  background: #3e3c3d;
 }
 @tailwind base;
 @tailwind components;
