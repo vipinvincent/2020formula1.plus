@@ -6,7 +6,9 @@ const F1Plus = dynamic(() => import('components/f1plus/animation'))
 
 const Header: React.FC = () => {
   return (
-    <header className='w-full flex bg-black-5 justify-center mx-auto py-1 header container z-20'>
+    <header
+      className='w-full flex bg-black-5 justify-center mx-auto py-1 header container z-20'
+      id='top'>
       <div className='w-full flex justify-center text-sm font-medium h-20 pt-2 pl-1'>
         <Link href={'/'}>
           <a
