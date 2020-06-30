@@ -387,10 +387,10 @@ const Index: NextPage = () => {
                 </svg>
               </motion.div>
             </div>
-            <h1 className='text-3xl md:text-4xl font-black leading-tight pt-4 pb-4 md:pb-8 text-white-50'>
+            <h1 className='text-3xl md:text-4xl font-black leading-tight pt-4 pb-4 md:pb-8 text-black-50'>
               Page not fond
             </h1>
-            <p className='text-black-50 text-base pb-4 text-white-30'>
+            <p className='text-black-50 text-base pb-4'>
               Go Back to{' '}
               <a
                 href='/'
