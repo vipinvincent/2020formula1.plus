@@ -201,8 +201,8 @@ const Ferrari: React.FC = () => {
                   Suspension
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  Push-rod front suspension
-                  <br /> pull-rod rear suspension.
+                  Front : Push-rod front suspension
+                  <br /> Rear : Pull-rod rear suspension.
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -319,6 +319,14 @@ const Ferrari: React.FC = () => {
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
                 <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1'>
                   Team Chief
+                </div>
+                <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
+                  Mattia Binotto
+                </div>
+              </div>
+              <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
+                <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1'>
+                  Technical Chief
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
                   Simone Resta

@@ -31,18 +31,22 @@ const Navigation: React.FunctionComponent = () => (
           <div className='text-center text'>Red Bull</div>
         </div>
       </NavLink>
-      <div className='h-16 py-2 flex flex-col mclaren'>
-        <div className='flex'>
-          <F1Car />
+      <NavLink href='/mclaren-f1' target='_self'>
+        <div className='h-16 py-2 flex flex-col mclaren'>
+          <div className='flex'>
+            <F1Car />
+          </div>
+          <div className='text-center text'>McLaren</div>
         </div>
-        <div className='text-center text'>McLaren</div>
-      </div>{' '}
-      <div className='h-16 py-2 flex flex-col renault'>
-        <div className='flex'>
-          <F1Car />
+      </NavLink>
+      <NavLink href='/renault-f1' target='_self'>
+        <div className='h-16 py-2 flex flex-col renault'>
+          <div className='flex'>
+            <F1Car />
+          </div>
+          <div className='text-center text'>Renault</div>
         </div>
-        <div className='text-center text'>Renault</div>
-      </div>
+      </NavLink>
       <div className='h-16 py-2 flex flex-col racingpoint'>
         <div className='flex'>
           <F1Car />

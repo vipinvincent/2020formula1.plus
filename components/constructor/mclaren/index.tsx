@@ -1,62 +1,53 @@
 import React from 'react'
 import ContentLink from 'components/link/ContentLink'
 
-const redbull: React.FC = () => {
+const McLaren: React.FC = () => {
   return (
     <div className='flex flex-col mb-4'>
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1'>
-        Red Bull Racing - RB 16
+        McLaren F1 - MCL35
       </div>
       <div className='relative bg-white-100 rounded shadow-xs mb-4'>
-        <div className='h-48 sm:h-64 lg:h-96 w-full text-center'>
+        <div className='h-32 sm:h-48 lg:h-64 w-full text-center'>
           <img
             className='w-full h-full object-cover rounded-t text-center'
-            src='/images/cars/redbull.jpg'
-            alt='Red Bull RB 16'
+            src='/images/cars/mclaren.jpg'
+            alt='McLaren MCL35'
           />
         </div>
         <div className='relative max-w-screen-xl mx-auto'>
           <div className='py-4 text-left px-4'>
-            <p className='mt-2 text-sm leading-normal text-gray-700'>
-              The Red Bull Racing RB16 is a Formula One racing car designed and
-              constructed by Red Bull Racing to compete during the 2020 Formula
-              One World Championship. The car will be driven by Max Verstappen
-              and Alexander Albon who are teammates for the second year running.
-              The RB16 is the second Red Bull car to use Honda engines.
-            </p>
-            <p className='mt-2 text-sm leading-normal text-gray-700'>
-              The car was planned to make its competitive début at the 2020
-              Australian Grand Prix, but this was delayed when the race was
-              cancelled and the next three events in Bahrain, Vietnam and China
-              were postponed in response to the COVID-19 pandemic. The Aston
-              Martin Red Bull Racing RB16 makes its track debut at the
-              Silverstone Circuit in the UK, one week ahead of the start of
-              pre-season testing in Barcelona.{' '}
-            </p>
             <p className='mt-1 text-sm leading-normal text-gray-700'>
-              Red Bull Racing came into existence late in 2004 – under the
-              guidance of Team Principal Christian Horner – with ambitions to
-              challenge for race victories and world championship titles. Ahead
-              of the major rule changes coming in 2021, the 2020 Technical
-              Regulations were stable and most of the changes, such as access to
-              an extra MGU-K and reductions in testing, being contained in the
-              Sporting Regulations. As such the design of RB16 was all about
-              refinement of lessons learned from RB15 and exploiting areas where
-              gains were still on offer.
+              McLaren Racing today unveiled the team’s 2020 F1 car, the MCL35,
+              live from the McLaren Technology Centre to a global audience.
+              Drivers Carlos Sainz and Lando Norris, who both enter their second
+              season with the team, proudly presented the car ahead of it taking
+              to the track for the first time during pre-season testing next
+              week.
             </p>
             <p className='mt-2 text-sm leading-normal text-gray-700'>
-              With largely unchanged technical regulations for the 2020 season,
-              the RB16 was based on its predecessor the RB15. The RB16 featured
-              a narrower nose with two additional inlets at its front, as well
-              as a redesigned bargeboard area and smaller sidepod inlets. The
-              car also featured a large 'cape' element below the nose, bodywork
-              that was popularised by redbull in 2017 but that Red Bull had not
-              yet adopted. Parts of the rear suspension were raised, and the
-              rear wing featured two supporting pillars compared to its
-              predecessor's one. The team also redesigned the front multi-link
-              suspension of the car, with team principal Christian Horner
-              stating that the intention was to improve the performance of the
-              car in low-speed corners.
+              McLaren set to work on the MCL35, which is powered by the Renault
+              E-Tech 20, during 2019 as the team pursued the first phase of its
+              performance recovery programme. The season saw the team climb to
+              fourth in the FIA Formula 1 Constructors’ World Championship and
+              provided valuable insights for the development of the MCL35, in
+              what will be an intensely competitive 2020 Formula 1 season.
+            </p>
+            <p className='mt-2 text-sm leading-normal text-gray-700'>
+              The MCL35 continues to sport the striking McLaren papaya and blue,
+              the original colours chosen by founder Bruce McLaren and
+              representing the team’s 57-year legacy in the sport. The dynamic
+              new livery is the essence of form and function; designed to
+              further increase stand-out on the grid while being fully optimised
+              for racing performance.
+            </p>
+            <p className='mt-2 text-sm leading-normal text-gray-700'>
+              McLaren has also continued its positive commercial trend, with
+              eight new partners for 2020, broadening the team’s partner family
+              to 38 partners in total. The MCL35 will made its official on-track
+              debut during pre-season testing at the Circuit de
+              Barcelona-Catalunya in Spain. Carlos and Lando will share the
+              driving duties across both tests.
             </p>
           </div>
         </div>
@@ -67,8 +58,8 @@ const redbull: React.FC = () => {
                 <div className='h-32 sm:h-40 w-full lg:w-1/3 text-center bg-photobg'>
                   <img
                     className='w-full h-full object-contain rounded-t text-center'
-                    src='https://www.formula1.com/content/fom-website/en/drivers/max-verstappen/_jcr_content/image.img.320.medium.jpg/1584013243241.jpg'
-                    alt='Max Verstappen'
+                    src='https://www.formula1.com/content/fom-website/en/drivers/carlos-sainz/_jcr_content/image.img.320.medium.jpg/1584013014200.jpg'
+                    alt='Carlos Sainz'
                   />
                 </div>
                 <div className='h-32 sm:h-40 hidden lg:w-2/3   lg:flex flex-col justify-between text-left bg-white-100 pl-4'>
@@ -76,7 +67,7 @@ const redbull: React.FC = () => {
                     <div className='text-sm leading-5 font-medium text-gray-500'>
                       Country -{' '}
                       <span className='text-base leading-5 font-bold text-gray-700'>
-                        Netherlands
+                        Spain
                       </span>
                     </div>
                   </div>
@@ -84,15 +75,15 @@ const redbull: React.FC = () => {
                     <div className='text-sm leading-5 font-medium text-gray-500'>
                       Podiums -{' '}
                       <span className='text-base leading-5 font-bold text-gray-700'>
-                        31
+                        1
                       </span>
                     </div>
                   </div>
                   <div className='px4 py-2 border-b border-gray-100'>
                     <div className='text-sm leading-5 font-medium text-gray-500'>
-                      World Championships -{' '}
+                      Highest race finish -{' '}
                       <span className='text-base leading-5 font-bold text-gray-700'>
-                        0
+                        3
                       </span>
                     </div>
                   </div>
@@ -106,14 +97,14 @@ const redbull: React.FC = () => {
                   </div>
                 </div>
               </div>
-              <div className='bg-gray-100 px-4 py-4 sm:px-6 redbull'>
-                <div className='flex items-center justify-center'>
-                  <div className='flex-shrink-0 bg-redbull text-xl font-black text-white-100 rounded-md py-2 px-4'>
-                    33
-                  </div>
-                  <div className='text-xl leading-5 text font-medium flex-0 px-4'>
-                    Max Verstappen
-                  </div>
+            </div>
+            <div className='bg-gray-100 px-4 py-4 sm:px-6 mclaren'>
+              <div className='flex items-center justify-center'>
+                <div className='flex-shrink-0 bg-mclaren text-xl font-black text-white-100 rounded-md py-2 px-4'>
+                  55
+                </div>
+                <div className='text-xl leading-5 text font-medium flex-0 px-4'>
+                  Carlos Sainz
                 </div>
               </div>
             </div>
@@ -124,8 +115,8 @@ const redbull: React.FC = () => {
                 <div className='h-32 sm:h-40 w-full lg:w-1/3 text-center bg-photobg'>
                   <img
                     className='w-full h-full object-contain rounded-t text-center'
-                    src='https://www.formula1.com/content/fom-website/en/drivers/alexander-albon/_jcr_content/image.img.320.medium.jpg/1584013243241.jpg'
-                    alt='Alexander Albon'
+                    src='https://www.formula1.com/content/fom-website/en/drivers/lando-norris/_jcr_content/image.img.320.medium.jpg/1584013014200.jpg'
+                    alt='Lando Norris'
                   />
                 </div>
                 <div className='h-32 sm:h-40 hidden lg:w-2/3   lg:flex flex-col justify-between text-left bg-white-100 pl-4'>
@@ -133,7 +124,7 @@ const redbull: React.FC = () => {
                     <div className='text-sm leading-5 font-medium text-gray-500'>
                       Country -{' '}
                       <span className='text-base leading-5 font-bold text-gray-700'>
-                        Thailand
+                        United Kingdom
                       </span>
                     </div>
                   </div>
@@ -147,9 +138,9 @@ const redbull: React.FC = () => {
                   </div>
                   <div className='px4 py-2 border-b border-gray-100'>
                     <div className='text-sm leading-5 font-medium text-gray-500'>
-                      World Championships -{' '}
+                      Highest race finish -{' '}
                       <span className='text-base leading-5 font-bold text-gray-700'>
-                        0
+                        6
                       </span>
                     </div>
                   </div>
@@ -163,14 +154,14 @@ const redbull: React.FC = () => {
                   </div>
                 </div>
               </div>
-            </div>
-            <div className='bg-gray-100 px-4 py-4 sm:px-6 redbull'>
-              <div className='flex items-center justify-center'>
-                <div className='flex-shrink-0 bg-redbull text-xl font-black text-white-100 rounded-md py-2 px-4'>
-                  23
-                </div>
-                <div className='text-xl leading-5 text font-medium flex-0 px-4'>
-                  Alexander Albon
+              <div className='bg-gray-100 px-4 py-4 sm:px-6 mclaren'>
+                <div className='flex items-center justify-center'>
+                  <div className='flex-shrink-0 bg-mclaren text-xl font-black text-white-100 rounded-md py-2 px-4'>
+                    4
+                  </div>
+                  <div className='text-xl leading-5 text font-medium flex-0 px-4'>
+                    Lando Norris
+                  </div>
                 </div>
               </div>
             </div>
@@ -183,7 +174,7 @@ const redbull: React.FC = () => {
         </p>
       </div>
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1'>
-        Tech Specs <span className='font-light'>(RB 16)</span>
+        Tech Specs <span className='font-light'>(MCL35)</span>
       </div>
       <div className='relative bg-white-100 rounded shadow-xs mb-4'>
         <div className='relative max-w-screen-xl mx-auto'>
@@ -194,7 +185,10 @@ const redbull: React.FC = () => {
                   Chassis
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  Carbon Fibre and Composite Monocoque
+                  Carbon fibre composite, incorporating driver controls and fuel
+                  cell. Carbon fibre composite, including engine cover,
+                  sidepods, floor, nose, front wing and rear wing with
+                  driver-operated drag reduction system.
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -202,11 +196,18 @@ const redbull: React.FC = () => {
                   Suspension
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  Front : Double wishbones, push-rod actuated torsion bar
-                  springs, anti-roll bar
-                  <br />
-                  Rear : Double wishbones, pull-rod actuated torsion bar
-                  springs, anti-roll bar
+                  Front : Carbon fibre wishbone and pushrod suspension elements
+                  operating inboard torsion bar and damper system
+                  <br /> Rear : Carbon fibre wishbone and pullrod suspension
+                  elements operating inboard torsion bar and damper system
+                </div>
+              </div>
+              <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
+                <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1'>
+                  Wheels
+                </div>
+                <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
+                  Enkei
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -214,7 +215,8 @@ const redbull: React.FC = () => {
                   Brake System
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  Ventilated carbon ceramic discs
+                  Akebono brake calipers and master cylinders; Akebono ‘brake by
+                  wire’ rear brake control system; Carbon discs and pads
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -222,7 +224,10 @@ const redbull: React.FC = () => {
                   Transmission
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  Paddle Operated 8 speed Automatic Rear wheel drive
+                  Carbon fibre composite main case, longitudinally mounted
+                  gearbox; Epicyclic differential with multi-plate limited slip
+                  clutch differential. Electro-hydraulically operated, carbon
+                  multi-plate clutch
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -235,10 +240,20 @@ const redbull: React.FC = () => {
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
                 <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1'>
-                  Power Unit
+                  Electronics
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  Honda RA620H
+                  McLaren Applied. Including chassis control, power unit
+                  control, data acquisition, sensors, data analysis and
+                  telemetry
+                </div>
+              </div>
+              <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
+                <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1'>
+                  Engine Pu Supplier
+                </div>
+                <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
+                  Renault E-Tech 20
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -247,15 +262,7 @@ const redbull: React.FC = () => {
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
                   V6 90° (Engine); 1600cc (Total displacement); 15000 (Maximum
-                  rpm); 4 MJ (Battery energy); 120 kW | 161 hp (MGU-K power)
-                </div>
-              </div>
-              <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
-                <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1'>
-                  Lubricants
-                </div>
-                <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  Mobil 1
+                  rpm); 4 MJ (Battery energy); 120kW (MGU-K power)
                 </div>
               </div>
             </div>
@@ -263,7 +270,7 @@ const redbull: React.FC = () => {
         </div>
       </div>
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1'>
-        Red Bull Racing F1 Facts
+        McLaren F1 Facts
       </div>
       <div className='relative bg-white-100 rounded shadow-xs'>
         <div className='relative max-w-screen-xl mx-auto'>
@@ -274,7 +281,7 @@ const redbull: React.FC = () => {
                   Full Team Name
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  Aston Martin Red Bull Racing
+                  McLaren F1 Team
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -282,7 +289,7 @@ const redbull: React.FC = () => {
                   Base
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  Milton Keynes, United Kingdom
+                  Woking, United Kingdom
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -290,7 +297,7 @@ const redbull: React.FC = () => {
                   Team Chief
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  Christian Horner
+                  Andreas Seidl
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -298,7 +305,7 @@ const redbull: React.FC = () => {
                   Technical Chief
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  Pierre Waché
+                  James Key
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -306,7 +313,7 @@ const redbull: React.FC = () => {
                   Chassis
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  RB16
+                  MCL35
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -314,7 +321,7 @@ const redbull: React.FC = () => {
                   Engine
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  Honda RA620H
+                  Renault E-Tech 20
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -322,7 +329,7 @@ const redbull: React.FC = () => {
                   First entry
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  2005 Australian Grand Prix
+                  1966 Monaco Grand Prix
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -330,7 +337,7 @@ const redbull: React.FC = () => {
                   Races entered
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  287 (286 starts)
+                  867 (863 starts)
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -338,47 +345,47 @@ const redbull: React.FC = () => {
                   Constructors Championships
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  4
+                  8
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
                 <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1'>
                   Drivers Championships
                 </div>
-                <div className='mt-1 text-sm leading-5 sm:leading-7 text-gray-800 sm:mt-0 sm:col-span-2 ferrari'>
-                  4
+                <div className='mt-1 text-sm leading-5 sm:leading-7 text-gray-800 sm:mt-0 sm:col-span-2 mclaren'>
+                  12
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
                 <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1'>
                   Race victories
                 </div>
-                <div className='mt-1 text-sm leading-5 sm:leading-7 text-gray-800 sm:mt-0 sm:col-span-2 ferrari'>
-                  62
+                <div className='mt-1 text-sm leading-5 sm:leading-7 text-gray-800 sm:mt-0 sm:col-span-2 mclaren'>
+                  182
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
                 <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1'>
                   Podiums
                 </div>
-                <div className='mt-1 text-sm leading-5 sm:leading-7 text-gray-800 sm:mt-0 sm:col-span-2 ferrari'>
-                  170
+                <div className='mt-1 text-sm leading-5 sm:leading-7 text-gray-800 sm:mt-0 sm:col-span-2 mclaren'>
+                  486
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
                 <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1'>
                   Pole positions
                 </div>
-                <div className='mt-1 text-sm leading-5 sm:leading-7 text-gray-800 sm:mt-0 sm:col-span-2 ferrari'>
-                  62
+                <div className='mt-1 text-sm leading-5 sm:leading-7 text-gray-800 sm:mt-0 sm:col-span-2 mclaren'>
+                  155
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
                 <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1'>
                   Fastest laps
                 </div>
-                <div className='mt-1 text-sm leading-5 sm:leading-7 text-gray-800 sm:mt-0 sm:col-span-2 ferrari'>
-                  65
+                <div className='mt-1 text-sm leading-5 sm:leading-7 text-gray-800 sm:mt-0 sm:col-span-2 mclaren'>
+                  155
                 </div>
               </div>
             </div>
@@ -388,4 +395,4 @@ const redbull: React.FC = () => {
     </div>
   )
 }
-export default redbull
+export default McLaren
