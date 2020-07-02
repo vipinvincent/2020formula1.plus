@@ -70,16 +70,16 @@ body {
   color: #dc0000;
 }
 .mercedes .main-body {
-  fill: #e5faf8;
+  fill: #050608;
 }
 .mercedes .side-body {
-  fill: #050608;
+  fill: #00d2be;
 }
 .mercedes .halo {
   fill: red;
 }
 .mercedes .rear-wing {
-  fill: #26282c;
+  fill: #00d2be;
 }
 .mercedes .text {
   color: #00d2be;
@@ -136,10 +136,10 @@ body {
   fill: #fe2b3d;
 }
 .redbull .halo {
-  fill: #232425;
+  fill: #0600ef;
 }
 .redbull .rear-wing {
-  fill: #0600ef;
+  fill: #f8b506;
 }
 .redbull .text {
   color: #0600ef;

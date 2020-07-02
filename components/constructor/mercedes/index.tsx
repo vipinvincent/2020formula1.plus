@@ -11,7 +11,7 @@ const Mercedes: React.FC = () => {
         <div className='h-32 sm:h-48 lg:h-64 w-full text-center'>
           <img
             className='w-full h-full object-cover rounded-t text-center'
-            src='/images/cars/mercedes.jpg'
+            src='/images/cars/mercedes-black.jpg'
             alt='Mercedes-AMG F1 W11'
           />
         </div>
