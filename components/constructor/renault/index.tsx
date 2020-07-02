@@ -23,7 +23,7 @@ const Renault: React.FC = () => {
               Enstone. It was originally intended to compete in the 2020 Formula
               One World Championship, but under an agreement reached between
               teams and the Fédération Internationale de l'Automobile,
-              2020-specification cars—including the R.S.20—will have their
+              2020-specification cars—including the R.S.20 will have their
               lifespan extended to compete in 2021.
             </p>
             <p className='mt-2 text-sm leading-normal text-gray-700'>
