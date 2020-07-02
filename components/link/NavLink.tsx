@@ -10,7 +10,10 @@ const NavLink: React.FC<
 > = ({ href, target, children, prefetch = false }) => {
   return (
     <Link href={href} prefetch={prefetch}>
-      <a className=' ' href={href} target={target}>
+      <a
+        className='border-transparent border border-dotted hover:border-primary-on  hover:bg-black-5 focus:outline-none focus:border-secondary-focus focus:border-dotted active:outline-none active:shadow-none px-2  '
+        href={href}
+        target={target}>
         {children}
       </a>
     </Link>

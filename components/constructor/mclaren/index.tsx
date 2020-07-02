@@ -5,7 +5,7 @@ const McLaren: React.FC = () => {
   return (
     <div className='flex flex-col mb-4'>
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1'>
-        McLaren F1 - MCL35
+        McLaren Racing F1 - MCL35
       </div>
       <div className='relative bg-white-100 rounded shadow-xs mb-4'>
         <div className='h-32 sm:h-48 lg:h-64 w-full text-center'>
@@ -18,12 +18,11 @@ const McLaren: React.FC = () => {
         <div className='relative max-w-screen-xl mx-auto'>
           <div className='py-4 text-left px-4'>
             <p className='mt-1 text-sm leading-normal text-gray-700'>
-              McLaren Racing today unveiled the team’s 2020 F1 car, the MCL35,
-              live from the McLaren Technology Centre to a global audience.
-              Drivers Carlos Sainz and Lando Norris, who both enter their second
-              season with the team, proudly presented the car ahead of it taking
-              to the track for the first time during pre-season testing next
-              week.
+              McLaren Racing unveiled the team’s 2020 F1 car, the MCL35, live
+              from the McLaren Technology Centre to a global audience. Drivers
+              Carlos Sainz and Lando Norris, who both enter their second season
+              with the team, proudly presented the car ahead of it taking to the
+              track for the first time during pre-season testing next week.
             </p>
             <p className='mt-2 text-sm leading-normal text-gray-700'>
               McLaren set to work on the MCL35, which is powered by the Renault

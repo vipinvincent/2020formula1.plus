@@ -16,9 +16,7 @@ export default function animation() {
           fill='none'
           fillRule='evenodd'>
           <g
-            id='previous'
             transform='translate(15.000000, 15.000000)'
-            fill='#161616'
             fillRule='nonzero'
             stroke='#7f7f7f'
             strokeWidth='20'>

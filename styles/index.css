@@ -41,8 +41,7 @@ body {
 }
 @media (min-width: 1920px) {
   .navigation {
-    height: 5rem !important;
-    padding-top: 1.25rem;
+    height: 4rem !important;
   }
 }
 .navigation .text,
@@ -85,10 +84,10 @@ body {
   color: #00d2be;
 }
 .haas .main-body {
-  fill: #fafbfd;
+  fill: #181212;
 }
 .haas .side-body {
-  fill: #181212;
+  fill: #fafbfd;
 }
 .haas .halo {
   fill: #414443;
@@ -160,7 +159,7 @@ body {
   color: #fff500;
 }
 .alphatauri .main-body {
-  fill: #0a2840;
+  fill: #393c41;
 }
 .alphatauri .side-body {
   fill: #ffffff;
@@ -196,10 +195,10 @@ body {
   fill: #ffffff;
 }
 .racingpoint .halo {
-  fill: #e2e6eb;
+  fill: #002e6c;
 }
 .racingpoint .rear-wing {
-  fill: #ffffff;
+  fill: #002e6c;
 }
 .racingpoint .text {
   color: #f596c8;
@@ -218,6 +217,12 @@ body {
 }
 .bg-renault {
   background: #fff500;
+}
+.bg-racingpoint {
+  background: #f596c8;
+}
+.bg-alphatauri {
+  background: #0a2840;
 }
 .bg-espn {
   background: #cc242e;
