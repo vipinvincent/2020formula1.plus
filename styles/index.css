@@ -248,6 +248,47 @@ body {
 .bg-photobg {
   background: #3e3c3d;
 }
+.grow {
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  transition: -webkit-transform 0.25s ease-out;
+  transition: transform 0.25s ease-out;
+  transition: transform 0.25s ease-out, -webkit-transform 0.25s ease-out;
+}
+.grow:hover,
+.grow:focus {
+  -webkit-transform: scale(1.05);
+  transform: scale(1.05);
+}
+.grow:active {
+  -webkit-transform: scale(0.9);
+  transform: scale(0.9);
+}
+.scroll-to-top {
+  right: 20px !important;
+  bottom: 60px !important;
+  border-radius: 0.25rem !important;
+  background-color: rgba(0, 0, 0, 0.5) !important;
+  outline: none !important;
+}
+@media (min-width: 1024px) {
+  .scroll-to-top {
+    right: 40px !important;
+    bottom: 40px !important;
+    border-radius: 0.25rem !important;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+  }
+}
+.scroll-to-top svg {
+  fill: #cccccc !important;
+  height: 25px !important;
+  width: 25px !important;
+  margin-left: 7px !important;
+  margin-bottom: 10px !important;
+}
 @tailwind base;
 @tailwind components;
 /* purgecss end ignore */

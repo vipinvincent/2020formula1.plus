@@ -4,6 +4,7 @@ import Header from './Header'
 import Navigation from './Navigation'
 import NavBar from './NavBar'
 import Footer from './Footer'
+import ScrollToTop from 'react-scroll-to-top'
 type Props = {
   title?: string
 }
@@ -35,6 +36,7 @@ const Layout: React.FunctionComponent<Props> = ({
         <div className='fixed bottom-0 w-full lg:hidden z-10'>
           <NavBar />
         </div>
+        <ScrollToTop smooth className='py-2 grow' />
       </div>
     </React.Fragment>
   )

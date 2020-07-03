@@ -4,7 +4,7 @@ import dynamic from 'next/dynamic'
 const Home = dynamic(() => import('components/icons/home'))
 const Team = dynamic(() => import('components/icons/car'))
 const Driver = dynamic(() => import('components/icons/driver'))
-const GoTop = dynamic(() => import('components/icons/gotop'))
+const Circuit = dynamic(() => import('components/icons/circuit'))
 
 const NavBar: React.FunctionComponent = () => (
   <nav className='w-full mx-auto flex justify-center container'>
@@ -34,10 +34,12 @@ const NavBar: React.FunctionComponent = () => (
           </div>
         </div>
       </a>
-      <a href='#top' className='bg-black-90 hover:bg-white-5 inline-block'>
+      <a
+        href='/circuit-details'
+        className='bg-black-90 hover:bg-white-5 inline-block'>
         <div className='h-32 py-2 flex flex-col ferrari'>
           <div className='flex'>
-            <GoTop />
+            <Circuit />
           </div>
         </div>
       </a>
