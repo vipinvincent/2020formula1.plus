@@ -5,7 +5,7 @@ import NavLink from 'components/link/NavLink'
 const F1Car = dynamic(() => import('components/f1car/navcar'))
 
 const Navigation: React.FunctionComponent = () => (
-  <nav className='w-20 xs:w-20 sm:w-20 md:w-32 4xl:h-24 4xl:py-0 4xl:w-full bg-white-100 lg:container z-10 navigation'>
+  <nav className='w-20 xs:w-20 sm:w-20 md:w-32 4xl:h-24 4xl:py-0 4xl:w-full bg-transparent lg:container z-10 navigation'>
     <div className='mx-auto flex flex-col 4xl:flex-row justify-between 4xl:justify-center text-xs white whitespace-no-wrap bg-white-30 py-2 xs:py-4 4xl:py-0 px-0 h-full overflow-y-auto flex-grow'>
       <NavLink href='/mercedes-amg-f1' target='_self'>
         <div className='h-12 lg:h-16 pt-2 lg:pt-4 lg:pb-4 4xl:pb-0 flex flex-col mercedes'>
