@@ -17,7 +17,7 @@ const NavBar: React.FunctionComponent = () => (
         </div>
       </a>
       <a
-        href='/circuit-details'
+        href='/constructor-standings'
         className='bg-black-90 hover:bg-white-5 inline-block border border-t-0 border-b-0 border-white-50'>
         <div className='h-32 py-2 flex flex-col ferrari'>
           <div className='flex'>
