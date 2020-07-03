@@ -1,4 +1,5 @@
 import React from 'react'
+import ContentLink from 'components/link/ContentLink'
 
 const Team: React.FC = () => {
   return (
@@ -166,6 +167,11 @@ const Team: React.FC = () => {
               </table>
             </div>
           </div>
+          <p className='my-2 pr-4 text-base leading-normal text-gray-700 text-right'>
+            <ContentLink href='/constructor-standings' target='_self'>
+              More details...
+            </ContentLink>
+          </p>
         </div>
       </div>
     </div>

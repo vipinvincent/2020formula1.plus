@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 
-const NavLink: React.FC<
+const ContentLink: React.FC<
   React.AnchorHTMLAttributes<HTMLAnchorElement> & {
     href: string
     target: string
@@ -11,7 +11,7 @@ const NavLink: React.FC<
   return (
     <Link href={href} prefetch={prefetch}>
       <a
-        className='border-transparent border border-dotted hover:border-primary-on hover:bg-black-5 focus:outline-none focus:border-secondary-focus focus:border-dotted active:outline-none active:shadow-none px-2  '
+        className='text-lg font-bold text-primary-on hover:text-primary-hover border-transparent border-b border-dotted hover:border-gray-600 focus:outline-none focus:border-gray-800 focus:border-dotted active:outline-none active:shadow-none active:text-primary-active '
         href={href}
         target={target}>
         {children}
@@ -19,4 +19,4 @@ const NavLink: React.FC<
     </Link>
   )
 }
-export default NavLink
+export default ContentLink

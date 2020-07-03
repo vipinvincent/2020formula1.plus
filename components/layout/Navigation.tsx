@@ -23,7 +23,7 @@ const Navigation: React.FunctionComponent = () => (
           <div className='text-center text-secondary-on'>Ferrari</div>
         </div>
       </NavLink>
-      <NavLink href='/red-bull-racing-f1' target='_self'>
+      <NavLink href='/redbull-racing-f1' target='_self'>
         <div className='h-12 lg:h-16 pt-2 lg:pt-4 lg:pb-4 4xl:pb-0 flex flex-col redbull'>
           <div className='flex'>
             <F1Car />

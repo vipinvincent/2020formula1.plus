@@ -1,7 +1,7 @@
 import React from 'react'
 import Link from 'next/link'
 
-const ActionLink: React.FC<
+const ContentLink: React.FC<
   React.AnchorHTMLAttributes<HTMLAnchorElement> & {
     href: string
     target: string
@@ -19,4 +19,4 @@ const ActionLink: React.FC<
     </Link>
   )
 }
-export default ActionLink
+export default ContentLink
