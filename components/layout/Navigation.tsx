@@ -63,7 +63,7 @@ const Navigation: React.FunctionComponent = () => (
           <div className='text-center text-secondary-on'>AlphaTauri</div>
         </div>
       </NavLink>
-      <NavLink href='#' target='_self'>
+      <NavLink href='/alfa-romeo-f1' target='_self'>
         <div className='h-12 lg:h-16 pt-2 lg:pt-4 lg:pb-4 4xl:pb-0 flex flex-col alfaromeo'>
           <div className='flex'>
             <F1Car />
@@ -71,7 +71,7 @@ const Navigation: React.FunctionComponent = () => (
           <div className='text-center text-secondary-on'>Alfa Romeo</div>
         </div>
       </NavLink>
-      <NavLink href='#' target='_self'>
+      <NavLink href='/haas-f1' target='_self'>
         <div className='h-12 lg:h-16 pt-2 lg:pt-4 lg:pb-4 4xl:pb-0 flex flex-col haas'>
           <div className='flex'>
             <F1Car />
@@ -79,7 +79,7 @@ const Navigation: React.FunctionComponent = () => (
           <div className='text-center text-secondary-on'>Haas</div>
         </div>
       </NavLink>
-      <NavLink href='#' target='_self'>
+      <NavLink href='/williams-f1' target='_self'>
         <div className='h-12 lg:h-16 pt-2 lg:pt-4 lg:pb-4 4xl:pb-0 flex flex-col williams'>
           <div className='flex'>
             <F1Car />
