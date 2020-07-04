@@ -6,6 +6,436 @@ const Main: React.FC = () => {
   return (
     <div className='flex flex-col'>
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1'>
+        2020 Austrian Grand Prix - Qualifying Result
+      </div>
+      <div className='w-full grid sm:flex sm:flex-col justify-around pt-2 bg-white-100 rounded shadow-xs mb-4'>
+        <div className='align-middle min-w-full overflow-x-auto'>
+          <table className='w-full table'>
+            <thead>
+              <tr className='bg-white-100'>
+                <th className='p-4 border-b border-gray-200 bg-gray-50 text-left text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider table-cell'>
+                  Pos
+                </th>
+                <th className='p-4 border-b border-gray-200 bg-gray-50 text-left text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider table-cell'>
+                  Driver
+                </th>
+                <th className='p-4 border-b border-gray-200 bg-gray-50 text-center text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider'>
+                  Lap time
+                </th>
+                <th className='pr-6 py-3 border-b border-gray-200 bg-gray-50 text-right text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider table-cell'>
+                  Tyre
+                </th>
+              </tr>
+            </thead>
+            <tbody className='bg-white'>
+              <tr className='odd:bg-gray-100 bg-white-100'>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell text-left'>
+                  1
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell'>
+                  <div className='flex items-center'>
+                    <div className='text-sm leading-5 font-medium text-gray-900 mercedes'>
+                      Valtteri Bottas <span className='text'>(Mercedes)</span>
+                    </div>
+                  </div>
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-sm leading-5 font-medium text-gray-900 text-center '>
+                  1:02.939
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell text-right'>
+                  <span className='pl-3 inline-flex text-lg leading-8 font-semibold rounded-full bg-black-80 w-8 h-8 text-red-600'>
+                    S
+                  </span>
+                </td>
+              </tr>
+              <tr className='odd:bg-gray-100 bg-white-100'>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-left table-cell'>
+                  2
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell'>
+                  <div className='flex items-center'>
+                    <div className='text-sm leading-5 font-medium text-gray-900 mercedes'>
+                      Lewis Hamilton <span className='text'>(Mercedes)</span>
+                    </div>
+                  </div>
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-sm leading-5 font-medium text-gray-900 text-center'>
+                  1:02.951
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell text-right '>
+                  <span className='pl-3 inline-flex text-lg leading-8 font-semibold rounded-full bg-black-80 w-8 h-8 text-red-600'>
+                    S
+                  </span>
+                </td>
+              </tr>
+              <tr className='odd:bg-gray-100 bg-white-100'>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-left table-cell'>
+                  3
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell'>
+                  <div className='flex items-center'>
+                    <div className='text-sm leading-5 font-medium text-gray-900 redbull'>
+                      Max Verstappen <span className='text'>(Red Bull)</span>
+                    </div>
+                  </div>
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-sm leading-5 font-medium text-gray-900 text-center'>
+                  1:03.477
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell text-right'>
+                  <span className='pl-3 inline-flex text-lg leading-8 font-semibold rounded-full bg-black-80 w-8 h-8 text-red-600'>
+                    S
+                  </span>
+                </td>
+              </tr>
+              <tr className='odd:bg-gray-100 bg-white-100'>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-left table-cell'>
+                  4
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell'>
+                  <div className='flex items-center'>
+                    <div className='text-sm leading-5 font-medium text-gray-900 mclaren'>
+                      Lando Norris <span className='text'>(McLaren)</span>
+                    </div>
+                  </div>
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-sm leading-5 font-medium text-gray-900 text-center'>
+                  1:03.626
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell text-right'>
+                  <span className='pl-3 inline-flex text-lg leading-8 font-semibold rounded-full bg-black-80 w-8 h-8 text-red-600'>
+                    S
+                  </span>
+                </td>
+              </tr>
+              <tr className='odd:bg-gray-100 bg-white-100'>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-left table-cell'>
+                  5
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell'>
+                  <div className='flex items-center'>
+                    <div className='text-sm leading-5 font-medium text-gray-900 redbull'>
+                      Alexander Albon <span className='text'>(Red Bull)</span>
+                    </div>
+                  </div>
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-sm leading-5 font-medium text-gray-900 text-center'>
+                  1:03.868
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell text-right'>
+                  <span className='pl-3 inline-flex text-lg leading-8 font-semibold rounded-full bg-black-80 w-8 h-8 text-red-600'>
+                    S
+                  </span>
+                </td>
+              </tr>
+              <tr className='odd:bg-gray-100 bg-white-100'>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-left table-cell'>
+                  6
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell'>
+                  <div className='flex items-center'>
+                    <div className='text-sm leading-5 font-medium text-gray-900 racingpoint'>
+                      Sergio Perez <span className='text'>(Racing Point)</span>
+                    </div>
+                  </div>
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-sm leading-5 font-medium text-gray-900 text-center'>
+                  1:03.868
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell text-right'>
+                  <span className='pl-3 inline-flex text-lg leading-8 font-semibold rounded-full bg-black-80 w-8 h-8 text-red-600'>
+                    S
+                  </span>
+                </td>
+              </tr>
+              <tr className='odd:bg-gray-100 bg-white-100'>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-left table-cell'>
+                  7
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell'>
+                  <div className='flex items-center'>
+                    <div className='text-sm leading-5 font-medium text-gray-900 ferrari'>
+                      Charles Leclerc <span className='text'>(Ferrari)</span>
+                    </div>
+                  </div>
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-sm leading-5 font-medium text-gray-900 text-center'>
+                  1:03.923
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell text-right'>
+                  <span className='pl-3 inline-flex text-lg leading-8 font-semibold rounded-full bg-black-80 w-8 h-8 text-red-600'>
+                    S
+                  </span>
+                </td>
+              </tr>
+              <tr className='odd:bg-gray-100 bg-white-100'>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-left table-cell'>
+                  8
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell'>
+                  <div className='flex items-center'>
+                    <div className='text-sm leading-5 font-medium text-gray-900 mclaren'>
+                      Carlos Sainz <span className='text'>(McLaren)</span>
+                    </div>
+                  </div>
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-sm leading-5 font-medium text-gray-900 text-center'>
+                  1:03.971
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell text-right redbull'>
+                  <span className='pl-3 inline-flex text-lg leading-8 font-semibold rounded-full bg-black-80 w-8 h-8 text-red-600'>
+                    S
+                  </span>
+                </td>
+              </tr>
+              <tr className='odd:bg-gray-100 bg-white-100'>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-left table-cell'>
+                  9
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell'>
+                  <div className='flex items-center'>
+                    <div className='text-sm leading-5 font-medium text-gray-900 racingpoint'>
+                      Lance Stroll <span className='text'>(Racing Point)</span>
+                    </div>
+                  </div>
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-sm leading-5 font-medium text-gray-900 text-center'>
+                  1:04.029
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell text-right racingpoint'>
+                  <span className='pl-3 inline-flex text-lg leading-8 font-semibold rounded-full bg-black-80 w-8 h-8 text-red-600'>
+                    S
+                  </span>
+                </td>
+              </tr>
+              <tr className='odd:bg-gray-100 bg-white-100'>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-left table-cell'>
+                  10
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell'>
+                  <div className='flex items-center'>
+                    <div className='text-sm leading-5 font-medium text-gray-900 renault'>
+                      Daniel Ricciardo{' '}
+                      <span className='text three-d-text'>(Renault)</span>
+                    </div>
+                  </div>
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-sm leading-5 font-medium text-gray-900 text-center'>
+                  1:04.239
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell text-right mclaren'>
+                  <span className='pl-3 inline-flex text-lg leading-8 font-semibold rounded-full bg-black-80 w-8 h-8 text-red-600'>
+                    S
+                  </span>
+                </td>
+              </tr>
+              <tr className='odd:bg-gray-100 bg-white-100'>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-left table-cell'>
+                  11
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell'>
+                  <div className='flex items-center'>
+                    <div className='text-sm leading-5 font-medium text-gray-900 ferrari'>
+                      Sebastian Vettel <span className='text'>(Ferrari)</span>
+                    </div>
+                  </div>
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-sm leading-5 font-medium text-gray-900 text-center'>
+                  1:04.206
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell text-right mclaren'>
+                  <span className='pl-3 inline-flex text-lg leading-8 font-semibold rounded-full bg-black-80 w-8 h-8 text-red-600'>
+                    S
+                  </span>
+                </td>
+              </tr>
+              <tr className='odd:bg-gray-100 bg-white-100'>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-left table-cell'>
+                  12
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell'>
+                  <div className='flex items-center'>
+                    <div className='text-sm leading-5 font-medium text-gray-900 alphatauri'>
+                      Pierre Gasly <span className='text'>(AlphaTauri)</span>
+                    </div>
+                  </div>
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-sm leading-5 font-medium text-gray-900 text-center'>
+                  1:04.305
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell text-right alfaromeo'>
+                  <span className='pl-3 inline-flex text-lg leading-8 font-semibold rounded-full bg-black-80 w-8 h-8 text-red-600'>
+                    S
+                  </span>
+                </td>
+              </tr>
+              <tr className='odd:bg-gray-100 bg-white-100'>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-left table-cell'>
+                  13
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell'>
+                  <div className='flex items-center'>
+                    <div className='text-sm leading-5 font-medium text-gray-900 alphatauri'>
+                      Daniil Kvyat <span className='text'>(AlphaTauri)</span>
+                    </div>
+                  </div>
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-sm leading-5 font-medium text-gray-900 text-center'>
+                  1:04.431
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell text-right alphatauri'>
+                  <span className='pl-3 inline-flex text-lg leading-8 font-semibold rounded-full bg-black-80 w-8 h-8 text-red-600'>
+                    S
+                  </span>
+                </td>
+              </tr>
+              <tr className='odd:bg-gray-100 bg-white-100'>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-left table-cell'>
+                  14
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell'>
+                  <div className='flex items-center'>
+                    <div className='text-sm leading-5 font-medium text-gray-900 renault'>
+                      Esteban Ocon{' '}
+                      <span className='text  three-d-text'>(Renault)</span>
+                    </div>
+                  </div>
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-sm leading-5 font-medium text-gray-900 text-center'>
+                  1:04.643
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell text-right mclaren'>
+                  <span className='pl-3 inline-flex text-lg leading-8 font-semibold rounded-full bg-black-80 w-8 h-8 text-red-600'>
+                    S
+                  </span>
+                </td>
+              </tr>
+              <tr className='odd:bg-gray-100 bg-white-100'>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-left table-cell'>
+                  15
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell'>
+                  <div className='flex items-center'>
+                    <div className='text-sm leading-5 font-medium text-gray-900 haas'>
+                      Romain Grosjean <span className='text'>(Haas)</span>
+                    </div>
+                  </div>
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-sm leading-5 font-medium text-gray-900 text-center'>
+                  1:04.691
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell text-right racingpoint'>
+                  <span className='pl-3 inline-flex text-lg leading-8 font-semibold rounded-full bg-black-80 w-8 h-8 text-red-600'>
+                    S
+                  </span>
+                </td>
+              </tr>
+              <tr className='odd:bg-gray-100 bg-white-100'>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-left table-cell'>
+                  16
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell'>
+                  <div className='flex items-center'>
+                    <div className='text-sm leading-5 font-medium text-gray-900 haas'>
+                      Kevin Magnussen <span className='text'>(Haas)</span>
+                    </div>
+                  </div>
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-sm leading-5 font-medium text-gray-900 text-center'>
+                  1:05.164
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell text-right haas'>
+                  <span className='pl-3 inline-flex text-lg leading-8 font-semibold rounded-full bg-black-80 w-8 h-8 text-red-600'>
+                    S
+                  </span>
+                </td>
+              </tr>
+              <tr className='odd:bg-gray-100 bg-white-100'>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-left table-cell'>
+                  17
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell'>
+                  <div className='flex items-center'>
+                    <div className='text-sm leading-5 font-medium text-gray-900 williams'>
+                      George Russell <span className='text'>(Williams)</span>
+                    </div>
+                  </div>
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-sm leading-5 font-medium text-gray-900 text-center'>
+                  1:05.167
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell text-right alfaromeo'>
+                  <span className='pl-3 inline-flex text-lg leading-8 font-semibold rounded-full bg-black-80 w-8 h-8 text-red-600'>
+                    S
+                  </span>
+                </td>
+              </tr>
+              <tr className='odd:bg-gray-100 bg-white-100'>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-left table-cell'>
+                  S
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell'>
+                  <div className='flex items-center'>
+                    <div className='text-sm leading-5 font-medium text-gray-900 alfaromeo'>
+                      Antonio Giovinazzi{' '}
+                      <span className='text'>(Alfa Romeo)</span>
+                    </div>
+                  </div>
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-sm leading-5 font-medium text-gray-900 text-center'>
+                  1:05.175
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell text-right haas'>
+                  <span className='pl-3 inline-flex text-lg leading-8 font-semibold rounded-full bg-black-80 w-8 h-8 text-red-600'>
+                    S
+                  </span>
+                </td>
+              </tr>
+              <tr className='odd:bg-gray-100 bg-white-100'>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-left table-cell'>
+                  19
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell'>
+                  <div className='flex items-center'>
+                    <div className='text-sm leading-5 font-medium text-gray-900 alfaromeo'>
+                      Kimi Räikkönen <span className='text'>(Alfa Romeo)</span>
+                    </div>
+                  </div>
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-sm leading-5 font-medium text-gray-900 text-center'>
+                  1:05.224
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell text-right williams'>
+                  <span className='pl-3 inline-flex text-lg leading-8 font-semibold rounded-full bg-black-80 w-8 h-8 text-red-600'>
+                    S
+                  </span>
+                </td>
+              </tr>
+              <tr className='odd:bg-gray-100 bg-white-100'>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-left table-cell'>
+                  20
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell'>
+                  <div className='flex items-center'>
+                    <div className='text-sm leading-5 font-medium text-gray-900 williams'>
+                      Nicholas Latifi <span className='text'>(Williams)</span>
+                    </div>
+                  </div>
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-sm leading-5 font-medium text-gray-900 text-center'>
+                  1:05.757
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell text-right williams'>
+                  <span className='pl-3 inline-flex text-lg leading-8 font-semibold rounded-full bg-black-80 w-8 h-8 text-red-600'>
+                    S
+                  </span>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1'>
         Latest News Austrian GP
       </div>
       <div className='relative bg-white-100 rounded shadow-xs'>
@@ -22,28 +452,32 @@ const Main: React.FC = () => {
               Formula1.com
             </div>
             <ActionLink
-              href='https://www.formula1.com/en/latest/article.what-the-teams-said-friday-in-austria-2020.2yUnf4EQL6qPsK3TVPHXWG.html'
+              href='https://www.formula1.com/en/latest/article.qualifying-report-scintillating-bottas-takes-masterful-pole-as-ferrari.9DCxyNAuIA3gywPVRvyc3.html'
               target='_blank'>
-              What the teams said – Friday in Austria
+              Bottas beats Hamilton to pole as Ferrari struggle in Austria
             </ActionLink>
             <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-              Ashen skies and spots of rain in FP1 did nothing to dampen
-              collective spirits as Formula 1 cars returned to the track
-              together for the first time in 126 days. And, amidst the glorious
-              chorus of V6 engines, Mercedes rose to the occasion with Lewis
-              Hamilton and Valtteri Bottas topping the session ahead of Red
-              Bull’s Max Verstappen. Formula 1 fans got their first proper
-              impression of the 2020 pecking order during Free Practice 1 and
-              Free Practice 2 of the Austrian Grand Prix, with Mercedes’ Lewis
-              Hamilton topping both sessions of the day as the teams unleashed
-              their first qualifying simulations of the season. The drivers and
-              teams report back on all the action from Friday practice at the
-              Formula 1 Rolex Grosser Preis Von Österreich Grand Prix 2020.
+              Mercedes continued their vice-like grip on the Austrian Grand Prix
+              weekend, with an emphatic one-two finish in qualifying as Valtteri
+              Bottas escaped an off-track excursion to beat team mate Lewis
+              Hamilton to take the first pole position of 2020. Formula 1 has
+              been in a holding pattern as the coronavirus pandemic struck the
+              world, but after nearly four months, the cars finally hit the
+              track – and it was Mercedes, running a black livery in a stand
+              against racism – who continued their rampant form in F1 who seized
+              the advantage. Bottas set an early marker with a new track record,
+              pipping Hamilton after the opening salvos. The Finn looked immense
+              in the first sector on the second run, but threw it all away as he
+              lost control of the car and bounced across the track before
+              re-joining. That opened the door for Hamilton to take advantage,
+              the Briton running last on track, and while he did improve on his
+              first effort, he couldn’t quite make the difference, finishing
+              0.012s off Bottas' pace.
             </p>
             <p className='mt-1 text-base leading-normal text-gray-700'>
               Visit{' '}
               <ContentLink
-                href='https://www.formula1.com/en/latest/article.what-the-teams-said-friday-in-austria-2020.2yUnf4EQL6qPsK3TVPHXWG.html'
+                href='https://www.formula1.com/en/latest/article.qualifying-report-scintillating-bottas-takes-masterful-pole-as-ferrari.9DCxyNAuIA3gywPVRvyc3.html'
                 target='_blank'>
                 formula1.com
               </ContentLink>{' '}
@@ -66,24 +500,26 @@ const Main: React.FC = () => {
               bbc.com
             </div>
             <ActionLink
-              href='https://www.bbc.com/sport/formula1/53282619'
+              href='https://www.bbc.com/sport/formula1/53292525'
               target='_blank'>
-              Lewis Hamilton dominates Austrian Grand Prix practice
+              Valtteri Bottas beats Lewis Hamilton to Austrian Grand Prix pole
             </ActionLink>
             <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-              Lewis Hamilton made a powerful statement of intent as the Formula
-              1 season finally got under way at the Austrian Grand Prix. The
-              world champion was fastest in both practice sessions at the Red
-              Bull Ring, leading team-mate Valtteri Bottas. Mercedes have
-              repainted their cars black, a new livery reflecting support for
-              anti-racism and diversity. The season is starting four months late
-              after coronavirus laid waste original plans and forced a complete
-              re-think.
+              Valtteri Bottas beat Lewis Hamilton to pole position as Mercedes
+              dominated qualifying at the Austrian Grand Prix, while Ferrari had
+              a shocking day. Mercedes seemed unbeatable as the season
+              re-started after a four-month delay as a result of the
+              coronavirus. The cars, painted black this year to reflect
+              Mercedes' support for anti-racism, were half a second clear. The
+              fastest Ferrari of Charles Leclerc was in seventh as the sheer
+              scale of their lack of performance became clear. Team-mate
+              Sebastian Vettel did not even make it into the final part of
+              qualifying and the four-time world champion will start 11th.
             </p>
             <p className='mt-1 text-base leading-normal text-gray-700'>
               Visit{' '}
               <ContentLink
-                href='https://www.bbc.com/sport/formula1/53282619'
+                href='https://www.bbc.com/sport/formula1/53292525'
                 target='_blank'>
                 bbc.com
               </ContentLink>{' '}
@@ -106,22 +542,29 @@ const Main: React.FC = () => {
               motorsport.com
             </div>
             <ActionLink
-              href='https://www.motorsport.com/f1/news/austrian-gp-fp2-report-results/4824156/?filters%5Bevent%5D%5B0%5D%5Btitle%5D=Austrian+GP&filters%5Bevent%5D%5B0%5D%5Bvalue%5D=264997'
+              href='https://www.motorsport.com/f1/news/2020-f1-austrian-qualifying-gp/4825123/?nrt=54'
               target='_blank'>
-              Austrian GP: Hamilton leads Bottas again in FP2
+              Valtteri Bottas of Mercedes will start the Austrian Grand Prix
+              from pole position
             </ActionLink>
             <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-              Lewis Hamilton set the fastest time in Austrian Grand Prix second
-              practice ahead of his teammate Valtteri Bottas, leading a second
-              consecutive Mercedes 1-2 to start Formula 1's 2020 season. Racing
-              Point's Sergio Perez claimed third place, with the Ferrari and Red
-              Bull drivers finishing well adrift of their leading Class A rivals
-              in the classification.
+              Valtteri Bottas of Mercedes will start the Austrian Grand Prix
+              from pole position, the first race of the delayed 2020 Formula 1
+              World Championship season. Bottas set a 1m02.939s on his first run
+              in the top-10 qualifying shootout at the Red Bull Ring – a new lap
+              record and 0.122s quicker than Hamilton. Bottas went off on the
+              exit of Turn 4 and spun on his second run, causing a yellow flag
+              that hampered Hamilton, who was just 0.012s slower. Max Verstappen
+              will start third, half a second slower than the Mercedes duo,
+              ahead of McLaren’s Lando Norris, Alex Albon (Red Bull), Sergio
+              Perez (Racing Point), Charles Leclerc (Ferrari), Carlos Sainz
+              (McLaren), Lance Stroll (Racing Point) and Daniel Ricciardo
+              (Renault).
             </p>
             <p className='mt-1 text-base leading-normal text-gray-700'>
               Visit{' '}
               <ContentLink
-                href='https://www.motorsport.com/f1/news/austrian-gp-fp2-report-results/4824156/?filters%5Bevent%5D%5B0%5D%5Btitle%5D=Austrian+GP&filters%5Bevent%5D%5B0%5D%5Bvalue%5D=264997'
+                href='https://www.motorsport.com/f1/news/2020-f1-austrian-qualifying-gp/4825123/?nrt=54'
                 target='_blank'>
                 motorsport.com
               </ContentLink>{' '}
@@ -144,23 +587,27 @@ const Main: React.FC = () => {
               skysports.com
             </div>
             <ActionLink
-              href='https://www.skysports.com/f1/news/12433/12020652/austrian-gp-mercedes-underline-favourites-tag-but-whos-closest'
+              href='https://www.skysports.com/f1/news/12433/12021068/austrian-gp-qualifying-valtteri-bottas-pips-lewis-hamilton-to-pole'
               target='_blank'>
-              Austrian GP: Mercedes underline favourites tag but who's closest?
+              Austrian GP Qualifying: Valtteri Bottas pips Lewis Hamilton to
+              pole
             </ActionLink>
             <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-              Lewis Hamilton believes it is too early to speculate about any
-              early-season Mercedes advantage after a dominant start to the
-              season in Friday practice in Austria. But while Mercedes' double
-              one-two on the opening day certainly confirmed their pre-season
-              status of favourites, the practice timesheets also appeared to
-              serve as further evidence that Racing Point have made a bigger
-              step forward for 2020 than any team.
+              Bottas hangs on to Austria pole ahead of Hamilton despite big spin
+              on his final lap; McLaren's Norris splits Red Bulls with fourth,
+              but Ferrari endure a desperate start to season with Vettel out in
+              Q2. Valtteri Bottas beat Mercedes team-mate Lewis Hamilton to the
+              first pole position of F1's delayed 2020 season at the Austrian GP
+              despite a big error on his final lap. But Ferrari's fears about
+              their competitiveness at the start of the new season were laid
+              bare as Charles Leclerc qualified only seventh and Sebastian
+              Vettel was knocked out in Q2. Lando Norris took a stunning fourth
+              for McLaren, just behind Red Bull's Max Verstappen.
             </p>
             <p className='mt-1 text-base leading-normal text-gray-700'>
               Visit{' '}
               <ContentLink
-                href='https://www.skysports.com/f1/news/12433/12020652/austrian-gp-mercedes-underline-favourites-tag-but-whos-closest'
+                href='https://www.skysports.com/f1/news/12433/12021068/austrian-gp-qualifying-valtteri-bottas-pips-lewis-hamilton-to-pole'
                 target='_blank'>
                 skysports.com
               </ContentLink>{' '}
@@ -183,27 +630,28 @@ const Main: React.FC = () => {
               autosport.com
             </div>
             <ActionLink
-              href='https://www.autosport.com/f1/news/150310/hamilton-leads-another-mercedes-12-in-fp2-perez-third'
+              href='https://www.autosport.com/f1/news/150333/bottas-beats-hamilton-to-austrian-gp-pole-position'
               target='_blank'>
-              Austrian GP: Hamilton leads second Mercedes 1-2 in FP2, Perez
-              third
+              Austrian GP: Bottas beats Hamilton to pole position as Ferrari
+              struggles
             </ActionLink>
             <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-              Lewis Hamilton set the fastest time in Austrian Grand Prix second
-              practice ahead of his team-mate Valtteri Bottas, leading a second
-              consecutive Mercedes 1-2 to start Formula 1's 2020 season. Racing
-              Point's Sergio Perez claimed third place, with the Ferrari and Red
-              Bull drivers finishing well adrift of their leading Class A rivals
-              in the classification. At the start of the 90-minute session at
-              the Red Bull Ring, Romain Grosjean led the field out - the Haas
-              driver looking to make up for lost time in FP1, where a brake
-              issue had confined him to the garage for much of the morning
-              session.
+              Valtteri Bottas turned the tables on his Mercedes Formula 1
+              team-mate Lewis Hamilton by claiming pole for the Austrian Grand
+              Prix despite skating into the gravel on his final effort. Max
+              Verstappen claimed third for Red Bull and will start on alternate
+              tyres to the Mercedes drivers, with Lando Norris claiming a
+              sensational fourth for McLaren as Racing Point's pace was only
+              good enough for sixth for Sergio Perez and Ferrari's form faltered
+              further than expected. Bottas broke the track record at the Red
+              Bull Ring with a 1m02.939s on his first run in Q3, with Hamilton
+              unable to get under 63-seconds on his own first effort in the
+              final segment as he lost time in the second and third sectors.
             </p>
             <p className='mt-1 text-base leading-normal text-gray-700'>
               Visit{' '}
               <ContentLink
-                href='https://www.autosport.com/f1/news/150310/hamilton-leads-another-mercedes-12-in-fp2-perez-third'
+                href='https://www.autosport.com/f1/news/150333/bottas-beats-hamilton-to-austrian-gp-pole-position'
                 target='_blank'>
                 autosport.com
               </ContentLink>{' '}
@@ -226,29 +674,29 @@ const Main: React.FC = () => {
               espn.com
             </div>
             <ActionLink
-              href='https://www.espn.in/f1/story/_/id/29405308/is-racing-point-really-mercedes-closest-competitor-austria'
+              href='https://www.espn.in/f1/story/_/id/29409020/bottas-beats-hamilton-pole-ferrari-flops-austria'
               target='_blank'>
-              Is Racing Point really Mercedes' closest competitor in Austria?
+              Bottas beats Hamilton to pole as Ferrari flops in Austria
             </ActionLink>
             <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-              The world may be a very different place compared to four months
-              ago, but it seems some things never change: Mercedes is still the
-              team to beat in Formula One. Perhaps it shouldn't be a surprise
-              that the reigning champions finished at the top of the timesheets
-              after the first day of practice in Austria, but the margin of
-              Mercedes' advantage was still alarming. Combined with Red Bull
-              struggling to fulfill its preseason hype and Ferrari living up to
-              its worst concerns, on the face of it the results of Friday
-              practice made for depressing reading for everyone hoping for a
-              true fight at the front. So was this a true reflection of the
-              competitive order -- with the Racing Point outpacing both Ferrari
-              and Red Bull -- or will we see a closer battle emerge later this
-              weekend?
+              Valtteri Bottas secured pole position for the opening race of the
+              2020 Formula One season, beating teammate Lewis Hamilton to pole
+              position by 0.012s. Bottas secured pole despite sliding off the
+              track and into the gravel on his final flying lap, just as
+              Hamilton was on a faster lap behind. Despite yellow flags coming
+              out to warn Hamilton about the incident, they did not appear to
+              obstruct Hamilton's progress and the reigning champion lost the
+              majority of his time to his teammate running wide in the final two
+              corners. The qualifying result ignites the battle between the
+              Mercedes teammates, but the early signs are that they are in a
+              class of their own, with a half second advantage over the rest of
+              the field. Speaking about how his lap panned out and Bottas' spin
+              in front of him, Hamilton said he did not lose time as a result.
             </p>
             <p className='mt-1 text-base leading-normal text-gray-700'>
               Visit{' '}
               <ContentLink
-                href='https://www.espn.in/f1/story/_/id/29405308/is-racing-point-really-mercedes-closest-competitor-austria'
+                href='https://www.espn.in/f1/story/_/id/29409020/bottas-beats-hamilton-pole-ferrari-flops-austria'
                 target='_blank'>
                 espn.com
               </ContentLink>{' '}
@@ -271,27 +719,26 @@ const Main: React.FC = () => {
               the-race.com
             </div>
             <ActionLink
-              href='https://the-race.com/formula-1/what-we-learned-on-the-first-proper-day-of-f1-2020/'
+              href='https://the-race.com/formula-1/mercedes-drivers-feel-das-impact-think-theres-more-to-come/'
               target='_blank'>
-              WHAT WE LEARNED ON THE FIRST PROPER DAY OF F1 2020
+              Mercedes drivers feel DAS impact, think there’s more to come
             </ActionLink>
             <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-              After four long months of anticipation, the 2020 Formula 1 season
-              finally got underway in earnest on Friday with the opening
-              practice sessions of the Austrian Grand Prix at the Red Bull Ring.
-              With no grand prix since last December – and lots of questions
-              left unanswered after pre-season testing in February- there was
-              always going to be a multitude of new storylines to unpack as F1
-              began again. In a strange year and an unusual Formula 1 season,
-              Mercedes kicked off the cliched ‘new normal’ by proving that
-              nothing’s really different after all. We expected Mercedes to be
-              strong in Austria but it was out of reach on Friday, quick over
-              one lap and its race runs seemed unmatchable as well.
+              Lewis Hamilton and Valtteri Bottas say they have felt the impact
+              of Mercedes’ dual-axis steering system at Formula 1’s Austrian
+              Grand Prix and believe it could have more potential. Bottas edged
+              Hamilton by 0.012s in qualifying, and the next-best car was Max
+              Verstappen’s Red Bull, more than half a second slower. Mercedes
+              had already scored a victory over Red Bull when the stewards
+              rejected Red Bull’s protest of the Mercedes DAS system following
+              Friday practice. Both Bottas and Hamilton then used it in
+              qualifying to adjust the toe angle of their front wheels to assist
+              the temperature management on their preparation laps.
             </p>
             <p className='mt-1 text-base leading-normal text-gray-700'>
               Visit{' '}
               <ContentLink
-                href='https://the-race.com/formula-1/what-we-learned-on-the-first-proper-day-of-f1-2020/'
+                href='https://the-race.com/formula-1/mercedes-drivers-feel-das-impact-think-theres-more-to-come/'
                 target='_blank'>
                 the-race.com
               </ContentLink>{' '}
@@ -314,32 +761,35 @@ const Main: React.FC = () => {
               grandprix247.com
             </div>
             <ActionLink
-              href='https://www.grandprix247.com/2020/07/04/the-morning-after-politics-as-usual/'
+              href='https://www.grandprix247.com/2020/07/04/austria-qualifying/'
               target='_blank'>
-              The Morning After: Politics as Usual
+              Austria Qualifying: Bottas edges Hamilton, Ferrari flounder
             </ActionLink>
             <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-              The action on track may not have even had the chance to heat up
-              yet, but off-track it took less than a day for the fireworks to
-              start in Austria. Indeed, it was fair to assume a protest of DAS
-              was incoming, but that made it no less amusing to see the
-              shenanigans play out – a team (Mercedes) shows up having exploited
-              a loophole with some technical trickery, and another team tries to
-              employ a bit of regulatory skulduggery to stop them in their
-              tracks. Almost as much as the cars themselves, it’s these bits of
-              politicking that make F1, well… F1, and by god I’ve missed it.
-              That said, I don’t see how anyone can be surprised by the result.
-              Even setting aside the holes in Red Bull’s argument that it wasn’t
-              “part of the steering system”, Christian Horner said himself that
-              DAS had to “earn its place on the car” – if it wasn’t worth the
-              time and resources invested, nor the consideration of car weight
-              and aerodynamics, Mercedes wouldn’t have put it there in the first
-              place.
+              The sight off-track might have been alien with no fans, but the
+              sight on-track was a familiar one with Valtteri Bottas and
+              Mercedes on-top on Saturday and claiming pole position for the
+              Austrian Grand Prix tomorrow. His third pole in Austria and 12th
+              of his career, Bottas topped the timesheets with a 1:02.939 to get
+              his 2020 Formula 1 season off to the best possible start. Setting
+              his time with his first run in Q3, the Finn kept his lead despite
+              a trip through the gravel in his second run, his teammate Lewis
+              Hamilton still 0.012 seconds behind, despite improving in his own
+              final effort. Bottas said afterwards, “It feels really good, I’ve
+              missed this feeling, I’ve obviously been preparing for this for a
+              long time and it feels so good. Our team have done an amazing job,
+              we seem to be in our own league. I’m so impressed. It’s truly an
+              amazing car to drive.” Teammate Hamilton gave the pole winner a
+              congratulatory hug, before adding, “Great job by Valtteri, this is
+              a great start to the season. I think we show year on year that we
+              continue to be the best team, we’re constantly pushing the
+              boundaries and there’s not really any politics within the team.
+              That’s why every year we come back.”
             </p>
             <p className='mt-1 text-base leading-normal text-gray-700'>
               Visit{' '}
               <ContentLink
-                href='https://www.grandprix247.com/2020/07/04/the-morning-after-politics-as-usual/'
+                href='https://www.grandprix247.com/2020/07/04/austria-qualifying/'
                 target='_blank'>
                 grandprix247.com
               </ContentLink>{' '}
@@ -363,30 +813,31 @@ const Main: React.FC = () => {
               planetf1.com
             </div>
             <ActionLink
-              href='https://www.planetf1.com/news/mattia-binotto-ferrari-aero-gone-wrong/'
+              href='https://www.planetf1.com/austria/beating-mclaren-main-aim-for-racing-point/'
               target='_blank'>
-              Binotto: Ferrari aero has gone wrong
+              Beating McLaren main aim for Racing Point
             </ActionLink>
             <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-              Ferrari team principal Mattia Binotto says the SF1000 is
-              aerodynamically “fragile” due to a correlation problem. Coming
-              into the Austrian Grand Prix weekend the team said they were “99%
-              sure” that they would be struggling because their car was not
-              producing the aero performance on the track that they had planned
-              for in the data. After focusing on race pace during FP1 at the Red
-              Bull Ring Sebastian Vettel clocked Ferrari’s fastest time in FP2
-              with a 1:04.961, putting him P4, 0.65s behind Lewis Hamilton who
-              topped the session for Mercedes. And Binotto said that due to the
-              team focusing on increasing downforce ahead of this season, the
-              SF1000 had been left lacking aerodynamically against the likes of
-              Mercedes and Red Bull. Speaking on Friday ahead of the Austrian
-              Grand Prix, Binotto told Motorsport.com: “In winter testing the
-              car was not performing as expected.
+              It was a mixed Saturday for the team. They headed it into it
+              harbouring hopes that they could take the title of the
+              third-fastest team from Ferrari. While they did indeed look to be
+              quicker than the Italian outfit, they were taken by surprise by
+              McLaren, who look to be as fast if not faster, with Lando Norris
+              starting in P4. Beating the British team on Sunday is Racing
+              Point’s main aim, and Perez, who starts in P6, says he’ll be
+              disappointed if they don’t. “We knew all the way through the
+              weekend that the margins were very small around us with the
+              McLarens, the Red Bulls and people behind like the Renaults,” he
+              said after qualifying. “McLaren showed their true pace right at
+              the end there in Q3. My Q3 was okay, I found the track a bit
+              slower. “I think we have good race pace, so we should be able to
+              fight them from there. We’ll definitely be in the mix. I will be
+              disappointed if we don’t beat them tomorrow.”
             </p>
             <p className='mt-1 text-base leading-normal text-gray-700'>
               Visit{' '}
               <ContentLink
-                href='https://www.planetf1.com/news/mattia-binotto-ferrari-aero-gone-wrong/'
+                href='https://www.planetf1.com/austria/beating-mclaren-main-aim-for-racing-point/'
                 target='_blank'>
                 planetf1.com
               </ContentLink>{' '}
