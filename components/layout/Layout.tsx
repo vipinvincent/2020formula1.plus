@@ -23,7 +23,7 @@ const Layout: React.FunctionComponent<Props> = ({
         <div className='w-full flex flex-row justify-start 4xl:flex-col flex-grow bg-white-100 container'>
           <div
             role='navigation'
-            className='flex flex-col flex-grow 4xl:flex-grow-0 justify-between bg-white-30'>
+            className='flex flex-col flex-grow 4xl:flex-grow-0 justify-between bg-black-5'>
             <Navigation />
           </div>
           <div

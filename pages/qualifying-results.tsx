@@ -1,7 +1,5 @@
 import Layout from '../components/layout/Layout'
-import Main from '../components/maincontent'
 import Qualifying from '../components/qualifying'
-import Schedule from '../components/schedule'
 import Driver from '../components/driver'
 import Team from '../components/team'
 
@@ -12,10 +10,8 @@ const IndexPage = () => (
         <div className='flex flex-row'>
           <div className='flex flex-col lg:w-2/3'>
             <Qualifying />
-            <Main />
           </div>
           <div className='hidden lg:block w-1/3 pl-4'>
-            <Schedule />
             <Driver />
             <Team />
           </div>

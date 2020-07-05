@@ -14,7 +14,7 @@ const Team: React.FC = () => {
               <table className='min-w-full'>
                 <thead>
                   <tr>
-                    <th className='px-6 py-3 border-b border-gray-200 bg-gray-50 text-left text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider'>
+                    <th className='px-6 py-3 border-b border-gray-200 bg-gray-50 text-left text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider whitespace-no-wrap'>
                       Team
                     </th>
                     <th className='px-6 py-3 border-b border-gray-200 bg-gray-50 text-right text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider'>
@@ -26,7 +26,7 @@ const Team: React.FC = () => {
                   <tr>
                     <td className='px-6 py-4 whitespace-no-wrap border-b border-gray-200'>
                       <div className='flex items-center'>
-                        <div className='text-lg leading-5 font-medium text-gray-900 mercedes'>
+                        <div className='text-sm leading-5 font-medium text-gray-900 mercedes'>
                           <span className='text'>Mercedes</span>
                         </div>
                       </div>
@@ -40,7 +40,7 @@ const Team: React.FC = () => {
                   <tr>
                     <td className='px-6 py-4 whitespace-no-wrap border-b border-gray-200'>
                       <div className='flex items-center'>
-                        <div className='text-lg leading-5 font-medium text-gray-900 ferrari'>
+                        <div className='text-sm leading-5 font-medium text-gray-900 ferrari'>
                           <span className='text'>Ferrari</span>
                         </div>
                       </div>
@@ -54,7 +54,7 @@ const Team: React.FC = () => {
                   <tr>
                     <td className='px-6 py-4 whitespace-no-wrap border-b border-gray-200'>
                       <div className='flex items-center'>
-                        <div className='text-lg leading-5 font-medium text-gray-900 redbull'>
+                        <div className='text-sm leading-5 font-medium text-gray-900 redbull'>
                           <span className='text'>Red Bull</span>
                         </div>
                       </div>
@@ -68,7 +68,7 @@ const Team: React.FC = () => {
                   <tr>
                     <td className='px-6 py-4 whitespace-no-wrap border-b border-gray-200'>
                       <div className='flex items-center'>
-                        <div className='text-lg leading-5 font-medium text-gray-900 mclaren'>
+                        <div className='text-sm leading-5 font-medium text-gray-900 mclaren'>
                           <span className='text'>McLaren</span>
                         </div>
                       </div>
@@ -82,7 +82,7 @@ const Team: React.FC = () => {
                   <tr>
                     <td className='px-6 py-4 whitespace-no-wrap border-b border-gray-200'>
                       <div className='flex items-center'>
-                        <div className='text-lg leading-5 font-medium text-gray-900 renault '>
+                        <div className='text-sm leading-5 font-medium text-gray-900 renault '>
                           <span className='text three-d-text'>Renault</span>
                         </div>
                       </div>
@@ -96,7 +96,7 @@ const Team: React.FC = () => {
                   <tr>
                     <td className='px-6 py-4 whitespace-no-wrap border-b border-gray-200'>
                       <div className='flex items-center'>
-                        <div className='text-lg leading-5 font-medium text-gray-900 alphatauri'>
+                        <div className='text-sm leading-5 font-medium text-gray-900 alphatauri'>
                           <span className='text'>Toro Rosso</span>
                         </div>
                       </div>
@@ -110,7 +110,7 @@ const Team: React.FC = () => {
                   <tr>
                     <td className='px-6 py-4 whitespace-no-wrap border-b border-gray-200'>
                       <div className='flex items-center'>
-                        <div className='text-lg leading-5 font-medium text-gray-900 racingpoint'>
+                        <div className='text-sm leading-5 font-medium text-gray-900 racingpoint'>
                           <span className='text'>Racing Point</span>
                         </div>
                       </div>
@@ -124,7 +124,7 @@ const Team: React.FC = () => {
                   <tr>
                     <td className='px-6 py-4 whitespace-no-wrap border-b border-gray-200'>
                       <div className='flex items-center'>
-                        <div className='text-lg leading-5 font-medium text-gray-900 alfaromeo'>
+                        <div className='text-sm leading-5 font-medium text-gray-900 alfaromeo'>
                           <span className='text'>Alfa Romeo</span>
                         </div>
                       </div>
@@ -138,7 +138,7 @@ const Team: React.FC = () => {
                   <tr>
                     <td className='px-6 py-4 whitespace-no-wrap border-b border-gray-200'>
                       <div className='flex items-center'>
-                        <div className='text-lg leading-5 font-medium text-gray-900 haas'>
+                        <div className='text-sm leading-5 font-medium text-gray-900 haas'>
                           <span className='text'>Haas</span>
                         </div>
                       </div>
@@ -152,7 +152,7 @@ const Team: React.FC = () => {
                   <tr>
                     <td className='px-6 py-4 whitespace-no-wrap border-b border-gray-200'>
                       <div className='flex items-center'>
-                        <div className='text-lg leading-5 font-medium text-gray-900 williams'>
+                        <div className='text-sm leading-5 font-medium text-gray-900 williams'>
                           <span className='text'>Williams</span>
                         </div>
                       </div>
