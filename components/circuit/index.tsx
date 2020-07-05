@@ -1,6 +1,6 @@
 import React from 'react'
 import ContentLink from 'components/link/ContentLink'
-import TextLink from 'components/link/TextLink'
+// import TextLink from 'components/link/TextLink'
 
 const Schedule: React.FC = () => {
   return (
