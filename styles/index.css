@@ -44,9 +44,8 @@ body {
     height: 4rem !important;
   }
 }
-.navigation .text,
 .three-d-text {
-  text-shadow: 1px 1px 1px #666666;
+  text-shadow: 1px 1px 1px #7f7a00;
 }
 @media (max-width: 640px) {
   .navigation .text {

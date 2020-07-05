@@ -53,7 +53,7 @@ export default function animation() {
             id='f1'>
             <motion.g
               initial={{ scale: 1, x: 1100, y: -15 }}
-              animate={{ scale: 1, x: 1103, y: -10 }}
+              animate={{ scale: 1, x: 1102, y: -12 }}
               transition={{
                 yoyo: Infinity,
                 duration: 0.4,
