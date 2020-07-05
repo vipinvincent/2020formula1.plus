@@ -19,7 +19,7 @@ const Schedule: React.FC = () => {
         <div className='relative max-w-screen-xl mx-auto'>
           <div className='py-4 text-left px-4'>
             <ActionLink href='/circuit-details' target='_self'>
-              2020 Austrian Grand Prix
+              Formula 1 Pirelli Grosser Preis Der Steiermark 2020
             </ActionLink>
             <p className='mt-1 text-sm leading-normal text-gray-700'>
               Formula 1 Rolex Grosser Preis Von Österreich 2020 (Austrian Grand

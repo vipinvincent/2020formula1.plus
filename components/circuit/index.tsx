@@ -74,27 +74,27 @@ const Schedule: React.FC = () => {
           <div className='bg-white overflow-hidden'>
             <div className='px-4 py-5 sm:p-0 text-left'>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
-                <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1 line-through'>
+                <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1'>
                   Practice 1
                 </div>
-                <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2 line-through'>
-                  03 - July ( 11:00 - 12:30 )
+                <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
+                  10 - July ( 11:00 - 12:30 )
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
-                <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1 line-through'>
+                <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1'>
                   Practice 2
                 </div>
-                <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2 line-through'>
-                  03 - July ( 15:00 - 16:30 )
+                <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
+                  10 - July ( 15:00 - 16:30 )
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
-                <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1 line-through'>
+                <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1'>
                   Practice 3
                 </div>
-                <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2 line-through'>
-                  04 - July ( 12:00 - 13:00 )
+                <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
+                  11 - July ( 12:00 - 13:00 )
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -102,9 +102,7 @@ const Schedule: React.FC = () => {
                   Qualifying
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  <TextLink href='/qualifying-results' target='_self'>
-                    View Results
-                  </TextLink>
+                  11 - July ( 15:00 - 16:00 )
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -112,9 +110,7 @@ const Schedule: React.FC = () => {
                   Race Day
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  <TextLink href='/race-results' target='_self'>
-                    View Results
-                  </TextLink>
+                  12 - July ( 15:10 - 17:10 )
                 </div>
               </div>
             </div>

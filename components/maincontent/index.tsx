@@ -9,7 +9,7 @@ const Main: React.FC = () => {
         Latest News Austrian GP
       </div>
       <div className='relative bg-white-100 rounded shadow-xs'>
-        <div className='h-32 sm:h-40 w-full'>
+        <div className='h-32 sm:h-84 w-full'>
           <img
             className='w-full h-full object-cover rounded-t'
             src='https://img.redbull.com/images/c_crop,x_0,y_168,h_1280,w_3840/c_fill,w_3390,h_1130/q_auto,f_auto/redbullcom/2020/2/12/wedd7uoz4szj5f221wgr/grid-season2-rbr-lead'
@@ -22,32 +22,32 @@ const Main: React.FC = () => {
               Formula1.com
             </div>
             <ActionLink
-              href='https://www.formula1.com/en/latest/article.qualifying-report-scintillating-bottas-takes-masterful-pole-as-ferrari.9DCxyNAuIA3gywPVRvyc3.html'
+              href='https://www.formula1.com/en/latest/article.bottas-beats-leclerc-and-norris-to-win-dramatic-austrian-gp-as-hamilton-is.4hTWtVVkWLxgPKSqkmKfYF.html'
               target='_blank'>
-              Bottas beats Hamilton to pole as Ferrari struggle in Austria
+              Bottas beats Leclerc and Norris to win dramatic Austrian GP as
+              Hamilton is penalised
             </ActionLink>
             <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-              Mercedes continued their vice-like grip on the Austrian Grand Prix
-              weekend, with an emphatic one-two finish in qualifying as Valtteri
-              Bottas escaped an off-track excursion to beat team mate Lewis
-              Hamilton to take the first pole position of 2020. Formula 1 has
-              been in a holding pattern as the coronavirus pandemic struck the
-              world, but after nearly four months, the cars finally hit the
-              track – and it was Mercedes, running a black livery in a stand
-              against racism – who continued their rampant form in F1 who seized
-              the advantage. Bottas set an early marker with a new track record,
-              pipping Hamilton after the opening salvos. The Finn looked immense
-              in the first sector on the second run, but threw it all away as he
-              lost control of the car and bounced across the track before
-              re-joining. That opened the door for Hamilton to take advantage,
-              the Briton running last on track, and while he did improve on his
-              first effort, he couldn’t quite make the difference, finishing
-              0.012s off Bottas' pace.
+              Valtteri Bottas has struck the first blow in the 2020 season,
+              winning the Austrian Grand Prix from Ferrari’s Charles Leclerc, as
+              Lewis Hamilton was demoted from a second place finish on the road
+              to P4 after a five-second penalty for contact with Alex Albon –
+              handing McLaren’s Lando Norris his first F1 podium for finishing
+              P3. The Mercedes duo of Bottas and Hamilton enjoyed a comfortable
+              performance advantage throughout the 71-lap encounter. But with 10
+              laps to go, the race exploded into life, with Hamilton handed his
+              penalty after nerfing Albon into a spin on a Safety Car restart on
+              Lap 61. A late surge for Ferrari’s Charles Leclerc after a
+              difficult weekend for Ferrari saw him climb to third by the flag,
+              meaning he inherited second after the Hamilton penalty, while a
+              late pass on the Racing Point of Sergio Perez was enough to give
+              Norris the net P3, meaning McLaren begin a season with a podium
+              for the first time since 2014.
             </p>
             <p className='mt-1 text-base leading-normal text-gray-700'>
               Visit{' '}
               <ContentLink
-                href='https://www.formula1.com/en/latest/article.qualifying-report-scintillating-bottas-takes-masterful-pole-as-ferrari.9DCxyNAuIA3gywPVRvyc3.html'
+                href='https://www.formula1.com/en/latest/article.bottas-beats-leclerc-and-norris-to-win-dramatic-austrian-gp-as-hamilton-is.4hTWtVVkWLxgPKSqkmKfYF.html'
                 target='_blank'>
                 formula1.com
               </ContentLink>{' '}
@@ -70,26 +70,27 @@ const Main: React.FC = () => {
               bbc.com
             </div>
             <ActionLink
-              href='https://www.bbc.com/sport/formula1/53292525'
+              href='https://www.bbc.com/sport/formula1/53299094'
               target='_blank'>
-              Valtteri Bottas beats Lewis Hamilton to Austrian Grand Prix pole
+              Lewis Hamilton penalised for collision as Valtteri Bottas wins in
+              Austrian GP
             </ActionLink>
             <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-              Valtteri Bottas beat Lewis Hamilton to pole position as Mercedes
-              dominated qualifying at the Austrian Grand Prix, while Ferrari had
-              a shocking day. Mercedes seemed unbeatable as the season
-              re-started after a four-month delay as a result of the
-              coronavirus. The cars, painted black this year to reflect
-              Mercedes' support for anti-racism, were half a second clear. The
-              fastest Ferrari of Charles Leclerc was in seventh as the sheer
-              scale of their lack of performance became clear. Team-mate
-              Sebastian Vettel did not even make it into the final part of
-              qualifying and the four-time world champion will start 11th.
+              Valtteri Bottas survived reliability worries to win an
+              incident-packed Austrian Grand Prix as Lewis Hamilton took fourth
+              after a penalty. Four months after the scheduled first race,
+              called off because of the coronavirus crisis, Mercedes' win was
+              anything but the cruise that had been expected. Gearbox concerns
+              slowed the cars and Hamilton was penalised five seconds for a
+              collision with Red Bull's Alex Albon. Charles Leclerc came second
+              after a stirring drive in the uncompetitive Ferrari while
+              McLaren's Lando Norris took his first podium finish, just holding
+              off Hamilton.
             </p>
             <p className='mt-1 text-base leading-normal text-gray-700'>
               Visit{' '}
               <ContentLink
-                href='https://www.bbc.com/sport/formula1/53292525'
+                href='https://www.bbc.com/sport/formula1/53299094'
                 target='_blank'>
                 bbc.com
               </ContentLink>{' '}
@@ -112,29 +113,35 @@ const Main: React.FC = () => {
               motorsport.com
             </div>
             <ActionLink
-              href='https://www.motorsport.com/f1/news/2020-f1-austrian-qualifying-gp/4825123/?nrt=54'
+              href='https://www.motorsport.com/f1/news/2020-f1-austrian-grand-prix-race-results/4826130/'
               target='_blank'>
-              Valtteri Bottas of Mercedes will start the Austrian Grand Prix
-              from pole position
+              Valtteri Bottas won an incident-packed Austrian Grand Prix, the
+              first race of the delayed 2020 Formula 1 season, for Mercedes at
+              the Red Bull Ring.
             </ActionLink>
             <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-              Valtteri Bottas of Mercedes will start the Austrian Grand Prix
-              from pole position, the first race of the delayed 2020 Formula 1
-              World Championship season. Bottas set a 1m02.939s on his first run
-              in the top-10 qualifying shootout at the Red Bull Ring – a new lap
-              record and 0.122s quicker than Hamilton. Bottas went off on the
-              exit of Turn 4 and spun on his second run, causing a yellow flag
-              that hampered Hamilton, who was just 0.012s slower. Max Verstappen
-              will start third, half a second slower than the Mercedes duo,
-              ahead of McLaren’s Lando Norris, Alex Albon (Red Bull), Sergio
-              Perez (Racing Point), Charles Leclerc (Ferrari), Carlos Sainz
-              (McLaren), Lance Stroll (Racing Point) and Daniel Ricciardo
-              (Renault).
+              Mercedes’ dominance was challenged by Red Bull but Max Verstappen,
+              who was running second behind Bottas, was forced out with an
+              electrical failure early on. Towards the end of the race, Alex
+              Albon took fresh soft tyres during a safety car period and was
+              passing Lewis Hamilton for second when they made contact, and
+              Albon was spun around. Ahead of the race Hamilton was moved back
+              on the starting grid from second to fifth, for not lifting off
+              under yellow flags in qualifying when Bottas went off ahead of
+              him. Bottas led from the start, McLaren’s Lando Norris briefly
+              grabbing second before Verstappen retook the place by Turn 3.
+              Hamilton tried to pass Albon at Turn 4, but was rebuffed. Albon
+              passed Norris for third when DRS was enabled on Lap 3, and
+              Hamilton followed suit a lap later at Turn 1. Hamilton then used
+              DRS to power past Albon for third on the run to Turn 4 on Lap 9.
+              Verstappen was 3s behind Bottas when his car slowed with an
+              electrical problem at the start of Lap 12. He toured back to the
+              pits, where Red Bull tried to fix it with no avail
             </p>
             <p className='mt-1 text-base leading-normal text-gray-700'>
               Visit{' '}
               <ContentLink
-                href='https://www.motorsport.com/f1/news/2020-f1-austrian-qualifying-gp/4825123/?nrt=54'
+                href='https://www.motorsport.com/f1/news/2020-f1-austrian-grand-prix-race-results/4826130/'
                 target='_blank'>
                 motorsport.com
               </ContentLink>{' '}
@@ -157,27 +164,31 @@ const Main: React.FC = () => {
               skysports.com
             </div>
             <ActionLink
-              href='https://www.skysports.com/f1/news/12433/12021068/austrian-gp-qualifying-valtteri-bottas-pips-lewis-hamilton-to-pole'
+              href='https://www.skysports.com/f1/news/12433/12021679/austrian-gp-valtteri-bottas-wins-wild-f1-opener-lewis-hamilton-loses-podium'
               target='_blank'>
-              Austrian GP Qualifying: Valtteri Bottas pips Lewis Hamilton to
-              pole
+              Austrian GP: Valtteri Bottas wins wild F1 opener; Lewis Hamilton
+              loses podium
             </ActionLink>
             <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-              Bottas hangs on to Austria pole ahead of Hamilton despite big spin
-              on his final lap; McLaren's Norris splits Red Bulls with fourth,
-              but Ferrari endure a desperate start to season with Vettel out in
-              Q2. Valtteri Bottas beat Mercedes team-mate Lewis Hamilton to the
-              first pole position of F1's delayed 2020 season at the Austrian GP
-              despite a big error on his final lap. But Ferrari's fears about
-              their competitiveness at the start of the new season were laid
-              bare as Charles Leclerc qualified only seventh and Sebastian
-              Vettel was knocked out in Q2. Lando Norris took a stunning fourth
-              for McLaren, just behind Red Bull's Max Verstappen.
+              F1 is back: and back with a bang; Bottas wins for Mercedes but
+              Hamilton dropped to fourth after penalty for Albon tangle; Leclerc
+              takes second with Norris claiming first podium of career on final
+              lap. Valtteri Bottas won an astonishing Austrian GP, as a
+              penalised Lewis Hamilton was relegated off the podium to fourth,
+              in a hugely-dramatic return for Formula 1 in the first race of the
+              delayed 2020 season. Hamilton finished second to Bottas on the
+              road as otherwise-dominant Mercedes nursed gearbox problems but
+              slipped to fourth in the final result after being handed a late
+              five-second time penalty for a collision with Red Bull's Alex
+              Albon at Turn Five. A charging Charles Leclerc inherited second as
+              a result after an unexpected late surge for struggling Ferrari,
+              with Lando Norris capping a brilliant weekend for him by claiming
+              the first podium of his young career for McLaren.
             </p>
             <p className='mt-1 text-base leading-normal text-gray-700'>
               Visit{' '}
               <ContentLink
-                href='https://www.skysports.com/f1/news/12433/12021068/austrian-gp-qualifying-valtteri-bottas-pips-lewis-hamilton-to-pole'
+                href='https://www.skysports.com/f1/news/12433/12021679/austrian-gp-valtteri-bottas-wins-wild-f1-opener-lewis-hamilton-loses-podium'
                 target='_blank'>
                 skysports.com
               </ContentLink>{' '}
@@ -200,28 +211,32 @@ const Main: React.FC = () => {
               autosport.com
             </div>
             <ActionLink
-              href='https://www.autosport.com/f1/news/150333/bottas-beats-hamilton-to-austrian-gp-pole-position'
+              href='https://www.autosport.com/f1/news/150360/bottas-wins-eventful-austrian-gp-from-leclerc'
               target='_blank'>
-              Austrian GP: Bottas beats Hamilton to pole position as Ferrari
-              struggles
+              Bottas wins eventful Austrian GP from Leclerc after Hamilton
+              penalty
             </ActionLink>
             <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-              Valtteri Bottas turned the tables on his Mercedes Formula 1
-              team-mate Lewis Hamilton by claiming pole for the Austrian Grand
-              Prix despite skating into the gravel on his final effort. Max
-              Verstappen claimed third for Red Bull and will start on alternate
-              tyres to the Mercedes drivers, with Lando Norris claiming a
-              sensational fourth for McLaren as Racing Point's pace was only
-              good enough for sixth for Sergio Perez and Ferrari's form faltered
-              further than expected. Bottas broke the track record at the Red
-              Bull Ring with a 1m02.939s on his first run in Q3, with Hamilton
-              unable to get under 63-seconds on his own first effort in the
-              final segment as he lost time in the second and third sectors.
+              Valtteri Bottas won a dramatic Formula 1 Austrian Grand Prix from
+              Charles Leclerc, after Lewis Hamilton's penalty for contact with
+              Alex Albon dropped him from second to fourth. Bottas crossed the
+              line as the winner of an attritional race 0.6-seconds clear of his
+              team-mate, but Hamilton was immediately demoted, which boosted
+              McLaren's Lando Norris to first F1 career podium in third.
+              Hamilton's incident with Albon happened after the end of the
+              race's third safety car period and after Mercedes had had to
+              intervene with its drivers due to critical reliability warnings.
+              At the start, Bottas easily held the lead off the line and blasted
+              to a two-second lead at the end of the opening tour, as Red Bull's
+              Max Verstappen - the only top-10 starter on the medium tyres -
+              soaked up pressure from Norris after several cars including
+              Norris, Hamilton and Leclerc shot across the runoff at the exit of
+              Turn 1.
             </p>
             <p className='mt-1 text-base leading-normal text-gray-700'>
               Visit{' '}
               <ContentLink
-                href='https://www.autosport.com/f1/news/150333/bottas-beats-hamilton-to-austrian-gp-pole-position'
+                href='https://www.autosport.com/f1/news/150360/bottas-wins-eventful-austrian-gp-from-leclerc'
                 target='_blank'>
                 autosport.com
               </ContentLink>{' '}
@@ -244,29 +259,34 @@ const Main: React.FC = () => {
               espn.com
             </div>
             <ActionLink
-              href='https://www.espn.in/f1/story/_/id/29409020/bottas-beats-hamilton-pole-ferrari-flops-austria'
+              href='https://www.espn.in/f1/report?id=28130'
               target='_blank'>
-              Bottas beats Hamilton to pole as Ferrari flops in Austria
+              Bottas wins wild Austrian GP, Leclerc and Norris on podium
             </ActionLink>
             <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-              Valtteri Bottas secured pole position for the opening race of the
-              2020 Formula One season, beating teammate Lewis Hamilton to pole
-              position by 0.012s. Bottas secured pole despite sliding off the
-              track and into the gravel on his final flying lap, just as
-              Hamilton was on a faster lap behind. Despite yellow flags coming
-              out to warn Hamilton about the incident, they did not appear to
-              obstruct Hamilton's progress and the reigning champion lost the
-              majority of his time to his teammate running wide in the final two
-              corners. The qualifying result ignites the battle between the
-              Mercedes teammates, but the early signs are that they are in a
-              class of their own, with a half second advantage over the rest of
-              the field. Speaking about how his lap panned out and Bottas' spin
-              in front of him, Hamilton said he did not lose time as a result.
+              Valtteri Bottas won a wild Austrian Grand Prix ahead of Ferrari's
+              Charles Leclerc and McLaren's Lando Norris, who claimed the first
+              podium finish of his Formula One career. Bottas led from the start
+              of the race and kept his cool through three Safety Car periods as
+              remarkable drama unfolded behind him. Reigning world champion
+              Lewis Hamilton crossed the line in second position but was
+              relegated to fourth after the race with a time penalty for an
+              incident with Alexander Albon, who had looked like a contender for
+              victory in the closing stages. Albon and Hamilton collided at Turn
+              4 while vying for position, and the stewards deemed the reigning
+              world champion to be at fault. Mercedes' race was not without
+              other drama, with Bottas and Hamilton both told to keep their cars
+              off the Red Bull Ring's kerbs as concerns grew about the gearbox
+              in each driver's car. Ferrari's dismal weekend was turned on its
+              head in the closing stages as Leclerc charged through the field
+              after a flurry of late Safety Car periods. Norris did similar,
+              barging past Racing Point's Sergio Perez a handful of laps from
+              the finish.
             </p>
             <p className='mt-1 text-base leading-normal text-gray-700'>
               Visit{' '}
               <ContentLink
-                href='https://www.espn.in/f1/story/_/id/29409020/bottas-beats-hamilton-pole-ferrari-flops-austria'
+                href='https://www.espn.in/f1/report?id=28130'
                 target='_blank'>
                 espn.com
               </ContentLink>{' '}
@@ -289,26 +309,28 @@ const Main: React.FC = () => {
               the-race.com
             </div>
             <ActionLink
-              href='https://the-race.com/formula-1/mercedes-drivers-feel-das-impact-think-theres-more-to-come/'
+              href='https://the-race.com/formula-1/bottas-wins-in-austria-leclerc-norris-get-surprise-podiums/'
               target='_blank'>
-              Mercedes drivers feel DAS impact, think there’s more to come
+              Bottas wins in Austria, Leclerc/Norris get surprise podiums
             </ActionLink>
             <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-              Lewis Hamilton and Valtteri Bottas say they have felt the impact
-              of Mercedes’ dual-axis steering system at Formula 1’s Austrian
-              Grand Prix and believe it could have more potential. Bottas edged
-              Hamilton by 0.012s in qualifying, and the next-best car was Max
-              Verstappen’s Red Bull, more than half a second slower. Mercedes
-              had already scored a victory over Red Bull when the stewards
-              rejected Red Bull’s protest of the Mercedes DAS system following
-              Friday practice. Both Bottas and Hamilton then used it in
-              qualifying to adjust the toe angle of their front wheels to assist
-              the temperature management on their preparation laps.
+              Valtteri Bottas won a thrilling Formula 1 season-opening Austrian
+              Grand Prix as a penalty for clashing with Alex Albon dropped Lewis
+              Hamilton from second to fourth. That meant Charles Leclerc
+              snatched a surprise second place for Ferrari with Lando Norris
+              claiming a maiden F1 podium in third, while Max Verstappen retired
+              early while chasing Bottas. Sebastian Vettel only finished 10th
+              after a spin while battling with his 2021 Ferrari replacement
+              Carlos Sainz Jr. The race was already taking dramatic twists even
+              before it started, with Red Bull’s call for a review of new video
+              evidence leading to the stewards penalising Hamilton for a
+              qualifying yellow flag infringement after all – dropping him from
+              second to fifth, where he remained in the opening laps.
             </p>
             <p className='mt-1 text-base leading-normal text-gray-700'>
               Visit{' '}
               <ContentLink
-                href='https://the-race.com/formula-1/mercedes-drivers-feel-das-impact-think-theres-more-to-come/'
+                href='https://the-race.com/formula-1/bottas-wins-in-austria-leclerc-norris-get-surprise-podiums/'
                 target='_blank'>
                 the-race.com
               </ContentLink>{' '}
@@ -331,35 +353,31 @@ const Main: React.FC = () => {
               grandprix247.com
             </div>
             <ActionLink
-              href='https://www.grandprix247.com/2020/07/04/austria-qualifying/'
+              href='https://www.grandprix247.com/2020/07/05/austrian-grand-prix-bottas-holds-firm-in-drama-filled-race/'
               target='_blank'>
-              Austria Qualifying: Bottas edges Hamilton, Ferrari flounder
+              Austrian Grand Prix: Bottas holds firm in drama-filled race
             </ActionLink>
             <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-              The sight off-track might have been alien with no fans, but the
-              sight on-track was a familiar one with Valtteri Bottas and
-              Mercedes on-top on Saturday and claiming pole position for the
-              Austrian Grand Prix tomorrow. His third pole in Austria and 12th
-              of his career, Bottas topped the timesheets with a 1:02.939 to get
-              his 2020 Formula 1 season off to the best possible start. Setting
-              his time with his first run in Q3, the Finn kept his lead despite
-              a trip through the gravel in his second run, his teammate Lewis
-              Hamilton still 0.012 seconds behind, despite improving in his own
-              final effort. Bottas said afterwards, “It feels really good, I’ve
-              missed this feeling, I’ve obviously been preparing for this for a
-              long time and it feels so good. Our team have done an amazing job,
-              we seem to be in our own league. I’m so impressed. It’s truly an
-              amazing car to drive.” Teammate Hamilton gave the pole winner a
-              congratulatory hug, before adding, “Great job by Valtteri, this is
-              a great start to the season. I think we show year on year that we
-              continue to be the best team, we’re constantly pushing the
-              boundaries and there’s not really any politics within the team.
-              That’s why every year we come back.”
+              Mercedes driver Valtteri Bottas put in a steady shift out-front
+              while excitement abounded behind him to win the Austrian Grand
+              Prix on Sunday, the first race of the 2020 Formula 1 World
+              Championship season at Red Bull Ring. Backing-up his pole position
+              from Saturday, the Finn led throughout the afternoon, with
+              Ferrari’s Charles Leclerc and McLaren’s Lando Norris making-up the
+              podium spots after a chaotic final act to the race. The Finn said
+              after the race, “That was definitely quite a bit of pressure on
+              through the race one safety car was still ok with the last one I
+              was like ‘come on’ there were so many chances for Lewis to come
+              through if made a small mistake. “I managed to keep it together
+              and control the race from my side and it’s a good start to the
+              season. We had to manage the car quite a lot so we couldn’t use
+              all the kerbs but I’m glad all the cars managed to finish, and the
+              team standings we are leading so that’s a very good start.”
             </p>
             <p className='mt-1 text-base leading-normal text-gray-700'>
               Visit{' '}
               <ContentLink
-                href='https://www.grandprix247.com/2020/07/04/austria-qualifying/'
+                href='https://www.grandprix247.com/2020/07/05/austrian-grand-prix-bottas-holds-firm-in-drama-filled-race/'
                 target='_blank'>
                 grandprix247.com
               </ContentLink>{' '}
@@ -383,31 +401,38 @@ const Main: React.FC = () => {
               planetf1.com
             </div>
             <ActionLink
-              href='https://www.planetf1.com/austria/beating-mclaren-main-aim-for-racing-point/'
+              href='https://www.planetf1.com/news/austrian-gp-race-report-2020/'
               target='_blank'>
-              Beating McLaren main aim for Racing Point
+              Bottas beats Leclerc in dramatic Austrian GP
             </ActionLink>
             <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-              It was a mixed Saturday for the team. They headed it into it
-              harbouring hopes that they could take the title of the
-              third-fastest team from Ferrari. While they did indeed look to be
-              quicker than the Italian outfit, they were taken by surprise by
-              McLaren, who look to be as fast if not faster, with Lando Norris
-              starting in P4. Beating the British team on Sunday is Racing
-              Point’s main aim, and Perez, who starts in P6, says he’ll be
-              disappointed if they don’t. “We knew all the way through the
-              weekend that the margins were very small around us with the
-              McLarens, the Red Bulls and people behind like the Renaults,” he
-              said after qualifying. “McLaren showed their true pace right at
-              the end there in Q3. My Q3 was okay, I found the track a bit
-              slower. “I think we have good race pace, so we should be able to
-              fight them from there. We’ll definitely be in the mix. I will be
-              disappointed if we don’t beat them tomorrow.”
+              Valtteri Bottas survived the kerbs, three SC restarts and a crazy
+              Austrian GP to beat Charles Leclerc with Lando Norris P3. Blue
+              skies, hot asphalt and controversy awaited Formula 1 at the start
+              of the Austrian Grand Prix as Red Bull, clearly not done with its
+              right to protest, protested the stewards’ decision not to penalise
+              Lewis Hamilton for ignoring yellow flags in Q3 on Saturday. Red
+              Bull claimed to have new footage of the flag situation, which was
+              caused when pole sitter Valtteri Bottas ran off the track on his
+              final hot lap. Unlike Friday’s DAS protest, Red Bull won this one
+              and, 41 minutes before the formation lap was set to leave the
+              grid, Mercedes were informed that Hamilton had a three-place grid
+              penalty, dropping him from second to fifth. The top six: Bottas,
+              Max Verstappen, Lando Norris, Alex Albon, Hamilton and Sergio
+              Perez. Ferrari drivers Charles Leclerc and Sebastian Vettel were
+              P7 and 11. The lights went out some 100 days after they were
+              initially expected to with the season beginning in Austria with a
+              flying fast start from Bottas. The Finn was helped by Norris, who
+              challenged Verstappen in every corner on the opening lap before
+              the Dutchman finally dropped the McLaren driver and went off in
+              search of Bottas. Albon did the same with Hamilton, refusing to
+              give while Perez kept Leclerc at bay. Vettel made up just one
+              place, passing Daniel Ricciardo.
             </p>
             <p className='mt-1 text-base leading-normal text-gray-700'>
               Visit{' '}
               <ContentLink
-                href='https://www.planetf1.com/austria/beating-mclaren-main-aim-for-racing-point/'
+                href='https://www.planetf1.com/news/austrian-gp-race-report-2020/'
                 target='_blank'>
                 planetf1.com
               </ContentLink>{' '}
