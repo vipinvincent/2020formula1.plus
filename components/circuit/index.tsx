@@ -112,7 +112,9 @@ const Schedule: React.FC = () => {
                   Race Day
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  05 - July ( 15:10 - 17:10 )
+                  <TextLink href='/race-results' target='_self'>
+                    View Results
+                  </TextLink>
                 </div>
               </div>
             </div>
