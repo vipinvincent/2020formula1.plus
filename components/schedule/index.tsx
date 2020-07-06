@@ -1,7 +1,6 @@
 import React from 'react'
 import ActionLink from 'components/link/ActionLink'
 import ContentLink from 'components/link/ContentLink'
-import SiderBarLink from 'components/link/SiderBarLink'
 
 const Schedule: React.FC = () => {
   return (
