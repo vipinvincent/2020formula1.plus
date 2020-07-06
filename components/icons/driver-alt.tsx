@@ -14,7 +14,7 @@ export default function animation() {
           id='driver'
           stroke='#e10600'
           strokeWidth='5'
-          fill='e10600'
+          fill='#e10600'
           fillRule='evenodd'>
           <g id='helmet' fill='#e10600' fillRule='nonzero'>
             <path

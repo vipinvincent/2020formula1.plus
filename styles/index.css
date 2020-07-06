@@ -288,6 +288,9 @@ body {
   margin-left: 7px !important;
   margin-bottom: 10px !important;
 }
+svg:hover {
+  fill: red;
+}
 @tailwind base;
 @tailwind components;
 /* purgecss end ignore */

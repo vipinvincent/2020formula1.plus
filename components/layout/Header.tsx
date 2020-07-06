@@ -16,57 +16,57 @@ const Header: React.FC = () => {
       className='w-full bg-white-100 lg:flex lg:items-center lg:justify-between mx-auto py-1 header container z-20'
       id='top'>
       <div className='hidden lg:flex justify-end lg:order-2 w-8/12 pr-4 h-20 whitespace-no-wrap'>
-        <div className='h-20 pl-2 pr-4 flex flex-row content-center self-center'>
-          <div className='flex content-center self-center leading-tight text-base text-primary-on hover:text-primary-hover'>
+        <div className='h-20 pl-2 pr-4 flex flex-row content-center self-center grow'>
+          <div className='flex content-center self-center leading-tight text-base'>
             <Home />
           </div>
           <motion.div
             initial={{ opacity: 0, scale: 1 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.1, duration: 1 }}
-            className='flex  content-center self-center leading-tight text-base text-primary-on hover:text-primary-hover pt-0 pr-4'>
+            className='flex  content-center self-center leading-tight text-base pt-0 pr-4'>
             <TopNav href='/' target='_self'>
               Home
             </TopNav>
           </motion.div>
         </div>
-        <div className='h-20 py-2 flex flex-row content-center self-center'>
-          <div className='flex content-center self-center leading-tight text-base text-primary-on hover:text-primary-hover'>
+        <div className='h-20 py-2 flex flex-row content-center self-center grow'>
+          <div className='flex content-center self-center leading-tight text-base'>
             <Team />
           </div>
           <motion.div
             initial={{ opacity: 0, scale: 1 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.1, duration: 1 }}
-            className='flex  content-center self-center leading-tight text-base text-primary-on hover:text-primary-hover pt-0 pr-4'>
+            className='flex  content-center self-center leading-tight text-base pt-0 pr-4'>
             <TopNav href='/constructor-standings' target='_self'>
               Team Standings
             </TopNav>
           </motion.div>
         </div>
-        <div className='h-20 py-2 flex flex-row content-center self-center'>
-          <div className='flex content-center self-center leading-tight text-base text-primary-on hover:text-primary-hover'>
+        <div className='h-20 py-2 flex flex-row content-center self-center grow'>
+          <div className='flex content-center self-center leading-tight text-base'>
             <Driver />
           </div>
           <motion.div
             initial={{ opacity: 0, scale: 1 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.1, duration: 1 }}
-            className='flex  content-center self-center leading-tight text-base text-primary-on hover:text-primary-hover pt-0 pr-4'>
+            className='flex  content-center self-center leading-tight text-base pt-0 pr-4'>
             <TopNav href='/driver-standings' target='_self'>
               Driver Standings
             </TopNav>
           </motion.div>
         </div>
-        <div className='h-20 py-2 flex flex-row content-center self-center'>
-          <div className='flex content-center self-center leading-tight text-base text-primary-on hover:text-primary-hover'>
+        <div className='h-20 py-2 flex flex-row content-center self-center grow'>
+          <div className='flex content-center self-center leading-tight text-base'>
             <Circuit />
           </div>
           <motion.div
             initial={{ opacity: 0, scale: 1 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.1, duration: 1 }}
-            className='flex  content-center self-center leading-tight text-base text-primary-on hover:text-primary-hover pt-0 pr-1'>
+            className='flex  content-center self-center leading-tight text-base pt-0 pr-1'>
             <TopNav href='/circuit-details' target='_self'>
               Circuit Details
             </TopNav>
@@ -78,7 +78,7 @@ const Header: React.FC = () => {
           <NavLink
             target='_self'
             href={'/'}
-            className='border-transparent border border-dotted focus:outline-none focus:border-primary-focus focus:border-dotted active:outline-none active:shadow-none block w-auto h-auto rounded-tl-xl rounded-br-xl px-2'>
+            className='border-transparent border border-dotted focus:outline-none focus:border-primary-focus focus:border-dotted active:outline-none active:shadow-none block w-auto h-auto rounded-tl-xl rounded-br-xl px-2 grow'>
             <F1Plus />
           </NavLink>
         </div>
