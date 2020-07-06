@@ -11,7 +11,7 @@ const TopNav: React.FC<
   return (
     <Link href={href} prefetch={prefetch}>
       <a
-        className='text-lg font-light text-primary-on hover:text-primary-hover border-transparent border-b border-dotted hover:border-primary-hover focus:outline-none focus:border-primary-focus focus:border-dotted active:outline-none active:shadow-none active:text-primary-active '
+        className='text-base font-hairline text-primary-on hover:text-primary-hover border-transparent border-b border-dotted hover:border-primary-hover focus:outline-none focus:border-primary-focus focus:border-dotted active:outline-none active:shadow-none active:text-primary-active '
         href={href}
         target={target}>
         {children}

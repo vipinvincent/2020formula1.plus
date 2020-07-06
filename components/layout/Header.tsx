@@ -17,56 +17,56 @@ const Header: React.FC = () => {
       id='top'>
       <div className='hidden lg:flex justify-end lg:order-2 w-8/12 pr-4 h-20 whitespace-no-wrap'>
         <div className='h-20 pl-2 pr-4 flex flex-row content-center self-center'>
-          <div className='flex content-center self-center leading-tight text-lg text-primary-on hover:text-primary-hover'>
+          <div className='flex content-center self-center leading-tight text-base text-primary-on hover:text-primary-hover'>
             <Home />
           </div>
           <motion.div
-            initial={{ opacity: 0, scale: 0.95 }}
+            initial={{ opacity: 0, scale: 1 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.1, duration: 1 }}
-            className='flex  content-center self-center leading-tight text-lg text-primary-on hover:text-primary-hover pt-0 pr-2'>
+            className='flex  content-center self-center leading-tight text-base text-primary-on hover:text-primary-hover pt-0 pr-4'>
             <TopNav href='/' target='_self'>
               Home
             </TopNav>
           </motion.div>
         </div>
         <div className='h-20 py-2 flex flex-row content-center self-center'>
-          <div className='flex content-center self-center leading-tight text-lg text-primary-on hover:text-primary-hover'>
+          <div className='flex content-center self-center leading-tight text-base text-primary-on hover:text-primary-hover'>
             <Team />
           </div>
           <motion.div
-            initial={{ opacity: 0, scale: 0.95 }}
+            initial={{ opacity: 0, scale: 1 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.1, duration: 1 }}
-            className='flex  content-center self-center leading-tight text-lg text-primary-on hover:text-primary-hover pt-0 pr-2'>
+            className='flex  content-center self-center leading-tight text-base text-primary-on hover:text-primary-hover pt-0 pr-4'>
             <TopNav href='/constructor-standings' target='_self'>
               Team Standings
             </TopNav>
           </motion.div>
         </div>
         <div className='h-20 py-2 flex flex-row content-center self-center'>
-          <div className='flex content-center self-center leading-tight text-lg text-primary-on hover:text-primary-hover'>
+          <div className='flex content-center self-center leading-tight text-base text-primary-on hover:text-primary-hover'>
             <Driver />
           </div>
           <motion.div
-            initial={{ opacity: 0, scale: 0.95 }}
+            initial={{ opacity: 0, scale: 1 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.1, duration: 1 }}
-            className='flex  content-center self-center leading-tight text-lg text-primary-on hover:text-primary-hover pt-0 pr-2'>
+            className='flex  content-center self-center leading-tight text-base text-primary-on hover:text-primary-hover pt-0 pr-4'>
             <TopNav href='/driver-standings' target='_self'>
               Driver Standings
             </TopNav>
           </motion.div>
         </div>
         <div className='h-20 py-2 flex flex-row content-center self-center'>
-          <div className='flex content-center self-center leading-tight text-lg text-primary-on hover:text-primary-hover'>
+          <div className='flex content-center self-center leading-tight text-base text-primary-on hover:text-primary-hover'>
             <Circuit />
           </div>
           <motion.div
-            initial={{ opacity: 0, scale: 0.95 }}
+            initial={{ opacity: 0, scale: 1 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.1, duration: 1 }}
-            className='flex  content-center self-center leading-tight text-lg text-primary-on hover:text-primary-hover pt-0 pr-2'>
+            className='flex  content-center self-center leading-tight text-base text-primary-on hover:text-primary-hover pt-0 pr-1'>
             <TopNav href='/circuit-details' target='_self'>
               Circuit Details
             </TopNav>
