@@ -24,7 +24,7 @@ const Header: React.FC = () => {
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.1, duration: 1 }}
-            className='flex  content-center self-center leading-tight text-lg text-primary-on hover:text-primary-hover pt-0 ml-2 pr-2'>
+            className='flex  content-center self-center leading-tight text-lg text-primary-on hover:text-primary-hover pt-0 pr-2'>
             <ContentLink href='/' target='_self'>
               Home
             </ContentLink>
@@ -38,7 +38,7 @@ const Header: React.FC = () => {
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.1, duration: 1 }}
-            className='flex  content-center self-center leading-tight text-lg text-primary-on hover:text-primary-hover pt-0 ml-2 pr-2'>
+            className='flex  content-center self-center leading-tight text-lg text-primary-on hover:text-primary-hover pt-0 pr-2'>
             <ContentLink href='/constructor-standings' target='_self'>
               Team Standings
             </ContentLink>
@@ -52,7 +52,7 @@ const Header: React.FC = () => {
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.1, duration: 1 }}
-            className='flex  content-center self-center leading-tight text-lg text-primary-on hover:text-primary-hover pt-0 ml-2 pr-2'>
+            className='flex  content-center self-center leading-tight text-lg text-primary-on hover:text-primary-hover pt-0 pr-2'>
             <ContentLink href='/driver-standings' target='_self'>
               Driver Standings
             </ContentLink>
@@ -66,7 +66,7 @@ const Header: React.FC = () => {
             initial={{ opacity: 0, scale: 0.95 }}
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.1, duration: 1 }}
-            className='flex  content-center self-center leading-tight text-lg text-primary-on hover:text-primary-hover pt-0 ml-2 pr-2'>
+            className='flex  content-center self-center leading-tight text-lg text-primary-on hover:text-primary-hover pt-0 pr-2'>
             <ContentLink href='/circuit-details' target='_self'>
               Circuit Details
             </ContentLink>
