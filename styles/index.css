@@ -269,7 +269,7 @@ body {
 .scroll-to-top {
   right: 20px !important;
   bottom: 60px !important;
-  border-radius: 0.25rem !important;
+  border-radius: 0.75rem 0 0.75rem 0 !important;
   background-color: rgba(0, 0, 0, 0.5) !important;
   outline: none !important;
 }
