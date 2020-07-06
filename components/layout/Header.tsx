@@ -1,7 +1,7 @@
 import React from 'react'
 import dynamic from 'next/dynamic'
 import NavLink from 'components/link/NavLink'
-import ContentLink from 'components/link/ContentLink'
+import TopNav from 'components/link/TopNav'
 import { motion } from 'framer-motion'
 
 const Home = dynamic(() => import('components/icons/latest'))
@@ -25,9 +25,9 @@ const Header: React.FC = () => {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.1, duration: 1 }}
             className='flex  content-center self-center leading-tight text-lg text-primary-on hover:text-primary-hover pt-0 pr-2'>
-            <ContentLink href='/' target='_self'>
+            <TopNav href='/' target='_self'>
               Home
-            </ContentLink>
+            </TopNav>
           </motion.div>
         </div>
         <div className='h-20 py-2 flex flex-row content-center self-center'>
@@ -39,9 +39,9 @@ const Header: React.FC = () => {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.1, duration: 1 }}
             className='flex  content-center self-center leading-tight text-lg text-primary-on hover:text-primary-hover pt-0 pr-2'>
-            <ContentLink href='/constructor-standings' target='_self'>
+            <TopNav href='/constructor-standings' target='_self'>
               Team Standings
-            </ContentLink>
+            </TopNav>
           </motion.div>
         </div>
         <div className='h-20 py-2 flex flex-row content-center self-center'>
@@ -53,9 +53,9 @@ const Header: React.FC = () => {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.1, duration: 1 }}
             className='flex  content-center self-center leading-tight text-lg text-primary-on hover:text-primary-hover pt-0 pr-2'>
-            <ContentLink href='/driver-standings' target='_self'>
+            <TopNav href='/driver-standings' target='_self'>
               Driver Standings
-            </ContentLink>
+            </TopNav>
           </motion.div>
         </div>
         <div className='h-20 py-2 flex flex-row content-center self-center'>
@@ -67,9 +67,9 @@ const Header: React.FC = () => {
             animate={{ opacity: 1, scale: 1 }}
             transition={{ delay: 0.1, duration: 1 }}
             className='flex  content-center self-center leading-tight text-lg text-primary-on hover:text-primary-hover pt-0 pr-2'>
-            <ContentLink href='/circuit-details' target='_self'>
+            <TopNav href='/circuit-details' target='_self'>
               Circuit Details
-            </ContentLink>
+            </TopNav>
           </motion.div>
         </div>
       </div>
