@@ -99,6 +99,9 @@ module.exports = {
         '6xl': '3rem',
         '7xl': '4rem',
       },
+      borderRadius: {
+        xl: '.75rem',
+      },
     },
   },
   variants: {

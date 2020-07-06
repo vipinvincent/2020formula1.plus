@@ -7,7 +7,7 @@ const Driver: React.FC = () => {
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1'>
         Driver Standings (2019)
       </div>
-      <div className='relative bg-white-100 rounded shadow-xs'>
+      <div className='relative bg-white-100 rounded-tl-xl rounded-br-xl shadow-xs'>
         <div className='flex flex-col'>
           <div className='px-0'>
             <div className='align-middle inline-block w-full overflow-x-auto'>
@@ -33,7 +33,7 @@ const Driver: React.FC = () => {
                       </div>
                     </td>
                     <td className='pr-6 py-4 whitespace-no-wrap border-b border-gray-200 text-right mercedes'>
-                      <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-gray-100 text'>
+                      <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-tl-xl rounded-br-xl-full bg-gray-100 text'>
                         413
                       </span>
                     </td>
@@ -48,7 +48,7 @@ const Driver: React.FC = () => {
                       </div>
                     </td>
                     <td className='pr-6 py-4 whitespace-no-wrap border-b border-gray-200 text-right mercedes'>
-                      <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-gray-100 text'>
+                      <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-tl-xl rounded-br-xl-full bg-gray-100 text'>
                         326
                       </span>
                     </td>
@@ -63,7 +63,7 @@ const Driver: React.FC = () => {
                       </div>
                     </td>
                     <td className='pr-6 py-4 whitespace-no-wrap border-b border-gray-200 text-right redbull'>
-                      <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-gray-100 text'>
+                      <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-tl-xl rounded-br-xl-full bg-gray-100 text'>
                         278
                       </span>
                     </td>
@@ -78,7 +78,7 @@ const Driver: React.FC = () => {
                       </div>
                     </td>
                     <td className='pr-6 py-4 whitespace-no-wrap border-b border-gray-200 text-right ferrari'>
-                      <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-gray-100 text'>
+                      <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-tl-xl rounded-br-xl-full bg-gray-100 text'>
                         264
                       </span>
                     </td>
@@ -93,7 +93,7 @@ const Driver: React.FC = () => {
                       </div>
                     </td>
                     <td className='pr-6 py-4 whitespace-no-wrap border-b border-gray-200 text-right ferrari'>
-                      <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-gray-100 text'>
+                      <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-tl-xl rounded-br-xl-full bg-gray-100 text'>
                         240
                       </span>
                     </td>
@@ -107,7 +107,7 @@ const Driver: React.FC = () => {
                       </div>
                     </td>
                     <td className='pr-6 py-4 whitespace-no-wrap border-b border-gray-200 text-right mclaren'>
-                      <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-gray-100 text'>
+                      <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-tl-xl rounded-br-xl-full bg-gray-100 text'>
                         96
                       </span>
                     </td>
@@ -122,7 +122,7 @@ const Driver: React.FC = () => {
                       </div>
                     </td>
                     <td className='pr-6 py-4 whitespace-no-wrap border-b border-gray-200 text-right alphatauri'>
-                      <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-gray-100 text'>
+                      <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-tl-xl rounded-br-xl-full bg-gray-100 text'>
                         95
                       </span>
                     </td>
@@ -137,7 +137,7 @@ const Driver: React.FC = () => {
                       </div>
                     </td>
                     <td className='pr-6 py-4 whitespace-no-wrap border-b border-gray-200 text-right redbull'>
-                      <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-gray-100 text'>
+                      <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-tl-xl rounded-br-xl-full bg-gray-100 text'>
                         92
                       </span>
                     </td>
@@ -152,7 +152,7 @@ const Driver: React.FC = () => {
                       </div>
                     </td>
                     <td className='pr-6 py-4 whitespace-no-wrap border-b border-gray-200 text-right renault'>
-                      <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-gray-100 text three-d-text'>
+                      <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-tl-xl rounded-br-xl-full bg-gray-100 text three-d-text'>
                         54
                       </span>
                     </td>
@@ -167,7 +167,7 @@ const Driver: React.FC = () => {
                       </div>
                     </td>
                     <td className='px-6 py-4 whitespace-no-wrap text-right racingpoint border-b border-gray-200'>
-                      <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-gray-100 text'>
+                      <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-tl-xl rounded-br-xl-full bg-gray-100 text'>
                         52
                       </span>
                     </td>

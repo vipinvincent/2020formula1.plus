@@ -7,7 +7,7 @@ const Team: React.FC = () => {
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1'>
         Constructor Standings (2019)
       </div>
-      <div className='relative bg-white-100 rounded shadow-xs'>
+      <div className='relative bg-white-100 rounded-tl-xl rounded-br-xl shadow-xs'>
         <div className='flex flex-col'>
           <div className='px-0'>
             <div className='align-middle inline-block min-w-full overflow-hidden'>
@@ -32,7 +32,7 @@ const Team: React.FC = () => {
                       </div>
                     </td>
                     <td className='px-6 py-4 whitespace-no-wrap border-b border-gray-200 text-right mercedes'>
-                      <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-gray-100 text'>
+                      <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-tl-xl rounded-br-xl-full bg-gray-100 text'>
                         739
                       </span>
                     </td>
@@ -46,7 +46,7 @@ const Team: React.FC = () => {
                       </div>
                     </td>
                     <td className='px-6 py-4 whitespace-no-wrap border-b border-gray-200 text-right ferrari'>
-                      <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-gray-100 text'>
+                      <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-tl-xl rounded-br-xl-full bg-gray-100 text'>
                         504
                       </span>
                     </td>
@@ -60,7 +60,7 @@ const Team: React.FC = () => {
                       </div>
                     </td>
                     <td className='px-6 py-4 whitespace-no-wrap border-b border-gray-200 text-right redbull'>
-                      <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-gray-100 text'>
+                      <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-tl-xl rounded-br-xl-full bg-gray-100 text'>
                         417
                       </span>
                     </td>
@@ -74,7 +74,7 @@ const Team: React.FC = () => {
                       </div>
                     </td>
                     <td className='px-6 py-4 whitespace-no-wrap border-b border-gray-200 text-right mclaren'>
-                      <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-gray-100 text'>
+                      <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-tl-xl rounded-br-xl-full bg-gray-100 text'>
                         145
                       </span>
                     </td>
@@ -88,7 +88,7 @@ const Team: React.FC = () => {
                       </div>
                     </td>
                     <td className='px-6 py-4 whitespace-no-wrap border-b border-gray-200 text-right renault'>
-                      <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-gray-100 text three-d-text'>
+                      <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-tl-xl rounded-br-xl-full bg-gray-100 text three-d-text'>
                         91
                       </span>
                     </td>
@@ -102,7 +102,7 @@ const Team: React.FC = () => {
                       </div>
                     </td>
                     <td className='px-6 py-4 whitespace-no-wrap border-b border-gray-200 text-right alphatauri'>
-                      <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-gray-100 text'>
+                      <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-tl-xl rounded-br-xl-full bg-gray-100 text'>
                         85
                       </span>
                     </td>
@@ -116,7 +116,7 @@ const Team: React.FC = () => {
                       </div>
                     </td>
                     <td className='px-6 py-4 whitespace-no-wrap border-b border-gray-200 text-right racingpoint'>
-                      <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-gray-100 text'>
+                      <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-tl-xl rounded-br-xl-full bg-gray-100 text'>
                         73
                       </span>
                     </td>
@@ -130,7 +130,7 @@ const Team: React.FC = () => {
                       </div>
                     </td>
                     <td className='px-6 py-4 whitespace-no-wrap border-b border-gray-200 text-right alfaromeo'>
-                      <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-gray-100 text'>
+                      <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-tl-xl rounded-br-xl-full bg-gray-100 text'>
                         57
                       </span>
                     </td>
@@ -144,7 +144,7 @@ const Team: React.FC = () => {
                       </div>
                     </td>
                     <td className='px-6 py-4 whitespace-no-wrap border-b border-gray-200 text-right haas'>
-                      <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-gray-100 text'>
+                      <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-tl-xl rounded-br-xl-full bg-gray-100 text'>
                         28
                       </span>
                     </td>
@@ -158,7 +158,7 @@ const Team: React.FC = () => {
                       </div>
                     </td>
                     <td className='px-6 py-4 whitespace-no-wrap border-b border-gray-200 text-right williams'>
-                      <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-gray-100 text'>
+                      <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-tl-xl rounded-br-xl-full bg-gray-100 text'>
                         1
                       </span>
                     </td>

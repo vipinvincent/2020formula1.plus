@@ -8,10 +8,10 @@ const Main: React.FC = () => {
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1'>
         Latest News Austrian GP
       </div>
-      <div className='relative bg-white-100 rounded shadow-xs'>
+      <div className='relative bg-white-100 rounded-tl-xl rounded-br-xl shadow-xs'>
         <div className='h-32 sm:h-84 w-full'>
           <img
-            className='w-full h-full object-cover rounded-t'
+            className='w-full h-full object-cover rounded-tl-xl'
             src='https://img.redbull.com/images/c_crop,x_0,y_168,h_1280,w_3840/c_fill,w_3390,h_1130/q_auto,f_auto/redbullcom/2020/2/12/wedd7uoz4szj5f221wgr/grid-season2-rbr-lead'
             alt='Formula 1 Rolex Grosser Preis Von Österreich 2020'
           />
@@ -56,10 +56,10 @@ const Main: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className='relative bg-white-100 rounded shadow-xs mt-4'>
+      <div className='relative bg-white-100 rounded-tl-xl rounded-br-xl shadow-xs mt-4'>
         <div className='h-32 sm:h-40 lg:absolute lg:left-0 lg:h-full lg:w-1/3'>
           <img
-            className='w-full h-full object-contain rounded-l bg-bbc'
+            className='w-full h-full object-contain rounded-tl-xl bg-bbc'
             src='https://m.files.bbci.co.uk/modules/bbc-morph-sport-seo-meta/1.16.6/images/bbc-sport-logo.png'
             alt='bbc.com/sport'
           />
@@ -99,10 +99,10 @@ const Main: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className='relative bg-white-100 rounded shadow-xs mt-4'>
-        <div className='h-32 sm:h-40 lg:absolute lg:left-0 lg:h-full lg:w-1/3 bg-black-100'>
+      <div className='relative bg-white-100 rounded-tl-xl rounded-br-xl shadow-xs mt-4'>
+        <div className='h-32 sm:h-40 lg:absolute lg:left-0 lg:h-full lg:w-1/3 bg-black-100 rounded-tl-xl'>
           <img
-            className='w-full h-full object-contain rounded-l'
+            className='w-full h-full object-contain rounded-tl-xl'
             src='https://cdn-1.motorsport.com/static/custom/general-motorsport-com-team-2015-motorsport-com-logo.jpg'
             alt='motorsport.com'
           />
@@ -150,10 +150,10 @@ const Main: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className='relative bg-white-100 rounded shadow-xs mt-4'>
+      <div className='relative bg-white-100 rounded-tl-xl rounded-br-xl shadow-xs mt-4'>
         <div className='h-32 sm:h-40 lg:absolute lg:left-0 lg:h-full lg:w-1/3'>
           <img
-            className='w-full h-full object-contain rounded-l bg-skysports'
+            className='w-full h-full object-contain rounded-tl-xl bg-skysports'
             src='https://lh3.googleusercontent.com/-cIoEETaueLkWYUbAizN98H20ES55XwYqvjRwyP7tZPFy4Yrf6xMruUulOooEe47_pU'
             alt='skysports.com'
           />
@@ -197,10 +197,10 @@ const Main: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className='relative bg-white-100 rounded shadow-xs mt-4'>
+      <div className='relative bg-white-100 rounded-tl-xl rounded-br-xl shadow-xs mt-4'>
         <div className='h-32 sm:h-40 lg:absolute lg:left-0 lg:h-full lg:w-1/3'>
           <img
-            className='w-full h-full object-contain rounded-l bg-autosports'
+            className='w-full h-full object-contain rounded-tl-xl bg-autosports'
             src='https://i1.sndcdn.com/avatars-000304785988-u42e59-t500x500.jpg'
             alt='autosport.com'
           />
@@ -245,10 +245,10 @@ const Main: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className='relative bg-white-100 rounded shadow-xs mt-4'>
+      <div className='relative bg-white-100 rounded-tl-xl rounded-br-xl shadow-xs mt-4'>
         <div className='h-32 sm:h-40 w-full'>
           <img
-            className='w-full h-full object-contain rounded-t bg-espn'
+            className='w-full h-full object-contain rounded-tl-xl bg-espn'
             src='https://a1.espncdn.com/combiner/i?img=%2Fi%2Fespn%2Fespn_logos%2Fespn_red.png'
             alt='espn.com'
           />
@@ -295,10 +295,10 @@ const Main: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className='relative bg-white-100 rounded shadow-xs mt-4'>
+      <div className='relative bg-white-100 rounded-tl-xl rounded-br-xl shadow-xs mt-4'>
         <div className='h-32 sm:h-40 lg:absolute lg:left-0 lg:h-full lg:w-1/3'>
           <img
-            className='w-full h-full object-contain rounded-l bg-gray-800 px-8 py-8'
+            className='w-full h-full object-contain rounded-tl-xl bg-gray-800 px-8 py-8'
             src='https://cdn.the-race.com/wp-content/uploads/2020/02/02055753/the-race-logo-full-white.png'
             alt='the-race.com'
           />
@@ -339,10 +339,10 @@ const Main: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className='relative bg-white-100 rounded shadow-xs mt-4'>
+      <div className='relative bg-white-100 rounded-tl-xl rounded-br-xl shadow-xs mt-4'>
         <div className='h-32 sm:h-40 lg:absolute lg:left-0 lg:h-full lg:w-1/3'>
           <img
-            className='w-full h-full object-contain rounded-l bg-white-50 p-8'
+            className='w-full h-full object-contain rounded-tl-xl bg-white-50 p-8'
             src='https://www.grandprix247.com/wp-content/uploads/2019/12/gp247-2020-logo-1200.png'
             alt='grandprix247.com'
           />
@@ -387,10 +387,10 @@ const Main: React.FC = () => {
         </div>
       </div>
 
-      <div className='relative bg-white-100 rounded shadow-xs mt-4'>
+      <div className='relative bg-white-100 rounded-tl-xl rounded-br-xl shadow-xs mt-4'>
         <div className='h-32 sm:h-40 lg:absolute lg:left-0 lg:h-full lg:w-1/3'>
           <img
-            className='w-full h-full object-contain rounded-l bg-white-50 p-8'
+            className='w-full h-full object-contain rounded-tl-xl bg-white-50 p-8'
             src='https://www.planetf1.com/content/themes/planet/img/svg/logo.svg'
             alt='planetf1.com'
           />

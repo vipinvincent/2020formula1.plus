@@ -8,10 +8,10 @@ const Schedule: React.FC = () => {
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1'>
         Circuit Facts - Red Bull Ring
       </div>
-      <div className='relative bg-white-100 rounded shadow-xs mb-4'>
+      <div className='relative bg-white-100 rounded-tl-xl rounded-br-xl shadow-xs mb-4'>
         <div className='h-32 sm:h-40 w-full text-center'>
           <img
-            className='w-full h-full object-contain rounded-t pt-2 text-center'
+            className='w-full h-full object-contain rounded-tl-xl rounded-br-xl-t pt-2 text-center'
             src='https://f1destinations.com/wp-content/uploads/2018/01/RaceCircuitRedBull.png'
             alt='2020 Austrian Grand Prix'
           />
@@ -69,11 +69,11 @@ const Schedule: React.FC = () => {
         2020 Austria GP Race weekend{' '}
         <span className='font-light'>(Track Time)</span>
       </div>
-      <div className='relative bg-white-100 rounded shadow-xs mb-4'>
-        <div className='relative max-w-screen-xl mx-auto'>
+      <div className='relative bg-white-100 rounded-tl-xl rounded-br-xl shadow-xs mb-4'>
+        <div className='relative max-w-screen-xl mx-auto rounded-tl-xl rounded-br-xl'>
           <div className='bg-white overflow-hidden'>
             <div className='px-4 py-5 sm:p-0 text-left'>
-              <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
+              <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200 rounded-tl-xl rounded-br-xl'>
                 <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1'>
                   Practice 1
                 </div>
@@ -120,7 +120,7 @@ const Schedule: React.FC = () => {
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1'>
         Austrian Grand Prix Facts
       </div>
-      <div className='relative bg-white-100 rounded shadow-xs'>
+      <div className='relative bg-white-100 rounded-tl-xl rounded-br-xl shadow-xs'>
         <div className='relative max-w-screen-xl mx-auto'>
           <div className='bg-white overflow-hidden'>
             <div className='px-4 py-5 sm:p-0 text-left'>
