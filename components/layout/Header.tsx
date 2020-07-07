@@ -73,11 +73,11 @@ const Header: React.FC = () => {
         </NavLink>
       </div>
       <div className='lg:order-1 w-full lg:w-4/12'>
-        <div className='w-full flex justify-center lg:justify-start text-sm font-medium h-20 pt-1 pl-1'>
+        <div className='w-full flex justify-center lg:justify-start text-sm font-medium h-20 py-1 pl-1'>
           <NavLink
             target='_self'
             href={'/'}
-            className='border-transparent border border-dotted focus:outline-none focus:border-primary-focus focus:border-dotted active:outline-none active:shadow-none block w-auto h-auto rounded-tl-xxl rounded-br-xxl px-2 grow'>
+            className='border-transparent border border-dotted focus:outline-none focus:border-primary-focus focus:border-dotted active:outline-none active:shadow-none block px-2 grow'>
             <F1Plus />
           </NavLink>
         </div>
