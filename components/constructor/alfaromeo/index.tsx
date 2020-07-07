@@ -7,10 +7,10 @@ const AlfaRomeo: React.FC = () => {
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1'>
         Alfa Romeo Racing F1 - C39
       </div>
-      <div className='relative bg-white-100 rounded-tl-xl rounded-br-xl shadow-xs mb-4'>
+      <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mb-4'>
         <div className='h-32 sm:h-48 lg:h-64 w-full text-center'>
           <img
-            className='w-full h-full object-cover rounded-tl-xl rounded-br-xl-t text-center'
+            className='w-full h-full object-cover rounded-tl-xxl rounded-br-xl-t text-center'
             src='/images/cars/alfa-romeo.jpg'
             alt='Alfa Romeo Racing ORLEN C39'
           />
@@ -66,12 +66,12 @@ const AlfaRomeo: React.FC = () => {
           </div>
         </div>
         <div className='mt-4 pb-2 grid grid-cols-1 gap-5 sm:grid-cols-2 px-4'>
-          <div className='flex flex-col justify-between bg-white-100 overflow-hidden shadow rounded-tl-xl rounded-br-xl border border-gray-100'>
+          <div className='flex flex-col justify-between bg-white-100 overflow-hidden shadow rounded-tl-xxl rounded-br-xxl border border-gray-100'>
             <div className='px-0'>
               <div className='flex flex-row bg-white-100 items-center'>
                 <div className='h-32 sm:h-40 w-full lg:w-1/3 text-center bg-photobg'>
                   <img
-                    className='w-full h-full object-contain rounded-tl-xl rounded-br-xl-t text-center'
+                    className='w-full h-full object-contain rounded-tl-xxl rounded-br-xl-t text-center'
                     src='https://www.formula1.com/content/fom-website/en/drivers/kimi-raikkonen/_jcr_content/image.img.320.medium.jpg/1584013014200.jpg'
                     alt='Kimi Räikkönen'
                   />
@@ -114,7 +114,7 @@ const AlfaRomeo: React.FC = () => {
             </div>
             <div className='bg-gray-100 px-4 py-4 sm:px-6 aifaromeo'>
               <div className='flex items-center justify-center'>
-                <div className='flex-shrink-0 bg-aifaromeo text-xl font-black text-white-100 rounded-tl-xl rounded-br-xl py-2 px-4 w-16 h-12'>
+                <div className='flex-shrink-0 bg-aifaromeo text-xl font-black text-white-100 rounded-tl-xxl rounded-br-xxl py-2 px-4 w-16 h-12'>
                   7
                 </div>
                 <div className='text-xl leading-5 text font-medium flex-0 px-4'>
@@ -123,12 +123,12 @@ const AlfaRomeo: React.FC = () => {
               </div>
             </div>
           </div>
-          <div className='flex flex-col justify-between bg-white-100 overflow-hidden shadow rounded-tl-xl rounded-br-xl border border-gray-100'>
+          <div className='flex flex-col justify-between bg-white-100 overflow-hidden shadow rounded-tl-xxl rounded-br-xxl border border-gray-100'>
             <div className='px-0'>
               <div className='flex flex-row bg-white-100 items-center'>
                 <div className='h-32 sm:h-40 w-full lg:w-1/3 text-center bg-photobg'>
                   <img
-                    className='w-full h-full object-contain rounded-tl-xl rounded-br-xl-t text-center'
+                    className='w-full h-full object-contain rounded-tl-xxl rounded-br-xl-t text-center'
                     src='https://www.formula1.com/content/fom-website/en/drivers/antonio-giovinazzi/_jcr_content/image.img.320.medium.jpg/1584013824254.jpg'
                     alt='Antonio Giovinazzi'
                   />
@@ -170,7 +170,7 @@ const AlfaRomeo: React.FC = () => {
               </div>
               <div className='bg-gray-100 px-4 py-4 sm:px-6 aifaromeo'>
                 <div className='flex items-center justify-center'>
-                  <div className='flex-shrink-0 bg-aifaromeo text-xl font-black text-white-100 rounded-tl-xl rounded-br-xl py-2 px-4 w-16 h-12'>
+                  <div className='flex-shrink-0 bg-aifaromeo text-xl font-black text-white-100 rounded-tl-xxl rounded-br-xxl py-2 px-4 w-16 h-12'>
                     99
                   </div>
                   <div className='text-xl leading-5 text font-medium flex-0 px-4'>
@@ -190,7 +190,7 @@ const AlfaRomeo: React.FC = () => {
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1'>
         Tech Specs <span className='font-light'>(C39)</span>
       </div>
-      <div className='relative bg-white-100 rounded-tl-xl rounded-br-xl shadow-xs mb-4'>
+      <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mb-4'>
         <div className='relative max-w-screen-xl mx-auto'>
           <div className='bg-white overflow-hidden'>
             <div className='px-4 py-5 sm:p-0 text-left'>
@@ -302,7 +302,7 @@ const AlfaRomeo: React.FC = () => {
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1'>
         Racing Point F1 Facts
       </div>
-      <div className='relative bg-white-100 rounded-tl-xl rounded-br-xl shadow-xs'>
+      <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
         <div className='relative max-w-screen-xl mx-auto'>
           <div className='bg-white overflow-hidden'>
             <div className='px-4 py-5 sm:p-0 text-left'>

@@ -9,7 +9,7 @@ const spinTransition = {
 const IndexPage = () => (
   <Layout title='Formula1 Plus - Formula 1 Latest News, Insights, Live Grand Prix Updates, Schedule, Standings, Drivers, Teams, Results and much more...'>
     <div className='w-full h-screen flex flex-col items-center content-center justify-center px-4'>
-      <div className='w-full h-full max-w-5xl rounded-tl-xl rounded-br-xl text-center text-black-70 my-6 mx-24 px-8 pb-4'>
+      <div className='w-full h-full max-w-5xl rounded-tl-xxl rounded-br-xxl text-center text-black-70 my-6 mx-24 px-8 pb-4'>
         <div className='w-full h-full flex flex-col items-center content-center justify-center text-normal font-normal leading-tight'>
           <div className='w-full h-40 sm:h-48 md:h-64 lg:h-64 xl:h-84'>
             <motion.div

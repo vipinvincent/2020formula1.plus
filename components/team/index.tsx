@@ -7,7 +7,7 @@ const Team: React.FC = () => {
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1'>
         Constructor Standings (2020)
       </div>
-      <div className='relative bg-white-100 rounded-tl-xl rounded-br-xl shadow-xs'>
+      <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
         <div className='flex flex-col'>
           <div className='px-0'>
             <div className='align-middle inline-block min-w-full overflow-hidden'>

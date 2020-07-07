@@ -101,6 +101,7 @@ module.exports = {
       },
       borderRadius: {
         xl: '.75rem',
+        xxl: '1rem',
       },
     },
   },

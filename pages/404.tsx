@@ -7,7 +7,7 @@ const Index: NextPage = () => {
   return (
     <Layout title='404 - Page not Found | Formula1 Plus'>
       <div className='w-full h-screen flex flex-col items-center content-center justify-center px-4'>
-        <div className='w-full h-full max-w-5xl rounded-tl-xl rounded-br-xl text-center text-black-70 my-6 mx-24 px-8 pb-8'>
+        <div className='w-full h-full max-w-5xl rounded-tl-xxl rounded-br-xxl text-center text-black-70 my-6 mx-24 px-8 pb-8'>
           <div className='w-full h-full flex flex-col items-center content-center justify-center text-normal font-normal leading-tight'>
             <div className='w-full h-64 md:h-72 lg:h-96'>
               <motion.div
