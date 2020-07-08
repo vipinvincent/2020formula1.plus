@@ -54,7 +54,7 @@ const Main: React.FC = () => {
               for more details...
             </p>
           </div>
-          <div className='flex flex-col md:flex-row justify-start border-t border-gray-200 py-2 md:py-4 px-4 text-sm md:text-lg text-center md:text-left'>
+          {/* <div className='flex flex-col md:flex-row justify-start border-t border-gray-200 py-2 md:py-4 px-4 text-sm md:text-lg text-center md:text-left'>
             <div className='w-full md:w-1/3 pb-2 md:pb-0 md:pr-4'>
               Follow this topic on -
             </div>
@@ -71,7 +71,7 @@ const Main: React.FC = () => {
                 </ActionLink>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
       <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-4'>
