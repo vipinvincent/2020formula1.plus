@@ -46,7 +46,7 @@ const MotorSport: React.FC = () => {
             </ContentLink>{' '}
             for more details...
           </p>
-          <div className='flex flex-col justify-start border-t border-gray-200 mt-4 py-2  px-2 text-sm  text-center'>
+          <div className='flex flex-col justify-start border-t border-gray-200 mt-4 pb-2 px-2 text-sm  text-center'>
             <div className='w-full pb-2 text-sm'>Follow this topic on -</div>
             <div className='w-full flex flex-row justify-center my-1'>
               <div className='mr-2'>
