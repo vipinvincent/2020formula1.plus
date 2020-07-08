@@ -1,4 +1,5 @@
 /* purgecss start ignore */
+
 html,
 body {
   font-family: 'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
@@ -12,241 +13,316 @@ body {
   -webkit-font-smoothing: antialiased;
   box-sizing: border-box;
 }
+
 *,
 *:before,
 *:after {
   box-sizing: border-box;
   margin: 0;
 }
+
 body {
   background: #ffffff;
 }
+
 .container {
   min-width: 320px;
   max-width: 1920px !important;
   margin: 0 auto;
 }
+
 .min-container {
   min-width: 320px;
 }
+
 @media (max-width: 1024px) {
   .navigation {
     height: calc(100vh - 48px) !important;
   }
 }
+
 @media (min-width: 1025px) {
   .navigation {
     height: calc(100vh - 88px) !important;
   }
 }
+
 @media (min-width: 1920px) {
   .navigation {
     height: 4rem !important;
   }
 }
+
 .three-d-text {
   text-shadow: 1px 1px 1px #7f7a00;
 }
+
 @media (max-width: 640px) {
   .navigation .text {
     font-size: 0.5rem;
   }
 }
+
 .ferrari .main-body {
   fill: #dc0000;
 }
+
 .ferrari .side-body {
   fill: #b00000;
 }
+
 .ferrari .halo {
   fill: #534c53;
 }
+
 .ferrari .rear-wing {
   fill: #cc161d;
 }
+
 .ferrari .text {
   color: #dc0000;
 }
+
 .mercedes .main-body {
   fill: #050608;
 }
+
 .mercedes .side-body {
   fill: #00d2be;
 }
+
 .mercedes .halo {
   fill: red;
 }
+
 .mercedes .rear-wing {
   fill: #00d2be;
 }
+
 .mercedes .text {
   color: #00d2be;
 }
+
 .haas .main-body {
   fill: #181212;
 }
+
 .haas .side-body {
   fill: #fafbfd;
 }
+
 .haas .halo {
   fill: #414443;
 }
+
 .haas .rear-wing {
   fill: #fd2333;
 }
+
 .haas .text {
   color: #787878;
 }
+
 .mclaren .main-body {
   fill: #ff8700;
 }
+
 .mclaren .side-body {
   fill: #017de9;
 }
+
 .mclaren .halo {
   fill: #ffab00;
 }
+
 .mclaren .rear-wing {
   fill: #66bdfc;
 }
+
 .mclaren .text {
   color: #ff8700;
 }
+
 .alfaromeo .main-body {
   fill: #a1041c;
 }
+
 .alfaromeo .side-body {
   fill: #cedbe4;
 }
+
 .alfaromeo .halo {
   fill: #ef000a;
 }
+
 .alfaromeo .rear-wing {
   fill: #960000;
 }
+
 .alfaromeo .text {
   color: #960000;
 }
+
 .redbull .main-body {
   fill: #252b35;
 }
+
 .redbull .side-body {
   fill: #fe2b3d;
 }
+
 .redbull .halo {
   fill: #0600ef;
 }
+
 .redbull .rear-wing {
   fill: #f8b506;
 }
+
 .redbull .text {
   color: #0600ef;
 }
+
 .renault .main-body {
   fill: #fff500;
 }
+
 .renault .side-body {
   fill: #000000;
 }
+
 .renault .halo {
   fill: #000000;
 }
+
 .renault .rear-wing {
   fill: #000000;
 }
+
 .renault .text {
   color: #fff500;
 }
+
 .alphatauri .main-body {
   fill: #393c41;
 }
+
 .alphatauri .side-body {
   fill: #ffffff;
 }
+
 .alphatauri .halo {
   fill: #0a2840;
 }
+
 .alphatauri .rear-wing {
   fill: #0a2840;
 }
+
 .alphatauri .text {
   color: #0a2840;
 }
+
 .williams .main-body {
   fill: #ffffff;
 }
+
 .williams .side-body {
   fill: #0082fa;
 }
+
 .williams .halo {
   fill: #0082fa;
 }
+
 .williams .rear-wing {
   fill: #0082fa;
 }
+
 .williams .text {
   color: #0082fa;
 }
+
 .racingpoint .main-body {
   fill: #f596c8;
 }
+
 .racingpoint .side-body {
   fill: #ffffff;
 }
+
 .racingpoint .halo {
   fill: #002e6c;
 }
+
 .racingpoint .rear-wing {
   fill: #002e6c;
 }
+
 .racingpoint .text {
   color: #f596c8;
 }
+
 .bg-ferrari {
   background: #dc0000;
 }
+
 .bg-mercedes {
   background: #00d2be;
 }
+
 .bg-redbull {
   background: #0600ef;
 }
+
 .bg-mclaren {
   background: #ff8700;
 }
+
 .bg-renault {
   background: #fff500;
 }
+
 .bg-racingpoint {
   background: #f596c8;
 }
+
 .bg-alphatauri {
   background: #0a2840;
 }
+
 .bg-aifaromeo {
   background: #960000;
 }
+
 .bg-haas {
   background: #787878;
 }
+
 .bg-williams {
   background: #0082fa;
 }
+
 .bg-espn {
   background: #cc242e;
 }
+
 .bg-skysports {
   background: #ea0519;
 }
+
 .bg-bbc {
   background: #ffd230;
 }
+
 .bg-autosports {
   background: #df0f03;
 }
+
 .bg-photobg {
   background: #3e3c3d;
 }
+
 .grow {
   -moz-osx-font-smoothing: grayscale;
   -webkit-backface-visibility: hidden;
@@ -257,15 +333,18 @@ body {
   transition: transform 0.25s ease-out;
   transition: transform 0.25s ease-out, -webkit-transform 0.25s ease-out;
 }
+
 .grow:hover,
 .grow:focus {
   -webkit-transform: scale(1.05);
   transform: scale(1.05);
 }
+
 .grow:active {
   -webkit-transform: scale(0.9);
   transform: scale(0.9);
 }
+
 .scroll-to-top {
   right: 20px !important;
   bottom: 60px !important;
@@ -273,6 +352,7 @@ body {
   background-color: rgba(0, 0, 0, 0.5) !important;
   outline: none !important;
 }
+
 @media (min-width: 1024px) {
   .scroll-to-top {
     right: 40px !important;
@@ -281,6 +361,7 @@ body {
     background-color: rgba(0, 0, 0, 0.5) !important;
   }
 }
+
 .scroll-to-top svg {
   fill: #cccccc !important;
   height: 25px !important;
@@ -288,7 +369,9 @@ body {
   margin-left: 7px !important;
   margin-bottom: 10px !important;
 }
+
 @tailwind base;
 @tailwind components;
 /* purgecss end ignore */
+
 @tailwind utilities;
