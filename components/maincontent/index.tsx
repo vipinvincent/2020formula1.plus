@@ -22,35 +22,55 @@ const Main: React.FC = () => {
               Formula1.com
             </div>
             <ActionLink
-              href='https://www.formula1.com/en/latest/article.we-have-to-respond-immediately-ferrari-aiming-to-bring-big-update-to-austria.44WBmZABalMXfvWjy9Z3Wu.html'
+              href='https://www.formula1.com/en/latest/article.sore-and-bruised-russell-hoping-for-better-luck-in-styrian-gp-as-mercedes.4oMMmtotexj8quB3jj6aj4.html'
               target='_blank'>
-              'We have to respond immediately' – Ferrari aiming to bring big
-              update to Austria ahead of schedule
+              ‘Sore and bruised’ Russell hoping for better luck in Styrian GP as
+              Mercedes probe engine issue
             </ActionLink>
             <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-              Second place for Charles Leclerc in the first race of the 2020
-              season masked bigger problems for Ferrari and their SF1000. But
-              their drivers and fans have received a boost with news the team is
-              aiming to bring the update initially planned for Hungary forward
-              to this weekend's race in Austria. On the eve of the 2020 season
-              restart, Ferrari admitted they are taking a “significant change of
-              direction in terms of development” after analysing data from
-              winter testing. That means the car they had for Sunday's Austrian
-              Grand Prix was the same as the one which ran in Barcelona, back in
-              February. Their updated car was set to break cover at round three
-              in Hungary, but on Monday, the Italian team revealed they would be
-              bringing forward the update to this weekend’s Styrian GP, which
-              will be held at the Red Bull Ring.
+              George Russell says he’s “sore and bruised” after getting back
+              into a Formula 1 car on the weekend for the first time since
+              February, but is hoping his team and engine suppliers Mercedes can
+              solve the issue that cost him a race finish and potential points
+              in time for the Styrian Grand Prix this Sunday. Russell had just
+              missed out on a first appearance in Q2 by 0.073s on Saturday, and
+              with a number of cars retiring in the early part of the race the
+              chance of points was increasing. Max Verstappen, Daniel Ricciardo,
+              Lance Stroll and Kevin Magnussen had all retired by the time
+              Russell slowed and stopped on the inside of Turn 4, with the
+              Willliams Head of Vehicle Performance Dave Robson going on to say
+              that Mercedes want to work out what happened. The Williams issue
+              was one of two retirements from the six Mercedes-powered cars on
+              Sunday, with Racing Point having to tell Stroll to return to the
+              garage and drop out of the race after he suffered a loss of power.
             </p>
             <p className='mt-1 text-base leading-normal text-gray-700'>
               Visit{' '}
               <ContentLink
-                href='https://www.formula1.com/en/latest/article.we-have-to-respond-immediately-ferrari-aiming-to-bring-big-update-to-austria.44WBmZABalMXfvWjy9Z3Wu.html'
+                href='https://www.formula1.com/en/latest/article.sore-and-bruised-russell-hoping-for-better-luck-in-styrian-gp-as-mercedes.4oMMmtotexj8quB3jj6aj4.html'
                 target='_blank'>
                 formula1.com
               </ContentLink>{' '}
               for more details...
             </p>
+          </div>
+          <div className='flex flex-col md:flex-row justify-start border-t border-gray-200 py-2 md:py-4 px-4 text-sm md:text-lg text-center md:text-left'>
+            <div className='w-full md:w-1/3 pb-2 md:pb-0 md:pr-4'>
+              Follow this topic on -
+            </div>
+            <div className='w-full flex flex-row justify-center md:justify-start md:w-2/3'>
+              <div className='mr-2'>
+                <ActionLink
+                  href='https://www.motorsport.com/f1/news/fernando-alonso-set-renault-f1-return/4827735/'
+                  target='_blank'>
+                  <img
+                    className='w-auto ull h-8 object-contain rounded'
+                    src='https://cdn-1.motorsport.com/static/custom/general-motorsport-com-team-2015-motorsport-com-logo.jpg'
+                    alt='motorsport.com'
+                  />
+                </ActionLink>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -63,37 +83,99 @@ const Main: React.FC = () => {
           />
         </div>
         <div className='relative max-w-screen-xl mx-auto'>
-          <div className='lg:ml-auto lg:w-2/3 px-4 py-4 text-left'>
+          <div className='lg:ml-auto lg:w-2/3 px-4 pt-4 text-left'>
             <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
               bbc.com
             </div>
             <ActionLink
-              href='https://www.bbc.com/sport/formula1/53309834'
+              href='https://www.bbc.com/sport/formula1/53325412'
               target='_blank'>
-              Ferrari bring forward car upgrades for Styrian Grand Prix
+              Fernando Alonso to return to Formula 1 with Renault in 2021
             </ActionLink>
             <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-              Ferrari are bringing forward some planned upgrades to their car
-              after a disappointing showing at the season-opening Austrian Grand
-              Prix. Lead driver Charles Leclerc was runner-up on Sunday, but the
-              car was a second off the pace in qualifying seventh. At this
-              weekend's Styrian Grand Prix, Ferrari will introduce some of the
-              parts originally scheduled for the subsequent race in Hungary. "We
-              have to respond immediately," chief executive officer Louis
-              Camilleri said. "We know there's lots of work to do. This is
-              certainly not the grid position that a team like Ferrari should
-              have. "It's clear that we have to improve on all fronts. The only
-              solution is to react."
+              Fernando Alonso is set to return to Formula 1 with Renault next
+              year. The Spanish two-time world champion, who will be 39 later
+              this month, has signed and will be confirmed soon, sources have
+              told BBC Sport. Alonso will return to the outfit with whom he won
+              his World Championships, and for whom he has already driven twice
+              during his career. He left F1 in 2018 and is due to make a third
+              attempt to win the Indianapolis 500 with McLaren in August. A
+              spokesperson for Renault said the team "declined to comment on
+              rumours". Alonso will partner Frenchman Esteban Ocon and replace
+              Australian Daniel Ricciardo, who is moving to McLaren at the end
+              of this season.
             </p>
             <p className='mt-1 text-base leading-normal text-gray-700'>
               Visit{' '}
               <ContentLink
-                href='https://www.bbc.com/sport/formula1/53309834'
+                href='https://www.bbc.com/sport/formula1/53325412'
                 target='_blank'>
                 bbc.com
               </ContentLink>{' '}
               for more details...
             </p>
+            <div className='flex flex-col xl:flex-row justify-start border-t border-gray-200 mt-4 py-2 md:py-4 px-4 text-sm xl:text-lg text-center xl:text-left'>
+              <div className='w-full xl:w-1/3 pb-2 xl:pb-0 xl:pr-4'>
+                Follow this topic on -
+              </div>
+              <div className='w-full flex flex-row justify-center lg:justify-start md:w-2/3'>
+                <div className='mr-2'>
+                  <ActionLink
+                    href='https://www.motorsport.com/f1/news/fernando-alonso-set-renault-f1-return/4827735/'
+                    target='_blank'>
+                    <img
+                      className='w-auto ull h-8 object-contain rounded'
+                      src='https://cdn-1.motorsport.com/static/custom/general-motorsport-com-team-2015-motorsport-com-logo.jpg'
+                      alt='motorsport.com'
+                    />
+                  </ActionLink>
+                </div>
+                <div className='mr-2'>
+                  <ActionLink
+                    href='https://www.skysports.com/f1/news/12433/12023184/fernando-alonso-to-return-to-f1-with-renault-for-2021-season'
+                    target='_blank'>
+                    <img
+                      className='w-auto ull h-8 object-contain rounded'
+                      src='https://lh3.googleusercontent.com/-cIoEETaueLkWYUbAizN98H20ES55XwYqvjRwyP7tZPFy4Yrf6xMruUulOooEe47_pU'
+                      alt='skysports.com'
+                    />
+                  </ActionLink>
+                </div>
+                <div className='mr-2'>
+                  <ActionLink
+                    href='https://www.autosport.com/f1/news/150405/alonso-set-to-sign-with-renault-f1-team-from-2021'
+                    target='_blank'>
+                    <img
+                      className='w-auto ull h-8 object-contain rounded'
+                      src='https://i1.sndcdn.com/avatars-000304785988-u42e59-t500x500.jpg'
+                      alt='autosport.com'
+                    />
+                  </ActionLink>
+                </div>
+                <div className='mr-2'>
+                  <ActionLink
+                    href='https://www.espn.in/f1/story/_/id/29421931/fernando-alonso-set-return-f1-renault-2021'
+                    target='_blank'>
+                    <img
+                      className='w-auto ull h-8 object-contain rounded'
+                      src='https://a1.espncdn.com/combiner/i?img=%2Fi%2Fespn%2Fespn_logos%2Fespn_red.png'
+                      alt='espn.com'
+                    />
+                  </ActionLink>
+                </div>
+                <div className='mr-2'>
+                  <ActionLink
+                    href='https://the-race.com/formula-1/alonso-to-return-to-f1-with-renault-in-2021-reports/'
+                    target='_blank'>
+                    <img
+                      className='w-auto ull h-6 mt-1 p-1 object-contain rounded bg-gray-800'
+                      src='https://cdn.the-race.com/wp-content/uploads/2020/02/02055753/the-race-logo-full-white.png'
+                      alt='the-race.com'
+                    />
+                  </ActionLink>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -106,43 +188,57 @@ const Main: React.FC = () => {
           />
         </div>
         <div className='relative max-w-screen-xl mx-auto'>
-          <div className='lg:ml-auto lg:w-2/3 px-4 py-4 text-left'>
+          <div className='lg:ml-auto lg:w-2/3 px-4 pt-4 text-left'>
             <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
               motorsport.com
             </div>
             <ActionLink
-              href='https://www.motorsport.com/f1/news/ferrari-reveals-plan-updates-styrian-gp/4827143/'
+              href='https://www.motorsport.com/f1/news/red-bull-undecided-wing-styrian-gp/4827426/'
               target='_blank'>
-              Ferrari reveals plan to bring forward updates for Styrian GP
+              Red Bull undecided on nose concept for Styrian GP
             </ActionLink>
             <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-              Ferrari hopes to fast track some, if not all, of its major
-              Hungarian Grand Prix update package to this weekend’s Styrian GP
-              at the Red Bull Ring. The Italian outfit headed into last
-              weekend’s season opener in Austria aware that it was on the back
-              foot, with its car in the same specification as it had been in
-              pre-season testing. That is because the team uncovered some
-              aerodynamic flaws with the SF1000 during the Barcelona running
-              which it has decided to address with a major overhaul. The changes
-              were originally planned to be introduced at this month’s third
-              round of the season at the Hungaroring. But competitive struggles
-              last weekend have left the team pushing extra hard to bring as
-              many of the new components as possible to this weekend’s Styrian
-              GP. A statement from Ferrari on Monday said that it was flat out
-              with development work at Maranello “in the hope of bringing
-              forward to next weekend the introduction of the aerodynamic
-              package scheduled for the Hungarian Grand Prix – or, at least,
-              some of its components”.
+              Red Bull is undecided on which specification of nose to run with
+              at the Styrian Grand Prix, after going different ways with its two
+              drivers last weekend. Max Verstappen ran with a new concept of
+              nose (inset in the main image) over the Austria weekend while Alex
+              Albon remained with the original version. The team wants to have
+              both cars running in the same specification for the second race in
+              Austria, but needs to go through the data from the weekend to get
+              a definitive answer on which one it thinks has the best potential.
+              "The spec difference was more about characteristics than outright
+              performance," explained Red Bull team boss Christian Horner. "Both
+              drivers will converge on to the same spec next week, but at the
+              moment we're unsure whether it'll be Alex's spec or Max's spec. We
+              need to really look and focus at the data on that."
             </p>
             <p className='mt-1 text-base leading-normal text-gray-700'>
               Visit{' '}
               <ContentLink
-                href='https://www.motorsport.com/f1/news/ferrari-reveals-plan-updates-styrian-gp/4827143/'
+                href='https://www.motorsport.com/f1/news/red-bull-undecided-wing-styrian-gp/4827426/'
                 target='_blank'>
                 motorsport.com
               </ContentLink>{' '}
               for more details...
             </p>
+            <div className='flex flex-col xl:flex-row justify-start border-t border-gray-200 mt-4 py-2 md:py-4 px-4 text-sm xl:text-lg text-center xl:text-left'>
+              <div className='w-full xl:w-1/3 pb-2 xl:pb-0 xl:pr-4'>
+                Follow this topic on -
+              </div>
+              <div className='w-full flex flex-row justify-center lg:justify-start md:w-2/3'>
+                <div className='mr-2'>
+                  <ActionLink
+                    href='https://www.autosport.com/f1/news/150403/red-bull-undecided-on-new-nose-concept'
+                    target='_blank'>
+                    <img
+                      className='w-auto ull h-8 object-contain rounded'
+                      src='https://i1.sndcdn.com/avatars-000304785988-u42e59-t500x500.jpg'
+                      alt='autosport.com'
+                    />
+                  </ActionLink>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -160,26 +256,33 @@ const Main: React.FC = () => {
               skysports.com
             </div>
             <ActionLink
-              href='https://www.skysports.com/f1/news/12475/12022289/red-bull-austrian-gp-brutal-after-max-verstappen-alex-albon-woe'
+              href='https://www.skysports.com/f1/news/12433/12022886/how-f1-returned-and-adapted-at-austrian-gp-rachel-brookes-diary'
               target='_blank'>
-              Red Bull: Austrian GP 'brutal' after Max Verstappen, Alex Albon
-              woe
+              How F1 returned and adapted at Austrian GP | Rachel Brookes' diary
             </ActionLink>
             <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-              Nightmare start to 2020 for hopeful title challengers as
-              Verstappen and Albon both DNF; It "feels pretty brutal", says
-              Horner. Red Bull boss Christian Horner has admitted that leaving
-              the Austrian GP empty-handed "feels pretty brutal" after Max
-              Verstappen and Alex Albon both hit problems on a nightmare start
-              to the team's F1 title quest. Verstappen was running second before
-              his electrical failure while Albon made contact with Lewis
-              Hamilton when challenging for that position before retiring from
-              the race himself, leaving Red Bull with zero points.
+              Rachel Brookes{' '}
+              <span className='text-sm italic'>
+                (Formula 1 Reporter & Columnist)
+              </span>{' '}
+              - Friday March 13 seemed a long time ago as I drove to our Sky
+              headquarters in west London for my first COVID-19 test ahead of
+              F1's return at the Austrian GP. We had managed to make some
+              programmes during the lockdown/shutdown over the internet, but I
+              hadn't seen anyone since landing back from Australia. We had all
+              been at dinner on the Thursday night in Melbourne when we got the
+              message that someone from McLaren had tested positive for
+              coronavirus. Phones started going off and our exec. producer and
+              production manager left the table to make calls. It had been a
+              strange atmosphere in the paddock that day, almost as if we were
+              all waiting for this, the inevitable. We all desperately wanted to
+              go racing but we were also well aware of the developing crisis
+              worldwide and no country was going to escape it.
             </p>
             <p className='mt-1 text-base leading-normal text-gray-700'>
               Visit{' '}
               <ContentLink
-                href='https://www.skysports.com/f1/news/12475/12022289/red-bull-austrian-gp-brutal-after-max-verstappen-alex-albon-woe'
+                href='https://www.skysports.com/f1/news/12433/12022886/how-f1-returned-and-adapted-at-austrian-gp-rachel-brookes-diary'
                 target='_blank'>
                 skysports.com
               </ContentLink>{' '}
@@ -197,38 +300,63 @@ const Main: React.FC = () => {
           />
         </div>
         <div className='relative max-w-screen-xl mx-auto'>
-          <div className='lg:ml-auto lg:w-2/3 px-4 py-4 text-left'>
+          <div className='lg:ml-auto lg:w-2/3 px-4 pt-4 text-left'>
             <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
               autosport.com
             </div>
             <ActionLink
-              href='https://www.autosport.com/f1/news/150387/ferrari-to-fast-track-update-package-for-styrian-gp'
+              href='https://www.autosport.com/f1/news/150404/kubica-gets-alfa-romeo-fp1-outing-at-styrian-gp'
               target='_blank'>
-              Ferrari to fast track update package for F1 Styrian GP
+              Robert Kubica gets Alfa Romeo FP1 outing at F1 Styrian Grand Prix
             </ActionLink>
             <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-              The Ferrari Formula 1 team is now hoping to fast track some, if
-              not all, of its major Hungarian Grand Prix update package to this
-              weekend's Styrian Grand Prix. The Italian outfit braced for last
-              weekend's F1 season opener in Austria aware that it was on the
-              backfoot, with its car in the same specification as it had been in
-              pre-season testing. That is because the team uncovered some
-              aerodynamic flaws with the SF1000 during the Barcelona running
-              which it has decided to address with a major overhaul. The changes
-              were originally planned to be introduced at this month's third
-              round of the season at the Hungaroring. But competitive struggles
-              last weekend left it pushing extra hard to bring as many of the
-              new components as possible to this weekend's Styrian GP.
+              Robert Kubica will make his Formula 1 race weekend return with an
+              opening practice outing for Alfa Romeo at this weekend's Styrian
+              Grand Prix. Kubica, who left Williams at the end of his comeback
+              campaign in 2019, is Alfa's reserve driver for the 2020 season. He
+              will drive Antonio Giovinazzi's C39 in the first practice session
+              at the Red Bull Ring on Friday. Kubica completed two half-day
+              outings for Alfa during pre-season testing, ending up as the
+              fastest driver on the opening morning of the second test.
             </p>
             <p className='mt-1 text-base leading-normal text-gray-700'>
               Visit{' '}
               <ContentLink
-                href='https://www.autosport.com/f1/news/150387/ferrari-to-fast-track-update-package-for-styrian-gp'
+                href='https://www.autosport.com/f1/news/150404/kubica-gets-alfa-romeo-fp1-outing-at-styrian-gp'
                 target='_blank'>
                 autosport.com
               </ContentLink>{' '}
               for more details...
             </p>
+            <div className='flex flex-col xl:flex-row justify-start border-t border-gray-200 mt-4 py-2 md:py-4 px-4 text-sm xl:text-lg text-center xl:text-left'>
+              <div className='w-full xl:w-1/3 pb-2 xl:pb-0 xl:pr-4'>
+                Follow this topic on -
+              </div>
+              <div className='w-full flex flex-row justify-center lg:justify-start md:w-2/3'>
+                <div className='mr-2'>
+                  <ActionLink
+                    href='https://www.motorsport.com/f1/news/kubica-f1-race-return-alfa/4827729/'
+                    target='_blank'>
+                    <img
+                      className='w-auto ull h-8 object-contain rounded'
+                      src='https://cdn-1.motorsport.com/static/custom/general-motorsport-com-team-2015-motorsport-com-logo.jpg'
+                      alt='motorsport.com'
+                    />
+                  </ActionLink>
+                </div>
+                <div className='mr-2'>
+                  <ActionLink
+                    href='https://www.formula1.com/en/latest/article.robert-kubica-to-return-to-f1-action-with-fp1-run-for-alfa-romeo-in-austria.5flmN8g3mJhW0lxw4OP8u4.html'
+                    target='_blank'>
+                    <img
+                      className='w-auto ull h-8 object-contain rounded border border-gray-300'
+                      src='https://d2d0b2rxqzh1q5.cloudfront.net/sv/1.67/dir/f94/image/f940178e6c76f7c28047a26b1704ba0f.jpg'
+                      alt='f1.com'
+                    />
+                  </ActionLink>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -246,28 +374,27 @@ const Main: React.FC = () => {
               espn.com
             </div>
             <ActionLink
-              href='https://www.espn.in/f1/story/_/id/29418526/ferrari-hoping-fast-track-f1-upgrades-second-race'
+              href='https://www.espn.in/f1/story/_/id/29417103/formula-one-boss-brawn-vettel-bound-distracted-ferrari-axe'
               target='_blank'>
-              Ferrari hoping to fast-track F1 upgrades for second race
+              Formula One boss Brawn: Vettel bound to be distracted by Ferrari
+              axe
             </ActionLink>
             <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-              Ferrari hopes it can introduce some of the upgrades it intended to
-              bring to the Hungarian Grand Prix at Formula One's second race in
-              Austria this weekend. Despite Charles Leclerc's second-place
-              finish, the opening race confirmed fears that Ferrari's car is off
-              the pace of Mercedes and Red Bull. Instead, it spent much of the
-              weekend fighting McLaren and Racing Point. Ferrari's poor
-              performance in February's preseason tests had prompted a complete
-              rethink of the SF1000 car. That rethink meant its original batch
-              of upgrades were scrapped in favour of more significant changes,
-              which were not supposed to be ready for the Austria double-header.
-              As a result, the car that raced on Sunday was effectively the same
-              as the one the team used in the final days of preseason testing.
+              Sebastian Vettel endured a nightmare start to the season in
+              Austria on Sunday and Formula One's motorsport managing director
+              Ross Brawn suggested being dropped by Ferrari for 2021 had
+              affected his concentration. Vettel, a four-times world champion
+              with Red Bull, qualified only 11th at the Red Bull Ring and then
+              tangled with McLaren's Carlos Sainz in the race, finishing 10th
+              for the final point on offer. Spaniard Sainz is also the man
+              replacing the German at Maranello next year alongside Charles
+              Leclerc, who finished a surprise second on Sunday despite
+              Ferrari's performance problems.
             </p>
             <p className='mt-1 text-base leading-normal text-gray-700'>
               Visit{' '}
               <ContentLink
-                href='https://www.espn.in/f1/story/_/id/29418526/ferrari-hoping-fast-track-f1-upgrades-second-race'
+                href='https://www.espn.in/f1/story/_/id/29417103/formula-one-boss-brawn-vettel-bound-distracted-ferrari-axe'
                 target='_blank'>
                 espn.com
               </ContentLink>{' '}
@@ -290,38 +417,30 @@ const Main: React.FC = () => {
               the-race.com
             </div>
             <ActionLink
-              href='https://the-race.com/formula-1/why-any-driver-wouldve-made-albons-move-on-hamilton/'
+              href='https://the-race.com/formula-1/mercedes-gearbox-problem-will-reappear-with-current-spec/'
               target='_blank'>
-              Why any driver would’ve made Albon’s move on Hamilton
+              Mercedes’ gearbox problem will reappear with current spec
             </ActionLink>
             <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-              lice Powell is our first columnist in the wake of an Austrian
-              Grand Prix that left her feeling heartbroken for Alex Albon.
-              Congratulations to Valtteri Bottas, but Alex Albon should have
-              been celebrating victory in Austria on Sunday. Without Lewis
-              Hamilton’s intervention, I’m sure he would have been stood atop
-              the makeshift podium. The race was dropping into the Thai driver’s
-              lap. His team-mate, Max Verstappen, retired early and Mercedes had
-              a gearbox issue which resulted in both cars being told to stay off
-              the kerbs. Red Bull rolled the dice as the final safety car came
-              out, pitting for soft tyres to charge down the Mercedes duo, who
-              didn’t pit and had both been on the hard tyres for a number of
-              laps. This was Albon’s chance and then along came Hamilton. The
-              world champion’s five-second penalty for causing a collision was
-              correct. I saw lots of people accusing Albon of being too bold or
-              impatient, but I would have made exactly the same move as he did
-              and I’m sure the vast majority of racing drivers would agree.
-              Sure, the attempt around the outside of Hamilton at Turn 4 was
-              brave, but there were only 11 laps remaining and Albon had two
-              cars to pass. His race engineer would have told him about
-              Mercedes’ gearbox issue and so Albon would have thought, given the
-              Silver Arrows’ straight-line speed and fear of the kerbs, that his
-              best chance of overtaking them was through the corners.
+              Mercedes says its gearbox problem at the Formula 1 season opener
+              will reappear with the car’s current specification but hopes to
+              minimise the impact at the second Austrian race. F1 is sticking
+              with the Red Bull Ring to follow up the Austrian Grand Prix with
+              the Styrian Grand Prix as the same circuit is used twice for the
+              first time in championship history because of the calendar
+              revisions prompted by the coronavirus pandemic. As the teams face
+              the challenges of the Spielberg circuit for the second week in a
+              row, Mercedes could be hit by the gearbox concerns than team boss
+              Toto Wolff said could have been an “instant kill” in Sunday’s
+              grand prix. Mercedes had a critical sensor problem on both cars
+              during the race which it believes is due to oscillations caused by
+              the nature of the aggressive track layout and the impact that has
+              with the specific design of its car.
             </p>
             <p className='mt-1 text-base leading-normal text-gray-700'>
               Visit{' '}
               <ContentLink
-                href='https://the-race.com/formula-1/why-any-driver-wouldve-made-albons-move-on-hamilton/'
+                href='https://the-race.com/formula-1/mercedes-gearbox-problem-will-reappear-with-current-spec/'
                 target='_blank'>
                 the-race.com
               </ContentLink>{' '}
@@ -344,30 +463,30 @@ const Main: React.FC = () => {
               grandprix247.com
             </div>
             <ActionLink
-              href='https://www.grandprix247.com/2020/07/07/ferrari-some-upgrades-to-debut-this-weekend/'
+              href='https://www.grandprix247.com/2020/07/07/italian-media-hot-for-little-prince-leclerc-cool-on-vettel/'
               target='_blank'>
-              Ferrari: Some upgrades to debut this weekend
+              Italian Media hot for Little Prince Leclerc, cool on Vettel
             </ActionLink>
             <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-              Ferrari are planning to speed up the introduction of upgrades to
-              their under-performing Formula One car after a difficult
-              season-opening race in Austria last Sunday. The Italian team had
-              aimed to bring new parts to the July 19 Hungarian Grand Prix but
-              said on Monday they hoped to have some for next weekend’s Styrian
-              Grand Prix at the same Austrian circuit. “The SF1000 (car) didn’t
-              measure up, even compared to expectations ahead of the event,”
-              Ferrari said on their website. “Because of this, development has
-              already been going on at full pace for some time. “This is in the
-              hope of bringing forward to next weekend the introduction of the
-              aerodynamic package scheduled for the Hungarian Grand Prix – or,
-              at least, some of its components.” Ferrari said having two
-              back-to-back races at the same circuit allowed the upgrades to be
-              checked more accurately.
+              The Italian media has hailed “Little Prince” Charles Leclerc’s
+              second-place performance at the 2020 F1 season-opening Austrian
+              Grand Prix, while criticising the other Ferrari driver Sebastian
+              Vettel who did himself no favours when again he fell victim to his
+              own mistake. La Gazzetta dello Sport focused on the positives of
+              Leclerc’s race and wrote, “The talent of Leclerc overcame
+              Ferrari’s shortcomings which bodes well for the young driver’s
+              career. He defended intelligently and attacked when the right time
+              came to do so.” “Who would have thought that Charles Leclerc, in
+              his second year with the team, would be ahead of big favourite
+              Lewis Hamilton in the drivers’ standings. After Ferrari’s mediocre
+              performance in qualifying – almost a second slower at the same
+              venue as they were last year – no one would have dared to predict
+              this, but it happened.”
             </p>
             <p className='mt-1 text-base leading-normal text-gray-700'>
               Visit{' '}
               <ContentLink
-                href='https://www.grandprix247.com/2020/07/07/ferrari-some-upgrades-to-debut-this-weekend/'
+                href='https://www.grandprix247.com/2020/07/07/italian-media-hot-for-little-prince-leclerc-cool-on-vettel/'
                 target='_blank'>
                 grandprix247.com
               </ContentLink>{' '}
@@ -391,27 +510,26 @@ const Main: React.FC = () => {
               planetf1.com
             </div>
             <ActionLink
-              href='https://www.planetf1.com/news/truth-behind-sebastian-vettel-ferrari-split/'
+              href='https://www.planetf1.com/news/red-bull-developing-das/'
               target='_blank'>
-              ‘Truth behind Vettel’s Ferrari split had to come out’
+              Horner: Red Bull may develop ‘more extreme’ DAS
             </ActionLink>
             <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-              Bernie Ecclestone says Sebastian Vettel had to “free himself” by
-              telling the truth about why he is leaving Ferrari at the end of
-              this season. Back in May, Vettel and Ferrari announced that 2020
-              would the four-time World Champion’s sixth and final season racing
-              for the Scuderia. At the time the German in the press released
-              that he and Ferrari no longer had a “common desire” to work
-              together. Weeks later, Vettel revealed that wasn’t the truth.
-              While Ferrari had been stating he was the team’s number one pick
-              to partner Charles Leclerc in 2021, team boss Mattia Binotto
-              phoned Vettel prior to the May announcement to inform him that his
-              services would not be required.
+              Christian Horner has confirmed that Red Bull is working on their
+              own version of DAS, and suggested they may opt for a “more
+              extreme” system. The device designed by Mercedes was a talking
+              point throughout the first race weekend of the system, with Red
+              Bull lodging a protest to the FIA about it. Many believe that they
+              did so that, if it was deemed legal, they’d be able to develop a
+              system of their own. Speaking to Servus TV, Horner confirmed that
+              they are indeed looking into doing so and implementing it at some
+              point this season, and said that they may go for something more
+              “extreme” than the German team.
             </p>
             <p className='mt-1 text-base leading-normal text-gray-700'>
               Visit{' '}
               <ContentLink
-                href='https://www.planetf1.com/news/truth-behind-sebastian-vettel-ferrari-split/'
+                href='https://www.planetf1.com/news/red-bull-developing-das/'
                 target='_blank'>
                 planetf1.com
               </ContentLink>{' '}
