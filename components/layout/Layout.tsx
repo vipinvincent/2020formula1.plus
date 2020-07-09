@@ -28,7 +28,7 @@ const Layout: React.FunctionComponent<Props> = ({
           </div>
           <div
             role='main'
-            className='flex flex-col flex-grow justify-between w-full main-content bg-black-20'>
+            className='flex flex-col flex-grow justify-between w-full main-content bg-black-20 mt-16 xs:mt-0'>
             {children}
           </div>
         </div>
