@@ -10,7 +10,10 @@ const spinTransition = {
 export default function animation() {
   return (
     <SvgContainer>
-      <svg viewBox='0 0 2633 618' version='1.1' className='w-auto h-16 pt-2'>
+      <svg
+        viewBox='0 0 2633 618'
+        version='1.1'
+        className='w-auto h-12 xs:h-16 pt-2'>
         <title>Formula1 Plus - Formula1.plus</title>
         <desc>Created with Sketch by Vipin.</desc>
         <defs>
