@@ -18,33 +18,33 @@ const SkySports: React.FC = () => {
             skysports.com
           </div>
           <ActionLink
-            href='https://www.skysports.com/f1/news/12433/12022886/how-f1-returned-and-adapted-at-austrian-gp-rachel-brookes-diary'
+            href='https://www.skysports.com/f1/news/12433/12024230/fernando-alonso-jenson-button-martin-brundle-on-renault-f1-move'
             target='_blank'>
-            How F1 returned and adapted at Austrian GP | Rachel Brookes' diary
+            Fernando Alonso: Jenson Button and Martin Brundle on Renault F1 move
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Rachel Brookes{' '}
-            <span className='text-sm italic'>
-              (Formula 1 Reporter & Columnist)
-            </span>{' '}
-            - Friday March 13 seemed a long time ago as I drove to our Sky
-            headquarters in west London for my first COVID-19 test ahead of F1's
-            return at the Austrian GP. We had managed to make some programmes
-            during the lockdown/shutdown over the internet, but I hadn't seen
-            anyone since landing back from Australia. We had all been at dinner
-            on the Thursday night in Melbourne when we got the message that
-            someone from McLaren had tested positive for coronavirus. Phones
-            started going off and our exec. producer and production manager left
-            the table to make calls. It had been a strange atmosphere in the
-            paddock that day, almost as if we were all waiting for this, the
-            inevitable. We all desperately wanted to go racing but we were also
-            well aware of the developing crisis worldwide and no country was
-            going to escape it.
+            Sky F1's Jenson Button and Martin Brundle believe Fernando Alonso's
+            return to Formula 1 will be "box-office" and great for the sport,
+            after the two-time champion's 2021 move to Renault was confirmed.
+          </p>
+          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+            Alonso, after two seasons out of F1, will be back next year with the
+            team that took him to his titles in 2005 and 2006, replacing Daniel
+            Ricciardo. Button was one of Alonso's last team-mates in F1 -
+            partnering him at McLaren from 2015 to 2017 - and he admitted he was
+            not surprised that the Spaniard wanted to return, nor that Renault
+            came calling.
+          </p>
+          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+            "Fernando just loves his racing, it doesn't really matter what it
+            is, he wants to get behind the wheel of something," said the 2009
+            world champion ahead of this weekend's Styrian GP - live and
+            exclusive on Sky Sports F1.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.skysports.com/f1/news/12433/12022886/how-f1-returned-and-adapted-at-austrian-gp-rachel-brookes-diary'
+              href='https://www.skysports.com/f1/news/12433/12024230/fernando-alonso-jenson-button-martin-brundle-on-renault-f1-move'
               target='_blank'>
               skysports.com
             </ContentLink>{' '}

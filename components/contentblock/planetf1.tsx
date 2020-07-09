@@ -20,19 +20,24 @@ const PlanetF1: React.FC = () => {
           <ActionLink
             href='https://www.planetf1.com/news/red-bull-developing-das/'
             target='_blank'>
-            Horner: Red Bull may develop ‘more extreme’ DAS
+            Mercedes ‘made wrong call and got away with it’
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Christian Horner has confirmed that Red Bull is working on their own
-            version of DAS, and suggested they may opt for a “more extreme”
-            system. The device designed by Mercedes was a talking point
-            throughout the first race weekend of the system, with Red Bull
-            lodging a protest to the FIA about it. Many believe that they did so
-            that, if it was deemed legal, they’d be able to develop a system of
-            their own. Speaking to Servus TV, Horner confirmed that they are
-            indeed looking into doing so and implementing it at some point this
-            season, and said that they may go for something more “extreme” than
-            the German team.
+            Red Bull’s Christian Horner felt Mercedes made a strategy error in
+            the first race at the Red Bull Ring but “got away with it”.
+          </p>
+          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+            Horner is referencing the fact that Mercedes opted not bring in
+            Valtteri Bottas or Lewis Hamilton during the final Safety Car period
+            and they left themselves vulnerable to attack from Alex Albon, who
+            did pit for fresher, softer rubber. Albon’s race would fall apart
+            soon after the restart due to a collision with Lewis Hamilton which
+            sent him spinning and he was then forced to retire with an
+            electrical issue.
+          </p>
+          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+            Horner said he was surprised not to see Mercedes pit again and feels
+            their strategy mistake has gone unpunished.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}

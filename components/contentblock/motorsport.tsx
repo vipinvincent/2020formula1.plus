@@ -18,29 +18,34 @@ const MotorSport: React.FC = () => {
             motorsport.com
           </div>
           <ActionLink
-            href='https://www.motorsport.com/f1/news/red-bull-undecided-wing-styrian-gp/4827426/'
+            href='https://www.motorsport.com/f1/news/mugello-september-2020-calendar-slot/4828667/?ic_source=home-page-widget&ic_medium=widget&ic_campaign=widget-22'
             target='_blank'>
-            Red Bull undecided on nose concept for Styrian GP
+            Mugello set for September slot on updated F1 calendar
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Red Bull is undecided on which specification of nose to run with at
-            the Styrian Grand Prix, after going different ways with its two
-            drivers last weekend. Max Verstappen ran with a new concept of nose
-            (inset in the main image) over the Austria weekend while Alex Albon
-            remained with the original version. The team wants to have both cars
-            running in the same specification for the second race in Austria,
-            but needs to go through the data from the weekend to get a
-            definitive answer on which one it thinks has the best potential.
-            "The spec difference was more about characteristics than outright
-            performance," explained Red Bull team boss Christian Horner. "Both
-            drivers will converge on to the same spec next week, but at the
-            moment we're unsure whether it'll be Alex's spec or Max's spec. We
-            need to really look and focus at the data on that."
+            Mugello is set to be the first new Formula 1 event to follow the
+            initial schedule of eight European races. The Ferrari-owned venue
+            has been handed the September 13 slot to form the last part of a
+            triple-header, following on from Spa and Monza.
+          </p>
+          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+            It's believed that the name chosen for the race will reflect the
+            support of the local Tuscany region, just as this weekend's second
+            Red Bull Ring event carries the Styria identity.
+          </p>
+          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+            The Russian GP in Sochi is also set to be confirmed on its original
+            date of September 27, with the organisers having already begun to
+            advertise ticket sales, having earlier put them on hold.
+          </p>
+          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+            The move indicates that the race could be one of the first in 2020
+            to allow spectators to attend.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.motorsport.com/f1/news/red-bull-undecided-wing-styrian-gp/4827426/'
+              href='https://www.motorsport.com/f1/news/mugello-september-2020-calendar-slot/4828667/?ic_source=home-page-widget&ic_medium=widget&ic_campaign=widget-22'
               target='_blank'>
               motorsport.com
             </ContentLink>{' '}
@@ -51,7 +56,7 @@ const MotorSport: React.FC = () => {
             <div className='w-full flex flex-row justify-center my-1'>
               <div className='mr-2'>
                 <ActionLink
-                  href='https://www.autosport.com/f1/news/150403/red-bull-undecided-on-new-nose-concept'
+                  href='https://www.autosport.com/f1/news/150436/mugello-to-be-confirmed-in-next-f1-calendar-update'
                   target='_blank'>
                   <img
                     className='w-auto ull h-8 object-contain rounded'

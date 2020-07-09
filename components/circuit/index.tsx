@@ -9,10 +9,10 @@ const Schedule: React.FC = () => {
         Circuit Facts - Red Bull Ring
       </div>
       <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mb-4'>
-        <div className='h-32 sm:h-40 w-full text-center'>
+        <div className='h-32 sm:h-84 w-full text-center'>
           <img
             className='w-full h-full object-contain rounded-tl-xxl rounded-br-xl-t pt-2 text-center'
-            src='https://f1destinations.com/wp-content/uploads/2018/01/RaceCircuitRedBull.png'
+            src='https://upload.wikimedia.org/wikipedia/commons/archive/b/b2/20140623145614%21Circuit_Red_Bull_Ring.svg'
             alt='2020 Austrian Grand Prix'
           />
         </div>

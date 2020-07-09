@@ -18,26 +18,30 @@ const BBC: React.FC = () => {
             bbc.com
           </div>
           <ActionLink
-            href='https://www.bbc.com/sport/formula1/53325412'
+            href='https://www.bbc.com/sport/formula1/53341541'
             target='_blank'>
-            Fernando Alonso to return to Formula 1 with Renault in 2021
+            Fernando Alonso: Renault have discussed Spaniard's reputation for
+            outspokenness
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Fernando Alonso is set to return to Formula 1 with Renault next
-            year. The Spanish two-time world champion, who will be 39 later this
-            month, has signed and will be confirmed soon, sources have told BBC
-            Sport. Alonso will return to the outfit with whom he won his World
-            Championships, and for whom he has already driven twice during his
-            career. He left BBC in 2018 and is due to make a third attempt to
-            win the Indianapolis 500 with McLaren in August. A spokesperson for
-            Renault said the team "declined to comment on rumours". Alonso will
-            partner Frenchman Esteban Ocon and replace Australian Daniel
-            Ricciardo, who is moving to McLaren at the end of this season.
+            Renault say they discussed Fernando Alonso's reputation for
+            outspokenness with him before signing the two-time champion to
+            return to F1 in 2021.
+          </p>
+          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+            Team boss Cyril Abiteboul said a break from the "toxic" F1
+            environment had been "important" for the Spaniard.
+          </p>
+          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+            Abiteboul said Renault had focused on "making sure we don't let him
+            down by over-promising and under-delivering". Two-time world
+            champion Alonso's willingness to speak his mind about the position
+            of his current team has caused tension at times in his career.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.bbc.com/sport/formula1/53325412'
+              href='https://www.bbc.com/sport/formula1/53341541'
               target='_blank'>
               bbc.com
             </ContentLink>{' '}
@@ -48,7 +52,7 @@ const BBC: React.FC = () => {
             <div className='w-full flex flex-row justify-center my-1'>
               <div className='mr-2'>
                 <ActionLink
-                  href='https://www.motorsport.com/f1/news/fernando-alonso-set-renault-f1-return/4827735/'
+                  href='https://www.motorsport.com/f1/news/alonso-renault-abiteboul-toxic-2021/4828636/?ic_source=home-page-widget&ic_medium=widget&ic_campaign=widget-22'
                   target='_blank'>
                   <img
                     className='w-auto ull h-8 object-contain rounded'
@@ -59,7 +63,7 @@ const BBC: React.FC = () => {
               </div>
               <div className='mr-2'>
                 <ActionLink
-                  href='https://www.skysports.com/f1/news/12433/12023184/fernando-alonso-to-return-to-f1-with-renault-for-2021-season'
+                  href='https://www.skysports.com/f1/news/12433/12024236/fernando-alonso-f1-return-renault-boss-expecting-new-driver-in-2021'
                   target='_blank'>
                   <img
                     className='w-auto ull h-8 object-contain rounded'
@@ -70,7 +74,7 @@ const BBC: React.FC = () => {
               </div>
               <div className='mr-2'>
                 <ActionLink
-                  href='https://www.autosport.com/f1/news/150405/alonso-set-to-sign-with-renault-f1-team-from-2021'
+                  href='https://www.autosport.com/f1/news/150432/alonso-has-shaken-toxic-baggage-of-last-f1-spell'
                   target='_blank'>
                   <img
                     className='w-auto ull h-8 object-contain rounded'
@@ -81,7 +85,7 @@ const BBC: React.FC = () => {
               </div>
               <div className='mr-2'>
                 <ActionLink
-                  href='https://www.espn.in/f1/story/_/id/29421931/fernando-alonso-set-return-f1-renault-2021'
+                  href='https://www.espn.in/f1/story/_/id/29432844/fernando-alonso-become-better-driver-leaving-f1'
                   target='_blank'>
                   <img
                     className='w-auto ull h-8 object-contain rounded'
@@ -92,12 +96,12 @@ const BBC: React.FC = () => {
               </div>
               <div className='mr-2'>
                 <ActionLink
-                  href='https://the-race.com/formula-1/alonso-to-return-to-f1-with-renault-in-2021-reports/'
+                  href='https://www.planetf1.com/news/renault-will-be-transparent-with-toxic-free-alonso/'
                   target='_blank'>
                   <img
-                    className='w-auto ull h-6 mt-1 p-1 object-contain rounded bg-gray-800'
-                    src='https://cdn.the-race.com/wp-content/uploads/2020/02/02055753/the-race-logo-full-white.png'
-                    alt='the-race.com'
+                    className='w-auto ull h-8 p-2 object-contain rounded border border-gray-200'
+                    src='https://www.planetf1.com/content/themes/planet/img/svg/logo.svg'
+                    alt='planetf1.com'
                   />
                 </ActionLink>
               </div>

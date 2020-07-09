@@ -20,23 +20,30 @@ const TheRace: React.FC = () => {
           <ActionLink
             href='https://the-race.com/formula-1/mercedes-gearbox-problem-will-reappear-with-current-spec/'
             target='_blank'>
-            Mercedes’ gearbox problem will reappear with current spec
+            Why Albon now has an advantage over Hamilton
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Mercedes says its gearbox problem at the Formula 1 season opener
-            will reappear with the car’s current specification but hopes to
-            minimise the impact at the second Austrian race. F1 is sticking with
-            the Red Bull Ring to follow up the Austrian Grand Prix with the
-            Styrian Grand Prix as the same circuit is used twice for the first
-            time in championship history because of the calendar revisions
-            prompted by the coronavirus pandemic. As the teams face the
-            challenges of the Spielberg circuit for the second week in a row,
-            Mercedes could be hit by the gearbox concerns than team boss Toto
-            Wolff said could have been an “instant kill” in Sunday’s grand prix.
-            Mercedes had a critical sensor problem on both cars during the race
-            which it believes is due to oscillations caused by the nature of the
-            aggressive track layout and the impact that has with the specific
-            design of its car.
+            Alex Albon has an advantage, one he must capitalise on given the
+            opportunity. And it’s all because of his two collisions with Lewis
+            Hamilton in the last three Formula 1 races.
+            <br />
+          </p>
+          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+            Were an on-track situation involving the pair that casts Albon as
+            the aggressor and Hamilton as the defender to arise again, the
+            Mercedes driver surely cannot fail to be more conservative.
+            Regardless of whether you feel the Austrian GP collision merited a
+            penalty or was a racing incident, in terms of the specific dynamics
+            of the clash Hamilton was the one in the wrong.
+            <br />
+          </p>
+          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+            Albon will be very aware that it will be on Hamilton’s mind. While
+            it doesn’t mean the Mercedes driver will simply jump out of the way
+            in battle, he is likely to be more compliant. If that same move
+            happened into Turn 4, this would likely mean he will be far more
+            conservative and not only allow Albon more room but likely even too
+            much room. The likelihood is, he will overcompensate.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
