@@ -8,8 +8,8 @@ const F1: React.FC = () => {
       <div className='h-32 sm:h-84 w-full'>
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
-          src='https://www.formula1.com/content/dam/fom-website/sutton/2020/Austria/Saturday/1254271578.jpg.transform/9col-retina/image.jpg'
-          alt='Red Bull’s power unit fix by Honda'
+          src='https://as00.epimg.net/motor/imagenes/2018/12/14/formula_1/1544825914_755164_1544826107_noticia_normal.jpg'
+          alt='Vettel says he’d take Red Bull seat if offered'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
