@@ -14,7 +14,7 @@ const Main: React.FC = () => {
   return (
     <div className='flex flex-col'>
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1'>
-        Latest News...
+        Latest News FP2 Styrian GP 2020
       </div>
       <F1 />
       <BBC />

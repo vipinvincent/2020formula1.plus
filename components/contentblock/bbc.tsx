@@ -18,35 +18,30 @@ const BBC: React.FC = () => {
             bbc.com
           </div>
           <ActionLink
-            href='https://www.bbc.com/sport/formula1/53355494'
+            href='https://www.bbc.com/sport/formula1/53362027'
             target='_blank'>
-            Lewis Hamilton focused on retaining world title and fighting racism
+            Formula 1: Italy and Russia announced as next venues for season
+            return
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Lewis Hamilton says he is focused on both winning the world
-            championship and fighting racism this year. Formula 1 drivers stood
-            against racism at the season-opening Austrian Grand Prix in which
-            Hamilton finished fourth.
+            Formula 1 has added two more races to its 2020 calendar as it seeks
+            to rebuild the season during the coronavirus crisis.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Hamilton said: "I don't feel like I need to refocus. My race was
-            pretty strong. I need to do a better job but I wouldn't say I was
-            distracted. "I am focused on both - trying to fight and win this
-            championship but also fighting for equal rights."
+            Italy's Mugello will stage its debut Grand Prix on 13 September,
+            with the Russian GP in Sochi on 27 September. The two additions take
+            the total number of races confirmed so far to 10.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            The Mercedes driver had a slightly messy weekend at the Austrian GP,
-            receiving a three-place grid penalty after not slowing for yellow
-            flags in qualifying and then a five-second penalty in the race for a
-            collision with Red Bull's Alexander Albon. The penalty demoted
-            Hamilton to fourth place, while his team-mate Valtteri Bottas won
-            the race and now has a 13-point lead over the Briton in the
-            championship.
+            F1 bosses are aiming to add further races within the coming days and
+            are said still to be on target for a calendar of 15-18 races this
+            year. The Portimao track in Portugal, another venue new to F1, is
+            expected to host a race after Russia.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.bbc.com/sport/formula1/53355494'
+              href='https://www.bbc.com/sport/formula1/53362027'
               target='_blank'>
               bbc.com
             </ContentLink>{' '}
@@ -57,7 +52,18 @@ const BBC: React.FC = () => {
             <div className='w-full flex flex-row justify-center my-1'>
               <div className='mr-2'>
                 <ActionLink
-                  href='https://www.skysports.com/f1/news/12433/12025040/lewis-hamilton-f1-can-learn-from-other-sports-on-showing-united-front'
+                  href='https://www.formula1.com/en/latest/article.formula-1-adds-mugello-and-sochi-to-revised-2020-f1-race-calendar.2tpfQ80LAax8Q0j0OIxdct.html'
+                  target='_blank'>
+                  <img
+                    className='w-auto ull h-8 object-contain rounded border border-gray-300'
+                    src='https://d2d0b2rxqzh1q5.cloudfront.net/sv/1.67/dir/f94/image/f940178e6c76f7c28047a26b1704ba0f.jpg'
+                    alt='f1.com'
+                  />
+                </ActionLink>
+              </div>
+              <div className='mr-2'>
+                <ActionLink
+                  href='https://www.skysports.com/f1/news/12433/12025410/f1-2020-calendar-increases-with-additions-of-mugello-and-russia'
                   target='_blank'>
                   <img
                     className='w-auto ull h-8 object-contain rounded'

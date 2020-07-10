@@ -18,34 +18,32 @@ const AutoSport: React.FC = () => {
             autosport.com
           </div>
           <ActionLink
-            href='https://www.autosport.com/f1/news/150452/mercedes-will-drive-cautious-if-gearbox-fixes-fail'
+            href='https://www.autosport.com/f1/news/150474/racing-point-has-no-space-for-vettel--szafnauer'
             target='_blank'>
-            Bottas: Mercedes duo will have to drive cautiously in F1 Styrian GP
-            if gearbox fixes fail
+            Racing Point has no space for Sebastian Vettel in 2021 - Szafnauer
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Valtteri Bottas reckons he and Lewis Hamilton will have to drive
-            more cautiously in Formula 1's Styrian race if updates in practice
-            do not solve Mercedes' gearbox problems.
+            Racing Point is clear that there is 'no space' at its Formula 1 team
+            for Sebastian Vettel next year, despite the German continuing to be
+            linked with the squad.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            After Mercedes was hampered by a build-up of electrical noise -
-            stemming from vibration caused by the Red Bull Ring's kerbs -
-            threatening the chances of its cars finishing last weekend's
-            Austrian Grand Prix, the team explained the issue was a "complex
-            problem" with no quick fix that would reoccur if the W11 was run in
-            the same arrangement as the season opener.
+            With Vettel not being retained by Ferrari for 2021, his options for
+            staying on in F1 are narrowing, with Renault this week shutting the
+            door on him and signing Fernando Alonso.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            It is understood that Mercedes will bring new parts to its 2020
-            challenger to try and fix the issue, as well as understand it
-            further using additional data, which will be collected during
-            Friday's running.
+            Vettel has said that he would consider returning to Red Bull if an
+            offer was made, but while Mercedes and Red Bull have yet to fully
+            commit to their line-ups for next year, both teams have indicated in
+            recent days that they are almost certain to retain their current
+            drivers. Red Bull team principal Christian Horner told Sky F1 that
+            signing Vettel was a "definite no".
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.autosport.com/f1/news/150452/mercedes-will-drive-cautious-if-gearbox-fixes-fail'
+              href='https://www.autosport.com/f1/news/150474/racing-point-has-no-space-for-vettel--szafnauer'
               target='_blank'>
               autosport.com
             </ContentLink>{' '}
@@ -56,7 +54,7 @@ const AutoSport: React.FC = () => {
             <div className='w-full flex flex-row justify-center my-1'>
               <div className='mr-2'>
                 <ActionLink
-                  href='https://www.formula1.com/en/latest/article.bottas-says-he-may-have-to-drive-differently-in-styrian-gp-as-mercedes-work.5fTyzW23ZPn3YGy3iGPX50.html'
+                  href='https://www.formula1.com/en/latest/article.racing-point-dont-have-space-for-vettel-in-2021-says-szafnauer.1xIcoT6yFDRBjGLh6xeDaQ.html'
                   target='_blank'>
                   <img
                     className='w-auto ull h-8 object-contain rounded border border-gray-300'
@@ -65,10 +63,9 @@ const AutoSport: React.FC = () => {
                   />
                 </ActionLink>
               </div>
-
               <div className='mr-2'>
                 <ActionLink
-                  href='https://www.motorsport.com/f1/news/bottas-hamilton-mercedes-gearbox-caution/4829206/?ic_source=home-page-widget&ic_medium=widget&ic_campaign=widget-22'
+                  href='https://www.motorsport.com/f1/news/racing-point-no-space-vettel-2021/4830027/?ic_source=home-page-widget&ic_medium=widget&ic_campaign=widget-6'
                   target='_blank'>
                   <img
                     className='w-auto ull h-8 object-contain rounded'

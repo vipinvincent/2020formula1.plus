@@ -18,30 +18,31 @@ const GrandPrix: React.FC = () => {
             grandprix247.com
           </div>
           <ActionLink
-            href='https://www.grandprix247.com/2020/07/10/abiteboul-renault-remain-committed-to-driver-academy/'
+            href='https://www.grandprix247.com/2020/07/10/raikkonen-everyone-has-a-right-to-do-what-they-feel-like/'
             target='_blank'>
-            Abiteboul: Renault remain committed to driver academy
+            Raikkonen: Everyone has a right to do what they feel like
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Cyril Abiteboul insists that Renault remains committed to its driver
-            academy, despite the decision to sign Fernando Alonso for the 2021
-            season.
+            Veteran F1 driver Kimi Raikkonen said it was “crazy” to question why
+            six drivers declined to take a knee alongside Lewis Hamilton,
+            insisting “each individual has the right to do what they feel most
+            comfortable.”
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            The two-time Formula 1 world champion will be 39 years old by the
-            time the final season of the current regulations gets underway,
-            while academy drivers Guanyu Zhou and Christian Lundgaard will be
-            forced to wait for their chance.
+            Six-time world champion Lewis Hamilton and 13 other drivers all took
+            a knee on the grid just before last weekend’s season-opening
+            Austrian Grand Prix to show their support of anti-racism protests.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Asked whether the decision to sign Alonso undermined Renault’s
-            commitment to the programme, Abiteboul said that timing had largely
-            influenced their decision.
+            However, six remained standing. They were former world champion
+            Raikkonen, his Alfa Romeo team-mate Antonio Giovinazzi, Ferrari’s
+            Charles Leclerc, Red Bull’s Max Verstappen, Daniil Kvyat of Alpha
+            Tauri and Carlos Sainz of McLaren.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.grandprix247.com/2020/07/10/abiteboul-renault-remain-committed-to-driver-academy/'
+              href='https://www.grandprix247.com/2020/07/10/raikkonen-everyone-has-a-right-to-do-what-they-feel-like/'
               target='_blank'>
               grandprix247.com
             </ContentLink>{' '}

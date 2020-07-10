@@ -20,30 +20,21 @@ const TheRace: React.FC = () => {
           <ActionLink
             href='https://the-race.com/formula-1/gary-anderson-the-first-glimpse-of-ferraris-hurried-update/'
             target='_blank'>
-            Gary Anderson: The first glimpse of Ferrari’s hurried update
+            McLaren can only battle one Racing Point – Seidl
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Ferrari has pushed through part of its planned Hungarian Grand Prix
-            aerodynamic upgrade to trial at the Red Bull Ring this weekend, with
-            a new front wing already appearing in the pitlane.
-            <br />
+            Andreas Seidl believes his McLaren team is only in competition with
+            one Racing Point this weekend because Sergio Perez is out of reach.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Further parts are expected to be revealed tomorrow when the car hits
-            the track for free practice, but for this first part of its catch-up
-            programme it has modified the footplate and the top flap of its
-            front wing.
-            <br />
+            Perez was fastest in first practice for Formula 1’s Styrian Grand
+            Prix on Friday, and backed that performance up by going
+            third-quickest in FP2.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            The footplate of the front wing endplate now has a circular leading
-            edge (blue) as opposed the more rectangular version (green). Also,
-            the trailing edge of the rear flap is reprofiled (blue) as opposed
-            to the old version (green) which appears to have a dip in the
-            middle. The leading edge of the endplate foot change should reduce
-            the sensitivity when that area gets close to the ground during
-            braking and turning into the corner – otherwise I’m not too sure I
-            see it doing much to help the car’s overall performance
+            That put him four tenths of a second clear of the fastest McLaren of
+            Carlos Sainz Jr in fifth, but Sainz was within a tenth of the second
+            Racing Point of Lance Stroll.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}

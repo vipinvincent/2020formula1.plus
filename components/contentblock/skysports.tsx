@@ -13,45 +13,83 @@ const SkySports: React.FC = () => {
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
-        <div className='lg:ml-auto lg:w-2/3 px-4 py-4 text-left'>
+        <div className='lg:ml-auto lg:w-2/3 px-4 pt-4 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
             skysports.com
           </div>
           <ActionLink
-            href='https://www.skysports.com/f1/news/12433/12024949/f1-drivers-explain-different-stances-on-taking-a-knee-at-austrian-gp'
+            href='https://www.skysports.com/f1/news/12433/12025678/lando-norris-collects-grid-penalty-for-styrian-gp-after-rules-breach'
             target='_blank'>
-            F1 drivers explain different stances on taking a knee at Austrian GP
+            Lando Norris collects grid penalty for Styrian GP after rules breach
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Fourteen of F1's drivers took a knee ahead of the Austrian GP, but
-            six did not; Drivers have explained their differing stances. Formula
-            1's drivers have explained their differing stances on taking a knee
-            ahead of last Sunday's Austrian GP after 14 of the 20 on the grid
-            made the gesture.
+            Last Sunday's podium finisher to drop down Sunday's grid from where
+            he qualifies after overtaking Gasly under yellow flags in P1.
+            McLaren Lando Norris has picked up a three-place grid penalty for
+            overtaking under yellow flags at the Styrian GP.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            In a public show against racism and discrimination ahead of the
-            season-opening race coordinated by F1 and the Grand Prix Drivers'
-            Association, all 20 drivers wore T-shirts featuring the message 'End
-            Racism' as they gathered at the front of the grid. Lewis Hamilton's
-            T-shirt also included 'Black Lives Matter' on the front.
+            Last week's third-place finisher will carry the penalty into
+            Saturday's qualifying session after being found guilty of passing
+            Pierre Gasly's AlphaTauri at Turn Five when the yellow flags were
+            showing during Practice One.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            The GPDA said in a statement that drivers would be free to show
-            their support in their own way. Fourteen drivers also took a knee,
-            six did not, meaning there was no collective gesture as seen in
-            other sports such as the Premier League and by the England and West
-            Indies cricket teams before the first Test on Wednesday.
+            "The Stewards heard from the driver of Car 4 (Lando Norris) and the
+            team representative and have reviewed video evidence," read a
+            stewards' statement. "On-board footage clearly shows that driver of
+            Car 4 passed Car 10 while yellow light panels were clearly visible
+            and yellow flags were shown."
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.skysports.com/f1/news/12433/12024949/f1-drivers-explain-different-stances-on-taking-a-knee-at-austrian-gp'
+              href='https://www.skysports.com/f1/news/12433/12025678/lando-norris-collects-grid-penalty-for-styrian-gp-after-rules-breach'
               target='_blank'>
               skysports.com
             </ContentLink>{' '}
             for more details...
           </p>
+          <div className='flex flex-col justify-start border-t border-gray-200 mt-4 pb-2 px-2 text-sm  text-center'>
+            <div className='w-full pb-2 text-sm'>Follow this topic on -</div>
+            <div className='w-full flex flex-row justify-center my-1'>
+              <div className='w-full flex flex-row justify-center my-1'>
+                <div className='mr-2'>
+                  <ActionLink
+                    href='https://www.formula1.com/en/latest/article.norris-handed-styrian-gp-grid-penalty-for-fp1-yellow-flag-infraction.5QfUaE1MCFeMd61tswxXaw.html'
+                    target='_blank'>
+                    <img
+                      className='w-auto ull h-8 object-contain rounded border border-gray-300'
+                      src='https://d2d0b2rxqzh1q5.cloudfront.net/sv/1.67/dir/f94/image/f940178e6c76f7c28047a26b1704ba0f.jpg'
+                      alt='f1.com'
+                    />
+                  </ActionLink>
+                </div>
+                <div className='mr-2'>
+                  <ActionLink
+                    href='https://www.motorsport.com/f1/news/norris-handed-grid-penalty-for-yellow-flag-incident/4830040/?ic_source=home-page-widget&ic_medium=widget&ic_campaign=widget-6'
+                    target='_blank'>
+                    <img
+                      className='w-auto ull h-8 object-contain rounded'
+                      src='https://cdn-1.motorsport.com/static/custom/general-motorsport-com-team-2015-motorsport-com-logo.jpg'
+                      alt='motorsport.com'
+                    />
+                  </ActionLink>
+                </div>
+                <div className='mr-2'>
+                  <ActionLink
+                    href='https://www.autosport.com/f1/news/150473/norris-gets-threeplace-f1-grid-drop-for-styrian-gp'
+                    target='_blank'>
+                    <img
+                      className='w-auto ull h-8 object-contain rounded'
+                      src='https://i1.sndcdn.com/avatars-000304785988-u42e59-t500x500.jpg'
+                      alt='autosport.com'
+                    />
+                  </ActionLink>
+                </div>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
