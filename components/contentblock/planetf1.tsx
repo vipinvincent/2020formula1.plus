@@ -18,31 +18,33 @@ const PlanetF1: React.FC = () => {
             planetf1.com
           </div>
           <ActionLink
-            href='https://www.planetf1.com/news/red-bull-developing-das/'
+            href='https://www.planetf1.com/news/charles-leclerc-warned-over-breach/'
             target='_blank'>
-            Mercedes ‘made wrong call and got away with it’
+            Leclerc warned over coronavirus breach
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Red Bull’s Christian Horner felt Mercedes made a strategy error in
-            the first race at the Red Bull Ring but “got away with it”.
+            Ferrari’s Charles Leclerc has escaped with a warning after breaking
+            Formula One’s strict Covid-19 protocol. All F1 personnel are
+            required to remain within their so-called bubbles between races as a
+            precaution against the virus.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Horner is referencing the fact that Mercedes opted not bring in
-            Valtteri Bottas or Lewis Hamilton during the final Safety Car period
-            and they left themselves vulnerable to attack from Alex Albon, who
-            did pit for fresher, softer rubber. Albon’s race would fall apart
-            soon after the restart due to a collision with Lewis Hamilton which
-            sent him spinning and he was then forced to retire with an
-            electrical issue.
+            But a picture of the 22-year-old Leclerc posing with a waiter at a
+            Monte Carlo restaurant this week emerged on social media. An FIA
+            spokesperson told the PA news agency: “Ferrari have been issued with
+            a reminder and warned that any further breaches of the Covid-19 Code
+            of Conduct could be referred to the stewards.”
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Horner said he was surprised not to see Mercedes pit again and feels
-            their strategy mistake has gone unpunished.
+            Leclerc was found to have breached Article 3.14 of the code, which
+            reads: “Any time outside the venue during a covered event or between
+            covered events must be spent with other members of the same group,
+            keeping interaction with persons outside that group to a minimum.”
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.planetf1.com/news/red-bull-developing-das/'
+              href='https://www.planetf1.com/news/charles-leclerc-warned-over-breach/'
               target='_blank'>
               planetf1.com
             </ContentLink>{' '}

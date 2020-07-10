@@ -18,37 +18,37 @@ const TheRace: React.FC = () => {
             the-race.com
           </div>
           <ActionLink
-            href='https://the-race.com/formula-1/mercedes-gearbox-problem-will-reappear-with-current-spec/'
+            href='https://the-race.com/formula-1/gary-anderson-the-first-glimpse-of-ferraris-hurried-update/'
             target='_blank'>
-            Why Albon now has an advantage over Hamilton
+            Gary Anderson: The first glimpse of Ferrari’s hurried update
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Alex Albon has an advantage, one he must capitalise on given the
-            opportunity. And it’s all because of his two collisions with Lewis
-            Hamilton in the last three Formula 1 races.
+            Ferrari has pushed through part of its planned Hungarian Grand Prix
+            aerodynamic upgrade to trial at the Red Bull Ring this weekend, with
+            a new front wing already appearing in the pitlane.
             <br />
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Were an on-track situation involving the pair that casts Albon as
-            the aggressor and Hamilton as the defender to arise again, the
-            Mercedes driver surely cannot fail to be more conservative.
-            Regardless of whether you feel the Austrian GP collision merited a
-            penalty or was a racing incident, in terms of the specific dynamics
-            of the clash Hamilton was the one in the wrong.
+            Further parts are expected to be revealed tomorrow when the car hits
+            the track for free practice, but for this first part of its catch-up
+            programme it has modified the footplate and the top flap of its
+            front wing.
             <br />
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Albon will be very aware that it will be on Hamilton’s mind. While
-            it doesn’t mean the Mercedes driver will simply jump out of the way
-            in battle, he is likely to be more compliant. If that same move
-            happened into Turn 4, this would likely mean he will be far more
-            conservative and not only allow Albon more room but likely even too
-            much room. The likelihood is, he will overcompensate.
+            The footplate of the front wing endplate now has a circular leading
+            edge (blue) as opposed the more rectangular version (green). Also,
+            the trailing edge of the rear flap is reprofiled (blue) as opposed
+            to the old version (green) which appears to have a dip in the
+            middle. The leading edge of the endplate foot change should reduce
+            the sensitivity when that area gets close to the ground during
+            braking and turning into the corner – otherwise I’m not too sure I
+            see it doing much to help the car’s overall performance
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://the-race.com/formula-1/mercedes-gearbox-problem-will-reappear-with-current-spec/'
+              href='https://the-race.com/formula-1/gary-anderson-the-first-glimpse-of-ferraris-hurried-update/'
               target='_blank'>
               the-race.com
             </ContentLink>{' '}

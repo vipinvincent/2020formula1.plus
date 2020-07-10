@@ -18,32 +18,30 @@ const GrandPrix: React.FC = () => {
             grandprix247.com
           </div>
           <ActionLink
-            href='https://www.grandprix247.com/2020/07/08/alonso-in-formula-1-the-stopwatch-matters-not-the-age/'
+            href='https://www.grandprix247.com/2020/07/10/abiteboul-renault-remain-committed-to-driver-academy/'
             target='_blank'>
-            Alonso: In Formula 1 the stopwatch matters, not the age
+            Abiteboul: Renault remain committed to driver academy
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Two-times Formula 1 world champion Fernando Alonso said age was not
-            the issue after securing a comeback deal with Renault to race into
-            his forties. The Spaniard turns 39 this month and, after two seasons
-            out, will be returning next year with the team that took him to his
-            titles in 2005 and 2006.
+            Cyril Abiteboul insists that Renault remains committed to its driver
+            academy, despite the decision to sign Fernando Alonso for the 2021
+            season.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            “In Formula 1 for many years the stopwatch is the only thing that
-            matters, not the age,” Alonso told reporters in a video news
-            conference on Wednesday. “I never had a race classification based on
-            the passport, date of birth. Always on the time watch.”
+            The two-time Formula 1 world champion will be 39 years old by the
+            time the final season of the current regulations gets underway,
+            while academy drivers Guanyu Zhou and Christian Lundgaard will be
+            forced to wait for their chance.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Alonso will be the oldest driver next year if his former Ferrari
-            teammate Kimi Raikkonen, already 40 and now with Alfa Romeo, decides
-            to stop.
+            Asked whether the decision to sign Alonso undermined Renault’s
+            commitment to the programme, Abiteboul said that timing had largely
+            influenced their decision.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.grandprix247.com/2020/07/08/alonso-in-formula-1-the-stopwatch-matters-not-the-age/'
+              href='https://www.grandprix247.com/2020/07/10/abiteboul-renault-remain-committed-to-driver-academy/'
               target='_blank'>
               grandprix247.com
             </ContentLink>{' '}

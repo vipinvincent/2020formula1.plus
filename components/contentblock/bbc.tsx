@@ -18,30 +18,35 @@ const BBC: React.FC = () => {
             bbc.com
           </div>
           <ActionLink
-            href='https://www.bbc.com/sport/formula1/53341541'
+            href='https://www.bbc.com/sport/formula1/53355494'
             target='_blank'>
-            Fernando Alonso: Renault have discussed Spaniard's reputation for
-            outspokenness
+            Lewis Hamilton focused on retaining world title and fighting racism
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Renault say they discussed Fernando Alonso's reputation for
-            outspokenness with him before signing the two-time champion to
-            return to F1 in 2021.
+            Lewis Hamilton says he is focused on both winning the world
+            championship and fighting racism this year. Formula 1 drivers stood
+            against racism at the season-opening Austrian Grand Prix in which
+            Hamilton finished fourth.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Team boss Cyril Abiteboul said a break from the "toxic" F1
-            environment had been "important" for the Spaniard.
+            Hamilton said: "I don't feel like I need to refocus. My race was
+            pretty strong. I need to do a better job but I wouldn't say I was
+            distracted. "I am focused on both - trying to fight and win this
+            championship but also fighting for equal rights."
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Abiteboul said Renault had focused on "making sure we don't let him
-            down by over-promising and under-delivering". Two-time world
-            champion Alonso's willingness to speak his mind about the position
-            of his current team has caused tension at times in his career.
+            The Mercedes driver had a slightly messy weekend at the Austrian GP,
+            receiving a three-place grid penalty after not slowing for yellow
+            flags in qualifying and then a five-second penalty in the race for a
+            collision with Red Bull's Alexander Albon. The penalty demoted
+            Hamilton to fourth place, while his team-mate Valtteri Bottas won
+            the race and now has a 13-point lead over the Briton in the
+            championship.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.bbc.com/sport/formula1/53341541'
+              href='https://www.bbc.com/sport/formula1/53355494'
               target='_blank'>
               bbc.com
             </ContentLink>{' '}
@@ -52,56 +57,12 @@ const BBC: React.FC = () => {
             <div className='w-full flex flex-row justify-center my-1'>
               <div className='mr-2'>
                 <ActionLink
-                  href='https://www.motorsport.com/f1/news/alonso-renault-abiteboul-toxic-2021/4828636/?ic_source=home-page-widget&ic_medium=widget&ic_campaign=widget-22'
-                  target='_blank'>
-                  <img
-                    className='w-auto ull h-8 object-contain rounded'
-                    src='https://cdn-1.motorsport.com/static/custom/general-motorsport-com-team-2015-motorsport-com-logo.jpg'
-                    alt='motorsport.com'
-                  />
-                </ActionLink>
-              </div>
-              <div className='mr-2'>
-                <ActionLink
-                  href='https://www.skysports.com/f1/news/12433/12024236/fernando-alonso-f1-return-renault-boss-expecting-new-driver-in-2021'
+                  href='https://www.skysports.com/f1/news/12433/12025040/lewis-hamilton-f1-can-learn-from-other-sports-on-showing-united-front'
                   target='_blank'>
                   <img
                     className='w-auto ull h-8 object-contain rounded'
                     src='https://lh3.googleusercontent.com/-cIoEETaueLkWYUbAizN98H20ES55XwYqvjRwyP7tZPFy4Yrf6xMruUulOooEe47_pU'
                     alt='skysports.com'
-                  />
-                </ActionLink>
-              </div>
-              <div className='mr-2'>
-                <ActionLink
-                  href='https://www.autosport.com/f1/news/150432/alonso-has-shaken-toxic-baggage-of-last-f1-spell'
-                  target='_blank'>
-                  <img
-                    className='w-auto ull h-8 object-contain rounded'
-                    src='https://i1.sndcdn.com/avatars-000304785988-u42e59-t500x500.jpg'
-                    alt='autosport.com'
-                  />
-                </ActionLink>
-              </div>
-              <div className='mr-2'>
-                <ActionLink
-                  href='https://www.espn.in/f1/story/_/id/29432844/fernando-alonso-become-better-driver-leaving-f1'
-                  target='_blank'>
-                  <img
-                    className='w-auto ull h-8 object-contain rounded'
-                    src='https://a1.espncdn.com/combiner/i?img=%2Fi%2Fespn%2Fespn_logos%2Fespn_red.png'
-                    alt='espn.com'
-                  />
-                </ActionLink>
-              </div>
-              <div className='mr-2'>
-                <ActionLink
-                  href='https://www.planetf1.com/news/renault-will-be-transparent-with-toxic-free-alonso/'
-                  target='_blank'>
-                  <img
-                    className='w-auto ull h-8 p-2 object-contain rounded border border-gray-200'
-                    src='https://www.planetf1.com/content/themes/planet/img/svg/logo.svg'
-                    alt='planetf1.com'
                   />
                 </ActionLink>
               </div>

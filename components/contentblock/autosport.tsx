@@ -18,29 +18,34 @@ const AutoSport: React.FC = () => {
             autosport.com
           </div>
           <ActionLink
-            href='https://www.autosport.com/f1/news/150433/russell-set-for-new-power-unit-at-styrian-gp'
+            href='https://www.autosport.com/f1/news/150452/mercedes-will-drive-cautious-if-gearbox-fixes-fail'
             target='_blank'>
-            Russell set for new Mercedes power unit after Austrian GP failure
+            Bottas: Mercedes duo will have to drive cautiously in F1 Styrian GP
+            if gearbox fixes fail
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Williams Formula 1 driver George Russell will take new Mercedes
-            power unit elements for the second race of the season at the Red
-            Bull Ring this weekend.
+            Valtteri Bottas reckons he and Lewis Hamilton will have to drive
+            more cautiously in Formula 1's Styrian race if updates in practice
+            do not solve Mercedes' gearbox problems.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Russell, who had been running as high as 12th place during the 2020
-            F1 season opener, suffered engine issues on lap 49 which triggered a
-            safety car period.
+            After Mercedes was hampered by a build-up of electrical noise -
+            stemming from vibration caused by the Red Bull Ring's kerbs -
+            threatening the chances of its cars finishing last weekend's
+            Austrian Grand Prix, the team explained the issue was a "complex
+            problem" with no quick fix that would reoccur if the W11 was run in
+            the same arrangement as the season opener.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Upon initial assessment at the Red Bull Ring after the race,
-            Williams described the problem as a fuel pressure issue, which led
-            the team to tell him to switch the engine off.
+            It is understood that Mercedes will bring new parts to its 2020
+            challenger to try and fix the issue, as well as understand it
+            further using additional data, which will be collected during
+            Friday's running.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.autosport.com/f1/news/150433/russell-set-for-new-power-unit-at-styrian-gp'
+              href='https://www.autosport.com/f1/news/150452/mercedes-will-drive-cautious-if-gearbox-fixes-fail'
               target='_blank'>
               autosport.com
             </ContentLink>{' '}
@@ -51,7 +56,7 @@ const AutoSport: React.FC = () => {
             <div className='w-full flex flex-row justify-center my-1'>
               <div className='mr-2'>
                 <ActionLink
-                  href='https://www.formula1.com/en/latest/article.george-russell-to-take-fresh-power-unit-for-styrian-gp-after-austria-failure.6vQQ4jGEyPG3KmjUZbgAN0.html'
+                  href='https://www.formula1.com/en/latest/article.bottas-says-he-may-have-to-drive-differently-in-styrian-gp-as-mercedes-work.5fTyzW23ZPn3YGy3iGPX50.html'
                   target='_blank'>
                   <img
                     className='w-auto ull h-8 object-contain rounded border border-gray-300'
@@ -63,7 +68,7 @@ const AutoSport: React.FC = () => {
 
               <div className='mr-2'>
                 <ActionLink
-                  href='https://www.motorsport.com/f1/news/russell-engine-change-styrian-gp/4828606/?ic_source=home-page-widget&ic_medium=widget&ic_campaign=widget-6'
+                  href='https://www.motorsport.com/f1/news/bottas-hamilton-mercedes-gearbox-caution/4829206/?ic_source=home-page-widget&ic_medium=widget&ic_campaign=widget-22'
                   target='_blank'>
                   <img
                     className='w-auto ull h-8 object-contain rounded'

@@ -18,33 +18,35 @@ const SkySports: React.FC = () => {
             skysports.com
           </div>
           <ActionLink
-            href='https://www.skysports.com/f1/news/12433/12024230/fernando-alonso-jenson-button-martin-brundle-on-renault-f1-move'
+            href='https://www.skysports.com/f1/news/12433/12024949/f1-drivers-explain-different-stances-on-taking-a-knee-at-austrian-gp'
             target='_blank'>
-            Fernando Alonso: Jenson Button and Martin Brundle on Renault F1 move
+            F1 drivers explain different stances on taking a knee at Austrian GP
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Sky F1's Jenson Button and Martin Brundle believe Fernando Alonso's
-            return to Formula 1 will be "box-office" and great for the sport,
-            after the two-time champion's 2021 move to Renault was confirmed.
+            Fourteen of F1's drivers took a knee ahead of the Austrian GP, but
+            six did not; Drivers have explained their differing stances. Formula
+            1's drivers have explained their differing stances on taking a knee
+            ahead of last Sunday's Austrian GP after 14 of the 20 on the grid
+            made the gesture.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Alonso, after two seasons out of F1, will be back next year with the
-            team that took him to his titles in 2005 and 2006, replacing Daniel
-            Ricciardo. Button was one of Alonso's last team-mates in F1 -
-            partnering him at McLaren from 2015 to 2017 - and he admitted he was
-            not surprised that the Spaniard wanted to return, nor that Renault
-            came calling.
+            In a public show against racism and discrimination ahead of the
+            season-opening race coordinated by F1 and the Grand Prix Drivers'
+            Association, all 20 drivers wore T-shirts featuring the message 'End
+            Racism' as they gathered at the front of the grid. Lewis Hamilton's
+            T-shirt also included 'Black Lives Matter' on the front.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            "Fernando just loves his racing, it doesn't really matter what it
-            is, he wants to get behind the wheel of something," said the 2009
-            world champion ahead of this weekend's Styrian GP - live and
-            exclusive on Sky Sports F1.
+            The GPDA said in a statement that drivers would be free to show
+            their support in their own way. Fourteen drivers also took a knee,
+            six did not, meaning there was no collective gesture as seen in
+            other sports such as the Premier League and by the England and West
+            Indies cricket teams before the first Test on Wednesday.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.skysports.com/f1/news/12433/12024230/fernando-alonso-jenson-button-martin-brundle-on-renault-f1-move'
+              href='https://www.skysports.com/f1/news/12433/12024949/f1-drivers-explain-different-stances-on-taking-a-knee-at-austrian-gp'
               target='_blank'>
               skysports.com
             </ContentLink>{' '}

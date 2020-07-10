@@ -18,34 +18,43 @@ const F1: React.FC = () => {
             Formula1.com
           </div>
           <ActionLink
-            href='https://www.formula1.com/en/latest/article.honda-introduce-power-unit-fix-for-this-weekends-race-after-red-bulls-double.3lcuvU9uD80l0Nu8b3fiHN.html'
+            href='https://www.formula1.com/en/latest/article.vettel-says-hed-take-red-bull-seat-if-offered-but-verstappen-would-prefer-to.6rC5OsifstIe237yLfl2FT.html'
             target='_blank'>
-            Honda introduce power unit fix for this weekend’s race after Red
-            Bull’s double Austria DNF
+            Vettel says he’d take Red Bull seat if offered – but Verstappen sees
+            no reason not to stick with Albon
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Red Bull Team Principal Christian Horner reckoned victory could have
-            been on the cards in the season-opening Austrian Grand Prix until an
-            electrical issue forced both Max Verstappen and Alex Albon out of
-            the race. Ahead of the Styrian GP, being held at the same track this
-            weekend, power unit supplier Honda have applied a fix…
+            Will Sebastian Vettel be on the F1 grid in 2021? And if so, will it
+            be with a team capable of winning races? Those are the questions
+            fans have been asking since it was announced he would be leaving
+            Ferrari at the end of this season. Yesterday the door to an opening
+            at Renault slammed shut with the news Fernando Alonso was returning
+            to partner Esteban Ocon – so what of the possibility of a move back
+            to Red Bull, with whom he won his four world titles?
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Mercedes were the class of the field in both qualifying and the
-            race, but Horner felt Red Bull’s performance, particularly in race
-            trim, would have been enough to take the fight to the Silver Arrows
-            had it not been for the mechanical issues.
+            Speaking ahead of this weekend’s Styrian Grand Prix, Vettel admitted
+            great affection for his former team, even going so far as to say
+            he’d accept the offer of a seat with the team if it arrived.
+            “Generally I’m of the conviction that if you want to win you have to
+            be happy to take on anyone,” said Vettel, who also confirmed that
+            he’d had no solid conversations with Renault about a move. “I know
+            the team very, very well from my past, so of course I am still in
+            contact with a lot of people there whether Christian [Horner, Team
+            Principal], Helmut [Marko, Red Bull advisor] or others.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Investigations started immediately, and despite time being against
-            them – there are only four days between last Sunday’s race and first
-            practice for round two at the Red Bull Ring on Friday – Honda have
-            found a solution.
+            “Red Bull has a winning car, they are a very strong team. I know how
+            strong they are from the past. "It’s not fair to say I know the team
+            inside out because it has also changed and moved on, but I know why
+            they were strong back then and they are still an F1 contender and
+            it’s a car that you can win races in, so for sure that would be
+            interesting.”
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.formula1.com/en/latest/article.honda-introduce-power-unit-fix-for-this-weekends-race-after-red-bulls-double.3lcuvU9uD80l0Nu8b3fiHN.html'
+              href='https://www.formula1.com/en/latest/article.vettel-says-hed-take-red-bull-seat-if-offered-but-verstappen-would-prefer-to.6rC5OsifstIe237yLfl2FT.html'
               target='_blank'>
               formula1.com
             </ContentLink>{' '}
@@ -59,56 +68,23 @@ const F1: React.FC = () => {
           <div className='w-full flex flex-row justify-center md:justify-start md:w-9/12'>
             <div className='mr-2'>
               <ActionLink
-                href='https://www.motorsport.com/f1/news/verstappen-albon-honda-engine-countermeasures/4828629/?ic_source=home-page-widget&ic_medium=widget&ic_campaign=widget-22'
+                href='https://www.skysports.com/f1/news/24182/12025015/sebastian-vettel-confirms-renault-talks-would-say-yes-to-red-bull'
                 target='_blank'>
                 <img
                   className='w-auto ull h-8 object-contain rounded'
-                  src='https://cdn-1.motorsport.com/static/custom/general-motorsport-com-team-2015-motorsport-com-logo.jpg'
-                  alt='motorsport.com'
+                  src='https://lh3.googleusercontent.com/-cIoEETaueLkWYUbAizN98H20ES55XwYqvjRwyP7tZPFy4Yrf6xMruUulOooEe47_pU'
+                  alt='skysports.com'
                 />
               </ActionLink>
             </div>
             <div className='mr-2'>
               <ActionLink
-                href='https://www.autosport.com/f1/news/150435/honda-applies-countermeasures-after-red-bull-double-dnf'
-                target='_blank'>
-                <img
-                  className='w-auto ull h-8 object-contain rounded'
-                  src='https://i1.sndcdn.com/avatars-000304785988-u42e59-t500x500.jpg'
-                  alt='autosport.com'
-                />
-              </ActionLink>
-            </div>
-            <div className='mr-2'>
-              <ActionLink
-                href='https://the-race.com/formula-1/honda-has-countermeasures-for-red-bulls-engine-issues/'
+                href='https://the-race.com/formula-1/vettel-on-a-red-bull-return-renault-talks-and-2021-options/'
                 target='_blank'>
                 <img
                   className='w-auto ull h-8 mt-0 p-2 object-contain rounded bg-gray-800'
                   src='https://cdn.the-race.com/wp-content/uploads/2020/02/02055753/the-race-logo-full-white.png'
                   alt='the-race.com'
-                />
-              </ActionLink>
-            </div>
-            <div className='mr-2'>
-              <ActionLink
-                href='https://www.grandprix247.com/2020/07/09/honda-max-and-alex-will-use-their-same-pus-this-weekend/'
-                target='_blank'>
-                <img
-                  className='w-auto ull h-8 p-3 object-contain rounded border border-gray-200'
-                  src='https://www.grandprix247.com/wp-content/uploads/2019/12/gp247-2020-logo-1200.png'
-                  alt='grandprix247.com'
-                />
-              </ActionLink>
-            </div>
-            <div className='mr-2'>
-              <ActionLink
-                href='https://www.planetf1.com/news/different-electrical-issues-caused-red-bull-dnfs/'
-                target='_blank'>
-                <img
-                  className='w-auto ull h-8 p-2 object-contain rounded border border-gray-200'
-                  src='https://www.planetf1.com/content/themes/planet/img/svg/logo.svg'
-                  alt='planetf1.com'
                 />
               </ActionLink>
             </div>

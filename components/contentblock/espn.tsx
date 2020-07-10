@@ -18,29 +18,28 @@ const ESPN: React.FC = () => {
             espn.com
           </div>
           <ActionLink
-            href='https://www.espn.in/f1/story/_/id/29432798/racing-point-mclaren-fight-ferrari-third'
+            href='https://www.espn.in/f1/story/_/id/29434620/what-reverse-grid-styrian-grand-prix-looked-weekend'
             target='_blank'>
-            Magnussen: Racing Point, McLaren could fight Ferrari for third
+            What would a reverse-grid Styrian Grand Prix have looked like this
+            weekend?
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Kevin Magnussen thinks Racing Point and McLaren could challenge
-            Ferrari for 'best of the rest' behind Mercedes and Red Bull. That
-            unofficial title is normally given to the best team in the midfield,
-            which in recent seasons has been a long way behind the top three
-            group of Mercedes, Red Bull and Ferrari. While Racing Point appears
-            to have made a big step forward this season, Ferrari's SF1000 car
-            looks to have gone in the opposite direction.
+            Ahead of the rescheduled 2020 season, Formula One discussed the idea
+            of running a reverse grid qualifying race at this weekend's Styrian
+            Grand Prix, the name given to the second race at Austria's Red Bull
+            Ring.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Ferrari has also pledged to fast-track as many of the upgrades it
-            had planned for the third race, the Hungarian Grand Prix, for this
-            weekend's race. The Red Bull Ring is set to host its second race in
-            seven days, the Styrian Grand Prix.
+            The concept was fairly simple. To make back-to-back races at the
+            same venue more exciting, F1's traditional qualifying session would
+            be replaced by a short race, with the starting decided by reversing
+            the championship standings. The finishing order of the qualifying
+            race would then determine the grid for Sunday's grand prix.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.espn.in/f1/story/_/id/29432798/racing-point-mclaren-fight-ferrari-third'
+              href='https://www.espn.in/f1/story/_/id/29434620/what-reverse-grid-styrian-grand-prix-looked-weekend'
               target='_blank'>
               espn.com
             </ContentLink>{' '}

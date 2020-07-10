@@ -18,34 +18,39 @@ const MotorSport: React.FC = () => {
             motorsport.com
           </div>
           <ActionLink
-            href='https://www.motorsport.com/f1/news/mugello-september-2020-calendar-slot/4828667/?ic_source=home-page-widget&ic_medium=widget&ic_campaign=widget-22'
+            href='https://www.motorsport.com/f1/news/lewis-hamilton-kaepernick-take-knee/4829307/?ic_source=home-page-widget&ic_medium=widget&ic_campaign=widget-22'
             target='_blank'>
-            Mugello set for September slot on updated F1 calendar
+            Hamilton warned of ‘consequences’ over Kaepernick F1 helmet plan
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Mugello is set to be the first new Formula 1 event to follow the
-            initial schedule of eight European races. The Ferrari-owned venue
-            has been handed the September 13 slot to form the last part of a
-            triple-header, following on from Spa and Monza.
+            Lewis Hamilton has revealed he was warned of “potential
+            consequences” for racing with a helmet paying tribute to Colin
+            Kaepernick that forced him to abandon the plan. Amid ongoing
+            activism against racism around the world, Hamilton has been the
+            leading voice in F1 condemning racial injustice.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            It's believed that the name chosen for the race will reflect the
-            support of the local Tuscany region, just as this weekend's second
-            Red Bull Ring event carries the Styria identity.
+            He was joined by 13 other drivers in taking a knee before the start
+            of last Sunday’s Austrian Grand Prix, a gesture made famous by
+            American football player Kaepernick in 2016 in a protest against
+            racial injustice and police brutality. Hamilton revealed after the
+            race that he had planned to run a helmet in tribute to Kaepernick at
+            the United States Grand Prix, and regretted not doing so after being
+            “silenced”.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            The Russian GP in Sochi is also set to be confirmed on its original
-            date of September 27, with the organisers having already begun to
-            advertise ticket sales, having earlier put them on hold.
-          </p>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            The move indicates that the race could be one of the first in 2020
-            to allow spectators to attend.
+            Speaking ahead of this weekend’s Styrian Grand Prix, Hamilton
+            revealed he was warned of consequences for wearing the helmet by a
+            high-ranking official. “I was advised from outside, from someone in
+            the States who was really quite high up, that it wasn't the time for
+            me to be doing so,” Hamilton said. “There were potential
+            consequences for me doing it. So that's why they advised me not to
+            do it.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.motorsport.com/f1/news/mugello-september-2020-calendar-slot/4828667/?ic_source=home-page-widget&ic_medium=widget&ic_campaign=widget-22'
+              href='https://www.motorsport.com/f1/news/lewis-hamilton-kaepernick-take-knee/4829307/?ic_source=home-page-widget&ic_medium=widget&ic_campaign=widget-22'
               target='_blank'>
               motorsport.com
             </ContentLink>{' '}
@@ -56,12 +61,23 @@ const MotorSport: React.FC = () => {
             <div className='w-full flex flex-row justify-center my-1'>
               <div className='mr-2'>
                 <ActionLink
-                  href='https://www.autosport.com/f1/news/150436/mugello-to-be-confirmed-in-next-f1-calendar-update'
+                  href='https://www.autosport.com/f1/news/150451/hamilton-warned-of-consequences-for-kaepernick-helmet'
                   target='_blank'>
                   <img
                     className='w-auto ull h-8 object-contain rounded'
                     src='https://i1.sndcdn.com/avatars-000304785988-u42e59-t500x500.jpg'
                     alt='autosport.com'
+                  />
+                </ActionLink>
+              </div>
+              <div className='mr-2'>
+                <ActionLink
+                  href='https://www.espn.in/f1/story/_/id/29434921/hamilton-was-warned-consequences-supporting-kaepernick'
+                  target='_blank'>
+                  <img
+                    className='w-auto ull h-8 object-contain rounded'
+                    src='https://a1.espncdn.com/combiner/i?img=%2Fi%2Fespn%2Fespn_logos%2Fespn_red.png'
+                    alt='espn.com'
                   />
                 </ActionLink>
               </div>
