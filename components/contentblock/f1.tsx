@@ -8,8 +8,8 @@ const F1: React.FC = () => {
       <div className='h-32 sm:h-84 w-full'>
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
-          src='https://s3-eu-west-1.amazonaws.com/crash.net/styles/large_article/s3/image_importer/F1/1-1594392945.jpg?itok=VMlFFRaq'
-          alt='Daniel Ricciardo limping following the massive accident during FP2'
+          src='https://thewashingtontime.com/wp-content/uploads/2020/07/Lewis-Hamilton-beats-Verstappen-in-soaked-Styrian-GP-qualifying-as.jpgstripallquality100w1200h800crop1.jpeg'
+          alt='Hamilton storms to a wet pole by 1.2s for Styrian GP'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
