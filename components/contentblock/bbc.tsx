@@ -13,51 +13,53 @@ const BBC: React.FC = () => {
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
-        <div className='lg:ml-auto lg:w-2/3 px-4 pt-4 text-left'>
+        <div className='lg:ml-auto lg:w-2/3 px-4 py-4 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
             bbc.com
           </div>
           <ActionLink
-            href='https://www.bbc.com/sport/formula1/53362027'
+            href='https://www.bbc.com/sport/formula1/53375758'
             target='_blank'>
-            Formula 1: Italy and Russia announced as next venues for season
-            return
+            Hungarian Grand Prix: F1 drivers risk imprisonment or fines if
+            lockdown rules are broken
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Formula 1 has added two more races to its 2020 calendar as it seeks
-            to rebuild the season during the coronavirus crisis.
+            Formula 1 drivers and team personnel risk imprisonment or a hefty
+            fine if they break lockdown restrictions at next weekend's Hungarian
+            Grand Prix.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Italy's Mugello will stage its debut Grand Prix on 13 September,
-            with the Russian GP in Sochi on 27 September. The two additions take
-            the total number of races confirmed so far to 10.
+            British and non-European Union citizens have been told by the
+            government they must stay within the confines of the track or their
+            hotels at all times.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            F1 bosses are aiming to add further races within the coming days and
-            are said still to be on target for a calendar of 15-18 races this
-            year. The Portimao track in Portugal, another venue new to F1, is
-            expected to host a race after Russia.
+            Anyone caught breaking the rules faces a €15,000 fine and/or a
+            prison spell. All meals have to be eaten at the track or at their
+            hotel and using public transport and taxis is forbidden. Seven of
+            the 10 teams are based in the UK and although staff come from all
+            over the world, the restrictions will apply to many.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.bbc.com/sport/formula1/53362027'
+              href='https://www.bbc.com/sport/formula1/53375758'
               target='_blank'>
               bbc.com
             </ContentLink>{' '}
             for more details...
           </p>
-          <div className='flex flex-col justify-start border-t border-gray-200 mt-4 pb-2 px-2 text-sm  text-center'>
+          {/* <div className='flex flex-col justify-start border-t border-gray-200 mt-4 pb-2 px-2 text-sm  text-center'>
             <div className='w-full pb-2 text-sm'>Follow this topic on -</div>
             <div className='w-full flex flex-row justify-center my-1'>
               <div className='mr-2'>
                 <ActionLink
-                  href='https://www.formula1.com/en/latest/article.formula-1-adds-mugello-and-sochi-to-revised-2020-f1-race-calendar.2tpfQ80LAax8Q0j0OIxdct.html'
+                  href='https://the-race.com/formula-1/leclerc-summoned-to-stewards-over-two-separate-incidents/'
                   target='_blank'>
                   <img
                     className='w-auto ull h-8 object-contain rounded border border-gray-300'
-                    src='https://d2d0b2rxqzh1q5.cloudfront.net/sv/1.67/dir/f94/image/f940178e6c76f7c28047a26b1704ba0f.jpg'
-                    alt='f1.com'
+                    src='https://cdn.the-race.com/wp-content/uploads/2020/02/02055753/the-race-logo-full-white.png'
+                    alt='the-race.com'
                   />
                 </ActionLink>
               </div>
@@ -73,7 +75,7 @@ const BBC: React.FC = () => {
                 </ActionLink>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

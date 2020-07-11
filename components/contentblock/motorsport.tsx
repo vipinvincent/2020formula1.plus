@@ -18,34 +18,32 @@ const MotorSport: React.FC = () => {
             motorsport.com
           </div>
           <ActionLink
-            href='https://www.motorsport.com/f1/news/vettel-ferrari-different-car-austria/4830419/'
+            href='https://www.motorsport.com/f1/news/leclerc-investigation-qualifying-styrian-gp/4831246/'
             target='_blank'>
-            Vettel says SF1000 feels like a "different car" after updates
+            Leclerc under double investigation after qualifying
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Sebastian Vettel says that the Ferrari SF1000 feels like "a
-            different car" despite only finishing 16th in second Formula 1
-            practice for the Styrian Grand Prix.
+            Charles Leclerc is facing a double investigation after qualifying
+            for the Styrian Grand Prix, with stewards investigating him impeding
+            another car and failing to abort a lap for a red flag.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Vettel struggled through the second half of last weekend in Austria,
-            qualifying 11th before finishing 10th in the race after a clash with
-            McLaren's Carlos Sainz. Vettel was blighted by balance issues
-            throughout qualifying and the race, something Ferrari aimed to
-            remedy by fast-tracking some of its Hungary update package to the
-            second Austria race.
+            The Ferrari driver had a difficult time in the wet conditions, and
+            had got knocked out at the end of Q2 to take a provisional 11th spot
+            on the grid. However, he could face a grid drop after the FIA said
+            he had been summoned over two offences.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            While Vettel could only finish 16th in FP2 between the Williams pair
-            of George Russell and Nicholas Latifi, he said the feeling in the
-            cockpit was already "a lot better than last week"."If you look at
-            the timing sheet, obviously I got the lap deleted and it was not a
-            great day for lap times," Vettel said.
+            The first was for failing to return to the pits immediately after
+            the red flag was shown at the end of Q1 for Antonio Giovinazzi's
+            stranded Alfa Romeo. The FIA regulations state that in the event of
+            a red flag: "When the signal is given to stop all cars must
+            immediately reduce speed and proceed slowly back to the pitlane."
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.motorsport.com/f1/news/vettel-ferrari-different-car-austria/4830419/'
+              href='https://www.motorsport.com/f1/news/leclerc-investigation-qualifying-styrian-gp/4831246/'
               target='_blank'>
               motorsport.com
             </ContentLink>{' '}
@@ -56,10 +54,32 @@ const MotorSport: React.FC = () => {
             <div className='w-full flex flex-row justify-center my-1'>
               <div className='mr-2'>
                 <ActionLink
+                  href='https://www.autosport.com/f1/news/150497/leclerc-faces-double-investigation-after-qualifying'
+                  target='_blank'>
+                  <img
+                    className='w-auto h-8 object-contain rounded'
+                    src='https://i1.sndcdn.com/avatars-000304785988-u42e59-t500x500.jpg'
+                    alt='autosport.com'
+                  />
+                </ActionLink>
+              </div>
+              <div className='mr-2'>
+                <ActionLink
+                  href='https://the-race.com/formula-1/leclerc-summoned-to-stewards-over-two-separate-incidents/'
+                  target='_blank'>
+                  <img
+                    className='w-auto h-8 mt-0 p-2 object-contain rounded bg-gray-800'
+                    src='https://cdn.the-race.com/wp-content/uploads/2020/02/02055753/the-race-logo-full-white.png'
+                    alt='the-race.com'
+                  />
+                </ActionLink>
+              </div>
+              {/* <div className='mr-2'>
+                <ActionLink
                   href='https://www.formula1.com/en/latest/article.ferrari-is-like-a-different-car-on-high-fuel-after-new-upgrades-says-vettel.6XkXtzZbL6XvBQh82lXjSU.html'
                   target='_blank'>
                   <img
-                    className='w-auto ull h-8 object-contain rounded border border-gray-300'
+                    className='w-auto h-8 object-contain rounded border border-gray-300'
                     src='https://d2d0b2rxqzh1q5.cloudfront.net/sv/1.67/dir/f94/image/f940178e6c76f7c28047a26b1704ba0f.jpg'
                     alt='f1.com'
                   />
@@ -70,7 +90,7 @@ const MotorSport: React.FC = () => {
                   href='https://www.skysports.com/f1/news/12433/12025894/ferrari-styrian-gp-upgrade-sebastian-vettel-charles-leclercs-verdicts'
                   target='_blank'>
                   <img
-                    className='w-auto ull h-8 object-contain rounded'
+                    className='w-auto h-8 object-contain rounded'
                     src='https://lh3.googleusercontent.com/-cIoEETaueLkWYUbAizN98H20ES55XwYqvjRwyP7tZPFy4Yrf6xMruUulOooEe47_pU'
                     alt='skysports.com'
                   />
@@ -78,15 +98,15 @@ const MotorSport: React.FC = () => {
               </div>
               <div className='mr-2'>
                 <ActionLink
-                  href='https://www.autosport.com/f1/news/150485/vettel-updated-ferrari-felt-like-a-different-car'
+                  href='https://www.autosport.com/f1/news/150497/leclerc-faces-double-investigation-after-qualifying'
                   target='_blank'>
                   <img
-                    className='w-auto ull h-8 object-contain rounded'
+                    className='w-auto h-8 object-contain rounded'
                     src='https://i1.sndcdn.com/avatars-000304785988-u42e59-t500x500.jpg'
                     alt='autosport.com'
                   />
                 </ActionLink>
-              </div>
+              </div> */}
             </div>
           </div>
         </div>

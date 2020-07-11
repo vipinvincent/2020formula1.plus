@@ -18,28 +18,33 @@ const TheRace: React.FC = () => {
             the-race.com
           </div>
           <ActionLink
-            href='https://the-race.com/formula-1/gary-anderson-the-first-glimpse-of-ferraris-hurried-update/'
+            href='https://the-race.com/formula-1/f1s-on-the-limit-qualifying-call-praised-by-drivers/'
             target='_blank'>
-            McLaren can only battle one Racing Point – Seidl
+            F1’s ‘on the limit’ qualifying call praised by drivers
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Andreas Seidl believes his McLaren team is only in competition with
-            one Racing Point this weekend because Sergio Perez is out of reach.
+            Styrian Grand Prix poleman Lewis Hamilton says Formula 1 nailed an
+            “on the limit” call to allow qualifying to take place in full in the
+            wet at the Red Bull Ring.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Perez was fastest in first practice for Formula 1’s Styrian Grand
-            Prix on Friday, and backed that performance up by going
-            third-quickest in FP2.
+            The F1 paddock went into Saturday pessimistic about the possibility
+            of track action taking place, but while the morning’s practice
+            session was rained out, qualifying did take place with minimal
+            delays after an initial 46-minute wait.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            That put him four tenths of a second clear of the fastest McLaren of
-            Carlos Sainz Jr in fifth, but Sainz was within a tenth of the second
-            Racing Point of Lance Stroll.
+            All three segments were held, and Hamilton – who would’ve had to
+            start sixth on the basis of Friday afternoon results if qualifying
+            had been completely shelved this weekend – eventually took pole
+            position by over a second, revelling in the conditions. The Formula
+            2 feature race was set to get going following F1’s qualifying, but
+            was red-flagged after several formation laps.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://the-race.com/formula-1/gary-anderson-the-first-glimpse-of-ferraris-hurried-update/'
+              href='https://the-race.com/formula-1/f1s-on-the-limit-qualifying-call-praised-by-drivers/'
               target='_blank'>
               the-race.com
             </ContentLink>{' '}

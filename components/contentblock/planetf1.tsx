@@ -13,44 +13,43 @@ const PlanetF1: React.FC = () => {
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
-        <div className='lg:ml-auto lg:w-2/3 px-4 pt-4 text-left'>
+        <div className='lg:ml-auto lg:w-2/3 px-4 py-4 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
             planetf1.com
           </div>
           <ActionLink
-            href='https://www.planetf1.com/news/williams-toto-wolff-investment/'
+            href='https://www.planetf1.com/news/ferrari-styrian-grand-prix/'
             target='_blank'>
-            Williams clarify Wolff investment reports
+            Back-to-back Q2 exits for struggling Ferrari
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Williams deputy principal Claire Williams has revealed that Toto
-            Wolff actually retained his shares in the team due to a failed
-            transaction.
+            For the second Saturday in a row Ferrari lost a car in Q2, this time
+            it was Charles Leclerc at the Styrian Grand Prix. It looked like it
+            was going to be a washout at the Red Bull Ring for qualifying for
+            Round Two of the 2020 season.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Reports stated that the Austrian businessman had purchased a 5%
-            stake in the company at a time where they were actively searching
-            for new investment. Wolff left Williams to join Mercedes in 2013, at
-            which point he owned a 15% stake, and he was required to sell those
-            shares on.
+            But the session got underway, and the struggling Scuderia would have
+            hoped that the wet weather would allow for Leclerc and Sebastian
+            Vettel to make up for some of the performance lacking in the SF1000,
+            instead using their skills in the lottery that is wet-weather
+            racing.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            American businessman Brad Hollinger purchased the last of his shares
-            in 2016 according to reports, but Claire Williams has revealed that
-            actually the transaction for the final 5% of the shares didn’t go
-            through. “The reports weren’t correct,” she said in the FIA press
-            conference in quotes initially carried by Autosport.
+            But it didn’t turn out that way with Leclerc getting eliminated in
+            P11, whilst Vettel only just squeezed through into the top 10
+            shootout for pole.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.planetf1.com/news/williams-toto-wolff-investment/'
+              href='https://www.planetf1.com/news/ferrari-styrian-grand-prix/'
               target='_blank'>
               planetf1.com
             </ContentLink>{' '}
             for more details...
           </p>
-          <div className='flex flex-col justify-start border-t border-gray-200 mt-4 pb-2 px-2 text-sm  text-center'>
+          {/* <div className='flex flex-col justify-start border-t border-gray-200 mt-4 pb-2 px-2 text-sm  text-center'>
             <div className='w-full pb-2 text-sm'>Follow this topic on -</div>
             <div className='w-full flex flex-row justify-center my-1'>
               <div className='mr-2'>
@@ -58,7 +57,7 @@ const PlanetF1: React.FC = () => {
                   href='https://www.motorsport.com/f1/news/williams-wolff-shareholding-mercedes/4830004/?ic_source=home-page-widget&ic_medium=widget&ic_campaign=widget-6'
                   target='_blank'>
                   <img
-                    className='w-auto ull h-8 object-contain rounded'
+                    className='w-auto h-8 object-contain rounded'
                     src='https://cdn-1.motorsport.com/static/custom/general-motorsport-com-team-2015-motorsport-com-logo.jpg'
                     alt='motorsport.com'
                   />
@@ -69,14 +68,14 @@ const PlanetF1: React.FC = () => {
                   href='https://www.autosport.com/f1/news/150472/williams-explains-wolff-shareholding-in-team'
                   target='_blank'>
                   <img
-                    className='w-auto ull h-8 object-contain rounded'
+                    className='w-auto h-8 object-contain rounded'
                     src='https://i1.sndcdn.com/avatars-000304785988-u42e59-t500x500.jpg'
                     alt='autosport.com'
                   />
                 </ActionLink>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

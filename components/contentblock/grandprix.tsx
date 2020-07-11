@@ -18,32 +18,30 @@ const GrandPrix: React.FC = () => {
             grandprix247.com
           </div>
           <ActionLink
-            href='https://www.grandprix247.com/2020/07/11/fia-heavy-rain-forecast-for-saturday-preparing-for-sunday-qualifying/'
+            href='https://www.grandprix247.com/2020/07/11/brawn-so-far-so-good-but-no-complacency-with-covid-19/'
             target='_blank'>
-            FIA: Heavy rain forecast for Saturday, preparing for Sunday
-            qualifying
+            Brawn: So far so good, but no complacency with COVID-19
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Qualifying for this weekend’s Styrian Grand Prix is likely to be
-            moved to Sunday, with forecasts indicating heavy rain at the Red
-            Bull Ring on Saturday.
+            Formula 1’s managing director for motorsport Ross Brawn has warned
+            against complacency after thousands of negative COVID-19 tests,
+            saying on Saturday there was bound to be a positive at some point.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Speaking on Friday, FIA race director Michael Masi indicated that
-            Formula 1 is preparing for other eventualities with regards to
-            qualifying, as there is a 76% chance of rain that is likely to
-            intensify as the day goes on.
+            The latest batch of 4,566 tests carried out at Austria’s Red Bull
+            Ring between July 3-9 were all negative, as were the previous 4,032
+            conducted between June 26 and July 2.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            In such an event, Masi says there are three options available. “If a
-            worst case scenario was to come about, we’ve already had a look, and
-            qualifying could take place on Sunday morning,” he told RaceFans.
-            “So that’s a great option there.”
+            The Australian Grand Prix on March 15, which would have been the
+            season-opener, was cancelled after a McLaren team employee tested
+            positive but the sport has come up with a system that allows racing
+            to continue if that happens again.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.grandprix247.com/2020/07/11/fia-heavy-rain-forecast-for-saturday-preparing-for-sunday-qualifying/'
+              href='https://www.grandprix247.com/2020/07/11/brawn-so-far-so-good-but-no-complacency-with-covid-19/'
               target='_blank'>
               grandprix247.com
             </ContentLink>{' '}
