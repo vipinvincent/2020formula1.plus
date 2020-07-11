@@ -18,32 +18,36 @@ const ESPN: React.FC = () => {
             espn.com
           </div>
           <ActionLink
-            href='https://www.espn.in/f1/story/_/id/29439328/red-bull-racing-point-not-considering-vettel-2021'
+            href='https://www.espn.in/f1/story/_/id/29441122/where-mercedes-pace-gone-red-bull-step-forward-genuine'
             target='_blank'>
-            Red Bull and Racing Point not considering Vettel for 2021
+            Friday analysis: Where has Mercedes' pace gone? Is Red Bull's step
+            forward genuine?
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Red Bull team principal Christian Horner has confirmed Sebastian
-            Vettel is not being considered as Max Verstappen's teammate next
-            year, despite the four-time world champion showing interest in a
-            return.
+            Albert Einstein once defined insanity as doing the same thing over
+            and over while expecting different results. Based on that logic,
+            predicting anything other than a Mercedes win at this weekend's race
+            in Austria -- the second in as many weeks to be held at the Red Bull
+            Ring -- just might validate Einstein's poin
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Vettel will be replaced by Carlos Sainz at Ferrari next year and it
-            is looking increasingly unlikely that he will remain on the F1 grid
-            in 2021.
+            Yet the raw data from Friday practice for Sunday's Styrian Grand
+            Prix suggests Red Bull are now the favourites and Mercedes has
+            slipped to second. That's a big turnaround from this time last week,
+            when Mercedes finished Friday with a 0.6s advantage over the rest of
+            the field and looked to have a comfortable margin in the race
+            despite regular Safety Cars.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            He revealed on Thursday that he has held talks with Renault, but
-            that option closed off when the French manufacturer signed Fernando
-            this week. Red Bull has a deal with Verstappen until the end of
-            2023, but has yet to confirm Alex Albon, who joined the team from
-            Toro Rosso last year, as his teammate for 2021.
+            This week, Mercedes' best time in the second practice was another
+            0.6s faster than the equivalent session seven days ago, but Red Bull
+            has found over twice as much to move Max Verstappen 0.043s clear of
+            Valtteri Bottas at the front of the field.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.espn.in/f1/story/_/id/29439328/red-bull-racing-point-not-considering-vettel-2021'
+              href='https://www.espn.in/f1/story/_/id/29441122/where-mercedes-pace-gone-red-bull-step-forward-genuine'
               target='_blank'>
               espn.com
             </ContentLink>{' '}

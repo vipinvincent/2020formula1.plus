@@ -18,31 +18,32 @@ const GrandPrix: React.FC = () => {
             grandprix247.com
           </div>
           <ActionLink
-            href='https://www.grandprix247.com/2020/07/10/raikkonen-everyone-has-a-right-to-do-what-they-feel-like/'
+            href='https://www.grandprix247.com/2020/07/11/fia-heavy-rain-forecast-for-saturday-preparing-for-sunday-qualifying/'
             target='_blank'>
-            Raikkonen: Everyone has a right to do what they feel like
+            FIA: Heavy rain forecast for Saturday, preparing for Sunday
+            qualifying
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Veteran F1 driver Kimi Raikkonen said it was “crazy” to question why
-            six drivers declined to take a knee alongside Lewis Hamilton,
-            insisting “each individual has the right to do what they feel most
-            comfortable.”
+            Qualifying for this weekend’s Styrian Grand Prix is likely to be
+            moved to Sunday, with forecasts indicating heavy rain at the Red
+            Bull Ring on Saturday.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Six-time world champion Lewis Hamilton and 13 other drivers all took
-            a knee on the grid just before last weekend’s season-opening
-            Austrian Grand Prix to show their support of anti-racism protests.
+            Speaking on Friday, FIA race director Michael Masi indicated that
+            Formula 1 is preparing for other eventualities with regards to
+            qualifying, as there is a 76% chance of rain that is likely to
+            intensify as the day goes on.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            However, six remained standing. They were former world champion
-            Raikkonen, his Alfa Romeo team-mate Antonio Giovinazzi, Ferrari’s
-            Charles Leclerc, Red Bull’s Max Verstappen, Daniil Kvyat of Alpha
-            Tauri and Carlos Sainz of McLaren.
+            In such an event, Masi says there are three options available. “If a
+            worst case scenario was to come about, we’ve already had a look, and
+            qualifying could take place on Sunday morning,” he told RaceFans.
+            “So that’s a great option there.”
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.grandprix247.com/2020/07/10/raikkonen-everyone-has-a-right-to-do-what-they-feel-like/'
+              href='https://www.grandprix247.com/2020/07/11/fia-heavy-rain-forecast-for-saturday-preparing-for-sunday-qualifying/'
               target='_blank'>
               grandprix247.com
             </ContentLink>{' '}

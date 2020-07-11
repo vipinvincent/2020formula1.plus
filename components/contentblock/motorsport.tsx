@@ -18,31 +18,34 @@ const MotorSport: React.FC = () => {
             motorsport.com
           </div>
           <ActionLink
-            href='https://www.motorsport.com/f1/news/norris-back-pain-mclaren-practice/4830238/?ic_source=home-page-widget&ic_medium=widget&ic_campaign=widget-22'
+            href='https://www.motorsport.com/f1/news/vettel-ferrari-different-car-austria/4830419/'
             target='_blank'>
-            Norris had to limit F1 practice running due to back pain
+            Vettel says SF1000 feels like a "different car" after updates
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Lando Norris chose to limit his running in second free practice for
-            the Austrian Grand Prix in a bid to help minimise aggravating some
-            back pain he picked up earlier in the day.
+            Sebastian Vettel says that the Ferrari SF1000 feels like "a
+            different car" despite only finishing 16th in second Formula 1
+            practice for the Styrian Grand Prix.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            The British driver felt some upper back pain during the opening
-            practice session at the Red Bull Ring, but felt better after
-            treatment between sessions.
+            Vettel struggled through the second half of last weekend in Austria,
+            qualifying 11th before finishing 10th in the race after a clash with
+            McLaren's Carlos Sainz. Vettel was blighted by balance issues
+            throughout qualifying and the race, something Ferrari aimed to
+            remedy by fast-tracking some of its Hungary update package to the
+            second Austria race.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            However, with his McLaren team eager to not overstress his body in
-            the afternoon, it was decided to restrict his running in second
-            practice. He completed 31 laps to end up eighth overall, with
-            teammate Carlos Sainz ending three place ahead and putting in 45
-            laps.
+            While Vettel could only finish 16th in FP2 between the Williams pair
+            of George Russell and Nicholas Latifi, he said the feeling in the
+            cockpit was already "a lot better than last week"."If you look at
+            the timing sheet, obviously I got the lap deleted and it was not a
+            great day for lap times," Vettel said.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.motorsport.com/f1/news/norris-back-pain-mclaren-practice/4830238/?ic_source=home-page-widget&ic_medium=widget&ic_campaign=widget-22'
+              href='https://www.motorsport.com/f1/news/vettel-ferrari-different-car-austria/4830419/'
               target='_blank'>
               motorsport.com
             </ContentLink>{' '}
@@ -53,7 +56,29 @@ const MotorSport: React.FC = () => {
             <div className='w-full flex flex-row justify-center my-1'>
               <div className='mr-2'>
                 <ActionLink
-                  href='https://www.autosport.com/f1/news/150481/norris-limited-fp2-running-due-to-back-pain'
+                  href='https://www.formula1.com/en/latest/article.ferrari-is-like-a-different-car-on-high-fuel-after-new-upgrades-says-vettel.6XkXtzZbL6XvBQh82lXjSU.html'
+                  target='_blank'>
+                  <img
+                    className='w-auto ull h-8 object-contain rounded border border-gray-300'
+                    src='https://d2d0b2rxqzh1q5.cloudfront.net/sv/1.67/dir/f94/image/f940178e6c76f7c28047a26b1704ba0f.jpg'
+                    alt='f1.com'
+                  />
+                </ActionLink>
+              </div>
+              <div className='mr-2'>
+                <ActionLink
+                  href='https://www.skysports.com/f1/news/12433/12025894/ferrari-styrian-gp-upgrade-sebastian-vettel-charles-leclercs-verdicts'
+                  target='_blank'>
+                  <img
+                    className='w-auto ull h-8 object-contain rounded'
+                    src='https://lh3.googleusercontent.com/-cIoEETaueLkWYUbAizN98H20ES55XwYqvjRwyP7tZPFy4Yrf6xMruUulOooEe47_pU'
+                    alt='skysports.com'
+                  />
+                </ActionLink>
+              </div>
+              <div className='mr-2'>
+                <ActionLink
+                  href='https://www.autosport.com/f1/news/150485/vettel-updated-ferrari-felt-like-a-different-car'
                   target='_blank'>
                   <img
                     className='w-auto ull h-8 object-contain rounded'
