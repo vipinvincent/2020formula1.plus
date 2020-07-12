@@ -232,7 +232,7 @@ const Qualifying: React.FC = () => {
             </tbody>
           </table>
           <p className='my-2 pr-4 text-base leading-normal text-gray-700 text-right'>
-            <ContentLink href='/' target='_self'>
+            <ContentLink href='/qualifying-results' target='_self'>
               View Full Qualifying Results...
             </ContentLink>
           </p>
