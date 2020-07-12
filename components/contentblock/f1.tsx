@@ -20,30 +20,30 @@ const F1: React.FC = () => {
           <ActionLink
             href='https://www.formula1.com/en/latest/article.vettel-says-hed-take-red-bull-seat-if-offered-but-verstappen-would-prefer-to.6rC5OsifstIe237yLfl2FT.html'
             target='_blank'>
-            Qualifying: Hamilton beats Verstappen to pole by 1.2s with epic lap
-            in the wet
+            What To Watch For in the Styrian GP : Hamilton vs Verstappen and
+            Russell in the hunt for points
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            It’s on days like this, when rain creates tricky driving conditions,
-            that the great drivers come to the fore – and as if we needed
-            further reminding, Lewis Hamilton showed us why he is arguably the
-            greatest driver in Formula 1 history with a scintillating lap at the
-            Red Bull Ring to beat the heir to his throne Max Verstappen to pole
-            by a staggering 1.2s for the Styrian Grand Prix.
+            From a mouthwatering match-up on the front row to a mixed up grid
+            further back, and Ferrari’s upgraded car to George Russell looking
+            to open his point-scoring account, we highlight five key topics to
+            keep an eye out for as we go racing for the second consecutive
+            weekend at the Red Bull Ring…
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Wet weather raised doubts as to whether qualifying would happen at
-            all on Saturday, with final free practice cancelled because of the
-            treacherous conditions, but there was a window of opportunity when
-            the rain eased to the point where the Race Director Michael Masi
-            deemed it safe to get the session under way.
+            Qualifying was an absolute treat as we saw two incredible talents
+            fighting it out for pole position in the wet. But after being so
+            closely matched in Q1 and Q2, Lewis Hamilton had too much for Max
+            Verstappen in the top 10 shootout, ending up a full 1.216s ahead as
+            Verstappen spun away his chance at improving.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            With the track remaining wet throughout, full wet Pirelli tyres were
-            the compound of choice, and the drivers opted to fill up with a
-            little more fuel than usual so they could complete a flurry of laps
-            in quick succession. But there were two drivers who looked the most
-            comfortable out there – Hamilton and Verstappen.
+            Still, after Hamilton was only fifth on the grid last weekend
+            following a penalty, this time round we will see the pair line up
+            side-by-side as they both look to respond to Valtteri Bottas’ win
+            from the first race. On that occasion, Verstappen’s race potential
+            was hidden somewhat as he retired early on, but Mercedes held an
+            advantage until gearbox issues caused concern for both cars.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
@@ -62,7 +62,7 @@ const F1: React.FC = () => {
           <div className='w-full flex flex-row justify-center md:justify-start md:w-9/12'>
             <div className='mr-2'>
               <ActionLink
-                href='https://www.bbc.com/sport/formula1/53374508'
+                href='https://www.bbc.com/sport/formula1/53377338'
                 target='_blank'>
                 <img
                   className='w-auto h-8 object-contain rounded'
@@ -73,7 +73,7 @@ const F1: React.FC = () => {
             </div>
             <div className='mr-2'>
               <ActionLink
-                href='https://www.motorsport.com/f1/news/styrian-grand-prix-qualifying-results/4831163/'
+                href='https://www.skysports.com/f1/news/12433/12026519/lewis-hamilton-proud-to-master-terrifying-styrian-gp-qualifying'
                 target='_blank'>
                 <img
                   className='w-auto h-8 object-contain rounded'
@@ -84,7 +84,7 @@ const F1: React.FC = () => {
             </div>
             <div className='mr-2'>
               <ActionLink
-                href='https://www.skysports.com/f1/news/12433/12026326/styrian-gp-qualifying-lewis-hamilton-claims-wet-weather-pole-position'
+                href='https://www.skysports.com/f1/news/12433/12026519/lewis-hamilton-proud-to-master-terrifying-styrian-gp-qualifying'
                 target='_blank'>
                 <img
                   className='w-auto h-8 object-contain rounded'
@@ -95,7 +95,7 @@ const F1: React.FC = () => {
             </div>
             <div className='mr-2'>
               <ActionLink
-                href='https://www.autosport.com/f1/news/150496/hamilton-storms-to-pole-in-wet-styrian-gp-qualifying'
+                href='https://www.motorsport.com/f1/news/podcast-styrian-gp-qualifying-hamilton/4831578/'
                 target='_blank'>
                 <img
                   className='w-auto h-8 object-contain rounded'
@@ -117,7 +117,7 @@ const F1: React.FC = () => {
             </div> */}
             <div className='mr-2'>
               <ActionLink
-                href='https://the-race.com/formula-1/lewis-hamilton-takes-pole-in-wet-styrian-grand-prix-qualifying-report/'
+                href='https://the-race.com/formula-1/hamiltons-not-from-this-world-pole-lap-explained/'
                 target='_blank'>
                 <img
                   className='w-auto h-8 mt-0 p-2 object-contain rounded bg-gray-800'
@@ -128,7 +128,7 @@ const F1: React.FC = () => {
             </div>
             <div className='mr-2'>
               <ActionLink
-                href='https://www.grandprix247.com/2020/07/11/styria-qualifying-2020/'
+                href='https://www.grandprix247.com/2020/07/11/hamilton-when-youre-really-at-one-with-the-car/'
                 target='_blank'>
                 <img
                   className='w-auto h-8 mt-0 p-3 object-contain rounded border border-gray-200'
@@ -137,7 +137,7 @@ const F1: React.FC = () => {
                 />
               </ActionLink>
             </div>
-            <div className='mr-2'>
+            {/* <div className='mr-2'>
               <ActionLink
                 href='https://www.planetf1.com/news/qualifying-report-styrian-gp-2020/'
                 target='_blank'>
@@ -147,7 +147,7 @@ const F1: React.FC = () => {
                   alt='planetf1.com'
                 />
               </ActionLink>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

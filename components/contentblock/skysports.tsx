@@ -13,48 +13,47 @@ const SkySports: React.FC = () => {
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
-        <div className='lg:ml-auto lg:w-2/3 px-4 py-4 text-left'>
+        <div className='lg:ml-auto lg:w-2/3 px-4 pt-4 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
             skysports.com
           </div>
           <ActionLink
-            href='https://www.skysports.com/f1/news/12433/12026424/lewis-hamilton-the-class-of-the-field-with-dominant-styrian-gp-pole'
+            href='https://www.skysports.com/f1/news/12433/12026545/charles-leclerc-handed-three-place-styrian-gp-penalty-for-impeding'
             target='_blank'>
-            Lewis Hamilton the 'class of the field' with dominant Styrian GP
-            pole
+            Charles Leclerc handed three-place Styrian GP penalty for impeding
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Anthony Davidson and Karun Chandhok compare Lewis Hamilton and Max
-            Verstappen, the top two in qualifying at the Styrian GP
+            Charles Leclerc will drop three places from his
+            already-disappointing grid slot at the Styrian GP for blocking
+            Daniil Kvyat in qualifying.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Lewis Hamilton's qualifying performance for the Styrian GP was
-            hailed as "extraordinary" by Sky F1's Jenson Button, after the
-            in-form, six-time champion beat his rivals by over a second in
-            Austria's torrential rain.
+            The Ferrari driver had dropped out in Q2 in 11th place but will now
+            start 14th. Team-mate Sebastian Vettel had fared little better in
+            10th amid the SF1000's continued struggle for pace.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Less than a week after falling 13 points behind Mercedes team-mate
-            Valtteri Bottas in the Spielberg season-opener, Hamilton mastered
-            the treacherous conditions at the same track to take a dominant pole
-            position.
+            Grid drop caps another disappointing qualy for Ferrari; "We have to
+            work out why and change this state of affairs, which is just not
+            good enough for a team by the name of Ferrari," says team boss
+            Binotto
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.skysports.com/f1/news/12433/12026424/lewis-hamilton-the-class-of-the-field-with-dominant-styrian-gp-pole'
+              href='https://www.skysports.com/f1/news/12433/12026545/charles-leclerc-handed-three-place-styrian-gp-penalty-for-impeding'
               target='_blank'>
               skysports.com
             </ContentLink>{' '}
             for more details...
           </p>
-          {/* <div className='flex flex-col justify-start border-t border-gray-200 mt-4 pb-2 px-2 text-sm  text-center'>
+          <div className='flex flex-col justify-start border-t border-gray-200 mt-4 pb-2 px-2 text-sm  text-center'>
             <div className='w-full pb-2 text-sm'>Follow this topic on -</div>
             <div className='w-full flex flex-row justify-center my-1'>
               <div className='w-full flex flex-row justify-center my-1'>
                 <div className='mr-2'>
                   <ActionLink
-                    href='https://www.formula1.com/en/latest/article.norris-handed-styrian-gp-grid-penalty-for-fp1-yellow-flag-infraction.5QfUaE1MCFeMd61tswxXaw.html'
+                    href='https://www.formula1.com/en/latest/article.charles-leclerc-hit-with-three-place-grid-penalty-for-styrian-grand-prix.5WZl6mpWdKvacCkzIDROiN.html'
                     target='_blank'>
                     <img
                       className='w-auto h-8 object-contain rounded border border-gray-300'
@@ -65,7 +64,7 @@ const SkySports: React.FC = () => {
                 </div>
                 <div className='mr-2'>
                   <ActionLink
-                    href='https://www.motorsport.com/f1/news/norris-handed-grid-penalty-for-yellow-flag-incident/4830040/?ic_source=home-page-widget&ic_medium=widget&ic_campaign=widget-6'
+                    href='https://www.motorsport.com/f1/news/leclerc-grid-penalty-styrian-grand-prix/4831419/'
                     target='_blank'>
                     <img
                       className='w-auto h-8 object-contain rounded'
@@ -76,7 +75,7 @@ const SkySports: React.FC = () => {
                 </div>
                 <div className='mr-2'>
                   <ActionLink
-                    href='https://www.autosport.com/f1/news/150473/norris-gets-threeplace-f1-grid-drop-for-styrian-gp'
+                    href='https://www.autosport.com/f1/news/150505/leclerc-to-start-14th-after-blocking-grid-penalty'
                     target='_blank'>
                     <img
                       className='w-auto h-8 object-contain rounded'
@@ -87,7 +86,7 @@ const SkySports: React.FC = () => {
                 </div>
               </div>
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
     </div>

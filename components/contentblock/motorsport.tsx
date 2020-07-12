@@ -18,32 +18,31 @@ const MotorSport: React.FC = () => {
             motorsport.com
           </div>
           <ActionLink
-            href='https://www.motorsport.com/f1/news/leclerc-investigation-qualifying-styrian-gp/4831246/'
+            href='https://www.motorsport.com/f1/news/williams-frustrated-missing-q3-styria/4831435/'
             target='_blank'>
-            Leclerc under double investigation after qualifying
+            Williams frustrated that Russell missed Q3 slot
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Charles Leclerc is facing a double investigation after qualifying
-            for the Styrian Grand Prix, with stewards investigating him impeding
-            another car and failing to abort a lap for a red flag.
+            Williams has admitted that there was an element of frustration to it
+            missing out on a spot in Q3 for the Styrian Grand Prix by less than
+            one tenth of a second.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            The Ferrari driver had a difficult time in the wet conditions, and
-            had got knocked out at the end of Q2 to take a provisional 11th spot
-            on the grid. However, he could face a grid drop after the FIA said
-            he had been summoned over two offences.
+            George Russell performed brilliantly to briefly top the times at the
+            start of Q1, and he eventually finished Q2 in 12th spot – just 0.091
+            seconds behind Ferrari's Sebastian Vettel, who made it through to
+            the final session.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            The first was for failing to return to the pits immediately after
-            the red flag was shown at the end of Q1 for Antonio Giovinazzi's
-            stranded Alfa Romeo. The FIA regulations state that in the event of
-            a red flag: "When the signal is given to stop all cars must
-            immediately reduce speed and proceed slowly back to the pitlane."
+            After a disappointing 2019 campaign where Williams had been battling
+            regularly at the back of the grid, head of vehicle performance Dave
+            Robson said the outfit still could not help but feel annoyed at
+            being so close to a shot in Q3.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.motorsport.com/f1/news/leclerc-investigation-qualifying-styrian-gp/4831246/'
+              href='https://www.motorsport.com/f1/news/williams-frustrated-missing-q3-styria/4831435/'
               target='_blank'>
               motorsport.com
             </ContentLink>{' '}
@@ -52,7 +51,7 @@ const MotorSport: React.FC = () => {
           <div className='flex flex-col justify-start border-t border-gray-200 mt-4 pb-2 px-2 text-sm  text-center'>
             <div className='w-full pb-2 text-sm'>Follow this topic on -</div>
             <div className='w-full flex flex-row justify-center my-1'>
-              <div className='mr-2'>
+              {/* <div className='mr-2'>
                 <ActionLink
                   href='https://www.autosport.com/f1/news/150497/leclerc-faces-double-investigation-after-qualifying'
                   target='_blank'>
@@ -63,18 +62,7 @@ const MotorSport: React.FC = () => {
                   />
                 </ActionLink>
               </div>
-              <div className='mr-2'>
-                <ActionLink
-                  href='https://the-race.com/formula-1/leclerc-summoned-to-stewards-over-two-separate-incidents/'
-                  target='_blank'>
-                  <img
-                    className='w-auto h-8 mt-0 p-2 object-contain rounded bg-gray-800'
-                    src='https://cdn.the-race.com/wp-content/uploads/2020/02/02055753/the-race-logo-full-white.png'
-                    alt='the-race.com'
-                  />
-                </ActionLink>
-              </div>
-              {/* <div className='mr-2'>
+             <div className='mr-2'>
                 <ActionLink
                   href='https://www.formula1.com/en/latest/article.ferrari-is-like-a-different-car-on-high-fuel-after-new-upgrades-says-vettel.6XkXtzZbL6XvBQh82lXjSU.html'
                   target='_blank'>
@@ -95,10 +83,10 @@ const MotorSport: React.FC = () => {
                     alt='skysports.com'
                   />
                 </ActionLink>
-              </div>
+              </div>*/}
               <div className='mr-2'>
                 <ActionLink
-                  href='https://www.autosport.com/f1/news/150497/leclerc-faces-double-investigation-after-qualifying'
+                  href='https://www.autosport.com/f1/news/150506/williams-frustrated-by-q3-nearmiss-in-styrian-gp'
                   target='_blank'>
                   <img
                     className='w-auto h-8 object-contain rounded'
@@ -106,7 +94,18 @@ const MotorSport: React.FC = () => {
                     alt='autosport.com'
                   />
                 </ActionLink>
-              </div> */}
+              </div>
+              <div className='mr-2'>
+                <ActionLink
+                  href='https://the-race.com/formula-1/how-williams-almost-reached-q3/'
+                  target='_blank'>
+                  <img
+                    className='w-auto h-8 mt-0 p-2 object-contain rounded bg-gray-800'
+                    src='https://cdn.the-race.com/wp-content/uploads/2020/02/02055753/the-race-logo-full-white.png'
+                    alt='the-race.com'
+                  />
+                </ActionLink>
+              </div>
             </div>
           </div>
         </div>

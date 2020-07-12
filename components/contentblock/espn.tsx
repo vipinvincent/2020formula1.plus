@@ -18,36 +18,35 @@ const ESPN: React.FC = () => {
             espn.com
           </div>
           <ActionLink
-            href='https://www.espn.in/f1/story/_/id/29441122/where-mercedes-pace-gone-red-bull-step-forward-genuine'
+            href='https://www.espn.in/f1/story/_/id/29447411/hamilton-pole-position-lap-was-all-r-here-how-did-it'
             target='_blank'>
-            Friday analysis: Where has Mercedes' pace gone? Is Red Bull's step
-            forward genuine?
+            Hamilton's pole position lap was an all-timer - here's how he did it
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Albert Einstein once defined insanity as doing the same thing over
-            and over while expecting different results. Based on that logic,
-            predicting anything other than a Mercedes win at this weekend's race
-            in Austria -- the second in as many weeks to be held at the Red Bull
-            Ring -- just might validate Einstein's poin
+            Make no mistake, Lewis Hamilton's pole position lap at the Styrian
+            Grand Prix will feature prominently in Formula One's archive of
+            great wet-weather performances.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Yet the raw data from Friday practice for Sunday's Styrian Grand
-            Prix suggests Red Bull are now the favourites and Mercedes has
-            slipped to second. That's a big turnaround from this time last week,
-            when Mercedes finished Friday with a 0.6s advantage over the rest of
-            the field and looked to have a comfortable margin in the race
-            despite regular Safety Cars.
+            Modern F1 is usually too competitive to allow margins of over a
+            second between first and second on the grid, yet Hamilton managed to
+            qualify 1.216s clear of his closest competitor, Max Verstappen. The
+            last time someone held such a big advantage over the rest of the
+            field was at the 2017 Italian Grand Prix and, you guessed it, it was
+            Hamilton leading the way during that wet session too.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            This week, Mercedes' best time in the second practice was another
-            0.6s faster than the equivalent session seven days ago, but Red Bull
-            has found over twice as much to move Max Verstappen 0.043s clear of
-            Valtteri Bottas at the front of the field.
+            While it's true that Verstappen would have been closer had he not
+            spun on his final lap, the fact he made a mistake and Hamilton did
+            not tells you a lot about how good the pole lap was. Besides which,
+            Hamilton was already 0.408s faster than Verstappen through the first
+            two sectors, so the margin was still set to be significant
+            regardless of Verstappen's mistake.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.espn.in/f1/story/_/id/29441122/where-mercedes-pace-gone-red-bull-step-forward-genuine'
+              href='https://www.espn.in/f1/story/_/id/29447411/hamilton-pole-position-lap-was-all-r-here-how-did-it'
               target='_blank'>
               espn.com
             </ContentLink>{' '}

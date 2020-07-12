@@ -18,30 +18,32 @@ const GrandPrix: React.FC = () => {
             grandprix247.com
           </div>
           <ActionLink
-            href='https://www.grandprix247.com/2020/07/11/brawn-so-far-so-good-but-no-complacency-with-covid-19/'
+            href='https://www.grandprix247.com/2020/07/11/hamilton-when-youre-really-at-one-with-the-car/'
             target='_blank'>
-            Brawn: So far so good, but no complacency with COVID-19
+            Hamilton: When you’re really at one with the car
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Formula 1’s managing director for motorsport Ross Brawn has warned
-            against complacency after thousands of negative COVID-19 tests,
-            saying on Saturday there was bound to be a positive at some point.
+            Defending six-time F1 world champion Lewis Hamilton delivered one of
+            his greatest qualifying performances in treacherous rain-swept
+            conditions on Saturday when he stormed to pole position for the
+            Styrian Grand Prix.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            The latest batch of 4,566 tests carried out at Austria’s Red Bull
-            Ring between July 3-9 were all negative, as were the previous 4,032
-            conducted between June 26 and July 2.
+            The Mercedes driver, who struggled in practice on Friday, bounced
+            back to his best with a fastest lap in 1: 19.273 seconds, outpacing
+            nearest rival Max Verstappen of Red Bull by a stunning 1.2 seconds
+            and a further two-tenths up on his teammate Valtteri Bottas.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            The Australian Grand Prix on March 15, which would have been the
-            season-opener, was cancelled after a McLaren team employee tested
-            positive but the sport has come up with a system that allows racing
-            to continue if that happens again.
+            Hamilton’s performance – in the mould of his idol and great
+            qualifier Ayrton Senna – confirmed his enduring class on a day when
+            heavy rainstorms had delayed the session by 45 minutes and forced
+            the cancellation of third practice.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.grandprix247.com/2020/07/11/brawn-so-far-so-good-but-no-complacency-with-covid-19/'
+              href='https://www.grandprix247.com/2020/07/11/hamilton-when-youre-really-at-one-with-the-car/'
               target='_blank'>
               grandprix247.com
             </ContentLink>{' '}

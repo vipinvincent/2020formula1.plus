@@ -18,33 +18,35 @@ const TheRace: React.FC = () => {
             the-race.com
           </div>
           <ActionLink
-            href='https://the-race.com/formula-1/f1s-on-the-limit-qualifying-call-praised-by-drivers/'
+            href='https://the-race.com/formula-1/ferrari-updates-didnt-show-their-worth-leclerc-penalised/'
             target='_blank'>
-            F1’s ‘on the limit’ qualifying call praised by drivers
+            Ferrari updates ‘didn’t show their worth’; Leclerc penalised
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Styrian Grand Prix poleman Lewis Hamilton says Formula 1 nailed an
-            “on the limit” call to allow qualifying to take place in full in the
-            wet at the Red Bull Ring.
+            Mattia Binotto says Ferrari’s fast-tracked upgrades have not “shown
+            their worth” and the Formula 1 team’s situation is “just not good
+            enough”, as a three-place grid penalty for Charles Leclerc
+            compounded its misery at the Styrian Grand Prix.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            The F1 paddock went into Saturday pessimistic about the possibility
-            of track action taking place, but while the morning’s practice
-            session was rained out, qualifying did take place with minimal
-            delays after an initial 46-minute wait.
+            Ferrari trialled a new front wing and floor at the second Red Bull
+            Ring event having worked to accelerate an aerodynamic development
+            package it initially expected to have next week in Hungary. After a
+            quietly encouraging Friday, despite lacking ultimate performance,
+            Ferrari toiled in the wet conditions of qualifying with Sebastian
+            Vettel only 10th and Leclerc getting knocked out in Q2 – the second
+            time in two races a Ferrari has been eliminated at that stage.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            All three segments were held, and Hamilton – who would’ve had to
-            start sixth on the basis of Friday afternoon results if qualifying
-            had been completely shelved this weekend – eventually took pole
-            position by over a second, revelling in the conditions. The Formula
-            2 feature race was set to get going following F1’s qualifying, but
-            was red-flagged after several formation laps.
+            Binotto called it a “really disappointing day” and said Ferrari must
+            face up to the fact that “the stopwatch doesn’t ever lie” after it
+            was outqualified by cars from Mercedes, Red Bull, McLaren, Renault
+            and AlphaTauri.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://the-race.com/formula-1/f1s-on-the-limit-qualifying-call-praised-by-drivers/'
+              href='https://the-race.com/formula-1/ferrari-updates-didnt-show-their-worth-leclerc-penalised/'
               target='_blank'>
               the-race.com
             </ContentLink>{' '}

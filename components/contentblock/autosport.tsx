@@ -13,45 +13,44 @@ const AutoSport: React.FC = () => {
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
-        <div className='lg:ml-auto lg:w-2/3 px-4 py-4 text-left'>
+        <div className='lg:ml-auto lg:w-2/3 px-4 pt-4 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
             autosport.com
           </div>
           <ActionLink
-            href='https://www.autosport.com/f1/news/150498/brake-issue-hindered-bottas-in-styria-qualifying'
+            href='https://www.autosport.com/f1/news/150503/drugged-up-norris-expecting-back-issues-in-race'
             target='_blank'>
-            Brake issue led to Bottas' 1.4s gap to F1 Styrian GP poleman
-            Hamilton
+            "Drugged up" Norris expecting back issues in F1 Styrian Grand Prix
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Mercedes Formula 1 driver Valtteri Bottas says a brake issue
-            contributed to a frustrating fourth place in a dramatic wet
-            qualifying session for the Syrian Grand Prix.
+            Lando Norris says the wet conditions and being "drugged up"
+            alleviated back pain he suffered on Friday, but expects Sunday's
+            Formula 1 Styrian Grand Prix to pose a "bigger challenge".
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Bottas, who won the Austrian GP from pole last weekend, says a
-            glazed front brake knocked his confidence in the wet conditions of
-            qualifying on Saturday at the Red Bull Ring.
+            The McLaren driver - who scored his debut F1 podium at the Red Bull
+            Ring last weekend - limited his running on Friday as he suffered
+            pain in his back in high-speed corners and under braking.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            In Q3 he was 1.428s slower than team-mate Lewis Hamilton, who topped
-            the times to claim his 89th poole position in F1. The pair were
-            split by the Red Bull of Max Verstappen and the McLaren of Carlos
-            Sainz.
+            The wet conditions which hit qualifying, as well as some painkiller
+            treatment, meant Norris was "a lot better" on Saturday but he
+            expects the issue - which is yet to be fully diagnosed - to be a
+            problem in the dry on Sunday.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.autosport.com/f1/news/150498/brake-issue-hindered-bottas-in-styria-qualifying'
+              href='https://www.autosport.com/f1/news/150503/drugged-up-norris-expecting-back-issues-in-race'
               target='_blank'>
               autosport.com
             </ContentLink>{' '}
             for more details...
           </p>
-          {/* <div className='flex flex-col justify-start border-t border-gray-200 mt-4 pb-2 px-2 text-sm  text-center'>
+          <div className='flex flex-col justify-start border-t border-gray-200 mt-4 pb-2 px-2 text-sm  text-center'>
             <div className='w-full pb-2 text-sm'>Follow this topic on -</div>
             <div className='w-full flex flex-row justify-center my-1'>
-              <div className='mr-2'>
+              {/* <div className='mr-2'>
                 <ActionLink
                   href='https://www.formula1.com/en/latest/article.racing-point-dont-have-space-for-vettel-in-2021-says-szafnauer.1xIcoT6yFDRBjGLh6xeDaQ.html'
                   target='_blank'>
@@ -61,10 +60,10 @@ const AutoSport: React.FC = () => {
                     alt='f1.com'
                   />
                 </ActionLink>
-              </div>
+              </div>*/}
               <div className='mr-2'>
                 <ActionLink
-                  href='https://www.motorsport.com/f1/news/racing-point-no-space-vettel-2021/4830027/?ic_source=home-page-widget&ic_medium=widget&ic_campaign=widget-6'
+                  href='https://www.motorsport.com/f1/news/drugged-up-norris-expecting-back-issues-in-race/4831384/'
                   target='_blank'>
                   <img
                     className='w-auto h-8 object-contain rounded'
@@ -74,7 +73,7 @@ const AutoSport: React.FC = () => {
                 </ActionLink>
               </div>
             </div>
-          </div> */}
+          </div>
         </div>
       </div>
     </div>

@@ -18,32 +18,37 @@ const PlanetF1: React.FC = () => {
             planetf1.com
           </div>
           <ActionLink
-            href='https://www.planetf1.com/news/ferrari-styrian-grand-prix/'
+            href='https://www.planetf1.com/news/sergio-perez-q1-exit-styrian-gp/'
             target='_blank'>
-            Back-to-back Q2 exits for struggling Ferrari
+            Perez: Tyre temps behind ‘disappointing’ Q1 exit
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            For the second Saturday in a row Ferrari lost a car in Q2, this time
-            it was Charles Leclerc at the Styrian Grand Prix. It looked like it
-            was going to be a washout at the Red Bull Ring for qualifying for
-            Round Two of the 2020 season.
+            Racing Point’s Sergio Perez said his failure to generate enough tyre
+            temperature caused his Q1 elimination at the Styrian GP. Perez had
+            been talked about as a contender for pole ahead of qualifying for
+            the Styrian GP, but nevermind pole, he wasn’t even able to make it
+            out of the first session.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            But the session got underway, and the struggling Scuderia would have
-            hoped that the wet weather would allow for Leclerc and Sebastian
-            Vettel to make up for some of the performance lacking in the SF1000,
-            instead using their skills in the lottery that is wet-weather
-            racing.
+            The RP20’s impressive pace went missing as the rain fell at the Red
+            Bull Ring, leaving Perez P17 on the grid. The Mexican believed he
+            had the pace for Q2, but said the late red flags after Antonio
+            Giovinazzi’s incident caught him out after struggling to get the
+            full wets up to temperature.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            But it didn’t turn out that way with Leclerc getting eliminated in
-            P11, whilst Vettel only just squeezed through into the top 10
-            shootout for pole.
+            “It’s a big disappointment,” he said. “You know we were on for a
+            great weekend as we have great pace in the dry. But in the wet we
+            couldn’t find our rhythm. “I struggled a lot to generate any tyre
+            temperature. It took me two to three laps to generate the
+            temperature and at the end I was coming on a good lap but then the
+            red flag stopped that lap. There’s nothing we can do now other than
+            think forward for tomorrow.”
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.planetf1.com/news/ferrari-styrian-grand-prix/'
+              href='https://www.planetf1.com/news/sergio-perez-q1-exit-styrian-gp/'
               target='_blank'>
               planetf1.com
             </ContentLink>{' '}
