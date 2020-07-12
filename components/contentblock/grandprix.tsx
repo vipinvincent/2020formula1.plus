@@ -18,32 +18,31 @@ const GrandPrix: React.FC = () => {
             grandprix247.com
           </div>
           <ActionLink
-            href='https://www.grandprix247.com/2020/07/11/hamilton-when-youre-really-at-one-with-the-car/'
+            href='https://www.grandprix247.com/2020/07/12/haas-we-still-need-to-find-some-pace/'
             target='_blank'>
-            Hamilton: When you’re really at one with the car
+            Haas: We still need to find some pace
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Defending six-time F1 world champion Lewis Hamilton delivered one of
-            his greatest qualifying performances in treacherous rain-swept
-            conditions on Saturday when he stormed to pole position for the
-            Styrian Grand Prix.
+            Haas F1 Team drivers Kevin Magnussen and Romain Grosjean finished
+            P12 and P13 respectively at the second race of the 2020 FIA Formula
+            One World Championship, the Styrian Grand Prix, held at the Red Bull
+            Ring in Spielberg, Austria.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            The Mercedes driver, who struggled in practice on Friday, bounced
-            back to his best with a fastest lap in 1: 19.273 seconds, outpacing
-            nearest rival Max Verstappen of Red Bull by a stunning 1.2 seconds
-            and a further two-tenths up on his teammate Valtteri Bottas.
+            After the torrential rain that drenched the circuit on Saturday the
+            skies cleared for Sunday’s track action, albeit with cooler
+            temperatures compared to Friday’s running.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Hamilton’s performance – in the mould of his idol and great
-            qualifier Ayrton Senna – confirmed his enduring class on a day when
-            heavy rainstorms had delayed the session by 45 minutes and forced
-            the cancellation of third practice.
+            Magnussen started P15 on the Pirelli P Zero Red soft tires while
+            Grosjean was mandated to begin from the pit lane after essential
+            work was carried out on his VF-20 post-qualifying, contravening Parc
+            Ferme regulations.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.grandprix247.com/2020/07/11/hamilton-when-youre-really-at-one-with-the-car/'
+              href='https://www.grandprix247.com/2020/07/12/haas-we-still-need-to-find-some-pace/'
               target='_blank'>
               grandprix247.com
             </ContentLink>{' '}

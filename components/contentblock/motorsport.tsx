@@ -13,45 +13,45 @@ const MotorSport: React.FC = () => {
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
-        <div className='lg:ml-auto lg:w-2/3 px-4 pt-4 text-left'>
+        <div className='lg:ml-auto lg:w-2/3 px-4 py-4 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
             motorsport.com
           </div>
           <ActionLink
-            href='https://www.motorsport.com/f1/news/williams-frustrated-missing-q3-styria/4831435/'
+            href='https://www.motorsport.com/f1/news/racing-point-renault-protest-styrian-gp/4832634/'
             target='_blank'>
-            Williams frustrated that Russell missed Q3 slot
+            Renault lodges protest against Racing Point
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Williams has admitted that there was an element of frustration to it
-            missing out on a spot in Q3 for the Styrian Grand Prix by less than
-            one tenth of a second.
+            Renault has protested Racing Point's cars following its double
+            points finish in the Austrian Grand Prix.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            George Russell performed brilliantly to briefly top the times at the
-            start of Q1, and he eventually finished Q2 in 12th spot – just 0.091
-            seconds behind Ferrari's Sebastian Vettel, who made it through to
-            the final session.
+            The French car manufacturer lodged complaints about both Sergio
+            Perez and Lance Stroll's cars as the debate over its Mercedes copy
+            erupted. The Renault protest alleged that Racing Point had breached
+            the rules by not using a design that had been fully created by
+            itself.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            After a disappointing 2019 campaign where Williams had been battling
-            regularly at the back of the grid, head of vehicle performance Dave
-            Robson said the outfit still could not help but feel annoyed at
-            being so close to a shot in Q3.
+            Article 1 of Appendix 6 of the Sporting Regulations states: "A
+            competitor shall, in respect of the Listed Parts to be used in its
+            cars in Formula One, only use Listed Parts which are designed by
+            it."
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.motorsport.com/f1/news/williams-frustrated-missing-q3-styria/4831435/'
+              href='https://www.motorsport.com/f1/news/racing-point-renault-protest-styrian-gp/4832634/'
               target='_blank'>
               motorsport.com
             </ContentLink>{' '}
             for more details...
           </p>
-          <div className='flex flex-col justify-start border-t border-gray-200 mt-4 pb-2 px-2 text-sm  text-center'>
+          {/* <div className='flex flex-col justify-start border-t border-gray-200 mt-4 pb-2 px-2 text-sm  text-center'>
             <div className='w-full pb-2 text-sm'>Follow this topic on -</div>
-            <div className='w-full flex flex-row justify-center my-1'>
-              {/* <div className='mr-2'>
+            <div className='w-full flex flex-row justify-center my-1'> */}
+          {/* <div className='mr-2'>
                 <ActionLink
                   href='https://www.autosport.com/f1/news/150497/leclerc-faces-double-investigation-after-qualifying'
                   target='_blank'>
@@ -84,7 +84,7 @@ const MotorSport: React.FC = () => {
                   />
                 </ActionLink>
               </div>*/}
-              <div className='mr-2'>
+          {/* <div className='mr-2'>
                 <ActionLink
                   href='https://www.autosport.com/f1/news/150506/williams-frustrated-by-q3-nearmiss-in-styrian-gp'
                   target='_blank'>
@@ -105,9 +105,9 @@ const MotorSport: React.FC = () => {
                     alt='the-race.com'
                   />
                 </ActionLink>
-              </div>
-            </div>
-          </div>
+              </div> */}
+          {/* </div>
+          </div> */}
         </div>
       </div>
     </div>

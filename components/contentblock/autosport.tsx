@@ -13,44 +13,46 @@ const AutoSport: React.FC = () => {
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
-        <div className='lg:ml-auto lg:w-2/3 px-4 pt-4 text-left'>
+        <div className='lg:ml-auto lg:w-2/3 px-4 py-4 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
             autosport.com
           </div>
           <ActionLink
-            href='https://www.autosport.com/f1/news/150503/drugged-up-norris-expecting-back-issues-in-race'
+            href='https://www.autosport.com/f1/news/150533/ricciardo-desperate-stroll-move-should-be-penalised'
             target='_blank'>
-            "Drugged up" Norris expecting back issues in F1 Styrian Grand Prix
+            F1 Styrian GP: "Desperate" Stroll move should be penalised, says
+            Ricciardo
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Lando Norris says the wet conditions and being "drugged up"
-            alleviated back pain he suffered on Friday, but expects Sunday's
-            Formula 1 Styrian Grand Prix to pose a "bigger challenge".
+            Daniel Ricciardo has vented his frustration at a "desperate"
+            overtake by Lance Stroll and believes the Racing Point driver should
+            have been penalised for the manoeuvre during the Styrian Grand Prix.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            The McLaren driver - who scored his debut F1 podium at the Red Bull
-            Ring last weekend - limited his running on Friday as he suffered
-            pain in his back in high-speed corners and under braking.
+            The Renault Formula 1 driver had been defending sixth place against
+            Stroll in the closing stages, with McLaren's Lando Norris closing
+            down on the pair, before the Canadian driver dived up the inside at
+            Turn 3 on the penultimate lap which forced both him and Ricciardo
+            off the track.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            The wet conditions which hit qualifying, as well as some painkiller
-            treatment, meant Norris was "a lot better" on Saturday but he
-            expects the issue - which is yet to be fully diagnosed - to be a
-            problem in the dry on Sunday.
+            Ricciardo felt Stroll deserved a penalty for the move but in a
+            post-race FIA stewards investigation no action was taken on the
+            Racing Point driver for the incident.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.autosport.com/f1/news/150503/drugged-up-norris-expecting-back-issues-in-race'
+              href='https://www.autosport.com/f1/news/150533/ricciardo-desperate-stroll-move-should-be-penalised'
               target='_blank'>
               autosport.com
             </ContentLink>{' '}
             for more details...
           </p>
-          <div className='flex flex-col justify-start border-t border-gray-200 mt-4 pb-2 px-2 text-sm  text-center'>
+          {/* <div className='flex flex-col justify-start border-t border-gray-200 mt-4 pb-2 px-2 text-sm  text-center'>
             <div className='w-full pb-2 text-sm'>Follow this topic on -</div>
-            <div className='w-full flex flex-row justify-center my-1'>
-              {/* <div className='mr-2'>
+            <div className='w-full flex flex-row justify-center my-1'> */}
+          {/* <div className='mr-2'>
                 <ActionLink
                   href='https://www.formula1.com/en/latest/article.racing-point-dont-have-space-for-vettel-in-2021-says-szafnauer.1xIcoT6yFDRBjGLh6xeDaQ.html'
                   target='_blank'>
@@ -61,7 +63,7 @@ const AutoSport: React.FC = () => {
                   />
                 </ActionLink>
               </div>*/}
-              <div className='mr-2'>
+          {/* <div className='mr-2'>
                 <ActionLink
                   href='https://www.motorsport.com/f1/news/drugged-up-norris-expecting-back-issues-in-race/4831384/'
                   target='_blank'>
@@ -73,7 +75,7 @@ const AutoSport: React.FC = () => {
                 </ActionLink>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

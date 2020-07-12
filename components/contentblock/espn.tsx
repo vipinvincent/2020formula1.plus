@@ -18,35 +18,37 @@ const ESPN: React.FC = () => {
             espn.com
           </div>
           <ActionLink
-            href='https://www.espn.in/f1/story/_/id/29447411/hamilton-pole-position-lap-was-all-r-here-how-did-it'
+            href='https://www.espn.in/f1/report/_/id/401220848'
             target='_blank'>
-            Hamilton's pole position lap was an all-timer - here's how he did it
+            Hamilton claims easy Stryian GP win, Ferrari pair crash out
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Make no mistake, Lewis Hamilton's pole position lap at the Styrian
-            Grand Prix will feature prominently in Formula One's archive of
-            great wet-weather performances.
+            Lewis Hamilton claimed a comfortable win at the Styrian Grand Prix
+            ahead of teammate Valtteri Bottas and Max Verstappen, as Ferrari's
+            drivers took each other out of the race on lap one.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Modern F1 is usually too competitive to allow margins of over a
-            second between first and second on the grid, yet Hamilton managed to
-            qualify 1.216s clear of his closest competitor, Max Verstappen. The
-            last time someone held such a big advantage over the rest of the
-            field was at the 2017 Italian Grand Prix and, you guessed it, it was
-            Hamilton leading the way during that wet session too.
+            Hamilton only lost the lead briefly after pitting, with teammate
+            Bottas extending his first stint in an attempt to beat Verstappen to
+            second, in what was a fairly lonely race for the world champion to
+            the finish. The foundations for Hamilton's win were set with a
+            supreme qualifying performance in a wet qualifying session on
+            Saturday afternoon and the six-time world champion carried that form
+            over to Sunday.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            While it's true that Verstappen would have been closer had he not
-            spun on his final lap, the fact he made a mistake and Hamilton did
-            not tells you a lot about how good the pole lap was. Besides which,
-            Hamilton was already 0.408s faster than Verstappen through the first
-            two sectors, so the margin was still set to be significant
-            regardless of Verstappen's mistake.
+            Bottas' strategy created an entertaining fight late on, with the
+            Finn catching Verstappen five laps from the finish of the race.
+            Verstappen did not make things easy for Bottas, brilliantly fighting
+            back in a wheel-to-wheel battle on lap 66 to briefly hold on to
+            second. The Red Bull driver was unable to do the same on the next
+            lap as Bottas finally got by to secure Mercedes' first one-two
+            finish of the season.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.espn.in/f1/story/_/id/29447411/hamilton-pole-position-lap-was-all-r-here-how-did-it'
+              href='https://www.espn.in/f1/report/_/id/401220848'
               target='_blank'>
               espn.com
             </ContentLink>{' '}

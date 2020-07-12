@@ -8,7 +8,7 @@ const F1: React.FC = () => {
       <div className='h-32 sm:h-84 w-full'>
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
-          src='https://d3cm515ijfiu6w.cloudfront.net/wp-content/uploads/2020/02/21161144/Mattia-Binotto-PA.jpg'
+          src='https://www.mcclatchy-wires.com/incoming/ajp7k8/picture244173802/alternates/LANDSCAPE_1140/Austria_F1_GP_Auto_Racing_02077.jpg'
           alt='What To Watch For in the Styrian GP : Hamilton vs Verstappen'
         />
       </div>
@@ -18,49 +18,47 @@ const F1: React.FC = () => {
             Formula1.com
           </div>
           <ActionLink
-            href='https://www.formula1.com/en/latest/article.not-good-enough-for-a-team-by-the-name-of-ferrari-binottos-scathing.7tzV5egNxlI9meTzvICbP6.html'
+            href='https://www.formula1.com/en/latest/article.hamilton-eases-to-styrian-grand-prix-victory-over-bottas-as-ferraris-collide.5PfZ0DxltY7qOrbeVXMLa3.html'
             target='_blank'>
-            ‘Not good enough for a team by the name of Ferrari’ – Binotto's
-            scathing assessment of Scuderia’s struggles
+            Hamilton eases to Styrian Grand Prix victory over Bottas as Ferraris
+            collide
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            For the last two Grand Prix weekends, Ferrari Team Principal Mattia
-            Binotto has watched as one of his fully functioning cars has failed
-            to make it out of Q2 on pace alone. And Binotto vowed to “change
-            this state of affairs”, as he called his team’s current performance
-            unworthy of the Ferrari name.
+            Following his sensational wet weather pole position on Saturday,
+            Lewis Hamilton secured a comfortable victory in the Styrian Grand
+            Prix, winning out over his Mercedes team mate Valtteri Bottas and
+            the Red Bull of Max Verstappen – while Ferrari’s Sebastian Vettel
+            and Charles Leclerc collided on Lap 1, causing race-ending damage
+            for both.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Jaws hit the floor at last weekend’s Austrian Grand Prix season
-            opener when Sebastian Vettel failed to make it out of Q2, starting
-            the race P11, while Charles Leclerc could only manage seventh on the
-            grid – although the Monegasque then restored some Ferrari pride with
-            a strong drive to second.
+            Having been classified a disappointing P4 at last weekend’s Austrian
+            Grand Prix, Hamilton was strong away from the start line, before
+            spending the race managing the gap, first to Red Bull’s Verstappen
+            then to Bottas, to secure his 85th Grand Prix win
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            But despite fast-tracking upgrades to the team’s SF1000 for this
-            weekend’s Styrian Grand Prix, a second consecutive qualifying
-            disappointment for Ferrari – with Vettel going through to Q3 but
-            ending up P10, while Leclerc couldn’t progress beyond Q2, and will
-            start 14th after a three-place grid drop – seemed to be more than
-            Binotto could take.
+            Despite a stern defence from Verstappen, Bottas claimed second place
+            from the Dutchman four laps from the end, last week’s Austrian Grand
+            Prix winner limiting the damage in the drivers’ championship, which
+            the Finn still heads.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.formula1.com/en/latest/article.not-good-enough-for-a-team-by-the-name-of-ferrari-binottos-scathing.7tzV5egNxlI9meTzvICbP6.html'
+              href='https://www.formula1.com/en/latest/article.hamilton-eases-to-styrian-grand-prix-victory-over-bottas-as-ferraris-collide.5PfZ0DxltY7qOrbeVXMLa3.html'
               target='_blank'>
               formula1.com
             </ContentLink>{' '}
             for more details...
           </p>
         </div>
-        <div className='flex flex-col md:flex-row justify-start border-t border-gray-200 pb-2 md:py-3 px-4 text-sm md:text-lg text-center md:text-left'>
+        {/* <div className='flex flex-col md:flex-row justify-start border-t border-gray-200 pb-2 md:py-3 px-4 text-sm md:text-lg text-center md:text-left'>
           <div className='w-full text-sm md:w-3/12 pb-2 md:pb-0 md:pr-4'>
             Follow this topic on -
           </div>
-          <div className='w-full flex flex-row justify-center md:justify-start md:w-9/12'>
-            {/*     <div className='mr-2'>
+          <div className='w-full flex flex-row justify-center md:justify-start md:w-9/12'> */}
+        {/*     <div className='mr-2'>
               <ActionLink
                 href='https://www.bbc.com/sport/formula1/53377338'
                 target='_blank'>
@@ -71,7 +69,7 @@ const F1: React.FC = () => {
                 />
               </ActionLink>
             </div>*/}
-            <div className='mr-2'>
+        {/* <div className='mr-2'>
               <ActionLink
                 href='https://www.motorsport.com/f1/news/binotto-ferrari-qualifying-struggles-styria/4831883/'
                 target='_blank'>
@@ -81,8 +79,8 @@ const F1: React.FC = () => {
                   alt='motorsport.com'
                 />
               </ActionLink>
-            </div>
-            {/* <div className='mr-2'>
+            </div> */}
+        {/* <div className='mr-2'>
               <ActionLink
                 href='https://www.skysports.com/f1/news/12433/12026519/lewis-hamilton-proud-to-master-terrifying-styrian-gp-qualifying'
                 target='_blank'>
@@ -93,7 +91,7 @@ const F1: React.FC = () => {
                 />
               </ActionLink>
             </div> */}
-            <div className='mr-2'>
+        {/* <div className='mr-2'>
               <ActionLink
                 href='https://www.autosport.com/f1/news/150518/binotto-styria-qualifying-not-good-enough-for-ferrari'
                 target='_blank'>
@@ -103,8 +101,8 @@ const F1: React.FC = () => {
                   alt='autosport.com'
                 />
               </ActionLink>
-            </div>
-            {/* <div className='mr-2'>
+            </div> */}
+        {/* <div className='mr-2'>
               <ActionLink
                 href='https://www.espn.in/f1/story/_/id/29438233/mugello-host-first-f1-race-sochi-added-2020-calendar'
                 target='_blank'>
@@ -148,8 +146,8 @@ const F1: React.FC = () => {
                 />
               </ActionLink>
             </div> */}
-          </div>
-        </div>
+        {/* </div>
+        </div> */}
       </div>
     </div>
   )

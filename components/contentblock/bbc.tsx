@@ -18,32 +18,32 @@ const BBC: React.FC = () => {
             bbc.com
           </div>
           <ActionLink
-            href='https://www.bbc.com/sport/formula1/53375758'
+            href='https://www.bbc.com/sport/formula1/53382391'
             target='_blank'>
-            Hungarian Grand Prix: F1 drivers risk imprisonment or fines if
-            lockdown rules are broken
+            Lewis Hamilton takes dominant Styrian Grand Prix win after Ferraris
+            collide
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Formula 1 drivers and team personnel risk imprisonment or a hefty
-            fine if they break lockdown restrictions at next weekend's Hungarian
-            Grand Prix.
+            Mercedes driver Lewis Hamilton cruised to a comfortable victory in
+            the Styrian Grand Prix. The world champion's first victory of the
+            year was founded on a stupendous performance in wet qualifying, in
+            which he took pole by more than 1.2 seconds.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            British and non-European Union citizens have been told by the
-            government they must stay within the confines of the track or their
-            hotels at all times.
+            Hamilton led from pole position, headed only at the pit-stops, as
+            team-mate Valtteri Bottas overtook Red Bull's Max Verstappen late on
+            for second. The Ferraris retired early after colliding with each
+            other on lap one.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Anyone caught breaking the rules faces a €15,000 fine and/or a
-            prison spell. All meals have to be eaten at the track or at their
-            hotel and using public transport and taxis is forbidden. Seven of
-            the 10 teams are based in the UK and although staff come from all
-            over the world, the restrictions will apply to many.
+            It was another dark day for the Italian team, after an uncompetitive
+            showing in qualifying, as Charles Leclerc apologised for a rash move
+            on the first lap that took out both cars.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.bbc.com/sport/formula1/53375758'
+              href='https://www.bbc.com/sport/formula1/53382391'
               target='_blank'>
               bbc.com
             </ContentLink>{' '}

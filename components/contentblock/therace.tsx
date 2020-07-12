@@ -18,35 +18,33 @@ const TheRace: React.FC = () => {
             the-race.com
           </div>
           <ActionLink
-            href='https://the-race.com/formula-1/ferrari-updates-didnt-show-their-worth-leclerc-penalised/'
+            href='https://the-race.com/formula-1/the-winners-and-losers-of-f1s-styrian-grand-prix/'
             target='_blank'>
-            Ferrari updates ‘didn’t show their worth’; Leclerc penalised
+            The winners and losers of F1’s Styrian Grand Prix
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Mattia Binotto says Ferrari’s fast-tracked upgrades have not “shown
-            their worth” and the Formula 1 team’s situation is “just not good
-            enough”, as a three-place grid penalty for Charles Leclerc
-            compounded its misery at the Styrian Grand Prix.
+            The Styrian Grand Prix proved a lot more straightforward than its
+            counterpart from last weekend, yielding a familiar Mercedes 1-2 and
+            no shock podium finishers.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Ferrari trialled a new front wing and floor at the second Red Bull
-            Ring event having worked to accelerate an aerodynamic development
-            package it initially expected to have next week in Hungary. After a
-            quietly encouraging Friday, despite lacking ultimate performance,
-            Ferrari toiled in the wet conditions of qualifying with Sebastian
-            Vettel only 10th and Leclerc getting knocked out in Q2 – the second
-            time in two races a Ferrari has been eliminated at that stage.
+            Yet some still punched above their weight, while some emphatically
+            did not. Below, we chronicle the winners and losers of the event.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Binotto called it a “really disappointing day” and said Ferrari must
-            face up to the fact that “the stopwatch doesn’t ever lie” after it
-            was outqualified by cars from Mercedes, Red Bull, McLaren, Renault
-            and AlphaTauri.
+            After a poor season opener by his lofty standards, Lewis Hamilton
+            recovered in resounding fashion with an emphatic victory. OK, he
+            still trails team-mate Valtteri Bottas in the championship, but F1’s
+            change of venue next weekend will be accompanied by a shift in
+            momentum in Hamilton’s favour. His brief moments of vulnerability,
+            at the start and safety car restart, proved anything but. It wasn’t
+            exciting for those watching, but it was textbook stuff from the
+            six-time world champion
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://the-race.com/formula-1/ferrari-updates-didnt-show-their-worth-leclerc-penalised/'
+              href='https://the-race.com/formula-1/the-winners-and-losers-of-f1s-styrian-grand-prix/'
               target='_blank'>
               the-race.com
             </ContentLink>{' '}

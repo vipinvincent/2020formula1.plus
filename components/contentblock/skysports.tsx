@@ -13,41 +13,42 @@ const SkySports: React.FC = () => {
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
-        <div className='lg:ml-auto lg:w-2/3 px-4 pt-4 text-left'>
+        <div className='lg:ml-auto lg:w-2/3 px-4 py-4 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
             skysports.com
           </div>
           <ActionLink
-            href='https://www.skysports.com/f1/news/12433/12026545/charles-leclerc-handed-three-place-styrian-gp-penalty-for-impeding'
+            href='https://www.skysports.com/f1/news/12433/12027120/ferrari-implode-at-styrian-gp-after-charles-leclerc-sebastian-vettel-collide'
             target='_blank'>
-            Charles Leclerc handed three-place Styrian GP penalty for impeding
+            Ferrari implode at Styrian GP after Charles Leclerc, Sebastian
+            Vettel collide
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Charles Leclerc will drop three places from his
-            already-disappointing grid slot at the Styrian GP for blocking
-            Daniil Kvyat in qualifying.
+            Ferrari's early-season woes deepen after both cars crash together on
+            the first lap; Leclerc takes full responsibility for 'too
+            optimistic' move on team-mate
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            The Ferrari driver had dropped out in Q2 in 11th place but will now
-            start 14th. Team-mate Sebastian Vettel had fared little better in
-            10th amid the SF1000's continued struggle for pace.
+            Charles Leclerc apologised to Sebastian Vettel and admitted he "put
+            all the efforts of the team in the bin" after crashing into his
+            team-mate on the opening lap of the Styrian GP to further compound
+            Ferrari's torrid start to the new season.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Grid drop caps another disappointing qualy for Ferrari; "We have to
-            work out why and change this state of affairs, which is just not
-            good enough for a team by the name of Ferrari," says team boss
-            Binotto
+            The Ferraris came together on the first run to Turn Three, with
+            Leclerc attempting to go down the inside of Vettel but clipping the
+            kerb and being pitched into a collision with the sister car.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.skysports.com/f1/news/12433/12026545/charles-leclerc-handed-three-place-styrian-gp-penalty-for-impeding'
+              href='https://www.skysports.com/f1/news/12433/12027120/ferrari-implode-at-styrian-gp-after-charles-leclerc-sebastian-vettel-collide'
               target='_blank'>
               skysports.com
             </ContentLink>{' '}
             for more details...
           </p>
-          <div className='flex flex-col justify-start border-t border-gray-200 mt-4 pb-2 px-2 text-sm  text-center'>
+          {/* <div className='flex flex-col justify-start border-t border-gray-200 mt-4 pb-2 px-2 text-sm  text-center'>
             <div className='w-full pb-2 text-sm'>Follow this topic on -</div>
             <div className='w-full flex flex-row justify-center my-1'>
               <div className='w-full flex flex-row justify-center my-1'>
@@ -86,7 +87,7 @@ const SkySports: React.FC = () => {
                 </div>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>

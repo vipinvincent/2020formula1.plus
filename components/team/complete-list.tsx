@@ -52,7 +52,7 @@ const CompleteList: React.FC = () => {
                 </td>
                 <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell text-right mercedes'>
                   <span className='px-2 inline-flex text-base leading-5 font-semibold rounded-full py-2 bg-gray-200 text'>
-                    37 (739)
+                    80 (739)
                   </span>
                 </td>
               </tr>
@@ -77,13 +77,65 @@ const CompleteList: React.FC = () => {
                 </td>
                 <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell text-right mclaren'>
                   <span className='px-2 inline-flex text-base leading-5 font-semibold rounded-full py-2 bg-gray-200 text'>
-                    26 (145)
+                    39 (145)
                   </span>
                 </td>
               </tr>
               <tr className='odd:bg-gray-200 bg-white-100'>
                 <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-left table-cell'>
                   3
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell'>
+                  <div className='flex items-center'>
+                    <TextLink href='/redbull-racing-f1' target='_self'>
+                      <div className='text-base leading-5 font-medium text-gray-900 redbull'>
+                        <span className='text'>
+                          Aston Martin Red Bull Racing
+                        </span>
+                      </div>
+                    </TextLink>
+                  </div>
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-sm leading-5 font-medium text-gray-900 text-center hidden sm:table-cell'>
+                  RB16
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-sm leading-5 font-medium text-gray-900 text-center hidden sm:table-cell'>
+                  United Kingdom
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell text-right redbull'>
+                  <span className='px-2 inline-flex text-base leading-5 font-semibold rounded-full py-2 bg-gray-200 text'>
+                    27 (417)
+                  </span>
+                </td>
+              </tr>
+              <tr className='odd:bg-gray-200 bg-white-100'>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-left table-cell'>
+                  4
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell'>
+                  <div className='flex items-center'>
+                    <TextLink href='/racing-point-f1' target='_self'>
+                      <div className='text-base leading-5 font-medium text-gray-900 racingpoint'>
+                        <span className='text'>BWT Racing Point F1</span>
+                      </div>
+                    </TextLink>
+                  </div>
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-sm leading-5 font-medium text-gray-900 text-center hidden sm:table-cell'>
+                  RP20
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-sm leading-5 font-medium text-gray-900 text-center hidden sm:table-cell'>
+                  United Kingdom
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell text-right racingpoint'>
+                  <span className='px-2 inline-flex text-base leading-5 font-semibold rounded-full py-2 bg-gray-200 text'>
+                    22 (73)
+                  </span>
+                </td>
+              </tr>
+              <tr className='odd:bg-gray-200 bg-white-100'>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-left table-cell'>
+                  5
                 </td>
                 <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell'>
                   <div className='flex items-center'>
@@ -110,56 +162,6 @@ const CompleteList: React.FC = () => {
               </tr>
               <tr className='odd:bg-gray-200 bg-white-100'>
                 <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-left table-cell'>
-                  4
-                </td>
-                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell'>
-                  <div className='flex items-center'>
-                    <TextLink href='/racing-point-f1' target='_self'>
-                      <div className='text-base leading-5 font-medium text-gray-900 racingpoint'>
-                        <span className='text'>BWT Racing Point F1</span>
-                      </div>
-                    </TextLink>
-                  </div>
-                </td>
-                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-sm leading-5 font-medium text-gray-900 text-center hidden sm:table-cell'>
-                  RP20
-                </td>
-                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-sm leading-5 font-medium text-gray-900 text-center hidden sm:table-cell'>
-                  United Kingdom
-                </td>
-                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell text-right racingpoint'>
-                  <span className='px-2 inline-flex text-base leading-5 font-semibold rounded-full py-2 bg-gray-200 text'>
-                    8 (73)
-                  </span>
-                </td>
-              </tr>
-              <tr className='odd:bg-gray-200 bg-white-100'>
-                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-left table-cell'>
-                  5
-                </td>
-                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell'>
-                  <div className='flex items-center'>
-                    <TextLink href='/alphatauri-f1' target='_self'>
-                      <div className='text-base leading-5 font-medium text-gray-900 alphatauri'>
-                        <span className='text'>Scuderia AlphaTauri Honda</span>
-                      </div>
-                    </TextLink>
-                  </div>
-                </td>
-                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-sm leading-5 font-medium text-gray-900 text-center hidden sm:table-cell'>
-                  AT01
-                </td>
-                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-sm leading-5 font-medium text-gray-900 text-center hidden sm:table-cell'>
-                  Italy
-                </td>
-                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell text-right '>
-                  <span className='px-2 inline-flex text-base leading-5 font-semibold rounded-full py-2 bg-gray-200 text'>
-                    6 (85)
-                  </span>
-                </td>
-              </tr>
-              <tr className='odd:bg-gray-200 bg-white-100'>
-                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-left table-cell'>
                   6
                 </td>
                 <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell'>
@@ -181,7 +183,32 @@ const CompleteList: React.FC = () => {
                 </td>
                 <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell text-right renault'>
                   <span className='px-2 inline-flex text-base leading-5 font-semibold rounded-full py-2 bg-gray-200 text three-d-text'>
-                    4 (91)
+                    8 (91)
+                  </span>
+                </td>
+              </tr>
+              <tr className='odd:bg-gray-200 bg-white-100'>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-left table-cell'>
+                  7
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell'>
+                  <div className='flex items-center'>
+                    <TextLink href='/alphatauri-f1' target='_self'>
+                      <div className='text-base leading-5 font-medium text-gray-900 alphatauri'>
+                        <span className='text'>Scuderia AlphaTauri Honda</span>
+                      </div>
+                    </TextLink>
+                  </div>
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-sm leading-5 font-medium text-gray-900 text-center hidden sm:table-cell'>
+                  AT01
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-sm leading-5 font-medium text-gray-900 text-center hidden sm:table-cell'>
+                  Italy
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell text-right '>
+                  <span className='px-2 inline-flex text-base leading-5 font-semibold rounded-full py-2 bg-gray-200 text'>
+                    7 (85)
                   </span>
                 </td>
               </tr>
@@ -257,33 +284,6 @@ const CompleteList: React.FC = () => {
                 <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell text-right haas'>
                   <span className='px-2 inline-flex text-base leading-5 font-semibold rounded-full py-2 bg-gray-200 text'>
                     0 (28)
-                  </span>
-                </td>
-              </tr>
-              <tr className='odd:bg-gray-200 bg-white-100'>
-                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-left table-cell'>
-                  10
-                </td>
-                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell'>
-                  <div className='flex items-center'>
-                    <TextLink href='/redbull-racing-f1' target='_self'>
-                      <div className='text-base leading-5 font-medium text-gray-900 redbull'>
-                        <span className='text'>
-                          Aston Martin Red Bull Racing
-                        </span>
-                      </div>
-                    </TextLink>
-                  </div>
-                </td>
-                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-sm leading-5 font-medium text-gray-900 text-center hidden sm:table-cell'>
-                  RB16
-                </td>
-                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-sm leading-5 font-medium text-gray-900 text-center hidden sm:table-cell'>
-                  United Kingdom
-                </td>
-                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell text-right redbull'>
-                  <span className='px-2 inline-flex text-base leading-5 font-semibold rounded-full py-2 bg-gray-200 text'>
-                    0 (417)
                   </span>
                 </td>
               </tr>

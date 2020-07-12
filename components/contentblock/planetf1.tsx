@@ -18,37 +18,31 @@ const PlanetF1: React.FC = () => {
             planetf1.com
           </div>
           <ActionLink
-            href='https://www.planetf1.com/news/sergio-perez-q1-exit-styrian-gp/'
+            href='https://www.planetf1.com/news/sebastian-vettel-charles-leclerc-crash/'
             target='_blank'>
-            Perez: Tyre temps behind ‘disappointing’ Q1 exit
+            Vettel: No space for Leclerc’s ‘surprise’ overtake
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Racing Point’s Sergio Perez said his failure to generate enough tyre
-            temperature caused his Q1 elimination at the Styrian GP. Perez had
-            been talked about as a contender for pole ahead of qualifying for
-            the Styrian GP, but nevermind pole, he wasn’t even able to make it
-            out of the first session.
+            Sebastian Vettel has said there was simply “no space” for Charles
+            Leclerc to try his very ambitious opening lap move on him.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            The RP20’s impressive pace went missing as the rain fell at the Red
-            Bull Ring, leaving Perez P17 on the grid. The Mexican believed he
-            had the pace for Q2, but said the late red flags after Antonio
-            Giovinazzi’s incident caught him out after struggling to get the
-            full wets up to temperature.
+            Vettel started the race from P10, whilst thanks to a penalty Leclerc
+            was moving away from the grid from P14. And on the run up to Turn 3
+            Leclerc had a look down the inside of his team-mate, shortly before
+            the pair collided.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            “It’s a big disappointment,” he said. “You know we were on for a
-            great weekend as we have great pace in the dry. But in the wet we
-            couldn’t find our rhythm. “I struggled a lot to generate any tyre
-            temperature. It took me two to three laps to generate the
-            temperature and at the end I was coming on a good lap but then the
-            red flag stopped that lap. There’s nothing we can do now other than
-            think forward for tomorrow.”
+            Leclerc launched his SF1000 over the kerbs into Vettel’s car,
+            causing heavy damage to the side and rear wing of Vettel’s Ferrari.
+            Vettel was forced to retire when both drivers came into the pits,
+            whilst Leclerc called time on his afternoon on Lap 5 due to the
+            damage.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.planetf1.com/news/sergio-perez-q1-exit-styrian-gp/'
+              href='https://www.planetf1.com/news/sebastian-vettel-charles-leclerc-crash/'
               target='_blank'>
               planetf1.com
             </ContentLink>{' '}
