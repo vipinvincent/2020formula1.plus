@@ -8,7 +8,7 @@ const F1: React.FC = () => {
       <div className='h-32 sm:h-84 w-full'>
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
-          src='https://image-cdn.essentiallysports.com/wp-content/uploads/20200206193502/RBR.jpg'
+          src='https://d3cm515ijfiu6w.cloudfront.net/wp-content/uploads/2020/02/21161144/Mattia-Binotto-PA.jpg'
           alt='What To Watch For in the Styrian GP : Hamilton vs Verstappen'
         />
       </div>
@@ -18,37 +18,37 @@ const F1: React.FC = () => {
             Formula1.com
           </div>
           <ActionLink
-            href='https://www.formula1.com/en/latest/article.vettel-says-hed-take-red-bull-seat-if-offered-but-verstappen-would-prefer-to.6rC5OsifstIe237yLfl2FT.html'
+            href='https://www.formula1.com/en/latest/article.not-good-enough-for-a-team-by-the-name-of-ferrari-binottos-scathing.7tzV5egNxlI9meTzvICbP6.html'
             target='_blank'>
-            What To Watch For in the Styrian GP : Hamilton vs Verstappen and
-            Russell in the hunt for points
+            ‘Not good enough for a team by the name of Ferrari’ – Binotto's
+            scathing assessment of Scuderia’s struggles
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            From a mouthwatering match-up on the front row to a mixed up grid
-            further back, and Ferrari’s upgraded car to George Russell looking
-            to open his point-scoring account, we highlight five key topics to
-            keep an eye out for as we go racing for the second consecutive
-            weekend at the Red Bull Ring…
+            For the last two Grand Prix weekends, Ferrari Team Principal Mattia
+            Binotto has watched as one of his fully functioning cars has failed
+            to make it out of Q2 on pace alone. And Binotto vowed to “change
+            this state of affairs”, as he called his team’s current performance
+            unworthy of the Ferrari name.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Qualifying was an absolute treat as we saw two incredible talents
-            fighting it out for pole position in the wet. But after being so
-            closely matched in Q1 and Q2, Lewis Hamilton had too much for Max
-            Verstappen in the top 10 shootout, ending up a full 1.216s ahead as
-            Verstappen spun away his chance at improving.
+            Jaws hit the floor at last weekend’s Austrian Grand Prix season
+            opener when Sebastian Vettel failed to make it out of Q2, starting
+            the race P11, while Charles Leclerc could only manage seventh on the
+            grid – although the Monegasque then restored some Ferrari pride with
+            a strong drive to second.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Still, after Hamilton was only fifth on the grid last weekend
-            following a penalty, this time round we will see the pair line up
-            side-by-side as they both look to respond to Valtteri Bottas’ win
-            from the first race. On that occasion, Verstappen’s race potential
-            was hidden somewhat as he retired early on, but Mercedes held an
-            advantage until gearbox issues caused concern for both cars.
+            But despite fast-tracking upgrades to the team’s SF1000 for this
+            weekend’s Styrian Grand Prix, a second consecutive qualifying
+            disappointment for Ferrari – with Vettel going through to Q3 but
+            ending up P10, while Leclerc couldn’t progress beyond Q2, and will
+            start 14th after a three-place grid drop – seemed to be more than
+            Binotto could take.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.formula1.com/en/latest/article.vettel-says-hed-take-red-bull-seat-if-offered-but-verstappen-would-prefer-to.6rC5OsifstIe237yLfl2FT.html'
+              href='https://www.formula1.com/en/latest/article.not-good-enough-for-a-team-by-the-name-of-ferrari-binottos-scathing.7tzV5egNxlI9meTzvICbP6.html'
               target='_blank'>
               formula1.com
             </ContentLink>{' '}
@@ -60,7 +60,7 @@ const F1: React.FC = () => {
             Follow this topic on -
           </div>
           <div className='w-full flex flex-row justify-center md:justify-start md:w-9/12'>
-            <div className='mr-2'>
+            {/*     <div className='mr-2'>
               <ActionLink
                 href='https://www.bbc.com/sport/formula1/53377338'
                 target='_blank'>
@@ -70,10 +70,10 @@ const F1: React.FC = () => {
                   alt='bbc.com/sport'
                 />
               </ActionLink>
-            </div>
+            </div>*/}
             <div className='mr-2'>
               <ActionLink
-                href='https://www.skysports.com/f1/news/12433/12026519/lewis-hamilton-proud-to-master-terrifying-styrian-gp-qualifying'
+                href='https://www.motorsport.com/f1/news/binotto-ferrari-qualifying-struggles-styria/4831883/'
                 target='_blank'>
                 <img
                   className='w-auto h-8 object-contain rounded'
@@ -82,7 +82,7 @@ const F1: React.FC = () => {
                 />
               </ActionLink>
             </div>
-            <div className='mr-2'>
+            {/* <div className='mr-2'>
               <ActionLink
                 href='https://www.skysports.com/f1/news/12433/12026519/lewis-hamilton-proud-to-master-terrifying-styrian-gp-qualifying'
                 target='_blank'>
@@ -92,10 +92,10 @@ const F1: React.FC = () => {
                   alt='skysports.com'
                 />
               </ActionLink>
-            </div>
+            </div> */}
             <div className='mr-2'>
               <ActionLink
-                href='https://www.motorsport.com/f1/news/podcast-styrian-gp-qualifying-hamilton/4831578/'
+                href='https://www.autosport.com/f1/news/150518/binotto-styria-qualifying-not-good-enough-for-ferrari'
                 target='_blank'>
                 <img
                   className='w-auto h-8 object-contain rounded'
@@ -114,7 +114,7 @@ const F1: React.FC = () => {
                   alt='espn.com'
                 />
               </ActionLink>
-            </div> */}
+            </div>
             <div className='mr-2'>
               <ActionLink
                 href='https://the-race.com/formula-1/hamiltons-not-from-this-world-pole-lap-explained/'
@@ -137,7 +137,7 @@ const F1: React.FC = () => {
                 />
               </ActionLink>
             </div>
-            {/* <div className='mr-2'>
+            <div className='mr-2'>
               <ActionLink
                 href='https://www.planetf1.com/news/qualifying-report-styrian-gp-2020/'
                 target='_blank'>
