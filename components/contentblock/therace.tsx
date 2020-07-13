@@ -18,33 +18,31 @@ const TheRace: React.FC = () => {
             the-race.com
           </div>
           <ActionLink
-            href='https://the-race.com/formula-1/the-winners-and-losers-of-f1s-styrian-grand-prix/'
+            href='https://the-race.com/formula-1/why-racing-points-pink-mercedes-was-finally-protested/'
             target='_blank'>
-            The winners and losers of F1’s Styrian Grand Prix
+            Why Racing Point’s ‘2019 Mercedes’ was finally protested
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            The Styrian Grand Prix proved a lot more straightforward than its
-            counterpart from last weekend, yielding a familiar Mercedes 1-2 and
-            no shock podium finishers.
+            Renault’s formal protest of the legality of the 2020 Racing Point
+            Formula 1 car design following the Styrian Grand Prix brings a
+            long-running grievance to a head.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Yet some still punched above their weight, while some emphatically
-            did not. Below, we chronicle the winners and losers of the event.
+            The similarities of the RP20 to last year’s Mercedes have been known
+            since the car was publicly unveiled at pre-season testing and Racing
+            Point has not shied away from the fact the 2019 Mercedes was the
+            inspiration for its car design.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            After a poor season opener by his lofty standards, Lewis Hamilton
-            recovered in resounding fashion with an emphatic victory. OK, he
-            still trails team-mate Valtteri Bottas in the championship, but F1’s
-            change of venue next weekend will be accompanied by a shift in
-            momentum in Hamilton’s favour. His brief moments of vulnerability,
-            at the start and safety car restart, proved anything but. It wasn’t
-            exciting for those watching, but it was textbook stuff from the
-            six-time world champion
+            However it has always insisted that the 2019 Mercedes was only ever
+            an inspiration – Racing Point says it simply studied the car from
+            photographs any team could have gathered, and did not create its
+            interpretation of the design through illegal means.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://the-race.com/formula-1/the-winners-and-losers-of-f1s-styrian-grand-prix/'
+              href='https://the-race.com/formula-1/why-racing-points-pink-mercedes-was-finally-protested/'
               target='_blank'>
               the-race.com
             </ContentLink>{' '}

@@ -18,31 +18,35 @@ const PlanetF1: React.FC = () => {
             planetf1.com
           </div>
           <ActionLink
-            href='https://www.planetf1.com/news/sebastian-vettel-charles-leclerc-crash/'
+            href='https://www.planetf1.com/news/daniel-ricciardo-lance-stroll-penalty/'
             target='_blank'>
-            Vettel: No space for Leclerc’s ‘surprise’ overtake
+            Ricciardo expected Stroll to be penalised
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Sebastian Vettel has said there was simply “no space” for Charles
-            Leclerc to try his very ambitious opening lap move on him.
+            Daniel Ricciardo expected Lance Stroll to be handed a penalty for
+            forcing him off track in the pair’s battle late on. The Renault
+            driver enjoyed an excellent first stint on the medium tyre to
+            position himself as the best of the race and close up to the Red
+            Bull of Alex Albon.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Vettel started the race from P10, whilst thanks to a penalty Leclerc
-            was moving away from the grid from P14. And on the run up to Turn 3
-            Leclerc had a look down the inside of his team-mate, shortly before
-            the pair collided.
+            However, he struggled considerably more for pace in his second stint
+            and, having already been passed by Sergio Perez, his mirror was
+            quickly full of the pink of Lance Stroll’s Racing Point. He managed
+            to hold the Canadian off for a number of laps before, with two left,
+            Stroll tried a move to take P5 from him.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Leclerc launched his SF1000 over the kerbs into Vettel’s car,
-            causing heavy damage to the side and rear wing of Vettel’s Ferrari.
-            Vettel was forced to retire when both drivers came into the pits,
-            whilst Leclerc called time on his afternoon on Lap 5 due to the
-            damage.
+            It forced them both off the track and allowed Lando Norris to
+            capitalise and pass them both. The incident was investigated but no
+            further action was taken “Firstly he [Stroll] didn’t really get
+            past, he forced both of us off the track,” Ricciardo said after the
+            race before the stewards had announced Stroll wouldn’t be penalised.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.planetf1.com/news/sebastian-vettel-charles-leclerc-crash/'
+              href='https://www.planetf1.com/news/daniel-ricciardo-lance-stroll-penalty/'
               target='_blank'>
               planetf1.com
             </ContentLink>{' '}

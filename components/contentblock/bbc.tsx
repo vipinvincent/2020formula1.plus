@@ -18,32 +18,40 @@ const BBC: React.FC = () => {
             bbc.com
           </div>
           <ActionLink
-            href='https://www.bbc.com/sport/formula1/53382391'
+            href='https://www.bbc.com/sport/formula1/53383522'
             target='_blank'>
-            Lewis Hamilton takes dominant Styrian Grand Prix win after Ferraris
-            collide
+            Lewis Hamilton's statesman-like presence comes to the fore after
+            Styrian GP
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Mercedes driver Lewis Hamilton cruised to a comfortable victory in
-            the Styrian Grand Prix. The world champion's first victory of the
-            year was founded on a stupendous performance in wet qualifying, in
-            which he took pole by more than 1.2 seconds.
+            Lewis Hamilton stood on the podium after a dominant victory in the
+            Styrian Grand Prix with his fist raised in a black power salute, an
+            image emblematic of the twin goals the Mercedes driver has set
+            himself this year.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Hamilton led from pole position, headed only at the pit-stops, as
-            team-mate Valtteri Bottas overtook Red Bull's Max Verstappen late on
-            for second. The Ferraris retired early after colliding with each
-            other on lap one.
+            Hamilton started off the delayed Formula 1 season with a difficult
+            race in Austria a week ago, amid his prominent role in organising an
+            anti-racism demonstration by the drivers on the grid. On Thursday,
+            he was asked before the second race of the season at the same Red
+            Bull Ring track whether he now needed to refocus on the
+            championship.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            It was another dark day for the Italian team, after an uncompetitive
-            showing in qualifying, as Charles Leclerc apologised for a rash move
-            on the first lap that took out both cars.
+            "I'm still focused on both," he said. "Trying to fight and win this
+            championship but also fighting for equal rights." Hamilton is
+            bidding to win a seventh world championship this year, an
+            achievement that would equal the all-time record held by Michael
+            Schumacher. It's not clear, given his achievements, why anyone might
+            have doubts about his ability to deliver on that aim while also
+            expressing the need for the world to make progress on human rights.
+            But if they did, they were disabused of it by his performance this
+            weekend.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.bbc.com/sport/formula1/53382391'
+              href='https://www.bbc.com/sport/formula1/53383522'
               target='_blank'>
               bbc.com
             </ContentLink>{' '}

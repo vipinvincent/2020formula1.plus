@@ -18,32 +18,31 @@ const AutoSport: React.FC = () => {
             autosport.com
           </div>
           <ActionLink
-            href='https://www.autosport.com/f1/news/150533/ricciardo-desperate-stroll-move-should-be-penalised'
+            href='https://www.autosport.com/f1/news/150537/stroll-racing-point-debatably-second-fastest-car'
             target='_blank'>
-            F1 Styrian GP: "Desperate" Stroll move should be penalised, says
-            Ricciardo
+            F1 Styrian GP: Racing Point "debatably" the second fastest car, says
+            Stroll
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Daniel Ricciardo has vented his frustration at a "desperate"
-            overtake by Lance Stroll and believes the Racing Point driver should
-            have been penalised for the manoeuvre during the Styrian Grand Prix.
+            Racing Point's Lance Stroll believes his team "debatably" has the
+            second fastest Formula 1 car after its Styrian Grand Prix
+            performance, while Renault has launched a protest against the team.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            The Renault Formula 1 driver had been defending sixth place against
-            Stroll in the closing stages, with McLaren's Lando Norris closing
-            down on the pair, before the Canadian driver dived up the inside at
-            Turn 3 on the penultimate lap which forced both him and Ricciardo
-            off the track.
+            After struggling in the wet qualifying at the Red Bull Ring, both
+            Sergio Perez and team-mate Stroll charged through the field during
+            Sunday's race in dry and warm conditions to demonstrate the RP20's
+            pace.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Ricciardo felt Stroll deserved a penalty for the move but in a
-            post-race FIA stewards investigation no action was taken on the
-            Racing Point driver for the incident.
+            After Perez overtook both Stroll and Renault's Daniel Ricciardo to
+            climb to fifth - having started 17th - the Mexican damaged his front
+            wing attacking Red Bull's Alexander Albon on lap 69.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.autosport.com/f1/news/150533/ricciardo-desperate-stroll-move-should-be-penalised'
+              href='https://www.autosport.com/f1/news/150537/stroll-racing-point-debatably-second-fastest-car'
               target='_blank'>
               autosport.com
             </ContentLink>{' '}

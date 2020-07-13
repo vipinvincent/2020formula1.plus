@@ -20,24 +20,27 @@ const SkySports: React.FC = () => {
           <ActionLink
             href='https://www.skysports.com/f1/news/12433/12027120/ferrari-implode-at-styrian-gp-after-charles-leclerc-sebastian-vettel-collide'
             target='_blank'>
-            Ferrari implode at Styrian GP after Charles Leclerc, Sebastian
-            Vettel collide
+            Lando Norris after passing three in final Styrian GP laps: 'My best
+            race'
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Ferrari's early-season woes deepen after both cars crash together on
-            the first lap; Leclerc takes full responsibility for 'too
-            optimistic' move on team-mate
+            Lando Norris hailed the Styrian GP as his best race in Formula 1
+            after the young Brit enjoyed another incredible finish, passing
+            three cars in the final two laps, to take fifth for McLaren.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Charles Leclerc apologised to Sebastian Vettel and admitted he "put
-            all the efforts of the team in the bin" after crashing into his
-            team-mate on the opening lap of the Styrian GP to further compound
-            Ferrari's torrid start to the new season.
+            Norris was running eighth heading into Lap 70 of 71 but overtook
+            both Daniel Ricciardo and Lance Stroll as they scrapped for
+            position, before taking advantage of Sergio Perez's damaged car to
+            pick off another Racing Point.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            The Ferraris came together on the first run to Turn Three, with
-            Leclerc attempting to go down the inside of Vettel but clipping the
-            kerb and being pitched into a collision with the sister car.
+            The 10 points mean Norris is a brilliant third in the championship,
+            as his charge came just a week after he secured his first F1 podium
+            with a fastest lap of the race on his last effort at the same
+            Spielberg circuit. "It was a a really good race for me, probably my
+            best one I've done in Formula 1," Norris, 20, told Sky F1's Rachel
+            Brookes.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}

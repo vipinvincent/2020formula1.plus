@@ -18,37 +18,32 @@ const ESPN: React.FC = () => {
             espn.com
           </div>
           <ActionLink
-            href='https://www.espn.in/f1/report/_/id/401220848'
+            href='https://www.espn.in/f1/story/_/id/29452599/fia-impounds-racing-point-brake-ducts-renault-protest'
             target='_blank'>
-            Hamilton claims easy Stryian GP win, Ferrari pair crash out
+            FIA impounds Racing Point's brake ducts Renault protest
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Lewis Hamilton claimed a comfortable win at the Styrian Grand Prix
-            ahead of teammate Valtteri Bottas and Max Verstappen, as Ferrari's
-            drivers took each other out of the race on lap one.
+            Motor racing's governing body, the FIA, has impounded the brake
+            ducts from Racing Point's cars and ordered Mercedes to supply
+            corresponding components from its 2019 car after deeming a protest
+            from rivals Renault admissible.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Hamilton only lost the lead briefly after pitting, with teammate
-            Bottas extending his first stint in an attempt to beat Verstappen to
-            second, in what was a fairly lonely race for the world champion to
-            the finish. The foundations for Hamilton's win were set with a
-            supreme qualifying performance in a wet qualifying session on
-            Saturday afternoon and the six-time world champion carried that form
-            over to Sunday.
+            Racing Point finished sixth and seventh at Sunday's Styrian Grand
+            Prix, but Renault have protested the result over allegations Racing
+            Point's car does not comply with regulations requiring teams to
+            design and manufacture certain parts.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Bottas' strategy created an entertaining fight late on, with the
-            Finn catching Verstappen five laps from the finish of the race.
-            Verstappen did not make things easy for Bottas, brilliantly fighting
-            back in a wheel-to-wheel battle on lap 66 to briefly hold on to
-            second. The Red Bull driver was unable to do the same on the next
-            lap as Bottas finally got by to secure Mercedes' first one-two
-            finish of the season.
+            While some components, known as non-listed parts, are allowed to be
+            bought from rivals, listed parts, which include the aerodynamic
+            surfaces of the car and, for the first time this year, the brake
+            ducts, must be of the team's own design.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.espn.in/f1/report/_/id/401220848'
+              href='https://www.espn.in/f1/story/_/id/29452599/fia-impounds-racing-point-brake-ducts-renault-protest'
               target='_blank'>
               espn.com
             </ContentLink>{' '}

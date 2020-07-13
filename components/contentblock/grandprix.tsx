@@ -18,31 +18,35 @@ const GrandPrix: React.FC = () => {
             grandprix247.com
           </div>
           <ActionLink
-            href='https://www.grandprix247.com/2020/07/12/haas-we-still-need-to-find-some-pace/'
+            href='https://www.grandprix247.com/2020/07/13/hamilton-we-need-the-teams-to-hold-themselves-accountable/'
             target='_blank'>
-            Haas: We still need to find some pace
+            Hamilton: We need the teams to hold themselves accountable
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Haas F1 Team drivers Kevin Magnussen and Romain Grosjean finished
-            P12 and P13 respectively at the second race of the 2020 FIA Formula
-            One World Championship, the Styrian Grand Prix, held at the Red Bull
-            Ring in Spielberg, Austria.
+            Mercedes’ Lewis Hamilton says that Formula 1’s nine other teams must
+            do more in the fight against discrimination, particularly in terms
+            of affecting change in their own workplaces.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            After the torrential rain that drenched the circuit on Saturday the
-            skies cleared for Sunday’s track action, albeit with cooler
-            temperatures compared to Friday’s running.
+            Hamilton, who comfortably won Sunday’s Styrian Grand Prix from pole,
+            took a knee before the race and raised his fist on the podium
+            afterwards as part of his continued support for the ‘Black Lives
+            Matter’ movement
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Magnussen started P15 on the Pirelli P Zero Red soft tires while
-            Grosjean was mandated to begin from the pit lane after essential
-            work was carried out on his VF-20 post-qualifying, contravening Parc
-            Ferme regulations.
+            Asked afterwards about the recent progress the sport has to improve
+            diversity, the Briton suggested there was still a long ways to go.
+            “I think ultimately Formula 1, yes they’ve taken a step forward, but
+            there’s absolutely more they can do,” he told reporters, as reported
+            by RaceFans. “I asked, on a call we had on Zoom, I asked: Look, at
+            the moment Formula 1 has come forward and said that they are
+            supporting ‘end racism’ and it’s amazing to see Mercedes doing the
+            same thing. But no other team has said a single thing.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.grandprix247.com/2020/07/12/haas-we-still-need-to-find-some-pace/'
+              href='https://www.grandprix247.com/2020/07/13/hamilton-we-need-the-teams-to-hold-themselves-accountable/'
               target='_blank'>
               grandprix247.com
             </ContentLink>{' '}

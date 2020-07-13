@@ -18,31 +18,34 @@ const MotorSport: React.FC = () => {
             motorsport.com
           </div>
           <ActionLink
-            href='https://www.motorsport.com/f1/news/racing-point-renault-protest-styrian-gp/4832634/'
+            href='https://www.motorsport.com/f1/news/renault-racing-point-mercedes-protest/4832791/'
             target='_blank'>
-            Renault lodges protest against Racing Point
+            Stewards rule Renault’s Racing Point protest “admissible”
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Renault has protested Racing Point's cars following its double
-            points finish in the Austrian Grand Prix.
+            The FIA stewards at the Styrian Grand Prix have declared a protest
+            submitted by the Renault Formula 1 team against the two Racing Point
+            cars of Sergio Perez and Lance Stroll as admissible, and it will be
+            ruled upon when the evidence has been gathered.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            The French car manufacturer lodged complaints about both Sergio
-            Perez and Lance Stroll's cars as the debate over its Mercedes copy
-            erupted. The Renault protest alleged that Racing Point had breached
-            the rules by not using a design that had been fully created by
-            itself.
+            The protest concerned Appendix 6 of the FIA sporting regulations,
+            which relates to listed parts, and what can and cannot be shared
+            between teams. It relates specifically to the front and rear brake
+            ducts used by the Racing Point RP20, which Renault clearly believes
+            are more similar to those used on last year’s Mercedes W10 than the
+            rules allow.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Article 1 of Appendix 6 of the Sporting Regulations states: "A
-            competitor shall, in respect of the Listed Parts to be used in its
-            cars in Formula One, only use Listed Parts which are designed by
-            it."
+            In stark contrast to the protest made last week by Red Bull Racing
+            on the subject of the Mercedes DAS system, which was submitted on a
+            Friday and thus did not affect qualifying or the race, Renault took
+            action after today’s Styrian GP.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.motorsport.com/f1/news/racing-point-renault-protest-styrian-gp/4832634/'
+              href='https://www.motorsport.com/f1/news/renault-racing-point-mercedes-protest/4832791/'
               target='_blank'>
               motorsport.com
             </ContentLink>{' '}
