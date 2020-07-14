@@ -18,35 +18,29 @@ const GrandPrix: React.FC = () => {
             grandprix247.com
           </div>
           <ActionLink
-            href='https://www.grandprix247.com/2020/07/13/hamilton-we-need-the-teams-to-hold-themselves-accountable/'
+            href='https://www.grandprix247.com/2020/07/14/russell-were-not-as-quick-as-we-thought-wed-be/'
             target='_blank'>
-            Hamilton: We need the teams to hold themselves accountable
+            Russell: We’re not as quick as we thought we’d be
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Mercedes’ Lewis Hamilton says that Formula 1’s nine other teams must
-            do more in the fight against discrimination, particularly in terms
-            of affecting change in their own workplaces.
+            Williams’ George Russell says the slide back from his P12 start at
+            the Styrian Grand Prix came as a surprise, as he had hoped to have
+            better pace in race trim.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Hamilton, who comfortably won Sunday’s Styrian Grand Prix from pole,
-            took a knee before the race and raised his fist on the podium
-            afterwards as part of his continued support for the ‘Black Lives
-            Matter’ movement
+            Able to outperform his car in Saturday’s wet qualifying, Russell
+            started the race from 12th, but saw him slide down to 16th at the
+            flag, the penultimate finisher ahead of teammate Nicholas Latifi.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Asked afterwards about the recent progress the sport has to improve
-            diversity, the Briton suggested there was still a long ways to go.
-            “I think ultimately Formula 1, yes they’ve taken a step forward, but
-            there’s absolutely more they can do,” he told reporters, as reported
-            by RaceFans. “I asked, on a call we had on Zoom, I asked: Look, at
-            the moment Formula 1 has come forward and said that they are
-            supporting ‘end racism’ and it’s amazing to see Mercedes doing the
-            same thing. But no other team has said a single thing.
+            And while Russell did himself no favours with a lap 4 off into the
+            gravel while fighting with Haas’ Kevin Magnussen, the Briton
+            suggests his error had little to do with the final outcome.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.grandprix247.com/2020/07/13/hamilton-we-need-the-teams-to-hold-themselves-accountable/'
+              href='https://www.grandprix247.com/2020/07/14/russell-were-not-as-quick-as-we-thought-wed-be/'
               target='_blank'>
               grandprix247.com
             </ContentLink>{' '}

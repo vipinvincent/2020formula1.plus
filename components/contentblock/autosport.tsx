@@ -18,31 +18,30 @@ const AutoSport: React.FC = () => {
             autosport.com
           </div>
           <ActionLink
-            href='https://www.autosport.com/f1/news/150537/stroll-racing-point-debatably-second-fastest-car'
+            href='https://www.autosport.com/f1/news/150556/bottas-to-stay-at-mercedes-with-new-2021-f1-deal'
             target='_blank'>
-            F1 Styrian GP: Racing Point "debatably" the second fastest car, says
-            Stroll
+            Valtteri Bottas to stay at Mercedes after agreeing new 2021 F1 deal
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Racing Point's Lance Stroll believes his team "debatably" has the
-            second fastest Formula 1 car after its Styrian Grand Prix
-            performance, while Renault has launched a protest against the team.
+            Valtteri Bottas will remain at Mercedes in 2021 with a new deal
+            having been agreed in principle, sources have revealed to Autosport.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            After struggling in the wet qualifying at the Red Bull Ring, both
-            Sergio Perez and team-mate Stroll charged through the field during
-            Sunday's race in dry and warm conditions to demonstrate the RP20's
-            pace.
+            While a final contract has yet to be signed off, both team and
+            driver have agreed terms for their partnership to continue in
+            Formula 1 at least for next year on the back of the Finn's strong
+            start to the campaign.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            After Perez overtook both Stroll and Renault's Daniel Ricciardo to
-            climb to fifth - having started 17th - the Mexican damaged his front
-            wing attacking Red Bull's Alexander Albon on lap 69.
+            The agreement, which has been put together in the last few days,
+            came after Mercedes CEO Ola Kallenius gave his blessing during a
+            visit to the Austrian Grand Prix to an unchanged line-up for next
+            season.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.autosport.com/f1/news/150537/stroll-racing-point-debatably-second-fastest-car'
+              href='https://www.autosport.com/f1/news/150556/bottas-to-stay-at-mercedes-with-new-2021-f1-deal'
               target='_blank'>
               autosport.com
             </ContentLink>{' '}

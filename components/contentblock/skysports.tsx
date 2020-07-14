@@ -18,34 +18,36 @@ const SkySports: React.FC = () => {
             skysports.com
           </div>
           <ActionLink
-            href='https://www.skysports.com/f1/news/12433/12027120/ferrari-implode-at-styrian-gp-after-charles-leclerc-sebastian-vettel-collide'
+            href='https://www.skysports.com/f1/news/12433/12027547/styrian-gp-driver-ratings'
             target='_blank'>
-            Lando Norris after passing three in final Styrian GP laps: 'My best
-            race'
+            Styrian GP driver ratings
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Lando Norris hailed the Styrian GP as his best race in Formula 1
-            after the young Brit enjoyed another incredible finish, passing
-            three cars in the final two laps, to take fifth for McLaren.
+            It was vintage Lewis Hamilton, with starring race-day roles from Max
+            Verstappen and Sergio Perez. Rating all 20 drivers after Austria,
+            round two.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Norris was running eighth heading into Lap 70 of 71 but overtook
-            both Daniel Ricciardo and Lance Stroll as they scrapped for
-            position, before taking advantage of Sergio Perez's damaged car to
-            pick off another Racing Point.
+            Lewis Hamilton Qualified 1st, Finished 1st Now Lewis Hamilton's
+            quest for that seventh world title is properly up and running. If
+            the dominant and seemingly serene race-day performance that took the
+            Mercedes driver to the 85th win of his career could be described as
+            'textbook' - at least by the six-time champion's standards - no
+            manual would have told you quite how Hamilton conjured up pole
+            position by 1.2 seconds in those atrocious wet conditions of
+            qualifying.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            The 10 points mean Norris is a brilliant third in the championship,
-            as his charge came just a week after he secured his first F1 podium
-            with a fastest lap of the race on his last effort at the same
-            Spielberg circuit. "It was a a really good race for me, probably my
-            best one I've done in Formula 1," Norris, 20, told Sky F1's Rachel
-            Brookes.
+            Valtteri Bottas Qualified 4th, Finished 2nd A step back for Valtteri
+            Bottas, considering his perfect start to the season a week before.
+            Bottas was a whopping 1.4s off Hamilton in qualifying in the same
+            Mercedes car - with his reasons for the margin ranging from not
+            "building enough temperature into my tyres" to "glazing brakes".
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.skysports.com/f1/news/12433/12027120/ferrari-implode-at-styrian-gp-after-charles-leclerc-sebastian-vettel-collide'
+              href='https://www.skysports.com/f1/news/12433/12027547/styrian-gp-driver-ratings'
               target='_blank'>
               skysports.com
             </ContentLink>{' '}

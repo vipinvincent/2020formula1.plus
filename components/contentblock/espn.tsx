@@ -18,32 +18,34 @@ const ESPN: React.FC = () => {
             espn.com
           </div>
           <ActionLink
-            href='https://www.espn.in/f1/story/_/id/29452599/fia-impounds-racing-point-brake-ducts-renault-protest'
+            href='https://www.espn.in/f1/story/_/id/29455171/where-does-ferrari-go-here'
             target='_blank'>
-            FIA impounds Racing Point's brake ducts Renault protest
+            Where does Ferrari go from here?
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Motor racing's governing body, the FIA, has impounded the brake
-            ducts from Racing Point's cars and ordered Mercedes to supply
-            corresponding components from its 2019 car after deeming a protest
-            from rivals Renault admissible.
+            After the first two races of the 2020 Formula One world
+            championship, Ferrari sits fifth in the constructors' championship.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Racing Point finished sixth and seventh at Sunday's Styrian Grand
-            Prix, but Renault have protested the result over allegations Racing
-            Point's car does not comply with regulations requiring teams to
-            design and manufacture certain parts.
+            If anything that flatters the team's performance at the opening two
+            rounds and it would not be a stretch to rank it as the sixth best
+            team behind Renault as well as Racing Point, Red Bull, McLaren and
+            Mercedes.For a team that has finished second for the last three
+            years and won the 16 titles in its glorious history, it is a massive
+            fall from grace.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            While some components, known as non-listed parts, are allowed to be
-            bought from rivals, listed parts, which include the aerodynamic
-            surfaces of the car and, for the first time this year, the brake
-            ducts, must be of the team's own design.
+            The collision between the two Ferrari drivers on Sunday was
+            unfortunate, but really only represents the tip of the iceberg.
+            After qualifying 10th and 14th on the grid, Sebastian Vettel and
+            Charles Leclerc were in unfamiliar territory in the messy lower
+            midfield battle where accidents invariably happen, and took each
+            other out.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.espn.in/f1/story/_/id/29452599/fia-impounds-racing-point-brake-ducts-renault-protest'
+              href='https://www.espn.in/f1/story/_/id/29455171/where-does-ferrari-go-here'
               target='_blank'>
               espn.com
             </ContentLink>{' '}

@@ -5,7 +5,7 @@ import Recent from '../components/schedule/recent'
 import Driver from '../components/driver'
 import Team from '../components/team'
 // import Qualifying from 'components/qualifying/quick-look'
-import Race from '../components/race/quick-look'
+// import Race from '../components/race/quick-look'
 
 const IndexPage = () => (
   <Layout title='Formula1 Plus - Formula 1 Latest News, Insights, Live Grand Prix Updates, Schedule, Standings, Drivers, Teams, Results and much more...'>
@@ -14,7 +14,7 @@ const IndexPage = () => (
         <div className='flex flex-row'>
           <div className='flex flex-col lg:w-2/3'>
             {/* <Qualifying /> */}
-            <Race />
+            {/* <Race /> */}
             <Main />
           </div>
           <div className='hidden lg:block w-1/3 pl-4'>

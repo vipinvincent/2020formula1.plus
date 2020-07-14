@@ -18,35 +18,32 @@ const PlanetF1: React.FC = () => {
             planetf1.com
           </div>
           <ActionLink
-            href='https://www.planetf1.com/news/daniel-ricciardo-lance-stroll-penalty/'
+            href='https://www.planetf1.com/features/styrian-grand-prix-conclusions/'
             target='_blank'>
-            Ricciardo expected Stroll to be penalised
+            Conclusions from the Styrian Grand Prix
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Daniel Ricciardo expected Lance Stroll to be handed a penalty for
-            forcing him off track in the pair’s battle late on. The Renault
-            driver enjoyed an excellent first stint on the medium tyre to
-            position himself as the best of the race and close up to the Red
-            Bull of Alex Albon.
+            Lewis Hamilton got his mojo back, cruising to a dominant Styrian
+            Grand Prix triumph as Ferrari imploded again with a self-inflicted
+            double retirement on the opening lap.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            However, he struggled considerably more for pace in his second stint
-            and, having already been passed by Sergio Perez, his mirror was
-            quickly full of the pink of Lance Stroll’s Racing Point. He managed
-            to hold the Canadian off for a number of laps before, with two left,
-            Stroll tried a move to take P5 from him.
+            Hamilton fires on all cylinders Doubts had been expressed about the
+            six-time World Champion’s form before a spectacular qualifying
+            performance in the wet – and Sunday showed he remains very much at
+            his peak.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            It forced them both off the track and allowed Lando Norris to
-            capitalise and pass them both. The incident was investigated but no
-            further action was taken “Firstly he [Stroll] didn’t really get
-            past, he forced both of us off the track,” Ricciardo said after the
-            race before the stewards had announced Stroll wouldn’t be penalised.
+            At 35 years of age and as one of the elder statesmen on the grid,
+            there may come a point when Hamilton is evidently past his best as a
+            racer. Some were even daring to think that time could be now, given
+            the previous weekend’s disappointment, a comparatively lacklustre
+            Friday practice outing and the perceived distractions.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.planetf1.com/news/daniel-ricciardo-lance-stroll-penalty/'
+              href='https://www.planetf1.com/features/styrian-grand-prix-conclusions/'
               target='_blank'>
               planetf1.com
             </ContentLink>{' '}

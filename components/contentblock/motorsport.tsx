@@ -13,48 +13,60 @@ const MotorSport: React.FC = () => {
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
-        <div className='lg:ml-auto lg:w-2/3 px-4 py-4 text-left'>
+        <div className='lg:ml-auto lg:w-2/3 px-4 pt-4 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
             motorsport.com
           </div>
           <ActionLink
-            href='https://www.motorsport.com/f1/news/renault-racing-point-mercedes-protest/4832791/'
+            href='https://www.motorsport.com/f1/news/explained-why-renault-launched-a-racing-point-protest/4833433/'
             target='_blank'>
-            Stewards rule Renault’s Racing Point protest “admissible”
+            Explained: Why Renault launched a Racing Point protest
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            The FIA stewards at the Styrian Grand Prix have declared a protest
-            submitted by the Renault Formula 1 team against the two Racing Point
-            cars of Sergio Perez and Lance Stroll as admissible, and it will be
-            ruled upon when the evidence has been gathered.
+            The protest submitted by Renault against Racing Point after the
+            Styrian GP came as no surprise, given how unhappy many of the rivals
+            of the Silverstone team have been since the RP20 first emerged in
+            Barcelona testing.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            The protest concerned Appendix 6 of the FIA sporting regulations,
-            which relates to listed parts, and what can and cannot be shared
-            between teams. It relates specifically to the front and rear brake
-            ducts used by the Racing Point RP20, which Renault clearly believes
-            are more similar to those used on last year’s Mercedes W10 than the
-            rules allow.
+            The impressive speed that the car has since shown on track, even if
+            it hasn't yet translated into the results that its potential
+            suggests, has further caught the attention of teams. In the Styrian
+            GP, Sergio Perez started only 17th after a troubled wet qualifying,
+            and yet by the end of the race he was trying – albeit unsuccessfully
+            – to wrest fourth place from Red Bull's Alex Albon.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            In stark contrast to the protest made last week by Red Bull Racing
-            on the subject of the Mercedes DAS system, which was submitted on a
-            Friday and thus did not affect qualifying or the race, Renault took
-            action after today’s Styrian GP.
+            The Mexican surprised rivals by keeping up a good pace even on
+            ageing soft tyres, and by setting several fastest laps after
+            switching to the mediums. Given that there has been talk of a
+            protest since Barcelona the only surprise was that one didn't emerge
+            at the first race in Austria.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.motorsport.com/f1/news/renault-racing-point-mercedes-protest/4832791/'
+              href='https://www.motorsport.com/f1/news/explained-why-renault-launched-a-racing-point-protest/4833433/'
               target='_blank'>
               motorsport.com
             </ContentLink>{' '}
             for more details...
           </p>
-          {/* <div className='flex flex-col justify-start border-t border-gray-200 mt-4 pb-2 px-2 text-sm  text-center'>
+          <div className='flex flex-col justify-start border-t border-gray-200 mt-4 pb-2 px-2 text-sm  text-center'>
             <div className='w-full pb-2 text-sm'>Follow this topic on -</div>
-            <div className='w-full flex flex-row justify-center my-1'> */}
-          {/* <div className='mr-2'>
+            <div className='w-full flex flex-row justify-center my-1'>
+              <div className='mr-2'>
+                <ActionLink
+                  href='https://www.bbc.com/sport/formula1/53384460'
+                  target='_blank'>
+                  <img
+                    className='w-auto h-8 object-contain rounded'
+                    src='https://m.files.bbci.co.uk/modules/bbc-morph-sport-seo-meta/1.16.6/images/bbc-sport-logo.png'
+                    alt='bbc.com/sport'
+                  />
+                </ActionLink>
+              </div>
+              {/* <div className='mr-2'>
                 <ActionLink
                   href='https://www.autosport.com/f1/news/150497/leclerc-faces-double-investigation-after-qualifying'
                   target='_blank'>
@@ -75,10 +87,10 @@ const MotorSport: React.FC = () => {
                     alt='f1.com'
                   />
                 </ActionLink>
-              </div>
+              </div>*/}
               <div className='mr-2'>
                 <ActionLink
-                  href='https://www.skysports.com/f1/news/12433/12025894/ferrari-styrian-gp-upgrade-sebastian-vettel-charles-leclercs-verdicts'
+                  href='https://www.skysports.com/f1/news/12433/12027592/racing-point-hit-back-at-renault-over-protest-on-rp20-cars-legality'
                   target='_blank'>
                   <img
                     className='w-auto h-8 object-contain rounded'
@@ -86,10 +98,10 @@ const MotorSport: React.FC = () => {
                     alt='skysports.com'
                   />
                 </ActionLink>
-              </div>*/}
-          {/* <div className='mr-2'>
+              </div>
+              <div className='mr-2'>
                 <ActionLink
-                  href='https://www.autosport.com/f1/news/150506/williams-frustrated-by-q3-nearmiss-in-styrian-gp'
+                  href='https://www.autosport.com/f1/news/150550/why-racing-point-brake-ducts-are-key-to-renault-protest'
                   target='_blank'>
                   <img
                     className='w-auto h-8 object-contain rounded'
@@ -100,7 +112,18 @@ const MotorSport: React.FC = () => {
               </div>
               <div className='mr-2'>
                 <ActionLink
-                  href='https://the-race.com/formula-1/how-williams-almost-reached-q3/'
+                  href='https://www.espn.in/f1/story/_/id/29454408/racing-point-calls-renault-protest-misconceived-poorly-informed'
+                  target='_blank'>
+                  <img
+                    className='w-auto h-8 object-contain rounded'
+                    src='https://a1.espncdn.com/combiner/i?img=%2Fi%2Fespn%2Fespn_logos%2Fespn_red.png'
+                    alt='espn.com'
+                  />
+                </ActionLink>
+              </div>
+              <div className='mr-2'>
+                <ActionLink
+                  href='https://the-race.com/formula-1/video-why-renault-is-protesting-racing-point/'
                   target='_blank'>
                   <img
                     className='w-auto h-8 mt-0 p-2 object-contain rounded bg-gray-800'
@@ -108,9 +131,20 @@ const MotorSport: React.FC = () => {
                     alt='the-race.com'
                   />
                 </ActionLink>
-              </div> */}
-          {/* </div>
-          </div> */}
+              </div>
+              <div className='mr-2'>
+                <ActionLink
+                  href='https://www.grandprix247.com/2020/07/13/racing-point-a-misconceived-and-poorly-informed-protest/'
+                  target='_blank'>
+                  <img
+                    className='w-auto h-8 mt-0 p-3 object-contain rounded border border-gray-200'
+                    src='https://www.grandprix247.com/wp-content/uploads/2019/12/gp247-2020-logo-1200.png'
+                    alt='grandprix247.com'
+                  />
+                </ActionLink>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>

@@ -18,33 +18,45 @@ const TheRace: React.FC = () => {
             the-race.com
           </div>
           <ActionLink
-            href='https://the-race.com/formula-1/why-racing-points-pink-mercedes-was-finally-protested/'
+            href='https://the-race.com/formula-1/why-the-styrian-gp-proved-ferrari-has-backed-the-right-driver/'
             target='_blank'>
-            Why Racing Point’s ‘2019 Mercedes’ was finally protested
+            Why the Styrian GP proved Ferrari has backed the right driver
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Renault’s formal protest of the legality of the 2020 Racing Point
-            Formula 1 car design following the Styrian Grand Prix brings a
-            long-running grievance to a head.
+            In the wake of the Styrian Grand Prix, I am more convinced than ever
+            that Charles Leclerc is the right driver to lead Ferrari. The move
+            which caused his opening-lap shunt with team-mate Sebastian Vettel
+            at Turn 3 was rash, but his reaction afterward was the complete
+            opposite. The Monegasque was calm and measured, belying his 22
+            years.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            The similarities of the RP20 to last year’s Mercedes have been known
-            since the car was publicly unveiled at pre-season testing and Racing
-            Point has not shied away from the fact the 2019 Mercedes was the
-            inspiration for its car design.
+            Having qualified down in 11th and been demoted a further three
+            places for blocking in qualifying, Leclerc must have been seething
+            on the grid, wondering how it had all gone so wrong at a circuit
+            where he finished second last week and almost won last year. He was
+            simply too eager at the start, lunging up the inside of Vettel for a
+            gap that was always going to slam shut on him. They were already
+            three abreast going into that corner where you always get a slight
+            funnel effect anyway, so there was never going to be enough room for
+            Leclerc.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            However it has always insisted that the 2019 Mercedes was only ever
-            an inspiration – Racing Point says it simply studied the car from
-            photographs any team could have gathered, and did not create its
-            interpretation of the design through illegal means.
+            It was the move of a driver who is just two races into his third
+            full season in F1 and is still learning. But, just because he is at
+            Ferrari, that fact shouldn’t be forgotten. Faced with that situation
+            again in future, he will see the bigger picture in the race and the
+            championship – ‘there are three cars going into the corner so, even
+            if it means I come under pressure from behind, I’m going to hang
+            back to get the best run out of the corner down the straight to set
+            up a better chance to attack’.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://the-race.com/formula-1/why-racing-points-pink-mercedes-was-finally-protested/'
+              href='https://the-race.com/formula-1/why-the-styrian-gp-proved-ferrari-has-backed-the-right-driver/'
               target='_blank'>
-              the-race.com
+              planetf1.com
             </ContentLink>{' '}
             for more details...
           </p>
