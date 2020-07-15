@@ -7,7 +7,7 @@ const Second: React.FC = () => {
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <div className='rounded-tl-xxl text-left pb-2'>
         <div className='rounded-tl-xxl youtube'>
-          <YouTube videoId='H3DNJBSRJDU' className='w-full h-82 md:h-48' />
+          <YouTube videoId='H3DNJBSRJDU' className='w-full h-48' />
         </div>
         <div className='px-2 py-2'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>

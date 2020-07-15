@@ -32,7 +32,7 @@ const Main: React.FC = () => {
         Latest Videos and Podcasts
       </div>
       <div className='w-100 flex flex-col md:flex-row'>
-        <div className='w-100 md:w-1/2 xl:w-2/3 mr-0 md:mr-2'>
+        <div className='w-100 lg:w-1/2 xl:w-2/3 mr-0 md:mr-2'>
           <div className='w-100 mt-0'>
             <FirstVideo />
           </div>
@@ -43,7 +43,7 @@ const Main: React.FC = () => {
             <ThirdVideo />
           </div>
         </div>
-        <div className='w-100 md:w-1/2 xl:w-1/3 ml-0 md:ml-2'>
+        <div className='w-100 lg:w-1/2 xl:w-1/3 ml-0 md:ml-2'>
           <div className='w-100  mt-4 md:mt-0'>
             <FirstPodcast />
           </div>
