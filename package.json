@@ -21,7 +21,8 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-ga": "^3.0.0",
-    "react-scroll-to-top": "^0.2.4"
+    "react-scroll-to-top": "^0.2.4",
+    "react-youtube-embed": "^1.0.3"
   },
   "devDependencies": {
     "@types/classnames": "^2.2.10",

@@ -1,5 +1,5 @@
 import Layout from '../components/layout/Layout'
-import Main from '../components/maincontent'
+import Main from '../components/maincontent/index-old'
 import Schedule from '../components/schedule'
 import Recent from '../components/schedule/recent'
 import Driver from '../components/driver'

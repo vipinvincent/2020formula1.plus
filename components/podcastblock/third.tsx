@@ -1,11 +1,11 @@
 import React from 'react'
+import H1 from 'components/heading/H1'
 import ActionLink from 'components/link/ActionLink'
-import ContentLink from 'components/link/ContentLink'
 
-const F1: React.FC = () => {
+const Third: React.FC = () => {
   return (
-    <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-4'>
-      <div className='h-32 sm:h-84 w-full'>
+    <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
+      <div className='h-40 xl:h-48 w-full'>
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
           src='https://image-cdn.essentiallysports.com/wp-content/uploads/20200206193502/RBR.jpg'
@@ -13,16 +13,14 @@ const F1: React.FC = () => {
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
-        <div className='px-4 py-4 text-left'>
-          <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
+        <div className='px-4 pt-4 pb-2 text-left'>
+          {/* <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
             Formula1.com
-          </div>
-          <ActionLink
-            href='https://www.formula1.com/en/latest/article.we-havent-seen-the-full-potential-of-mercedes-or-red-bull-yet-says-wolff.4hSJsAzStntPh9H8WI6fDQ.html'
-            target='_blank'>
+          </div> */}
+          <H1>
             We haven't seen the full potential of Mercedes or Red Bull yet, says
             Wolff
-          </ActionLink>
+          </H1>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
             Mercedes made it two from two in 2020 as Lewis Hamilton clinched
             victory at the Red Bull Ring for the Styrian Grand Prix, a week
@@ -47,7 +45,7 @@ const F1: React.FC = () => {
             one, to finish third and fourth with Verstappen and Albon
             respectively.
           </p>
-          <p className='mt-1 text-base leading-normal text-gray-700'>
+          {/* <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
               href='https://www.formula1.com/en/latest/article.we-havent-seen-the-full-potential-of-mercedes-or-red-bull-yet-says-wolff.4hSJsAzStntPh9H8WI6fDQ.html'
@@ -55,30 +53,28 @@ const F1: React.FC = () => {
               formula1.com
             </ContentLink>{' '}
             for more details...
-          </p>
+          </p> */}
         </div>
-        <div className='flex flex-col md:flex-row justify-start border-t border-gray-200 pb-2 md:py-3 px-4 text-sm md:text-lg text-center md:text-left'>
-          <div className='w-full text-sm md:w-3/12 pb-2 md:pb-0 md:pr-4'>
-            Follow this topic on -
-          </div>
-          <div className='w-full flex flex-row justify-center md:justify-start md:w-9/12'>
-            {/*     <div className='mr-2'>
+        <div className='flex flex-col justify-start border-t border-gray-200 mt-4 pb-2 px-2 text-sm  text-center'>
+          <div className='w-full py-2 text-sm'>Follow this topic on -</div>
+          <div className='w-full flex flex-row justify-center my-1'>
+            <div className='mr-2'>
               <ActionLink
                 href='https://www.bbc.com/sport/formula1/53377338'
                 target='_blank'>
                 <img
-                  className='w-auto h-8 object-contain rounded'
+                  className='w-auto h-8 md:h-12 object-contain rounded-tl-lg rounded-br-lg'
                   src='https://m.files.bbci.co.uk/modules/bbc-morph-sport-seo-meta/1.16.6/images/bbc-sport-logo.png'
                   alt='bbc.com/sport'
                 />
               </ActionLink>
-            </div>*/}
+            </div>
             {/* <div className='mr-2'>
               <ActionLink
                 href='https://www.motorsport.com/f1/news/binotto-ferrari-qualifying-struggles-styria/4831883/'
                 target='_blank'>
                 <img
-                  className='w-auto h-8 object-contain rounded'
+                  className='w-auto h-8 md:h-12 object-contain rounded-tl-lg rounded-br-lg'
                   src='https://cdn-1.motorsport.com/static/custom/general-motorsport-com-team-2015-motorsport-com-logo.jpg'
                   alt='motorsport.com'
                 />
@@ -89,7 +85,7 @@ const F1: React.FC = () => {
                 href='https://www.skysports.com/f1/news/12433/12026519/lewis-hamilton-proud-to-master-terrifying-styrian-gp-qualifying'
                 target='_blank'>
                 <img
-                  className='w-auto h-8 object-contain rounded'
+                  className='w-auto h-8 md:h-12 object-contain rounded-tl-lg rounded-br-lg'
                   src='https://lh3.googleusercontent.com/-cIoEETaueLkWYUbAizN98H20ES55XwYqvjRwyP7tZPFy4Yrf6xMruUulOooEe47_pU'
                   alt='skysports.com'
                 />
@@ -100,7 +96,7 @@ const F1: React.FC = () => {
                 href='https://www.autosport.com/f1/news/150518/binotto-styria-qualifying-not-good-enough-for-ferrari'
                 target='_blank'>
                 <img
-                  className='w-auto h-8 object-contain rounded'
+                  className='w-auto h-8 md:h-12 object-contain rounded-tl-lg rounded-br-lg'
                   src='https://i1.sndcdn.com/avatars-000304785988-u42e59-t500x500.jpg'
                   alt='autosport.com'
                 />
@@ -111,7 +107,7 @@ const F1: React.FC = () => {
                 href='https://www.espn.in/f1/story/_/id/29438233/mugello-host-first-f1-race-sochi-added-2020-calendar'
                 target='_blank'>
                 <img
-                  className='w-auto h-8 object-contain rounded'
+                  className='w-auto h-8 md:h-12 object-contain rounded-tl-lg rounded-br-lg'
                   src='https://a1.espncdn.com/combiner/i?img=%2Fi%2Fespn%2Fespn_logos%2Fespn_red.png'
                   alt='espn.com'
                 />
@@ -122,7 +118,7 @@ const F1: React.FC = () => {
                 href='https://the-race.com/formula-1/hamiltons-not-from-this-world-pole-lap-explained/'
                 target='_blank'>
                 <img
-                  className='w-auto h-8 mt-0 p-2 object-contain rounded bg-gray-800'
+                  className='w-auto h-8 md:h-12 mt-0 py-2 md:py-4 px-2 object-contain rounded-tl-lg rounded-br-lg bg-gray-800'
                   src='https://cdn.the-race.com/wp-content/uploads/2020/02/02055753/the-race-logo-full-white.png'
                   alt='the-race.com'
                 />
@@ -133,7 +129,7 @@ const F1: React.FC = () => {
                 href='https://www.grandprix247.com/2020/07/14/wolff-we-havent-seen-the-full-potential-of-mercedes-or-red-bull/'
                 target='_blank'>
                 <img
-                  className='w-auto h-8 mt-0 p-3 object-contain rounded border border-gray-200'
+                  className='w-auto h-8 md:h-12 mt-0 py-2 md:py-4 px-2 object-contain rounded-tl-lg rounded-br-lg border border-gray-200'
                   src='https://www.grandprix247.com/wp-content/uploads/2019/12/gp247-2020-logo-1200.png'
                   alt='grandprix247.com'
                 />
@@ -144,7 +140,7 @@ const F1: React.FC = () => {
                 href='https://www.planetf1.com/news/qualifying-report-styrian-gp-2020/'
                 target='_blank'>
                 <img
-                  className='w-auto h-8 mt-0 p-2 object-contain rounded border border-gray-200'
+                  className='w-auto h-8 md:h-12 mt-0 py-2 md:py-4 px-2 object-contain rounded-tl-lg rounded-br-lg border border-gray-200'
                   src='https://www.planetf1.com/content/themes/planet/img/svg/logo.svg'
                   alt='planetf1.com'
                 />
@@ -156,4 +152,4 @@ const F1: React.FC = () => {
     </div>
   )
 }
-export default F1
+export default Third
