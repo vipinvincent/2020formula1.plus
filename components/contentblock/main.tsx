@@ -92,7 +92,7 @@ const Main: React.FC = () => {
                 target='_blank'>
                 <img
                   className='w-auto h-12 md:h-16 object-contain rounded-tl-lg rounded-br-lg'
-                  src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826932/contentImages/logo/motorsport_acmgji.jpg'
+                  src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826932/contentImages/logo/skysports_ruuxud.png'
                   alt='skysports.com'
                 />
               </ActionLink>
