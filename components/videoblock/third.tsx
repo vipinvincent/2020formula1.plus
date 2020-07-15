@@ -31,21 +31,18 @@ const Third: React.FC = () => {
             Read more
             <ul className='list-disc pl-8'>
               <li>
-                10 questions answered about Renault's Racing Point protest: View{' '}
                 <ContentLink
                   href='https://the-race.com/formula-1/10-questions-answered-about-renaults-racing-point-protest/'
                   target='_blank'>
-                  here
+                  10 questions answered about Renault's Racing Point protest:
                 </ContentLink>{' '}
               </li>
 
               <li>
-                {' '}
-                Racing Point slams protest: View{' '}
                 <ContentLink
                   href='https://the-race.com/formula-1/racing-point-slams-renaults-poorly-informed-protest/'
                   target='_blank'>
-                  here
+                  Racing Point slams protest:
                 </ContentLink>{' '}
               </li>
             </ul>
