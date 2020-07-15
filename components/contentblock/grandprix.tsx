@@ -8,7 +8,7 @@ const GrandPrix: React.FC = () => {
       <div className='h-32 sm:h-40 lg:absolute lg:left-0 lg:h-full lg:w-1/3'>
         <img
           className='w-full h-full object-contain rounded-tl-xxl bg-white-50 p-8'
-          src='https://www.grandprix247.com/wp-content/uploads/2019/12/gp247-2020-logo-1200.png'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826933/contentImages/logo/grandprix247_yj6fcw.png'
           alt='grandprix247.com'
         />
       </div>

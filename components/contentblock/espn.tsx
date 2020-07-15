@@ -8,7 +8,7 @@ const ESPN: React.FC = () => {
       <div className='h-32 sm:h-40 w-full'>
         <img
           className='w-full h-full object-contain rounded-tl-xxl bg-espn'
-          src='https://a1.espncdn.com/combiner/i?img=%2Fi%2Fespn%2Fespn_logos%2Fespn_red.png'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826931/contentImages/logo/espn_av2iv1.png'
           alt='espn.com'
         />
       </div>

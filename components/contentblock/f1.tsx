@@ -8,7 +8,7 @@ const F1: React.FC = () => {
       <div className='h-32 sm:h-84 w-full'>
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
-          src='https://www.formula1.com/content/dam/fom-website/manual/Misc/2020/Testing2020/Day1/GettyImages-1201880467.jpg.transform/9col-retina/image.jpg'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826962/contentImages/content/racingpoint_uujvyf.jpg'
           alt='We have not seen the full potential of Mercedes or Red Bull yet, says Wolff'
         />
       </div>
@@ -62,7 +62,7 @@ const F1: React.FC = () => {
                 target='_blank'>
                 <img
                   className='w-auto h-12 md:h-16 object-contain rounded-tl-lg rounded-br-lg'
-                  src='https://m.files.bbci.co.uk/modules/bbc-morph-sport-seo-meta/1.16.6/images/bbc-sport-logo.png'
+                  src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594827284/contentImages/logo/bbc_xek5di.png'
                   alt='bbc.com/sport'
                 />
               </ActionLink>
@@ -73,7 +73,7 @@ const F1: React.FC = () => {
                 target='_blank'>
                 <img
                   className='w-auto h-12 md:h-16 object-contain rounded-tl-lg rounded-br-lg'
-                  src='https://cdn-1.motorsport.com/static/custom/general-motorsport-com-team-2015-motorsport-com-logo.jpg'
+                  src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826932/contentImages/logo/motorsport_acmgji.jpg'
                   alt='motorsport.com'
                 />
               </ActionLink>
@@ -84,7 +84,7 @@ const F1: React.FC = () => {
                 target='_blank'>
                 <img
                   className='w-auto h-12 md:h-16 object-contain rounded-tl-lg rounded-br-lg'
-                  src='https://lh3.googleusercontent.com/-cIoEETaueLkWYUbAizN98H20ES55XwYqvjRwyP7tZPFy4Yrf6xMruUulOooEe47_pU'
+                  src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826932/contentImages/logo/motorsport_acmgji.jpg'
                   alt='skysports.com'
                 />
               </ActionLink>
@@ -95,7 +95,7 @@ const F1: React.FC = () => {
                 target='_blank'>
                 <img
                   className='w-auto h-12 md:h-16 object-contain rounded-tl-lg rounded-br-lg'
-                  src='https://i1.sndcdn.com/avatars-000304785988-u42e59-t500x500.jpg'
+                  src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826932/contentImages/logo/autosport_ketnss.jpg'
                   alt='autosport.com'
                 />
               </ActionLink>
@@ -106,7 +106,7 @@ const F1: React.FC = () => {
                 target='_blank'>
                 <img
                   className='w-auto h-12 md:h-16 object-contain rounded-tl-lg rounded-br-lg'
-                  src='https://a1.espncdn.com/combiner/i?img=%2Fi%2Fespn%2Fespn_logos%2Fespn_red.png'
+                  src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826931/contentImages/logo/espn_av2iv1.png'
                   alt='espn.com'
                 />
               </ActionLink>
@@ -117,7 +117,7 @@ const F1: React.FC = () => {
                 target='_blank'>
                 <img
                   className='w-auto h-8 mt-0 p-2 object-contain rounded bg-gray-800'
-                  src='https://cdn.the-race.com/wp-content/uploads/2020/02/02055753/the-race-logo-full-white.png'
+                  src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826932/contentImages/logo/therace_cq3ao6.png'
                   alt='the-race.com'
                 />
               </ActionLink>
@@ -128,7 +128,7 @@ const F1: React.FC = () => {
                 target='_blank'>
                 <img
                   className='w-auto h-8 mt-0 p-3 object-contain rounded border border-gray-200'
-                  src='https://www.grandprix247.com/wp-content/uploads/2019/12/gp247-2020-logo-1200.png'
+                  src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826933/contentImages/logo/grandprix247_yj6fcw.png'
                   alt='grandprix247.com'
                 />
               </ActionLink>
@@ -139,7 +139,7 @@ const F1: React.FC = () => {
                 target='_blank'>
                 <img
                   className='w-auto h-8 mt-0 p-2 object-contain rounded border border-gray-200'
-                  src='https://www.planetf1.com/content/themes/planet/img/svg/logo.svg'
+                  src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826932/contentImages/logo/planetf1_zqhrq9.svg'
                   alt='planetf1.com'
                 />
               </ActionLink>

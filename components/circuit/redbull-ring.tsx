@@ -12,7 +12,7 @@ const Schedule: React.FC = () => {
         <div className='h-32 sm:h-84 w-full text-center'>
           <img
             className='w-full h-full object-contain rounded-tl-xxl rounded-br-xl-t pt-2 text-center'
-            src='https://upload.wikimedia.org/wikipedia/commons/archive/b/b2/20140623145614%21Circuit_Red_Bull_Ring.svg'
+            src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594827571/contentImages/circuit/20140623145614_Circuit_Red_Bull_Ring_os0qj2.svg'
             alt='2020 Austrian Grand Prix'
           />
         </div>

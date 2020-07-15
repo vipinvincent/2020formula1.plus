@@ -8,7 +8,7 @@ const PlanetF1: React.FC = () => {
       <div className='h-32 sm:h-40 lg:absolute lg:left-0 lg:h-full lg:w-1/3'>
         <img
           className='w-full h-full object-contain rounded-tl-xxl bg-white-50 p-8'
-          src='https://www.planetf1.com/content/themes/planet/img/svg/logo.svg'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826932/contentImages/logo/planetf1_zqhrq9.svg'
           alt='planetf1.com'
         />
       </div>
@@ -58,7 +58,7 @@ const PlanetF1: React.FC = () => {
                   target='_blank'>
                   <img
                     className='w-auto h-8 object-contain rounded'
-                    src='https://cdn-1.motorsport.com/static/custom/general-motorsport-com-team-2015-motorsport-com-logo.jpg'
+                    src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826932/contentImages/logo/motorsport_acmgji.jpg'
                     alt='motorsport.com'
                   />
                 </ActionLink>
@@ -69,7 +69,7 @@ const PlanetF1: React.FC = () => {
                   target='_blank'>
                   <img
                     className='w-auto h-8 object-contain rounded'
-                    src='https://i1.sndcdn.com/avatars-000304785988-u42e59-t500x500.jpg'
+                    src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826932/contentImages/logo/autosport_ketnss.jpg'
                     alt='autosport.com'
                   />
                 </ActionLink>

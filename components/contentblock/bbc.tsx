@@ -8,7 +8,7 @@ const BBC: React.FC = () => {
       <div className='h-32 sm:h-40 lg:absolute lg:left-0 lg:h-full lg:w-1/3'>
         <img
           className='w-full h-full object-contain rounded-tl-xxl bg-bbc'
-          src='https://m.files.bbci.co.uk/modules/bbc-morph-sport-seo-meta/1.16.6/images/bbc-sport-logo.png'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594827284/contentImages/logo/bbc_xek5di.png'
           alt='bbc.com/sport'
         />
       </div>
@@ -60,7 +60,7 @@ const BBC: React.FC = () => {
                   target='_blank'>
                   <img
                     className='w-auto ull h-8 object-contain rounded border border-gray-300'
-                    src='https://cdn.the-race.com/wp-content/uploads/2020/02/02055753/the-race-logo-full-white.png'
+                    src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826932/contentImages/logo/therace_cq3ao6.png'
                     alt='the-race.com'
                   />
                 </ActionLink>
@@ -71,7 +71,7 @@ const BBC: React.FC = () => {
                   target='_blank'>
                   <img
                     className='w-auto ull h-8 object-contain rounded'
-                    src='https://lh3.googleusercontent.com/-cIoEETaueLkWYUbAizN98H20ES55XwYqvjRwyP7tZPFy4Yrf6xMruUulOooEe47_pU'
+                    src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826932/contentImages/logo/motorsport_acmgji.jpg'
                     alt='skysports.com'
                   />
                 </ActionLink>

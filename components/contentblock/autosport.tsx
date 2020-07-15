@@ -8,7 +8,7 @@ const AutoSport: React.FC = () => {
       <div className='h-32 sm:h-40 lg:absolute lg:left-0 lg:h-full lg:w-1/3'>
         <img
           className='w-full h-full object-contain rounded-tl-xxl bg-autosports'
-          src='https://i1.sndcdn.com/avatars-000304785988-u42e59-t500x500.jpg'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826932/contentImages/logo/autosport_ketnss.jpg'
           alt='autosport.com'
         />
       </div>
@@ -56,7 +56,7 @@ const AutoSport: React.FC = () => {
                   target='_blank'>
                   <img
                     className='w-auto h-8 object-contain rounded border border-gray-300'
-                    src='https://d2d0b2rxqzh1q5.cloudfront.net/sv/1.67/dir/f94/image/f940178e6c76f7c28047a26b1704ba0f.jpg'
+                    src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826933/contentImages/logo/icon_ufqtuk.png'
                     alt='f1.com'
                   />
                 </ActionLink>
@@ -67,7 +67,7 @@ const AutoSport: React.FC = () => {
                   target='_blank'>
                   <img
                     className='w-auto h-8 object-contain rounded'
-                    src='https://cdn-1.motorsport.com/static/custom/general-motorsport-com-team-2015-motorsport-com-logo.jpg'
+                    src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826932/contentImages/logo/motorsport_acmgji.jpg'
                     alt='motorsport.com'
                   />
                 </ActionLink>

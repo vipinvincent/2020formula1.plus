@@ -8,7 +8,7 @@ const TheRace: React.FC = () => {
       <div className='h-32 sm:h-40 lg:absolute lg:left-0 lg:h-full lg:w-1/3'>
         <img
           className='w-full h-full object-contain rounded-tl-xxl bg-gray-800 px-8 py-8'
-          src='https://cdn.the-race.com/wp-content/uploads/2020/02/02055753/the-race-logo-full-white.png'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826932/contentImages/logo/therace_cq3ao6.png'
           alt='the-race.com'
         />
       </div>
