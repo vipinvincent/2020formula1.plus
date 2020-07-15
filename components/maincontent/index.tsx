@@ -3,12 +3,12 @@ import React from 'react'
 import FirstContent from 'components/contentblock/main'
 import SecondContent from 'components/contentblock/left'
 import ThirdContent from 'components/contentblock/right'
-import FirstVideo from 'components/videoblock/first'
-import SecondVideo from 'components/videoblock/second'
-import ThirdVideo from 'components/videoblock/third'
-import FirstPodcast from 'components/podcastblock/first'
-import SecondPodcast from 'components/podcastblock/second'
-import ThirdPodcast from 'components/podcastblock/third'
+// import FirstVideo from 'components/videoblock/first'
+// import SecondVideo from 'components/videoblock/second'
+// import ThirdVideo from 'components/videoblock/third'
+// import FirstPodcast from 'components/podcastblock/first'
+// import SecondPodcast from 'components/podcastblock/second'
+// import ThirdPodcast from 'components/podcastblock/third'
 
 const Main: React.FC = () => {
   return (
