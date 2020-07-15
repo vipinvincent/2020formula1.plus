@@ -5,7 +5,7 @@ import Recent from '../components/schedule/recent'
 import Driver from '../components/driver'
 import Team from '../components/team'
 // import Qualifying from 'components/qualifying/quick-look'
-// import Race from '../components/race/quick-look'
+import Race from '../components/race/quick-look'
 
 const IndexPage = () => (
   <Layout title='Formula1 Plus - Formula 1 Latest News, Insights, Live Grand Prix Updates, Schedule, Standings, Drivers, Teams, Results and much more...'>
@@ -22,6 +22,7 @@ const IndexPage = () => (
             <Recent />
             <Driver />
             <Team />
+            <Race />
           </div>
         </div>
       </div>

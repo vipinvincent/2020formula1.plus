@@ -33,7 +33,7 @@ const Main: React.FC = () => {
           <div className='w-100 xl:w-1/2 mr-0 xl:mr-2'>
             <MotorSport />
           </div>
-          <div className='w-100 xl:w-1/2 ml-0 xl:ml-2'>
+          <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 mt-4 xl:mt-0'>
             <TheRace />
           </div>
         </div>
