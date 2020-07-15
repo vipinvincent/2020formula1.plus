@@ -7,7 +7,7 @@ const Third: React.FC = () => {
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <div className='rounded-tl-xxl text-left pb-2'>
         <div className='rounded-tl-xxl youtube'>
-          <YouTube id='A71aqufiNtQ' className='rounded-tl-xxl' />
+          <YouTube id='A71aqufiNtQ' />
         </div>
         <div className='px-2 py-2'>
           <ContentLink
