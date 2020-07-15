@@ -8,7 +8,7 @@ const Right: React.FC = () => {
       <div className='h-40 xl:h-48 w-full'>
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
-          src='https://www.formula1.com/content/dam/fom-website/manual/Misc/2019-Drive-line-ups/1017393633-LAT-20190317-_56I6843.jpg.transform/9col-retina/image.jpg'
+          src='https://www.kunalsf1blog.com/wp-content/uploads/2020/07/f1-2020-styrian-gp.jpg'
           alt='Styrian Grand Prix - How team sees the teammates battles?'
         />
       </div>
