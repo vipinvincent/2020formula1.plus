@@ -14,9 +14,9 @@ const Left: React.FC = () => {
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-2 text-left'>
-          {/* <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            Formula1.com
-          </div> */}
+          <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
+            Latest News
+          </div>
           <H1>Red Bull expects to be more competitive at F1 Hungarian GP</H1>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
             Red Bull believes the Hungarian Grand Prix to be more intense.They

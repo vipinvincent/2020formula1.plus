@@ -44,7 +44,7 @@ const Main: React.FC = () => {
           </div>
         </div>
         <div className='w-100 md:w-1/2 xl:w-1/3 ml-0 md:ml-2'>
-          <div className='w-100 mt-0'>
+          <div className='w-100  mt-4 md:mt-0'>
             <FirstPodcast />
           </div>
           <div className='w-100 mt-4'>

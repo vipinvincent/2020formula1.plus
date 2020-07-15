@@ -1,5 +1,5 @@
 import React from 'react'
-import YouTube from 'react-youtube-embed'
+import YouTube from 'react-youtube'
 import ContentLink from 'components/link/ContentLink'
 
 const Third: React.FC = () => {
@@ -7,9 +7,12 @@ const Third: React.FC = () => {
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <div className='rounded-tl-xxl text-left pb-2'>
         <div className='rounded-tl-xxl youtube'>
-          <YouTube id='GA7Qf69fXoE' />
+          <YouTube videoId='GA7Qf69fXoE' className='w-full h-82 md:h-48' />
         </div>
         <div className='px-2 py-2'>
+          <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
+            Podcast
+          </div>
           <ContentLink
             href='https://www.youtube.com/watch?v=GA7Qf69fXoE'
             target='_blank'>

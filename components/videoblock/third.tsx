@@ -1,5 +1,5 @@
 import React from 'react'
-import YouTube from 'react-youtube-embed'
+import YouTube from 'react-youtube'
 import ContentLink from 'components/link/ContentLink'
 
 const Third: React.FC = () => {
@@ -7,9 +7,12 @@ const Third: React.FC = () => {
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <div className='rounded-tl-xxl text-left pb-2'>
         <div className='rounded-tl-xxl youtube'>
-          <YouTube id='X_I_ubyk918' />
+          <YouTube videoId='X_I_ubyk918' className='w-full h-82 md:h-96' />
         </div>
         <div className='px-2 py-2'>
+          <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
+            Video
+          </div>
           <ContentLink
             href='https://the-race.com/formula-1/video-why-ferraris-crisis-runs-much-deeper-than-drivers-colliding/'
             target='_blank'>
@@ -24,7 +27,7 @@ const Third: React.FC = () => {
             RP20’s brake ducts, what Racing Point thinks of the matter, and what
             happens now.
           </p>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <div className='mt-1 mb-1 text-base leading-normal text-gray-700'>
             Read more
             <ul className='list-disc pl-8'>
               <li>
@@ -46,7 +49,7 @@ const Third: React.FC = () => {
                 </ContentLink>{' '}
               </li>
             </ul>
-          </p>
+          </div>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Courtesy{' '}
             <ContentLink href='https://the-race.com/' target='_blank'>

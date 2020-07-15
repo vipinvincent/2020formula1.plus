@@ -1,5 +1,5 @@
 import React from 'react'
-import YouTube from 'react-youtube-embed'
+import YouTube from 'react-youtube'
 import ContentLink from 'components/link/ContentLink'
 
 const Second: React.FC = () => {
@@ -7,9 +7,12 @@ const Second: React.FC = () => {
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <div className='rounded-tl-xxl text-left pb-2'>
         <div className='rounded-tl-xxl youtube'>
-          <YouTube id='rMxRcorzhcw' />
+          <YouTube videoId='rMxRcorzhcw' className='w-full h-82 md:h-96' />
         </div>
         <div className='px-2 py-2'>
+          <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
+            Video
+          </div>
           <ContentLink
             href='https://the-race.com/formula-1/video-why-ferraris-crisis-runs-much-deeper-than-drivers-colliding/'
             target='_blank'>

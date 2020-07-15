@@ -13,10 +13,10 @@ const Right: React.FC = () => {
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
-        <div className='px-4 pt-4 pb-4 text-left'>
-          {/* <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            Formula1.com
-          </div> */}
+        <div className='px-4 pt-4 pb-6 text-left'>
+          <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
+            Latest News
+          </div>
           <H1>Styrian Grand Prix - How team sees the teammates battles?</H1>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
             <strong className='italic'>Ferrari</strong> - After started the race
