@@ -61,7 +61,7 @@ const F1: React.FC = () => {
                 href='https://www.bbc.com/sport/formula1/53384460'
                 target='_blank'>
                 <img
-                  className='w-auto h-12 md:h-16 object-contain rounded-tl-lg rounded-br-lg'
+                  className='w-auto h-6 md:h-12 object-contain rounded-tl-lg rounded-br-lg'
                   src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594827284/contentImages/logo/bbc_xek5di.png'
                   alt='bbc.com/sport'
                 />
@@ -72,7 +72,7 @@ const F1: React.FC = () => {
                 href='https://www.motorsport.com/f1/news/explained-why-renault-launched-a-racing-point-protest/4833433/'
                 target='_blank'>
                 <img
-                  className='w-auto h-12 md:h-16 object-contain rounded-tl-lg rounded-br-lg'
+                  className='w-auto h-6 md:h-12 object-contain rounded-tl-lg rounded-br-lg'
                   src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826932/contentImages/logo/motorsport_acmgji.jpg'
                   alt='motorsport.com'
                 />
@@ -83,7 +83,7 @@ const F1: React.FC = () => {
                 href='https://www.skysports.com/f1/news/12433/12026519/lewis-hamilton-proud-to-master-terrifying-styrian-gp-qualifying'
                 target='_blank'>
                 <img
-                  className='w-auto h-12 md:h-16 object-contain rounded-tl-lg rounded-br-lg'
+                  className='w-auto h-6 md:h-12 object-contain rounded-tl-lg rounded-br-lg'
                   src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826932/contentImages/logo/motorsport_acmgji.jpg'
                   alt='skysports.com'
                 />
@@ -94,7 +94,7 @@ const F1: React.FC = () => {
                 href='https://www.autosport.com/f1/news/150550/why-racing-point-brake-ducts-are-key-to-renault-protest'
                 target='_blank'>
                 <img
-                  className='w-auto h-12 md:h-16 object-contain rounded-tl-lg rounded-br-lg'
+                  className='w-auto h-6 md:h-12 object-contain rounded-tl-lg rounded-br-lg'
                   src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826932/contentImages/logo/autosport_ketnss.jpg'
                   alt='autosport.com'
                 />
@@ -105,7 +105,7 @@ const F1: React.FC = () => {
                 href='https://www.espn.in/f1/story/_/id/29438233/mugello-host-first-f1-race-sochi-added-2020-calendar'
                 target='_blank'>
                 <img
-                  className='w-auto h-12 md:h-16 object-contain rounded-tl-lg rounded-br-lg'
+                  className='w-auto h-6 md:h-12 object-contain rounded-tl-lg rounded-br-lg'
                   src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826931/contentImages/logo/espn_av2iv1.png'
                   alt='espn.com'
                 />

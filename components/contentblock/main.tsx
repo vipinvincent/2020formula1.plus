@@ -69,7 +69,7 @@ const Main: React.FC = () => {
                 href='https://www.bbc.com/sport/formula1/53377338'
                 target='_blank'>
                 <img
-                  className='w-auto h-12 md:h-16 object-contain rounded-tl-lg rounded-br-lg'
+                  className='w-auto h-6 md:h-12 object-contain rounded-tl-lg rounded-br-lg'
                   src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594827284/contentImages/logo/bbc_xek5di.png'
                   alt='bbc.com/sport'
                 />
@@ -80,7 +80,7 @@ const Main: React.FC = () => {
                 href='https://www.motorsport.com/f1/news/vettel-aston-martin-deal-2021/4835200/'
                 target='_blank'>
                 <img
-                  className='w-auto h-12 md:h-16 object-contain rounded-tl-lg rounded-br-lg'
+                  className='w-auto h-6 md:h-12 object-contain rounded-tl-lg rounded-br-lg'
                   src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826932/contentImages/logo/motorsport_acmgji.jpg'
                   alt='motorsport.com'
                 />
@@ -91,7 +91,7 @@ const Main: React.FC = () => {
                 href='https://www.skysports.com/f1/news/12433/12027684/sebastian-vettel-are-formula-1-2021-transfer-options-running-out'
                 target='_blank'>
                 <img
-                  className='w-auto h-12 md:h-16 object-contain rounded-tl-lg rounded-br-lg'
+                  className='w-auto h-6 md:h-12 object-contain rounded-tl-lg rounded-br-lg'
                   src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826932/contentImages/logo/skysports_ruuxud.png'
                   alt='skysports.com'
                 />
@@ -102,7 +102,7 @@ const Main: React.FC = () => {
                 href='https://www.autosport.com/f1/news/150576/vettel-considering-aston-martin-offer-for-2021'
                 target='_blank'>
                 <img
-                  className='w-auto h-12 md:h-16 object-contain rounded-tl-lg rounded-br-lg'
+                  className='w-auto h-6 md:h-12 object-contain rounded-tl-lg rounded-br-lg'
                   src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826932/contentImages/logo/autosport_ketnss.jpg'
                   alt='autosport.com'
                 />
@@ -113,7 +113,7 @@ const Main: React.FC = () => {
                 href='https://www.espn.in/f1/story/_/id/29438233/mugello-host-first-f1-race-sochi-added-2020-calendar'
                 target='_blank'>
                 <img
-                  className='w-auto h-12 md:h-16 object-contain rounded-tl-lg rounded-br-lg'
+                  className='w-auto h-6 md:h-12 object-contain rounded-tl-lg rounded-br-lg'
                   src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826931/contentImages/logo/espn_av2iv1.png'
                   alt='espn.com'
                 />
@@ -124,18 +124,18 @@ const Main: React.FC = () => {
                 href='https://the-race.com/formula-1/what-we-know-as-vettel-aston-martin-rumours-intensify/'
                 target='_blank'>
                 <img
-                  className='w-auto h-12 md:h-16 mt-0 py-4 md:py-6 px-2 object-contain rounded-tl-lg rounded-br-lg bg-gray-800'
+                  className='w-auto h-6 md:h-12 mt-0 py-2 md:py-4 px-2 object-contain rounded-tl-lg rounded-br-lg bg-gray-800'
                   src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826932/contentImages/logo/therace_cq3ao6.png'
                   alt='the-race.com'
                 />
               </ActionLink>
             </div>
-            <div className='mr-2'>
+            {/* <div className='mr-2'>
               <ActionLink
                 href='https://www.grandprix247.com/2020/07/15/report-vettel-in-negotiations-with-aston-martin/'
                 target='_blank'>
                 <img
-                  className='w-auto  h-12 md:h-16 mt-0 py-4 md:py-6 px-2 object-contain rounded-tl-lg rounded-br-lg border border-gray-200'
+                  className='w-auto h-6 md:h-12 mt-0 py-4 md:py-6 px-2 object-contain rounded-tl-lg rounded-br-lg border border-gray-200'
                   src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826933/contentImages/logo/grandprix247_yj6fcw.png'
                   alt='grandprix247.com'
                 />
@@ -146,12 +146,12 @@ const Main: React.FC = () => {
                 href='https://www.planetf1.com/news/gerhard-berger-sebastian-vettel-aston-martin/'
                 target='_blank'>
                 <img
-                  className='w-auto h-12 md:h-16 mt-0 py-4 md:py-6 px-2 object-contain rounded-tl-lg rounded-br-lg border border-gray-200'
+                  className='w-auto h-6 md:h-12 mt-0 py-4 md:py-6 px-2 object-contain rounded-tl-lg rounded-br-lg border border-gray-200'
                   src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826932/contentImages/logo/planetf1_zqhrq9.svg'
                   alt='planetf1.com'
                 />
               </ActionLink>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
