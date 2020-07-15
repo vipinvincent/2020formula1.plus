@@ -86,9 +86,9 @@ const Main: React.FC = () => {
                 />
               </ActionLink>
             </div>
-            {/* <div className='mr-2'>
+            <div className='mr-2'>
               <ActionLink
-                href='https://www.skysports.com/f1/news/12433/12026519/lewis-hamilton-proud-to-master-terrifying-styrian-gp-qualifying'
+                href='https://www.skysports.com/f1/news/12433/12027684/sebastian-vettel-are-formula-1-2021-transfer-options-running-out'
                 target='_blank'>
                 <img
                   className='w-auto h-12 md:h-16 object-contain rounded-tl-lg rounded-br-lg'
@@ -96,7 +96,7 @@ const Main: React.FC = () => {
                   alt='skysports.com'
                 />
               </ActionLink>
-            </div> */}
+            </div>
             <div className='mr-2'>
               <ActionLink
                 href='https://www.autosport.com/f1/news/150576/vettel-considering-aston-martin-offer-for-2021'
@@ -118,10 +118,10 @@ const Main: React.FC = () => {
                   alt='espn.com'
                 />
               </ActionLink>
-            </div>
+            </div>*/}
             <div className='mr-2'>
               <ActionLink
-                href='https://the-race.com/formula-1/hamiltons-not-from-this-world-pole-lap-explained/'
+                href='https://the-race.com/formula-1/what-we-know-as-vettel-aston-martin-rumours-intensify/'
                 target='_blank'>
                 <img
                   className='w-auto h-12 md:h-16 mt-0 py-4 md:py-6 px-2 object-contain rounded-tl-lg rounded-br-lg bg-gray-800'
@@ -129,7 +129,7 @@ const Main: React.FC = () => {
                   alt='the-race.com'
                 />
               </ActionLink>
-            </div>*/}
+            </div>
             <div className='mr-2'>
               <ActionLink
                 href='https://www.grandprix247.com/2020/07/15/report-vettel-in-negotiations-with-aston-martin/'

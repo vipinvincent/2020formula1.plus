@@ -4,7 +4,7 @@ import ContentLink from 'components/link/ContentLink'
 const Williams: React.FC = () => {
   return (
     <div className='flex flex-col mb-4'>
-      <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1'>
+      <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
         Williams Racing F1 - FW43
       </div>
       <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mb-4'>
@@ -211,7 +211,7 @@ const Williams: React.FC = () => {
           </ContentLink>
         </p>
       </div>
-      <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1'>
+      <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
         Tech Specs <span className='font-light'>(FW43)</span>
       </div>
       <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mb-4'>
@@ -302,7 +302,7 @@ const Williams: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1'>
+      <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
         Williams F1 Facts
       </div>
       <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>

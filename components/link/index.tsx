@@ -1,5 +1,6 @@
 export { default as ActionLink } from './ActionLink'
 export { default as ContentLink } from './ContentLink'
 export { default as SiderBarLink } from './SiderBarLink'
+export { default as ThumbnailLink } from './ThumbnailLink'
 export { default as TextLink } from './TextLink'
 export { default as NavLink } from './NavLink'

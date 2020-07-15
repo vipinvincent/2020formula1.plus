@@ -6,14 +6,14 @@ import MotorSport from 'components/contentblock/motorsport'
 import SkySports from 'components/contentblock/skysports'
 import AutoSport from 'components/contentblock/autosport'
 import ESPN from 'components/contentblock/espn'
-import TheRace from 'components/contentblock/therace'
+import TheRace from 'components/contentblock/therace-old'
 import GrandPrix from 'components/contentblock/grandprix'
 import PlanetF1 from 'components/contentblock/planetf1'
 
 const Main: React.FC = () => {
   return (
     <div className='flex flex-col'>
-      <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1'>
+      <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
         Latest News
       </div>
       <F1 />

@@ -99,6 +99,7 @@ export default class MyDocument extends Document {
             href='/images/favicon/safari-pinned-tab.svg'
             color='#e10600'
           />
+          <meta name='theme-color' content='#e10600'></meta>
           <meta name='msapplication-TileColor' content='#ffffff' />
           <meta
             name='msapplication-TileImage'

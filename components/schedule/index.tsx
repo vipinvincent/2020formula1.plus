@@ -6,7 +6,7 @@ import ContentLink from 'components/link/ContentLink'
 const Schedule: React.FC = () => {
   return (
     <div className='flex flex-col mb-4'>
-      <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1'>
+      <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
         Upcoming Race
       </div>
       <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>

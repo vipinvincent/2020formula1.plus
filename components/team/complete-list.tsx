@@ -5,7 +5,7 @@ import TextLink from 'components/link/TextLink'
 const CompleteList: React.FC = () => {
   return (
     <div className='flex flex-col mb-4 flex-grow flex-no-wrap flex-shrink-0'>
-      <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1'>
+      <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
         Constructor Standings 2020(2019)
       </div>
       <div className='w-full grid sm:flex sm:flex-col justify-around py-2 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow-xs'>

@@ -5,7 +5,7 @@ import ContentLink from 'components/link/ContentLink'
 const Schedule: React.FC = () => {
   return (
     <div className='flex flex-col mb-4'>
-      <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1'>
+      <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
         Circuit Facts - Hungaroring
       </div>
       <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mb-4'>
@@ -64,7 +64,7 @@ const Schedule: React.FC = () => {
           </ContentLink>
         </p>
       </div>
-      <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1'>
+      <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
         2020 Hungarian GP Race weekend{' '}
         <span className='font-light'>(Track Time)</span>
       </div>
@@ -132,7 +132,7 @@ const Schedule: React.FC = () => {
           </div>
         </div>
       </div>
-      <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1'>
+      <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
         Hungarian Grand Prix Facts
       </div>
       <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>

@@ -13,7 +13,6 @@
     "type-check": "tsc"
   },
   "dependencies": {
-    "@types/react-youtube-embed": "^1.0.1",
     "classnames": "^2.2.6",
     "framer-motion": "^2.0.0-beta.66",
     "ga-gtag": "^1.0.1",
@@ -22,9 +21,7 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-ga": "^3.0.0",
-    "react-scroll-to-top": "^0.2.4",
-    "react-youtube": "^7.11.2",
-    "react-youtube-embed": "^1.0.3"
+    "react-scroll-to-top": "^0.2.4"
   },
   "devDependencies": {
     "@types/classnames": "^2.2.10",
