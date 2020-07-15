@@ -17,7 +17,7 @@ const Footer: React.FunctionComponent = () => (
         </div>
       </ThumbnailLink>
       <ThumbnailLink href='mailto:f1plus.xtrios@gmail.com' target='_blank'>
-        <div className='text-gray-400 hover:text-red-500 ml-2'>
+        <div className='text-gray-400 hover:text-red-500 ml-4'>
           <span className='sr-only'>Email</span>
           <svg className='h-6 w-6' fill='currentColor' viewBox='0 0 20 20'>
             <path d='M2.003 5.884L10 9.882l7.997-3.998A2 2 0 0016 4H4a2 2 0 00-1.997 1.884z'></path>
