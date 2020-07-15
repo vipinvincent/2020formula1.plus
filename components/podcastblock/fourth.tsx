@@ -2,28 +2,30 @@ import React from 'react'
 import YouTube from 'react-youtube-embed'
 import ContentLink from 'components/link/ContentLink'
 
-const First: React.FC = () => {
+const Fourth: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <div className='rounded-tl-xxl text-left pb-2'>
         <div className='rounded-tl-xxl youtube'>
-          <YouTube id='ti39GzTi2Us' />
+          <YouTube id='jTatcZ0QWhk' />
         </div>
         <div className='px-2 py-2'>
           <ContentLink
-            href='https://www.youtube.com/watch?v=ti39GzTi2Us'
+            href='https://www.youtube.com/watch?v=jTatcZ0QWhk'
             target='_blank'>
-            2020 Styrian GP Race Review | WTF1 Podcast
+            Mattia Binotto: The WRONG Man for Ferrari?
           </ContentLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            F1 returned once again to the Red Bull Ring for the Styrian GP. What
-            is happening to Ferrari? Why was Alex Albon so slow? All and more
-            will be discussed with Matt & Tommy.
+            Mattia Binotto is the current Ferrari Team Principal, ex Ferrari
+            Chief Technical Officer, and wearer of wonderful glasses. Today we
+            take a deep dive into the man himself, where he's from, how he got
+            to where he is today, and whether he's the right man to take Ferrari
+            forward.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Courtesy{' '}
-            <ContentLink href='https://wtf1.com/' target='_blank'>
-              wtf1.com
+            <ContentLink href='https://tommof1.buzzsprout.com/' target='_blank'>
+              Tommo F1
             </ContentLink>
           </p>
         </div>
@@ -31,4 +33,4 @@ const First: React.FC = () => {
     </div>
   )
 }
-export default First
+export default Fourth

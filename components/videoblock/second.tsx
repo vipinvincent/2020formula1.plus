@@ -7,23 +7,31 @@ const Second: React.FC = () => {
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <div className='rounded-tl-xxl text-left pb-2'>
         <div className='rounded-tl-xxl youtube'>
-          <YouTube id='A71aqufiNtQ' />
+          <YouTube id='rMxRcorzhcw' />
         </div>
         <div className='px-2 py-2'>
           <ContentLink
-            href='https://www.bbc.com/sport/formula-one/53387307'
+            href='https://the-race.com/formula-1/video-why-ferraris-crisis-runs-much-deeper-than-drivers-colliding/'
             target='_blank'>
-            Ross Brawn says Ferrari face a 'long road ahead' to rediscover
-            competitiveness
+            Why Ferrari's F1 crisis runs much deeper than its drivers colliding
           </ContentLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Meanwhile, Mercedes admitted Hamilton was managing his pace at the
-            front, given they were comfortable with their performance and they
-            were keen not too push the limits too hard after they struggled with
-            gearbox issues from the kerbs at the previous race at the same
-            track. Red Bull hit back from a double non-points finish in round
-            one, to finish third and fourth with Verstappen and Albon
-            respectively.
+            Ferrari’s 2020 F1 season went from bad to worse at the Styrian Grand
+            Prix. Its rushed upgrades didn’t appear to offer much improvement,
+            and after its cars qualified in the middle of the grid they collided
+            on the first lap when Charles Leclerc ran into Sebastian Vettel,
+            putting both out of the race. Leclerc took the blame for the
+            incident so it shouldn’t be a long-running problem, but Ferrari’s
+            lack of pace is. Edd Straw and Scott Mitchell join Glenn Freeman to
+            look at just how bad things are for Ferrari, and whether there is
+            any light at the end of the tunnel as it bids to turn its fortunes
+            around
+          </p>
+          <p className='mt-1 text-base leading-normal text-gray-700'>
+            Courtesy{' '}
+            <ContentLink href='https://the-race.com/' target='_blank'>
+              the-race.com
+            </ContentLink>
           </p>
         </div>
       </div>
