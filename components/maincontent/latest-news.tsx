@@ -25,8 +25,8 @@ const Main: React.FC = () => {
           <ThirdContent />
         </div>
       </div>
-      <div className='bg-white-50 mt-4 rounded-tl-xxl rounded-br-xxl px-2 pb-4'>
-        <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mt-4 mb-1'>
+      <div className='bg-white-50 mt-4 px-4 pb-4 rounded-xxl'>
+        <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mt-4 mb-1 px-2'>
           Featured news on F1 news Sources
         </div>
         <div className='w-100 flex flex-col xl:flex-row'>
