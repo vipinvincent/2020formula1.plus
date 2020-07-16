@@ -49,6 +49,23 @@ const Main: React.FC = () => {
             sponsorship money to the team and Stroll’s son Lance Stroll, both
             under contract until 2022.
           </p>
+          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+            Meanwhile Perez revealed that he has been contacted from a rival
+            team amid Vettel to Racing Point rumours. For the time being Perez
+            is under contract with Racing Point until the end of 2022. “I think
+            I'm with the team as far as I know,” said Perez. “I have a contract.
+            I think the answer to these questions, you will learn them in time.
+            We will see what happens in the next weeks. But from my point of
+            view, I've got a contract with the team and I fully believe in the
+            future of the team.” “I know I've got a contract, I know that during
+            the week there were obviously the rumours that came out and we
+            actually got contacted by a team in the paddock. “I think it's just
+            part of the game,” he added “The team has taken a big step forward
+            so it's good to have big names related to the team because that
+            means that we're making a good job, we're making progress and I
+            think the team should be proud of it. And the rest? I've been in
+            Formula 1 10 years so I'm used to this stuff.”
+          </p>
           {/* <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
@@ -64,6 +81,17 @@ const Main: React.FC = () => {
             Follow this topic on -
           </div>
           <div className='w-full flex flex-row justify-center md:justify-start md:w-9/12'>
+            <div className='mr-2'>
+              <ActionLink
+                href='https://www.formula1.com/en/latest/article.perez-reveals-hes-had-an-approach-from-a-rival-team-amid-vettel-to-racing.107h4PSJuaFQfcDwLZrDsg.html'
+                target='_blank'>
+                <img
+                  className='w-auto h-6 md:h-12 px-2 object-contain rounded-tl-lg rounded-br-lg border border-gray-300'
+                  src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826933/contentImages/logo/icon_ufqtuk.png'
+                  alt='f1.com'
+                />
+              </ActionLink>
+            </div>
             {/* <div className='mr-2'>
               <ActionLink
                 href='https://www.bbc.com/sport/formula1/53377338'
@@ -88,7 +116,7 @@ const Main: React.FC = () => {
             </div>
             <div className='mr-2'>
               <ActionLink
-                href='https://www.skysports.com/f1/news/12433/12027684/sebastian-vettel-are-formula-1-2021-transfer-options-running-out'
+                href='https://www.skysports.com/f1/news/24215/12029641/f1-sergio-perez-reacts-to-sebastian-vettel-aston-martin-2021-rumours'
                 target='_blank'>
                 <img
                   className='w-auto h-6 md:h-12 object-contain rounded-tl-lg rounded-br-lg'

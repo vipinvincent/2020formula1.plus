@@ -110,18 +110,18 @@ const F1: React.FC = () => {
                   alt='espn.com'
                 />
               </ActionLink>
-            </div>
+            </div>*/}
             <div className='mr-2'>
               <ActionLink
-                href='https://the-race.com/formula-1/hamiltons-not-from-this-world-pole-lap-explained/'
+                href='https://the-race.com/formula-1/perez-approached-by-other-team-amid-vettel-aston-rumours/'
                 target='_blank'>
                 <img
-                  className='w-auto h-8 mt-0 p-2 object-contain rounded bg-gray-800'
+                  className='w-auto h-6 md:h-12 mt-0 py-2 md:py-4 px-2 object-contain rounded-tl-lg rounded-br-lg bg-gray-800'
                   src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826932/contentImages/logo/therace_cq3ao6.png'
                   alt='the-race.com'
                 />
               </ActionLink>
-            </div>*/}
+            </div>
             {/* <div className='mr-2'>
               <ActionLink
                 href='https://www.grandprix247.com/2020/07/14/wolff-we-havent-seen-the-full-potential-of-mercedes-or-red-bull/'
