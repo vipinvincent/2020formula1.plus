@@ -40,9 +40,6 @@ const Second: React.FC = () => {
             Welcome to a very special 7-part series where we've asked the
             question: what would the lineup of the greatest F1 team look like?
             We’ve set out to build a team made up of the best there ever was.
-            The first vacancy we're filling today is that of Race Engineer. On
-            the podcast, your host Jessica McFadyen is joined by James Allen,
-            Jonathan Noble, Stuart Codling and James Newbold.
           </p>
 
           <p className='mt-1 text-base leading-normal text-gray-700'>

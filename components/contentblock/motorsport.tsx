@@ -24,9 +24,7 @@ const MotorSport: React.FC = () => {
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
             Ferrari is having a torrid start to the 2020 Formula 1 season after
-            it had pushed Mercedes so hard in the last campaign. There are
-            several reasons for this and the woeful display at the Styrian Grand
-            Prix brought dramatic scrutiny from within.
+            it had pushed Mercedes so hard in the last campaign.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
             No Ferrari-powered driver finished in the top eight in a single one

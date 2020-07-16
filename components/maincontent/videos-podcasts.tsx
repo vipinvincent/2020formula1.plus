@@ -15,8 +15,8 @@ const Main: React.FC = () => {
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mt-4 mb-1 px-2'>
         Latest Videos and Podcasts from Youtube
       </div>
-      <div className='w-100 flex flex-col md:flex-row'>
-        <div className='w-100 lg:w-1/2 xl:w-2/3 mr-0 md:mr-2'>
+      <div className='w-100 flex flex-col xl:flex-row'>
+        <div className='w-100 xl:w-2/3 mr-0'>
           <div className='w-100 mt-0'>
             <FirstVideo />
           </div>
@@ -27,17 +27,17 @@ const Main: React.FC = () => {
             <ThirdVideo />
           </div>
         </div>
-        <div className='w-100 lg:w-1/2 xl:w-1/3 ml-0 md:ml-2'>
-          <div className='w-100  mt-4 md:mt-0'>
+        <div className='w-100 flex flex-wrap lg:hidden xl:block md:w-full xl:w-1/3'>
+          <div className='w-full sm:w-1/2 md:w-full mt-4 md:mt-0 md:pl-4'>
             <FirstPodcast />
           </div>
-          <div className='w-100 mt-4'>
+          <div className='w-full sm:w-1/2 md:w-full mt-4 sm:pl-4'>
             <SecondPodcast />
           </div>
-          <div className='w-100 mt-4'>
+          <div className='w-full sm:w-1/2 md:w-full mt-4 md:pl-4'>
             <ThirdPodcast />
           </div>
-          <div className='w-100 mt-4'>
+          <div className='w-full sm:w-1/2 md:w-full mt-4 sm:pl-4'>
             <FourthPodcast />
           </div>
         </div>

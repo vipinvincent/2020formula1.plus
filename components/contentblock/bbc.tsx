@@ -59,7 +59,7 @@ const BBC: React.FC = () => {
                   href='https://the-race.com/formula-1/leclerc-summoned-to-stewards-over-two-separate-incidents/'
                   target='_blank'>
                   <img
-                    className='w-auto ull h-8 object-contain rounded border border-gray-300'
+                    className='w-auto h-8 object-contain rounded border border-gray-300'
                     src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826932/contentImages/logo/therace_cq3ao6.png'
                     alt='the-race.com'
                   />
@@ -70,7 +70,7 @@ const BBC: React.FC = () => {
                   href='https://www.skysports.com/f1/news/12474/12027615/ross-brawn-on-a-long-road-ahead-for-ferrari-after-very-painful-crash'
                   target='_blank'>
                   <img
-                    className='w-auto ull h-8 object-contain rounded'
+                    className='w-auto h-8 object-contain rounded'
                     src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826932/contentImages/logo/motorsport_acmgji.jpg'
                     alt='skysports.com'
                   />

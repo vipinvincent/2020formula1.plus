@@ -4,50 +4,48 @@ import ContentLink from 'components/link/ContentLink'
 
 const SkySports: React.FC = () => {
   return (
-    <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-4'>
-      <div className='h-32 sm:h-40 lg:absolute lg:left-0 lg:h-full lg:w-1/3'>
+    <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-0'>
+      <div className='h-32 sm:h-48 w-full bg-black-100 rounded-tl-xl'>
         <img
-          className='w-full h-full object-contain rounded-tl-xxl bg-skysports'
-          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826932/contentImages/logo/motorsport_acmgji.jpg'
+          className='w-full h-full object-contain rounded-tl-xl bg-skysports'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826932/contentImages/logo/skysports_ruuxud.png'
           alt='skysports.com'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
-        <div className='lg:ml-auto lg:w-2/3 px-4 py-4 text-left'>
+        <div className='px-4 py-4 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            skysports.com
+            Feature
           </div>
           <ActionLink
-            href='https://www.skysports.com/f1/news/12433/12027547/styrian-gp-driver-ratings'
+            href='https://www.skysports.com/f1/news/36306/12029055/lando-norris-how-mclaren-star-has-turned-f1-potential-into-brilliance'
             target='_blank'>
-            Styrian GP driver ratings
+            Lando Norris: How McLaren star has turned F1 potential into
+            brilliance
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            It was vintage Lewis Hamilton, with starring race-day roles from Max
-            Verstappen and Sergio Perez. Rating all 20 drivers after Austria,
-            round two.
+            Team unity at McLaren played its part in the flying start to the
+            season enjoyed by Lando Norris. But so also did the sophomore
+            driver's superb personal performances.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Lewis Hamilton Qualified 1st, Finished 1st Now Lewis Hamilton's
-            quest for that seventh world title is properly up and running. If
-            the dominant and seemingly serene race-day performance that took the
-            Mercedes driver to the 85th win of his career could be described as
-            'textbook' - at least by the six-time champion's standards - no
-            manual would have told you quite how Hamilton conjured up pole
-            position by 1.2 seconds in those atrocious wet conditions of
-            qualifying.
+            Norrs is flying high after the opening two races of the season
+            around the Red Bull Ring. Over those two weekends he delivered
+            performances littered with sparkling moments of brilliance to get
+            his second season of F1 underway.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Valtteri Bottas Qualified 4th, Finished 2nd A step back for Valtteri
-            Bottas, considering his perfect start to the season a week before.
-            Bottas was a whopping 1.4s off Hamilton in qualifying in the same
-            Mercedes car - with his reasons for the margin ranging from not
-            "building enough temperature into my tyres" to "glazing brakes".
+            There was his superb fourth-fastest qualifying lap for the Austrian
+            Grand Prix and his stunning late chase-down of the 5s penalty gap to
+            Lewis Hamilton the next day to secure his first podium. This was
+            followed up a week later with a similar late charge that took him
+            past three cars in the last two laps to win the 'Class B' battle
+            virtually on the line once again.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.skysports.com/f1/news/12433/12027547/styrian-gp-driver-ratings'
+              href='https://www.skysports.com/f1/news/36306/12029055/lando-norris-how-mclaren-star-has-turned-f1-potential-into-brilliance'
               target='_blank'>
               skysports.com
             </ContentLink>{' '}
