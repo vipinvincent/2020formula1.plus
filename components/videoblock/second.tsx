@@ -7,14 +7,14 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=rMxRcorzhcw'
+        href='https://www.youtube.com/watch?v=sP2IxaJPq80'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
-              src='https://cdn.the-race.com/wp-content/uploads/2020/03/12061816/XPB_1038157_HiRes-1024x683.jpg'
-              alt='Why Ferrari F1 crisis runs much deeper than its drivers colliding'
+              src='https://img.youtube.com/vi/sP2IxaJPq80/maxresdefault.jpg'
+              alt='Is Racing Point In Trouble And Were Ferraris Austrian GP Updates Wasted?'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -29,32 +29,29 @@ const Second: React.FC = () => {
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-2 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            Podcast
+            Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=rMxRcorzhcw'
+            href='https://www.youtube.com/watch?v=sP2IxaJPq80'
             target='_blank'>
-            Why Ferrari's F1 crisis runs much deeper than its drivers colliding
+            Is Racing Point In Trouble And Were Ferrari's Austrian GP Updates
+            Wasted?
           </ContentLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Ferrari’s 2020 F1 season went from bad to worse at the Styrian Grand
-            Prix. Its rushed upgrades didn’t appear to offer much improvement,
-            and after its cars qualified in the middle of the grid they collided
-            on the first lap when Charles Leclerc ran into Sebastian Vettel,
-            putting both out of the race. Leclerc took the blame for the
-            incident so it shouldn’t be a long-running problem, but Ferrari’s
-            lack of pace is. Edd Straw and Scott Mitchell join Glenn Freeman to
-            look at just how bad things are for Ferrari, and whether there is
-            any light at the end of the tunnel as it bids to turn its fortunes
-            around
+            Although Ferrari managed to fast-track it's Hungarian GP updates a
+            week earlier than planned, Leclerc and Vettel colliding within the
+            first few minutes of the race meant we never got to see what
+            improvements (if any) they made. Despite this, using the power of 3D
+            animation, join our Technical Editor Jake Boxall-Legge as he
+            analyses the updates to Ferrari's front wing and floor, as well as
+            looking at the tricky technical situation Renault has put Racing
+            Point in with its brake duct allegations..
           </p>
 
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink
-              href='https://the-race.com/formula-1/video-why-ferraris-crisis-runs-much-deeper-than-drivers-colliding/'
-              target='_blank'>
-              the-race.com
+            <ContentLink href='https://www.autosport.com/f1' target='_blank'>
+              autosport.com
             </ContentLink>
           </p>
         </div>

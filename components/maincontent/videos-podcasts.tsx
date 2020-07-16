@@ -18,13 +18,13 @@ const Main: React.FC = () => {
       <div className='w-100 flex flex-col xl:flex-row'>
         <div className='w-100 xl:w-2/3 mr-0'>
           <div className='w-100 mt-0'>
-            <FirstVideo />
+            <ThirdVideo />
           </div>
           <div className='w-100 mt-4'>
             <SecondVideo />
           </div>
           <div className='w-100 mt-4'>
-            <ThirdVideo />
+            <FirstVideo />
           </div>
         </div>
         <div className='w-100 flex flex-wrap lg:hidden xl:block md:w-full xl:w-1/3'>

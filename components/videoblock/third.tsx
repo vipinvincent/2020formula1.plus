@@ -7,14 +7,14 @@ const Third: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=X_I_ubyk918'
+        href='https://www.youtube.com/watch?v=rDlDCMv24Ic'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
-              src='https://cdn.the-race.com/wp-content/uploads/2020/07/13165610/XPB_1042679_HiRes-1-1024x683.jpg'
-              alt='Renault’s F1 protest against Racing Point’s Mercedes ‘copy’ explained'
+              src='https://img.youtube.com/vi/rDlDCMv24Ic/maxresdefault.jpg'
+              alt='The flaw Red Bull needs to fix to fight Mercedes in F1 2020'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -29,21 +29,23 @@ const Third: React.FC = () => {
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-2 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            Podcast
+            Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=rMxRcorzhcw'
+            href='https://www.youtube.com/watch?v=rDlDCMv24Ic'
             target='_blank'>
-            Renault’s F1 protest against Racing Point’s Mercedes ‘copy’
-            explained
+            The flaw Red Bull needs to fix to fight Mercedes in F1 2020
           </ContentLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Renault pulled the trigger on a protest of Racing Point’s ‘pink
-            Mercedes’ after F1’s Styrian Grand Prix, bringing months of debate
-            about the legality of the car to a head. In this video we look at
-            the story behind it, why Renault has specifically gone after the
-            RP20’s brake ducts, what Racing Point thinks of the matter, and what
-            happens now.
+            Red Bull is the closest challenger to Mercedes in Formula 1 in 2020,
+            but so far it's not been able to keep up in a straight fight. The
+            RB16 appears to have addressed an area of weakness for Red Bull from
+            last year, but the team has not yet got the car to a point where it
+            behaves consistently enough to give its drivers confidence. In this
+            video we explain the problem that is making the Red Bull so tricky
+            to drive, and why it could be a formidable rival for Mercedes when
+            it gets it right - starting with this weekend's Hungarian Grand
+            Prix.
           </p>
 
           <p className='mt-1 text-base leading-normal text-gray-700'>
