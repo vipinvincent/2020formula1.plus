@@ -12,7 +12,7 @@ const Third: React.FC = () => {
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
-              className='w-full h-40 object-contain rounded-tl-xxl'
+              className='w-full h-40 object-cover rounded-tl-xxl'
               src='https://img.youtube.com/vi/GA7Qf69fXoE/maxresdefault.jpg'
               alt=' Vettel & Leclerc Crash Analysis: Onboard Ferrari’s Styrian Double DNF'
             />

@@ -12,7 +12,7 @@ const First: React.FC = () => {
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
-              className='w-full h-40 object-contain rounded-tl-xxl'
+              className='w-full h-40 object-cover rounded-tl-xxl'
               src='https://img.youtube.com/vi/ti39GzTi2Us/maxresdefault.jpg'
               alt='2020 Styrian GP Race Review | WTF1 Podcast'
             />
