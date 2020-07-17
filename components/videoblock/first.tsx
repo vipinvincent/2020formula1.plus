@@ -7,14 +7,14 @@ const First: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=Xpa9ol1VW5E'
+        href='https://www.youtube.com/watch?v=KDwP-FjbvNs'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
-              src='https://unbeaten-uploads.s3.ap-southeast-2.amazonaws.com/41139e26e50e4c9c825683a230782ece.jpg'
-              alt='Latest F1 NEWS: Ferrari, Sebastian Vettel, Lewis Hamilton and Daniel Ricciardo'
+              src='https://img.youtube.com/vi/KDwP-FjbvNs/maxresdefault.jpg'
+              alt='Hungarian Grand Prix: Preview and Predictions'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,29 +32,23 @@ const First: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=Xpa9ol1VW5E'
+            href='https://www.youtube.com/watch?v=KDwP-FjbvNs'
             target='_blank'>
-            Latest F1 NEWS: Ferrari, Sebastian Vettel, Lewis Hamilton and Daniel
-            Ricciardo
+            Hungarian Grand Prix: Preview and Predictions
           </ContentLink>
-          <div className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            <ul className='list-disc pl-8'>
-              <li>Ferrari Lost In Austria</li>
-              <li>Hamilton Kneels Again</li>
-              <li>Kubica Back On Track</li>
-              <li>Vettel 2021 Options Limited</li>
-              <li>Mugello Set For F1</li>
-              <li>Daimler CEO Confirms Line-up</li>
-              <li>FIA Issues Warning</li>
-              <li>Ricciardo Says No To Alonso</li>
-              <li>Hungary To Be Fitness Test</li>
-            </ul>
-          </div>
-
+          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+            This weekend, Formula One heads to Budapest for the third round of
+            the 2020 F1 Season…the Hungarian Grand Prix. Can Mercedes make it
+            three wins on the bounce, or will Max Verstappen and Red Bull halt
+            their charge? The usual stats, virtual lap guide and my predictions
+            in this week’s Grand Prix preview.
+          </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='https://unbeaten.com/formula1' target='_blank'>
-              unbeaten.com
+            <ContentLink
+              href='https://www.youtube.com/user/seanculli'
+              target='_blank'>
+              The F1 Word
             </ContentLink>
           </p>
         </div>

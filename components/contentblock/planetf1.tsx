@@ -4,46 +4,49 @@ import ContentLink from 'components/link/ContentLink'
 
 const PlanetF1: React.FC = () => {
   return (
-    <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-4'>
-      <div className='h-32 sm:h-40 lg:absolute lg:left-0 lg:h-full lg:w-1/3'>
+    <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-0'>
+      <div className='h-32 sm:h-48 w-full bg-white-100 rounded-tl-xl'>
         <img
-          className='w-full h-full object-contain rounded-tl-xxl bg-white-50 p-8'
+          className='w-full h-full object-contain rounded-tl-xl p-12 border-b border-gray-200'
           src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826932/contentImages/logo/planetf1_zqhrq9.svg'
           alt='planetf1.com'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
-        <div className='lg:ml-auto lg:w-2/3 px-4 py-4 text-left'>
+        <div className='px-4 py-4 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            planetf1.com
+            Feature
           </div>
           <ActionLink
-            href='https://www.planetf1.com/features/styrian-grand-prix-conclusions/'
+            href='https://www.planetf1.com/news/christian-horner-racing-point-copycat/'
             target='_blank'>
-            Conclusions from the Styrian Grand Prix
+            Horner weighs in on Racing Point copycat saga
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Lewis Hamilton got his mojo back, cruising to a dominant Styrian
-            Grand Prix triumph as Ferrari imploded again with a self-inflicted
-            double retirement on the opening lap.
+            Christian Horner suspects that Racing Point are playing within the
+            rules in their decision to follow the Mercedes development path
+            rather than their own.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Hamilton fires on all cylinders Doubts had been expressed about the
-            six-time World Champion’s form before a spectacular qualifying
-            performance in the wet – and Sunday showed he remains very much at
-            his peak.
+            Racing Point ripped up their own philosophy and decided to be
+            inspired by the dominant Mercedes team when it came to producing the
+            RP20 for the 2020 campaign. From the outset, the team soon to be
+            known as Aston Martin has always strongly denied any suggestions of
+            any wrongdoing.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            At 35 years of age and as one of the elder statesmen on the grid,
-            there may come a point when Hamilton is evidently past his best as a
-            racer. Some were even daring to think that time could be now, given
-            the previous weekend’s disappointment, a comparatively lacklustre
-            Friday practice outing and the perceived distractions.
+            The change in development approach has resulted in the RP20 looking
+            an awful lot like the 2019 Mercedes W10 and it is now the subject of
+            what is going to be a lengthy FIA investigation, with a verdict on
+            its legality not expected until the Silverstone double header,
+            following a protest by Renault after the conclusion of the Styrian
+            Grand Prix. “I’ve always stood by the fact it is easier to sell a
+            car than to copy it,” Horner told Sky Sports F1.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.planetf1.com/features/styrian-grand-prix-conclusions/'
+              href='https://www.planetf1.com/news/christian-horner-racing-point-copycat/'
               target='_blank'>
               planetf1.com
             </ContentLink>{' '}

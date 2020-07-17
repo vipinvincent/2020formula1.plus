@@ -7,14 +7,14 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=sP2IxaJPq80'
+        href='https://www.youtube.com/watch?v=Xy8XddsTYiM'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/sP2IxaJPq80/maxresdefault.jpg'
-              alt='Is Racing Point In Trouble And Were Ferraris Austrian GP Updates Wasted?'
+              src='https://img.youtube.com/vi/Xy8XddsTYiM/maxresdefault.jpg'
+              alt='Why Aston Martin Could Be The Perfect Team For Vettel In 2021'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,22 +32,17 @@ const Second: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=sP2IxaJPq80'
+            href='https://www.youtube.com/watch?v=Xy8XddsTYiM'
             target='_blank'>
-            Is Racing Point In Trouble And Were Ferrari's Austrian GP Updates
-            Wasted?
+            Why Aston Martin Could Be The Perfect Team For Vettel In 2021
           </ContentLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Although Ferrari managed to fast-track it's Hungarian GP updates a
-            week earlier than planned, Leclerc and Vettel colliding within the
-            first few minutes of the race meant we never got to see what
-            improvements (if any) they made. Despite this, using the power of 3D
-            animation, join our Technical Editor Jake Boxall-Legge as he
-            analyses the updates to Ferrari's front wing and floor, as well as
-            looking at the tricky technical situation Renault has put Racing
-            Point in with its brake duct allegations..
+            The rumour mill hasn't stopped spinning since it was announced that
+            Vettel would be leaving Ferrari at the end of the 2020 season. But
+            with his options for a 2021 seat quickly running out, could joining
+            the Racing Point-soon-to-be-Aston-Martin outfit actually be the
+            perfect move for the four-time World Champion?
           </p>
-
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
             <ContentLink href='https://www.autosport.com/f1' target='_blank'>

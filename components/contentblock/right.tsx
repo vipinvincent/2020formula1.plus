@@ -8,8 +8,8 @@ const Right: React.FC = () => {
       <div className='h-40 xl:h-48 w-full'>
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
-          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826962/contentImages/content/styrian-gp_hcvdog.jpg'
-          alt='Styrian Grand Prix - How team sees the teammates battles?'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594993321/contentImages/content/vettel-perez_niloot.jpg'
+          alt='What Vettel and Perez think about 2021 Aston Martin F1 seat???'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
@@ -17,53 +17,53 @@ const Right: React.FC = () => {
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
             Latest News
           </div>
-          <H1>Styrian Grand Prix - How team sees the teammates battles?</H1>
+          <H1>
+            What Vettel and Perez think about 2021 Aston Martin F1 seat???
+          </H1>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            <strong className='italic'>Ferrari</strong> - After started the race
-            10th(Vettel) and 14th(Leclerc) respectively, Ferrari’s Styrian Grand
-            Prix lasted just three corners before Charles Leclerc lost control
-            of his SF1000, wiping out his team mate Sebastian Vettel’s rear wing
-            and causing race-ending damage to himself. Ferrari Team Principal
-            Mattia Binotto alo blammed the car performance as much as his
-            drivers for the crash. ‘We can’t hide behind the collision’ says
-            Binotto after ‘worst conclusion to a very bad weekend’
+            Sources indicated that the Ferrari driver Sebastian Vettel is
+            considering a deal to join the Aston Martin Formula 1 team for the
+            2021 season. Vettel has no competitive seats available for 2021
+            season and looking for options to stay on the grid next season.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            <strong className='italic'>Racing Point</strong> -Driver of The Day
-            Sergio Perez, from P17 on the grid to P6 at the flag, pulled off a
-            masterful recovery drive in the Styrian Grand Prix. Later Perez
-            admitted that he was 'very lucky' to only lose one position on final
-            lap after Albon clash apologised to the team over the radio, saying
-            “sorry guys”. In the end Stroll drag-raced him to the line with only
-            0.066s split the two racing point drivers.
+            Earlier Mercedes retained Valtteri Bottas as a first priority to
+            partner Lewis Hamilton , Red Bull represented the only leading
+            option for Vettel. But Red Bull Formula 1 boss Christian Horner has
+            ruled out Sebastian Vettel returning to the team, saying it is a
+            “definite no” and Vettel is “aware of that”. With McLaren and
+            Renault also already confirming their lineups for 2021, the only
+            option left for him, is Racing Point, soon to become Aston Martin
+            F1.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            <strong className='italic'>McLaren</strong> - “Great teamwork
-            between the two drivers swapping on track when it was needed,” said
-            McLaren Team Principal Andreas Seidl after the race. “Carlos didn’t
-            give up and did a great job securing the fastest lap – the second
-            time in a row for us. McLaren Racing CEO, Zak Brown, has said the
-            team will keep the relationship “healthy” between Carlos Sainz and
-            Lando Norris.
+            As indicated by the german media a deal has been agreed upon by the
+            Racing Point F1, courtesy of team owner Lawrence Stroll. The
+            four-times world champion is understood to have been offered a
+            contract by Lawrence Stroll, who is planning to build the strongest
+            possible team for the rebranding of the team to Aston Martin.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            <strong className='italic'>Renault</strong> - Daniel Ricciardo
-            believes the Renault Formula 1 team would have told Ocon to let him
-            by. After several laps stuck behind Ocon, Ricciardo communicated his
-            engineer that he was faster than the cars ahead, but no attempt was
-            made to swap positions before Ricciardo made his own move. "I asked
-            a bit of a general question," said Ricciardo. "As I was, I felt,
-            being held up by by that group. So I just said, 'Look, guys, I'm
-            quite a bit quicker at the moment.'
+            Assuming the report is accurate, it will be intresting to see how
+            the team will make room for Vettel as Racing point already has
+            imperative drivers like Sergio Perez, who brings substantial
+            sponsorship money to the team and Stroll’s son Lance Stroll, both
+            under contract until 2022.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            <strong className='italic'>Haas</strong> - Steiner pleased to see
-            Haas drivers cooperating and remarked ‘It took a few years too long
-            and a few crashes too many’. Haas boss Guenther Steiner said he was
-            encouraged to see Kevin Magnussen and Romain Grosjean fight for
-            position at the Styrian Grand Prix without incident. The pair fought
-            for position at the Styrian Grand Prix without contact, with
-            Magnussen eventually finished at 12th place.
+            Meanwhile Perez revealed that he has been contacted from a rival
+            team amid Vettel to Racing Point rumours. For the time being Perez
+            is under contract with Racing Point until the end of 2022. “I think
+            I'm with the team as far as I know,” said Perez. “I have a contract.
+            I think the answer to these questions, you will learn them in time.
+            We will see what happens in the next weeks. "I know that during the
+            week there were obviously the rumours that came out and we actually
+            got contacted by a team in the paddock. “I think it's just part of
+            the game,” he added “The team has taken a big step forward so it's
+            good to have big names related to the team because that means that
+            we're making a good job, we're making progress and I think the team
+            should be proud of it. And the rest? I've been in Formula 1 10 years
+            so I'm used to this stuff.”
           </p>
           {/* <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}

@@ -8,63 +8,52 @@ const Main: React.FC = () => {
       <div className='h-48 md:h-64 xl:h-84 w-full'>
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
-          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826961/contentImages/content/Sebastian-Vettel_vmkqku.jpg'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594992043/contentImages/content/mercedes12_ufegj1.jpg'
           alt='Vettel considering talks with Aston Martin F1???'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-2 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            Latest News
+            FP1 News
           </div>
-          <H1>Vettel considering talks with Aston Martin F1???</H1>
+          <H1>
+            Mercedes dominates FP1 - Hamilton leads the timesheets in Hungarian
+            GP first practice
+          </H1>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Sources indicated that the Ferrari driver Sebastian Vettel is
-            considering a deal to join the Aston Martin Formula 1 team for the
-            2021 season. Vettel will be out of contract with Ferrari at the end
-            of the 2020 F1 season. Vettel has no competitive seats available for
-            2021 season and looking for options to stay on the grid next season.
+            Lewis Hamilton leading a dominant Mercedes one-two ahead of Valtteri
+            Bottas. Hamilton set his fastest time - a 1:16.003 - on the hardest
+            tyre available which is incredible. Mercedes' close rival, Red Bull
+            had a low start to the weekend with P8 and P13 for Max Verstappen
+            and Alex Albon respectively; while Ferrari again finished well
+            behind of the practice pace setters in P6 and P7.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Earlier Mercedes retained Valtteri Bottas as a first priority to
-            partner Lewis Hamilton , Red Bull represented the only leading
-            option for Vettel. But Red Bull Formula 1 boss Christian Horner has
-            ruled out Sebastian Vettel returning to the team, saying it is a
-            “definite no” and Vettel is “aware of that”. With McLaren and
-            Renault also already confirming their lineups for 2021, the only
-            option left for him, is Racing Point, soon to become Aston Martin
-            F1.
+            Racing Point's Sergio Perez was third, 0.527secs adrift, and
+            0.437secs ahead of team-mate Lance Stroll. Renault's Daniel
+            Ricciardo took fifth. Lando Norris and Esteban Ocon rounded out the
+            top 10 for McLaren and Renault, with Norris’s McLaren team-mate
+            Carlos Sainz Jr close behind in 11th.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            As indicated by the german media a deal has been agreed upon by the
-            Racing Point F1, courtesy of team owner Lawrence Stroll. The
-            four-times world champion is understood to have been offered a
-            contract by Lawrence Stroll, who is planning to build the strongest
-            possible team for the rebranding of the team to Aston Martin.
+            Red Bull's pace was at a low level since they were running in a
+            possible different specification than the others. Sebastian Vettel
+            was the lead driver for the Ferarri on a 1m17.238s and Charles
+            Leclerc was 0.166s behind his team-mate.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Assuming the report is accurate, it will be intresting to see how
-            the team will make room for Vettel as Racing point already has
-            imperative drivers like Sergio Perez, who brings substantial
-            sponsorship money to the team and Stroll’s son Lance Stroll, both
-            under contract until 2022.
+            Romain Grosjean was 14th, ahead of Williams’ Nicholas Latifi, who
+            finished 15. Daniil Kvyat was 16th Alfa Romeo's Antonio Giovinazzi
+            in 17th. George Russell and guest-participant Robert Kubica were the
+            last of the drivers to set a time, as Pierre Gasly failed to leave
+            the garage with an issue on his Honda engine
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Meanwhile Perez revealed that he has been contacted from a rival
-            team amid Vettel to Racing Point rumours. For the time being Perez
-            is under contract with Racing Point until the end of 2022. “I think
-            I'm with the team as far as I know,” said Perez. “I have a contract.
-            I think the answer to these questions, you will learn them in time.
-            We will see what happens in the next weeks. But from my point of
-            view, I've got a contract with the team and I fully believe in the
-            future of the team.” “I know I've got a contract, I know that during
-            the week there were obviously the rumours that came out and we
-            actually got contacted by a team in the paddock. “I think it's just
-            part of the game,” he added “The team has taken a big step forward
-            so it's good to have big names related to the team because that
-            means that we're making a good job, we're making progress and I
-            think the team should be proud of it. And the rest? I've been in
-            Formula 1 10 years so I'm used to this stuff.”
+            The session was affected by intermittent light rain. But the drivers
+            was not affected as they continued the session using dry-weather
+            'slick' tyres. Spots of rain over the Hungaroring for Free Practice
+            1 indicates a sign of things to come during weekend.
           </p>
           {/* <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
@@ -83,7 +72,7 @@ const Main: React.FC = () => {
           <div className='w-full flex flex-row justify-center md:justify-start md:w-9/12'>
             <div className='mr-2'>
               <ActionLink
-                href='https://www.formula1.com/en/latest/article.perez-reveals-hes-had-an-approach-from-a-rival-team-amid-vettel-to-racing.107h4PSJuaFQfcDwLZrDsg.html'
+                href='https://www.formula1.com/en/latest/article.fp1-mercedes-take-1-2-ahead-of-racing-points-in-first-practice-at-the.38VmGfktAxYUME3fr0kMR.html'
                 target='_blank'>
                 <img
                   className='w-auto h-6 md:h-12 px-2 object-contain rounded-tl-lg rounded-br-lg border border-gray-300'
@@ -92,9 +81,9 @@ const Main: React.FC = () => {
                 />
               </ActionLink>
             </div>
-            {/* <div className='mr-2'>
+            <div className='mr-2'>
               <ActionLink
-                href='https://www.bbc.com/sport/formula1/53377338'
+                href='https://www.bbc.com/sport/formula1/53445029'
                 target='_blank'>
                 <img
                   className='w-auto h-6 md:h-12 object-contain rounded-tl-lg rounded-br-lg'
@@ -102,10 +91,10 @@ const Main: React.FC = () => {
                   alt='bbc.com/sport'
                 />
               </ActionLink>
-            </div> */}
+            </div>
             <div className='mr-2'>
               <ActionLink
-                href='https://www.motorsport.com/f1/news/vettel-aston-martin-deal-2021/4835200/'
+                href='https://www.motorsport.com/f1/news/hungarian-gp-fp1-report-hamilton/4838043/'
                 target='_blank'>
                 <img
                   className='w-auto h-6 md:h-12 object-contain rounded-tl-lg rounded-br-lg'
@@ -116,7 +105,7 @@ const Main: React.FC = () => {
             </div>
             <div className='mr-2'>
               <ActionLink
-                href='https://www.skysports.com/f1/news/24215/12029641/f1-sergio-perez-reacts-to-sebastian-vettel-aston-martin-2021-rumours'
+                href='https://www.skysports.com/f1/news/12433/12030455/hungarian-gp-practice-one-lewis-hamilton-ahead-meredes-dominant'
                 target='_blank'>
                 <img
                   className='w-auto h-6 md:h-12 object-contain rounded-tl-lg rounded-br-lg'
@@ -127,7 +116,7 @@ const Main: React.FC = () => {
             </div>
             <div className='mr-2'>
               <ActionLink
-                href='https://www.autosport.com/f1/news/150576/vettel-considering-aston-martin-offer-for-2021'
+                href='https://www.autosport.com/f1/news/150630/hamilton-leads-mercedes-12-in-hungary-fp1'
                 target='_blank'>
                 <img
                   className='w-auto h-6 md:h-12 object-contain rounded-tl-lg rounded-br-lg'
@@ -149,7 +138,7 @@ const Main: React.FC = () => {
             </div>*/}
             <div className='mr-2'>
               <ActionLink
-                href='https://the-race.com/formula-1/what-we-know-as-vettel-aston-martin-rumours-intensify/'
+                href='https://the-race.com/formula-1/hamilton-tops-first-hungary-practice-while-red-bull-toils/'
                 target='_blank'>
                 <img
                   className='w-auto h-6 md:h-12 mt-0 py-2 md:py-4 px-2 object-contain rounded-tl-lg rounded-br-lg bg-gray-800'

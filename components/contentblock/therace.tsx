@@ -18,35 +18,36 @@ const TheRace: React.FC = () => {
             Feature
           </div>
           <ActionLink
-            href='https://the-race.com/formula-1/red-bulls-response-to-mercedes-moving-the-goalposts-again/'
+            href='https://the-race.com/formula-1/mclaren-backs-key-protest-into-racing-point-copy-job/'
             target='_blank'>
-            Red Bull’s response to Mercedes moving the goalposts again
+            McLaren backs ‘key’ protest into Racing Point ‘copy job’
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Red Bull is expected to have further updates to try to improve its
-            “too slow” Formula 1 car for the Hungarian Grand Prix, after
-            admitting Mercedes has moved the reference for performance yet
-            again. Mercedes won both Red Bull Ring races, avenging back-to-back
-            defeats across 2018 and 2019, after surviving a gearbox scare in the
-            Austrian Grand Prix then clinching a one-two in the Styrian Grand
-            Prix.
+            McLaren team principal Andreas Seidl says Renault’s protest against
+            Racing Point is a “key” opportunity to clarify whether allowing such
+            a “copying job” is the right direction for Formula 1’s future.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Red Bull only banked one podium finish, Max Verstappen’s third place
-            in the Styrian GP, after a double-DNF in the season opener.
+            Seidl was keen to distance himself from the specifics of the protest
+            and stressed he would be surprised if Racing Point had done anything
+            explicitly illegal. But what he said “in general” on the topic
+            indicates he wants to see clarifications that curb the capacity to
+            copy a rival car so closely as part of a wider co-operation with
+            another team.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Though Red Bull’s heavily-revised 2020 car seemed to have an edge on
-            Mercedes in the slowest corners of the Austrian circuit it was
-            lacking in medium and high-speed turns and also had a straightline
-            speed deficit. “Their straightline is impressive,” Red Bull team
-            boss Christian Horner said. “We’re pretty much there in cornering
-            speed, some we’re better than them, some not quite as good.
+            {' '}
+            He sees the outcome of this protest as key to deciding whether or
+            not F1 becomes a “copy championship” and stressed his support of the
+            concept that teams should all be independent constructors. Beyond
+            the question of whether the Racing Point is legal under the current
+            rules, Seidl said this protest also offered an opportunity to
+            further restrict the alliances that exist between teams.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://the-race.com/formula-1/red-bulls-response-to-mercedes-moving-the-goalposts-again/'
+              href='https://the-race.com/formula-1/mclaren-backs-key-protest-into-racing-point-copy-job/'
               target='_blank'>
               the-race.com
             </ContentLink>{' '}
