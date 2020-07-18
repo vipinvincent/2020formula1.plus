@@ -8,43 +8,48 @@ const Main: React.FC = () => {
       <div className='h-48 md:h-64 xl:h-84 w-full'>
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
-          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1595051404/contentImages/content/ferrari_yxiws9.jpg'
-          alt='Vettel considering talks with Aston Martin F1???'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1595072621/contentImages/content/valtteri_-bottas_m5dgbs.jpg'
+          alt='Bottas leads  thetime sheet with Hamilton and Perez second and third in the final practice session in Hungary'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-2 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            FP1 News
+            FP3 News
           </div>
           <H1>
-            Vettel leads the timesheets in Hungarian GP Second Practice under
-            wet conditions
+            Bottas leads thetime sheet with Hamilton and Perez second and third
+            in the final practice session in Hungary
           </H1>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Ferrari’s Sebastian Vettel set the fastest time in Free Practice 2
-            for the 2020 Hungarian Grand Prix with a 1m 40.464s, 0.272s ahead of
-            the Mercedes of Valtteri Bottas.
+            Mercedes scored another 1-2 in the final practice session for the
+            Hungarian Grand Prix under cloude sky. Valtteri Bottas' time of
+            1m15.437s set on soft tyres which was just 0.042s quicker than
+            Hamilton. The Racing Points were impressive again with just 0.161s
+            off Hamilton. His team mate Lance Stroll was fifth in a top five
+            split by 0.596s behind Charles Leclerc who was in P4.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            McLaren of Carlos Sainz finishes in third and the two Racing Points
-            of Lance Stroll and Sergio Perez occupies the remaining top 5 spots.
-            AlphaTauri’s Pierre Gasly being the first driver out in the session
-            on full wets only could manage just seven laps only to complain a
-            smell of burning in his AT01 right at the end of the session, as he
-            ended up in P6.
+            Red bull's poor form continues as the Red Bull cars struggled to get
+            to grips with their car. Max Verstappen finished sixth and his team
+            mate Alex Albon was 12th after Friday's running. Best of the McLaren
+            was Lando Norris (0.756s off Hamilton) who finished seventh with his
+            team mate Carlos Sainz at 11th after Friday practice.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            With only 13 drivers setting a time, Red Bull’s Max Verstappen was
-            seventh, 2.3s behind Vettel, but ahead of the Haas of Romain
-            Grosjean. Alfa Romeo’s Kimi Raikkonen complained of having “zero
-            grip” and endured a number of off-track excursions, but complted the
-            most number(16) of laps in FP2. Kimi finished in P9, one place in
-            front of Charles Leclerc, who also complained of lack of rear grip
-            on his Ferrari as he finished 10th, ahead of Antonio Giovinazzi,
-            Lando Norris and Daniil Kvyat.
+            FP2 leader Sebastian Vettel was eighth overall. He was just ahead of
+            ninth-place Pierre Gasly of AlphaTauri, whose team mate Daniil Kvyat
+            was down in P17. The top ten list complted with Daniel Ricciardo
+            with a late effort and his team mate Esteban Ocon was 13th.
+            Williams' George Russell was just behind Ocon with an impressive
+            P14. Two Haas cars finished 15th and 16th with Romain Grosjean
+            leading his team mate Kevin Magnussen.
           </p>
-
+          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+            Nicholas Latifi finished last and was just behind two Alpha Romeso's
+            with Antonio Giovinazzi at 18th place and Kimi Raikkonen at
+            19th-place.
+          </p>
           {/* <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
@@ -56,13 +61,13 @@ const Main: React.FC = () => {
           </p> */}
         </div>
         <div className='flex flex-col md:flex-row justify-start border-t border-gray-200 pb-2 md:py-3 px-4 text-sm md:text-lg text-center md:text-left'>
-          <div className='w-full text-sm md:w-3/12 pb-4 md:pb-0 md:pr-4 leading-tight pt-2 md:pt-6'>
+          <div className='w-full text-sm md:w-3/12 pb-4 md:pb-0 md:pr-4 leading-tight pt-2 md:pt-4'>
             Follow this topic on -
           </div>
           <div className='w-full flex flex-row justify-center md:justify-start md:w-9/12'>
             <div className='mr-2'>
               <ActionLink
-                href='https://www.formula1.com/en/latest/article.fp2-vettel-heads-bottas-in-wet-second-hungarian-gp-practice-session.1DX69OR685csHjHXvcreXb.html'
+                href='https://www.formula1.com/en/latest/article.fp3-bottas-leads-hamilton-and-perez-as-verstappen-spins-in-final-practice.4eRTHeO9GkMMYh9vxRnOmc.html'
                 target='_blank'>
                 <img
                   className='w-auto h-6 md:h-12 px-2 object-contain rounded-tl-lg rounded-br-lg border border-gray-300'
@@ -71,7 +76,7 @@ const Main: React.FC = () => {
                 />
               </ActionLink>
             </div>
-            <div className='mr-2'>
+            {/* <div className='mr-2'>
               <ActionLink
                 href='https://www.bbc.com/sport/formula1/53449276'
                 target='_blank'>
@@ -81,10 +86,10 @@ const Main: React.FC = () => {
                   alt='bbc.com/sport'
                 />
               </ActionLink>
-            </div>
-            {/* <div className='mr-2'>
+            </div> */}
+            <div className='mr-2'>
               <ActionLink
-                href='https://www.motorsport.com/f1/news/hungarian-gp-fp1-report-hamilton/4838043/'
+                href='https://www.motorsport.com/f1/news/hungarian-gp-fp3-report-bottas/4838964/'
                 target='_blank'>
                 <img
                   className='w-auto h-6 md:h-12 object-contain rounded-tl-lg rounded-br-lg'
@@ -92,10 +97,10 @@ const Main: React.FC = () => {
                   alt='motorsport.com'
                 />
               </ActionLink>
-            </div> */}
+            </div>
             <div className='mr-2'>
               <ActionLink
-                href='https://www.skysports.com/f1/news/12433/12030674/hungarian-gp-practice-two-sebastian-vettel-fastest-in-wet-running'
+                href='https://www.skysports.com/f1/news/12433/12031161/hungarian-gp-practice-three-valtteri-bottas-fastest-from-lewis-hamilton'
                 target='_blank'>
                 <img
                   className='w-auto h-6 md:h-12 object-contain rounded-tl-lg rounded-br-lg'
@@ -104,9 +109,9 @@ const Main: React.FC = () => {
                 />
               </ActionLink>
             </div>
-            {/* <div className='mr-2'>
+            <div className='mr-2'>
               <ActionLink
-                href='https://www.autosport.com/f1/news/150630/hamilton-leads-mercedes-12-in-hungary-fp1'
+                href='https://www.autosport.com/f1/news/150669/bottas-edges-hamilton-in-final-practice'
                 target='_blank'>
                 <img
                   className='w-auto h-6 md:h-12 object-contain rounded-tl-lg rounded-br-lg'
@@ -114,7 +119,7 @@ const Main: React.FC = () => {
                   alt='autosport.com'
                 />
               </ActionLink>
-            </div> */}
+            </div>
             {/* <div className='mr-2'>
               <ActionLink
                 href='https://www.espn.in/f1/story/_/id/29438233/mugello-host-first-f1-race-sochi-added-2020-calendar'

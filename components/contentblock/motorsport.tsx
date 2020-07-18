@@ -18,33 +18,37 @@ const MotorSport: React.FC = () => {
             Feature
           </div>
           <ActionLink
-            href='https://www.motorsport.com/f1/news/ferrari-2020-form-verdict-sf1000/4835952/'
+            href='https://www.motorsport.com/f1/news/fuel-flow-engine-tricks-suspicion/4838777'
             target='_blank'>
-            The honest but damning verdict on Ferrari's 2020 F1 form
+            Formula 1 teams still suspicious of engine tricks
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Ferrari is having a torrid start to the 2020 Formula 1 season after
-            it had pushed Mercedes so hard in the last campaign.
+            The FIA says the clampdown on engine tricks it applied for this
+            Formula 1 season have not completely silenced suspicions that some
+            are still flouting the rules, but it thinks only minor matters now
+            need tidying up.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            No Ferrari-powered driver finished in the top eight in a single one
-            of the Styrian Grand Prix's four track sessions. Another one of the
-            works team's drivers fell in Q2 and picked up a penalty in the same
-            segment. Then came the race that lasted all of three corners for the
-            Scuderia.
+            Following concerns from Ferrari’s rivals last year that the team had
+            found a way to get around the fuel flow limits, the FIA opened an
+            investigation in to what the Italian car manufacturer had done. But
+            after being unable to prove that Ferrari had broken the regulations,
+            a secret agreement was made to draw a line under the matter and
+            avoid a damaging public court case.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            When the lights went out last Sunday, things got worse for Ferrari
-            when Sebastian Vettel slipped behind Williams driver George Russell
-            and Racing Point's Lance Stroll off the line, and then the team's
-            worst nightmare happened - for the second time in four Formula 1
-            races - when their drivers collided at the race's third corner, with
-            Charles Leclerc at fault for wiping out his teammate.
+            In a bid to ensure that for this year teams could not exploit the
+            rules, extra sensors were added to the cars – one for the FIA to
+            monitor fuel flow and another one to check on current. Both are
+            encrypted so teams cannot know what the readings are.
+          </p>
+          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+            &nbsp;
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.motorsport.com/f1/news/explained-why-renault-launched-a-racing-point-protest/4833433/'
+              href='https://www.motorsport.com/f1/news/fuel-flow-engine-tricks-suspicion/4838777'
               target='_blank'>
               motorsport.com
             </ContentLink>{' '}

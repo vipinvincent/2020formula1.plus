@@ -8,45 +8,41 @@ const F1: React.FC = () => {
       <div className='h-32 sm:h-84 w-full'>
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
-          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594990598/contentImages/content/ferarri_gxis2s.jpg'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826962/contentImages/content/racingpoint_uujvyf.jpg'
           alt='We have not seen the full potential of Mercedes or Red Bull yet, says Wolff'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 py-4 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            Feature
+            TECH TALK
           </div>
           <ActionLink
-            href='https://www.formula1.com/en/latest/article.thursdays-hot-topic-what-next-for-ferrari-after-worst-start-in-10-years.fGhuPMC3iHOCfB7Nw5PEM.html'
+            href='https://www.formula1.com/en/latest/article.tech-talk-looking-in-detail-at-racing-points-controversial-brake-ducts.1GqS75maJ2GfRPWynlfXJC.html'
             target='_blank'>
-            Thursday’s Hot Topic: What next for Ferrari after worst start in 10
-            years?
+            Looking in detail at Racing Point's controversial brake ducts
+            following Renault’s protest
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            You have to go back to 2009 to find a start to a Formula 1 campaign
-            as bad as this one for Ferrari. That year, they were pointless after
-            the first three races. It’s not so bad this time around, but 19
-            points and fifth in the constructors’ championship from two races is
-            not good enough for a team with such high aspirations.
+            The big talking point from last week's Styrian Grand Prix weekend
+            was Renault's protest of the brake ducts on Racing Point's RP20 car,
+            which they contend are copies of those used on last year's Mercedes
+            W10.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Charles Leclerc’s drive to second in the season-opener was
-            impressive and was yet another sign that the Monegasque is a star of
-            the future – however it also served to mask how Ferrari have fallen
-            back from reigning world champions Mercedes in terms of outright
-            pace.
+            So what exactly is Renault's protest based on? Are they likely to
+            see their protest upheld by the Formula 1 stewards? And could the
+            ruling have a knock-on effect on some of the other teams?
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Ferrari had such high hopes for this year; it was supposed to yield
-            a sustained threat for the championship. Instead, they looked
-            lacklustre in testing and then revealed a significant change of
-            direction was needed with the car’s development.
+            To explain, F1 technical expert Sam Collins takes a look at the
+            RP20's brake ducts, and those of last year's Mercedes in this free
+            preview from F1 TV’s Tech Talk show.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.formula1.com/en/latest/article.thursdays-hot-topic-what-next-for-ferrari-after-worst-start-in-10-years.fGhuPMC3iHOCfB7Nw5PEM.html'
+              href='https://www.formula1.com/en/latest/article.tech-talk-looking-in-detail-at-racing-points-controversial-brake-ducts.1GqS75maJ2GfRPWynlfXJC.html'
               target='_blank'>
               formula1.com
             </ContentLink>{' '}
