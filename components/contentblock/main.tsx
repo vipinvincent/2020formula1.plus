@@ -18,8 +18,8 @@ const Main: React.FC = () => {
             FP3 News
           </div>
           <H1>
-            Bottas leads thetime sheet with Hamilton and Perez second and third
-            in the final practice session in Hungary
+            Bottas leads the final practice session in Hungary with Hamilton and
+            Perez in P2 and P3
           </H1>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
             Mercedes scored another 1-2 in the final practice session for the
