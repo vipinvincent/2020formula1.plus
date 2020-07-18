@@ -8,53 +8,43 @@ const Right: React.FC = () => {
       <div className='h-40 xl:h-48 w-full'>
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
-          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594992043/contentImages/content/mercedes12_ufegj1.jpg'
-          alt='Mercedes dominates FP1 - Hamilton leads the timesheets in Hungarian GP first practice'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1595072621/contentImages/content/valtteri_-bottas_m5dgbs.jpg'
+          alt='Bottas leads  thetime sheet with Hamilton and Perez second and third in the final practice session in Hungary'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-2 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            FP1 News
+            FP3 News
           </div>
           <H1>
-            {' '}
-            Mercedes dominates FP1 - Hamilton leads the timesheets in Hungarian
-            GP first practice
+            Bottas leads the final practice session in Hungary with Hamilton and
+            Perez in P2 and P3
           </H1>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Lewis Hamilton leading a dominant Mercedes one-two ahead of Valtteri
-            Bottas. Hamilton set his fastest time - a 1:16.003 - on the hardest
-            tyre available which is incredible. Mercedes' close rival, Red Bull
-            had a low start to the weekend with P8 and P13 for Max Verstappen
-            and Alex Albon respectively; while Ferrari again finished well
-            behind of the practice pace setters in P6(Sebastian Vettel) and
-            P7(Charles Leclerc).
+            Mercedes scored another 1-2 in the final practice session for the
+            Hungarian Grand Prix under cloude sky. Valtteri Bottas' time of
+            1m15.437s set on soft tyres which was just 0.042s quicker than
+            Hamilton. The Racing Points were impressive again with just 0.161s
+            off Hamilton. His team mate Lance Stroll was fifth in a top five
+            split by 0.596s behind Charles Leclerc who was in P4.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Racing Point's Sergio Perez was third, 0.527secs adrift, and
-            0.437secs ahead of team-mate Lance Stroll. Renault's Daniel
-            Ricciardo took fifth. Lando Norris and Esteban Ocon rounded out the
-            top 10 for McLaren and Renault, with Norris’s McLaren team-mate
-            Carlos Sainz Jr close behind in 11th.
+            Red bull's poor form continues as the Red Bull cars struggled to get
+            to grips with their car. Max Verstappen finished sixth and his team
+            mate Alex Albon was 12th after Friday's running. Best of the McLaren
+            was Lando Norris (0.756s off Hamilton) who finished seventh with his
+            team mate Carlos Sainz at 11th after Friday practice.
           </p>
-          {/* <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Sebastian Vettel  was the lead driver for the Ferarri on a 1m17.238s and Charles
-            Leclerc was 0.166s behind his team-mate.
-          </p> */}
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Romain Grosjean was 14th, ahead of Williams’ Nicholas Latifi, who
-            finished 15. Daniil Kvyat was 16th Alfa Romeo's Antonio Giovinazzi
-            in 17th. George Russell and guest-participant Robert Kubica were the
-            last of the drivers to set a time, as Pierre Gasly failed to leave
-            the garage with an issue on his Honda engine
+            FP2 leader Sebastian Vettel was eighth overall. He was just ahead of
+            ninth-place Pierre Gasly of AlphaTauri, whose team mate Daniil Kvyat
+            was down in P17. The top ten list complted with Daniel Ricciardo
+            with a late effort and his team mate Esteban Ocon was 13th.
+            Williams' George Russell was just behind Ocon with an impressive
+            P14. Two Haas cars finished 15th and 16th with Romain Grosjean
+            leading his team mate Kevin Magnussen.
           </p>
-          {/* <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            The session was affected by intermittent light rain. But the drivers
-            was not affected as they continued the session using dry-weather
-            'slick' tyres. Spots of rain over the Hungaroring for Free Practice
-            1 indicates a sign of things to come during weekend.
-          </p> */}
           {/* <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink

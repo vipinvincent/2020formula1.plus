@@ -8,59 +8,54 @@ const Main: React.FC = () => {
       <div className='h-48 md:h-64 xl:h-84 w-full'>
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
-          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1595072621/contentImages/content/valtteri_-bottas_m5dgbs.jpg'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594992043/contentImages/content/mercedes12_ufegj1.jpg'
           alt='Bottas leads  thetime sheet with Hamilton and Perez second and third in the final practice session in Hungary'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-2 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            FP3 News
+            Qualifying - Hungarian Grand Prix 2020
           </div>
           <H1>
-            Bottas leads the final practice session in Hungary with Hamilton and
-            Perez in P2 and P3
+            Hamilton P1 with the lap record set the fastest time in Qualifying
+            and Bottas in P2 with two Racing Points in P3 and P4
           </H1>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Mercedes scored another 1-2 in the final practice session for the
-            Hungarian Grand Prix under cloude sky. Valtteri Bottas' time of
-            1m15.437s set on soft tyres which was just 0.042s quicker than
-            Hamilton. The Racing Points were impressive again with just 0.161s
-            off Hamilton. His team mate Lance Stroll was fifth in a top five
-            split by 0.596s behind Charles Leclerc who was in P4.
+            Ferrari’s Sebastian Vettel and Charles Leclerc finished P5 and P6
+            with Max Verstappen of Red Bull Racing only could manage a P7, who
+            was last years pole sitter. McLaren teammates Lando Norris Carlos
+            Sainz McLaren trails Ferrai at P8 and P9 only able to finish just
+            above AlphaTauri's Pierre Gasly who couldn't participate Q3 due to
+            ongoing power unit issues.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Red bull's poor form continues as the Red Bull cars struggled to get
-            to grips with their car. Max Verstappen finished sixth and his team
-            mate Alex Albon was 12th after Friday's running. Best of the McLaren
-            was Lando Norris (0.756s off Hamilton) who finished seventh with his
-            team mate Carlos Sainz at 11th after Friday practice.
+            Renault's Daniel Ricciardo only could manage P11 with today's
+            suprise with George Russell of Williams at P12 with a stromg
+            performance. Alexander Albon of Red Bull Racing was furious with his
+            team for leaving him in traffic and only coud manage P13
+            highlighting RedBull's poor form in Hungry. Esteban Ocon finished
+            P14 and Nicolas Latifi finished P15 with both Williams cars in Q2
+            after a long period of time.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            FP2 leader Sebastian Vettel was eighth overall. He was just ahead of
-            ninth-place Pierre Gasly of AlphaTauri, whose team mate Daniil Kvyat
-            was down in P17. The top ten list complted with Daniel Ricciardo
-            with a late effort and his team mate Esteban Ocon was 13th.
-            Williams' George Russell was just behind Ocon with an impressive
-            P14. Two Haas cars finished 15th and 16th with Romain Grosjean
-            leading his team mate Kevin Magnussen.
-          </p>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Nicholas Latifi finished last and was just behind two Alpha Romeso's
-            with Antonio Giovinazzi at 18th place and Kimi Raikkonen at
-            19th-place.
+            Two Haas cars finished 15th and 17th with Kevin Magnussen leading
+            his team mate Romain Grosjean. AlphaTauri 's Daniil Kvyat finished a
+            disappointing 16th. Both Alfa Romeo Racing cars was glued to the
+            last spot with Antonio Giovinazzi in 19 and 40 year old veteran Kimi
+            Räikkönen in 20th spot which probably be worst performance of his.
           </p>
           {/* <p className='mt-1 text-base leading-normal text-gray-700'>
-            Visit{' '}
+            View the complete {' '}
             <ContentLink
               href='https://www.formula1.com/en/latest/article.we-havent-seen-the-full-potential-of-mercedes-or-red-bull-yet-says-wolff.4hSJsAzStntPh9H8WI6fDQ.html'
               target='_blank'>
               formula1.com
             </ContentLink>{' '}
-            for more details...
+            Qualifying results
           </p> */}
         </div>
-        <div className='flex flex-col md:flex-row justify-start border-t border-gray-200 pb-2 md:py-3 px-4 text-sm md:text-lg text-center md:text-left'>
+        {/* <div className='flex flex-col md:flex-row justify-start border-t border-gray-200 pb-2 md:py-3 px-4 text-sm md:text-lg text-center md:text-left'>
           <div className='w-full text-sm md:w-3/12 pb-4 md:pb-0 md:pr-4 leading-tight pt-2 md:pt-4'>
             Follow this topic on -
           </div>
@@ -75,8 +70,8 @@ const Main: React.FC = () => {
                   alt='f1.com'
                 />
               </ActionLink>
-            </div>
-            {/* <div className='mr-2'>
+            </div> */}
+        {/* <div className='mr-2'>
               <ActionLink
                 href='https://www.bbc.com/sport/formula1/53449276'
                 target='_blank'>
@@ -87,7 +82,7 @@ const Main: React.FC = () => {
                 />
               </ActionLink>
             </div> */}
-            <div className='mr-2'>
+        {/* <div className='mr-2'>
               <ActionLink
                 href='https://www.motorsport.com/f1/news/hungarian-gp-fp3-report-bottas/4838964/'
                 target='_blank'>
@@ -119,8 +114,8 @@ const Main: React.FC = () => {
                   alt='autosport.com'
                 />
               </ActionLink>
-            </div>
-            {/* <div className='mr-2'>
+            </div> */}
+        {/* <div className='mr-2'>
               <ActionLink
                 href='https://www.espn.in/f1/story/_/id/29438233/mugello-host-first-f1-race-sochi-added-2020-calendar'
                 target='_blank'>
@@ -131,7 +126,7 @@ const Main: React.FC = () => {
                 />
               </ActionLink>
             </div>*/}
-            {/* <div className='mr-2'>
+        {/* <div className='mr-2'>
               <ActionLink
                 href='https://the-race.com/formula-1/hamilton-tops-first-hungary-practice-while-red-bull-toils/'
                 target='_blank'>
@@ -142,7 +137,7 @@ const Main: React.FC = () => {
                 />
               </ActionLink>
             </div> */}
-            {/* <div className='mr-2'>
+        {/* <div className='mr-2'>
               <ActionLink
                 href='https://www.grandprix247.com/2020/07/15/report-vettel-in-negotiations-with-aston-martin/'
                 target='_blank'>
@@ -164,8 +159,8 @@ const Main: React.FC = () => {
                 />
               </ActionLink>
             </div> */}
-          </div>
-        </div>
+        {/* </div>
+        </div> */}
       </div>
     </div>
   )
