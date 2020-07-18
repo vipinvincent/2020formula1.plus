@@ -18,36 +18,35 @@ const TheRace: React.FC = () => {
             Feature
           </div>
           <ActionLink
-            href='https://the-race.com/formula-1/mclaren-backs-key-protest-into-racing-point-copy-job/'
+            href='https://the-race.com/formula-1/the-danger-of-ferrari-relapsing-to-short-term-thinking/'
             target='_blank'>
-            McLaren backs ‘key’ protest into Racing Point ‘copy job’
+            The danger of Ferrari relapsing to short-term thinking
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            McLaren team principal Andreas Seidl says Renault’s protest against
-            Racing Point is a “key” opportunity to clarify whether allowing such
-            a “copying job” is the right direction for Formula 1’s future.
+            Ferrari’s cycle of “heady highs and base lows” stems from pressure
+            that’s never expressed more powerfully than from the hierarchy that
+            has traditionally forced this Formula 1 team into making “short-term
+            decisions that can lead it astray instead of building fundamental
+            strengths that will carry it from year to year”.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Seidl was keen to distance himself from the specifics of the protest
-            and stressed he would be surprised if Racing Point had done anything
-            explicitly illegal. But what he said “in general” on the topic
-            indicates he wants to see clarifications that curb the capacity to
-            copy a rival car so closely as part of a wider co-operation with
-            another team.
+            So says the man who once masterminded its technical operation, and
+            is now a key cog in the Mercedes team Ferrari simply cannot beat.
+            Though Ferrari’s 2020 season has started so badly that there are a
+            few teams it cannot beat at the moment.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            {' '}
-            He sees the outcome of this protest as key to deciding whether or
-            not F1 becomes a “copy championship” and stressed his support of the
-            concept that teams should all be independent constructors. Beyond
-            the question of whether the Racing Point is legal under the current
-            rules, Seidl said this protest also offered an opportunity to
-            further restrict the alliances that exist between teams.
+            Mercedes technical director James Allison is extremely fond of his
+            two stints at Ferrari, which left him with “massive affection” for
+            the brand and its people. At its peak, it was “an unalloyed joy” –
+            buoyed by the rapturous love affair between the company and what
+            feels like the entire nation of Italy. But at Ferrari, support and
+            expectation are two sides of the same coin.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://the-race.com/formula-1/mclaren-backs-key-protest-into-racing-point-copy-job/'
+              href='https://the-race.com/formula-1/the-danger-of-ferrari-relapsing-to-short-term-thinking/'
               target='_blank'>
               the-race.com
             </ContentLink>{' '}

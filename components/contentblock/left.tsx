@@ -8,8 +8,8 @@ const Left: React.FC = () => {
       <div className='h-40 xl:h-48 w-full'>
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
-          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826961/contentImages/content/redbull-mercedes_ikkneb.jpg'
-          alt='Red Bull expects to be more competitive at F1 Hungarian GP'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594992043/contentImages/content/mercedes12_ufegj1.jpg'
+          alt='Mercedes dominates FP1 - Hamilton leads the timesheets in Hungarian GP first practice'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
@@ -17,43 +17,51 @@ const Left: React.FC = () => {
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
             Latest News
           </div>
-          <H1>Red Bull expects to be more competitive at F1 Hungarian GP</H1>
+          <H1>
+            {' '}
+            Mercedes dominates FP1 - Hamilton leads the timesheets in Hungarian
+            GP first practice
+          </H1>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Red Bull believes the Hungarian Grand Prix to be more intense.They
-            believe that the car will be better suited for Hungarian Grand Prix
-            as Hungaroring has greater emphasis on cornering speed which should
-            make Red Bull more competitive.
+            Lewis Hamilton leading a dominant Mercedes one-two ahead of Valtteri
+            Bottas. Hamilton set his fastest time - a 1:16.003 - on the hardest
+            tyre available which is incredible. Mercedes' close rival, Red Bull
+            had a low start to the weekend with P8 and P13 for Max Verstappen
+            and Alex Albon respectively; while Ferrari again finished well
+            behind of the practice pace setters in P6 and P7.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Red Bull's team boss Christian Horner indicated that
-            "Their(Mercedes') straight line speed is impressive," said Horner.
-            "There is not much there in cornering speed. "There are some corners
-            we are better, some where we are not quite as good. But certainly on
-            this track their straight line speed has been very impressive so
-            they've made a good step over the winter." “I hope that we’ll be
-            more competitive in Hungary, it’s a different type of venue,” he
-            said. “Mercedes are very strong and just the distance that the three
-            guys [Hamilton, Bottas and Max Verstappen] were ahead of the rest
-            was enormous today. Max did well to keep up as well as he did.”
+            Racing Point's Sergio Perez was third, 0.527secs adrift, and
+            0.437secs ahead of team-mate Lance Stroll. Renault's Daniel
+            Ricciardo took fifth. Lando Norris and Esteban Ocon rounded out the
+            top 10 for McLaren and Renault, with Norris’s McLaren team-mate
+            Carlos Sainz Jr close behind in 11th.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Meanwhile, Red Bull says it is mystifying to see the pace drop off
-            for Alex Albon’s car in longer stints, after his disappointing
-            Styrian Grand Prix. Although he finished fourth, 44 seconds behind
-            race winner Hamilton, the pace is no match with Max Verstappen. Just
-            few days ago, Albon had a chance of winning the season opener in
-            Austria before a collision with Lewis Hamilton, the Thai driver find
-            it difficult to match the pace of the cars ahead of him.
+            Red Bull's pace was at a low level since they were running in a
+            possible different specification than the others. Sebastian Vettel
+            was the lead driver for the Ferarri on a 1m17.238s and Charles
+            Leclerc was 0.166s behind his team-mate.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Red Bull believes that the cooler conditions on Sunday helped the
-            cooling concerns the German car manufacturer in Austria. Indicating
-            on the fact that Mercedes triumphed at a circuit where it has
-            struggled in recent years, Horner said: “Mercedes have
-            underperformed in recent years. They struggled in the heat, they
-            struggled in the heat here on Friday. It’s been very cool and
-            they’ve performed well here. They were the best team today and we’re
-            going to be working even harder to try and catch them.”
+            Romain Grosjean was 14th, ahead of Williams’ Nicholas Latifi, who
+            finished 15. Daniil Kvyat was 16th Alfa Romeo's Antonio Giovinazzi
+            in 17th. George Russell and guest-participant Robert Kubica were the
+            last of the drivers to set a time, as Pierre Gasly failed to leave
+            the garage with an issue on his Honda engine
+          </p>
+          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+            The session was affected by intermittent light rain. But the drivers
+            was not affected as they continued the session using dry-weather
+            'slick' tyres. Spots of rain over the Hungaroring for Free Practice
+            1 indicates a sign of things to come during weekend.
+          </p>
+          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+            Racing Point enter the weekend without having a resolution to the
+            protest lodged by Renault in Austria. Renault are arguing that
+            Racing Point, the 'Pink Mercedes' for its similarity to the 2019
+            car, have copied the designs of the brake ducts of last year's
+            Mercedes car.
           </p>
           {/* <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}

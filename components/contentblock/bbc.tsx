@@ -4,57 +4,58 @@ import ContentLink from 'components/link/ContentLink'
 
 const BBC: React.FC = () => {
   return (
-    <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-4'>
-      <div className='h-32 sm:h-40 lg:absolute lg:left-0 lg:h-full lg:w-1/3'>
+    <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-0'>
+      <div className='h-32 sm:h-48 w-full bg-bbc rounded-tl-xl'>
         <img
-          className='w-full h-full object-contain rounded-tl-xxl bg-bbc'
+          className='w-full h-full object-contain rounded-tl-xl'
           src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594827284/contentImages/logo/bbc_xek5di.png'
           alt='bbc.com/sport'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
-        <div className='lg:ml-auto lg:w-2/3 px-4 pt-4 text-left'>
+        <div className='px-4 py-4 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            bbc.com
+            Feature
           </div>
           <ActionLink
-            href='https://www.bbc.com/sport/formula-one/53387307'
+            href='https://www.bbc.com/sport/formula1/53449283'
             target='_blank'>
-            Ross Brawn says Ferrari face a 'long road ahead' to rediscover
-            competitiveness
+            Formula 1 personnel test positive for coronavirus
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Ferrari have "a long road ahead" as they attempt to rediscover their
-            competitiveness, according to Formula 1 managing director Ross
-            Brawn.
+            Two Formula 1 personnel have tested positive for coronavirus in the
+            last week. They are the first positive tests for Covid-19 since a
+            handful of people contracted the virus at the abandoned race in
+            Australia in March.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Ferrari have qualified in the lower reaches of the top 10 at the
-            opening two races and the car is around a second a lap slower than
-            the Mercedes. Brawn said: "They aren't going to turn it around
-            overnight."
+            A statement said: "The affected people have been removed from
+            operations and isolated. Tracing of contacts (has been) completed
+            and isolated." The people involved had not been at the opening races
+            of the season in Austria.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            The 65-year-old was Ferrari's technical director when they dominated
-            F1 in the early 2000s with Michael Schumacher. Brawn, writing in his
-            column for F1 after Sunday's Styrian Grand Prix in Austria, added:
-            "There's a long road ahead of them. They need to find out if there
-            is a fundamental problem with the car - and they need to find out
-            fast - because clearly they are some way off the pace.
+            BBC Sport understands that those involved were not in front-line
+            roles, and nor were they members of any of the 10 teams. The tests
+            will have no impact on this weekend's Hungarian Grand Prix. F1
+            expects a small number of positive tests to become a normality as
+            racing continues through the rest of the year and for the sport to
+            carry on in the face of a small numbers of positive tests, in the
+            same way Premier League football has done.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.bbc.com/sport/formula-one/53387307'
+              href='https://www.bbc.com/sport/formula1/53449283'
               target='_blank'>
               bbc.com
             </ContentLink>{' '}
             for more details...
           </p>
-          <div className='flex flex-col justify-start border-t border-gray-200 mt-4 pb-2 px-2 text-sm  text-center'>
+          {/* <div className='flex flex-col justify-start border-t border-gray-200 mt-4 pb-2 px-2 text-sm  text-center'>
             <div className='w-full pb-2 text-sm'>Follow this topic on -</div>
-            <div className='w-full flex flex-row justify-center my-1'>
-              {/* <div className='mr-2'>
+            <div className='w-full flex flex-row justify-center my-1'> */}
+          {/* <div className='mr-2'>
                 <ActionLink
                   href='https://the-race.com/formula-1/leclerc-summoned-to-stewards-over-two-separate-incidents/'
                   target='_blank'>
@@ -65,7 +66,7 @@ const BBC: React.FC = () => {
                   />
                 </ActionLink>
               </div> */}
-              <div className='mr-2'>
+          {/* <div className='mr-2'>
                 <ActionLink
                   href='https://www.skysports.com/f1/news/12474/12027615/ross-brawn-on-a-long-road-ahead-for-ferrari-after-very-painful-crash'
                   target='_blank'>
@@ -75,9 +76,9 @@ const BBC: React.FC = () => {
                     alt='skysports.com'
                   />
                 </ActionLink>
-              </div>
-            </div>
-          </div>
+              </div> */}
+          {/* </div>
+          </div> */}
         </div>
       </div>
     </div>

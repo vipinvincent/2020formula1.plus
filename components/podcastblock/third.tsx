@@ -7,13 +7,13 @@ const Third: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=GA7Qf69fXoE'
+        href='https://www.youtube.com/watch?v=Tqs-MmSzTDk'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-40 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/GA7Qf69fXoE/maxresdefault.jpg'
+              src='https://img.youtube.com/vi/Tqs-MmSzTDk/maxresdefault.jpg'
               alt=' Vettel & Leclerc Crash Analysis: Onboard Ferrari’s Styrian Double DNF'
             />
           </div>
@@ -32,17 +32,15 @@ const Third: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=GA7Qf69fXoE'
+            href='https://www.youtube.com/watch?v=Tqs-MmSzTDk'
             target='_blank'>
-            Vettel & Leclerc Crash Analysis: Onboard Ferrari’s Styrian Double
-            DNF
+            Alonso's Unfinished Business With Formula 1: Why Renault?
+            [EXPLAINED]
           </ContentLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Does Ferrari have a double standard when it comes to their drivers?
-            The purpose isn’t to pile on, it’s simply to say if Ferrari doesn't
-            hold a fair, CONSISTENT level of accountability, these trends will
-            continue making it nearly impossible to recover. Subscribe for more
-            F1 Analysis:
+            Are Fernando Alonso and Renault making the right call? Do you think
+            this is good for F1? In this video I'll explore Alonso's shock move
+            to Renault and why it was the best choice for all parties involved.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}

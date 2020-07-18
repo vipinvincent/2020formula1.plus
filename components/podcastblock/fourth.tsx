@@ -7,14 +7,14 @@ const Fourth: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=jTatcZ0QWhk'
+        href='https://www.youtube.com/watch?v=kW9plaiCCfY'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-40 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/jTatcZ0QWhk/maxresdefault.jpg'
-              alt='Mattia Binotto: The WRONG Man for Ferrari?'
+              src='https://img.youtube.com/vi/kW9plaiCCfY/maxresdefault.jpg'
+              alt='Should Sainz Be Regretting His Ferrari Move? | Is It Just Me? Podcast'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,21 +32,21 @@ const Fourth: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=jTatcZ0QWhk'
+            href='https://www.youtube.com/watch?v=kW9plaiCCfY'
             target='_blank'>
-            Mattia Binotto: The WRONG Man for Ferrari?
+            Should Sainz Be Regretting His Ferrari Move? | Is It Just Me?
+            Podcast
           </ContentLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Mattia Binotto is the current Ferrari Team Principal, ex Ferrari
-            Chief Technical Officer, and wearer of wonderful glasses. Today we
-            take a deep dive into the man himself, where he's from, how he got
-            to where he is today, and whether he's the right man to take Ferrari
-            forward.
+            2020 isn't looking like a competitive season for Ferrari, and with
+            McLaren looking strong after the first two rounds, should Sainz be
+            regretting his move to the Scuderia? Or is he playing a long game
+            that (hopefully) pays off? Jess and Luke discuss *your* takes.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='https://tommof1.buzzsprout.com/' target='_blank'>
-              Tommo F1
+            <ContentLink href='https://www.autosport.com/' target='_blank'>
+              Autosport
             </ContentLink>
           </p>
         </div>
