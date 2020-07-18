@@ -1,6 +1,6 @@
 import React from 'react'
 import H1 from 'components/heading/H1'
-import ActionLink from 'components/link/ActionLink'
+// import ActionLink from 'components/link/ActionLink'
 
 const Main: React.FC = () => {
   return (
