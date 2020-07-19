@@ -18,35 +18,34 @@ const TheRace: React.FC = () => {
             Feature
           </div>
           <ActionLink
-            href='https://the-race.com/formula-1/the-danger-of-ferrari-relapsing-to-short-term-thinking/'
+            href='https://the-race.com/formula-1/is-red-bull-making-albon-look-like-an-idiot/'
             target='_blank'>
-            The danger of Ferrari relapsing to short-term thinking
+            Is Red Bull making Albon look like an idiot?
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Ferrari’s cycle of “heady highs and base lows” stems from pressure
-            that’s never expressed more powerfully than from the hierarchy that
-            has traditionally forced this Formula 1 team into making “short-term
-            decisions that can lead it astray instead of building fundamental
-            strengths that will carry it from year to year”.
+            George Russell launched to Alex Albon’s defence after the Red Bull
+            Formula 1 driver’s disappointing Hungarian Grand Prix qualifying
+            session, saying his friend has “been made to look like an idiot”.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            So says the man who once masterminded its technical operation, and
-            is now a key cog in the Mercedes team Ferrari simply cannot beat.
-            Though Ferrari’s 2020 season has started so badly that there are a
-            few teams it cannot beat at the moment.
+            Russell and Albon, who was outqualified by the Williams driver, have
+            a friendship that goes back to their childhood years in karting, and
+            that bond led Russell to making an unexpectedly strong statement on
+            Saturday at the Hungaroring when being quizzed about the qualifying
+            outcome by Sky Sports F1.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Mercedes technical director James Allison is extremely fond of his
-            two stints at Ferrari, which left him with “massive affection” for
-            the brand and its people. At its peak, it was “an unalloyed joy” –
-            buoyed by the rapturous love affair between the company and what
-            feels like the entire nation of Italy. But at Ferrari, support and
-            expectation are two sides of the same coin.
+            “He’s one of the best drivers we all raced,” reckons Russell. “Max
+            [Verstappen], Charles [Leclerc], all of us will say it, he’s always
+            been at the front of everything he’s done. “I don’t know what the
+            hell is going on and I feel really bad for him because he’s been
+            made to look like an idiot and he’s absolutely not. “He’s won in
+            everything he’s done, so I don’t know what’s going”
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://the-race.com/formula-1/the-danger-of-ferrari-relapsing-to-short-term-thinking/'
+              href='https://the-race.com/formula-1/is-red-bull-making-albon-look-like-an-idiot/'
               target='_blank'>
               the-race.com
             </ContentLink>{' '}

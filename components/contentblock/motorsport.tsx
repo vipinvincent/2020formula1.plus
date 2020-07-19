@@ -42,9 +42,6 @@ const MotorSport: React.FC = () => {
             monitor fuel flow and another one to check on current. Both are
             encrypted so teams cannot know what the readings are.
           </p>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            &nbsp;
-          </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink

@@ -7,13 +7,13 @@ const First: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=KDwP-FjbvNs'
+        href='https://www.youtube.com/watch?v=YTix-5oS5PU'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/KDwP-FjbvNs/maxresdefault.jpg'
+              src='https://img.youtube.com/vi/YTix-5oS5PU/maxresdefault.jpg'
               alt='Hungarian Grand Prix: Preview and Predictions'
             />
           </div>
@@ -32,16 +32,17 @@ const First: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=KDwP-FjbvNs'
+            href='https://www.youtube.com/watch?v=YTix-5oS5PU'
             target='_blank'>
-            Hungarian Grand Prix: Preview and Predictions
+            Hungarian Grand Prix: Race Look Ahead
           </ContentLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            This weekend, Formula One heads to Budapest for the third round of
-            the 2020 F1 Season…the Hungarian Grand Prix. Can Mercedes make it
-            three wins on the bounce, or will Max Verstappen and Red Bull halt
-            their charge? The usual stats, virtual lap guide and my predictions
-            in this week’s Grand Prix preview.
+            Once again, F1 treated us to a great qualifying session…but will we
+            get a race that’s just as full of excitement? In the Hungarian Grand
+            Prix race look ahead: A look at the final qualifying results, how
+            the drivers will line up tomorrow and the possible race strategies.
+            Plus, my thoughts on the session, what I’m looking out for tomorrow
+            and my one to watch.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
