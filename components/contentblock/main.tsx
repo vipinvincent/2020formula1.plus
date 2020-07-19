@@ -8,7 +8,7 @@ const Main: React.FC = () => {
       <div className='h-48 md:h-64 xl:h-84 w-full'>
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
-          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594992043/contentImages/content/mercedes12_ufegj1.jpg'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1595179123/contentImages/content/hamilton_zjzo65.jpg'
           alt='Bottas leads  thetime sheet with Hamilton and Perez second and third in the final practice session in Hungary'
         />
       </div>
