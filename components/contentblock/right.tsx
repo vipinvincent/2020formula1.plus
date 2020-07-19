@@ -55,10 +55,10 @@ const Right: React.FC = () => {
             for more details...
           </p> */}
         </div>
-        <div className='flex flex-col justify-start border-t border-gray-200 mt-4 pb-2 px-2 text-sm  text-center'>
+        {/* <div className='flex flex-col justify-start border-t border-gray-200 mt-4 pb-2 px-2 text-sm  text-center'>
           <div className='w-full py-2 text-sm'>Follow this topic on -</div>
-          <div className='w-full flex flex-row justify-center my-1'>
-            {/* <div className='mr-2'>
+          <div className='w-full flex flex-row justify-center my-1'> */}
+        {/* <div className='mr-2'>
               <ActionLink
                 href='https://www.bbc.com/sport/formula1/53377338'
                 target='_blank'>
@@ -69,7 +69,7 @@ const Right: React.FC = () => {
                 />
               </ActionLink>
             </div> */}
-            <div className='mr-2'>
+        {/* <div className='mr-2'>
               <ActionLink
                 href='https://www.motorsport.com/f1/news/red-bull-albon-slow-pace-styria/4833470/'
                 target='_blank'>
@@ -79,8 +79,8 @@ const Right: React.FC = () => {
                   alt='motorsport.com'
                 />
               </ActionLink>
-            </div>
-            {/* <div className='mr-2'>
+            </div> */}
+        {/* <div className='mr-2'>
               <ActionLink
                 href='https://www.skysports.com/f1/news/12433/12026519/lewis-hamilton-proud-to-master-terrifying-styrian-gp-qualifying'
                 target='_blank'>
@@ -91,7 +91,7 @@ const Right: React.FC = () => {
                 />
               </ActionLink>
             </div> */}
-            <div className='mr-2'>
+        {/* <div className='mr-2'>
               <ActionLink
                 href='https://www.autosport.com/f1/news/150565/red-bull-expects-to-close-gap-on-mercedes-in-hungary'
                 target='_blank'>
@@ -101,8 +101,8 @@ const Right: React.FC = () => {
                   alt='autosport.com'
                 />
               </ActionLink>
-            </div>
-            {/* <div className='mr-2'>
+            </div> */}
+        {/* <div className='mr-2'>
               <ActionLink
                 href='https://www.espn.in/f1/story/_/id/29438233/mugello-host-first-f1-race-sochi-added-2020-calendar'
                 target='_blank'>
@@ -124,7 +124,7 @@ const Right: React.FC = () => {
                 />
               </ActionLink>
             </div>*/}
-            <div className='mr-2'>
+        {/* <div className='mr-2'>
               <ActionLink
                 href='https://www.grandprix247.com/2020/07/14/horner-i-hope-well-be-more-competitive-in-hungary/'
                 target='_blank'>
@@ -134,8 +134,8 @@ const Right: React.FC = () => {
                   alt='grandprix247.com'
                 />
               </ActionLink>
-            </div>
-            {/* <div className='mr-2'>
+            </div> */}
+        {/* <div className='mr-2'>
               <ActionLink
                 href='https://www.planetf1.com/news/qualifying-report-styrian-gp-2020/'
                 target='_blank'>
@@ -146,8 +146,8 @@ const Right: React.FC = () => {
                 />
               </ActionLink>
             </div> */}
-          </div>
-        </div>
+        {/* </div>
+        </div> */}
       </div>
     </div>
   )

@@ -1,6 +1,6 @@
 import React from 'react'
 import H1 from 'components/heading/H1'
-import ActionLink from 'components/link/ActionLink'
+// import ActionLink from 'components/link/ActionLink'
 
 const Left: React.FC = () => {
   return (
@@ -8,42 +8,46 @@ const Left: React.FC = () => {
       <div className='h-40 xl:h-48 w-full'>
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
-          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1595051404/contentImages/content/ferrari_yxiws9.jpg'
-          alt='Vettel leads the timesheets in Hungarian GP Second Practice under
-            wet conditions'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594992043/contentImages/content/mercedes12_ufegj1.jpg'
+          alt='Hamilton P1 with the lap record set the fastest time in Qualifying
+            and Bottas in P2'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
-        <div className='px-4 pt-4 pb-5 text-left'>
+        <div className='px-4 pt-4 pb-4 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            FP2 News
+            Qualifying - Hungarian Grand Prix 2020
           </div>
           <H1>
-            Vettel leads the timesheets in Hungarian GP Second Practice under
-            wet conditions
+            Hamilton P1 with the lap record set the fastest time in Qualifying
           </H1>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Ferrari’s Sebastian Vettel set the fastest time in Free Practice 2
-            for the 2020 Hungarian Grand Prix with a 1m 40.464s, 0.272s ahead of
-            the Mercedes of Valtteri Bottas.
+            Hamilton P1 set the fastest time in Qualifying and Bottas in P2 with
+            two Racing Points in P3 and P4
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            McLaren of Carlos Sainz finishes in third and the two Racing Points
-            of Lance Stroll and Sergio Perez occupies the remaining top 5 spots.
-            AlphaTauri’s Pierre Gasly being the first driver out in the session
-            on full wets only could manage just seven laps only to complain a
-            smell of burning in his AT01 right at the end of the session, as he
-            ended up in P6.
+            Ferrari’s Sebastian Vettel and Charles Leclerc finished P5 and P6
+            with Max Verstappen of Red Bull Racing only could manage a P7, who
+            was last years pole sitter. McLaren teammates Lando Norris Carlos
+            Sainz McLaren trails Ferrai at P8 and P9 only able to finish just
+            above AlphaTauri's Pierre Gasly who couldn't participate Q3 due to
+            ongoing power unit issues.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            With only 13 drivers setting a time, Red Bull’s Max Verstappen was
-            seventh, 2.3s behind Vettel, but ahead of the Haas of Romain
-            Grosjean. Alfa Romeo’s Kimi Raikkonen complained of having “zero
-            grip” and endured a number of off-track excursions, but complted the
-            most number(16) of laps in FP2. Kimi finished in P9, one place in
-            front of Charles Leclerc, who also complained of lack of rear grip
-            on his Ferrari as he finished 10th, ahead of Antonio Giovinazzi,
-            Lando Norris and Daniil Kvyat.
+            Renault's Daniel Ricciardo only could manage P11 with today's
+            suprise with George Russell of Williams at P12 with a stromg
+            performance. Alexander Albon of Red Bull Racing was furious with his
+            team for leaving him in traffic and only coud manage P13
+            highlighting RedBull's poor form in Hungry. Esteban Ocon finished
+            P14 and Nicolas Latifi finished P15 with both Williams cars in Q2
+            after a long period of time.
+          </p>
+          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+            Two Haas cars finished 15th and 17th with Kevin Magnussen leading
+            his team mate Romain Grosjean. AlphaTauri 's Daniil Kvyat finished a
+            disappointing 16th. Both Alfa Romeo Racing cars was glued to the
+            last spot with Antonio Giovinazzi in 19 and 40 year old veteran Kimi
+            Räikkönen in 20th spot which probably be worst performance of his.
           </p>
           {/* <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
@@ -55,7 +59,7 @@ const Left: React.FC = () => {
             for more details...
           </p> */}
         </div>
-        <div className='flex flex-col justify-start border-t border-gray-200 mt-4 pb-2 px-2 text-sm  text-center'>
+        {/* <div className='flex flex-col justify-start border-t border-gray-200 mt-4 pb-2 px-2 text-sm  text-center'>
           <div className='w-full py-2 text-sm'>Follow this topic on -</div>
           <div className='w-full flex flex-row justify-center my-1'>
             <div className='mr-2'>
@@ -79,8 +83,8 @@ const Left: React.FC = () => {
                   alt='bbc.com/sport'
                 />
               </ActionLink>
-            </div>
-            {/* <div className='mr-2'>
+            </div> */}
+        {/* <div className='mr-2'>
               <ActionLink
                 href='https://www.motorsport.com/f1/news/red-bull-albon-slow-pace-styria/4833470/'
                 target='_blank'>
@@ -91,7 +95,7 @@ const Left: React.FC = () => {
                 />
               </ActionLink>
             </div> */}
-            <div className='mr-2'>
+        {/* <div className='mr-2'>
               <ActionLink
                 href='https://www.skysports.com/f1/news/12433/12030674/hungarian-gp-practice-two-sebastian-vettel-fastest-in-wet-running'
                 target='_blank'>
@@ -101,8 +105,8 @@ const Left: React.FC = () => {
                   alt='skysports.com'
                 />
               </ActionLink>
-            </div>
-            {/* <div className='mr-2'>
+            </div> */}
+        {/* <div className='mr-2'>
               <ActionLink
                 href='https://www.autosport.com/f1/news/150565/red-bull-expects-to-close-gap-on-mercedes-in-hungary'
                 target='_blank'>
@@ -113,7 +117,7 @@ const Left: React.FC = () => {
                 />
               </ActionLink>
             </div> */}
-            {/* <div className='mr-2'>
+        {/* <div className='mr-2'>
               <ActionLink
                 href='https://www.espn.in/f1/story/_/id/29438233/mugello-host-first-f1-race-sochi-added-2020-calendar'
                 target='_blank'>
@@ -135,7 +139,7 @@ const Left: React.FC = () => {
                 />
               </ActionLink>
             </div>*/}
-            {/* <div className='mr-2'>
+        {/* <div className='mr-2'>
               <ActionLink
                 href='https://www.grandprix247.com/2020/07/14/horner-i-hope-well-be-more-competitive-in-hungary/'
                 target='_blank'>
@@ -146,7 +150,7 @@ const Left: React.FC = () => {
                 />
               </ActionLink>
             </div> */}
-            {/* <div className='mr-2'>
+        {/* <div className='mr-2'>
               <ActionLink
                 href='https://www.planetf1.com/news/qualifying-report-styrian-gp-2020/'
                 target='_blank'>
@@ -157,8 +161,8 @@ const Left: React.FC = () => {
                 />
               </ActionLink>
             </div> */}
-          </div>
-        </div>
+        {/* </div>
+        </div> */}
       </div>
     </div>
   )
