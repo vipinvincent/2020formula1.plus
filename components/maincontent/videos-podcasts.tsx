@@ -4,7 +4,7 @@ import FirstVideo from 'components/videoblock/first'
 import SecondVideo from 'components/videoblock/second'
 import ThirdVideo from 'components/videoblock/third'
 
-import FirstPodcast from 'components/podcastblock/first'
+// import FirstPodcast from 'components/podcastblock/first'
 import SecondPodcast from 'components/podcastblock/second'
 import ThirdPodcast from 'components/podcastblock/third'
 import FourthPodcast from 'components/podcastblock/fourth'
