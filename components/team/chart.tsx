@@ -1,5 +1,4 @@
 import React from 'react'
-// import ContentLink from 'components/link/ContentLink'
 import { Line } from 'react-chartjs-2'
 
 const data = {
@@ -220,7 +219,7 @@ const data = {
 
 const TeamChart: React.FC = () => {
   return (
-    <div className='flex flex-col mb-4'>
+    <div className=' hidden md:flex flex-col mb-4'>
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
         Constructor Standings (2020)
       </div>
@@ -229,11 +228,6 @@ const TeamChart: React.FC = () => {
           <div className='pb-4'>
             <Line data={data} />
           </div>
-          {/* <p className='my-2 pr-4 text-base leading-normal text-gray-700 text-right'>
-            <ContentLink href='/constructor-standings' target='_self'>
-              More Details...
-            </ContentLink>
-          </p> */}
         </div>
       </div>
     </div>
