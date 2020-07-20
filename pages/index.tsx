@@ -24,11 +24,11 @@ const IndexPage = () => (
             <VideosPodcasts />
           </div>
           <div className='hidden lg:block w-4/12 xl:w-4/12 pl-4'>
-            <Schedule />
-            <Recent />
             <Driver />
             <Team />
             <Race />
+            <Schedule />
+            <Recent />
             <div className='w-100 xl:hidden text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mt-0 mb-1 px-2'>
               Latest Podcasts from Youtube
             </div>

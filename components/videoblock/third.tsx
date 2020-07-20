@@ -7,13 +7,13 @@ const Third: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=rDlDCMv24Ic'
+        href='https://www.youtube.com/watch?v=45oItAzElck'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/rDlDCMv24Ic/maxresdefault.jpg'
+              src='https://img.youtube.com/vi/45oItAzElck/maxresdefault.jpg'
               alt='The flaw Red Bull needs to fix to fight Mercedes in F1 2020'
             />
           </div>
@@ -32,28 +32,19 @@ const Third: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=rDlDCMv24Ic'
+            href='https://www.youtube.com/watch?v=45oItAzElck'
             target='_blank'>
-            The flaw Red Bull needs to fix to fight Mercedes in F1 2020
+            The Internet's Best Reactions To The 2020 Hungarian Grand Prix
           </ContentLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Red Bull is the closest challenger to Mercedes in Formula 1 in 2020,
-            but so far it's not been able to keep up in a straight fight. The
-            RB16 appears to have addressed an area of weakness for Red Bull from
-            last year, but the team has not yet got the car to a point where it
-            behaves consistently enough to give its drivers confidence. In this
-            video we explain the problem that is making the Red Bull so tricky
-            to drive, and why it could be a formidable rival for Mercedes when
-            it gets it right - starting with this weekend's Hungarian Grand
-            Prix.
+            This week Matt takes a look at the best comments and reactions from
+            the 2020 F1 Hungarian GP race at the Hungaroring.
           </p>
 
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink
-              href='https://the-race.com/formula-1/video-why-renault-is-protesting-racing-point/'
-              target='_blank'>
-              the-race.com
+            <ContentLink href='http://www.wtf1.com' target='_blank'>
+              wtf1.com
             </ContentLink>
           </p>
         </div>

@@ -7,13 +7,13 @@ const Third: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=Tqs-MmSzTDk'
+        href='https://www.youtube.com/watch?v=eTNOb9Xwklc'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-40 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/Tqs-MmSzTDk/maxresdefault.jpg'
+              src='https://img.youtube.com/vi/eTNOb9Xwklc/maxresdefault.jpg'
               alt=' Vettel & Leclerc Crash Analysis: Onboard Ferrari’s Styrian Double DNF'
             />
           </div>
@@ -32,20 +32,22 @@ const Third: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=Tqs-MmSzTDk'
+            href='https://www.youtube.com/watch?v=eTNOb9Xwklc'
             target='_blank'>
-            Alonso's Unfinished Business With Formula 1: Why Renault?
-            [EXPLAINED]
+            F1 2020 Hungarian GP Review
           </ContentLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Are Fernando Alonso and Renault making the right call? Do you think
-            this is good for F1? In this video I'll explore Alonso's shock move
-            to Renault and why it was the best choice for all parties involved.
+            After that great rain affected Hungarian Grand Prix I thought I'd
+            sit down and record my initial reactions to the race! Let me know
+            what you thought on it down in the comments below and tell me your
+            predictions for round 4 in Silverstone!
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='https://www.crankyyankeef1.com/' target='_blank'>
-              CrankyYankeeF1
+            <ContentLink
+              href='https://twitter.com/willearle2000'
+              target='_blank'>
+              FP1 - Formula Podcast One
             </ContentLink>
           </p>
         </div>

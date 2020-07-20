@@ -7,13 +7,13 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=Xy8XddsTYiM'
+        href='https://www.youtube.com/watch?v=3s5iGwPGC_Y'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/Xy8XddsTYiM/maxresdefault.jpg'
+              src='https://img.youtube.com/vi/3s5iGwPGC_Y/maxresdefault.jpg'
               alt='Why Aston Martin Could Be The Perfect Team For Vettel In 2021'
             />
           </div>
@@ -32,21 +32,20 @@ const Second: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=Xy8XddsTYiM'
+            href='https://www.youtube.com/watch?v=3s5iGwPGC_Y'
             target='_blank'>
-            Why Aston Martin Could Be The Perfect Team For Vettel In 2021
+            F1? Punditry? Retirement? What does the future hold for Sebastian
+            Vettel? | Exclusive Interview
           </ContentLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            The rumour mill hasn't stopped spinning since it was announced that
-            Vettel would be leaving Ferrari at the end of the 2020 season. But
-            with his options for a 2021 seat quickly running out, could joining
-            the Racing Point-soon-to-be-Aston-Martin outfit actually be the
-            perfect move for the four-time World Champion?
+            Sebastian Vettel sat down with Martin Brundle to speak about what
+            the future holds for him after Ferrari revealed Carlos Sainz will be
+            taking his seat next season.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='https://www.autosport.com/f1' target='_blank'>
-              autosport.com
+            <ContentLink href='https://www.skysports.com/f1' target='_blank'>
+              skysports.com
             </ContentLink>
           </p>
         </div>

@@ -27,21 +27,6 @@ const Driver: React.FC = () => {
                     <td className='pl-6 py-4 whitespace-no-wrap border-b border-gray-200'>
                       <div className='flex items-center'>
                         <div className='text-sm leading-5 font-medium text-gray-900 mercedes'>
-                          Valtteri Bottas{' '}
-                          <span className='text'>(Mercedes)</span>
-                        </div>
-                      </div>
-                    </td>
-                    <td className='pr-6 py-4 whitespace-no-wrap border-b border-gray-200 text-right mercedes'>
-                      <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-gray-100 text'>
-                        43
-                      </span>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className='pl-6 py-4 whitespace-no-wrap border-b border-gray-200'>
-                      <div className='flex items-center'>
-                        <div className='text-sm leading-5 font-medium text-gray-900 mercedes'>
                           Lewis Hamilton{' '}
                           <span className='text'>(Mercedes)</span>
                         </div>
@@ -49,7 +34,37 @@ const Driver: React.FC = () => {
                     </td>
                     <td className='pr-6 py-4 whitespace-no-wrap border-b border-gray-200 text-right mercedes'>
                       <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-gray-100 text'>
-                        37
+                        63
+                      </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className='pl-6 py-4 whitespace-no-wrap border-b border-gray-200'>
+                      <div className='flex items-center'>
+                        <div className='text-sm leading-5 font-medium text-gray-900 mercedes'>
+                          Valtteri Bottas{' '}
+                          <span className='text'>(Mercedes)</span>
+                        </div>
+                      </div>
+                    </td>
+                    <td className='pr-6 py-4 whitespace-no-wrap border-b border-gray-200 text-right mercedes'>
+                      <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-gray-100 text'>
+                        58
+                      </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className='pl-6 py-4 whitespace-no-wrap border-b border-gray-200'>
+                      <div className='flex items-center'>
+                        <div className='text-sm leading-5 font-medium text-gray-900 redbull'>
+                          Max Verstappen{' '}
+                          <span className='text'>(Red Bull)</span>
+                        </div>
+                      </div>
+                    </td>
+                    <td className='pr-6 py-4 whitespace-no-wrap border-b border-gray-200 text-right redbull'>
+                      <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-gray-100 text'>
+                        33
                       </span>
                     </td>
                   </tr>
@@ -70,15 +85,15 @@ const Driver: React.FC = () => {
                   <tr>
                     <td className='pl-6 py-4 whitespace-no-wrap border-b border-gray-200'>
                       <div className='flex items-center'>
-                        <div className='text-sm leading-5 font-medium text-gray-900 ferrari'>
-                          Charles Leclerc{' '}
-                          <span className='text'>(Ferrari)</span>
+                        <div className='text-sm leading-5 font-medium text-gray-900 redbull'>
+                          Alexander Albon{' '}
+                          <span className='text'>(Red Bull)</span>
                         </div>
                       </div>
                     </td>
-                    <td className='pr-6 py-4 whitespace-no-wrap border-b border-gray-200 text-right ferrari'>
+                    <td className='pr-6 py-4 whitespace-no-wrap border-b border-gray-200 text-right redbull'>
                       <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-gray-100 text'>
-                        18
+                        22
                       </span>
                     </td>
                   </tr>
@@ -93,66 +108,22 @@ const Driver: React.FC = () => {
                     </td>
                     <td className='pr-6 py-4 whitespace-no-wrap border-b border-gray-200 text-right racingpoint'>
                       <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-gray-100 text'>
-                        16
+                        22
                       </span>
                     </td>
                   </tr>
                   <tr>
                     <td className='pl-6 py-4 whitespace-no-wrap border-b border-gray-200'>
                       <div className='flex items-center'>
-                        <div className='text-sm leading-5 font-medium text-gray-900 redbull'>
-                          Max Verstappen{' '}
-                          <span className='text'>(Red Bull)</span>
+                        <div className='text-sm leading-5 font-medium text-gray-900 ferrari'>
+                          Charles Leclerc{' '}
+                          <span className='text'>(Ferrari)</span>
                         </div>
                       </div>
                     </td>
-                    <td className='pr-6 py-4 whitespace-no-wrap border-b border-gray-200 text-right redbull'>
+                    <td className='pr-6 py-4 whitespace-no-wrap border-b border-gray-200 text-right ferrari'>
                       <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-gray-100 text'>
-                        15
-                      </span>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className='pl-6 py-4 whitespace-no-wrap border-b border-gray-200'>
-                      <div className='flex items-center'>
-                        <div className='text-sm leading-5 font-medium text-gray-900 mclaren'>
-                          Carlos Sainz <span className='text'>(McLaren)</span>
-                        </div>
-                      </div>
-                    </td>
-                    <td className='pr-6 py-4 whitespace-no-wrap border-b border-gray-200 text-right mclaren'>
-                      <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-gray-100 text'>
-                        13
-                      </span>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className='pl-6 py-4 whitespace-no-wrap border-b border-gray-200'>
-                      <div className='flex items-center'>
-                        <div className='text-sm leading-5 font-medium text-gray-900 redbull'>
-                          Alexander Albon{' '}
-                          <span className='text'>(Red Bull)</span>
-                        </div>
-                      </div>
-                    </td>
-                    <td className='pr-6 py-4 whitespace-no-wrap border-b border-gray-200 text-right redbull'>
-                      <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-gray-100 text'>
-                        12
-                      </span>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className='pl-6 py-4 whitespace-no-wrap border-b border-gray-200'>
-                      <div className='flex items-center'>
-                        <div className='text-sm leading-5 font-medium text-gray-900 alphatauri'>
-                          Pierre Gasly{' '}
-                          <span className='text'>(AlphaTauri )</span>
-                        </div>
-                      </div>
-                    </td>
-                    <td className='pr-6 py-4 whitespace-no-wrap border-b border-gray-200 text-right alphatauri'>
-                      <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-gray-100 text'>
-                        6
+                        18
                       </span>
                     </td>
                   </tr>
@@ -167,7 +138,38 @@ const Driver: React.FC = () => {
                     </td>
                     <td className='px-6 py-4 whitespace-no-wrap text-right racingpoint border-b border-gray-200 racingpoint'>
                       <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-gray-100 text'>
-                        6
+                        18
+                      </span>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td className='pl-6 py-4 whitespace-no-wrap border-b border-gray-200'>
+                      <div className='flex items-center'>
+                        <div className='text-sm leading-5 font-medium text-gray-900 mclaren'>
+                          Carlos Sainz <span className='text'>(McLaren)</span>
+                        </div>
+                      </div>
+                    </td>
+                    <td className='pr-6 py-4 whitespace-no-wrap border-b border-gray-200 text-right mclaren'>
+                      <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-gray-100 text'>
+                        15
+                      </span>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td className='pl-6 py-4 whitespace-no-wrap border-b border-gray-200'>
+                      <div className='flex items-center'>
+                        <div className='text-sm leading-5 font-medium text-gray-900 ferrari'>
+                          Sebastian Vettel{' '}
+                          <span className='text'>(Ferrari)</span>
+                        </div>
+                      </div>
+                    </td>
+                    <td className='pr-6 py-4 whitespace-no-wrap border-b border-gray-200 text-right ferrari'>
+                      <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-gray-100 text'>
+                        9
                       </span>
                     </td>
                   </tr>

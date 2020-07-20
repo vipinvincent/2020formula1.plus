@@ -100,21 +100,21 @@ const Schedule: React.FC = () => {
                     <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block mercedes'>
                       Lewis Hamilton (<span className='text'>Mercedes</span>){' '}
                       <br />
-                      1:35:03.796
+                      1:36:12.473
                     </div>
                   </div>
                   <div className='inine-block pb-4'>
                     <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block redbull'>
                       Max Verstappen (<span className='text'>Red Bull</span>){' '}
                       <br />
-                      +17.796s
+                      +8.702s
                     </div>
                   </div>
                   <div className='inine-block pb-4'>
-                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block ferrari'>
-                      Sebastian Vettel (<span className='text'>Ferrari</span>){' '}
+                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block mercedes'>
+                      Valtteri Bothas (<span className='text'>Mercedes</span>){' '}
                       <br />
-                      +61.433s
+                      +9.452s
                     </div>
                   </div>
                 </div>
@@ -131,24 +131,24 @@ const Schedule: React.FC = () => {
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2 self-start'>
                   <div className='inine-block pb-4'>
-                    <div className='inine-block pb-4'>
-                      <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block redbull'>
-                        Max Verstappen (<span className='text'>Red Bull</span>){' '}
-                        <br />
-                        1:14.572
-                      </div>
-                    </div>
-                    <div className='inine-block pb-4'>
-                      <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block mercedes'>
-                        Valtteri Bottas (<span className='text'>Mercedes</span>){' '}
-                        <br />
-                        1:14.590
-                      </div>
-                    </div>
                     <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block mercedes'>
                       Lewis Hamilton (<span className='text'>Mercedes</span>){' '}
                       <br />
-                      1:14.769
+                      1:13.447
+                    </div>
+                  </div>
+                  <div className='inine-block pb-4'>
+                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block mercedes'>
+                      Valtteri Bottas (<span className='text'>Mercedes</span>){' '}
+                      <br />
+                      1:13.554
+                    </div>
+                  </div>
+                  <div className='inine-block pb-4'>
+                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block racingpoint'>
+                      Lance Stroll (<span className='text'>Racing Point</span>){' '}
+                      <br />
+                      1:14.377
                     </div>
                   </div>
                 </div>

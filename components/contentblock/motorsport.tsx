@@ -15,37 +15,39 @@ const MotorSport: React.FC = () => {
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 py-4 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            Feature
+            News
           </div>
           <ActionLink
-            href='https://www.motorsport.com/f1/news/fuel-flow-engine-tricks-suspicion/4838777'
+            href='https://www.motorsport.com/f1/news/hungarian-gp-albon-grid-drying-verdict/4840600/'
             target='_blank'>
-            Formula 1 teams still suspicious of engine tricks
+            Red Bull cleared over alleged grid drying infringement
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            The FIA says the clampdown on engine tricks it applied for this
-            Formula 1 season have not completely silenced suspicions that some
-            are still flouting the rules, but it thinks only minor matters now
-            need tidying up.
+            Alexander Albon has kept his fifth-place finish in Sunday's
+            Hungarian Grand Prix after Red Bull was cleared of attempting to dry
+            his grid slot before the race.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Following concerns from Ferrari’s rivals last year that the team had
-            found a way to get around the fuel flow limits, the FIA opened an
-            investigation in to what the Italian car manufacturer had done. But
-            after being unable to prove that Ferrari had broken the regulations,
-            a secret agreement was made to draw a line under the matter and
-            avoid a damaging public court case.
+            FIA technical delegate Jo Bauer notified the race stewards at the
+            Hungaroring that Red Bull had used the leaf blowers - usually used
+            to cool the car - to dry Albon's grid slot following some rain. The
+            teams had been reminded by race director Michael Masi before the
+            race that they were not permitted to artificially dry the track by
+            any means.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            In a bid to ensure that for this year teams could not exploit the
-            rules, extra sensors were added to the cars – one for the FIA to
-            monitor fuel flow and another one to check on current. Both are
-            encrypted so teams cannot know what the readings are.
+            The stewards announced during the race they would investigate Red
+            Bull over the incident, citing a possible breach of Article 22.3 of
+            the sporting regulations. Article 22.3 of the regulations reads that
+            "other than by driving on the track, Competitors are not permitted
+            to attempt to alter the grip of any part of the track surface". The
+            stewards found the team had not actively tried to dry the grid slot
+            as accused.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.motorsport.com/f1/news/fuel-flow-engine-tricks-suspicion/4838777'
+              href='https://www.motorsport.com/f1/news/hungarian-gp-albon-grid-drying-verdict/4840600/'
               target='_blank'>
               motorsport.com
             </ContentLink>{' '}

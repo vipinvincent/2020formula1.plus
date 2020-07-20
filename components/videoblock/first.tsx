@@ -7,13 +7,13 @@ const First: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=YTix-5oS5PU'
+        href='https://www.youtube.com/watch?v=2waIgJotGoU'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/YTix-5oS5PU/maxresdefault.jpg'
+              src='https://img.youtube.com/vi/2waIgJotGoU/maxresdefault.jpg'
               alt='Hungarian Grand Prix: Preview and Predictions'
             />
           </div>
@@ -32,24 +32,18 @@ const First: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=YTix-5oS5PU'
+            href='https://www.youtube.com/watch?v=2waIgJotGoU'
             target='_blank'>
-            Hungarian Grand Prix: Race Look Ahead
+            2020 Hungarian Grand Prix: Post-Race Driver Reaction
           </ContentLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Once again, F1 treated us to a great qualifying session…but will we
-            get a race that’s just as full of excitement? In the Hungarian Grand
-            Prix race look ahead: A look at the final qualifying results, how
-            the drivers will line up tomorrow and the possible race strategies.
-            Plus, my thoughts on the session, what I’m looking out for tomorrow
-            and my one to watch.
+            Race winner Lewis Hamilton and the rest of the grid reflect on their
+            performances in Sunday's race at the Hungaroring.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink
-              href='https://www.youtube.com/user/seanculli'
-              target='_blank'>
-              The F1 Word
+            <ContentLink href='https://www.formula1.com/' target='_blank'>
+              formula1.com
             </ContentLink>
           </p>
         </div>

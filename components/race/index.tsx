@@ -134,24 +134,24 @@ const Race: React.FC = () => {
                   2
                 </td>
               </tr>
-              <tr className='odd:bg-gray-100 bg-white-100 rounded-tl-xxl rounded-br-xl-b'>
-                <td className='px-4 py-3 whitespace-no-wrap text-left table-cell rounded-tl-xxl rounded-br-xl-bl'>
+              <tr className='odd:bg-gray-100 bg-white-100'>
+                <td className='px-4 py-3 whitespace-no-wrap text-left border-b border-gray-200 table-cell'>
                   6
                 </td>
-                <td className='px-4 py-3 whitespace-no-wrap table-cell'>
+                <td className='px-4 py-3 whitespace-no-wrap border-b border-gray-200 table-cell'>
                   <div className='flex items-center'>
                     <div className='text-sm leading-5 font-medium text-gray-900 ferrari'>
                       Sebastian Vettel <span className='text'>(Ferrari)</span>
                     </div>
                   </div>
                 </td>
-                <td className='p-4 whitespace-no-wrap text-sm leading-5 font-medium text-gray-900 text-center '>
+                <td className='p-4 whitespace-no-wrap text-sm leading-5 font-medium text-gray-900 text-center border-b border-gray-200'>
                   +1 lap
                 </td>
-                <td className='p-4 whitespace-no-wrap table-cell text-center'>
+                <td className='p-4 whitespace-no-wrap table-cell text-center border-b border-gray-200'>
                   69
                 </td>
-                <td className='pr-6 whitespace-no-wrap table-cell text-right font-semibold'>
+                <td className='pr-6 whitespace-no-wrap table-cell text-right font-semibold border-b border-gray-200'>
                   2
                 </td>
               </tr>
@@ -433,24 +433,24 @@ const Race: React.FC = () => {
                   5
                 </td>
               </tr>
-              <tr className='odd:bg-gray-100 bg-white-100'>
-                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-left table-cell'>
+              <tr className='odd:bg-gray-100 bg-white-100 rounded-br-xxl'>
+                <td className='p-4 whitespace-no-wrap text-left table-cell'>
                   DNF
                 </td>
-                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell'>
+                <td className='p-4 whitespace-no-wrap table-cell'>
                   <div className='flex items-center'>
                     <div className='text-sm leading-5 font-medium text-gray-900 alphatauri'>
                       Pierre Gasly <span className='text'>(AlphaTauri)</span>
                     </div>
                   </div>
                 </td>
-                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell text-center'>
+                <td className='p-4 whitespace-no-wrap  table-cell text-center'>
                   DNF
                 </td>
-                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-sm leading-5 font-medium text-gray-900 text-center '>
+                <td className='p-4 whitespace-no-wrap  text-sm leading-5 font-medium text-gray-900 text-center '>
                   3
                 </td>
-                <td className='pr-6 whitespace-no-wrap border-b border-gray-200 table-cell text-right font-semibold'>
+                <td className='pr-6 whitespace-no-wrap table-cell text-right font-semibold rounded-br-xxl'>
                   2
                 </td>
               </tr>
