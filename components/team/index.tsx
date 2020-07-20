@@ -169,7 +169,7 @@ const Team: React.FC = () => {
           </div>
           <p className='my-2 pr-4 text-base leading-normal text-gray-700 text-right'>
             <ContentLink href='/constructor-standings' target='_self'>
-              More details...
+              More Details...
             </ContentLink>
           </p>
         </div>

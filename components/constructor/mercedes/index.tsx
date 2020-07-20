@@ -123,7 +123,7 @@ const Mercedes: React.FC = () => {
             <div className='bg-gray-100 px-4 py-4 sm:px-6 mercedes'>
               <div className='flex items-center justify-center'>
                 <div className='flex-shrink-0 bg-mercedes text-xl font-black text-white-100 rounded-tl-xxl rounded-br-xxl py-2 px-4 w-16 h-12'>
-                  55
+                  44
                 </div>
                 <div className='text-xl leading-5 text font-medium flex-0 px-4'>
                   Lewis Hamilton

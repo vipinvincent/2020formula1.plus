@@ -47,7 +47,7 @@ const Third: React.FC = () => {
             <ContentLink
               href='https://twitter.com/willearle2000'
               target='_blank'>
-              FP1 - Formula Podcast One
+              FP1
             </ContentLink>
           </p>
         </div>

@@ -44,7 +44,7 @@ const GrandPrix: React.FC = () => {
               target='_blank'>
               grandprix247.com
             </ContentLink>{' '}
-            for more details...
+            for More Details...
           </p>
         </div>
       </div>

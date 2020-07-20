@@ -50,7 +50,7 @@ const TheRace: React.FC = () => {
               target='_blank'>
               the-race.com
             </ContentLink>{' '}
-            for more details...
+            for More Details...
           </p>
         </div>
         {/* <div className='flex flex-col md:flex-row justify-start border-t border-gray-200 pb-2 md:py-3 px-4 text-sm md:text-lg text-center md:text-left'>

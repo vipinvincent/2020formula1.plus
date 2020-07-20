@@ -56,7 +56,7 @@ const Left: React.FC = () => {
               target='_blank'>
               formula1.com
             </ContentLink>{' '}
-            for more details...
+            for More Details...
           </p> */}
         </div>
         {/* <div className='flex flex-col justify-start border-t border-gray-200 mt-4 pb-2 px-2 text-sm  text-center'>

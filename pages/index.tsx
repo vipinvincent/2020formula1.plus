@@ -19,7 +19,7 @@ const IndexPage = () => (
         <div className='flex flex-row'>
           <div className='flex flex-col lg:w-8/12 xl:w-9/12'>
             {/* <Qualifying /> */}
-            <Race />
+            {/* <Race /> */}
             <Main />
             <VideosPodcasts />
           </div>

@@ -49,7 +49,7 @@ const ESPN: React.FC = () => {
               target='_blank'>
               espn.com
             </ContentLink>{' '}
-            for more details...
+            for More Details...
           </p>
         </div>
       </div>

@@ -179,7 +179,7 @@ const Driver: React.FC = () => {
           </div>
           <p className='my-2 pr-4 text-base leading-normal text-gray-700 text-right'>
             <ContentLink href='/driver-standings' target='_self'>
-              View complete list
+              More Details...
             </ContentLink>
           </p>
         </div>

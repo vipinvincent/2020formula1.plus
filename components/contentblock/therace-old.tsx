@@ -58,7 +58,7 @@ const TheRace: React.FC = () => {
               target='_blank'>
               the-race.com
             </ContentLink>{' '}
-            for more details...
+            for More Details...
           </p>
         </div>
       </div>

@@ -246,7 +246,7 @@ const Race: React.FC = () => {
           </table>
           <p className='my-2 pr-4 text-base leading-normal text-gray-700 text-right'>
             <ContentLink href='/race-results' target='_self'>
-              View Full Race Results...
+              View Race Results...
             </ContentLink>
           </p>
         </div>
