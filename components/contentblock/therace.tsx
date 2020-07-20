@@ -18,35 +18,36 @@ const TheRace: React.FC = () => {
             News
           </div>
           <ActionLink
-            href='https://the-race.com/formula-1/is-red-bull-making-albon-look-like-an-idiot/'
+            href='https://the-race.com/formula-1/bottass-jump-start-escape-exposes-tolerance-issue-again/'
             target='_blank'>
-            Haas cars penalised for formation lap pit instructions
+            Bottas’s ‘jump start’ escape exposes tolerance issue again
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Both Haas drivers have been given a 10-second time penalty for using
-            radio transmissions during the Hungarian Grand Prix formation lap
-            against the rules concerning driver aids, relegating Kevin Magnussen
-            from ninth to 10th place.
+            Valtteri Bottas escaped a penalty in the Hungarian Grand Prix
+            despite moving before the start because tolerances exist within
+            Formula 1’s jump start system that create a concerning grey area.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Magnussen’s penalty drops him behind McLaren’s Carlos Sainz Jr,
-            while Romain Grosjean drops to 16th place behind Alfa Romeo driver
-            Kimi Raikkonen. The FIA stewards, which this weekend include former
-            grand prix driver Derek Warwick, summoned the Haas team for
-            potential breaches of Article 27.1 – a rule that states “the driver
-            must drive the car alone and unaided”.
+            Bottas explained after the race that in the crucial moments before
+            the start lights changed, he was confused by lights going out on his
+            steering wheel and consequently momentarily released the clutch on
+            his Mercedes.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            They subsequently ruled that Haas used radio transmissions aiding
-            the driver during the formation lap by ordering both drivers to pit.
-            This is considered illegal communication that aids the driver under
-            the provisions of a technical directive issued in 2017 that
-            restricts team-to-driver messages on the formation lap.
+            However, like Sebastian Vettel in the 2019 Japanese Grand Prix,
+            Bottas was deemed to have not jumped the start because the movement
+            prior to the signal was acceptable based on what the car’s
+            transponder registered.
+          </p>
+          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+            “The means by which a false start is determined is clearly detailed
+            in the sporting regulations and has been the same process for a
+            number of years,” said FIA race director Michael Masi.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://the-race.com/formula-1/is-red-bull-making-albon-look-like-an-idiot/'
+              href='https://the-race.com/formula-1/bottass-jump-start-escape-exposes-tolerance-issue-again/'
               target='_blank'>
               the-race.com
             </ContentLink>{' '}

@@ -18,36 +18,35 @@ const MotorSport: React.FC = () => {
             News
           </div>
           <ActionLink
-            href='https://www.motorsport.com/f1/news/hungarian-gp-albon-grid-drying-verdict/4840600/'
+            href='https://www.motorsport.com/f1/news/brawn-racing-point-protest-renault/4840956/'
             target='_blank'>
-            Red Bull cleared over alleged grid drying infringement
+            Brawn: Racing Point F1 protest "tricky problem" to resolve
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Alexander Albon has kept his fifth-place finish in Sunday's
-            Hungarian Grand Prix after Red Bull was cleared of attempting to dry
-            his grid slot before the race.
+            Formula 1 managing director of motorsport Ross Brawn believes the
+            current protest against Racing Point will be a “tricky problem” for
+            the FIA to resolve.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            FIA technical delegate Jo Bauer notified the race stewards at the
-            Hungaroring that Red Bull had used the leaf blowers - usually used
-            to cool the car - to dry Albon's grid slot following some rain. The
-            teams had been reminded by race director Michael Masi before the
-            race that they were not permitted to artificially dry the track by
-            any means.
+            Racing Point is currently facing scrutiny over the legality over its
+            RP20 car following protests by Renault at each of the last two
+            races. Racing Point has openly admitted it based the design of its
+            car on the 2019 Mercedes W10 by using photographs, but stresses it
+            remains within the regulations.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            The stewards announced during the race they would investigate Red
-            Bull over the incident, citing a possible breach of Article 22.3 of
-            the sporting regulations. Article 22.3 of the regulations reads that
-            "other than by driving on the track, Competitors are not permitted
-            to attempt to alter the grip of any part of the track surface". The
-            stewards found the team had not actively tried to dry the grid slot
-            as accused.
+            Writing in his post-race column, Brawn explained how copying other
+            teams was “standard” in F1, having previously done so himself in his
+            time as a team technical chief. “My view is copying in Formula 1 is
+            standard,” Brawn said. “Every team has, in normal times, digital
+            photographers in the pit lane out there taking thousands of photos
+            of every car for analysis, with a view of copying the best ideas. We
+            used to give our photographers a shopping list.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.motorsport.com/f1/news/hungarian-gp-albon-grid-drying-verdict/4840600/'
+              href='https://www.motorsport.com/f1/news/brawn-racing-point-protest-renault/4840956/'
               target='_blank'>
               motorsport.com
             </ContentLink>{' '}

@@ -229,12 +229,12 @@ const Qualifying: React.FC = () => {
               </tr>
             </tbody>
           </table>
-          <p className='my-2 pr-4 text-base leading-normal text-gray-700 text-right'>
-            <ContentLink href='/qualifying-results' target='_self'>
-              View Full Qualifying Results...
-            </ContentLink>
-          </p>
         </div>
+        <p className='my-2 pr-4 text-base leading-normal text-gray-700 text-right'>
+          <ContentLink href='/qualifying-results' target='_self'>
+            View Full Qualifying Results...
+          </ContentLink>
+        </p>
       </div>
     </div>
   )
