@@ -18,35 +18,40 @@ const MotorSport: React.FC = () => {
             News
           </div>
           <ActionLink
-            href='https://www.motorsport.com/f1/news/brawn-racing-point-protest-renault/4840956/'
+            href='https://www.motorsport.com/f1/news/racing-point-copying-pink-mercedes/4841294/'
             target='_blank'>
-            Brawn: Racing Point F1 protest "tricky problem" to resolve
+            Racing Point: F1 rivals missed a trick in not copying Mercedes
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Formula 1 managing director of motorsport Ross Brawn believes the
-            current protest against Racing Point will be a “tricky problem” for
-            the FIA to resolve.
+            Racing Point team boss Otmar Szafnauer thinks other Formula 1 teams
+            made a mistake in not adopting its philosophy of copying the best
+            car on the grid.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Racing Point is currently facing scrutiny over the legality over its
-            RP20 car following protests by Renault at each of the last two
-            races. Racing Point has openly admitted it based the design of its
-            car on the 2019 Mercedes W10 by using photographs, but stresses it
-            remains within the regulations.
+            The Silverstone-based team has caused a stir over the opening three
+            races of the campaign, with Sergio Perez and Lance Stroll having
+            shown some impressive speed in the RP20 design that has been
+            inspired by last year’s Mercedes.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Writing in his post-race column, Brawn explained how copying other
-            teams was “standard” in F1, having previously done so himself in his
-            time as a team technical chief. “My view is copying in Formula 1 is
-            standard,” Brawn said. “Every team has, in normal times, digital
-            photographers in the pit lane out there taking thousands of photos
-            of every car for analysis, with a view of copying the best ideas. We
-            used to give our photographers a shopping list.
+            But while its car has been protested by Renault, which believes that
+            its brake ducts breach F1 rules that demands teams design certain
+            parts themselves, Racing Point remains defiant about what it has
+            done. And Szafnauer thinks that rather than his team be criticised
+            for its approach – which some have argued goes against the DNA of F1
+            – he believes it should be applauded.
+          </p>
+          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+            Asked if he felt it was other teams who had got their design
+            philosophy wrong, he said: “The answer is yes. However, it doesn't
+            come without risk. “We didn't know that what we were doing was going
+            to work to the level that it has. There was a big risk that we were
+            going to take a step backwards.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.motorsport.com/f1/news/brawn-racing-point-protest-renault/4840956/'
+              href='https://www.motorsport.com/f1/news/racing-point-copying-pink-mercedes/4841294/'
               target='_blank'>
               motorsport.com
             </ContentLink>{' '}

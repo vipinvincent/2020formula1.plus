@@ -7,13 +7,13 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=nAU5kQHJ8Go'
+        href='https://www.youtube.com/watch?v=l4E90U1XSto'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-40 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/nAU5kQHJ8Go/maxresdefault.jpg'
+              src='https://img.youtube.com/vi/l4E90U1XSto/maxresdefault.jpg'
               alt='Building the Greatest F1 Team | Episode 1: Race Engineer'
             />
           </div>
@@ -32,23 +32,21 @@ const Second: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=nAU5kQHJ8Go'
+            href='https://www.youtube.com/watch?v=l4E90U1XSto'
             target='_blank'>
-            How to Master the Hungaroring!! | Nico Rosberg
+            2020 Hungarian GP Race Review | WTF1 Podcast
           </ContentLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            My next F1 Fridays episode! After a lot of exciting Formula 1 action
-            during the double header in Austria the 2020 Hungarian Grand Prix is
-            next! Check out my in-depth analysis of the Hungaroring sharing the
-            F1 drivers’ secrets on how to master the track. Of course, followed
-            by a hot lap and my F1 Fan Q&A – answering your questions about the
-            Hungarian GP.
+            The 2020 F1 Hungarian Grand Prix provided us with action both before
+            and after the race! Join Matt & Tommy as they discuss Verstappen's
+            pre-race crash, why Bottas didn't get a penalty and how our
+            expectations for the race turned out to be a little too high.
           </p>
 
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='http://www.nicorosberg.com/' target='_blank'>
-              http://www.nicorosberg.com/
+            <ContentLink href='https://wtf1.com/' target='_blank'>
+              wtf1.com
             </ContentLink>
           </p>
         </div>

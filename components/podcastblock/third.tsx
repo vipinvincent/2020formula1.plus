@@ -7,14 +7,14 @@ const Third: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=eTNOb9Xwklc'
+        href='https://www.youtube.com/watch?v=PBQ3mY77I64'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-40 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/eTNOb9Xwklc/maxresdefault.jpg'
-              alt=' Vettel & Leclerc Crash Analysis: Onboard Ferrari’s Styrian Double DNF'
+              src='https://img.youtube.com/vi/PBQ3mY77I64/maxresdefault.jpg'
+              alt='FP1 Post Podium Podcast Episode 3: Hungarian Grand Prix | ft. The TF1 Show'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,15 +32,17 @@ const Third: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=eTNOb9Xwklc'
+            href='https://www.youtube.com/watch?v=PBQ3mY77I64'
             target='_blank'>
-            F1 2020 Hungarian GP Review
+            FP1 Post Podium Podcast Episode 3: Hungarian Grand Prix | ft. The
+            TF1 Show
           </ContentLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            After that great rain affected Hungarian Grand Prix I thought I'd
-            sit down and record my initial reactions to the race! Let me know
-            what you thought on it down in the comments below and tell me your
-            predictions for round 4 in Silverstone!
+            It's that time of the week again! The Post Podium Podcast is back
+            after Round 3 of the 2020 Formula 1 season in Hungary. Today joining
+            me is Tinus frm The TF1 Show and I'll be honest, I don't think I've
+            laughed so hard making one of these yet! Was a lot of fun and Tinus
+            is such an underrated creator so check him out in the links below!
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}

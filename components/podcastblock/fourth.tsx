@@ -7,14 +7,14 @@ const Fourth: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=kW9plaiCCfY'
+        href='https://www.youtube.com/watch?v=lljXk1u6uhE'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-40 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/kW9plaiCCfY/maxresdefault.jpg'
-              alt='Should Sainz Be Regretting His Ferrari Move? | Is It Just Me? Podcast'
+              src='https://img.youtube.com/vi/lljXk1u6uhE/maxresdefault.jpg'
+              alt='2020 F1 Hungarian GP Podcast - Unbiased F1 Podcast'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,21 +32,24 @@ const Fourth: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=kW9plaiCCfY'
+            href='https://www.youtube.com/watch?v=lljXk1u6uhE'
             target='_blank'>
-            Should Sainz Be Regretting His Ferrari Move? | Is It Just Me?
-            Podcast
+            2020 F1 Hungarian GP Podcast - Unbiased F1 Podcast
           </ContentLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            2020 isn't looking like a competitive season for Ferrari, and with
-            McLaren looking strong after the first two rounds, should Sainz be
-            regretting his move to the Scuderia? Or is he playing a long game
-            that (hopefully) pays off? Jess and Luke discuss *your* takes.
+            We're back! Tune in as we discuss all the talking points from a busy
+            weekend in Budapest! Don't forget to like subscribe, and comment if
+            we missed anything (sorry Lando!). The Unbiased Formula 1 Podcast is
+            a podcast channel summarising all the big talking points from the
+            latest #F1 race - with in depth reaction and discussion into what
+            happened, both on and off track. Subscribe for more
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='https://www.autosport.com/' target='_blank'>
-              Autosport
+            <ContentLink
+              href='https://www.youtube.com/channel/UCiMPcmFo6sMsZOWvlLCz0YQ'
+              target='_blank'>
+              Unbiased Formula 1 Podcast
             </ContentLink>
           </p>
         </div>

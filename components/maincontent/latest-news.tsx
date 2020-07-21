@@ -1,11 +1,12 @@
 import React from 'react'
 
-import F1 from 'components/contentblock/f1'
+// import F1 from 'components/contentblock/f1'
 // import BBC from 'components/contentblock/bbc'
 import MotorSport from 'components/contentblock/motorsport'
 // import SkySports from 'components/contentblock/skysports'
 import TheRace from 'components/contentblock/therace'
 // import PlanetF1 from 'components/contentblock/planetf1'
+import ESPN from 'components/contentblock/espn'
 
 import FirstContent from 'components/contentblock/main'
 import SecondContent from 'components/contentblock/left'
@@ -41,7 +42,7 @@ const Main: React.FC = () => {
           </div>
         </div>
         <div className='w-100 mt-4'>
-          <F1 />
+          <ESPN />
         </div>
       </div>
     </div>

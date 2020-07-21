@@ -15,37 +15,41 @@ const ESPN: React.FC = () => {
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 py-4 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            espn.com
+            News
           </div>
           <ActionLink
-            href='https://www.espn.in/f1/story/_/id/29455171/where-does-ferrari-go-here'
+            href='https://www.espn.in/f1/story/_/id/29507518/red-bull-sees-albon-getting-stronger-stronger'
             target='_blank'>
-            Where does Ferrari go from here?
+            Red Bull sees Albon getting stronger and stronger
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            After the first two races of the 2020 Formula One world
-            championship, Ferrari sits fifth in the constructors' championship.
+            Red Bull see plenty of untapped potential in Alex Albon and are
+            happy with the British-born Thai driver, according to team boss
+            Christian Horner.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            If anything that flatters the team's performance at the opening two
-            rounds and it would not be a stretch to rank it as the sixth best
-            team behind Renault as well as Racing Point, Red Bull, McLaren and
-            Mercedes.For a team that has finished second for the last three
-            years and won the 16 titles in its glorious history, it is a massive
-            fall from grace.
+            Williams driver George Russell defended his friend and rival at the
+            weekend's Hungarian Grand Prix, saying he was "being made to look
+            like an idiot and he's absolutely not" after Albon qualified 13th.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            The collision between the two Ferrari drivers on Sunday was
-            unfortunate, but really only represents the tip of the iceberg.
-            After qualifying 10th and 14th on the grid, Sebastian Vettel and
-            Charles Leclerc were in unfamiliar territory in the messy lower
-            midfield battle where accidents invariably happen, and took each
-            other out.
+            The Thai, a Formula One rookie last year alongside established race
+            winner Max Verstappen, ultimately put in a strong performance to
+            finish fifth while his Dutch team mate was second. "I'm very pleased
+            with Alex. He's picked up a bit of criticism which has been very
+            harsh on him," Horner told Sky Sports television.
+          </p>
+          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+            "We made a mistake in the timing (in qualifying), we put too much
+            pressure on him. We have to take responsibility to that. "He's done
+            the passing manoeuvres when he needed to, he's responded very well.
+            I really believe that Alex has got a lot more potential that we just
+            haven't uncovered yet."
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.espn.in/f1/story/_/id/29455171/where-does-ferrari-go-here'
+              href='https://www.espn.in/f1/story/_/id/29507518/red-bull-sees-albon-getting-stronger-stronger'
               target='_blank'>
               espn.com
             </ContentLink>{' '}

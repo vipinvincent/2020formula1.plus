@@ -7,14 +7,14 @@ const First: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=2waIgJotGoU'
+        href='https://www.youtube.com/watch?v=EvnZFffPOGY'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/2waIgJotGoU/maxresdefault.jpg'
-              alt='Hungarian Grand Prix: Preview and Predictions'
+              src='https://img.youtube.com/vi/EvnZFffPOGY/maxresdefault.jpg'
+              alt='How Ferraris F1 engine tricks created an even more dominant Mercedes'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,18 +32,28 @@ const First: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=2waIgJotGoU'
+            href='https://www.youtube.com/watch?v=EvnZFffPOGY'
             target='_blank'>
-            2020 Hungarian Grand Prix: Post-Race Driver Reaction
+            How Ferrari's F1 engine tricks created an even more dominant
+            Mercedes
           </ContentLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Race winner Lewis Hamilton and the rest of the grid reflect on their
-            performances in Sunday's race at the Hungaroring.
+            Ferrari's dip in form in the 2020 F1 season has been made worse -
+            for the Prancing Horse and everyone else - by the fact Mercedes
+            appears stronger than ever this year. And a big part of that is down
+            to the huge effort the reigning champion team put in for 2020 in
+            response to Ferrari's resurgent form in the second half of 2019. Not
+            only did Ferrari seemingly lose that advantage with clarifications
+            from the FIA about engine loopholes, but it lit a fire in Mercedes
+            that pushed the best team on the grid to achieve an even higher
+            standard for 2020.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='https://www.formula1.com/' target='_blank'>
-              formula1.com
+            <ContentLink
+              href='https://the-race.com/formula-1/video-how-ferraris-engine-tricks-helped-mercedes/'
+              target='_blank'>
+              the-race.com
             </ContentLink>
           </p>
         </div>

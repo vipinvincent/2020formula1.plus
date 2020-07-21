@@ -13,41 +13,48 @@ const TheRace: React.FC = () => {
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
-        <div className='px-4 pt-4 pb-10 text-left'>
+        <div className='px-4 pt-4 pb-5 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
             News
           </div>
           <ActionLink
-            href='https://the-race.com/formula-1/bottass-jump-start-escape-exposes-tolerance-issue-again/'
+            href='https://the-race.com/formula-1/mclarens-race-wrecking-opening-laps-explained/'
             target='_blank'>
-            Bottas’s ‘jump start’ escape exposes tolerance issue again
+            McLaren’s race-wrecking opening laps explained
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Valtteri Bottas escaped a penalty in the Hungarian Grand Prix
-            despite moving before the start because tolerances exist within
-            Formula 1’s jump start system that create a concerning grey area.
+            McLaren’s Hungarian Grand Prix prospects were “pretty much over”
+            after a nightmare few laps that included Lando Norris “letting down
+            the team” with “probably the worst start in my life”. Strong
+            results, aided by opportunism, in the first two rounds of the 2020
+            Formula 1 season at the Red Bull Ring meant McLaren was second in
+            the constructors’ championship heading to Hungary.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Bottas explained after the race that in the crucial moments before
-            the start lights changed, he was confused by lights going out on his
-            steering wheel and consequently momentarily released the clutch on
-            his Mercedes.
+            It expected to struggle more on a high-downforce track but was “very
+            encouraged” to get both cars into Q3 again, only for its race to
+            fall apart in a matter of laps. Norris lost track position in the
+            opening seconds of the race with a launch that was decent initially
+            but on the damp circuit that transitioned to aggressive wheelspin in
+            the second phase.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            However, like Sebastian Vettel in the 2019 Japanese Grand Prix,
-            Bottas was deemed to have not jumped the start because the movement
-            prior to the signal was acceptable based on what the car’s
-            transponder registered.
+            The hero of third and fifth place finishes in Austria fell from
+            eighth to 13th by Turn 1, then lost another place on the exit of the
+            corner. That consigned him to a race in the midfield at the
+            notoriously difficult to overtake Hungaroring. “Maybe the pitstops
+            weren’t amazing, but they didn’t cost me anything,” said Norris to
+            Sky Sports F1 post-race.
           </p>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            “The means by which a false start is determined is clearly detailed
-            in the sporting regulations and has been the same process for a
-            number of years,” said FIA race director Michael Masi.
-          </p>
+          {/* <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+            “I think I was the one who let down the team in terms of probably getting the worst start I’ve ever got in my life.
+
+            “I just wanted to go forward, and when you try and go forward in the wet you go backward, so it’s just as simple as that. I got a bit eager.
+          </p> */}
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://the-race.com/formula-1/bottass-jump-start-escape-exposes-tolerance-issue-again/'
+              href='https://the-race.com/formula-1/mclarens-race-wrecking-opening-laps-explained/'
               target='_blank'>
               the-race.com
             </ContentLink>{' '}

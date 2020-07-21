@@ -7,14 +7,14 @@ const Third: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=45oItAzElck'
+        href='https://www.youtube.com/watch?v=KuGMVotFSvY'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/45oItAzElck/maxresdefault.jpg'
-              alt='The flaw Red Bull needs to fix to fight Mercedes in F1 2020'
+              src='https://img.youtube.com/vi/KuGMVotFSvY/maxresdefault.jpg'
+              alt='Why Bottas Didnt Get A Jump Start PenaltyThe flaw Red Bull needs to fix to fight Mercedes in F1 2020'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,13 +32,16 @@ const Third: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=45oItAzElck'
+            href='https://www.youtube.com/watch?v=KuGMVotFSvY'
             target='_blank'>
-            The Internet's Best Reactions To The 2020 Hungarian Grand Prix
+            Why Bottas Didn't Get A Jump Start Penalty
           </ContentLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            This week Matt takes a look at the best comments and reactions from
-            the 2020 F1 Hungarian GP race at the Hungaroring.
+            At the start of the 2020 F1 Hungarian Grand Prix, Valtteri Bottas
+            appeared to jump the race start. However, no penalty was given to
+            the Mercedes driver. Here’s a look at the FIA’s explanation about
+            why they didn’t take any action. Plus, the outcome of the Alex Albon
+            investigation and why the Haas drivers were given their penalties.
           </p>
 
           <p className='mt-1 text-base leading-normal text-gray-700'>
