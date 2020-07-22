@@ -1,79 +1,341 @@
 import React from 'react'
 import H1 from 'components/heading/H1'
 // import ActionLink from 'components/link/ActionLink'
+import { Line } from 'react-chartjs-2'
+
+const data = {
+  labels: ['Austria', 'Styria', 'Hungary'],
+  datasets: [
+    {
+      label: ' Mercedes',
+      fill: false,
+      lineTension: 0.1,
+      backgroundColor: 'white',
+      borderColor: '#00d2be',
+      borderCapStyle: 'round',
+      borderDash: [1],
+      borderDashOffset: 0.0,
+      borderJoinStyle: 'round',
+      pointBorderColor: '#00d2be',
+      pointBackgroundColor: '#00d2be',
+      pointBorderWidth: 1,
+      pointHoverRadius: 5,
+      pointHoverBackgroundColor: '#00d2be',
+      pointHoverBorderColor: '#00d2be',
+      pointHoverBorderWidth: 2,
+      pointRadius: 3,
+      pointHitRadius: 10,
+      data: [37, 80, 121],
+    },
+    {
+      label: '  Red Bull',
+      fill: false,
+      lineTension: 0.1,
+      backgroundColor: 'white',
+      borderColor: '#0600ef',
+      borderCapStyle: 'round',
+      borderDash: [1],
+      borderDashOffset: 0.0,
+      borderJoinStyle: 'round',
+      pointBorderColor: '#0600ef',
+      pointBackgroundColor: '#0600ef',
+      pointBorderWidth: 1,
+      pointHoverRadius: 5,
+      pointHoverBackgroundColor: '#0600ef',
+      pointHoverBorderColor: '#0600ef',
+      pointHoverBorderWidth: 2,
+      pointRadius: 3,
+      pointHitRadius: 10,
+      data: [0, 37, 55],
+    },
+    {
+      label: ' McLaren',
+      fill: false,
+      lineTension: 0.1,
+      backgroundColor: 'white',
+      borderColor: '#ff8700',
+      borderCapStyle: 'round',
+      borderDash: [1],
+      borderDashOffset: 0.0,
+      borderJoinStyle: 'round',
+      pointBorderColor: '#ff8700',
+      pointBackgroundColor: '#ff8700',
+      pointBorderWidth: 1,
+      pointHoverRadius: 5,
+      pointHoverBackgroundColor: '#ff8700',
+      pointHoverBorderColor: '#ff8700',
+      pointHoverBorderWidth: 2,
+      pointRadius: 3,
+      pointHitRadius: 10,
+      data: [26, 39, 41],
+    },
+    {
+      label: ' Racing Point',
+      fill: false,
+      lineTension: 0.1,
+      backgroundColor: 'white',
+      borderColor: '#f596c8',
+      borderCapStyle: 'round',
+      borderDash: [1],
+      borderDashOffset: 0.0,
+      borderJoinStyle: 'round',
+      pointBorderColor: '#f596c8',
+      pointBackgroundColor: '#f596c8',
+      pointBorderWidth: 1,
+      pointHoverRadius: 5,
+      pointHoverBackgroundColor: '#f596c8',
+      pointHoverBorderColor: '#f596c8',
+      pointHoverBorderWidth: 2,
+      pointRadius: 3,
+      pointHitRadius: 10,
+      data: [8, 22, 40],
+    },
+    {
+      label: ' Ferrari',
+      fill: false,
+      lineTension: 0.1,
+      backgroundColor: 'white',
+      borderColor: '#dc0000',
+      borderCapStyle: 'round',
+      borderDash: [1],
+      borderDashOffset: 0.0,
+      borderJoinStyle: 'round',
+      pointBorderColor: '#dc0000',
+      pointBackgroundColor: '#dc0000',
+      pointBorderWidth: 1,
+      pointHoverRadius: 5,
+      pointHoverBackgroundColor: '#dc0000',
+      pointHoverBorderColor: '#dc0000',
+      pointHoverBorderWidth: 2,
+      pointRadius: 3,
+      pointHitRadius: 10,
+      data: [19, 19, 27],
+    },
+    {
+      label: ' Renault',
+      fill: false,
+      lineTension: 0.1,
+      backgroundColor: 'white',
+      borderColor: '#fff500',
+      borderCapStyle: 'round',
+      borderDash: [1],
+      borderDashOffset: 0.0,
+      borderJoinStyle: 'round',
+      pointBorderColor: '#fff500',
+      pointBackgroundColor: '#fff500',
+      pointBorderWidth: 1,
+      pointHoverRadius: 5,
+      pointHoverBackgroundColor: '#fff500',
+      pointHoverBorderColor: '#fff500',
+      pointHoverBorderWidth: 2,
+      pointRadius: 3,
+      pointHitRadius: 10,
+      data: [4, 8, 12],
+    },
+    {
+      label: ' AlphaTauri',
+      fill: false,
+      lineTension: 0.1,
+      backgroundColor: 'white',
+      borderColor: '#0a2840',
+      borderCapStyle: 'round',
+      borderDash: [1],
+      borderDashOffset: 0.0,
+      borderJoinStyle: 'round',
+      pointBorderColor: '#0a2840',
+      pointBackgroundColor: '#0a2840',
+      pointBorderWidth: 1,
+      pointHoverRadius: 5,
+      pointHoverBackgroundColor: '#0a2840',
+      pointHoverBorderColor: '#0a2840',
+      pointHoverBorderWidth: 2,
+      pointRadius: 3,
+      pointHitRadius: 10,
+      data: [6, 7, 7],
+    },
+    {
+      label: ' Alfa Romeo',
+      fill: false,
+      lineTension: 0.1,
+      backgroundColor: 'white',
+      borderColor: '#960000',
+      borderCapStyle: 'round',
+      borderDash: [1],
+      borderDashOffset: 0.0,
+      borderJoinStyle: 'round',
+      pointBorderColor: '#960000',
+      pointBackgroundColor: '#960000',
+      pointBorderWidth: 1,
+      pointHoverRadius: 5,
+      pointHoverBackgroundColor: '#960000',
+      pointHoverBorderColor: '#960000',
+      pointHoverBorderWidth: 2,
+      pointRadius: 3,
+      pointHitRadius: 10,
+      data: [2, 2, 2],
+    },
+    {
+      label: ' Haas',
+      fill: false,
+      lineTension: 0.1,
+      backgroundColor: 'white',
+      borderColor: '#787878',
+      borderCapStyle: 'round',
+      borderDash: [1],
+      borderDashOffset: 0.0,
+      borderJoinStyle: 'round',
+      pointBorderColor: '#787878',
+      pointBackgroundColor: '#787878',
+      pointBorderWidth: 1,
+      pointHoverRadius: 5,
+      pointHoverBackgroundColor: '#787878',
+      pointHoverBorderColor: '#787878',
+      pointHoverBorderWidth: 2,
+      pointRadius: 3,
+      pointHitRadius: 10,
+      data: [0, 0, 1],
+    },
+    {
+      label: ' Williams',
+      fill: false,
+      lineTension: 0.1,
+      backgroundColor: 'white',
+      borderColor: '#0082fa',
+      borderCapStyle: 'round',
+      borderDash: [1],
+      borderDashOffset: 0.0,
+      borderJoinStyle: 'round',
+      pointBorderColor: '#0082fa',
+      pointBackgroundColor: '#0082fa',
+      pointBorderWidth: 1,
+      pointHoverRadius: 5,
+      pointHoverBackgroundColor: '#0082fa',
+      pointHoverBorderColor: '#0082fa',
+      pointHoverBorderWidth: 2,
+      pointRadius: 3,
+      pointHitRadius: 10,
+      data: [0, 0, 0],
+    },
+  ],
+}
 
 const Main: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
-      <div className='h-48 md:h-64 xl:h-84 w-full'>
+      {/* <div className='h-48 md:h-64 xl:h-84 w-full'>
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
           src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1595179123/contentImages/content/hamilton_zjzo65.jpg'
           alt='Bottas leads  thetime sheet with Hamilton and Perez second and third in the final practice session in Hungary'
         />
+      </div> */}
+      <div className='hidden md:flex flex-col mx-4 pt-4'>
+        <div className='pb-4'>
+          <Line data={data} />
+        </div>
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-2 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            Race - Hungarian Grand Prix 2020
+            Feature
           </div>
-          <H1>
-            Hamilton clinches his 'EIGHTH' Hungarian Grand Prix win, with
-            Verstappen in second and Bothas in third
-          </H1>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Mercedes’ Lewis Hamilton wins eighth Hungarian Grand Prix victory
-            and he is now tied with Michael Schumacher’s record for most number
-            of wins at a single venue. Starting from pole, Hamilton quickly
-            build a comfortable lead in the early laps. He miraculously managed
-            the medium tyres and his pace over his rivals in the race at the
-            Hungaroring. At the chequered flag he was having a comfortable 8.7s
-            lead to Verstappen and sealed his hat-trick win at Hungaroring.
+          <H1>A quick look back to the performance of teams after 3 races.</H1>
+          <p className='mt-1 mb-1 text-base leading-normal text-gray-700 mercedes'>
+            <strong className='italic text'>Mercedes:- </strong> Mercedes had a
+            outstanding first three races with race wins in all three races,
+            including a 1-2 finish at Styrian GP. Lewis Hamilton had 2 wins one
+            fourth place{' '}
+            <span className='italic'>
+              (demoted from second to fourth place after a penalty)
+            </span>{' '}
+            finishes and Valtteri Bottas has 1 win and second and third finishes
+            in last two races. Even though team had a good car, it was not free
+            from problems. Car performance was affected with frets on the
+            Mercedes pit wall about disturbing the sensors on the cars’
+            gearboxes, which was sorted eventually. Currently Merecedes
+            unbeatable with strong qualifying and racing performances. The team
+            is miles ahead of the other competitors and future looks optimistic
+            for the silver arrows.
           </p>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Verstappen had an embarrassing crash into the Turn 12 wall on his
-            lap to the grid that required some urgent repairs. But an
-            extraordinary effort by his crew, completed the full repair in time
-            made Max feel the car as 'Brand New'. ‘Second feels like a win’ says
-            Verstappen at post race as he had to recover from the crash and the
-            Dutchman had to hold off the vicious attack by third place Valtteri
-            Bottas in the final stages of the race.
+          <p className='mt-1 mb-1 text-base leading-normal text-gray-700 redbull'>
+            <strong className='italic text'>Red Bull:- </strong> Red bull had
+            disastrous start to the season with zero points in the Austrian GP.
+            It was a nightmare race for Max Verstappen who experienced a loss of
+            power after just 11 laps While his team mate Albon appeared to
+            suffer a similar problem just two laps from the end. The Thai driver
+            then looked pacey in the beginning but spun into the gravel after a
+            contact with Hamilton costing a shot at a podium. But Red Bull
+            fought back in with a P3 and P4 finish in Styrian GP and P2 and P5
+            finish in Hungarian GP. Red Bull continues to struggle with the
+            "Anomalies" causing 2020 F1 car to "misbehave" which causes drivers
+            to get a grip of their car’s tricky characteristics. Red Bull is
+            optimistic with great deal of work is going into understanding the
+            issues and addressing that for the future races.
           </p>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Racing Point’s Lance Stroll couldn’t convert his P3 grid position
-            into the team’s first podium of the year as he came home a distant
-            fourth. His teammate Perez also coudn't keep the second row start,
-            but only able to finish at 7th after a poor start. The rejuvenated
-            Red Bull’s Alex Albon late pass on the Ferrari of Sebastian Vettel
-            gave Albon P5, who started who started 13th. although Red Bull were
-            summoned to the stewards after the race for allegedly drying Albon’s
-            grid spot ahead of the race start. Vettel finished at P6 and hold
-            off the second Racing Point of Sergio Perez in the final laps of the
-            race.
+          <p className='mt-1 mb-1 text-base leading-normal text-gray-700 mclaren'>
+            <strong className='italic text'>McLaren:- </strong> McLaren had
+            mixed results in the first three races with a strong race in
+            Austrian GP and a decent race in Styrian GP but a disappointing race
+            in Hungry. McLaren scored a podium with a P3 finish for Lando Norris
+            in Austrian GP, handing the driver his first podium. Both drivers
+            seem to have similar phenomenon like their cars with good and bad
+            performances in the first three races. Even though the McLaren is
+            doing much better than the engine supplier team, Renault, they need
+            to peak up their performance to keep up with the top teams.
           </p>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Renault's Daniel Ricciardo had an impressive P8 with a remarkable
-            tyre managed race. An inspired strategy from Haas helped Kevin
-            Magnussen take the team’s first points of the year, with Magnussen
-            and Romain Grosjean pitting for slicks at the end of the formation
-            lap as their rivals started on intermediates on the drying track.
-            Kevin finished P9 and Grosjean P15. Best of the McLarens was Carlos
-            Sainz who finished P10, thanks to a late-race pass on the Ferrari's
-            Charles Leclerc, who ended up 11th. His teammate Lando Norris, only
-            could manage P13.
+          <p className='mt-1 mb-1 text-base leading-normal text-gray-700 racingpoint'>
+            <strong className='italic text'>Racing Point:- </strong> Racing
+            Point had its the best season since their emergence in F1. Racing
+            point is currently poised at fourth in the constructor’s standings.
+            But this glory is currently under scrutiny, after Reanult’s
+            complaint against the team for infringements of rules and
+            regulations while adopting the car design. Racing Point already
+            admitted that they have “copied” last year’s championship winning
+            car of Mercedes, but made sure that the design is with the
+            confinement of rules. Keeping the allegations aside, Racing point
+            has evolved to become one of the top teams from the ‘best of the
+            rest’ which makes the season more interesting.
+          </p>{' '}
+          <p className='mt-1 mb-1 text-base leading-normal text-gray-700 ferrari'>
+            <strong className='italic text'>Ferrari:- </strong> Despite a podium
+            (P2 by Charles Leclarc) finish in Austrian GP, Ferrari had an awful
+            season so far. The car is nowhere near the top cars in pace and
+            performance. Ferrari is trying their maximum to stay in the hunt by
+            fast-tracking the updates to the Hungarian GP, but not helping their
+            course. Ferrari is currently in 5th position with nearly 100 points
+            deficit to Mercedes, which is their worst performance in the current
+            era. But speaking at Maranello following the team’s return from the
+            Hungarian Grand Prix, team chief, Binotto is clear that now is the
+            time for strengthening its organisation and helping people, rather
+            than conducting a staff cull. The focus at the factory now is in
+            understanding what has gone wrong with the current design, with
+            Binotto suggesting that a full-scale overhaul may be required.
           </p>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Alpha Tauri's Daniil Kvyat finished P12 with his teammate Pierre
-            Gasly had to retire his car with smoking engine, who was the sole
-            retirement of the race.{' '}
+          <p className='mt-1 mb-1 text-base leading-normal text-gray-700 renault'>
+            <strong className='italic text three-d-text'>Renault:- </strong>{' '}
+            Similar to Ferrari, another team to struggle after the first races
+            is Reanult. Even though the team has a decent package of drivers and
+            cars, the team is finding it difficult to get the sweet spot to
+            perform. The prime driver Daniel Riccardo is doing his best to get
+            the best possible results, his team mate Esteban Ocon is not
+            obtaining the best performance from his RS2.0. The team has atleast
+            one driver in top 10 in each race, but this not good enough for them
+            to stay in the hunt with the top teams or the best of the rest. The
+            team has to get strong performances in the next few races or else
+            they will be pushed back to the back of the grid which will raise
+            serious questions for the England based French team.
           </p>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Renault's Esteban Ocon finished P14 with two Alfa Romeos finishing
-            at P16(Kimi)and P17(Giovinazzi). Williams could not replicate the
-            majestic form in the qualifying, finished a disappointing 18th and
-            19th, with George leading his teammate Latifi.{' '}
+          {/*  <p className='mt-1 mb-1 text-base leading-normal text-gray-700 alphatauri'>
+            <strong className='italic text'>Alpha Tauri:- </strong>  Mercedes had a outstanding first three races with race wins in all three races, including a 1-2 finish at Styrian GP. Lewis Hamilton had 2 wins one fourth place <span className='italic'>(demoted from second to fourth place after a penalty)</span> finishes and Valtteri Bottas has 1 win and second and third finishes in last two races. Even though team had a good car, it was not free from problems. Car performance was affected with frets on the Mercedes pit wall about disturbing the sensors on the cars’ gearboxes, which was sorted eventually. Currently Merecedes unbeatable with strong qualifying and racing performances. The team is miles ahead of the other competitors and future looks optimistic for the silver arrows.
           </p>
-
+          <p className='mt-1 mb-1 text-base leading-normal text-gray-700 alfaromeo'>
+            <strong className='italic text'>Alfa Romeo:- </strong>  Red bull had disastrous start to the season with zero points in the Austrian GP. It was a nightmare race for Max Verstappen who experienced a loss of power after just 11 laps While his team mate Albon appeared to suffer a similar problem just two laps from the end. The Thai driver then looked pacey in the beginning but spun  into the gravel after a contact with Hamilton costing a shot at a podium. But Red Bull fought back in with a P3 and P4 finish in Styrian GP and P2 and P5 finish in Hungarian GP. Red Bull continues to struggle with the "Anomalies" causing 2020 F1 car to "misbehave" which causes drivers to get a grip of their car’s tricky characteristics. Red Bull is optimistic with great deal of work is going into understanding the issues and addressing that for the future races.
+          </p> <p className='mt-1 mb-1 text-base leading-normal text-gray-700 haas'>
+            <strong className='italic text'>Haas:- </strong>  Mercedes had a outstanding first three races with race wins in all three races, including a 1-2 finish at Styrian GP. Lewis Hamilton had 2 wins one fourth place <span className='italic'>(demoted from second to fourth place after a penalty)</span> finishes and Valtteri Bottas has 1 win and second and third finishes in last two races. Even though team had a good car, it was not free from problems. Car performance was affected with frets on the Mercedes pit wall about disturbing the sensors on the cars’ gearboxes, which was sorted eventually. Currently Merecedes unbeatable with strong qualifying and racing performances. The team is miles ahead of the other competitors and future looks optimistic for the silver arrows.
+          </p>
+          <p className='mt-1 mb-1 text-base leading-normal text-gray-700 williams'>
+            <strong className='italic text'>Williams:- </strong>  Red bull had disastrous start to the season with zero points in the Austrian GP. It was a nightmare race for Max Verstappen who experienced a loss of power after just 11 laps While his team mate Albon appeared to suffer a similar problem just two laps from the end. The Thai driver then looked pacey in the beginning but spun  into the gravel after a contact with Hamilton costing a shot at a podium. But Red Bull fought back in with a P3 and P4 finish in Styrian GP and P2 and P5 finish in Hungarian GP. Red Bull continues to struggle with the "Anomalies" causing 2020 F1 car to "misbehave" which causes drivers to get a grip of their car’s tricky characteristics. Red Bull is optimistic with great deal of work is going into understanding the issues and addressing that for the future races.
+          </p> */}
           {/* <p className='mt-1 text-base leading-normal text-gray-700'>
             View the complete {' '}
             <ContentLink

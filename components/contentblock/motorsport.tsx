@@ -13,45 +13,46 @@ const MotorSport: React.FC = () => {
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
-        <div className='px-4 py-4 text-left'>
+        <div className='px-4 pt-4 pb-3 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
             News
           </div>
           <ActionLink
-            href='https://www.motorsport.com/f1/news/racing-point-copying-pink-mercedes/4841294/'
+            href='https://www.motorsport.com/f1/news/horner-struggles-understand-albon-criticism/4841306/'
             target='_blank'>
-            Racing Point: F1 rivals missed a trick in not copying Mercedes
+            Horner “struggles to understand” Albon criticism
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Racing Point team boss Otmar Szafnauer thinks other Formula 1 teams
-            made a mistake in not adopting its philosophy of copying the best
-            car on the grid.
+            Red Bull Racing boss Christian Horner says Alex Albon doesn’t
+            deserve to be criticised for his early season performances in the
+            2020 Formula 1 season.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            The Silverstone-based team has caused a stir over the opening three
-            races of the campaign, with Sergio Perez and Lance Stroll having
-            shown some impressive speed in the RP20 design that has been
-            inspired by last year’s Mercedes.
+            Albon finished fifth in Budapest after failing to make Q3 when
+            caught out by a lack of running with a set-up introduced on Saturday
+            morning. His charge into the top five from 13th on the grid followed
+            a solid fourth in the Styrian GP, where his first stint was
+            compromised by tyre issues.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            But while its car has been protested by Renault, which believes that
-            its brake ducts breach F1 rules that demands teams design certain
-            parts themselves, Racing Point remains defiant about what it has
-            done. And Szafnauer thinks that rather than his team be criticised
-            for its approach – which some have argued goes against the DNA of F1
-            – he believes it should be applauded.
+            Inevitably, Albon has been under pressure to match the form of
+            teammate Max Verstappen, while his clash with Lewis Hamilton in the
+            season opening Austrian GP led to suggestions that he could have
+            been more patient, despite the fact that the Mercedes driver was
+            penalised.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Asked if he felt it was other teams who had got their design
-            philosophy wrong, he said: “The answer is yes. However, it doesn't
-            come without risk. “We didn't know that what we were doing was going
-            to work to the level that it has. There was a big risk that we were
-            going to take a step backwards.
+            “I’m very pleased,” said Horner when asked to rate Albon’s progress
+            in Hungary. “I mean it's been a difficult weekend for Alex, the car
+            spec has been changing a lot from session to session, and when you
+            haven't got the experience, as he doesn't, that's harder to deal
+            with. I think we're very, very satisfied with Alex's performance
+            today.”
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.motorsport.com/f1/news/racing-point-copying-pink-mercedes/4841294/'
+              href='https://www.motorsport.com/f1/news/horner-struggles-understand-albon-criticism/4841306/'
               target='_blank'>
               motorsport.com
             </ContentLink>{' '}

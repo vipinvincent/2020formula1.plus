@@ -8,8 +8,8 @@ const F1: React.FC = () => {
       <div className='h-32 sm:h-84 w-full'>
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
-          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594990598/contentImages/content/ferarri_gxis2s.jpg'
-          alt='The entire car project has to be revised admits Binotto – but says sacking people is not the answer'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826962/contentImages/content/racingpoint_uujvyf.jpg'
+          alt='Does Perez’s future lie with Alfa Romeo amid Vettel links to Racing Point?'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
@@ -18,54 +18,53 @@ const F1: React.FC = () => {
             Feature
           </div>
           <ActionLink
-            href='https://www.formula1.com/en/latest/article.what-the-teams-said-race-day-in-hungary-2020.5WTtNGjEHgUNZoA0v4rpU0.html'
+            href='https://www.formula1.com/en/latest/article.analysis-does-perezs-future-lie-with-alfa-romeo-amid-vettel-links-to-racing.15E3UE9OifrORll7lP4uj4.html'
             target='_blank'>
-            ‘The entire car project has to be revised’ admits Binotto – but says
-            sacking people is not the answer
+            Does Perez’s future lie with Alfa Romeo amid Vettel links to Racing
+            Point?
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Fifth in the constructors’ championship for Ferrari after three
-            races is simply not good enough. Ferrari Team Prinicpal Mattia
-            Binotto has already said as much, so it’s not surprising to hear him
-            say “the entire car project has to be revised” as they look to
-            rebound…
+            Sergio Perez is no stranger to silly season – the Mexican is now
+            competing in his 10th Formula 1 campaign having typically signed
+            one-year deals throughout his career. This season should have been
+            different, though, as last summer, Perez signed a huge three-year
+            extension to race for Racing Point until the end of 2022.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Sebastian Vettel finished a season’s best sixth at the Hungaroring,
-            but his team mate Charles Leclerc finished outside of the points,
-            and both cars suffered the ignominy of finishing a lap down.
+            Complete that deal and he will have spent an incredible nine years
+            with the Silverstone-based outfit. But the availability of a certain
+            four-time world champion, in the form of Sebastian Vettel, and new
+            lofty ambitions for his team as they prepare to rebrand as Aston
+            Martin Racing in 2021, and suddenly, his future isn’t so concrete.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Worse still, while the upgrade introduced for the Styrian GP
-            correlated with the data, it did not cut the deficit to Mercedes as
-            anticipated. “After three races, it’s clear that we are in worse
-            shape than we expected and we need to react without delay,” said
-            Binotto. “The entire car project has to be revised, while taking
-            into consideration the limits currently imposed by the regulations.
+            This year’s Hungarian Grand Prix weekend was not ideal for Perez.
+            Two years after it emerged at the same venue that Perez had put the
+            team, then known as Force India, into administration to save them,
+            the Mexican was first bombarded with questions about his future –
+            and then he felt unwell, to the point of feeling dizzy when driving
+            and suffering neck pain.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            “I am well aware there is no magic wand in Formula 1, but we have to
-            step up a gear to turn things around, both in the short and the long
-            term. It might also be necessary to look at our organisation to
-            improve and strengthen our working methods where the need is
-            greatest. But first, as a team, we need to understand the dynamic
-            that led to this situation.”
+            The party line is that both Perez and Lance Stroll both have
+            contracts for 2021. But my sources say Vettel has been offered a
+            deal that would bring him onboard next season, with the German left
+            to take his time to mull that over. Three, naturally, doesn't go
+            into two.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Tough words from Binotto, but in suggesting an assessment of their
-            current organisation was needed, the Ferrari boss insisted that did
-            not mean people would be sacked for the poor form. “I have
-            confidence in the people who work in the Gestione Sportiva,” he
-            said. “We have started out on a long process that should lead to
-            another winning cycle. It will take a while, but the whole company
-            understands and supports this vision. That’s why I find it amusing
-            to read some stories that are doing the rounds: it’s not by sacking
-            people that you make a car go faster…”
+            With Stroll’s father Lawrence owning the team, Perez was the one
+            many felt would be out on his ear, despite his impressive loyalty to
+            the team and the fact he’s the more experienced and - as the stats
+            show - more successful of the two. Even though it’s unclear who
+            would go should Vettel join, Perez has unsurpringly already received
+            a plethora of interest from teams in other motorsport series, as
+            well as from one F1 outfit, showing just how highly-rated he is.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.formula1.com/en/latest/article.what-the-teams-said-race-day-in-hungary-2020.5WTtNGjEHgUNZoA0v4rpU0.html'
+              href='https://www.formula1.com/en/latest/article.analysis-does-perezs-future-lie-with-alfa-romeo-amid-vettel-links-to-racing.15E3UE9OifrORll7lP4uj4.html'
               target='_blank'>
               formula1.com
             </ContentLink>{' '}

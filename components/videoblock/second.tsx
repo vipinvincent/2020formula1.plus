@@ -7,14 +7,14 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=4IWVL0MTnvA'
+        href='https://www.youtube.com/watch?v=iJ4PveoTRiI'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/4IWVL0MTnvA/maxresdefault.jpg'
-              alt='Rating every F1 Driver from the 2020 Hungarian GP'
+              src='https://unbeaten-uploads.s3.ap-southeast-2.amazonaws.com/35bb23f8cdeb44f79f702bf23929ea27.jpg'
+              alt='LATEST F1 NEWS: Lewis Hamilton, Mercedes dominance, Red Bulls Max Verstappen'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,22 +32,39 @@ const Second: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=4IWVL0MTnvA'
+            href='https://www.youtube.com/watch?v=iJ4PveoTRiI'
             target='_blank'>
-            Rating every F1 Driver from the 2020 Hungarian GP
+            LATEST F1 NEWS: Lewis Hamilton, Mercedes' dominance, Red Bull's Max
+            Verstappen
           </ContentLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Jess McFadyen and Alex Kalinauckas are back with more Driver
-            Ratings, this time from the 2020 Hungarian GP! The format is simple;
-            we rate every driver after every race, as seen in the Autosport
-            magazine and on our website.
+            Our latest Formula 1 2020 news updates as part of our rolling
+            coverage. <br />
+            - Hamilton fighting to take a knee
+            <br />
+            - Mercedes back on kerbs
+            <br />
+            - Nightmare for Red Bull
+            <br />
+            - Vettel to Aston Martin?
+            <br />
+            - Zanardi coming out of coma
+            <br />
+            - Norris Styria pain bruising
+            <br />
+            - Hamilton wants creative approach
+            <br />
+            - Williams confirms line-up
+            <br />
+            - Ferrari working on engine
+            <br />
+            - Schumacher scores in Hungary
+            <br />
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink
-              href='https://www.autosport.com/f1/driver-ratings/2020/hungary'
-              target='_blank'>
-              autosport.com
+            <ContentLink href='https://unbeaten.com/formula1' target='_blank'>
+              unbeaten.com
             </ContentLink>
           </p>
         </div>

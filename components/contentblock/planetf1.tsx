@@ -18,35 +18,38 @@ const PlanetF1: React.FC = () => {
             Feature
           </div>
           <ActionLink
-            href='https://www.planetf1.com/news/christian-horner-racing-point-copycat/'
+            href='https://www.planetf1.com/news/sebastian-vettel-is-what-it-is/'
             target='_blank'>
-            Horner weighs in on Racing Point copycat saga
+            ‘Ousting could have been different but is what it is’
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Christian Horner suspects that Racing Point are playing within the
-            rules in their decision to follow the Mercedes development path
-            rather than their own.
+            Although still not entirely happy with the manner in which Ferrari
+            dropped him, Sebastian Vettel will be “professional” in his final
+            season with the Scuderia. With 2020 the final year on Vettel’s
+            second Ferrari contract, the Scuderia told the German, and the
+            media, several times that he was the number one pick for 2021.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Racing Point ripped up their own philosophy and decided to be
-            inspired by the dominant Mercedes team when it came to producing the
-            RP20 for the 2020 campaign. From the outset, the team soon to be
-            known as Aston Martin has always strongly denied any suggestions of
-            any wrongdoing.
+            Team boss Mattia Binotto continued with that line right up until the
+            moment in late April that he phoned Vettel to inform that his
+            services wouldn’t be required after this season. Instead he blamed
+            finances and the world’s pandemic for Ferrari decision to change its
+            tune on the German.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            The change in development approach has resulted in the RP20 looking
-            an awful lot like the 2019 Mercedes W10 and it is now the subject of
-            what is going to be a lengthy FIA investigation, with a verdict on
-            its legality not expected until the Silverstone double header,
-            following a protest by Renault after the conclusion of the Styrian
-            Grand Prix. “I’ve always stood by the fact it is easier to sell a
-            car than to copy it,” Horner told Sky Sports F1.
+            The Italian acknowledged that Ferrari’s decision had come as a shock
+            to Vettel. “I heard that he was surprised, do I remember that he was
+            surprised? I would say yes certainly, I understand it,” he said at
+            the Austrian GP weekend. “It is pretty normal to be surprised. “I
+            think that is why he accepted our decision but I think even today he
+            is not fully happy with it which again I think is normal and
+            obvious.” Weeks later Vettel says he is still not happy with the way
+            Ferrari went about things but says he’s dealing with it.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.planetf1.com/news/christian-horner-racing-point-copycat/'
+              href='https://www.planetf1.com/news/sebastian-vettel-is-what-it-is/'
               target='_blank'>
               planetf1.com
             </ContentLink>{' '}
