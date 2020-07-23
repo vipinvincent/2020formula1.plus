@@ -7,14 +7,14 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=iJ4PveoTRiI'
+        href='https://www.youtube.com/watch?v=yBjY5eH8rGo'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
-              src='https://unbeaten-uploads.s3.ap-southeast-2.amazonaws.com/35bb23f8cdeb44f79f702bf23929ea27.jpg'
-              alt='LATEST F1 NEWS: Lewis Hamilton, Mercedes dominance, Red Bulls Max Verstappen'
+              src='https://img.youtube.com/vi/yBjY5eH8rGo/sddefault.jpg'
+              alt='F1 Driver Seat EXPLAINED!'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,39 +32,19 @@ const Second: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=iJ4PveoTRiI'
+            href='https://www.youtube.com/watch?v=yBjY5eH8rGo'
             target='_blank'>
-            LATEST F1 NEWS: Lewis Hamilton, Mercedes' dominance, Red Bull's Max
-            Verstappen
+            F1 Driver Seat EXPLAINED!
           </ContentLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Our latest Formula 1 2020 news updates as part of our rolling
-            coverage. <br />
-            - Hamilton fighting to take a knee
-            <br />
-            - Mercedes back on kerbs
-            <br />
-            - Nightmare for Red Bull
-            <br />
-            - Vettel to Aston Martin?
-            <br />
-            - Zanardi coming out of coma
-            <br />
-            - Norris Styria pain bruising
-            <br />
-            - Hamilton wants creative approach
-            <br />
-            - Williams confirms line-up
-            <br />
-            - Ferrari working on engine
-            <br />
-            - Schumacher scores in Hungary
-            <br />
+            Kicking off our new series of trackside explainers with F1 seats 👊
+            How are they made, why are they so special, and how do they keep a
+            driver safe... 🧠
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='https://unbeaten.com/formula1' target='_blank'>
-              unbeaten.com
+            <ContentLink href='https://www.mercedesamgf1.com/' target='_blank'>
+              mercedesamgf1.com/
             </ContentLink>
           </p>
         </div>

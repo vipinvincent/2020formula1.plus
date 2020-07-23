@@ -7,13 +7,13 @@ const First: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=ti39GzTi2Us'
+        href='https://www.youtube.com/watch?v=30fb31srbW8'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-40 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/ti39GzTi2Us/maxresdefault.jpg'
+              src='https://img.youtube.com/vi/30fb31srbW8/maxresdefault.jpg'
               alt='2020 Styrian GP Race Review | WTF1 Podcast'
             />
           </div>
@@ -29,23 +29,27 @@ const First: React.FC = () => {
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-2 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            Podcast
+            Interview
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=ti39GzTi2Us'
+            href='https://www.youtube.com/watch?v=30fb31srbW8'
             target='_blank'>
-            2020 Styrian GP Race Review | WTF1 Podcast
+            Alex Albon on his two Austrian races, locking down in Hungary & Red
+            Bull’s growing potential
           </ContentLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            F1 returned once again to the Red Bull Ring for the Styrian GP. What
-            is happening to Ferrari? Why was Alex Albon so slow? All and more
-            will be discussed with Matt & Tommy.
+            Alex Albon sat down with Ted Kravitz to reflect on the opening two
+            races of the season, locking down in Hungary, Red Bull’s potential
+            for the rest of the season and inspiring a younger generation from
+            his home country of Thailand.
           </p>
 
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='https://wtf1.com/' target='_blank'>
-              wtf1.com
+            <ContentLink
+              href='https://www.skysports.com/f1/news'
+              target='_blank'>
+              skysports.com/
             </ContentLink>
           </p>
         </div>

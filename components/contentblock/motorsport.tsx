@@ -18,41 +18,37 @@ const MotorSport: React.FC = () => {
             News
           </div>
           <ActionLink
-            href='https://www.motorsport.com/f1/news/horner-struggles-understand-albon-criticism/4841306/'
+            href='https://www.motorsport.com/f1/news/perez-loyalty-racing-point-vettel/4842281/'
             target='_blank'>
-            Horner “struggles to understand” Albon criticism
+            Racing Point won’t ignore Perez’s loyalty in Vettel decision
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Red Bull Racing boss Christian Horner says Alex Albon doesn’t
-            deserve to be criticised for his early season performances in the
-            2020 Formula 1 season.
+            Sergio Perez’s role in helping Racing Point survive in Formula 1,
+            plus his loyalty in committing his long-term future to the team,
+            will play a part in the team’s decision on whether or not he is
+            retained for next year.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Albon finished fifth in Budapest after failing to make Q3 when
-            caught out by a lack of running with a set-up introduced on Saturday
-            morning. His charge into the top five from 13th on the grid followed
-            a solid fourth in the Styrian GP, where his first stint was
-            compromised by tyre issues.
+            The Mexican was instrumental in taking action back in 2018 that
+            allowed the then Force India team to enter administration so it
+            could be rescued by new investors. In the end, Lawrence Stroll was
+            able to step in and take over the outfit, which has gone from
+            strength-to-strength since.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Inevitably, Albon has been under pressure to match the form of
-            teammate Max Verstappen, while his clash with Lewis Hamilton in the
-            season opening Austrian GP led to suggestions that he could have
-            been more patient, despite the fact that the Mercedes driver was
-            penalised.
-          </p>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            “I’m very pleased,” said Horner when asked to rate Albon’s progress
-            in Hungary. “I mean it's been a difficult weekend for Alex, the car
-            spec has been changing a lot from session to session, and when you
-            haven't got the experience, as he doesn't, that's harder to deal
-            with. I think we're very, very satisfied with Alex's performance
-            today.”
+            Last year, Perez duly agreed to tie himself to the team until the
+            end of 2022, even though there were still potential vacancies at
+            front-running teams like Mercedes and Ferrari. Despite all that,
+            though, Stroll is currently evaluating whether or not to replace the
+            Mexican with Sebastian Vettel – whom he has held discussions with
+            about joining the Silverstone-based outfit. There is understood to
+            be a break clause in Perez's contract that would allow the team to
+            drop him.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.motorsport.com/f1/news/horner-struggles-understand-albon-criticism/4841306/'
+              href='https://www.motorsport.com/f1/news/perez-loyalty-racing-point-vettel/4842281/'
               target='_blank'>
               motorsport.com
             </ContentLink>{' '}

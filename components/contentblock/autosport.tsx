@@ -4,44 +4,55 @@ import ContentLink from 'components/link/ContentLink'
 
 const AutoSport: React.FC = () => {
   return (
-    <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-4'>
-      <div className='h-32 sm:h-40 lg:absolute lg:left-0 lg:h-full lg:w-1/3'>
+    <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-0'>
+      <div className='h-32 sm:h-48 w-full bg-black-100 rounded-tl-xl'>
         <img
-          className='w-full h-full object-contain rounded-tl-xxl bg-autosports'
+          className='w-full h-full object-contain rounded-tl-xl bg-autosports'
           src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826932/contentImages/logo/autosport_ketnss.jpg'
           alt='autosport.com'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
-        <div className='lg:ml-auto lg:w-2/3 px-4 py-4 text-left'>
+        <div className='px-4 pt-4 pb-8 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            autosport.com
+            News
           </div>
           <ActionLink
-            href='https://www.autosport.com/f1/news/150556/bottas-to-stay-at-mercedes-with-new-2021-f1-deal'
+            href='https://www.autosport.com/f1/news/150787/norris-happy-to-see-russell-make-f1-impact-in-2020'
             target='_blank'>
-            Valtteri Bottas to stay at Mercedes after agreeing new 2021 F1 deal
+            Norris happy to see Russell making F1 impact with improved Williams
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Valtteri Bottas will remain at Mercedes in 2021 with a new deal
-            having been agreed in principle, sources have revealed to Autosport.
+            McLaren Formula 1 driver Lando Norris says he is happy to see friend
+            and rival George Russell make an impact with a much-improved
+            Williams team.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            While a final contract has yet to be signed off, both team and
-            driver have agreed terms for their partnership to continue in
-            Formula 1 at least for next year on the back of the Finn's strong
-            start to the campaign.
+            Russell was 12th in the wet qualifying session for the Styrian GP at
+            the Red Bull Ring, and then repeated that outcome in a dry session
+            in Hungary last weekend.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            The agreement, which has been put together in the last few days,
-            came after Mercedes CEO Ola Kallenius gave his blessing during a
-            visit to the Austrian Grand Prix to an unchanged line-up for next
-            season.
+            He had little luck in either race, with an early off in the Styrian
+            event and a poor start in Hungary hampering his chances, but
+            nevertheless his qualifying performances have been a timely reminder
+            of his talent.
+          </p>
+          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+            When asked for his thoughts on Russell's season by Autosport, Norris
+            replied: "I'm definitely happy for him, that he's at least having a
+            chance to be able to race with some people."
+          </p>
+          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+            "I felt sorry for him last year, because he's a nice guy, I get
+            along well with him. He's a very good driver. "So where Williams
+            were last season, it's just disappointing to see him in that
+            position.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.autosport.com/f1/news/150556/bottas-to-stay-at-mercedes-with-new-2021-f1-deal'
+              href='https://www.autosport.com/f1/news/150787/norris-happy-to-see-russell-make-f1-impact-in-2020'
               target='_blank'>
               autosport.com
             </ContentLink>{' '}

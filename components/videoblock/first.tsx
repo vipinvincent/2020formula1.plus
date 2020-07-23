@@ -7,14 +7,14 @@ const First: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=EvnZFffPOGY'
+        href='https://www.youtube.com/watch?v=-YJKrXbc9Hc'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/EvnZFffPOGY/maxresdefault.jpg'
-              alt='How Ferraris F1 engine tricks created an even more dominant Mercedes'
+              src='https://img.youtube.com/vi/-YJKrXbc9Hc/maxresdefault.jpg'
+              alt='Red Bull Cant Decide On Its New Tech? '
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,28 +32,22 @@ const First: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=EvnZFffPOGY'
+            href='https://www.youtube.com/watch?v=-YJKrXbc9Hc'
             target='_blank'>
-            How Ferrari's F1 engine tricks created an even more dominant
-            Mercedes
+            Red Bull Can't Decide On Its New Tech?
           </ContentLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Ferrari's dip in form in the 2020 F1 season has been made worse -
-            for the Prancing Horse and everyone else - by the fact Mercedes
-            appears stronger than ever this year. And a big part of that is down
-            to the huge effort the reigning champion team put in for 2020 in
-            response to Ferrari's resurgent form in the second half of 2019. Not
-            only did Ferrari seemingly lose that advantage with clarifications
-            from the FIA about engine loopholes, but it lit a fire in Mercedes
-            that pushed the best team on the grid to achieve an even higher
-            standard for 2020.
+            After a strong start to the delayed 2020 season, F1 finally finds
+            itself at a new circuit - the Hungarian Hungaroring (try saying that
+            ten times fast). Red Bull have had reasonable success so far, and
+            alongside that success there have been multiple technical upgrades
+            that got them there... even if they never stayed on the car for too
+            long.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink
-              href='https://the-race.com/formula-1/video-how-ferraris-engine-tricks-helped-mercedes/'
-              target='_blank'>
-              the-race.com
+            <ContentLink href='https://www.autosport.com/' target='_blank'>
+              autosport.com
             </ContentLink>
           </p>
         </div>

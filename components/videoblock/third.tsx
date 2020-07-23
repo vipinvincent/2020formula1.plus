@@ -7,14 +7,14 @@ const Third: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=xT9T6JCnMd4'
+        href='https://www.youtube.com/watch?v=JcgMOc0CRyE'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/xT9T6JCnMd4/maxresdefault.jpg'
-              alt='Is Red Bull making one of its F1 drivers look like an idiot?'
+              src='https://img.youtube.com/vi/JcgMOc0CRyE/sddefault.jpg'
+              alt='Is Racing Points RP20 100% legal?'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,26 +32,27 @@ const Third: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=xT9T6JCnMd4'
+            href='https://www.youtube.com/watch?v=JcgMOc0CRyE'
             target='_blank'>
-            Is Red Bull making one of its F1 drivers 'look like an idiot'?
+            Is Racing Point's RP20 100% legal?
           </ContentLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Alex Albon could have won the first race of the 2020 F1 season, but
-            that near-miss is the only high point in a season where he has
-            struggled to get near team-mate Max Verstappen so far. Edd Straw and
-            Scott Mitchell join Glenn Freeman to look at the reasons behind
-            Albon's struggles, why his friend George Russell waded in to say he
-            was being made to "look like an idiot", and how Red Bull's tricky
-            car is making the situation worse.
+            Racing Point may be edging closer to installing Sebastian Vettel as
+            part of its 2021 driver line-up - but a much larger issue is
+            consuming its time right now - one that has its rivals screaming. …
+            with the car it brought to Barcelona pre-season testing strikingly
+            similar to last year’s title-winning Mercedes W10. A logical
+            development direction said the team, given its use of the Silver
+            Arrows’ powertrain. Watch the video, and tell us what you think in
+            the comments…
           </p>
 
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
             <ContentLink
-              href='https://the-race.com/category/formula-1/'
+              href='https://unbeaten.com/formula1/F1-2020-23072020-RP20Legality'
               target='_blank'>
-              the-race.com
+              unbeaten.com
             </ContentLink>
           </p>
         </div>

@@ -8,8 +8,8 @@ const F1: React.FC = () => {
       <div className='h-32 sm:h-84 w-full'>
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
-          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826962/contentImages/content/racingpoint_uujvyf.jpg'
-          alt='Does Perez’s future lie with Alfa Romeo amid Vettel links to Racing Point?'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826961/contentImages/content/Sebastian-Vettel_vmkqku.jpg'
+          alt='Vettel admits hes failed in Schumacher-inspired mission - but has no regrets about Ferrari move'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
@@ -18,53 +18,41 @@ const F1: React.FC = () => {
             Feature
           </div>
           <ActionLink
-            href='https://www.formula1.com/en/latest/article.analysis-does-perezs-future-lie-with-alfa-romeo-amid-vettel-links-to-racing.15E3UE9OifrORll7lP4uj4.html'
+            href='https://www.formula1.com/en/latest/article.vettel-admits-hes-failed-in-ferrari-mission-but-has-no-regrets.7LsYQYLh3tEiqbc0Rh6PbI.html'
             target='_blank'>
-            Does Perez’s future lie with Alfa Romeo amid Vettel links to Racing
-            Point?
+            Vettel admits he's failed in Schumacher-inspired 'mission' - but has
+            no regrets about Ferrari move
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Sergio Perez is no stranger to silly season – the Mexican is now
-            competing in his 10th Formula 1 campaign having typically signed
-            one-year deals throughout his career. This season should have been
-            different, though, as last summer, Perez signed a huge three-year
-            extension to race for Racing Point until the end of 2022.
+            What a difference five years makes. From being sensationally lured
+            away from Red Bull to emulate his hero Michael Schumacher’s move to
+            Ferrari in 2015, to being let go from the team before even racing a
+            competitive lap in 2020, Sebastian Vettel’s Ferrari dream has not
+            panned out the way he would have hoped. But as the four-time
+            champion revealed in a recent interview, he has no regrets about
+            joining F1’s most famous team.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Complete that deal and he will have spent an incredible nine years
-            with the Silverstone-based outfit. But the availability of a certain
-            four-time world champion, in the form of Sebastian Vettel, and new
-            lofty ambitions for his team as they prepare to rebrand as Aston
-            Martin Racing in 2021, and suddenly, his future isn’t so concrete.
+            Speaking to Sky Sports F1’s Martin Brundle ahead of the Hungarian
+            Grand Prix, Vettel was asked whether he’d been hurt by Ferrari’s
+            decision not to retain him beyond the end of 2020 – with Vettel
+            having revealed in Austria that he had failed to even reach the
+            negotiating stage with Ferrari, Team Principal Mattia Binotto simply
+            informing him that his services at the Scuderia wouldn’t be required
+            beyond the end of this season.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            This year’s Hungarian Grand Prix weekend was not ideal for Perez.
-            Two years after it emerged at the same venue that Perez had put the
-            team, then known as Force India, into administration to save them,
-            the Mexican was first bombarded with questions about his future –
-            and then he felt unwell, to the point of feeling dizzy when driving
-            and suffering neck pain.
-          </p>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            The party line is that both Perez and Lance Stroll both have
-            contracts for 2021. But my sources say Vettel has been offered a
-            deal that would bring him onboard next season, with the German left
-            to take his time to mull that over. Three, naturally, doesn't go
-            into two.
-          </p>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            With Stroll’s father Lawrence owning the team, Perez was the one
-            many felt would be out on his ear, despite his impressive loyalty to
-            the team and the fact he’s the more experienced and - as the stats
-            show - more successful of the two. Even though it’s unclear who
-            would go should Vettel join, Perez has unsurpringly already received
-            a plethora of interest from teams in other motorsport series, as
-            well as from one F1 outfit, showing just how highly-rated he is.
+            “I think the decision is the decision,” replied Vettel. “I’m a
+            professional in that regard and I have to take any decision. You
+            know, the way it [was done] could have been, maybe, a bit different,
+            but it is what it is and whatever my feeling might be about it, I
+            owe them respect and give them everything I can and trying to have
+            the best season that I can despite the difficult situation.”
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.formula1.com/en/latest/article.analysis-does-perezs-future-lie-with-alfa-romeo-amid-vettel-links-to-racing.15E3UE9OifrORll7lP4uj4.html'
+              href='https://www.formula1.com/en/latest/article.vettel-admits-hes-failed-in-ferrari-mission-but-has-no-regrets.7LsYQYLh3tEiqbc0Rh6PbI.html'
               target='_blank'>
               formula1.com
             </ContentLink>{' '}

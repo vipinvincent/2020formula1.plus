@@ -4,9 +4,9 @@ import FirstVideo from 'components/videoblock/first'
 import SecondVideo from 'components/videoblock/second'
 import ThirdVideo from 'components/videoblock/third'
 
-// import FirstPodcast from 'components/podcastblock/first'
+import FirstPodcast from 'components/podcastblock/first'
 import SecondPodcast from 'components/podcastblock/second'
-import ThirdPodcast from 'components/podcastblock/third'
+// import ThirdPodcast from 'components/podcastblock/third'
 import FourthPodcast from 'components/podcastblock/fourth'
 
 const Main: React.FC = () => {
@@ -29,16 +29,16 @@ const Main: React.FC = () => {
         </div>
         <div className='w-100 flex flex-wrap lg:hidden xl:block md:w-full xl:w-1/3'>
           <div className='w-full sm:w-1/2 md:w-full mt-4 md:mt-0 md:pl-4'>
-            <SecondPodcast />
+            <FirstPodcast />
           </div>
           <div className='w-full sm:w-1/2 md:w-full mt-4 sm:pl-4'>
             <FourthPodcast />
           </div>
           <div className='w-full sm:w-1/2 md:w-full mt-4 md:pl-4'>
-            <ThirdPodcast />
+            <SecondPodcast />
           </div>
           {/* <div className='w-full sm:w-1/2 md:w-full mt-4 sm:pl-4'>
-            <FirstPodcast />
+            <ThirdPodcast />
           </div> */}
         </div>
       </div>
