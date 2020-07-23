@@ -6,7 +6,7 @@ import MotorSport from 'components/contentblock/motorsport'
 // import SkySports from 'components/contentblock/skysports'
 // import TheRace from 'components/contentblock/therace'
 import PlanetF1 from 'components/contentblock/planetf1'
-import ESPN from 'components/contentblock/espn'
+// import ESPN from 'components/contentblock/espn'
 
 import FirstContent from 'components/contentblock/main'
 import SecondContent from 'components/contentblock/left'
@@ -23,10 +23,10 @@ const Main: React.FC = () => {
       </div>
       <div className='w-100 flex flex-col xl:flex-row'>
         <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 mt-4'>
-          <ThirdContent />
+          <SecondContent />
         </div>
         <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 mt-4'>
-          <SecondContent />
+          <ThirdContent />
         </div>
       </div>
       <div className='bg-white-50 mt-4 px-4 pb-4 rounded-xxl'>
@@ -44,9 +44,9 @@ const Main: React.FC = () => {
             <MotorSport />
           </div>
         </div>
-        <div className='w-100 mt-4'>
+        {/* <div className='w-100 mt-4'>
           <ESPN />
-        </div>
+        </div> */}
       </div>
     </div>
   )

@@ -43,14 +43,35 @@ const Right: React.FC = () => {
             Racing Point’s Lance Stroll couldn’t convert his P3 grid position
             into the team’s first podium of the year as he came home a distant
             fourth. His teammate Perez also coudn't keep the second row start,
-            but only able to finish at 7th after a poor start.
-            {/*  The rejuvenated
+            but only able to finish at 7th after a poor start. The rejuvenated
             Red Bull’s Alex Albon late pass on the Ferrari of Sebastian Vettel
             gave Albon P5, who started who started 13th. although Red Bull were
             summoned to the stewards after the race for allegedly drying Albon’s
             grid spot ahead of the race start. Vettel finished at P6 and hold
             off the second Racing Point of Sergio Perez in the final laps of the
-            race. */}
+            race.
+          </p>
+          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+            Renault's Daniel Ricciardo had an impressive P8 with a remarkable
+            tyre managed race. An inspired strategy from Haas helped Kevin
+            Magnussen take the team’s first points of the year, with Magnussen
+            and Romain Grosjean pitting for slicks at the end of the formation
+            lap as their rivals started on intermediates on the drying track.
+            Kevin finished P9 and Grosjean P15. Best of the McLarens was Carlos
+            Sainz who finished P10, thanks to a late-race pass on the Ferrari's
+            Charles Leclerc, who ended up 11th. His teammate Lando Norris, only
+            could manage P13.
+          </p>
+          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+            Alpha Tauri's Daniil Kvyat finished P12 with his teammate Pierre
+            Gasly had to retire his car with smoking engine, who was the sole
+            retirement of the race.{' '}
+          </p>
+          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+            Renault's Esteban Ocon finished P14 with two Alfa Romeos finishing
+            at P16(Kimi)and P17(Giovinazzi). Williams could not replicate the
+            majestic form in the qualifying, finished a disappointing 18th and
+            19th, with George leading his teammate Latifi.{' '}
           </p>
           {/* <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}

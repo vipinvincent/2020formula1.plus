@@ -8,46 +8,65 @@ const Left: React.FC = () => {
       <div className='h-40 xl:h-48 w-full'>
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
-          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594992043/contentImages/content/mercedes12_ufegj1.jpg'
-          alt='Hamilton P1 with the lap record set the fastest time in Qualifying
-            and Bottas in P2'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594990598/contentImages/content/ferarri_gxis2s.jpg'
+          alt='Ferrari restructures Formula 1 technical department'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
-        <div className='px-4 pt-4 pb-12 text-left'>
+        <div className='px-4 pt-4 pb-4 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            Qualifying - Hungarian Grand Prix 2020
+            News
           </div>
-          <H1>
-            Hamilton P1 with the lap record set the fastest time in Qualifying
-          </H1>
+          <H1>Ferrari restructures Formula 1 technical department</H1>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Hamilton P1 set the fastest time in Qualifying and Bottas in P2 with
-            two Racing Points in P3 and P4
+            Ferrari announced a restructuring of their Formula One technical
+            department on Wednesday after struggling in the first three races of
+            the 2020 season. Ferrari is planning to set up a new performance
+            development department that will be the bedrock of its car
+            development, which will address the poor Formula 1 form of SF1000
+            and team.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Ferrari’s Sebastian Vettel and Charles Leclerc finished P5 and P6
-            with Max Verstappen of Red Bull Racing only could manage a P7, who
-            was last years pole sitter. McLaren teammates Lando Norris Carlos
-            Sainz McLaren trails Ferrai at P8 and P9 only able to finish just
-            above AlphaTauri's Pierre Gasly who couldn't participate Q3 due to
-            ongoing power unit issues.
+            Binotto will remain as Team Principal, with Enrico Gualtieri in
+            charge of the Power Unit department, Laurent Mekies as Sporting
+            Director also in charge of trackside activities and Simone Resta
+            continues as the Chassis Engineering department. The inception of
+            the Performance Department which will be overseen by Enrico Cardile
+            featuring input from Rory Byrne who played a significant role at
+            Ferrari as Chief Designer in the early 2000s who is one of the key
+            architects of the Michael Schumacher era of Ferrari dominance .
+            Earlier in 2016, Enrico Cardile has moved from Ferrari’s GT
+            department, and now holds the role of Head of Aerodynamics and
+            Vehicle Project Manager.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Renault's Daniel Ricciardo only could manage P11 with today's
-            suprise with George Russell of Williams at P12 with a stromg
-            performance. Alexander Albon of Red Bull Racing was furious with his
-            team for leaving him in traffic and only coud manage P13
-            highlighting RedBull's poor form in Hungry. Esteban Ocon finished
-            P14 and Nicolas Latifi finished P15 with both Williams cars in Q2
-            after a long period of time.
+            The changes was induced after Ferrari started this season with more
+            than a second a lap slower than that of the world champions and
+            front runners Mercedes. The idea is to create a more vertical
+            organisation and clearly assign responsibility. Ferrari said in a
+            statement they were "instituting a chain of command that is more
+            focused and simplified and provides the heads of each department the
+            necessary powers to achieve their objectives".
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Two Haas cars finished 15th and 17th with Kevin Magnussen leading
-            his team mate Romain Grosjean. AlphaTauri 's Daniil Kvyat finished a
-            disappointing 16th. Both Alfa Romeo Racing cars was glued to the
-            last spot with Antonio Giovinazzi in 19 and 40 year old veteran Kimi
-            Räikkönen in 20th spot which probably be worst performance of his.
+            As per Binotto, “As hinted at a few days ago, we are making changes
+            to the technical side of the organisation so as to speed up the
+            design and development on the car performance front,” “A change of
+            direction was needed to define clear lines of responsibility and
+            working processes, while reaffirming the company’s faith in its
+            technical talent pool. "The department run by Enrico Cardile will be
+            able to count on the experience of Rory Byrne and established
+            engineers such as David Sanchez. It will be the cornerstone of the
+            car’s development. “We believe Ferrari personnel are of the highest
+            level and we have nothing to envy about our main competitors in this
+            respect, but we had to make a decisive change, raising the bar in
+            terms of the responsibilities of the department heads.” "It will
+            take some time and we will suffer setbacks like the one we are
+            experiencing right now in terms of results and performance. However,
+            we must react to these shortcomings with strength and determination
+            to get back to being at the very top of this sport as soon as
+            possible. This is what we all want and what our fans all over the
+            world expect of us."
           </p>
           {/* <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
