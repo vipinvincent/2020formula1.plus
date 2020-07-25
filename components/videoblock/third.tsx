@@ -7,13 +7,13 @@ const Third: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=JcgMOc0CRyE'
+        href='https://www.youtube.com/watch?v=li8nrb4vgBE'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/JcgMOc0CRyE/sddefault.jpg'
+              src='https://img.youtube.com/vi/li8nrb4vgBE/sddefault.jpg'
               alt='Is Racing Points RP20 100% legal?'
             />
           </div>
@@ -32,25 +32,24 @@ const Third: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=JcgMOc0CRyE'
+            href='https://www.youtube.com/watch?v=li8nrb4vgBE'
             target='_blank'>
             Is Racing Point's RP20 100% legal?
           </ContentLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Racing Point may be edging closer to installing Sebastian Vettel as
-            part of its 2021 driver line-up - but a much larger issue is
-            consuming its time right now - one that has its rivals screaming. …
-            with the car it brought to Barcelona pre-season testing strikingly
-            similar to last year’s title-winning Mercedes W10. A logical
-            development direction said the team, given its use of the Silver
-            Arrows’ powertrain. Watch the video, and tell us what you think in
-            the comments…
+            Mercedes driver Valtteri Bottas’ long-held dreams of becoming a
+            Formula One World Champion could soon be over if he doesn’t start
+            delivering the consistency required to lift the crown. Bottas was a
+            disappointing third in Budapest, a startline technical drama costing
+            him places and the standings lead to teammate Lewis Hamilton,
+            despite winning race one in Austria. Watch the video, and tell us
+            what you think in the comments…
           </p>
 
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
             <ContentLink
-              href='https://unbeaten.com/formula1/F1-2020-23072020-RP20Legality'
+              href='https://unbeaten.com/formula1/F1-2020-24072020-BottasWCDreams'
               target='_blank'>
               unbeaten.com
             </ContentLink>

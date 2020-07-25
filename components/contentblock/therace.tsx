@@ -13,48 +13,48 @@ const TheRace: React.FC = () => {
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
-        <div className='px-4 pt-4 pb-5 text-left'>
+        <div className='px-4 pt-4 pb-4 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
             News
           </div>
           <ActionLink
-            href='https://the-race.com/formula-1/mclarens-race-wrecking-opening-laps-explained/'
+            href='https://the-race.com/formula-1/how-much-is-ferrari-engine-holding-haas-and-alfa-back/'
             target='_blank'>
-            McLaren’s race-wrecking opening laps explained
+            How much is the Ferrari engine holding Haas and Alfa back?
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            McLaren’s Hungarian Grand Prix prospects were “pretty much over”
-            after a nightmare few laps that included Lando Norris “letting down
-            the team” with “probably the worst start in my life”. Strong
-            results, aided by opportunism, in the first two rounds of the 2020
-            Formula 1 season at the Red Bull Ring meant McLaren was second in
-            the constructors’ championship heading to Hungary.
+            Alfa Romeo and Haas have been the weakest performers on outright
+            pace during the 2020 Formula 1 season so far, with the two Ferrari
+            customer teams potentially held back by their engine supplier.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            It expected to struggle more on a high-downforce track but was “very
-            encouraged” to get both cars into Q3 again, only for its race to
-            fall apart in a matter of laps. Norris lost track position in the
-            opening seconds of the race with a launch that was decent initially
-            but on the damp circuit that transitioned to aggressive wheelspin in
-            the second phase.
+            While they have been better in race conditions, decisively faster
+            than Williams and both with points on the board, it’s looking set to
+            be a long, hard season for both. Realistically, they are fighting
+            for a best position of eighth in the constructors’ championship
+            given AlphaTauri has been consistently ahead.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            The hero of third and fifth place finishes in Austria fell from
-            eighth to 13th by Turn 1, then lost another place on the exit of the
-            corner. That consigned him to a race in the midfield at the
-            notoriously difficult to overtake Hungaroring. “Maybe the pitstops
-            weren’t amazing, but they didn’t cost me anything,” said Norris to
-            Sky Sports F1 post-race.
+            Alfa Romeo currently holds that position thanks to Antonio
+            Giovinazzi’s ninth place in the Austrian Grand Prix, with Kevin
+            Magnussen’s 10th place in Hungary after the formation-lap pitstop
+            call penalty cost him a position the best result for Haas. But the
+            performance picture suggests more points could prove hard to come
+            by.
           </p>
-          {/* <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            “I think I was the one who let down the team in terms of probably getting the worst start I’ve ever got in my life.
-
-            “I just wanted to go forward, and when you try and go forward in the wet you go backward, so it’s just as simple as that. I got a bit eager.
-          </p> */}
+          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+            It’s no coincidence that, when it comes to qualifying pace in
+            particular, the Ferrari-powered teams are suffering the most.
+            Ignoring the Styrian GP weekend because the true qualifying pace
+            picture was only partly revealed by Friday practice before the wet
+            Saturday, Ferrari was 0.931% and 1.175% slower relative to the
+            outright pace this year than it was in 2019 at the Red Bull Ring and
+            Hungaroring.{' '}
+          </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://the-race.com/formula-1/mclarens-race-wrecking-opening-laps-explained/'
+              href='https://the-race.com/formula-1/how-much-is-ferrari-engine-holding-haas-and-alfa-back/'
               target='_blank'>
               the-race.com
             </ContentLink>{' '}

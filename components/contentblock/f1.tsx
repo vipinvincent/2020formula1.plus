@@ -8,8 +8,8 @@ const F1: React.FC = () => {
       <div className='h-32 sm:h-84 w-full'>
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
-          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826961/contentImages/content/Sebastian-Vettel_vmkqku.jpg'
-          alt='Vettel admits hes failed in Schumacher-inspired mission - but has no regrets about Ferrari move'
+          src='https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Autodromo_aerea_poster.jpg/1280px-Autodromo_aerea_poster.jpg'
+          alt='6 reasons to be excited about the three new additions to F1’s 2020 race calendar'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
@@ -18,41 +18,64 @@ const F1: React.FC = () => {
             Feature
           </div>
           <ActionLink
-            href='https://www.formula1.com/en/latest/article.vettel-admits-hes-failed-in-ferrari-mission-but-has-no-regrets.7LsYQYLh3tEiqbc0Rh6PbI.html'
+            href='https://www.formula1.com/en/latest/article.6-reasons-to-be-excited-about-the-three-new-additions-to-f1s-2020-race.4c3gUGmRk3AFjxL5aLq0Xx.html'
             target='_blank'>
-            Vettel admits he's failed in Schumacher-inspired 'mission' - but has
-            no regrets about Ferrari move
+            6 reasons to be excited about the three new additions to F1’s 2020
+            race calendar
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            What a difference five years makes. From being sensationally lured
-            away from Red Bull to emulate his hero Michael Schumacher’s move to
-            Ferrari in 2015, to being let go from the team before even racing a
-            competitive lap in 2020, Sebastian Vettel’s Ferrari dream has not
-            panned out the way he would have hoped. But as the four-time
-            champion revealed in a recent interview, he has no regrets about
-            joining F1’s most famous team.
+            Three new races at Imola, Portimao and the Nurburgring have been
+            added to F1’s revised 2020 race calendar, and we couldn’t be more
+            excited. Here’s why you should be too.
+            <br />
+            Imola’s two-day format will spice things up… Aside from rain
+            interfering with proceedings, the modern Grand Prix weekend follows
+            a familiar format: three days comprising of three practice sessions
+            to dial-in set-up, assess tyres and test new parts, followed by
+            qualifying and the race. But for the Emilia Romagna Grand Prix at
+            Imola, that will be shaken up with the teams expected to have just
+            one practice session to prepare ahead of qualifying and the race.
+            The bad news means one fewer days to see F1’s best tackle the
+            magnificent challenge of Imola; the good news is that there’ll be
+            masses of action packed into two days – and hopefully plenty of
+            unpredictability. We can’t wait!
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Speaking to Sky Sports F1’s Martin Brundle ahead of the Hungarian
-            Grand Prix, Vettel was asked whether he’d been hurt by Ferrari’s
-            decision not to retain him beyond the end of 2020 – with Vettel
-            having revealed in Austria that he had failed to even reach the
-            negotiating stage with Ferrari, Team Principal Mattia Binotto simply
-            informing him that his services at the Scuderia wouldn’t be required
-            beyond the end of this season.
+            …not that ‘old school’ Imola needed spicing up
+            <br />
+            When AlphaTauri tested at Imola ahead of 2020’s first race in
+            Austria, Daniil Kvyat and Pierre Gasly raved about the Italian
+            track. Neither has raced it in an F1 car, but both came away wanting
+            to. “It’s quite old school, it’s quite bumpy, the kerbs are
+            challenging,“ buzzed Kvyat. “You have these high-speed corners with
+            such a short run-off area, you really feel you’re at the limit of
+            the car,” added Gasly. F1 hasn’t raced at the circuit since 2006,
+            which makes the prospect of seeing a modern car tackling the
+            spectacular Acque Minerali or Rivazza even more tantalising. Imola
+            is often remembered for tragedy, but it’s also played host to some
+            epic moments – Alonso vs Schumacher in 2005, anyone? - and we can’t
+            wait for more!
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            “I think the decision is the decision,” replied Vettel. “I’m a
-            professional in that regard and I have to take any decision. You
-            know, the way it [was done] could have been, maybe, a bit different,
-            but it is what it is and whatever my feeling might be about it, I
-            owe them respect and give them everything I can and trying to have
-            the best season that I can despite the difficult situation.”
+            F1 is going back to Portugal for the first time since 1996
+            <br />
+            Portugal has played host to some truly brilliant F1 moments over the
+            years: Stirling Moss’s brilliant win at Porto in 1958, Niki Lauda’s
+            dramatic half-point title win over Alain Prost in 1984, and Ayrton
+            Senna’s unforgettable maiden F1 victory in the wet in 1985, to name
+            just three. But Grand Prix racing has not been back to
+            motorsport-mad Portugal since Jacques Villeneuve took victory for
+            Williams in 1996, so it’s great that F1 is heading to the Algarve
+            International Circuit in Portimao for the first time. The
+            picturesque track, situated in the very south of the country, will
+            become the fourth Portuguese circuit after Porto, Monsanto and
+            Estoril to host a round of the world championship – and even better,
+            it’s going to be open to fans.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.formula1.com/en/latest/article.vettel-admits-hes-failed-in-ferrari-mission-but-has-no-regrets.7LsYQYLh3tEiqbc0Rh6PbI.html'
+              href='https://www.formula1.com/en/latest/article.6-reasons-to-be-excited-about-the-three-new-additions-to-f1s-2020-race.4c3gUGmRk3AFjxL5aLq0Xx.html'
               target='_blank'>
               formula1.com
             </ContentLink>{' '}

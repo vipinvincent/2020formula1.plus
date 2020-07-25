@@ -7,14 +7,14 @@ const First: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=-YJKrXbc9Hc'
+        href='https://www.youtube.com/watch?v=UDvh32oeCLM'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/-YJKrXbc9Hc/maxresdefault.jpg'
-              alt='Red Bull Cant Decide On Its New Tech? '
+              src='https://img.youtube.com/vi/UDvh32oeCLM/sddefault.jpg'
+              alt='Ferrari s F1 shake-up behind the scenes explained'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,22 +32,24 @@ const First: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=-YJKrXbc9Hc'
+            href='https://www.youtube.com/watch?v=UDvh32oeCLM'
             target='_blank'>
-            Red Bull Can't Decide On Its New Tech?
+            Ferrari's F1 shake-up behind the scenes explained
           </ContentLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            After a strong start to the delayed 2020 season, F1 finally finds
-            itself at a new circuit - the Hungarian Hungaroring (try saying that
-            ten times fast). Red Bull have had reasonable success so far, and
-            alongside that success there have been multiple technical upgrades
-            that got them there... even if they never stayed on the car for too
-            long.
+            Ferrari has announced the creation of a new 'performance
+            development' department in reaction to its poor start to the 2020 F1
+            season. We'll try to look beyond why it wasn't focusing on
+            developing its performance already (!), and in this video Scott
+            Mitchell explains the changes that have been made, and what
+            Ferrari's specific ambitions are for the new department.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='https://www.autosport.com/' target='_blank'>
-              autosport.com
+            <ContentLink
+              href='https://the-race.com/formula-1/video-ferraris-latest-f1-shake-up-explained/'
+              target='_blank'>
+              the-race.com
             </ContentLink>
           </p>
         </div>

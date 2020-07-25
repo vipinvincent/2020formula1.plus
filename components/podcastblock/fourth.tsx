@@ -7,13 +7,13 @@ const Fourth: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=lljXk1u6uhE'
+        href='https://www.youtube.com/watch?v=0ipQheRkOy0'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-40 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/lljXk1u6uhE/maxresdefault.jpg'
+              src='https://img.youtube.com/vi/0ipQheRkOy0/maxresdefault.jpg'
               alt='2020 F1 Hungarian GP Podcast - Unbiased F1 Podcast'
             />
           </div>
@@ -32,24 +32,22 @@ const Fourth: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=lljXk1u6uhE'
+            href='https://www.youtube.com/watch?v=0ipQheRkOy0'
             target='_blank'>
-            2020 F1 Hungarian GP Podcast - Unbiased F1 Podcast
+            Bottas Jump Start Analysis & What Everyone Missed: Formula 1 Onboard
+            Breakdown
           </ContentLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            We're back! Tune in as we discuss all the talking points from a busy
-            weekend in Budapest! Don't forget to like subscribe, and comment if
-            we missed anything (sorry Lando!). The Unbiased Formula 1 Podcast is
-            a podcast channel summarising all the big talking points from the
-            latest #F1 race - with in depth reaction and discussion into what
-            happened, both on and off track. Subscribe for more
+            The Valtteri Bottas jump start at the Hungarian GP was more than
+            just a simple misread of the lights. Here's what everyone missed in
+            their analysis and why this sets a bad precedent. Skip to 4:25 for
+            the analysis section. Subscribe for more F1 Analysis:
+            http://bit.ly/CYF1Sub
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink
-              href='https://www.youtube.com/channel/UCiMPcmFo6sMsZOWvlLCz0YQ'
-              target='_blank'>
-              Unbiased Formula 1 Podcast
+            <ContentLink href='https://www.crankyyankeef1.com/' target='_blank'>
+              CrankyYankeeF1
             </ContentLink>
           </p>
         </div>

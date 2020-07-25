@@ -18,10 +18,10 @@ const Main: React.FC = () => {
       <div className='w-100 flex flex-col xl:flex-row'>
         <div className='w-100 xl:w-2/3 mr-0'>
           <div className='w-100 mt-0'>
-            <ThirdVideo />
+            <FirstVideo />
           </div>
           <div className='w-100 mt-4'>
-            <FirstVideo />
+            <ThirdVideo />Í
           </div>
           <div className='w-100 mt-4'>
             <SecondVideo />
@@ -32,10 +32,10 @@ const Main: React.FC = () => {
             <FirstPodcast />
           </div>
           <div className='w-full sm:w-1/2 md:w-full mt-4 sm:pl-4'>
-            <FourthPodcast />
+            <SecondPodcast />
           </div>
           <div className='w-full sm:w-1/2 md:w-full mt-4 md:pl-4'>
-            <SecondPodcast />
+            <FourthPodcast />
           </div>
           {/* <div className='w-full sm:w-1/2 md:w-full mt-4 sm:pl-4'>
             <ThirdPodcast />

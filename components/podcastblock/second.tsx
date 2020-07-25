@@ -7,14 +7,14 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=l4E90U1XSto'
+        href='https://www.youtube.com/watch?v=Q-5ZuOHBfbM'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-40 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/l4E90U1XSto/maxresdefault.jpg'
-              alt='Building the Greatest F1 Team | Episode 1: Race Engineer'
+              src='https://img.youtube.com/vi/Q-5ZuOHBfbM/maxresdefault.jpg'
+              alt='Should More F1 Teams Copy Successful Cars? | Is It Just Me? Podcast'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,21 +32,21 @@ const Second: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=l4E90U1XSto'
+            href='https://www.youtube.com/watch?v=Q-5ZuOHBfbM'
             target='_blank'>
-            2020 Hungarian GP Race Review | WTF1 Podcast
+            Should More F1 Teams Copy Successful Cars? | Is It Just Me? Podcast
           </ContentLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            The 2020 F1 Hungarian Grand Prix provided us with action both before
-            and after the race! Join Matt & Tommy as they discuss Verstappen's
-            pre-race crash, why Bottas didn't get a penalty and how our
-            expectations for the race turned out to be a little too high.
+            Racing Point has proven that copying the fastest car on track gives
+            you a competitive boost over your rivals, so are the complaints from
+            Renault etc. founded? Or are they just mad they didn't think to do
+            it first? Jess and Luke discuss your opinions.
           </p>
 
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='https://wtf1.com/' target='_blank'>
-              wtf1.com
+            <ContentLink href='https://www.autosport.com/' target='_blank'>
+              autosport.com
             </ContentLink>
           </p>
         </div>

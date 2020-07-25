@@ -18,59 +18,44 @@ const BBC: React.FC = () => {
             Feature
           </div>
           <ActionLink
-            href='https://www.bbc.com/sport/formula1/53449283'
+            href='https://www.bbc.com/sport/formula1/53527355'
             target='_blank'>
-            What the teams said – Race day in Hungary
+            Formula 1: US, Mexican & Brazilian races will not go ahead in 2020
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            <strong>Mercedes</strong>
-            Hamilton had a dream start, led into the first corner and never
-            looked back as he scored his eighth win in Hungary and third in a
-            row – both records, as if he needed any more. That result has given
-            him the championship lead too. Bottas had to work a lot harder after
-            he nearly jumped the start. That brief pause let several cars
-            through down to the first corner, meaning the Finn had his work cut
-            out right from the off. He dispatched Stroll in the first round of
-            pit stops but, despite changing onto fresh tyres late on, ran out of
-            time to chase down Verstappen for second.
+            Formula 1 has called off the US, Mexican and Brazilian Grands Prix
+            this year as a result of the coronavirus crisis in the Americas.
+            With infection rates rising in the three countries, F1 bosses
+            believe it would be irresponsible to hold races there.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            <strong> Red Bull</strong>
-            Verstappen had a day to remember. He crashed on his way out of the
-            pits before the race had even started, and it was touch and go
-            whether he’d take the lights. A heroic effort from his crew was
-            immediately rewarded when the Dutchman launched himself up to second
-            in the early stages from seventh on the grid. Verstappen even
-            managed to split the Silver Arrows, extracting enough life from his
-            tyres to keep the charging Bottas at bay. As for Albon, he too made
-            steady progress up the field from a lowly starting slot, and made
-            several bold overtaking moves to come home an impressive fifth.
+            Instead, three further races in Europe are to be added to the
+            calendar. These will see a return for Germany's Nurburgring and
+            Imola in Italy, and an F1 debut for Portugal's Portimao track. The
+            US Grand Prix in Austin, Texas, had been due to be held on 23
+            October, with the Mexican race in Mexico City a week later and
+            Brazil on 13 November. But F1 officials have accepted that it will
+            be impossible to hold the races.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            <strong>Racing Point</strong>
-            Stroll had a great start and was running second early on, before
-            losing out in the pits to both Bottas and Verstappen. That aside,
-            the Canadian had a solid race and came home well ahead of the rest
-            of the field albeit some way behind the top three. As for Perez, he
-            lost places from the off and had a slow pit stop to boot. That meant
-            the Mexican was in traffic for most of the race but he at least
-            picked off a few midfield runners to get a good haul of points.
+            Any hopes of reviving the Canadian race, originally scheduled for
+            June and postponed in April, have also been abandoned. The
+            coronavirus has a much lower prevalence in Canada, but the country
+            has local restrictions and travel rules that make impossible to hold
+            a race.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            <strong>Ferrari</strong>
-            Vettel was racy off the start and right in the mix with Leclerc not
-            far behind. Ferrari opted to pit their drivers earlier than the rest
-            and it paid off for the German but Leclerc was put on the soft
-            compound tyre which didn’t work out and he dropped back through the
-            field. That left Vettel to fight it out for points and he held Albon
-            at bay for lap after lap despite his aging tyres but couldn’t keep
-            the quicker Red Bull behind and lost out right at the end of the
-            race.
+            An F1 statement said: "Due to the fluid nature of the ongoing
+            Covid-19 pandemic, local restrictions and the importance of keeping
+            communities and our colleagues safe, it will not be possible to race
+            in Brazil, USA, Mexico and Canada this season." The grand prix at
+            the Nurburgring, which last hosted a race in 2013, will be held on
+            11 October, when it will be vulnerable to bad weather.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.bbc.com/sport/formula1/53449283'
+              href='https://www.bbc.com/sport/formula1/53527355'
               target='_blank'>
               bbc.com
             </ContentLink>{' '}
