@@ -10,9 +10,12 @@ const Navigation: React.FunctionComponent = () => (
     <div className='w-20 xs:w-20 sm:w-20 md:w-32 pt-0 4xl:pt-0 4xl:h-24 4xl:py-0 4xl:w-full navigation fixed 4xl:relative top-0 left-0 bg-white-90'>
       <div className='mx-auto flex flex-col 4xl:flex-row justify-between 4xl:justify-center text-xs white whitespace-no-wrap py-2 xs:py-4 4xl:py-0 px-0 h-full overflow-y-auto flex-grow'>
         <div className='h-12 lg:h-16 pt-2 mb-8 flex flex-col 4xl:hidden '>
-          <div className='inline-block'>
-            <F1Plus />
-          </div>
+          <a href='/'>
+            {' '}
+            <div className='inline-block'>
+              <F1Plus />
+            </div>
+          </a>
         </div>
         <NavLink href='/mercedes-amg-f1' target='_self'>
           <div className='h-12 lg:h-16 pt-2 lg:pt-4 lg:pb-4 4xl:pt-5 4xl:pb-0 flex flex-col mercedes'>
