@@ -40,17 +40,17 @@ const Left: React.FC = () => {
             Vehicle Project Manager.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            The changes was induced after Ferrari started this season with more
+            The changes were induced after Ferrari started this season with more
             than a second a lap slower than that of the world champions and
             front runners Mercedes. The idea is to create a more vertical
-            organisation and clearly assign responsibility. Ferrari said in a
+            organization and clearly assign responsibility. Ferrari said in a
             statement they were "instituting a chain of command that is more
             focused and simplified and provides the heads of each department the
             necessary powers to achieve their objectives".
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
             As per Binotto, “As hinted at a few days ago, we are making changes
-            to the technical side of the organisation so as to speed up the
+            to the technical side of the organization so as to speed up the
             design and development on the car performance front,” “A change of
             direction was needed to define clear lines of responsibility and
             working processes, while reaffirming the company’s faith in its

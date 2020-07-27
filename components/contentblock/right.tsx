@@ -31,19 +31,19 @@ const Right: React.FC = () => {
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
             After the first triple-header in F1 history in 2018, F1 consciously
             decided that it would be better if they don't try it again. But the
-            current scenario forced the F1 to rethink this statergy and decided
+            current scenario forced the F1 to rethink this strategy and decided
             to have multiple triple header races. But this time they have a
             difference with two races in the triple headers will be hosted in
-            one venue which helps the teams and the officals altogether and most
-            importantly being able to bring something cheerful to people around
-            the world during this worse condtion.
+            one venue which helps the teams and the officials altogether and
+            most importantly being able to bring something cheerful to people
+            around the world during this worse condition.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
             Meanwhile McLaren team principal Andreas Seidl has alerted that
             triple-header races should not become the new routine for Formula
             1’s future calendars. Although Seidl welcomes the financial boost
             they provide during the pandemic], but he insists they are not worth
-            since it take serious toll on the people who are part of of F1 like
+            since it take serious toll on the people who are part of F1 like
             officials, team members, drivers, support staff etc. “We’re going
             now into the triple-header with these two races in the UK, which is
             obviously for the UK teams is not as bad as for some other teams,”
