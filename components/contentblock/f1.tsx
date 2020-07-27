@@ -8,7 +8,7 @@ const F1: React.FC = () => {
       <div className='h-32 sm:h-84 w-full'>
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
-          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1595848352/contentImages/content/silverstone-circuit_fiugzq.jpg'
+          src='https://res.cloudinary.com/f1plus/image/upload/c_scale,h_606,q_auto/v1595848352/contentImages/content/silverstone-circuit_fiugzq.jpg'
           alt='George Russell on Silverstone: The Williams drivers guide to the British Grand Prix circuit'
         />
       </div>
