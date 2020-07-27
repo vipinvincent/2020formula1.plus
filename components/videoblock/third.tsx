@@ -7,14 +7,15 @@ const Third: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=li8nrb4vgBE'
+        href='https://www.youtube.com/watch?v=446JcsWKVWg'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/li8nrb4vgBE/sddefault.jpg'
-              alt='Is Racing Points RP20 100% legal?'
+              src='https://img.youtube.com/vi/446JcsWKVWg/sddefault.jpg'
+              alt='Why Arent F1 Drivers Always Penalised For Jump Starts?
+'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,26 +33,20 @@ const Third: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=li8nrb4vgBE'
+            href='https://www.youtube.com/watch?v=446JcsWKVWg'
             target='_blank'>
-            Is Racing Point's RP20 100% legal?
+            Why Aren't F1 Drivers Always Penalised For Jump Starts?
           </ContentLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Mercedes driver Valtteri Bottas’ long-held dreams of becoming a
-            Formula One World Champion could soon be over if he doesn’t start
-            delivering the consistency required to lift the crown. Bottas was a
-            disappointing third in Budapest, a startline technical drama costing
-            him places and the standings lead to teammate Lewis Hamilton,
-            despite winning race one in Austria. Watch the video, and tell us
-            what you think in the comments…
+            Many F1 fans were left wondering why Valtteri Bottas wasn't given a
+            penalty at the 2020 F1 Hungarian GP. We dive into the exact reasons
+            why the Mercedes driver wasn't penalised.
           </p>
 
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink
-              href='https://unbeaten.com/formula1/F1-2020-24072020-BottasWCDreams'
-              target='_blank'>
-              unbeaten.com
+            <ContentLink href='http://www.wtf1.com/' target='_blank'>
+              wtf1.com
             </ContentLink>
           </p>
         </div>

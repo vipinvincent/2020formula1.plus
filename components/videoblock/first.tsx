@@ -7,14 +7,14 @@ const First: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=UDvh32oeCLM'
+        href='https://www.youtube.com/watch?v=grKvD-fya7I'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/UDvh32oeCLM/sddefault.jpg'
-              alt='Ferrari s F1 shake-up behind the scenes explained'
+              src='https://img.youtube.com/vi/grKvD-fya7I/sddefault.jpg'
+              alt='Why Renault has stood still in F1 2020'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,17 +32,16 @@ const First: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=UDvh32oeCLM'
+            href='https://www.youtube.com/watch?v=grKvD-fya7I'
             target='_blank'>
-            Ferrari's F1 shake-up behind the scenes explained
+            Why Renault has stood still in F1 2020
           </ContentLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Ferrari has announced the creation of a new 'performance
-            development' department in reaction to its poor start to the 2020 F1
-            season. We'll try to look beyond why it wasn't focusing on
-            developing its performance already (!), and in this video Scott
-            Mitchell explains the changes that have been made, and what
-            Ferrari's specific ambitions are for the new department.
+            As the competitive order of F1 teams in 2020 starts to emerge, one
+            that appears to be underperforming is Renault. Edd Straw delves into
+            the team's fortunes, how much progress it is making relative to the
+            front and its midfield rivals, and if there are any signs of hope
+            that things could get better soon.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}

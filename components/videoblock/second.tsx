@@ -7,14 +7,14 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=yBjY5eH8rGo'
+        href='https://www.youtube.com/watch?v=jGHqxKC-hAM'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/yBjY5eH8rGo/sddefault.jpg'
-              alt='F1 Driver Seat EXPLAINED!'
+              src='https://img.youtube.com/vi/jGHqxKC-hAM/sddefault.jpg'
+              alt='The Secret Evolution of F1 Cockpits'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,19 +32,23 @@ const Second: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=yBjY5eH8rGo'
+            href='https://www.youtube.com/watch?v=jGHqxKC-hAM'
             target='_blank'>
-            F1 Driver Seat EXPLAINED!
+            The Secret Evolution of F1 Cockpits
           </ContentLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Kicking off our new series of trackside explainers with F1 seats 👊
-            How are they made, why are they so special, and how do they keep a
-            driver safe... 🧠
+            F1 cockpits have changed over the years and have hidden many secret
+            devices that have allowed Formula 1 drivers to make their cars
+            faster. In this video, we take a look beyond the F1 steering wheel
+            and delve into how Formula One drivers have manged their cars over
+            the decades.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='https://www.mercedesamgf1.com/' target='_blank'>
-              mercedesamgf1.com/
+            <ContentLink
+              href='https://www.youtube.com/c/Driver61'
+              target='_blank'>
+              Driver61
             </ContentLink>
           </p>
         </div>

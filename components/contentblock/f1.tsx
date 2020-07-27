@@ -8,8 +8,8 @@ const F1: React.FC = () => {
       <div className='h-32 sm:h-84 w-full'>
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
-          src='https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Autodromo_aerea_poster.jpg/1280px-Autodromo_aerea_poster.jpg'
-          alt='6 reasons to be excited about the three new additions to F1’s 2020 race calendar'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1595848352/contentImages/content/silverstone-circuit_fiugzq.jpg'
+          alt='George Russell on Silverstone: The Williams drivers guide to the British Grand Prix circuit'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
@@ -18,64 +18,37 @@ const F1: React.FC = () => {
             Feature
           </div>
           <ActionLink
-            href='https://www.formula1.com/en/latest/article.6-reasons-to-be-excited-about-the-three-new-additions-to-f1s-2020-race.4c3gUGmRk3AFjxL5aLq0Xx.html'
+            href='https://www.formula1.com/en/latest/article.george-russell-on-silverstone-the-williams-drivers-guide-to-the-british.14n8hYiCj3Ozn5UkoniLpf.html'
             target='_blank'>
-            6 reasons to be excited about the three new additions to F1’s 2020
-            race calendar
+            George Russell on Silverstone: The Williams driver's guide to the
+            British Grand Prix circuit
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Three new races at Imola, Portimao and the Nurburgring have been
-            added to F1’s revised 2020 race calendar, and we couldn’t be more
-            excited. Here’s why you should be too.
-            <br />
-            Imola’s two-day format will spice things up… Aside from rain
-            interfering with proceedings, the modern Grand Prix weekend follows
-            a familiar format: three days comprising of three practice sessions
-            to dial-in set-up, assess tyres and test new parts, followed by
-            qualifying and the race. But for the Emilia Romagna Grand Prix at
-            Imola, that will be shaken up with the teams expected to have just
-            one practice session to prepare ahead of qualifying and the race.
-            The bad news means one fewer days to see F1’s best tackle the
-            magnificent challenge of Imola; the good news is that there’ll be
-            masses of action packed into two days – and hopefully plenty of
-            unpredictability. We can’t wait!
+            In this special feature from the British Grand Prix edition of the
+            Official Formula 1 Magazine, Williams driver George Russell details
+            his love of racing at Silverstone and shares his disappointment that
+            fans won’t be there to cheer him on at his home race...
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            …not that ‘old school’ Imola needed spicing up
-            <br />
-            When AlphaTauri tested at Imola ahead of 2020’s first race in
-            Austria, Daniil Kvyat and Pierre Gasly raved about the Italian
-            track. Neither has raced it in an F1 car, but both came away wanting
-            to. “It’s quite old school, it’s quite bumpy, the kerbs are
-            challenging,“ buzzed Kvyat. “You have these high-speed corners with
-            such a short run-off area, you really feel you’re at the limit of
-            the car,” added Gasly. F1 hasn’t raced at the circuit since 2006,
-            which makes the prospect of seeing a modern car tackling the
-            spectacular Acque Minerali or Rivazza even more tantalising. Imola
-            is often remembered for tragedy, but it’s also played host to some
-            epic moments – Alonso vs Schumacher in 2005, anyone? - and we can’t
-            wait for more!
+            I’ve always loved Silverstone. It’s amazing to think the perimeter
+            roads of an old RAF airfield have been pieced together to create
+            such an incredible Grand Prix circuit. Something so mega was created
+            from something so simple.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            F1 is going back to Portugal for the first time since 1996
-            <br />
-            Portugal has played host to some truly brilliant F1 moments over the
-            years: Stirling Moss’s brilliant win at Porto in 1958, Niki Lauda’s
-            dramatic half-point title win over Alain Prost in 1984, and Ayrton
-            Senna’s unforgettable maiden F1 victory in the wet in 1985, to name
-            just three. But Grand Prix racing has not been back to
-            motorsport-mad Portugal since Jacques Villeneuve took victory for
-            Williams in 1996, so it’s great that F1 is heading to the Algarve
-            International Circuit in Portimao for the first time. The
-            picturesque track, situated in the very south of the country, will
-            become the fourth Portuguese circuit after Porto, Monsanto and
-            Estoril to host a round of the world championship – and even better,
-            it’s going to be open to fans.
+            This year will we get the opportunity to race at my home track twice
+            – a week apart – and the second event, the 70th Anniversary Grand
+            Prix [on July 9], will celebrate seven decades of Formula 1, marking
+            the first world championship race to be held there in 1950. In the
+            early days of the sport, drivers used to compete not only in F1, but
+            in Formula 2 and touring cars, too. Back then, racing was incredibly
+            pure and dangerous, and I’m sure it was just as exhilarating as
+            today.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.formula1.com/en/latest/article.6-reasons-to-be-excited-about-the-three-new-additions-to-f1s-2020-race.4c3gUGmRk3AFjxL5aLq0Xx.html'
+              href='https://www.formula1.com/en/latest/article.george-russell-on-silverstone-the-williams-drivers-guide-to-the-british.14n8hYiCj3Ozn5UkoniLpf.html'
               target='_blank'>
               formula1.com
             </ContentLink>{' '}
