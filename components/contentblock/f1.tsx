@@ -8,46 +8,47 @@ const F1: React.FC = () => {
       <div className='h-32 sm:h-84 w-full'>
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
-          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1595051404/contentImages/content/ferrari_yxiws9.jpg'
-          alt='Ferrari chairman admits Scuderia will have to wait until 2022 for ‘return to winning’'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826961/contentImages/content/Sebastian-Vettel_vmkqku.jpg'
+          alt='Would I employ him? Probably not’ – Eddie Jordan on the prospect of Vettel joining Racing Point'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 py-4 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            Feature
+            PODCAST
           </div>
           <ActionLink
-            href='https://www.formula1.com/en/latest/article.ferrari-chairman-admits-scuderia-will-have-to-wait-until-2022-for-return-to.UOViZyylSU8Rqamj8JxBj.html'
+            href='https://www.formula1.com/en/latest/article.would-i-employ-him-probably-not-eddie-jordan-on-the-prospect-of-vettel.H3wtE4J6vqmMZ8bz55jIb.html'
             target='_blank'>
-            Ferrari chairman admits Scuderia will have to wait until 2022 for
-            ‘return to winning’
+            ‘Would I employ him? Probably not’ – Eddie Jordan on the prospect of
+            Vettel joining Racing Point
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            The start to the 2020 F1 campaign has been painful for Ferrari, and
-            their fans could be in for a wait for the famous Italian team to
-            bounce back as their chairman John Elkann says he does not expect
-            the red cars to be competitive until 2022…
+            With Sebastian Vettel’s future still uncertain, former F1 team boss
+            Eddie Jordan has spoken out about the rumours linking the four-time
+            champion to a seat at Racing Point – and says if it was him writing
+            the cheques, he wouldn’t be making a bid for the German’s
+            services...
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Having held ambitions of taking the fight to Mercedes for the World
-            Championship this season, Ferrari have instead slipped down into the
-            midfield, having taken the wrong direction with their aerodynamic
-            design and suffered a loss in power.
+            Racing Point started off life as Jordan Grand Prix back in 1991. And
+            while employing a world champion led to the team’s first win with
+            Damon Hill back in 1998, Jordan said that he would pass on Ferrari
+            driver Vettel, and keep in place the pairing of Lance Stroll and
+            Sergio Perez instead, were he running Racing Point today.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            And with the current cars largely set to carry over to next year,
-            Elkann, who was speaking to Italian newspaper Gazzetta dello Sport,
-            says their focus now is to make gains when the rules change for 2022
-            – while adding he has “total trust” in Team Principal Mattia Binotto
-            despite their tough start to 2020. "Today we are laying the
-            foundations for being competitive and returning to winning when the
-            rules change in 2022,” said Elkann. “I am convinced of it.
+            “Of course you’d love [Vettel] in the car,” Jordan told the F1
+            Nation podcast. “I got my best results, if you like, my first ever
+            win was with Damon Hill, and he was bordering on retiring age… So
+            for sure, four times world champion, Vettel is a huge prize for any
+            team. But would you destroy the team that has Sergio, plus income,
+            plus money, and a good rhythm inside the team?
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.formula1.com/en/latest/article.ferrari-chairman-admits-scuderia-will-have-to-wait-until-2022-for-return-to.UOViZyylSU8Rqamj8JxBj.html'
+              href='https://www.formula1.com/en/latest/article.would-i-employ-him-probably-not-eddie-jordan-on-the-prospect-of-vettel.H3wtE4J6vqmMZ8bz55jIb.html'
               target='_blank'>
               formula1.com
             </ContentLink>{' '}
