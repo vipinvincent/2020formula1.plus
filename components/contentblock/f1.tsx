@@ -8,8 +8,8 @@ const F1: React.FC = () => {
       <div className='h-32 sm:h-84 w-full'>
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
-          src='https://res.cloudinary.com/f1plus/image/upload/c_scale,h_606,q_auto/v1595848352/contentImages/content/silverstone-circuit_fiugzq.jpg'
-          alt='George Russell on Silverstone: The Williams drivers guide to the British Grand Prix circuit'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1595051404/contentImages/content/ferrari_yxiws9.jpg'
+          alt='Ferrari chairman admits Scuderia will have to wait until 2022 for ‘return to winning’'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
@@ -18,37 +18,36 @@ const F1: React.FC = () => {
             Feature
           </div>
           <ActionLink
-            href='https://www.formula1.com/en/latest/article.george-russell-on-silverstone-the-williams-drivers-guide-to-the-british.14n8hYiCj3Ozn5UkoniLpf.html'
+            href='https://www.formula1.com/en/latest/article.ferrari-chairman-admits-scuderia-will-have-to-wait-until-2022-for-return-to.UOViZyylSU8Rqamj8JxBj.html'
             target='_blank'>
-            George Russell on Silverstone: The Williams driver's guide to the
-            British Grand Prix circuit
+            Ferrari chairman admits Scuderia will have to wait until 2022 for
+            ‘return to winning’
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            In this special feature from the British Grand Prix edition of the
-            Official Formula 1 Magazine, Williams driver George Russell details
-            his love of racing at Silverstone and shares his disappointment that
-            fans won’t be there to cheer him on at his home race...
+            The start to the 2020 F1 campaign has been painful for Ferrari, and
+            their fans could be in for a wait for the famous Italian team to
+            bounce back as their chairman John Elkann says he does not expect
+            the red cars to be competitive until 2022…
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            I’ve always loved Silverstone. It’s amazing to think the perimeter
-            roads of an old RAF airfield have been pieced together to create
-            such an incredible Grand Prix circuit. Something so mega was created
-            from something so simple.
+            Having held ambitions of taking the fight to Mercedes for the World
+            Championship this season, Ferrari have instead slipped down into the
+            midfield, having taken the wrong direction with their aerodynamic
+            design and suffered a loss in power.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            This year will we get the opportunity to race at my home track twice
-            – a week apart – and the second event, the 70th Anniversary Grand
-            Prix [on July 9], will celebrate seven decades of Formula 1, marking
-            the first world championship race to be held there in 1950. In the
-            early days of the sport, drivers used to compete not only in F1, but
-            in Formula 2 and touring cars, too. Back then, racing was incredibly
-            pure and dangerous, and I’m sure it was just as exhilarating as
-            today.
+            And with the current cars largely set to carry over to next year,
+            Elkann, who was speaking to Italian newspaper Gazzetta dello Sport,
+            says their focus now is to make gains when the rules change for 2022
+            – while adding he has “total trust” in Team Principal Mattia Binotto
+            despite their tough start to 2020. "Today we are laying the
+            foundations for being competitive and returning to winning when the
+            rules change in 2022,” said Elkann. “I am convinced of it.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.formula1.com/en/latest/article.george-russell-on-silverstone-the-williams-drivers-guide-to-the-british.14n8hYiCj3Ozn5UkoniLpf.html'
+              href='https://www.formula1.com/en/latest/article.ferrari-chairman-admits-scuderia-will-have-to-wait-until-2022-for-return-to.UOViZyylSU8Rqamj8JxBj.html'
               target='_blank'>
               formula1.com
             </ContentLink>{' '}

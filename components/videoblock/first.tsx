@@ -7,14 +7,14 @@ const First: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=grKvD-fya7I'
+        href='https://www.youtube.com/watch?v=frM7fP_uYWY'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/grKvD-fya7I/sddefault.jpg'
-              alt='Why Renault has stood still in F1 2020'
+              src='https://img.youtube.com/vi/frM7fP_uYWY/sddefault.jpg'
+              alt='If Aston Martin is serious about F1 it cant pick Stroll over Perez'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,21 +32,25 @@ const First: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=grKvD-fya7I'
+            href='https://www.youtube.com/watch?v=frM7fP_uYWY'
             target='_blank'>
-            Why Renault has stood still in F1 2020
+            If Aston Martin is serious about F1 it can't pick Stroll over Perez
           </ContentLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            As the competitive order of F1 teams in 2020 starts to emerge, one
-            that appears to be underperforming is Renault. Edd Straw delves into
-            the team's fortunes, how much progress it is making relative to the
-            front and its midfield rivals, and if there are any signs of hope
-            that things could get better soon.
+            If Racing Point signs Sebastian Vettel for its rebrand as Aston
+            Martin in Formula 1 in 2021, it would be a clear sign of the team's
+            ambitions. But what it does with its second seat could tell us just
+            as much about how seriously we should take the project. If Aston
+            Martin really wants to take the fight to the big teams, it has to
+            keep Sergio Perez. If team owner Lawrence Stroll would prefer to
+            keep his son Lance - without a big upturn in the Canadian's
+            performances before that decision is taken - then it would weaken
+            the team just as we're supposed to be taking it more seriously.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
             <ContentLink
-              href='https://the-race.com/formula-1/video-ferraris-latest-f1-shake-up-explained/'
+              href='https://the-race.com/formula-1/the-one-simple-reason-racing-point-cannot-lose-perez/'
               target='_blank'>
               the-race.com
             </ContentLink>

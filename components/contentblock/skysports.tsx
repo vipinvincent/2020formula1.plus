@@ -18,34 +18,36 @@ const SkySports: React.FC = () => {
             Feature
           </div>
           <ActionLink
-            href='https://www.skysports.com/f1/news/36306/12029055/lando-norris-how-mclaren-star-has-turned-f1-potential-into-brilliance'
+            href='https://www.skysports.com/f1/news/12433/12037245/lando-norris-why-mclaren-can-stay-in-fight-for-third-and-his-development-in-f1'
             target='_blank'>
-            Lando Norris: How McLaren star has turned F1 potential into
-            brilliance
+            Lando Norris: Why McLaren can stay in fight for third and his
+            development in F1
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Team unity at McLaren played its part in the flying start to the
-            season enjoyed by Lando Norris. But so also did the sophomore
-            driver's superb personal performances.
+            Lando Norris believes McLaren can maintain a challenge for third
+            place in the Constructors' Championship over the season. McLaren
+            head into their home British GP this week behind only Mercedes and
+            Red Bull in the standings after a start to the season in which they
+            have already achieved three top-five race results - including a
+            maiden F1 podium for Norris in Austria.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Norrs is flying high after the opening two races of the season
-            around the Red Bull Ring. Over those two weekends he delivered
-            performances littered with sparkling moments of brilliance to get
-            his second season of F1 underway.
+            Back on the rise after a fourth-placed finish last year, McLaren
+            currently sit a point clear of Racing Point and 14 ahead of Ferrari,
+            who have slipped away from their usual front-running rivals at the
+            start of this campaign.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            There was his superb fourth-fastest qualifying lap for the Austrian
-            Grand Prix and his stunning late chase-down of the 5s penalty gap to
-            Lewis Hamilton the next day to secure his first podium. This was
-            followed up a week later with a similar late charge that took him
-            past three cars in the last two laps to win the 'Class B' battle
-            virtually on the line once again.
+            Speaking to Sky Sports News at the McLaren's Woking Technology
+            Centre ahead of the forthcoming Silverstone double-header, Norris
+            spoke with optimism about their prospects of remaining a threat
+            behind the current top two. "We can definitely fight for it," said
+            Norris, in an interview with Craig Slater.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.skysports.com/f1/news/36306/12029055/lando-norris-how-mclaren-star-has-turned-f1-potential-into-brilliance'
+              href='https://www.skysports.com/f1/news/12433/12037245/lando-norris-why-mclaren-can-stay-in-fight-for-third-and-his-development-in-f1'
               target='_blank'>
               skysports.com
             </ContentLink>{' '}

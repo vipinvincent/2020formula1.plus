@@ -7,14 +7,14 @@ const First: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=30fb31srbW8'
+        href='https://www.youtube.com/watch?v=Q2V8vxF4n40'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-40 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/30fb31srbW8/maxresdefault.jpg'
-              alt='2020 Styrian GP Race Review | WTF1 Podcast'
+              src='https://img.youtube.com/vi/Q2V8vxF4n40/sddefault.jpg'
+              alt='Will The 3 New F1 Tracks Produce Good Racing?'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -29,27 +29,24 @@ const First: React.FC = () => {
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-2 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            Interview
+            Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=30fb31srbW8'
+            href='https://www.youtube.com/watch?v=Q2V8vxF4n40'
             target='_blank'>
-            Alex Albon on his two Austrian races, locking down in Hungary & Red
-            Bull’s growing potential
+            Will The 3 New F1 Tracks Produce Good Racing?
           </ContentLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Alex Albon sat down with Ted Kravitz to reflect on the opening two
-            races of the season, locking down in Hungary, Red Bull’s potential
-            for the rest of the season and inspiring a younger generation from
-            his home country of Thailand.
+            F1 have announced three new races for the 2020 F1 season. Will
+            Portimao, Nurburgring and Imola provide some amazing action or will
+            they be a snoozefest? Join Matt & Tommy as they discuss your
+            questions.
           </p>
 
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink
-              href='https://www.skysports.com/f1/news'
-              target='_blank'>
-              skysports.com/
+            <ContentLink href='http://www.wtf1.com/' target='_blank'>
+              wtf1.com
             </ContentLink>
           </p>
         </div>

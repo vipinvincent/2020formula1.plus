@@ -13,49 +13,41 @@ const TheRace: React.FC = () => {
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
-        <div className='px-4 pt-4 pb-4 text-left'>
+        <div className='px-4 pt-4 pb-6 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
             Feature
           </div>
           <ActionLink
-            href='https://the-race.com/formula-1/why-spanish-gp-escapes-impact-of-country-losing-uk-exemption/'
+            href='https://the-race.com/formula-1/assessing-the-boldest-claim-about-racing-point-so-far/'
             target='_blank'>
-            Why Spanish GP escapes impact of country losing UK exemption
+            Assessing the boldest claim about Racing Point so far
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Formula 1’s Spanish Grand Prix should go ahead as planned despite
-            the country’s escalating COVID-19 difficulties prompting its removal
-            from the UK’s ‘travel corridors’ exemption list. Spain had
-            maintained a relatively low rate of new infections for over a month
-            but cases have spiked over the last two weeks, with as many as 4,581
-            new cases in one day on July 20.
+            Racing Point has courted controversy and bold statements throughout
+            2020 because of the design of its car and its performance on-track
+            since the season finally started. Being labelled a “podium contender
+            if not a race-winning contender going forward” and a team that
+            Mercedes will find “a hard nut to crack on some circuits” is among
+            the strongest proclamations.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            That has prompted the UK foreign office to remove Spain from the
-            list of countries where people do not have to self-isolate when
-            arriving into the UK, just three weeks before the Spanish GP at
-            Barcelona. Seven of the 10 F1 teams are based in the UK and avoiding
-            travel difficulties prompted by the coronavirus pandemic has been
-            crucial to the championship being able to begin.
+            Racing Point locked out the second row of the grid in Hungarian
+            Grand Prix qualifying, a second off Mercedes’ pace but as its
+            nearest challenger given the struggles of Ferrari and, surprisingly,
+            Red Bull.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            The 2020 season finally started earlier this month with strict
-            safety protocols allowing two races in Austria and then a third
-            event in Hungary. Teams are presently planning for this weekend’s
-            British Grand Prix, the first of two races at Silverstone before the
-            scheduled Spanish round.
-          </p>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            F1 should avoid impact from Spain’s problematic situational shift
-            because of its strict COVID-19 safety protocols and the UK travel
-            exemptions such procedures guarantee for elite sporting
-            competitions. So, while Spain as a country cannot benefit from
-            ‘travel corridors’ with the UK, F1 personnel can.
+            That prompted Mercedes boss Toto Wolff to say: “I am happy for
+            Racing Point because we were hearing in the past years that the
+            smaller teams on the smaller budgets were not able to compete at the
+            front and here we go. “Somebody with a vision and with an idea of
+            where to prioritise has managed to really make the jump from the
+            midfield into the top teams.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://the-race.com/formula-1/why-spanish-gp-escapes-impact-of-country-losing-uk-exemption/'
+              href='https://the-race.com/formula-1/assessing-the-boldest-claim-about-racing-point-so-far/'
               target='_blank'>
               the-race.com
             </ContentLink>{' '}
