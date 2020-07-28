@@ -83,8 +83,8 @@ const Right: React.FC = () => {
                 href='https://www.formula1.com/en/latest/article.buxton-why-my-admiration-for-the-teams-has-never-been-higher-after-f1s.pAWHgNXi6qMlS2qQZmCVt.html'
                 target='_blank'>
                 <img
-                  className='w-auto h-6 p-1 md:h-12 object-contain rounded-tl-lg rounded-br-lg border border-gray-300'
-                  src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826933/contentImages/logo/icon_ufqtuk.png'
+                  className='w-auto h-6 md:h-12 px-2 object-contain rounded-tl-lg rounded-br-lg border border-gray-300'
+                  src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826932/contentImages/logo/formula1_qd0yzg.jpg'
                   alt='f1.com'
                 />
               </ActionLink>
