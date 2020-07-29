@@ -21,10 +21,10 @@ const Main: React.FC = () => {
             <FirstVideo />
           </div>
           <div className='w-100 mt-4'>
-            <ThirdVideo />Í
+            <SecondVideo />
           </div>
           <div className='w-100 mt-4'>
-            <SecondVideo />
+            <ThirdVideo />
           </div>
         </div>
         <div className='w-100 flex flex-wrap lg:hidden xl:block md:w-full xl:w-1/3'>

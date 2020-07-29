@@ -7,13 +7,13 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=jGHqxKC-hAM'
+        href='https://www.youtube.com/watch?v=lM3634Vmnzs'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/jGHqxKC-hAM/sddefault.jpg'
+              src='https://img.youtube.com/vi/lM3634Vmnzs/sddefault.jpg'
               alt='The Secret Evolution of F1 Cockpits'
             />
           </div>
@@ -32,23 +32,21 @@ const Second: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=jGHqxKC-hAM'
+            href='https://www.youtube.com/watch?v=lM3634Vmnzs'
             target='_blank'>
-            The Secret Evolution of F1 Cockpits
+            LATEST F1 NEWS: Ferrari changes, 2020 calendar, Alex Zanardi, Lando
+            Norris
           </ContentLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            F1 cockpits have changed over the years and have hidden many secret
-            devices that have allowed Formula 1 drivers to make their cars
-            faster. In this video, we take a look beyond the F1 steering wheel
-            and delve into how Formula One drivers have manged their cars over
-            the decades.
+            Our latest Formula 1 2020 news updates as part of our rolling
+            coverage.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
             <ContentLink
-              href='https://www.youtube.com/c/Driver61'
+              href='https://unbeaten.com/formula1/F1-2020-29072020-LatestNews'
               target='_blank'>
-              Driver61
+              unbeaten.com
             </ContentLink>
           </p>
         </div>

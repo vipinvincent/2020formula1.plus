@@ -7,13 +7,13 @@ const Third: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=446JcsWKVWg'
+        href='https://www.youtube.com/watch?v=a8TjgIt6hTs'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/446JcsWKVWg/sddefault.jpg'
+              src='https://img.youtube.com/vi/a8TjgIt6hTs/sddefault.jpg'
               alt='Why Arent F1 Drivers Always Penalised For Jump Starts?
 '
             />
@@ -33,20 +33,22 @@ const Third: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=446JcsWKVWg'
+            href='https://www.youtube.com/watch?v=a8TjgIt6hTs'
             target='_blank'>
-            Why Aren't F1 Drivers Always Penalised For Jump Starts?
+            Formula 1 Drivers Pole Position Ranking 1950-2020
           </ContentLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Many F1 fans were left wondering why Valtteri Bottas wasn't given a
-            penalty at the 2020 F1 Hungarian GP. We dive into the exact reasons
-            why the Mercedes driver wasn't penalised.
+            Ranking of all poles by F1 drivers since 1950. At the end we will
+            also show how many Grand Prix wins each of the Top 20 F1 Drivers
+            have won.
           </p>
 
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='http://www.wtf1.com/' target='_blank'>
-              wtf1.com
+            <ContentLink
+              href='https://www.youtube.com/c/RacingStatistics/'
+              target='_blank'>
+              Racing Statistics
             </ContentLink>
           </p>
         </div>

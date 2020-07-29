@@ -7,13 +7,13 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=Q-5ZuOHBfbM'
+        href='https://www.youtube.com/watch?v=c_iu7o_a47k'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-40 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/Q-5ZuOHBfbM/maxresdefault.jpg'
+              src='https://img.youtube.com/vi/c_iu7o_a47k/maxresdefault.jpg'
               alt='Should More F1 Teams Copy Successful Cars? | Is It Just Me? Podcast'
             />
           </div>
@@ -32,21 +32,21 @@ const Second: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=Q-5ZuOHBfbM'
+            href='https://www.youtube.com/watch?v=c_iu7o_a47k'
             target='_blank'>
-            Should More F1 Teams Copy Successful Cars? | Is It Just Me? Podcast
+            What If Formula 1 Returned To The PROPER Nurburgring?
           </ContentLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Racing Point has proven that copying the fastest car on track gives
-            you a competitive boost over your rivals, so are the complaints from
-            Renault etc. founded? Or are they just mad they didn't think to do
-            it first? Jess and Luke discuss your opinions.
+            It'll never happen...but what if it did? If you enjoy the video then
+            please hit that like button!
           </p>
 
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='https://www.autosport.com/' target='_blank'>
-              autosport.com
+            <ContentLink
+              href='https://www.youtube.com/c/JimmyBroadbentSimRacer/'
+              target='_blank'>
+              Jimmy Broadbent
             </ContentLink>
           </p>
         </div>
