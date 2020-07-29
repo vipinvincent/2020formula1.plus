@@ -15,7 +15,7 @@ const F1: React.FC = () => {
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 py-4 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            PODCAST
+            News
           </div>
           <ActionLink
             href='https://www.formula1.com/en/latest/article.red-bull-recall-ricciardos-ex-race-engineer-simon-rennie-to-trackside-role.2QfzuYVWvBJwJT2kFKZN7q.html'
