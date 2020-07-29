@@ -55,11 +55,11 @@ export default function animation() {
             }}
             id='f1'>
             <motion.g
-              initial={{ scale: 0.8, x: 1000, y: 0 }}
+              initial={{ scale: 1, x: 500, y: 0 }}
               animate={{ scale: 1, x: 0, y: 0 }}
               exit={{ scale: 1, x: 0, y: 0 }}
               transition={{
-                duration: 5,
+                duration: 2,
                 ease: 'linear',
               }}
               id='car'>
@@ -443,7 +443,7 @@ export default function animation() {
               initial={{ scale: 0.8, x: 0, y: 0 }}
               animate={{ scale: 1, x: 0, y: 0 }}
               transition={{
-                duration: 4,
+                duration: 2,
                 ease: 'linear',
               }}
               id='logo'
