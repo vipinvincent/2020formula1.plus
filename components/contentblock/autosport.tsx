@@ -13,30 +13,30 @@ const AutoSport: React.FC = () => {
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
-        <div className='px-4 pt-4 pb-8 text-left'>
+        <div className='px-4 pt-4 pb-4 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
             News
           </div>
           <ActionLink
-            href='https://www.autosport.com/f1/news/150787/norris-happy-to-see-russell-make-f1-impact-in-2020'
+            href='https://www.autosport.com/f1/news/150896/ferrari-proposed-customer-cars-return-in-f1-covid-talks'
             target='_blank'>
-            Norris happy to see Russell making F1 impact with improved Williams
+            Ferrari proposed customer cars return during F1 COVID talks
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            McLaren Formula 1 driver Lando Norris says he is happy to see friend
-            and rival George Russell make an impact with a much-improved
-            Williams team.
+            Ferrari proposed a return of customer cars to Formula 1 during talks
+            to safeguard the sport's future, only for the move to be rejected by
+            the rest of the grid.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Russell was 12th in the wet qualifying session for the Styrian GP at
-            the Red Bull Ring, and then repeated that outcome in a dry session
-            in Hungary last weekend.
+            With the COVID-19 pandemic set to have a major impact on the revenue
+            of F1 teams, talks took place through spring to try and put measures
+            in place to support the entire grid.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            He had little luck in either race, with an early off in the Styrian
-            event and a poor start in Hungary hampering his chances, but
-            nevertheless his qualifying performances have been a timely reminder
-            of his talent.
+            It was ultimately decided to continue to race with the 2020 cars in
+            2021 to ease development costs for teams, consequently postponing
+            the new regulations until 2022, as well as reducing the budget cap
+            to $145 million from next year.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
             When asked for his thoughts on Russell's season by Autosport, Norris
@@ -52,7 +52,7 @@ const AutoSport: React.FC = () => {
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.autosport.com/f1/news/150787/norris-happy-to-see-russell-make-f1-impact-in-2020'
+              href='https://www.autosport.com/f1/news/150896/ferrari-proposed-customer-cars-return-in-f1-covid-talks'
               target='_blank'>
               autosport.com
             </ContentLink>{' '}

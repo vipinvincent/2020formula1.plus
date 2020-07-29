@@ -18,7 +18,7 @@ const BBC: React.FC = () => {
             Feature
           </div>
           <ActionLink
-            href='https://www.bbc.com/sport/formula1/53527355'
+            href='https://www.bbc.com/sport/formula1/53504023'
             target='_blank'>
             Formula 1: US, Mexican & Brazilian races will not go ahead in 2020
           </ActionLink>
@@ -55,7 +55,7 @@ const BBC: React.FC = () => {
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.bbc.com/sport/formula1/53527355'
+              href='https://www.bbc.com/sport/formula1/53504023'
               target='_blank'>
               bbc.com
             </ContentLink>{' '}

@@ -8,8 +8,8 @@ const F1: React.FC = () => {
       <div className='h-32 sm:h-84 w-full'>
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
-          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1595999412/contentImages/content/alex_lh4qcd.jpg'
-          alt='Red Bull recall Ricciardo’s ex-race engineer Simon Rennie to trackside role to run Albon’s car'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1596023549/contentImages/content/lando-norris_lpu8rx.jpg'
+          alt='I was in a pretty bad way – Norris explains pain problems in Austria but says hell be fine for British GP'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
@@ -18,38 +18,39 @@ const F1: React.FC = () => {
             News
           </div>
           <ActionLink
-            href='https://www.formula1.com/en/latest/article.red-bull-recall-ricciardos-ex-race-engineer-simon-rennie-to-trackside-role.2QfzuYVWvBJwJT2kFKZN7q.html'
+            href='https://www.formula1.com/en/latest/article.i-was-in-a-pretty-bad-way-norris-explains-pain-problems-in-austria-but-says.37MuQuZq6cRKEHWLbUYVxt.html'
             target='_blank'>
-            Red Bull recall Ricciardo’s ex-race engineer Simon Rennie to
-            trackside role to run Albon’s car
+            ‘I was in a pretty bad way' – Norris explains pain problems in
+            Austria but says he’ll be fine for British GP
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Alex Albon will have a new voice in his ear from this weekend’s
-            British Grand Prix onwards, with Red Bull opting to bring Simon
-            Rennie back trackside from a factory role… Rennie is no stranger to
-            trackside engineering, and has worked in F1 since 2004. He was Mark
-            Webber’s Race Engineer in 2013, before working with Daniel Ricciardo
-            from 2014 to 2018.
+            Lando Norris will long have fond memories of the Red Bull Ring after
+            scoring his first podium in the Austrian GP, then following it up
+            with fifth in the Styrian GP. The latter was particularly impressive
+            given he was suffering from chest pain – which was so bad he needed
+            painkillers just to be able to drive the car…
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            He opted to take a non-travelling role ahead of the 2019 season,
-            with Ricciardo subsequently deciding to leave Red Bull for Renault.
-            And in a bid to increase the speed of Albon’s development, Red Bull
-            have decided to “strengthen the experience and knowledge base of its
-            trackside engineering group” by recalling Rennie and making him
-            Albon’s Race Engineer.
+            The McLaren driver, who will this weekend compete on home soil at
+            Silverstone for the British GP, complained of pains after Friday
+            practice at the Red Bull Ring, and subsequently headed back to the
+            UK before Hungary to see a specialist and have some scans to
+            diagnose the problem.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Mike Lugg, who previously held that role, will stay with the team,
-            moving to a role based at the team’s Milton Keynes factory. Red Bull
-            have failed to live up to pre-season expectations so far thie year,
-            the energy drinks backed team struggling to get the most out of the
-            RB16, and trailing championship leaders Mercedes by 66 points.
+            They revealed he had suffered bruising – the result of having got
+            back into an F1 car after a long period of time – but he’s confident
+            he’ll be fine for Silverstone. “I’m doing better thanks,” he said in
+            a video conference call on Zoom. “Hungary was much better already
+            than the Red Bull Ring race – round two. There I was in a pretty bad
+            way. I couldn’t drive without being on the painkillers at all so
+            that was a bit of a lifesaver from my end in just letting me get out
+            on track and drive.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.formula1.com/en/latest/article.red-bull-recall-ricciardos-ex-race-engineer-simon-rennie-to-trackside-role.2QfzuYVWvBJwJT2kFKZN7q.html'
+              href='https://www.formula1.com/en/latest/article.i-was-in-a-pretty-bad-way-norris-explains-pain-problems-in-austria-but-says.37MuQuZq6cRKEHWLbUYVxt.html'
               target='_blank'>
               formula1.com
             </ContentLink>{' '}
