@@ -8,8 +8,8 @@ const F1: React.FC = () => {
       <div className='h-32 sm:h-84 w-full'>
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
-          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826961/contentImages/content/Sebastian-Vettel_vmkqku.jpg'
-          alt='Would I employ him? Probably not’ – Eddie Jordan on the prospect of Vettel joining Racing Point'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826961/contentImages/content/redbull-mercedes_ikkneb.jpg'
+          alt='Red Bull recall Ricciardo’s ex-race engineer Simon Rennie to trackside role to run Albon’s car'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
@@ -18,37 +18,38 @@ const F1: React.FC = () => {
             PODCAST
           </div>
           <ActionLink
-            href='https://www.formula1.com/en/latest/article.would-i-employ-him-probably-not-eddie-jordan-on-the-prospect-of-vettel.H3wtE4J6vqmMZ8bz55jIb.html'
+            href='https://www.formula1.com/en/latest/article.red-bull-recall-ricciardos-ex-race-engineer-simon-rennie-to-trackside-role.2QfzuYVWvBJwJT2kFKZN7q.html'
             target='_blank'>
-            ‘Would I employ him? Probably not’ – Eddie Jordan on the prospect of
-            Vettel joining Racing Point
+            Red Bull recall Ricciardo’s ex-race engineer Simon Rennie to
+            trackside role to run Albon’s car
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            With Sebastian Vettel’s future still uncertain, former F1 team boss
-            Eddie Jordan has spoken out about the rumours linking the four-time
-            champion to a seat at Racing Point – and says if it was him writing
-            the cheques, he wouldn’t be making a bid for the German’s
-            services...
+            Alex Albon will have a new voice in his ear from this weekend’s
+            British Grand Prix onwards, with Red Bull opting to bring Simon
+            Rennie back trackside from a factory role… Rennie is no stranger to
+            trackside engineering, and has worked in F1 since 2004. He was Mark
+            Webber’s Race Engineer in 2013, before working with Daniel Ricciardo
+            from 2014 to 2018.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Racing Point started off life as Jordan Grand Prix back in 1991. And
-            while employing a world champion led to the team’s first win with
-            Damon Hill back in 1998, Jordan said that he would pass on Ferrari
-            driver Vettel, and keep in place the pairing of Lance Stroll and
-            Sergio Perez instead, were he running Racing Point today.
+            He opted to take a non-travelling role ahead of the 2019 season,
+            with Ricciardo subsequently deciding to leave Red Bull for Renault.
+            And in a bid to increase the speed of Albon’s development, Red Bull
+            have decided to “strengthen the experience and knowledge base of its
+            trackside engineering group” by recalling Rennie and making him
+            Albon’s Race Engineer.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            “Of course you’d love [Vettel] in the car,” Jordan told the F1
-            Nation podcast. “I got my best results, if you like, my first ever
-            win was with Damon Hill, and he was bordering on retiring age… So
-            for sure, four times world champion, Vettel is a huge prize for any
-            team. But would you destroy the team that has Sergio, plus income,
-            plus money, and a good rhythm inside the team?
+            Mike Lugg, who previously held that role, will stay with the team,
+            moving to a role based at the team’s Milton Keynes factory. Red Bull
+            have failed to live up to pre-season expectations so far thie year,
+            the energy drinks backed team struggling to get the most out of the
+            RB16, and trailing championship leaders Mercedes by 66 points.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.formula1.com/en/latest/article.would-i-employ-him-probably-not-eddie-jordan-on-the-prospect-of-vettel.H3wtE4J6vqmMZ8bz55jIb.html'
+              href='https://www.formula1.com/en/latest/article.red-bull-recall-ricciardos-ex-race-engineer-simon-rennie-to-trackside-role.2QfzuYVWvBJwJT2kFKZN7q.html'
               target='_blank'>
               formula1.com
             </ContentLink>{' '}
