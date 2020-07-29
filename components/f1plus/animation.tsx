@@ -55,10 +55,11 @@ export default function animation() {
             }}
             id='f1'>
             <motion.g
-              initial={{ scale: 1, x: 500, y: 0 }}
-              animate={{ scale: 1, x: 0, y: 0 }}
-              exit={{ scale: 1, x: 0, y: 0 }}
+              initial={{ opacity: 0, scale: 0.8, x: 1000, y: 0 }}
+              animate={{ opacity: 1, scale: 1, x: 0, y: 0 }}
+              exit={{ opacity: 1, scale: 1, x: 0, y: 0 }}
               transition={{
+                delay: 2,
                 duration: 2,
                 ease: 'linear',
               }}
@@ -440,7 +441,7 @@ export default function animation() {
               </motion.g>
             </motion.g>
             <motion.g
-              initial={{ scale: 0.8, x: 0, y: 0 }}
+              initial={{ scale: 0.9, x: 0, y: 0 }}
               animate={{ scale: 1, x: 0, y: 0 }}
               transition={{
                 duration: 2,
