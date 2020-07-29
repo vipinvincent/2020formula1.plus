@@ -8,7 +8,7 @@ const F1: React.FC = () => {
       <div className='h-32 sm:h-84 w-full'>
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
-          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826961/contentImages/content/redbull-mercedes_ikkneb.jpg'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1595999412/contentImages/content/alex_lh4qcd.jpg'
           alt='Red Bull recall Ricciardo’s ex-race engineer Simon Rennie to trackside role to run Albon’s car'
         />
       </div>
