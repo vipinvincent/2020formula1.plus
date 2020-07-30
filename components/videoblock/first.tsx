@@ -7,14 +7,14 @@ const First: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=frM7fP_uYWY'
+        href='https://www.youtube.com/watch?v=cEdFDd2WUc4'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/frM7fP_uYWY/sddefault.jpg'
-              alt='If Aston Martin is serious about F1 it cant pick Stroll over Perez'
+              src='https://img.youtube.com/vi/cEdFDd2WUc4/sddefault.jpg'
+              alt='10 manufacturers that failed in F1'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,25 +32,21 @@ const First: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=frM7fP_uYWY'
+            href='https://www.youtube.com/watch?v=cEdFDd2WUc4'
             target='_blank'>
-            If Aston Martin is serious about F1 it can't pick Stroll over Perez
+            10 manufacturers that failed in F1
           </ContentLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            If Racing Point signs Sebastian Vettel for its rebrand as Aston
-            Martin in Formula 1 in 2021, it would be a clear sign of the team's
-            ambitions. But what it does with its second seat could tell us just
-            as much about how seriously we should take the project. If Aston
-            Martin really wants to take the fight to the big teams, it has to
-            keep Sergio Perez. If team owner Lawrence Stroll would prefer to
-            keep his son Lance - without a big upturn in the Canadian's
-            performances before that decision is taken - then it would weaken
-            the team just as we're supposed to be taking it more seriously.
+            Car manufacturers have dominated the F1 landscape throughout the
+            history of the world championship. But for all of those that have
+            succeeded at the highest level, there are many more that have got
+            nowhere near true glory. In this list Edd Straw revisits 10
+            manufacturer F1 projects that fell well short of expectations.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
             <ContentLink
-              href='https://the-race.com/formula-1/the-one-simple-reason-racing-point-cannot-lose-perez/'
+              href='https://the-race.com/formula-1/shouldve-been-mega-toyota-in-f1/'
               target='_blank'>
               the-race.com
             </ContentLink>

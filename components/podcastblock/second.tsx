@@ -7,14 +7,14 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=c_iu7o_a47k'
+        href='https://www.youtube.com/watch?v=04YRZ7k58yY'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-40 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/c_iu7o_a47k/maxresdefault.jpg'
-              alt='Should More F1 Teams Copy Successful Cars? | Is It Just Me? Podcast'
+              src='https://img.youtube.com/vi/04YRZ7k58yY/maxresdefault.jpg'
+              alt='Designing the Gulf x McLaren 2021 Formula 1 Car'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,21 +32,24 @@ const Second: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=c_iu7o_a47k'
+            href='https://www.youtube.com/watch?v=04YRZ7k58yY'
             target='_blank'>
-            What If Formula 1 Returned To The PROPER Nurburgring?
+            Designing the Gulf x McLaren 2021 Formula 1 Car
           </ContentLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            It'll never happen...but what if it did? If you enjoy the video then
-            please hit that like button!
+            So McLaren announced the rekindling of their partnership with Gulf
+            Oil earlier this year. It's a partnership that has extended decades,
+            way back into the foundations of the McLaren motorsport brand. So
+            today, I thought I'd make my attempt of creating what could be the
+            Gulf branded McLaren 2021 livery.
           </p>
 
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
             <ContentLink
-              href='https://www.youtube.com/c/JimmyBroadbentSimRacer/'
+              href='https://www.youtube.com/channel/UCFHaLSX-Kqy5pGTszklkE8w'
               target='_blank'>
-              Jimmy Broadbent
+              Tommo F1
             </ContentLink>
           </p>
         </div>

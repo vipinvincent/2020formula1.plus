@@ -7,13 +7,13 @@ const Third: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=a8TjgIt6hTs'
+        href='https://www.youtube.com/watch?v=btEcNjIz-4U'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/a8TjgIt6hTs/sddefault.jpg'
+              src='https://img.youtube.com/vi/btEcNjIz-4U/sddefault.jpg'
               alt='Why Arent F1 Drivers Always Penalised For Jump Starts?
 '
             />
@@ -33,22 +33,22 @@ const Third: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=a8TjgIt6hTs'
+            href='https://www.youtube.com/watch?v=btEcNjIz-4U'
             target='_blank'>
-            Formula 1 Drivers Pole Position Ranking 1950-2020
+            Why The Double Diffuser Was (Down)Forced Out Of F1
           </ContentLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Ranking of all poles by F1 drivers since 1950. At the end we will
-            also show how many Grand Prix wins each of the Top 20 F1 Drivers
-            have won.
+            Throughout F1's History we've seen many innovations come and go,
+            more often than not through ingenious loopholes being found in the
+            regulations. One of the best examples of this took place over the
+            2009 season, with the infamous double diffuser being such a vital
+            addition that it led to an arms race.
           </p>
 
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink
-              href='https://www.youtube.com/c/RacingStatistics/'
-              target='_blank'>
-              Racing Statistics
+            <ContentLink href='https://www.autosport.com/' target='_blank'>
+              autosport.com
             </ContentLink>
           </p>
         </div>

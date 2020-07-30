@@ -7,14 +7,15 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=lM3634Vmnzs'
+        href='https://www.youtube.com/watch?v=Mygi1yY2c04'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/lM3634Vmnzs/sddefault.jpg'
-              alt='The Secret Evolution of F1 Cockpits'
+              src='https://img.youtube.com/vi/Mygi1yY2c04/sddefault.jpg'
+              alt='7 F1 Drivers That Were SO Bad They ll Never Be Forgotten
+'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,21 +33,18 @@ const Second: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=lM3634Vmnzs'
+            href='https://www.youtube.com/watch?v=Mygi1yY2c04'
             target='_blank'>
-            LATEST F1 NEWS: Ferrari changes, 2020 calendar, Alex Zanardi, Lando
-            Norris
+            7 F1 Drivers That Were SO Bad They'll Never Be Forgotten
           </ContentLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Our latest Formula 1 2020 news updates as part of our rolling
-            coverage.
+            Ever wondered who are the worst F1 drivers to ever drive in the
+            sport? Well wonder no more, here are 7 of the absolute WORST.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink
-              href='https://unbeaten.com/formula1/F1-2020-29072020-LatestNews'
-              target='_blank'>
-              unbeaten.com
+            <ContentLink href='http://www.wtf1.com/' target='_blank'>
+              wtf1.com
             </ContentLink>
           </p>
         </div>

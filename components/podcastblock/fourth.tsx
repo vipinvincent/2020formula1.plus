@@ -7,14 +7,14 @@ const Fourth: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=0ipQheRkOy0'
+        href='https://www.youtube.com/watch?v=GIufxJDLPbs'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-40 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/0ipQheRkOy0/maxresdefault.jpg'
-              alt='2020 F1 Hungarian GP Podcast - Unbiased F1 Podcast'
+              src='https://img.youtube.com/vi/GIufxJDLPbs/maxresdefault.jpg'
+              alt='Daniel Ricciardo previews the Formula 1 British Grand Prix'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,22 +32,21 @@ const Fourth: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=0ipQheRkOy0'
+            href='https://www.youtube.com/watch?v=GIufxJDLPbs'
             target='_blank'>
-            Bottas Jump Start Analysis & What Everyone Missed: Formula 1 Onboard
-            Breakdown
+            Daniel Ricciardo previews the Formula 1 British Grand Prix
           </ContentLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            The Valtteri Bottas jump start at the Hungarian GP was more than
-            just a simple misread of the lights. Here's what everyone missed in
-            their analysis and why this sets a bad precedent. Skip to 4:25 for
-            the analysis section. Subscribe for more F1 Analysis:
-            http://bit.ly/CYF1Sub
+            Renault F1 driver Daniel Ricciardo is looking forward to this
+            weekend's British Grand Prix. The Aussie is open to a flight-saving
+            Silverstone triple-header if the Spanish GP is cancelled due to
+            lockdown restrictions and is full of excitement at the prospect of
+            racing at Imola, Mugello, Portimao and the Nurburgring during 2020
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='https://www.crankyyankeef1.com/' target='_blank'>
-              CrankyYankeeF1
+            <ContentLink href='http://www.planetf1.com' target='_blank'>
+              planetf1.com
             </ContentLink>
           </p>
         </div>
