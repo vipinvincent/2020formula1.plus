@@ -7,13 +7,13 @@ const Third: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=5A3wSeuwE'
+        href='https://www.youtube.com/watch?v=I-5A3wSeuwE'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
-              src='http://i3.ytimg.com/vi/I-5A3wSeuwE/hqdefault.jpg'
+              src='https://img.youtube.com/vi/I-5A3wSeuwE/sddefault.jpg'
               alt='Why F1 Has Always Been A Copying Championship'
             />
           </div>
@@ -32,7 +32,7 @@ const Third: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=5A3wSeuwE'
+            href='https://www.youtube.com/watch?v=I-5A3wSeuwE'
             target='_blank'>
             Why F1 Has Always Been A "Copying Championship"
           </ContentLink>
