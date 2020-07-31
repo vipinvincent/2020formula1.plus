@@ -8,7 +8,7 @@ import TheRace from 'components/contentblock/therace'
 // import PlanetF1 from 'components/contentblock/planetf1'
 import GrandPrix from 'components/contentblock/grandprix'
 // import ESPN from 'components/contentblock/espn'
-import AutoSport from 'components/contentblock/autosport'
+// import AutoSport from 'components/contentblock/autosport'
 
 import FirstContent from 'components/contentblock/main'
 import SecondContent from 'components/contentblock/left'
