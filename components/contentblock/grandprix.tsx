@@ -18,37 +18,33 @@ const TheRace: React.FC = () => {
             Feature
           </div>
           <ActionLink
-            href='https://www.grandprix247.com/2020/07/29/marko-if-pink-mercedes-is-approved-we-can-do-the-same-with-alphatauri/'
+            href='https://www.grandprix247.com/2020/07/31/bottas-fuelling-issue-cost-me-time-in-hungary/'
             target='_blank'>
-            Marko: If Pink Mercedes is approved, we can do the same with
-            AlphaTauri
+            Bottas: Fuelling issue cost me time in Hungary
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            AlphaTauri could follow in the footsteps of Racing Point by
-            producing a copy of Red Bull’s car, says team advisor Helmut Marko.
-            Currently under protest by Renault, the Racing Point RP20 is in many
-            ways a copy of technical-partners Mercedes’ 2019 car, the W10, and
-            is alleged to have illegally used the same brake duct design on its
-            2020 challenger.
+            Mercedes put too much fuel in Valtteri Bottas’s car for Hungarian
+            Grand Prix qualifying after also making a ride-height error in
+            Austria, Lewis Hamilton’s team mate and closest Formula 1 rival
+            revealed on Thursday.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            With a verdict expected before the British Grand Prix this weekend,
-            Marko says a dismissal could lead him to pursue a similar avenue
-            with Red Bull sister team AlphaTauri, even if he understands why
-            some in the paddock remain opposed to such a practice.
+            The Finn won the season-opener in Austria this month but lost to
+            Hamilton in the second and third races when the mistakes were made,
+            leaving him five points adrift of the six-times world champion.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            “I have no problem, if that is allowed,” he told Kronen Zeitung.
-            “Then we can do the same with Alpha Tauri and save money on top of
-            it. But this secret trickery bothers me. If it is allowed, then it
-            should be allowed and you can stand by it one hundred percent. “We’d
-            have, like, four Red Bulls. But for teams like Renault or McLaren
-            that don’t have a B team, it’s a problem.”
+            “There was an issue with the fuelling system, something with the
+            pipe or the vent where the fuel goes, so it was around two kilos or
+            a bit more over-fuelled in qualifying,” he told reporters at the
+            British Grand Prix. “I think they said it (cost) like eight
+            hundredths (of a second) per lap,” he added. Hamilton beat Bottas to
+            pole position in Hungary by 0.107 seconds.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.grandprix247.com/2020/07/29/marko-if-pink-mercedes-is-approved-we-can-do-the-same-with-alphatauri/'
+              href='https://www.grandprix247.com/2020/07/31/bottas-fuelling-issue-cost-me-time-in-hungary/'
               target='_blank'>
               grandprix247.com
             </ContentLink>{' '}

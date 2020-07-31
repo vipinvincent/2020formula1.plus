@@ -7,15 +7,14 @@ const Third: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=btEcNjIz-4U'
+        href='https://www.youtube.com/watch?v=5A3wSeuwE'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/btEcNjIz-4U/sddefault.jpg'
-              alt='Why Arent F1 Drivers Always Penalised For Jump Starts?
-'
+              src='http://i3.ytimg.com/vi/I-5A3wSeuwE/hqdefault.jpg'
+              alt='Why F1 Has Always Been A Copying Championship'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -33,16 +32,14 @@ const Third: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=btEcNjIz-4U'
+            href='https://www.youtube.com/watch?v=5A3wSeuwE'
             target='_blank'>
-            Why The Double Diffuser Was (Down)Forced Out Of F1
+            Why F1 Has Always Been A "Copying Championship"
           </ContentLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Throughout F1's History we've seen many innovations come and go,
-            more often than not through ingenious loopholes being found in the
-            regulations. One of the best examples of this took place over the
-            2009 season, with the infamous double diffuser being such a vital
-            addition that it led to an arms race.
+            The Formula 1 paddock's frustration with Racing Point's 'pink
+            Mercedes' seems to grow weekend by weekend...but are they forgetting
+            that "copying" has *always* been a part of F1?
           </p>
 
           <p className='mt-1 text-base leading-normal text-gray-700'>

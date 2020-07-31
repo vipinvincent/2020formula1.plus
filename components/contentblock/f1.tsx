@@ -8,8 +8,8 @@ const F1: React.FC = () => {
       <div className='h-32 sm:h-84 w-full'>
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
-          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1596023549/contentImages/content/lando-norris_lpu8rx.jpg'
-          alt='I was in a pretty bad way – Norris explains pain problems in Austria but says hell be fine for British GP'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826962/contentImages/content/racingpoint_uujvyf.jpg'
+          alt='Hulkenberg confirmed as Perezs replacement at Racing Point for the British GP'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
@@ -18,39 +18,36 @@ const F1: React.FC = () => {
             News
           </div>
           <ActionLink
-            href='https://www.formula1.com/en/latest/article.i-was-in-a-pretty-bad-way-norris-explains-pain-problems-in-austria-but-says.37MuQuZq6cRKEHWLbUYVxt.html'
+            href='https://www.formula1.com/en/latest/article.hulkenberg-set-to-be-confirmed-as-perez-replacement-racing-point-british-gp.6k5DOb9L6OqwFLCW3P6nGz.html'
             target='_blank'>
-            ‘I was in a pretty bad way' – Norris explains pain problems in
-            Austria but says he’ll be fine for British GP
+            Hulkenberg confirmed as Perez's replacement at Racing Point for the
+            British GP
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Lando Norris will long have fond memories of the Red Bull Ring after
-            scoring his first podium in the Austrian GP, then following it up
-            with fifth in the Styrian GP. The latter was particularly impressive
-            given he was suffering from chest pain – which was so bad he needed
-            painkillers just to be able to drive the car…
+            Nico Hulkenberg is set to make a shock return to Formula 1 as Sergio
+            Perez’s replacement at Racing Point for this weekend’s British Grand
+            Prix, with the German spotted outside Silverstone on Friday morning.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            The McLaren driver, who will this weekend compete on home soil at
-            Silverstone for the British GP, complained of pains after Friday
-            practice at the Red Bull Ring, and subsequently headed back to the
-            UK before Hungary to see a specialist and have some scans to
-            diagnose the problem.
+            Perez tested positive for Covid-19 on Thursday, leaving Racing Point
+            in need of a driver, and it seems they have turned to a man who
+            raced for them in their Force India guise in 2012, and from 2014 to
+            2016. Hulkenberg left Formula 1 at the end of last season after
+            Renault opted not to renew his contract and he did not find a
+            suitable drive elsewhere on the grid. But at the time, he told
+            F1.com it didn't feel like it was the end.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            They revealed he had suffered bruising – the result of having got
-            back into an F1 car after a long period of time – but he’s confident
-            he’ll be fine for Silverstone. “I’m doing better thanks,” he said in
-            a video conference call on Zoom. “Hungary was much better already
-            than the Red Bull Ring race – round two. There I was in a pretty bad
-            way. I couldn’t drive without being on the painkillers at all so
-            that was a bit of a lifesaver from my end in just letting me get out
-            on track and drive.
+            He was linked to a return to Renault for 2021, but missed out after
+            the French manufacturer opted to facilitate double world champion
+            Fernando Alonso’s sensational return. But sources confirmed to
+            Formula1.com on Thursday that Hulkenberg was the team’s leading
+            contender to step in for Perez, who is now in self-isolation.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.formula1.com/en/latest/article.i-was-in-a-pretty-bad-way-norris-explains-pain-problems-in-austria-but-says.37MuQuZq6cRKEHWLbUYVxt.html'
+              href='https://www.formula1.com/en/latest/article.hulkenberg-set-to-be-confirmed-as-perez-replacement-racing-point-british-gp.6k5DOb9L6OqwFLCW3P6nGz.html'
               target='_blank'>
               formula1.com
             </ContentLink>{' '}

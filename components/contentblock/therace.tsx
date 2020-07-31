@@ -18,36 +18,35 @@ const TheRace: React.FC = () => {
             Feature
           </div>
           <ActionLink
-            href='https://the-race.com/formula-1/assessing-the-boldest-claim-about-racing-point-so-far/'
+            href='https://the-race.com/formula-1/perez-got-covid-19-after-mexico-visit-to-see-injured-mother/'
             target='_blank'>
-            Assessing the boldest claim about Racing Point so far
+            Perez got COVID-19 after Mexico visit to see injured mother
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Racing Point has courted controversy and bold statements throughout
-            2020 because of the design of its car and its performance on-track
-            since the season finally started. Being labelled a “podium contender
-            if not a race-winning contender going forward” and a team that
-            Mercedes will find “a hard nut to crack on some circuits” is among
-            the strongest proclamations.
+            Sergio Perez contracted COVID-19 after returning to Mexico between
+            Formula 1 races to visit his mother after an accident, but says he
+            observed safety protocols and has now suffered “one of the saddest
+            days in my career”.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Racing Point locked out the second row of the grid in Hungarian
-            Grand Prix qualifying, a second off Mercedes’ pace but as its
-            nearest challenger given the struggles of Ferrari and, surprisingly,
-            Red Bull.
+            Sergio Perez contracted COVID-19 after returning to Mexico between
+            Formula 1 races to visit his mother after an accident, but says he
+            observed safety protocols and has now suffered “one of the saddest
+            days in my career”.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            That prompted Mercedes boss Toto Wolff to say: “I am happy for
-            Racing Point because we were hearing in the past years that the
-            smaller teams on the smaller budgets were not able to compete at the
-            front and here we go. “Somebody with a vision and with an idea of
-            where to prioritise has managed to really make the jump from the
-            midfield into the top teams.
+            Perez’s first test result was inconclusive and he remained in
+            isolation after taking a re-test, which yielded a positive result.
+            While events are ongoing, and especially with back-to-back races
+            like at Silverstone or the season-opener in Austria, F1 personnel
+            trackside are asked to limit their movements and respect ‘bubbles’
+            during race weekends to minimise the potential to contract the
+            virus.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://the-race.com/formula-1/assessing-the-boldest-claim-about-racing-point-so-far/'
+              href='https://the-race.com/formula-1/perez-got-covid-19-after-mexico-visit-to-see-injured-mother/'
               target='_blank'>
               the-race.com
             </ContentLink>{' '}

@@ -7,14 +7,14 @@ const First: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=Q2V8vxF4n40'
+        href='https://www.youtube.com/watch?v=f79pNOUeqj8'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-40 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/Q2V8vxF4n40/sddefault.jpg'
-              alt='Will The 3 New F1 Tracks Produce Good Racing?'
+              src='https://img.youtube.com/vi/f79pNOUeqj8/sddefault.jpg'
+              alt='Weekend Warm Up! 2020 British Grand Prix'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,15 +32,14 @@ const First: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=Q2V8vxF4n40'
+            href='https://www.youtube.com/watch?v=f79pNOUeqj8'
             target='_blank'>
-            Will The 3 New F1 Tracks Produce Good Racing?
+            Weekend Warm Up! 2020 British Grand Prix
           </ContentLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            F1 have announced three new races for the 2020 F1 season. Will
-            Portimao, Nurburgring and Imola provide some amazing action or will
-            they be a snoozefest? Join Matt & Tommy as they discuss your
-            questions.
+            Hello Silverstone! Join Will and Lawrence for your preview of the
+            weekend's action as we arrive on location for the British Grand
+            Prix.
           </p>
 
           <p className='mt-1 text-base leading-normal text-gray-700'>

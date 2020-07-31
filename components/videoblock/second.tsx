@@ -7,15 +7,14 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=Mygi1yY2c04'
+        href='https://www.youtube.com/watch?v=ppP0lMXlGtQ'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/Mygi1yY2c04/sddefault.jpg'
-              alt='7 F1 Drivers That Were SO Bad They ll Never Be Forgotten
-'
+              src='https://img.youtube.com/vi/ppP0lMXlGtQ/sddefault.jpg'
+              alt='Are F1s new insight graphic ideas actually bad?'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -33,18 +32,20 @@ const Second: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=Mygi1yY2c04'
+            href='https://www.youtube.com/watch?v=ppP0lMXlGtQ'
             target='_blank'>
-            7 F1 Drivers That Were SO Bad They'll Never Be Forgotten
+            Are F1's new 'insight' graphic ideas actually bad?
           </ContentLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Ever wondered who are the worst F1 drivers to ever drive in the
-            sport? Well wonder no more, here are 7 of the absolute WORST.
+            F1 is continuing to roll out new graphics on screen that claim to
+            use massive data analysis to being insight to the audience. But they
+            seem somewhat confusing at best and very dodgy at worst. Are they
+            all bad or is there merit here?
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='http://www.wtf1.com/' target='_blank'>
-              wtf1.com
+            <ContentLink href='http://www.chainbear.me ' target='_blank'>
+              chainbear
             </ContentLink>
           </p>
         </div>
