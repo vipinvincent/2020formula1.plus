@@ -7,13 +7,13 @@ const First: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=EWbdqI1oUq0'
+        href='https://www.youtube.com/watch?v=5SIQm56DhW4'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/EWbdqI1oUq0/sddefault.jpg'
+              src='https://img.youtube.com/vi/5SIQm56DhW4/sddefault.jpg'
               alt='How quickly can Red Bull Racing turn its campaign around?'
             />
           </div>
@@ -32,14 +32,15 @@ const First: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=EWbdqI1oUq0'
+            href='https://www.youtube.com/watch?v=5SIQm56DhW4'
             target='_blank'>
-            How quickly can Red Bull Racing turn its campaign around?
+            Is Renault's focus now on 2022?
           </ContentLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Our latest Formula 1 2020 feature on Aston Martin Red Bull Racing.
-            Red Bull Racing’s staff may be utterly exhausted following Formula
-            One’s opening triple-header,
+            Renault has failed to fire across F1’s opening triple-header,
+            reliability yet again costing it points and momentum, as its
+            midfield rivals march ahead, gaining ground in the constructors’
+            championship.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}

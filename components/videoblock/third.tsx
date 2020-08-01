@@ -7,14 +7,14 @@ const Third: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=I-5A3wSeuwE'
+        href='https://www.youtube.com/watch?v=NcDGAFuDq_E'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/I-5A3wSeuwE/sddefault.jpg'
-              alt='Why F1 Has Always Been A Copying Championship'
+              src='https://img.youtube.com/vi/NcDGAFuDq_E/sddefault.jpg'
+              alt='2020 British Grand Prix: Tech Talk - Silverstones High Speed Challenge'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,20 +32,21 @@ const Third: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=I-5A3wSeuwE'
+            href='https://www.youtube.com/watch?v=NcDGAFuDq_E'
             target='_blank'>
-            Why F1 Has Always Been A "Copying Championship"
+            2020 British Grand Prix: Tech Talk - Silverstone's High Speed
+            Challenge
           </ContentLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            The Formula 1 paddock's frustration with Racing Point's 'pink
-            Mercedes' seems to grow weekend by weekend...but are they forgetting
-            that "copying" has *always* been a part of F1?
+            From the slow and twisty Hungaroring to the ultra-high speed flow of
+            Silverstone. Sam Collins talks through some of the key technical
+            tweaks as we head to Round 4 in Silverstone.
           </p>
 
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='https://www.autosport.com/' target='_blank'>
-              autosport.com
+            <ContentLink href='https://f1.com/F1TV-TechTalk' target='_blank'>
+              F1TV-TechTalk
             </ContentLink>
           </p>
         </div>

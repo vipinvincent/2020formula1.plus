@@ -7,14 +7,14 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=04YRZ7k58yY'
+        href='https://www.youtube.com/watch?v=pWDlkp_xRR8'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-40 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/04YRZ7k58yY/maxresdefault.jpg'
-              alt='Designing the Gulf x McLaren 2021 Formula 1 Car'
+              src='https://img.youtube.com/vi/pWDlkp_xRR8/maxresdefault.jpg'
+              alt='Should Red Bull Drop Alex Albon?'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,24 +32,23 @@ const Second: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=04YRZ7k58yY'
+            href='https://www.youtube.com/watch?v=pWDlkp_xRR8'
             target='_blank'>
-            Designing the Gulf x McLaren 2021 Formula 1 Car
+            Should Red Bull Drop Alex Albon?
           </ContentLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            So McLaren announced the rekindling of their partnership with Gulf
-            Oil earlier this year. It's a partnership that has extended decades,
-            way back into the foundations of the McLaren motorsport brand. So
-            today, I thought I'd make my attempt of creating what could be the
-            Gulf branded McLaren 2021 livery.
+            Its been just about a year since Pierre Gasly was dropped from Red
+            Bull in favour of Alex Albon. Yet now, we are seeing history repeat
+            himself. Here I list my thoughts on the situation and who I think
+            could replace him if Red Bull do decide change is needed.
           </p>
 
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
             <ContentLink
-              href='https://www.youtube.com/channel/UCFHaLSX-Kqy5pGTszklkE8w'
+              href='https://www.youtube.com/channel/UCihjJgRm3Th-quKmTW-9AwQ'
               target='_blank'>
-              Tommo F1
+              FP1 - Formula Podcast One
             </ContentLink>
           </p>
         </div>

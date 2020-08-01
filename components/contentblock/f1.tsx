@@ -9,7 +9,7 @@ const F1: React.FC = () => {
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
           src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826962/contentImages/content/racingpoint_uujvyf.jpg'
-          alt='Hulkenberg confirmed as Perezs replacement at Racing Point for the British GP'
+          alt='Red Bull boss Horner defends Albon after unwarranted and unfair criticism'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
@@ -18,36 +18,36 @@ const F1: React.FC = () => {
             News
           </div>
           <ActionLink
-            href='https://www.formula1.com/en/latest/article.hulkenberg-set-to-be-confirmed-as-perez-replacement-racing-point-british-gp.6k5DOb9L6OqwFLCW3P6nGz.html'
+            href='https://www.formula1.com/en/latest/article.red-bull-boss-horner-defends-albon-after-unwarranted-and-unfair-criticism.6SP2UjR5ZC6yWPx7Z2CY6z.html'
             target='_blank'>
-            Hulkenberg confirmed as Perez's replacement at Racing Point for the
-            British GP
+            Red Bull boss Horner defends Albon after 'unwarranted and unfair'
+            criticism
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Nico Hulkenberg is set to make a shock return to Formula 1 as Sergio
-            Perez’s replacement at Racing Point for this weekend’s British Grand
-            Prix, with the German spotted outside Silverstone on Friday morning.
+            Alex Albon has yet to score his maiden Formula 1 podium, and has had
+            to watch his team mate Max Verstappen take two top three finishes in
+            the last two races. But Albon's boss at Red Bull Christian Horner
+            defended his driver in the run up to the British Grand Prix,
+            insisting criticism of the 24-year-old has been "unfair".
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Perez tested positive for Covid-19 on Thursday, leaving Racing Point
-            in need of a driver, and it seems they have turned to a man who
-            raced for them in their Force India guise in 2012, and from 2014 to
-            2016. Hulkenberg left Formula 1 at the end of last season after
-            Renault opted not to renew his contract and he did not find a
-            suitable drive elsewhere on the grid. But at the time, he told
-            F1.com it didn't feel like it was the end.
+            Albon joined Red Bull midway through last season as a replacement
+            for Pierre Gasly - who was slotted back in to Toro Rosso after his
+            own struggles in the senior team - and Horner was asked this week if
+            he was happy with the Thai driver, given he has so far failed to
+            match his team mate for pace or results.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            He was linked to a return to Renault for 2021, but missed out after
-            the French manufacturer opted to facilitate double world champion
-            Fernando Alonso’s sensational return. But sources confirmed to
-            Formula1.com on Thursday that Hulkenberg was the team’s leading
-            contender to step in for Perez, who is now in self-isolation.
+            "I think there has been criticism of Alex, which in some ways has
+            been unwarranted and unfair," he said. "If you look back to the
+            first race in Austria, through strategy he was in a position to
+            arguably win that race and was taken out by Lewis Hamilton and he
+            finished fourth in the next race and fifth in the next race.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.formula1.com/en/latest/article.hulkenberg-set-to-be-confirmed-as-perez-replacement-racing-point-british-gp.6k5DOb9L6OqwFLCW3P6nGz.html'
+              href='https://www.formula1.com/en/latest/article.red-bull-boss-horner-defends-albon-after-unwarranted-and-unfair-criticism.6SP2UjR5ZC6yWPx7Z2CY6z.html'
               target='_blank'>
               formula1.com
             </ContentLink>{' '}

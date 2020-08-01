@@ -7,14 +7,14 @@ const Fourth: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=GIufxJDLPbs'
+        href='https://www.youtube.com/watch?v=cnby9G-AArg'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-40 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/GIufxJDLPbs/maxresdefault.jpg'
-              alt='Daniel Ricciardo previews the Formula 1 British Grand Prix'
+              src='https://img.youtube.com/vi/cnby9G-AArg/maxresdefault.jpg'
+              alt='How to Master Silverstone | Nico Rosberg'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,21 +32,20 @@ const Fourth: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=GIufxJDLPbs'
+            href='https://www.youtube.com/watch?v=cnby9G-AArg'
             target='_blank'>
-            Daniel Ricciardo previews the Formula 1 British Grand Prix
+            How to Master Silverstone | Nico Rosberg
           </ContentLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Renault F1 driver Daniel Ricciardo is looking forward to this
-            weekend's British Grand Prix. The Aussie is open to a flight-saving
-            Silverstone triple-header if the Spanish GP is cancelled due to
-            lockdown restrictions and is full of excitement at the prospect of
-            racing at Imola, Mugello, Portimao and the Nurburgring during 2020
+            Check out my in-depth analysis of the Silverstone Circuit, where I
+            share the F1 drivers’ secrets on how to master the track. Of course,
+            followed by a hot lap and my F1 Fan Q&A – answering your questions
+            about the Silverstone GP.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='http://www.planetf1.com' target='_blank'>
-              planetf1.com
+            <ContentLink href='http://www.nicorosberg.com' target='_blank'>
+              Nico Rosberg
             </ContentLink>
           </p>
         </div>
