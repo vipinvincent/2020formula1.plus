@@ -121,13 +121,13 @@ const Schedule: React.FC = () => {
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-b sm:border-gray-200'>
                 <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1 self-center'>
-                  <SiderBarLink
+                  {/* <SiderBarLink
                     className='text-primart-on'
                     href='/qualifying-results'
                     target='_self'>
                     Qualifying Results
-                  </SiderBarLink>
-                  {/* 2020 Qualifying */}
+                  </SiderBarLink> */}
+                  2020 Qualifying
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2 self-start'>
                   <div className='inine-block pb-4'>

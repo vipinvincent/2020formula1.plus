@@ -4,7 +4,7 @@ import Schedule from '../components/schedule'
 import Recent from '../components/schedule/recent'
 import Driver from '../components/driver'
 import Team from '../components/team'
-// import Qualifying from 'components/qualifying/quick-look'
+import Qualifying from 'components/qualifying/quick-look'
 import Race from '../components/race/quick-look'
 import VideosPodcasts from 'components/maincontent/videos-podcasts'
 import FirstPodcast from 'components/podcastblock/first'
@@ -18,7 +18,7 @@ const IndexPage = () => (
       <div className='w-full h-full rounded-tl-xxl rounded-br-xxl text-center text-black-70 my-2 sm:my-4 px-2 sm:px-4 pb-0'>
         <div className='flex flex-row'>
           <div className='flex flex-col lg:w-8/12 xl:w-9/12'>
-            {/* <Qualifying /> */}
+            <Qualifying />
             {/* <Race /> */}
             <Main />
             <VideosPodcasts />
