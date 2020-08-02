@@ -156,7 +156,7 @@ const Schedule: React.FC = () => {
             </div>
           </div>
           <p className='my-2 pr-4 text-base leading-normal text-gray-700 text-right'>
-            <ContentLink href='/circuit-details' target='_self'>
+            <ContentLink href='/recent-circuit-details' target='_self'>
               More Details...
             </ContentLink>
           </p>
