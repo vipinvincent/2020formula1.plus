@@ -33,7 +33,7 @@ const Main: React.FC = () => {
             to go, but was able to complete the race with the punctured tyre
             without losing any places. However, "lucky and unlucky" Verstappen
             who pitted a few laps from the end for claiming fastest lap, crossed
-            the line five seconds(which was around 15 seconds on lap 50) behind
+            the line five seconds(which was around 30 seconds on lap 50) behind
             of limping Hamilton. Charles Leclerc finished an unlikely third,
             after a lonely race in his Ferrari with nearly 13 seconds behind
             Max.
