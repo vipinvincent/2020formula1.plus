@@ -6,7 +6,7 @@ import MotorSport from 'components/contentblock/motorsport'
 // import SkySports from 'components/contentblock/skysports'
 import TheRace from 'components/contentblock/therace'
 // import PlanetF1 from 'components/contentblock/planetf1'
-import GrandPrix from 'components/contentblock/grandprix'
+// import GrandPrix from 'components/contentblock/grandprix'
 // import ESPN from 'components/contentblock/espn'
 // import AutoSport from 'components/contentblock/autosport'
 
