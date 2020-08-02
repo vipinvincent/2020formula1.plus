@@ -13,40 +13,42 @@ const TheRace: React.FC = () => {
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
-        <div className='px-4 pt-4 pb-6 text-left'>
+        <div className='px-4 pt-4 pb-3 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
             Feature
           </div>
           <ActionLink
-            href='https://the-race.com/formula-1/perez-got-covid-19-after-mexico-visit-to-see-injured-mother/'
+            href='https://the-race.com/formula-1/racing-point-brake-ducts-legally-based-on-2019-mercedes/'
             target='_blank'>
-            Perez got COVID-19 after Mexico visit to see injured mother
+            Racing Point: Brake ducts legally based on 2019 Mercedes
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Sergio Perez contracted COVID-19 after returning to Mexico between
-            Formula 1 races to visit his mother after an accident, but says he
-            observed safety protocols and has now suffered “one of the saddest
-            days in my career”.
+            Racing Point technical director Andrew Green says the similarity
+            between the brake ducts of his team’s RP20 design and last year’s
+            Mercedes is down to the fact Racing Point bought brake ducts from
+            the world championship winning squad in 2019.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Sergio Perez contracted COVID-19 after returning to Mexico between
-            Formula 1 races to visit his mother after an accident, but says he
-            observed safety protocols and has now suffered “one of the saddest
-            days in my career”.
+            Brake ducts were a non-listed part in 2019, which means a team could
+            legitimately purchase the parts from a rival and run them, but were
+            added to the listed parts a team is required to design themselves in
+            2020, a rule change that is at the heart of the ongoing case
+            triggered by Renault’s protest.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Perez’s first test result was inconclusive and he remained in
-            isolation after taking a re-test, which yielded a positive result.
-            While events are ongoing, and especially with back-to-back races
-            like at Silverstone or the season-opener in Austria, F1 personnel
-            trackside are asked to limit their movements and respect ‘bubbles’
-            during race weekends to minimise the potential to contract the
-            virus.
+            One of the questions the FIA stewards must consider is whether the
+            process Racing Point followed in designing its own brake ducts that
+            were similar to the ones it legally acquired knowledge of in 2019
+            was correct – something that was not considered when the rule change
+            was being made. Racing Point contends that the 2020 brake ducts are
+            its own and therefore comply with the listed parts regulations
+            because it designed its own parts and has the extensive design
+            history to prove it.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://the-race.com/formula-1/perez-got-covid-19-after-mexico-visit-to-see-injured-mother/'
+              href='https://the-race.com/formula-1/racing-point-brake-ducts-legally-based-on-2019-mercedes/'
               target='_blank'>
               the-race.com
             </ContentLink>{' '}

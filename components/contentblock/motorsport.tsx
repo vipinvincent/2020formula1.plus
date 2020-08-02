@@ -18,34 +18,37 @@ const MotorSport: React.FC = () => {
             ANALYSIS
           </div>
           <ActionLink
-            href='https://www.motorsport.com/f1/news/technical-analysis-piola-racing-point-mercedes/4847402/'
+            href='https://www.motorsport.com/f1/news/norris-overdriving-british-gp-qualifying/4847953/'
             target='_blank'>
-            Why the Racing Point is less a Mercedes copy than you may think
+            Norris stopped "overdriving" to secure top five slot
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            One of the big tech talking points of 2020 has been the similarities
-            between Racing Point's RP20 and last year’s Mercedes W10, with its
-            clone having earned some nicknames like ‘Tracing Point’ or ‘Pink
-            Mercedes.’
+            McLaren's Lando Norris says stopping overdriving on his final laps
+            in qualifying for Formula 1's 2020 British Grand Prix helped him
+            finished fifth after nearly being knocked out in Q1.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            While there are striking resemblances between the two cars that
-            appear at first glance to make them virtually identical, if you peel
-            back the layers the story is a little different underneath. Indeed,
-            Racing Point continues to design, develop and manufacture many
-            aspects of the car that it is perhaps not being given credit for.
-            This is especially true because it has worked on some design aspects
-            that it could simply have bought off the shelf from Mercedes, just
-            as Haas has done with Ferrari.
+            Norris was 15th in the standings at the end of the opening part of
+            qualifying – the last spot to move on to Q2 – as he was "overdriving
+            slightly", which caused him to make "too many mistakes, not putting
+            it together".
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            This is one of the reasons why Renault has focused it recent
-            protests on the brake ducts, rather than the entire car.
+            He eventually took fifth in Q3, his second top-five grid spot in the
+            opening four races of the 2020 season, two places ahead of his
+            teammate Carlos Sainz and just in front of Lance Stroll's Racing
+            Point. "It's not like I'm under-driving and kind of saving it in any
+            way, I was almost the opposite," he said when asked if he had been
+            building towards producing his best effort at the end of qualifying.
+            "I was trying too much in Q1 and Q2 – therefore making the mistakes,
+            especially with the wind. "I felt like the more you tried hard to
+            nail everything, the worse it got because you'd just have a little
+            bit of wind that would just push you over the limits.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.motorsport.com/f1/news/technical-analysis-piola-racing-point-mercedes/4847402/'
+              href='https://www.motorsport.com/f1/news/norris-overdriving-british-gp-qualifying/4847953/'
               target='_blank'>
               motorsport.com
             </ContentLink>{' '}

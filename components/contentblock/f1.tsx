@@ -8,8 +8,8 @@ const F1: React.FC = () => {
       <div className='h-32 sm:h-84 w-full'>
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
-          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826962/contentImages/content/racingpoint_uujvyf.jpg'
-          alt='Red Bull boss Horner defends Albon after unwarranted and unfair criticism'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594990598/contentImages/content/ferarri_gxis2s.jpg'
+          alt=' Leclerc extremely happy with P4 in qualifying as he predicts strong race pace for Ferrari'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
@@ -18,36 +18,40 @@ const F1: React.FC = () => {
             News
           </div>
           <ActionLink
-            href='https://www.formula1.com/en/latest/article.red-bull-boss-horner-defends-albon-after-unwarranted-and-unfair-criticism.6SP2UjR5ZC6yWPx7Z2CY6z.html'
+            href='https://www.formula1.com/en/latest/article.leclerc-extremely-happy-with-p4-in-qualifying-as-he-predicts-strong-race.7rAVdnzVkqRblYVXrtBwHM.html'
             target='_blank'>
-            Red Bull boss Horner defends Albon after 'unwarranted and unfair'
-            criticism
+            Leclerc 'extremely happy with P4' in qualifying as he predicts
+            strong race pace for Ferrari
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Alex Albon has yet to score his maiden Formula 1 podium, and has had
-            to watch his team mate Max Verstappen take two top three finishes in
-            the last two races. But Albon's boss at Red Bull Christian Horner
-            defended his driver in the run up to the British Grand Prix,
-            insisting criticism of the 24-year-old has been "unfair".
+            Charles Leclerc may have qualified over a second adrift of Mercedes’
+            Lewis Hamilton for the 2020 British Grand Prix, and with a time over
+            two-tenths slower than he managed 12 months ago. But the Monegasqeue
+            nevertheless declared himself well pleased with his efforts at
+            Silverstone, as he netted Ferrari’s best grid placing of 2020 so far
+            with fourth.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Albon joined Red Bull midway through last season as a replacement
-            for Pierre Gasly - who was slotted back in to Toro Rosso after his
-            own struggles in the senior team - and Horner was asked this week if
-            he was happy with the Thai driver, given he has so far failed to
-            match his team mate for pace or results.
+            In a Ferrari SF1000 which both drivers have struggled to get into a
+            balance sweet spot this weekend, Leclerc’s P4 time was just 0.102s
+            slower than Max Verstappen’s effort for third in the improving Red
+            Bull – while Leclerc was one of just five drivers to make it through
+            Q2 on the medium tyre, giving him a strategic advantage in the race.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            "I think there has been criticism of Alex, which in some ways has
-            been unwarranted and unfair," he said. "If you look back to the
-            first race in Austria, through strategy he was in a position to
-            arguably win that race and was taken out by Lewis Hamilton and he
-            finished fourth in the next race and fifth in the next race.
+            “I’m extremely happy about that,” said Leclerc afterwards. “I did
+            not expect to be on P4 for tomorrow’s race, and especially not
+            starting with mediums. I mean, we tried it but we were not very
+            confident about making it, and to make it work was very nice. “And
+            it’s looking good for the race tomorrow, because our race pace… I
+            think we have the pace but we are just destroying the tyres very
+            quickly compared to the others, so starting on the mediums will help
+            us.”
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.formula1.com/en/latest/article.red-bull-boss-horner-defends-albon-after-unwarranted-and-unfair-criticism.6SP2UjR5ZC6yWPx7Z2CY6z.html'
+              href='https://www.formula1.com/en/latest/article.leclerc-extremely-happy-with-p4-in-qualifying-as-he-predicts-strong-race.7rAVdnzVkqRblYVXrtBwHM.html'
               target='_blank'>
               formula1.com
             </ContentLink>{' '}
