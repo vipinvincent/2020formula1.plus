@@ -8,8 +8,8 @@ const F1: React.FC = () => {
       <div className='h-32 sm:h-84 w-full'>
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
-          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594990598/contentImages/content/ferarri_gxis2s.jpg'
-          alt=' Leclerc extremely happy with P4 in qualifying as he predicts strong race pace for Ferrari'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1596390118/contentImages/content/sainz_gcczoo.jpg'
+          alt='Luck hasn t been with me says Sainz after last-gasp tyre drama robs him of points at Silverstone'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
@@ -18,40 +18,37 @@ const F1: React.FC = () => {
             News
           </div>
           <ActionLink
-            href='https://www.formula1.com/en/latest/article.leclerc-extremely-happy-with-p4-in-qualifying-as-he-predicts-strong-race.7rAVdnzVkqRblYVXrtBwHM.html'
+            href='https://www.formula1.com/en/latest/article.luck-hasnt-been-with-me-says-sainz-after-last-gasp-tyre-drama-robs-him-of.6y8pEVepqAl5nQ64lPc3J4.html'
             target='_blank'>
-            Leclerc 'extremely happy with P4' in qualifying as he predicts
-            strong race pace for Ferrari
+            ‘Luck hasn't been with me' says Sainz after last-gasp tyre drama
+            robs him of points at Silverstone
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Charles Leclerc may have qualified over a second adrift of Mercedes’
-            Lewis Hamilton for the 2020 British Grand Prix, and with a time over
-            two-tenths slower than he managed 12 months ago. But the Monegasqeue
-            nevertheless declared himself well pleased with his efforts at
-            Silverstone, as he netted Ferrari’s best grid placing of 2020 so far
-            with fourth.
+            Carlos Sainz dropped like a stone from fourth to 13th after his
+            left-front tyre gave out on the penultimate lap of the British Grand
+            Prix – but the Spaniard insisted he couldn’t blame himself nor
+            McLaren for the incident which robbed him of a fourth points finish
+            in a row in 2020.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            In a Ferrari SF1000 which both drivers have struggled to get into a
-            balance sweet spot this weekend, Leclerc’s P4 time was just 0.102s
-            slower than Max Verstappen’s effort for third in the improving Red
-            Bull – while Leclerc was one of just five drivers to make it through
-            Q2 on the medium tyre, giving him a strategic advantage in the race.
+            Sainz started seventh behind Lance Stroll and was up to fifth, ahead
+            of team mate Lando Norris and Stroll, after a terrific first lap.
+            When the second Safety Car emerged on Lap 13, he pitted for a set of
+            hard compound tyres and found himself behind Romain Grosjean, who
+            was the only driver not to pit, and was on the faster medium
+            compounds.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            “I’m extremely happy about that,” said Leclerc afterwards. “I did
-            not expect to be on P4 for tomorrow’s race, and especially not
-            starting with mediums. I mean, we tried it but we were not very
-            confident about making it, and to make it work was very nice. “And
-            it’s looking good for the race tomorrow, because our race pace… I
-            think we have the pace but we are just destroying the tyres very
-            quickly compared to the others, so starting on the mediums will help
-            us.”
+            Sainz struggled to pass Grosjean initially and dubbed the
+            Frenchman's defence “dangerous” – with the stewards agreeing
+            suffiently to show the Haas driver the black-and-white flag – but
+            his biggest concern was his tyres, as they had to last a whopping 39
+            laps after his pit stop.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.formula1.com/en/latest/article.leclerc-extremely-happy-with-p4-in-qualifying-as-he-predicts-strong-race.7rAVdnzVkqRblYVXrtBwHM.html'
+              href='https://www.formula1.com/en/latest/article.luck-hasnt-been-with-me-says-sainz-after-last-gasp-tyre-drama-robs-him-of.6y8pEVepqAl5nQ64lPc3J4.html'
               target='_blank'>
               formula1.com
             </ContentLink>{' '}

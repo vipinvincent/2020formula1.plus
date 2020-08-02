@@ -15,40 +15,37 @@ const MotorSport: React.FC = () => {
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-3 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            ANALYSIS
+            News
           </div>
           <ActionLink
-            href='https://www.motorsport.com/f1/news/norris-overdriving-british-gp-qualifying/4847953/'
+            href='https://www.motorsport.com/f1/news/renault-lodges-third-protest-against-racing-point/4848555/'
             target='_blank'>
-            Norris stopped "overdriving" to secure top five slot
+            Renault lodges third protest against Racing Point
           </ActionLink>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            McLaren's Lando Norris says stopping overdriving on his final laps
-            in qualifying for Formula 1's 2020 British Grand Prix helped him
-            finished fifth after nearly being knocked out in Q1.
+            Renault has formally lodged a protest over the legality of Racing
+            Point's Formula 1 car for the third race in a row following Sunday's
+            British Grand Prix.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            Norris was 15th in the standings at the end of the opening part of
-            qualifying – the last spot to move on to Q2 – as he was "overdriving
-            slightly", which caused him to make "too many mistakes, not putting
-            it together".
+            Renault is currently embroiled in a row with Racing Point over the
+            design of its RP20 car, which shares a number of similarities with
+            the 2019 championship-winning Mercedes W10. Racing Point has always
+            maintained that while the car was designed based off the concept of
+            last year's Mercedes, it was done so within the regulations.
           </p>
           <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
-            He eventually took fifth in Q3, his second top-five grid spot in the
-            opening four races of the 2020 season, two places ahead of his
-            teammate Carlos Sainz and just in front of Lance Stroll's Racing
-            Point. "It's not like I'm under-driving and kind of saving it in any
-            way, I was almost the opposite," he said when asked if he had been
-            building towards producing his best effort at the end of qualifying.
-            "I was trying too much in Q1 and Q2 – therefore making the mistakes,
-            especially with the wind. "I felt like the more you tried hard to
-            nail everything, the worse it got because you'd just have a little
-            bit of wind that would just push you over the limits.
+            A formal protest was lodged against Racing Point by Renault
+            following each of the last two races, the Styrian Grand Prix and the
+            Hungarian Grand Prix, centering on the legality of the RP20's brake
+            ducts. The FIA is conducting a full investigation into the matter,
+            but failed to hold a hearing or make a ruling ahead of this
+            weekend's British Grand Prix.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.motorsport.com/f1/news/norris-overdriving-british-gp-qualifying/4847953/'
+              href='https://www.motorsport.com/f1/news/renault-lodges-third-protest-against-racing-point/4848555/'
               target='_blank'>
               motorsport.com
             </ContentLink>{' '}
