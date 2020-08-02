@@ -5,7 +5,7 @@ import Grid from '../components/grid'
 import Recent from '../components/schedule/recent'
 import Driver from '../components/driver'
 import Team from '../components/team'
-import Qualifying from 'components/qualifying/quick-look'
+// import Qualifying from 'components/qualifying/quick-look'
 import Race from '../components/race/quick-look'
 import VideosPodcasts from 'components/maincontent/videos-podcasts'
 import FirstPodcast from 'components/podcastblock/first'
@@ -19,18 +19,17 @@ const IndexPage = () => (
       <div className='w-full h-full rounded-tl-xxl rounded-br-xxl text-center text-black-70 my-2 sm:my-4 px-2 sm:px-4 pb-0'>
         <div className='flex flex-row'>
           <div className='flex flex-col lg:w-8/12 xl:w-9/12'>
-            <Qualifying />
-            {/* <Race /> */}
+            {/* <Qualifying /> */}
             <Main />
             <VideosPodcasts />
           </div>
           <div className='hidden lg:block w-4/12 xl:w-4/12 pl-4'>
+            <Race />
             <Grid />
             <Schedule />
-            <Recent />
-            <Race />
             <Driver />
             <Team />
+            <Recent />
             <div className='w-100 xl:hidden text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mt-0 mb-1 px-2'>
               Latest Podcasts from Youtube
             </div>

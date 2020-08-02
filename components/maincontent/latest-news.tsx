@@ -10,6 +10,7 @@ import TheRace from 'components/contentblock/therace'
 // import ESPN from 'components/contentblock/espn'
 // import AutoSport from 'components/contentblock/autosport'
 
+import Report from 'components/contentblock/report'
 import FirstContent from 'components/contentblock/main'
 import SecondContent from 'components/contentblock/left'
 import ThirdContent from 'components/contentblock/right'
@@ -19,6 +20,9 @@ const Main: React.FC = () => {
     <div className='flex flex-col'>
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
         Latest News
+      </div>
+      <div className='w-100'>
+        <Report />
       </div>
       <div className='w-100'>
         <FirstContent />
