@@ -44,7 +44,7 @@ const CompleteList: React.FC = () => {
                 <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell text-right mercedes'>
                   <span className='px-2 inline-flex text-base leading-5 font-semibold rounded-full bg-gray-100 text'>
                     {' '}
-                    63 ( 413 )
+                    88 ( 413 )
                   </span>
                 </td>
               </tr>
@@ -86,7 +86,7 @@ const CompleteList: React.FC = () => {
                 <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell text-right redbull'>
                   <span className='px-2 inline-flex text-base leading-5 font-semibold rounded-full bg-gray-100 text'>
                     {' '}
-                    33 ( 278 )
+                    52 ( 278 )
                   </span>
                 </td>
               </tr>
@@ -107,13 +107,34 @@ const CompleteList: React.FC = () => {
                 <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell text-right mclaren'>
                   <span className='px-2 inline-flex text-base leading-5 font-semibold rounded-full bg-gray-100 text'>
                     {' '}
-                    26 ( 49 )
+                    36 ( 49 )
                   </span>
                 </td>
               </tr>
               <tr className='odd:bg-gray-100 bg-white-100'>
                 <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-left table-cell'>
                   5
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell'>
+                  <div className='flex items-center'>
+                    <div className='text-base leading-5 font-medium text-gray-900 ferrari'>
+                      Charles Leclerc <span className='text'>(Ferrari)</span>
+                    </div>
+                  </div>
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-sm leading-5 font-medium text-gray-900 text-center hidden sm:table-cell'>
+                  MON
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell text-right ferrari'>
+                  <span className='px-2 inline-flex text-base leading-5 font-semibold rounded-full bg-gray-100 text'>
+                    {' '}
+                    33 ( 264 )
+                  </span>
+                </td>
+              </tr>
+              <tr className='odd:bg-gray-100 bg-white-100'>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-left table-cell'>
+                  6
                 </td>
                 <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell'>
                   <div className='flex items-center'>
@@ -128,13 +149,13 @@ const CompleteList: React.FC = () => {
                 <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell text-right redbull'>
                   <span className='px-2 inline-flex text-base leading-5 font-semibold rounded-full bg-gray-100 text'>
                     {' '}
-                    22 ( 92 )
+                    26 ( 92 )
                   </span>
                 </td>
               </tr>
               <tr className='odd:bg-gray-100 bg-white-100'>
                 <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-left table-cell'>
-                  6
+                  7
                 </td>
                 <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell'>
                   <div className='flex items-center'>
@@ -153,27 +174,7 @@ const CompleteList: React.FC = () => {
                   </span>
                 </td>
               </tr>
-              <tr className='odd:bg-gray-100 bg-white-100'>
-                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-left table-cell'>
-                  7
-                </td>
-                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell'>
-                  <div className='flex items-center'>
-                    <div className='text-base leading-5 font-medium text-gray-900 ferrari'>
-                      Charles Leclerc <span className='text'>(Ferrari)</span>
-                    </div>
-                  </div>
-                </td>
-                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-sm leading-5 font-medium text-gray-900 text-center hidden sm:table-cell'>
-                  MON
-                </td>
-                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell text-right ferrari'>
-                  <span className='px-2 inline-flex text-base leading-5 font-semibold rounded-full bg-gray-100 text'>
-                    {' '}
-                    18 ( 264 )
-                  </span>
-                </td>
-              </tr>
+
               <tr className='odd:bg-gray-100 bg-white-100'>
                 <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-left table-cell'>
                   8
@@ -191,13 +192,35 @@ const CompleteList: React.FC = () => {
                 <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell text-right racingpoint'>
                   <span className='px-2 inline-flex text-base leading-5 font-semibold rounded-full bg-gray-100 text'>
                     {' '}
-                    18 ( 21 )
+                    20 ( 21 )
                   </span>
                 </td>
               </tr>
               <tr className='odd:bg-gray-100 bg-white-100'>
                 <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-left table-cell'>
                   9
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell'>
+                  <div className='flex items-center'>
+                    <div className='text-base leading-5 font-medium text-gray-900 renault'>
+                      Daniel Ricciardo{' '}
+                      <span className='text three-d-text'>(Renault)</span>
+                    </div>
+                  </div>
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-sm leading-5 font-medium text-gray-900 text-center hidden sm:table-cell'>
+                  AUS
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell text-right renault'>
+                  <span className='px-2 inline-flex text-base leading-5 font-semibold rounded-full bg-gray-100 text three-d-text'>
+                    {' '}
+                    20 ( 54 )
+                  </span>
+                </td>
+              </tr>
+              <tr className='odd:bg-gray-100 bg-white-100'>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-left table-cell'>
+                  10
                 </td>
                 <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell'>
                   <div className='flex items-center'>
@@ -218,44 +241,23 @@ const CompleteList: React.FC = () => {
               </tr>
               <tr className='odd:bg-gray-100 bg-white-100'>
                 <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-left table-cell'>
-                  10
-                </td>
-                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell'>
-                  <div className='flex items-center'>
-                    <div className='text-base leading-5 font-medium text-gray-900 ferrari'>
-                      Sebastian Vettel <span className='text'>(Ferrari)</span>
-                    </div>
-                  </div>
-                </td>
-                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-sm leading-5 font-medium text-gray-900 text-center hidden sm:table-cell'>
-                  GER
-                </td>
-                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell text-right ferrari'>
-                  <span className='px-2 inline-flex text-base leading-5 font-semibold rounded-full bg-gray-100 text'>
-                    {' '}
-                    9 ( 240 )
-                  </span>
-                </td>
-              </tr>
-              <tr className='odd:bg-gray-100 bg-white-100'>
-                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-left table-cell'>
                   11
                 </td>
                 <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell'>
                   <div className='flex items-center'>
                     <div className='text-base leading-5 font-medium text-gray-900 renault'>
-                      Daniel Ricciardo{' '}
-                      <span className='text three-d-text'>(Renault)</span>
+                      Esteban Ocon{' '}
+                      <span className='text  three-d-text'>(Renault)</span>
                     </div>
                   </div>
                 </td>
                 <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-sm leading-5 font-medium text-gray-900 text-center hidden sm:table-cell'>
-                  AUS
+                  FRA
                 </td>
                 <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell text-right renault'>
-                  <span className='px-2 inline-flex text-base leading-5 font-semibold rounded-full bg-gray-100 text three-d-text'>
+                  <span className='px-2 inline-flex text-base leading-5 font-semibold rounded-full bg-gray-100 text  three-d-text'>
                     {' '}
-                    8 ( 54 )
+                    12 ( 0 )
                   </span>
                 </td>
               </tr>
@@ -276,34 +278,31 @@ const CompleteList: React.FC = () => {
                 <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell text-right alphatauri'>
                   <span className='px-2 inline-flex text-base leading-5 font-semibold rounded-full bg-gray-100 text'>
                     {' '}
-                    6 ( 95 )
+                    12 ( 95 )
                   </span>
                 </td>
               </tr>
-
               <tr className='odd:bg-gray-100 bg-white-100'>
                 <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-left table-cell'>
                   13
                 </td>
                 <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell'>
                   <div className='flex items-center'>
-                    <div className='text-base leading-5 font-medium text-gray-900 renault'>
-                      Esteban Ocon{' '}
-                      <span className='text  three-d-text'>(Renault)</span>
+                    <div className='text-base leading-5 font-medium text-gray-900 ferrari'>
+                      Sebastian Vettel <span className='text'>(Ferrari)</span>
                     </div>
                   </div>
                 </td>
                 <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-sm leading-5 font-medium text-gray-900 text-center hidden sm:table-cell'>
-                  FRA
+                  GER
                 </td>
-                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell text-right renault'>
-                  <span className='px-2 inline-flex text-base leading-5 font-semibold rounded-full bg-gray-100 text  three-d-text'>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell text-right ferrari'>
+                  <span className='px-2 inline-flex text-base leading-5 font-semibold rounded-full bg-gray-100 text'>
                     {' '}
-                    4 ( 0 )
+                    10 ( 240 )
                   </span>
                 </td>
               </tr>
-
               <tr className='odd:bg-gray-100 bg-white-100'>
                 <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-left table-cell'>
                   14
@@ -368,31 +367,9 @@ const CompleteList: React.FC = () => {
                   </span>
                 </td>
               </tr>
-
               <tr className='odd:bg-gray-100 bg-white-100'>
                 <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-left table-cell'>
                   17
-                </td>
-                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell'>
-                  <div className='flex items-center'>
-                    <div className='text-base leading-5 font-medium text-gray-900 alfaromeo'>
-                      Kimi Räikkönen <span className='text'>(Alfa Romeo)</span>
-                    </div>
-                  </div>
-                </td>
-                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-sm leading-5 font-medium text-gray-900 text-center hidden sm:table-cell'>
-                  FIN
-                </td>
-                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell text-right alfaromeo'>
-                  <span className='px-2 inline-flex text-base leading-5 font-semibold rounded-full bg-gray-100 text'>
-                    {' '}
-                    0 ( 43 )
-                  </span>
-                </td>
-              </tr>
-              <tr className='odd:bg-gray-100 bg-white-100'>
-                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-left table-cell'>
-                  18
                 </td>
                 <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell'>
                   <div className='flex items-center'>
@@ -413,28 +390,28 @@ const CompleteList: React.FC = () => {
               </tr>
               <tr className='odd:bg-gray-100 bg-white-100'>
                 <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-left table-cell'>
-                  19
+                  18
                 </td>
                 <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell'>
                   <div className='flex items-center'>
-                    <div className='text-base leading-5 font-medium text-gray-900 haas'>
-                      Romain Grosjean <span className='text'>(Haas)</span>
+                    <div className='text-base leading-5 font-medium text-gray-900 alfaromeo'>
+                      Kimi Räikkönen <span className='text'>(Alfa Romeo)</span>
                     </div>
                   </div>
                 </td>
                 <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-sm leading-5 font-medium text-gray-900 text-center hidden sm:table-cell'>
-                  FRA
+                  FIN
                 </td>
-                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell text-right haas'>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell text-right alfaromeo'>
                   <span className='px-2 inline-flex text-base leading-5 font-semibold rounded-full bg-gray-100 text'>
                     {' '}
-                    0 ( 8 )
+                    0 ( 43 )
                   </span>
                 </td>
               </tr>
               <tr className='odd:bg-gray-100 bg-white-100'>
                 <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-left table-cell'>
-                  20
+                  19
                 </td>
                 <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell'>
                   <div className='flex items-center'>
@@ -450,6 +427,28 @@ const CompleteList: React.FC = () => {
                   <span className='px-2 inline-flex text-base leading-5 font-semibold rounded-full bg-gray-100 text'>
                     {' '}
                     0 ( 0 )
+                  </span>
+                </td>
+              </tr>
+
+              <tr className='odd:bg-gray-100 bg-white-100'>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-left table-cell'>
+                  20
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell'>
+                  <div className='flex items-center'>
+                    <div className='text-base leading-5 font-medium text-gray-900 haas'>
+                      Romain Grosjean <span className='text'>(Haas)</span>
+                    </div>
+                  </div>
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-sm leading-5 font-medium text-gray-900 text-center hidden sm:table-cell'>
+                  FRA
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell text-right haas'>
+                  <span className='px-2 inline-flex text-base leading-5 font-semibold rounded-full bg-gray-100 text'>
+                    {' '}
+                    0 ( 8 )
                   </span>
                 </td>
               </tr>
