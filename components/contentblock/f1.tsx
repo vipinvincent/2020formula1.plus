@@ -23,14 +23,14 @@ const F1: React.FC = () => {
             ‘Luck hasn't been with me' says Sainz after last-gasp tyre drama
             robs him of points at Silverstone
           </ActionLink>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             Carlos Sainz dropped like a stone from fourth to 13th after his
             left-front tyre gave out on the penultimate lap of the British Grand
             Prix – but the Spaniard insisted he couldn’t blame himself nor
             McLaren for the incident which robbed him of a fourth points finish
             in a row in 2020.
           </p>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             Sainz started seventh behind Lance Stroll and was up to fifth, ahead
             of team mate Lando Norris and Stroll, after a terrific first lap.
             When the second Safety Car emerged on Lap 13, he pitted for a set of
@@ -38,7 +38,7 @@ const F1: React.FC = () => {
             was the only driver not to pit, and was on the faster medium
             compounds.
           </p>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             Sainz struggled to pass Grosjean initially and dubbed the
             Frenchman's defence “dangerous” – with the stewards agreeing
             suffiently to show the Haas driver the black-and-white flag – but

@@ -36,7 +36,7 @@ const First: React.FC = () => {
             target='_blank'>
             Should F1 Ditch Friday Practice? | Is It Just Me? Podcast
           </ContentLink>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             Jess McFadyen is joined by Luke Smith via video call, who is now
             inside the Formula 1 Silverstone bubble and wasn't allowed to come
             into the studio. This week we ask: should F1 get rid of Friday

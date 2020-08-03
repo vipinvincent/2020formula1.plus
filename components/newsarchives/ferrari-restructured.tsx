@@ -11,7 +11,7 @@ const Archive10: React.FC = () => {
             News
           </div>
           <H1>Ferrari restructures Formula 1 technical department</H1>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             Ferrari announced a restructuring of their Formula One technical
             department on Wednesday after struggling in the first three races of
             the 2020 season. Ferrari is planning to set up a new performance
@@ -19,7 +19,7 @@ const Archive10: React.FC = () => {
             development, which will address the poor Formula 1 form of SF1000
             and team.
           </p>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             Binotto will remain as Team Principal, with Enrico Gualtieri in
             charge of the Power Unit department, Laurent Mekies as Sporting
             Director also in charge of trackside activities and Simone Resta
@@ -32,7 +32,7 @@ const Archive10: React.FC = () => {
             department, and now holds the role of Head of Aerodynamics and
             Vehicle Project Manager.
           </p>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             The changes was induced after Ferrari started this season with more
             than a second a lap slower than that of the world champions and
             front runners Mercedes. The idea is to create a more vertical
@@ -41,7 +41,7 @@ const Archive10: React.FC = () => {
             focused and simplified and provides the heads of each department the
             necessary powers to achieve their objectives".
           </p>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             As per Binotto, “As hinted at a few days ago, we are making changes
             to the technical side of the organisation so as to speed up the
             design and development on the car performance front,” “A change of
@@ -57,7 +57,7 @@ const Archive10: React.FC = () => {
             started to lay the foundations of a process which should lead to a
             new and enduring winning cycle,” he added.
           </p>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             Binotto added "It will take some time and we will suffer setbacks
             like the one we are experiencing right now in terms of results and
             performance. However, we must react to these shortcomings with

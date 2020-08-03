@@ -22,18 +22,18 @@ const TheRace: React.FC = () => {
             target='_blank'>
             Bottas: Fuelling issue cost me time in Hungary
           </ActionLink>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             Mercedes put too much fuel in Valtteri Bottas’s car for Hungarian
             Grand Prix qualifying after also making a ride-height error in
             Austria, Lewis Hamilton’s team mate and closest Formula 1 rival
             revealed on Thursday.
           </p>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             The Finn won the season-opener in Austria this month but lost to
             Hamilton in the second and third races when the mistakes were made,
             leaving him five points adrift of the six-times world champion.
           </p>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             “There was an issue with the fuelling system, something with the
             pipe or the vent where the fuel goes, so it was around two kilos or
             a bit more over-fuelled in qualifying,” he told reporters at the

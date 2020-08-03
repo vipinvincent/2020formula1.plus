@@ -11,13 +11,13 @@ const Archive3: React.FC = () => {
             News
           </div>
           <H1>Red Bull expects to be more competitive at Hungarian GP</H1>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             Red Bull believes the Hungarian Grand Prix to be more intense.They
             believe that the car will be better suited for Hungarian Grand Prix
             as Hungaroring has greater emphasis on cornering speed which should
             make Red Bull more competitive.
           </p>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             Red Bull's team boss Christian Horner indicated that
             "Their(Mercedes') straight line speed is impressive," said Horner.
             "There is not much there in cornering speed. "There are some corners
@@ -29,7 +29,7 @@ const Archive3: React.FC = () => {
             guys [Hamilton, Bottas and Max Verstappen] were ahead of the rest
             was enormous today. Max did well to keep up as well as he did.”
           </p>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             Meanwhile, Red Bull says it is mystifying to see the pace drop off
             for Alex Albon’s car in longer stints, after his disappointing
             Styrian Grand Prix. Although he finished fourth, 44 seconds behind
@@ -38,7 +38,7 @@ const Archive3: React.FC = () => {
             Austria before a collision with Lewis Hamilton, the Thai driver find
             it difficult to match the pace of the cars ahead of him.
           </p>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             Red Bull believes that the cooler conditions on Sunday helped the
             cooling concerns the German car manufacturer in Austria. Indicating
             on the fact that Mercedes triumphed at a circuit where it has
@@ -48,7 +48,7 @@ const Archive3: React.FC = () => {
             they’ve performed well here. They were the best team today and we’re
             going to be working even harder to try and catch them.”
           </p>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             Chief engineer Paul Monaghan said: "Hungary is a different sort of
             circuit isn't it? It's got a trivial straight, and lots of twisty
             bits. The speed of the corners is lower than this place. They're all

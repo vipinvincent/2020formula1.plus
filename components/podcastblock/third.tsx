@@ -37,7 +37,7 @@ const Third: React.FC = () => {
             FP1 Post Podium Podcast Episode 3: Hungarian Grand Prix | ft. The
             TF1 Show
           </ContentLink>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             It's that time of the week again! The Post Podium Podcast is back
             after Round 3 of the 2020 Formula 1 season in Hungary. Today joining
             me is Tinus frm The TF1 Show and I'll be honest, I don't think I've

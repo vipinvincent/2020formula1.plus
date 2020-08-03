@@ -21,7 +21,7 @@ const Left: React.FC = () => {
             Lewis Hamilton with a new lap record storms to pole position for
             British Grand Prix with Bottas in P2 and Max Verstappen in P3.
           </H1>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             Mercedes dominates Qualifying in British GP with over 1sec faster
             than any other car on the track. Reigning world champion, Hamilton
             who have not led a single session in the weekend, miraculously
@@ -34,7 +34,7 @@ const Left: React.FC = () => {
             arrows were 0.7s quicker than 2019, whereas Red Bull and Ferrari are
             both slower than they were in Q3 this time last year.
           </p>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             Ferrari’s Charles Leclerc, missed only by a fraction finished fourth
             fastest and will start alongside Max Verstappen on the second row,
             who did not improve on his final run in Q3. Lando Norris of McLaren
@@ -48,7 +48,7 @@ const Left: React.FC = () => {
             losing significant amounts of track time through the weekend owing
             to a series of reliability problems.
           </p>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             Earlier in Q2, AlphaTauri’s Pierre Gasly got knocked out even though
             he set exactly the same time as Stroll in P10 but, crucially, after
             the Canadian had done so. But the real shock of Q2 was Red Bull’s
@@ -61,14 +61,14 @@ const Left: React.FC = () => {
             for yellow caution flags and will drop three places if he is found
             guilty.
           </p>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             Kevin Magnussen and Romain Grosjean of Haas, Antonio Giovinazzi and
             Kimi Raikkonen of Alfa Romeo and Nicholas Latifi of Williams fails
             to qualify for Q2. Kevin finished 16th with Antonio Giovinazzi and
             Kimi in 17th and 18th . Grosjean only could manage 19th whereas
             Nicholas Latifi spun on his final attempt and will start last.
           </p>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             The Mercedes cars, once again remains the favorites for the weekend
             race and expected to fly around the high-speed Silverstone and will
             finish miles ahead of other teams. The black/silver arrows sweep

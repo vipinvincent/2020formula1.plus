@@ -36,7 +36,7 @@ const Second: React.FC = () => {
             target='_blank'>
             Should Red Bull Drop Alex Albon?
           </ContentLink>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             Its been just about a year since Pierre Gasly was dropped from Red
             Bull in favour of Alex Albon. Yet now, we are seeing history repeat
             himself. Here I list my thoughts on the situation and who I think

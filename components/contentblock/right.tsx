@@ -22,13 +22,13 @@ const Right: React.FC = () => {
             Bottas in FP2; Verstappen quickest from Hamilton and Stroll in FP1
             as Hulkenberg shines in FP1 nad FP2 on his 'RETURN'
           </H1>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             Valtteri Bottas set the fastest time in final free practice session
             with Lewis Hamilton just behind him as Mercedes grabbed 1-2 for the
             first time this weekend. Bottas set his fastest time of 1m25.873s
             ahead of Hamilton (0.138s) and Red Bull’s Max Verstappen (0.300s).
           </p>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             Lance Stroll of Racing Point, who was top in FP2 finished 0.703s off
             Bottas in P4, while Sergio Perez's stand-in Nico Hulkenberg was
             0.999s off the lead in P9. Carlos Sainz the McLaren driver finished
@@ -36,7 +36,7 @@ const Right: React.FC = () => {
             split the McLarens finsished P6 which was 0.898s off P1. Daniel
             Ricciardo of renualt finishes P8 and Pierre Gasly rounds top 10.
           </p>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             Racing Point’s Lance Stroll leads FP2 ahead of the Red Bull of Alex
             Albon and the Mercedes of Valtteri Bottas. The session got disrupted
             due to a crash for Albon as he was rounding the fast Stowe corner
@@ -46,7 +46,7 @@ const Right: React.FC = () => {
             Centre after his g-force sensor was triggered, but the team later
             confirmed he had been cleared by the medics.
           </p>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             Ferrari’s Charles Leclerc finished an impressive P4, and Mercedes’
             Lewis Hamilton, the six-time Silverstone winner completes the top 5
             spots. McLaren’s Carlos Sainz was sixth, ahead of the impressive
@@ -54,7 +54,7 @@ const Right: React.FC = () => {
             leader Stroll. Pierre Gasly finished P8, ahead of Daniel Ricciardo
             and Kimi Raikkonen completes top 10.
           </p>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             Max Verstappen bags the P1 in the first practice session of the 2020
             British Grand Prix for Red Bull, as Nico Hulkenberg returns to F1
             for replacing Sergio Perez at Racing Point. Earlier Sergio Perez
@@ -62,7 +62,7 @@ const Right: React.FC = () => {
             German, the ex-Renault and Force India was called up at the last
             minute to for a unlikely seat in Racing Point.
           </p>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             Verstappen shown blistering pace for Red Bull, setting a time 0.474s
             quicker than Lewis Hamilton and +0.582s quicker than third-place
             Lance Stroll in racing Point. Verstappen's time of 1m27.422s was a
@@ -73,7 +73,7 @@ const Right: React.FC = () => {
             Verstappen and stroll set their best time with softs, but Hamilton
             set his best time on mediums.
           </p>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             Ferrari’s Sebastian Vettel couldn’t participate in FP1 as his SF1000
             car was having an intercooler issue and completed no timed laps,
             while team mate Charles Leclerc rounded out the top-five with a

@@ -22,24 +22,24 @@ const ESPN: React.FC = () => {
             target='_blank'>
             Red Bull sees Albon getting stronger and stronger
           </ActionLink>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             Red Bull see plenty of untapped potential in Alex Albon and are
             happy with the British-born Thai driver, according to team boss
             Christian Horner.
           </p>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             Williams driver George Russell defended his friend and rival at the
             weekend's Hungarian Grand Prix, saying he was "being made to look
             like an idiot and he's absolutely not" after Albon qualified 13th.
           </p>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             The Thai, a Formula One rookie last year alongside established race
             winner Max Verstappen, ultimately put in a strong performance to
             finish fifth while his Dutch team mate was second. "I'm very pleased
             with Alex. He's picked up a bit of criticism which has been very
             harsh on him," Horner told Sky Sports television.
           </p>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             "We made a mistake in the timing (in qualifying), we put too much
             pressure on him. We have to take responsibility to that. "He's done
             the passing manoeuvres when he needed to, he's responded very well.

@@ -13,13 +13,13 @@ const Archive2: React.FC = () => {
           <H1>
             What Vettel and Perez think about 2021 Aston Martin F1 seat???
           </H1>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             Sources indicated that the Ferrari driver Sebastian Vettel is
             considering a deal to join the Aston Martin Formula 1 team for the
             2021 season. Vettel has no competitive seats available for 2021
             season and looking for options to stay on the grid next season.
           </p>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             Earlier Mercedes retained Valtteri Bottas as a first priority to
             partner Lewis Hamilton , Red Bull represented the only leading
             option for Vettel. But Red Bull Formula 1 boss Christian Horner has
@@ -29,21 +29,21 @@ const Archive2: React.FC = () => {
             option left for him, is Racing Point, soon to become Aston Martin
             F1.
           </p>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             As indicated by the german media a deal has been agreed upon by the
             Racing Point F1, courtesy of team owner Lawrence Stroll. The
             four-times world champion is understood to have been offered a
             contract by Lawrence Stroll, who is planning to build the strongest
             possible team for the rebranding of the team to Aston Martin.
           </p>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             Assuming the report is accurate, it will be intresting to see how
             the team will make room for Vettel as Racing point already has
             imperative drivers like Sergio Perez, who brings substantial
             sponsorship money to the team and Stroll’s son Lance Stroll, both
             under contract until 2022.
           </p>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             Meanwhile Perez revealed that he has been contacted from a rival
             team amid Vettel to Racing Point rumours. For the time being Perez
             is under contract with Racing Point until the end of 2022. “I think

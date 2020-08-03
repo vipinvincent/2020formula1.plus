@@ -22,21 +22,21 @@ const PlanetF1: React.FC = () => {
             target='_blank'>
             ‘Ousting could have been different but is what it is’
           </ActionLink>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             Although still not entirely happy with the manner in which Ferrari
             dropped him, Sebastian Vettel will be “professional” in his final
             season with the Scuderia. With 2020 the final year on Vettel’s
             second Ferrari contract, the Scuderia told the German, and the
             media, several times that he was the number one pick for 2021.
           </p>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             Team boss Mattia Binotto continued with that line right up until the
             moment in late April that he phoned Vettel to inform that his
             services wouldn’t be required after this season. Instead he blamed
             finances and the world’s pandemic for Ferrari decision to change its
             tune on the German.
           </p>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             The Italian acknowledged that Ferrari’s decision had come as a shock
             to Vettel. “I heard that he was surprised, do I remember that he was
             surprised? I would say yes certainly, I understand it,” he said at

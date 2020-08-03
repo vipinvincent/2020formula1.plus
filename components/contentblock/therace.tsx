@@ -22,7 +22,7 @@ const TheRace: React.FC = () => {
             target='_blank'>
             Why the reason for Albon’s penalty doesn’t make sense
           </ActionLink>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             The British Grand Prix stewards slapped a penalty on Alex Albon that
             reinforces the feeling Formula 1’s not got its rules of racing in
             order. Magnussen hit the kerb through the final complex of corners
@@ -30,13 +30,13 @@ const TheRace: React.FC = () => {
             and tempting him to try to pass through the fast right-hand final
             turn.
           </p>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             But the Haas moved across and they made contact as Albon backed out,
             pitched Magnussen off-track and into the barriers. In explaining
             their decision to hit Albon with a five-second penalty, the stewards
             said: “Passes at Turn 18 are unusual and difficult to execute.
           </p>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             “While Albon appeared to be the faster car the stewards determined
             that he attempted the pass too late and the gap on the inside of Car
             20 was always going to diminish. “It appeared that he attempted to

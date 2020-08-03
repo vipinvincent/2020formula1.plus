@@ -36,7 +36,7 @@ const Fourth: React.FC = () => {
             target='_blank'>
             How to Master Silverstone | Nico Rosberg
           </ContentLink>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             Check out my in-depth analysis of the Silverstone Circuit, where I
             share the F1 drivers’ secrets on how to master the track. Of course,
             followed by a hot lap and my F1 Fan Q&A – answering your questions

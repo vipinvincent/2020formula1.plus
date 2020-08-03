@@ -37,7 +37,7 @@ const Third: React.FC = () => {
             2020 British Grand Prix: Tech Talk - Silverstone's High Speed
             Challenge
           </ContentLink>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             From the slow and twisty Hungaroring to the ultra-high speed flow of
             Silverstone. Sam Collins talks through some of the key technical
             tweaks as we head to Round 4 in Silverstone.

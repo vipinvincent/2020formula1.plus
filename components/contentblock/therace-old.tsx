@@ -22,7 +22,7 @@ const TheRace: React.FC = () => {
             target='_blank'>
             Why the Styrian GP proved Ferrari has backed the right driver
           </ActionLink>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             In the wake of the Styrian Grand Prix, I am more convinced than ever
             that Charles Leclerc is the right driver to lead Ferrari. The move
             which caused his opening-lap shunt with team-mate Sebastian Vettel
@@ -30,7 +30,7 @@ const TheRace: React.FC = () => {
             opposite. The Monegasque was calm and measured, belying his 22
             years.
           </p>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             Having qualified down in 11th and been demoted a further three
             places for blocking in qualifying, Leclerc must have been seething
             on the grid, wondering how it had all gone so wrong at a circuit
@@ -41,7 +41,7 @@ const TheRace: React.FC = () => {
             funnel effect anyway, so there was never going to be enough room for
             Leclerc.
           </p>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             It was the move of a driver who is just two races into his third
             full season in F1 and is still learning. But, just because he is at
             Ferrari, that fact shouldn’t be forgotten. Faced with that situation

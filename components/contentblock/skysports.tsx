@@ -23,7 +23,7 @@ const SkySports: React.FC = () => {
             Lando Norris: Why McLaren can stay in fight for third and his
             development in F1
           </ActionLink>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             Lando Norris believes McLaren can maintain a challenge for third
             place in the Constructors' Championship over the season. McLaren
             head into their home British GP this week behind only Mercedes and
@@ -31,13 +31,13 @@ const SkySports: React.FC = () => {
             have already achieved three top-five race results - including a
             maiden F1 podium for Norris in Austria.
           </p>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             Back on the rise after a fourth-placed finish last year, McLaren
             currently sit a point clear of Racing Point and 14 ahead of Ferrari,
             who have slipped away from their usual front-running rivals at the
             start of this campaign.
           </p>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             Speaking to Sky Sports News at the McLaren's Woking Technology
             Centre ahead of the forthcoming Silverstone double-header, Norris
             spoke with optimism about their prospects of remaining a threat

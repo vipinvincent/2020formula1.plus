@@ -22,13 +22,13 @@ const BBC: React.FC = () => {
             target='_blank'>
             Formula 1: US, Mexican & Brazilian races will not go ahead in 2020
           </ActionLink>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             Formula 1 has called off the US, Mexican and Brazilian Grands Prix
             this year as a result of the coronavirus crisis in the Americas.
             With infection rates rising in the three countries, F1 bosses
             believe it would be irresponsible to hold races there.
           </p>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             Instead, three further races in Europe are to be added to the
             calendar. These will see a return for Germany's Nurburgring and
             Imola in Italy, and an F1 debut for Portugal's Portimao track. The
@@ -37,14 +37,14 @@ const BBC: React.FC = () => {
             Brazil on 13 November. But F1 officials have accepted that it will
             be impossible to hold the races.
           </p>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             Any hopes of reviving the Canadian race, originally scheduled for
             June and postponed in April, have also been abandoned. The
             coronavirus has a much lower prevalence in Canada, but the country
             has local restrictions and travel rules that make impossible to hold
             a race.
           </p>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             An F1 statement said: "Due to the fluid nature of the ongoing
             Covid-19 pandemic, local restrictions and the importance of keeping
             communities and our colleagues safe, it will not be possible to race

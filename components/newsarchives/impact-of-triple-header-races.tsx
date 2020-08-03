@@ -10,7 +10,7 @@ const Archive9: React.FC = () => {
             Analysis
           </div>
           <H1>How Triple-header races impact 2020 season</H1>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             F1 is all set to begin its second triple-header of the season at
             Silverstone, after running races on three consecutive weekends in
             Austria and Hungary earlier this season. Due to the COVID-19
@@ -20,7 +20,7 @@ const Archive9: React.FC = () => {
             followed by a week off, with a second leg to begin this week with
             two races at Silverstone, followed by the Spanish GP.
           </p>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             After the first triple-header in F1 history in 2018, F1 consciously
             decided that it would be better if they don't try it again. But the
             current scenario forced the F1 to rethink this strategy and decided
@@ -30,7 +30,7 @@ const Archive9: React.FC = () => {
             most importantly being able to bring something cheerful to people
             around the world during this worse condition.
           </p>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             Meanwhile McLaren team principal Andreas Seidl has alerted that
             triple-header races should not become the new routine for Formula
             1’s future calendars. Although Seidl welcomes the financial boost
@@ -48,7 +48,7 @@ const Archive9: React.FC = () => {
             we simply have to get through this year. “But at the same time, this
             cannot be the new standard going forward also in future seasons.”
           </p>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             In some instances, the new approach has made life a bit easier. As
             per Tom Clarkson, there was a certain degree of the old days about
             the new ways. The inability for excess had led to a stripped down
@@ -56,7 +56,7 @@ const Archive9: React.FC = () => {
             distant memory from our past and some had only ever heard about in
             dinner tales or grumbles from their more experienced colleagues.
           </p>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             But under normal circumstances three races back-to-back would be
             been tough enough for drivers teams and crews as well. Still
             considering the current scenario, it would be quite unpredictable

@@ -22,19 +22,19 @@ const MotorSport: React.FC = () => {
             target='_blank'>
             Renault lodges third protest against Racing Point
           </ActionLink>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             Renault has formally lodged a protest over the legality of Racing
             Point's Formula 1 car for the third race in a row following Sunday's
             British Grand Prix.
           </p>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             Renault is currently embroiled in a row with Racing Point over the
             design of its RP20 car, which shares a number of similarities with
             the 2019 championship-winning Mercedes W10. Racing Point has always
             maintained that while the car was designed based off the concept of
             last year's Mercedes, it was done so within the regulations.
           </p>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             A formal protest was lodged against Racing Point by Renault
             following each of the last two races, the Styrian Grand Prix and the
             Hungarian Grand Prix, centering on the legality of the RP20's brake

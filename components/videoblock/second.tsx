@@ -36,7 +36,7 @@ const Second: React.FC = () => {
             target='_blank'>
             Are F1's new 'insight' graphic ideas actually bad?
           </ContentLink>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             F1 is continuing to roll out new graphics on screen that claim to
             use massive data analysis to being insight to the audience. But they
             seem somewhat confusing at best and very dodgy at worst. Are they

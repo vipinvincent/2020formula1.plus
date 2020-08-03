@@ -14,7 +14,7 @@ const Archive7: React.FC = () => {
             Hamilton P1 with the lap record set the fastest time in Qualifying
             and Bottas in P2 with two Racing Points in P3 and P4
           </H1>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             Ferrari’s Sebastian Vettel and Charles Leclerc finished P5 and P6
             with Max Verstappen of Red Bull Racing only could manage a P7, who
             was last years pole sitter. McLaren teammates Lando Norris Carlos
@@ -22,7 +22,7 @@ const Archive7: React.FC = () => {
             above AlphaTauri's Pierre Gasly who couldn't participate Q3 due to
             ongoing power unit issues.
           </p>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             Renault's Daniel Ricciardo only could manage P11 with today's
             suprise with George Russell of Williams at P12 with a stromg
             performance. Alexander Albon of Red Bull Racing was furious with his
@@ -31,7 +31,7 @@ const Archive7: React.FC = () => {
             P14 and Nicolas Latifi finished P15 with both Williams cars in Q2
             after a long period of time.
           </p>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             Two Haas cars finished 15th and 17th with Kevin Magnussen leading
             his team mate Romain Grosjean. AlphaTauri 's Daniil Kvyat finished a
             disappointing 16th. Both Alfa Romeo Racing cars was glued to the

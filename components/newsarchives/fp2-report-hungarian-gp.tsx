@@ -14,12 +14,12 @@ const Archive5: React.FC = () => {
             Vettel leads the timesheets in Hungarian GP Second Practice under
             wet conditions
           </H1>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             Ferrari’s Sebastian Vettel set the fastest time in Free Practice 2
             for the 2020 Hungarian Grand Prix with a 1m 40.464s, 0.272s ahead of
             the Mercedes of Valtteri Bottas.
           </p>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             McLaren of Carlos Sainz finishes in third and the two Racing Points
             of Lance Stroll and Sergio Perez occupies the remaining top 5 spots.
             AlphaTauri’s Pierre Gasly being the first driver out in the session
@@ -27,7 +27,7 @@ const Archive5: React.FC = () => {
             smell of burning in his AT01 right at the end of the session, as he
             ended up in P6.
           </p>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             With only 13 drivers setting a time, Red Bull’s Max Verstappen was
             seventh, 2.3s behind Vettel, but ahead of the Haas of Romain
             Grosjean. Alfa Romeo’s Kimi Raikkonen complained of having “zero

@@ -36,7 +36,7 @@ const First: React.FC = () => {
             target='_blank'>
             Is Renault's focus now on 2022?
           </ContentLink>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             Renault has failed to fire across F1’s opening triple-header,
             reliability yet again costing it points and momentum, as its
             midfield rivals march ahead, gaining ground in the constructors’
