@@ -15,7 +15,7 @@ const Right: React.FC = () => {
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-6 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            FP1, FP2 and FP3
+            FP1, FP2 and FP3 - British GP
           </div>
           <H1>
             Bottas leads Hamilton and Verstappenin FP3; Stroll leads Albon and

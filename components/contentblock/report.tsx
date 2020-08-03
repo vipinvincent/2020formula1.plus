@@ -4,7 +4,7 @@ import H1 from 'components/heading/H1'
 
 const Main: React.FC = () => {
   return (
-    <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mb-4'>
+    <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <div className='h-48 md:h-64 xl:h-104 w-full'>
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
@@ -15,7 +15,7 @@ const Main: React.FC = () => {
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-2 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            Race Report
+            Race Report - British GP
           </div>
           <H1>
             L"ucky” Hamilton wins seventh British Grand Prix with a punctured

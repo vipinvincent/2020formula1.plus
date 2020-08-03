@@ -1,13 +1,13 @@
 import React from 'react'
 import ActionLink from 'components/link/ActionLink'
 import ContentLink from 'components/link/ContentLink'
-import SiderBarLink from 'components/link/SiderBarLink'
+// import SiderBarLink from 'components/link/SiderBarLink'
 
 const Schedule: React.FC = () => {
   return (
     <div className='flex flex-col mb-4'>
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mt-0 mb-1 px-2'>
-        Round 1 - Austrian GP
+        Round 2 - Styrian GP
       </div>
       <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
         <div className='h-32 sm:h-40 w-full text-center'>
@@ -92,21 +92,21 @@ const Schedule: React.FC = () => {
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2 self-start'>
                   <div className='inine-block pb-4'>
                     <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block mercedes'>
+                      Lewis Hamilton (<span className='text'>Mercedes</span>){' '}
+                      <br />
+                      1:22:50.683
+                    </div>
+                  </div>
+                  <div className='inine-block pb-4'>
+                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block mercedes'>
                       Valtteri Bottas (<span className='text'>Mercedes</span>){' '}
                       <br />
-                      1:30:55.739
+                      +13.719s
                     </div>
                   </div>
                   <div className='inine-block pb-4'>
-                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block ferrari'>
-                      Charles Leclarc (<span className='text'>Ferrari</span>){' '}
-                      <br />
-                      +2.7s
-                    </div>
-                  </div>
-                  <div className='inine-block pb-4'>
-                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block mclaren'>
-                      Lando Norris (<span className='text'>McLaren</span>){' '}
+                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block redbull'>
+                      Max Verstappen (<span className='text'>Red Bull</span>){' '}
                       <br />
                       +33.698s
                     </div>
@@ -120,23 +120,23 @@ const Schedule: React.FC = () => {
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2 self-start'>
                   <div className='inine-block pb-4'>
                     <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block mercedes'>
-                      Valtteri Bottas (<span className='text'>Mercedes</span>){' '}
-                      <br />
-                      1:02.939
-                    </div>
-                  </div>
-                  <div className='inine-block pb-4'>
-                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block mercedes'>
                       Lewis Hamilton (<span className='text'>Mercedes</span>){' '}
                       <br />
-                      1:02.951
+                      1:19.273
                     </div>
                   </div>
                   <div className='inine-block pb-4'>
                     <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block redbull'>
                       Max Verstappen (<span className='text'>Red Bull</span>){' '}
                       <br />
-                      1:03.477
+                      1:20.489
+                    </div>
+                  </div>
+                  <div className='inine-block pb-4'>
+                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block mclaren'>
+                      Carlos Sainz (<span className='text'>McLaren</span>){' '}
+                      <br />
+                      1:20.671
                     </div>
                   </div>
                 </div>

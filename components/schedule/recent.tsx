@@ -1,13 +1,13 @@
 import React from 'react'
 import ActionLink from 'components/link/ActionLink'
 import ContentLink from 'components/link/ContentLink'
-import SiderBarLink from 'components/link/SiderBarLink'
+// import SiderBarLink from 'components/link/SiderBarLink'
 
 const Schedule: React.FC = () => {
   return (
     <div className='flex flex-col mb-4'>
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
-        Recent Race
+        Recent - Hungarian GP
       </div>
       <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
         <div className='h-32 sm:h-40 w-full text-center'>
@@ -87,13 +87,7 @@ const Schedule: React.FC = () => {
               </div> */}
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-b sm:border-gray-200'>
                 <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1 self-center'>
-                  <SiderBarLink
-                    className='text-primart-on'
-                    href='/race-results'
-                    target='_self'>
-                    Race Results
-                  </SiderBarLink>
-                  {/* 2019 Race */}
+                  2020 Race Results
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2 self-start'>
                   <div className='inine-block pb-4'>
@@ -121,13 +115,7 @@ const Schedule: React.FC = () => {
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-b sm:border-gray-200'>
                 <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1 self-center'>
-                  {/* <SiderBarLink
-                    className='text-primart-on'
-                    href='/qualifying-results'
-                    target='_self'>
-                    Qualifying Results
-                  </SiderBarLink> */}
-                  2020 Qualifying
+                  2020 Qualifying Results
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2 self-start'>
                   <div className='inine-block pb-4'>

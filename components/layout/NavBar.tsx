@@ -1,7 +1,7 @@
 import React from 'react'
 import dynamic from 'next/dynamic'
 
-const Home = dynamic(() => import('components/icons/home'))
+const News = dynamic(() => import('components/icons/news-archive'))
 const Team = dynamic(() => import('components/icons/car'))
 const Driver = dynamic(() => import('components/icons/driver'))
 const Circuit = dynamic(() => import('components/icons/circuit'))
@@ -9,10 +9,10 @@ const Circuit = dynamic(() => import('components/icons/circuit'))
 const NavBar: React.FunctionComponent = () => (
   <nav className='w-full mx-auto flex justify-center container'>
     <div className='w-full flex flex-row justify-between h-12 bg-black-90'>
-      <a href='/' className='bg-black-90 hover:bg-white-5 inline-block'>
+      <a href='/news' className='bg-black-90 hover:bg-white-5 inline-block'>
         <div className='h-32 py-2 flex flex-col ferrari'>
           <div className='flex'>
-            <Home />
+            <News />
           </div>
         </div>
       </a>

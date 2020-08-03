@@ -1,6 +1,6 @@
 import React from 'react'
 import ContentLink from 'components/link/ContentLink'
-import SiderBarLink from 'components/link/SiderBarLink'
+// import SiderBarLink from 'components/link/SiderBarLink'
 
 const Schedule: React.FC = () => {
   return (
@@ -102,12 +102,7 @@ const Schedule: React.FC = () => {
                   Qualifying
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  <SiderBarLink
-                    className='text-primart-on'
-                    href='/qualifying-results'
-                    target='_self'>
-                    Qualifying Results
-                  </SiderBarLink>
+                  Qualifying Results
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -115,12 +110,7 @@ const Schedule: React.FC = () => {
                   Race Day
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  <SiderBarLink
-                    className='text-primart-on'
-                    href='/race-results'
-                    target='_self'>
-                    Race Results
-                  </SiderBarLink>
+                  Race Results
                 </div>
               </div>
             </div>

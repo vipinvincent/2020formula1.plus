@@ -15,7 +15,7 @@ const Header: React.FC = () => {
       className='w-full bg-white-100 fixed xs:relative top-0 right-0 left-0 lg:flex lg:items-center lg:justify-between mx-auto py-1 header container z-20 shadow'
       id='top'>
       <div className='hidden lg:flex justify-end lg:order-2 w-8/12 pr-4 h-10 xs:h-20 whitespace-no-wrap'>
-        <NavLink href='/latest-news' target='_self'>
+        <NavLink href='/news' target='_self'>
           <div className='h-20 pl-2 pr-4 flex flex-row content-center self-center grow'>
             <div className='flex content-center self-center leading-tight text-base'>
               <News />
@@ -25,7 +25,7 @@ const Header: React.FC = () => {
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: 0.1, duration: 1 }}
               className='flex content-center self-center leading-tight text-base pt-0'>
-              Latest News
+              News
             </motion.div>
           </div>
         </NavLink>
