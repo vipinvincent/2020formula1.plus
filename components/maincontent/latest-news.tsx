@@ -21,11 +21,11 @@ const Main: React.FC = () => {
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
         Latest News
       </div>
-      <div className='w-100 mb-4'>
-        <Report />
-      </div>
       <div className='w-100'>
         <FirstContent />
+      </div>
+      <div className='w-100 mb-4'>
+        <Report />
       </div>
       <div className='w-100 flex flex-col xl:flex-row'>
         <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 mt-4'>

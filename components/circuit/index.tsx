@@ -128,16 +128,14 @@ const Schedule: React.FC = () => {
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
                 <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1'>
-                  Race Day
-                </div>
-                {/* <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
+                  {/* Race Day */}
                   <SiderBarLink
                     className='text-primart-on'
                     href='/race-results'
                     target='_self'>
                     Race Results
                   </SiderBarLink>
-                </div> */}
+                </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
                   2 - August ( 14:10 - 16:10 )
                 </div>
