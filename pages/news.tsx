@@ -4,8 +4,8 @@ import Schedule from '../components/schedule'
 import Recent from '../components/schedule/recent'
 import Styrian from '../components/schedule/styrian'
 import Austrian from '../components/schedule/austrian'
-// import Driver from '../components/driver'
-// import Team from '../components/team'
+import Driver from '../components/driver'
+import Team from '../components/team'
 
 const IndexPage = () => (
   <Layout title='Formula1 Plus - Formula 1 Latest News, Insights, Live Grand Prix Updates, Schedule, Standings, Drivers, Teams, Results and much more...'>
@@ -20,8 +20,8 @@ const IndexPage = () => (
             <Recent />
             <Styrian />
             <Austrian />
-            {/* <Driver />
-            <Team /> */}
+            <Driver />
+            <Team />
           </div>
         </div>
       </div>
