@@ -108,7 +108,7 @@ const Race: React.FC = () => {
                   +19.650s
                 </td>
                 <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell text-center'>
-                  62
+                  52
                 </td>
                 <td className='pr-6 whitespace-no-wrap border-b border-gray-200 table-cell text-right font-semibold'>
                   1
@@ -159,7 +159,7 @@ const Race: React.FC = () => {
               </tr>
               <tr className='odd:bg-gray-100 bg-white-100'>
                 <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-left table-cell'>
-                  4
+                  7
                 </td>
                 <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell'>
                   <div className='flex items-center'>

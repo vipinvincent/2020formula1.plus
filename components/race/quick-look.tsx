@@ -109,7 +109,7 @@ const Race: React.FC = () => {
                   +19.650s
                 </td>
                 <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell text-center'>
-                  62
+                  52
                 </td>
                 <td className='pr-6 whitespace-no-wrap border-b border-gray-200 table-cell text-right font-semibold'>
                   1
@@ -160,7 +160,7 @@ const Race: React.FC = () => {
               </tr>
               <tr className='odd:bg-gray-100 bg-white-100'>
                 <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-left table-cell'>
-                  4
+                  7
                 </td>
                 <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell'>
                   <div className='flex items-center'>
@@ -221,8 +221,8 @@ const Race: React.FC = () => {
                   1
                 </td>
               </tr>
-              <tr className='odd:bg-gray-100 bg-white-100 rounded-tl-xxl rounded-br-xl-b'>
-                <td className='px-4 py-1 whitespace-no-wrap text-left table-cell rounded-tl-xxl rounded-br-xl-bl'>
+              <tr className='odd:bg-gray-100 bg-white-100 rounded-tl-xxl rounded-br-xl-b  border-b border-gray-200'>
+                <td className='px-4 py-1 whitespace-no-wrap text-left table-cell  border-b border-gray-200'>
                   10
                 </td>
                 <td className='px-4 py-1 whitespace-no-wrap table-cell'>
@@ -232,13 +232,13 @@ const Race: React.FC = () => {
                     </div>
                   </div>
                 </td>
-                <td className='p-4 whitespace-no-wrap text-sm leading-5 font-medium text-gray-900 text-center '>
+                <td className='p-4 whitespace-no-wrap text-sm leading-5 font-medium text-gray-900 text-center  border-b border-gray-200'>
                   +41.857s
                 </td>
-                <td className='p-4 whitespace-no-wrap table-cell text-center'>
+                <td className='p-4 whitespace-no-wrap table-cell text-center  border-b border-gray-200'>
                   52
                 </td>
-                <td className='pr-6 whitespace-no-wrap table-cell text-right font-semibold'>
+                <td className='pr-6 whitespace-no-wrap table-cell text-right font-semibold  border-b border-gray-200'>
                   1
                 </td>
               </tr>
