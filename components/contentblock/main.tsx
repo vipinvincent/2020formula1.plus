@@ -44,8 +44,8 @@ const Main: React.FC = () => {
               spot for the performance
             </li>
             <li>
-              But the easiest but unlikely option will be Hamilton and Bottas
-              making mistakes
+              But the easiest but unlikely option will be
+              Hamilton/Bottas/Mercedes making mistakes or having some setbacks
             </li>
           </ul>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>

@@ -22,7 +22,7 @@ const Main: React.FC = () => {
             tyre; Verstappen finishes second and Leclerc in third after a last
             lap tyre drama
           </H1>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700 mercedes'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             Lewis Hamilton completes a hat trick win in 2020 season and
             accomplishes his seventh victory in the British Grand Prix in spite
             of his left-front tyre letting go in the last lap. Before taking the
@@ -38,7 +38,7 @@ const Main: React.FC = () => {
             third, after a lonely race in his Ferrari with nearly 13 seconds
             behind Max.
           </p>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700 mercedes'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             Renault’s Daniel Ricciardo claimed fourth as McLaren’s Carlos Sainz,
             who was set to finish fourth, had a similar tyre issue which dropped
             him P13. The other McLaren of Lando Norris crossed the line in fifth
@@ -53,7 +53,7 @@ const Main: React.FC = () => {
             finished 10th after holding off a late charge from the recovering
             Mercedes of Bottas, who finished 11th.
           </p>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700 mercedes'>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             George Russell of Williams finished an impressive 12th with Carlos
             Sainz on his tail. Alfa Romeo’s Antonio Giovinazzi finishes 14th
             with his team mate, Kimi Räikkönen with a struggling and damaged car
