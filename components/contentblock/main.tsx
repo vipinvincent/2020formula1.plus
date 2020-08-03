@@ -18,7 +18,7 @@ const Main: React.FC = () => {
             Feature
           </div>
           <H1>Will 2020 F1 season have a 'Non-Mercedes' race winner???</H1>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700 mercedes'>
+          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
             Just after the initial three races, the picture for 2020 season is
             revealing itself. Again, it will be another Mercedes domination;
             with only question left who (Hamilton or Bottas) going to be the
@@ -30,25 +30,25 @@ const Main: React.FC = () => {
             and will be competitive soon enough to challenge Mercedes for the
             championship.
           </p>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700 mercedes'>
+          <p className='mt-1'>
             What would stop Mercedes’ Midas touch? Checking some (improbable)
             possibilities;
-            <ul className='list-disc pl-6'>
-              <li>More wet race weekends</li>
-              <li>Red Bull fast tacking its updates</li>
-              <li>Ferrari finding a miraculous solution</li>
-              <li>Mclaren becoming more powerful</li>
-              <li>
-                Racing Point getting cleared of allegations and finding the
-                sweat spot for the performance
-              </li>
-              <li>
-                But the easiest but unlikely option will be Hamilton and Bottas
-                making mistakes
-              </li>
-            </ul>
           </p>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700 mercedes'>
+          <ul className='list-disc pl-6 mb-1 text-base leading-normal text-gray-700'>
+            <li>More wet race weekends</li>
+            <li>Red Bull fast tacking its updates</li>
+            <li>Ferrari finding a miraculous solution</li>
+            <li>Mclaren becoming more powerful</li>
+            <li>
+              Racing Point getting cleared of allegations and finding the sweat
+              spot for the performance
+            </li>
+            <li>
+              But the easiest but unlikely option will be Hamilton and Bottas
+              making mistakes
+            </li>
+          </ul>
+          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
             But the season is getting interesting for “best of the rest”, with
             Ferrari joining the middle pack. After strong performance in first 3
             races, Racing Point is making all headlines. Mclaren is also getting
@@ -56,7 +56,7 @@ const Main: React.FC = () => {
             none of the drivers in the “best of the rest” pack is expected to be
             anywhere near the first three places in the 2020 season.
           </p>
-          <p className='mt-1 mb-1 text-base leading-normal text-gray-700 mercedes'>
+          <p className='mt-1 mb-1 text-base leading-normal text-gray-700'>
             Also, it looks like the tail end won’t have a big change, but the
             casual performance of Alpha Tauri and the improved performance of
             Williams makes the life of Ferrari powered Haas and Alfa Romeo

@@ -372,7 +372,7 @@ const Qualifying: React.FC = () => {
               </tr>
               <tr className='odd:bg-gray-100 bg-white-100 border-b border-gray-200'>
                 <td className='p-4 whitespace-no-wrap text-left table-cell'>
-                  20
+                  18
                 </td>
                 <td className='p-4 whitespace-no-wrap table-cell border-b border-gray-200'>
                   <div className='flex items-center'>
@@ -392,7 +392,7 @@ const Qualifying: React.FC = () => {
               </tr>
               <tr className='odd:bg-gray-100 bg-white-100'>
                 <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-left table-cell'>
-                  16
+                  19
                 </td>
                 <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell'>
                   <div className='flex items-center'>

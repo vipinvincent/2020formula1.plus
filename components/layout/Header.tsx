@@ -25,7 +25,7 @@ const Header: React.FC = () => {
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: 0.1, duration: 1 }}
               className='flex content-center self-center leading-tight text-base pt-0'>
-              News
+              News Archives
             </motion.div>
           </div>
         </NavLink>
