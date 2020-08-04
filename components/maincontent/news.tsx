@@ -1,9 +1,9 @@
 import React from 'react'
 
-import Report from 'components/contentblock/report'
-import FirstContent from 'components/contentblock/main'
-import SecondContent from 'components/contentblock/left'
-import ThirdContent from 'components/contentblock/right'
+// import Report from 'components/contentblock/report'
+// import FirstContent from 'components/contentblock/main'
+// import SecondContent from 'components/contentblock/left'
+// import ThirdContent from 'components/contentblock/right'
 
 import Archive11 from 'components/newsarchives/team-performance-after-3-races'
 import Archive10 from 'components/newsarchives/ferrari-restructured'
