@@ -4,7 +4,7 @@ import ContentLink from 'components/link/ContentLink'
 
 const AutoSport: React.FC = () => {
   return (
-    <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-0'>
+    <div className='relative bg-white-50 rounded-tl-xxl rounded-br-xxl shadow mt-0'>
       <div className='h-32 sm:h-48 w-full bg-black-100 rounded-tl-xl'>
         <img
           className='w-full h-full object-contain rounded-tl-xl bg-autosports'
@@ -13,46 +13,40 @@ const AutoSport: React.FC = () => {
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
-        <div className='px-4 pt-4 pb-0 text-left'>
+        <div className='px-4 pt-4 pb-6 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
             News
           </div>
           <ActionLink
-            href='https://www.autosport.com/f1/news/150896/ferrari-proposed-customer-cars-return-in-f1-covid-talks'
+            href='https://www.autosport.com/f1/news/151046/ferrari-restructure-frees-binotto-from-technical-role'
             target='_blank'>
-            Ferrari proposed customer cars return during F1 COVID talks
+            Ferrari restructuring sees Binotto step back from F1 technical role
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Ferrari proposed a return of customer cars to Formula 1 during talks
-            to safeguard the sport's future, only for the move to be rejected by
-            the rest of the grid.
+            Ferrari team principal Mattia Binotto says the recent restructuring
+            at Maranello has allowed him to step back from his involvement in
+            its Formula 1 technical department.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            With the COVID-19 pandemic set to have a major impact on the revenue
-            of F1 teams, talks took place through spring to try and put measures
-            in place to support the entire grid.
+            Since moving up from his technical director role to become team boss
+            last year, Binotto has had to juggle responsibilities across the
+            entire Maranello organisation - which has left him stretched at
+            times.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            It was ultimately decided to continue to race with the 2020 cars in
-            2021 to ease development costs for teams, consequently postponing
-            the new regulations until 2022, as well as reducing the budget cap
-            to $145 million from next year.
+            But on the back of a difficult start to 2020, Ferrari last week
+            announced a new structure that included the creation of a new
+            performance development division.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            When asked for his thoughts on Russell's season by Autosport, Norris
-            replied: "I'm definitely happy for him, that he's at least having a
-            chance to be able to race with some people."
-          </p>
-          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            "I felt sorry for him last year, because he's a nice guy, I get
-            along well with him. He's a very good driver. "So where Williams
-            were last season, it's just disappointing to see him in that
-            position.
+            The changes will now allow Binotto to move away from being directly
+            hands on with technical aspects, so he can better focus on other
+            aspects that will help Ferrari.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.autosport.com/f1/news/150896/ferrari-proposed-customer-cars-return-in-f1-covid-talks'
+              href='https://www.autosport.com/f1/news/151046/ferrari-restructure-frees-binotto-from-technical-role'
               target='_blank'>
               autosport.com
             </ContentLink>{' '}

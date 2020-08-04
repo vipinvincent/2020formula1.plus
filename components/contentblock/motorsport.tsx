@@ -4,7 +4,7 @@ import ContentLink from 'components/link/ContentLink'
 
 const MotorSport: React.FC = () => {
   return (
-    <div className='relative bg-white-20 rounded-tl-xxl rounded-br-xxl shadow mt-0'>
+    <div className='relative bg-white-50 rounded-tl-xxl rounded-br-xxl shadow mt-0'>
       <div className='h-32 sm:h-48 w-full bg-black-100 rounded-tl-xl'>
         <img
           className='w-full h-full object-contain rounded-tl-lg rounded-br-lg-tl-xl'
@@ -13,47 +13,39 @@ const MotorSport: React.FC = () => {
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
-        <div className='px-4 pt-4 pb-3 text-left'>
+        <div className='px-4 pt-4 pb-2 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
             ANALYSIS
           </div>
           <ActionLink
-            href='https://www.motorsport.com/f1/news/mercedes-ferrari-red-bull-tech-update/4849124/'
+            href='https://www.motorsport.com/f1/news/racing-point-glimpses-potential-green/4849290/'
             target='_blank'>
-            F1 technical update: Mercedes, Ferrari, Racing Point & Red Bull
+            Only "glimpses" of Racing Point's potential seen so far
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            In the ongoing development war between Formula 1’s teams, keep up to
-            date with what’s new in our regular technical updates. Today, let’s
-            look at four outfits at the British Grand Prix – Mercedes, Ferrari,
-            Racing Point and Red Bull.
+            Racing Point's technical director Andy Green says the
+            Silverstone-based outfit has only been able to show “glimpses” of
+            the RP20's true form, as it tries to unlock the full potential of
+            its 2020 Formula 1 car.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Teams arrived at the British GP knowing that the track posed a very
-            different challenge compared with the opening three rounds. With the
-            top four teams showing varying degrees of strengths and weaknesses,
-            we saw an array of downforce levels chosen at Silverstone.
+            The Racing Point is generally regarded as the third fastest team on
+            the 2020 grid behind Mercedes and Red Bull, with the potential to be
+            second. That was the case over one lap in Hungary, where Lance
+            Stroll and Sergio Perez started third and fourth.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The superior level of downforce that the W11 possesses compared with
-            its predecessor had already seen Mercedes taking less wing angle,
-            relative to last year, in the opening few races. And it’s a trend
-            that’s continued for Silverstone (above left) – it ran less wing
-            angle than earlier this season (above right), while also stripping
-            the Gurney tab from the trailing edge of the upper flap. It’s also
-            worth noting that this lower downforce design also features the
-            single-mounting pillar tested at the last pre-season test and
-            featured in the revised wing that the team used at the Styrian GP.
-            The use of a single pillar design has both positives and negatives,
-            with the major positive in this instance being aerodynamic, as a
-            single pillar should cause less flow separation across the wing
-            span, which is critical when you’ve reduced the size of the
-            mainplane in the way that Mercedes have.
+            However, the team hasn’t backed that pace up with hard results, and
+            it currently lies only fifth in the world championship, behind
+            McLaren and Ferrari. The British GP weekend was compromised by the
+            loss of Perez to COVID-19 and the need to get his replacement Nico
+            Hulkenberg up to speed, which meant that the team had to abandon its
+            usual Friday test programme.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.motorsport.com/f1/news/mercedes-ferrari-red-bull-tech-update/4849124/'
+              href='https://www.motorsport.com/f1/news/racing-point-glimpses-potential-green/4849290/'
               target='_blank'>
               motorsport.com
             </ContentLink>{' '}

@@ -7,14 +7,14 @@ const Third: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=08zBLNnZGUA'
+        href='https://www.youtube.com/watch?v=u9Fi35-8Hf8'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/08zBLNnZGUA/sddefault.jpg'
-              alt='A crazy final lap at Silverstone | Max celebrates with the Team at the British Grand Prix'
+              src='https://img.youtube.com/vi/u9Fi35-8Hf8/sddefault.jpg'
+              alt='RACE ANALYSIS: 2020 Formula 1 British Grand Prix'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,22 +32,26 @@ const Third: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=08zBLNnZGUA'
+            href='https://www.youtube.com/watch?v=u9Fi35-8Hf8'
             target='_blank'>
-            A crazy final lap at Silverstone | Max celebrates with the Team at
-            the British Grand Prix
+            RACE ANALYSIS: 2020 Formula 1 British Grand Prix
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Max Verstappen: podium getter, chief hydration officer and team
-            photographer!
+            Our latest Formula 1 2020 feature analysing the British Grand Prix.
+            And while the majority of the race was predictable, controlled by
+            six-time F1 World Champion Lewis Hamilton, the final laps were
+            anything but; with both Mercedes and McLaren’s Carlos Sainz enduring
+            dramatic tyre blowouts. Hamilton on the final lap, forcing him to
+            limp to the line on three wheels as Red Bull Racing’s Max Verstappen
+            breathed down his neck, for his 87th victory, his seventh at
+            Silverstone a new record for wins at home. Watch the video, and tell
+            us what you think in the comments…
           </p>
 
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink
-              href='https://www.redbull.com/int-en/redbullracing/'
-              target='_blank'>
-              Aston Martin Red Bull Racing
+            <ContentLink href='https://unbeaten.com/formula1' target='_blank'>
+              The Inside Line
             </ContentLink>
           </p>
         </div>

@@ -4,12 +4,12 @@ import ContentLink from 'components/link/ContentLink'
 
 const F1: React.FC = () => {
   return (
-    <div className='relative bg-white-20 rounded-tl-xxl rounded-br-xxl shadow mt-0'>
+    <div className='relative bg-white-50 rounded-tl-xxl rounded-br-xxl shadow mt-0'>
       <div className='h-32 sm:h-84 w-full'>
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
-          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826961/contentImages/content/redbull-mercedes_ikkneb.jpg'
-          alt='The Ross Brawn column: Why Id have made the same call as Red Bull on Verstappens pit stop'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1596538444/contentImages/content/imola-track_iyvrzw.jpg'
+          alt='Drivers to face unique challenge at Imola as organisers confirm race will have only one practice session'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
@@ -18,35 +18,36 @@ const F1: React.FC = () => {
             FEATURE
           </div>
           <ActionLink
-            href='https://www.formula1.com/en/latest/article.the-ross-brawn-column-british-grand-prix-edition.2iX6FD7hbWntb63mQ9Cuq9.html'
+            href='https://www.formula1.com/en/latest/article.drivers-to-face-unique-challenge-at-imola-as-organisers-confirm-race-will.5yXq3rFEENsdBvvEYXR3ts.html'
             target='_blank'>
-            The Ross Brawn column: Why I’d have made the same call as Red Bull
-            on Verstappen’s pit stop
+            Drivers to face unique challenge at Imola as organisers confirm race
+            will have only one practice session
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The British Grand Prix burst into life in the closing stages, with a
-            series of tyre deflations delivering an unpredictable climax at
-            Silverstone. Formula 1 Managing Director, Motorsport, Ross Brawn
-            discusses the key talking points from the race.
+            The Formula 1 drivers will face a unique challenge for the Emilia
+            Romagna Grand Prix being held at Imola on November 1st, when they
+            will have only one practice session to dial in their cars ahead of
+            qualifying.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Even when a race looks like it is coming to a predictable end,
-            Formula 1 has a great habit of throwing up some unexpected results,
-            and the British Grand Prix was a fine example. It was a eventually a
-            cliffhanger – and while it was a little bit of a slowburner of a
-            race at the front, it all came to life in the last few laps, with a
-            series of tyre deflations.
+            The race at Imola was added to the calendar as part of the rejigged
+            2020 season in response to the coronavirus pandemic - the first time
+            the Italian track will host a Grand Prix since 2006. When it was
+            announced last month, organisers said the event would be a condensed
+            two-day race weekend, and today the session times for the weekend
+            have been confirmed.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Mercedes were faced with a difficult decision when Valtteri reported
-            he was experiencing severe vibrations. We’ve seen it many times over
-            the years, when the team faces a difficult call and a bigger problem
-            comes from trying to manage the issue until the end of the race.
+            The format allows for a single practice session on Saturday morning
+            at 10am local time – instead of the usual three spread across Friday
+            and Saturday – meaning the drivers will have just 90 minutes to get
+            a feel for the track and to finalise their car set-up. Qualifying
+            will follow at 2pm local time.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.formula1.com/en/latest/article.the-ross-brawn-column-british-grand-prix-edition.2iX6FD7hbWntb63mQ9Cuq9.html'
+              href='https://www.formula1.com/en/latest/article.drivers-to-face-unique-challenge-at-imola-as-organisers-confirm-race-will.5yXq3rFEENsdBvvEYXR3ts.html'
               target='_blank'>
               formula1.com
             </ContentLink>{' '}
