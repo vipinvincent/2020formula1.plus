@@ -7,14 +7,14 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=pWDlkp_xRR8'
+        href='https://www.youtube.com/watch?v=6du3xhYwJoc'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-40 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/pWDlkp_xRR8/maxresdefault.jpg'
-              alt='Should Red Bull Drop Alex Albon?'
+              src='https://img.youtube.com/vi/6du3xhYwJoc/sddefault.jpg'
+              alt='LAST LAP CARNAGE! 2020 British GP - Unbiased F1 Podcast'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,23 +32,22 @@ const Second: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=pWDlkp_xRR8'
+            href='https://www.youtube.com/watch?v=6du3xhYwJoc'
             target='_blank'>
-            Should Red Bull Drop Alex Albon?
+            LAST LAP CARNAGE! 2020 British GP - Unbiased F1 Podcast
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Its been just about a year since Pierre Gasly was dropped from Red
-            Bull in favour of Alex Albon. Yet now, we are seeing history repeat
-            himself. Here I list my thoughts on the situation and who I think
-            could replace him if Red Bull do decide change is needed.
+            What an ending! A stunningly dramatic final few laps in
+            Northamptonshire in which punctures changed the face of the race.
+            What do you think? Let us know in the comments below!
           </p>
 
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
             <ContentLink
-              href='https://www.youtube.com/channel/UCihjJgRm3Th-quKmTW-9AwQ'
+              href='https://www.youtube.com/channel/UCiMPcmFo6sMsZOWvlLCz0YQ'
               target='_blank'>
-              FP1 - Formula Podcast One
+              Unbiased Formula 1 Podcast
             </ContentLink>
           </p>
         </div>

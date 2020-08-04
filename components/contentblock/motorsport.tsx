@@ -4,7 +4,7 @@ import ContentLink from 'components/link/ContentLink'
 
 const MotorSport: React.FC = () => {
   return (
-    <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-0'>
+    <div className='relative bg-white-20 rounded-tl-xxl rounded-br-xxl shadow mt-0'>
       <div className='h-32 sm:h-48 w-full bg-black-100 rounded-tl-xl'>
         <img
           className='w-full h-full object-contain rounded-tl-lg rounded-br-lg-tl-xl'
@@ -15,37 +15,45 @@ const MotorSport: React.FC = () => {
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-3 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            News
+            ANALYSIS
           </div>
           <ActionLink
-            href='https://www.motorsport.com/f1/news/renault-lodges-third-protest-against-racing-point/4848555/'
+            href='https://www.motorsport.com/f1/news/mercedes-ferrari-red-bull-tech-update/4849124/'
             target='_blank'>
-            Renault lodges third protest against Racing Point
+            F1 technical update: Mercedes, Ferrari, Racing Point & Red Bull
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Renault has formally lodged a protest over the legality of Racing
-            Point's Formula 1 car for the third race in a row following Sunday's
-            British Grand Prix.
+            In the ongoing development war between Formula 1’s teams, keep up to
+            date with what’s new in our regular technical updates. Today, let’s
+            look at four outfits at the British Grand Prix – Mercedes, Ferrari,
+            Racing Point and Red Bull.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Renault is currently embroiled in a row with Racing Point over the
-            design of its RP20 car, which shares a number of similarities with
-            the 2019 championship-winning Mercedes W10. Racing Point has always
-            maintained that while the car was designed based off the concept of
-            last year's Mercedes, it was done so within the regulations.
+            Teams arrived at the British GP knowing that the track posed a very
+            different challenge compared with the opening three rounds. With the
+            top four teams showing varying degrees of strengths and weaknesses,
+            we saw an array of downforce levels chosen at Silverstone.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            A formal protest was lodged against Racing Point by Renault
-            following each of the last two races, the Styrian Grand Prix and the
-            Hungarian Grand Prix, centering on the legality of the RP20's brake
-            ducts. The FIA is conducting a full investigation into the matter,
-            but failed to hold a hearing or make a ruling ahead of this
-            weekend's British Grand Prix.
+            The superior level of downforce that the W11 possesses compared with
+            its predecessor had already seen Mercedes taking less wing angle,
+            relative to last year, in the opening few races. And it’s a trend
+            that’s continued for Silverstone (above left) – it ran less wing
+            angle than earlier this season (above right), while also stripping
+            the Gurney tab from the trailing edge of the upper flap. It’s also
+            worth noting that this lower downforce design also features the
+            single-mounting pillar tested at the last pre-season test and
+            featured in the revised wing that the team used at the Styrian GP.
+            The use of a single pillar design has both positives and negatives,
+            with the major positive in this instance being aerodynamic, as a
+            single pillar should cause less flow separation across the wing
+            span, which is critical when you’ve reduced the size of the
+            mainplane in the way that Mercedes have.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.motorsport.com/f1/news/renault-lodges-third-protest-against-racing-point/4848555/'
+              href='https://www.motorsport.com/f1/news/mercedes-ferrari-red-bull-tech-update/4849124/'
               target='_blank'>
               motorsport.com
             </ContentLink>{' '}

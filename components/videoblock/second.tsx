@@ -7,14 +7,14 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=ppP0lMXlGtQ'
+        href='https://www.youtube.com/watch?v=Bob90TBZ8y4'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/ppP0lMXlGtQ/sddefault.jpg'
-              alt='Are F1s new insight graphic ideas actually bad?'
+              src='https://img.youtube.com/vi/Bob90TBZ8y4/sddefault.jpg'
+              alt='292 seconds of F1 chaos: Did Red Bull and Mercedes blunder in the British GP?'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,20 +32,23 @@ const Second: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=ppP0lMXlGtQ'
+            href='https://www.youtube.com/watch?v=Bob90TBZ8y4'
             target='_blank'>
-            Are F1's new 'insight' graphic ideas actually bad?
+            292 seconds of F1 chaos: Did Red Bull and Mercedes blunder in the
+            British GP?
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            F1 is continuing to roll out new graphics on screen that claim to
-            use massive data analysis to being insight to the audience. But they
-            seem somewhat confusing at best and very dodgy at worst. Are they
-            all bad or is there merit here?
+            A fairly pedestrian British Grand Prix exploded into life in the
+            closing laps when tyre failures hit three of the top four runners.
+            Scott Mitchell looks back at how it all unfolded, and inspects the
+            decisions made by Mercedes and Red Bull as the outcome of the first
+            2020 race at Silverstone was thrown up into the air for the final
+            few minutes
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='http://www.chainbear.me ' target='_blank'>
-              chainbear
+            <ContentLink href='https://the-race.com/' target='_blank'>
+              the-race.com/
             </ContentLink>
           </p>
         </div>

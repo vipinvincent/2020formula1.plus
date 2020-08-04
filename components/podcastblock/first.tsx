@@ -7,14 +7,14 @@ const First: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=El8ozBN8s1A'
+        href='https://www.youtube.com/watch?v=4WTHUjC90D8'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-40 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/El8ozBN8s1A/sddefault.jpg'
-              alt='Should F1 Ditch Friday Practice? | Is It Just Me? Podcast'
+              src='https://img.youtube.com/vi/4WTHUjC90D8/sddefault.jpg'
+              alt='2020 British GP Race Review | WTF1 Podcast'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,15 +32,15 @@ const First: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=El8ozBN8s1A'
+            href='https://www.youtube.com/watch?v=4WTHUjC90D8'
             target='_blank'>
-            Should F1 Ditch Friday Practice? | Is It Just Me? Podcast
+            2020 British GP Race Review | WTF1 Podcast
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Jess McFadyen is joined by Luke Smith via video call, who is now
-            inside the Formula 1 Silverstone bubble and wasn't allowed to come
-            into the studio. This week we ask: should F1 get rid of Friday
-            practice? Jess and Luke go through what you think.
+            What an unbelievable finish!! The 2020 British Grand Prix certainly
+            threw up a few surprises at the end of the race. Could Hamilton have
+            been penalised? What next for Alex Albon? Matt & Tommy discuss it
+            all.
           </p>
 
           <p className='mt-1 text-base leading-normal text-gray-700'>

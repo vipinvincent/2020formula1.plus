@@ -4,51 +4,49 @@ import ContentLink from 'components/link/ContentLink'
 
 const F1: React.FC = () => {
   return (
-    <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-2'>
+    <div className='relative bg-white-20 rounded-tl-xxl rounded-br-xxl shadow mt-0'>
       <div className='h-32 sm:h-84 w-full'>
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
-          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1596390118/contentImages/content/sainz_gcczoo.jpg'
-          alt='Luck hasn t been with me says Sainz after last-gasp tyre drama robs him of points at Silverstone'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826961/contentImages/content/redbull-mercedes_ikkneb.jpg'
+          alt='The Ross Brawn column: Why Id have made the same call as Red Bull on Verstappens pit stop'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 py-4 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            News
+            FEATURE
           </div>
           <ActionLink
-            href='https://www.formula1.com/en/latest/article.luck-hasnt-been-with-me-says-sainz-after-last-gasp-tyre-drama-robs-him-of.6y8pEVepqAl5nQ64lPc3J4.html'
+            href='https://www.formula1.com/en/latest/article.the-ross-brawn-column-british-grand-prix-edition.2iX6FD7hbWntb63mQ9Cuq9.html'
             target='_blank'>
-            ‘Luck hasn't been with me' says Sainz after last-gasp tyre drama
-            robs him of points at Silverstone
+            The Ross Brawn column: Why I’d have made the same call as Red Bull
+            on Verstappen’s pit stop
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Carlos Sainz dropped like a stone from fourth to 13th after his
-            left-front tyre gave out on the penultimate lap of the British Grand
-            Prix – but the Spaniard insisted he couldn’t blame himself nor
-            McLaren for the incident which robbed him of a fourth points finish
-            in a row in 2020.
+            The British Grand Prix burst into life in the closing stages, with a
+            series of tyre deflations delivering an unpredictable climax at
+            Silverstone. Formula 1 Managing Director, Motorsport, Ross Brawn
+            discusses the key talking points from the race.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Sainz started seventh behind Lance Stroll and was up to fifth, ahead
-            of team mate Lando Norris and Stroll, after a terrific first lap.
-            When the second Safety Car emerged on Lap 13, he pitted for a set of
-            hard compound tyres and found himself behind Romain Grosjean, who
-            was the only driver not to pit, and was on the faster medium
-            compounds.
+            Even when a race looks like it is coming to a predictable end,
+            Formula 1 has a great habit of throwing up some unexpected results,
+            and the British Grand Prix was a fine example. It was a eventually a
+            cliffhanger – and while it was a little bit of a slowburner of a
+            race at the front, it all came to life in the last few laps, with a
+            series of tyre deflations.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Sainz struggled to pass Grosjean initially and dubbed the
-            Frenchman's defence “dangerous” – with the stewards agreeing
-            suffiently to show the Haas driver the black-and-white flag – but
-            his biggest concern was his tyres, as they had to last a whopping 39
-            laps after his pit stop.
+            Mercedes were faced with a difficult decision when Valtteri reported
+            he was experiencing severe vibrations. We’ve seen it many times over
+            the years, when the team faces a difficult call and a bigger problem
+            comes from trying to manage the issue until the end of the race.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.formula1.com/en/latest/article.luck-hasnt-been-with-me-says-sainz-after-last-gasp-tyre-drama-robs-him-of.6y8pEVepqAl5nQ64lPc3J4.html'
+              href='https://www.formula1.com/en/latest/article.the-ross-brawn-column-british-grand-prix-edition.2iX6FD7hbWntb63mQ9Cuq9.html'
               target='_blank'>
               formula1.com
             </ContentLink>{' '}

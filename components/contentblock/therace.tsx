@@ -4,7 +4,7 @@ import ContentLink from 'components/link/ContentLink'
 
 const TheRace: React.FC = () => {
   return (
-    <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-0'>
+    <div className='relative bg-white-20 rounded-tl-xxl rounded-br-xxl shadow mt-0'>
       <div className='h-32 sm:h-48 w-full bg-black-100 rounded-tl-xl'>
         <img
           className='w-full h-full object-contain rounded-tl-lg bg-gray-800 px-8 py-8'
@@ -18,35 +18,41 @@ const TheRace: React.FC = () => {
             News
           </div>
           <ActionLink
-            href='https://the-race.com/formula-1/why-the-reason-for-albons-penalty-doesnt-make-sense/'
+            href='https://the-race.com/formula-1/ferrari-requests-racing-point-design-clarification-from-fia/'
             target='_blank'>
-            Why the reason for Albon’s penalty doesn’t make sense
+            Ferrari requests Racing Point design clarification from FIA
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The British Grand Prix stewards slapped a penalty on Alex Albon that
-            reinforces the feeling Formula 1’s not got its rules of racing in
-            order. Magnussen hit the kerb through the final complex of corners
-            on the opening lap of the race, giving Red Bull driver Albon a run
-            and tempting him to try to pass through the fast right-hand final
-            turn.
+            Ahead of Wednesday’s hearing of the Renault protest of the Racing
+            Point brake ducts, Ferrari has written to the FIA and Formula 1
+            chiefs requesting clarification on how the Racing Point methodology
+            of ‘reverse-engineering’ its RP20 from last year’s Mercedes W10 can
+            be considered as ‘design’.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            But the Haas moved across and they made contact as Albon backed out,
-            pitched Magnussen off-track and into the barriers. In explaining
-            their decision to hit Albon with a five-second penalty, the stewards
-            said: “Passes at Turn 18 are unusual and difficult to execute.
+            Ferrari points to Appendix 6 of the F1 Sporting Regulations which
+            state that a team can only use listed parts it has designed itself
+            (the relevant section detailed below):
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            “While Albon appeared to be the faster car the stewards determined
-            that he attempted the pass too late and the gap on the inside of Car
-            20 was always going to diminish. “It appeared that he attempted to
-            back out of the pass at the last second. “The stewards took into
-            account that Magnussen had a slower exit from Turn 17.”
+            A competitor shall, in respect of the Listed Parts to be used in its
+            cars in Formula 1, only use Listed Parts which are designed by it.
+            2. The obligation to design and use Listed Parts shall not prevent a
+            competitor from Outsourcing the design and/or manufacture of any
+            Listed Parts to a third party (including an Associate of such
+            competitor) provided that: a) It retains the exclusive right to use
+            the Listed Parts in Formula 1 so long as it competes in Formula 1.
+            b) In the case of the Outsourcing of manufacture such third party
+            shall not be a competitor. c) In the case of the Outsourcing of
+            design, such third party shall not be a competitor or a party that
+            directly or indirectly designs Listed Parts for any competitor.
+            Ferrari is fully supportive of Renault’s protest, which aligns it
+            also with the position of McLaren.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://the-race.com/formula-1/why-the-reason-for-albons-penalty-doesnt-make-sense/'
+              href='https://the-race.com/formula-1/ferrari-requests-racing-point-design-clarification-from-fia/'
               target='_blank'>
               the-race.com
             </ContentLink>{' '}

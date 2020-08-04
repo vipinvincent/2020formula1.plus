@@ -7,14 +7,14 @@ const First: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=5SIQm56DhW4'
+        href='https://www.youtube.com/watch?v=b0plSSIs1xo'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/5SIQm56DhW4/sddefault.jpg'
-              alt='How quickly can Red Bull Racing turn its campaign around?'
+              src='https://img.youtube.com/vi/b0plSSIs1xo/sddefault.jpg'
+              alt='Rating Every F1 Driver from the 2020 British GP'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,20 +32,18 @@ const First: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=5SIQm56DhW4'
+            href='https://www.youtube.com/watch?v=b0plSSIs1xo'
             target='_blank'>
-            Is Renault's focus now on 2022?
+            Rating Every F1 Driver from the 2020 British GP
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Renault has failed to fire across F1’s opening triple-header,
-            reliability yet again costing it points and momentum, as its
-            midfield rivals march ahead, gaining ground in the constructors’
-            championship.
+            Jess McFadyen and Alex Kalinauckas are back with more Driver
+            Ratings, this time from the dramatic 2020 British GP!
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='http://theinsideline.com/ ' target='_blank'>
-              The Inside Line
+            <ContentLink href='https://www.autosport.com/f1 ' target='_blank'>
+              Autosport
             </ContentLink>
           </p>
         </div>

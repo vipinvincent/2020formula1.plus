@@ -7,14 +7,14 @@ const Third: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=NcDGAFuDq_E'
+        href='https://www.youtube.com/watch?v=08zBLNnZGUA'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/NcDGAFuDq_E/sddefault.jpg'
-              alt='2020 British Grand Prix: Tech Talk - Silverstones High Speed Challenge'
+              src='https://img.youtube.com/vi/08zBLNnZGUA/sddefault.jpg'
+              alt='A crazy final lap at Silverstone | Max celebrates with the Team at the British Grand Prix'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,21 +32,22 @@ const Third: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=NcDGAFuDq_E'
+            href='https://www.youtube.com/watch?v=08zBLNnZGUA'
             target='_blank'>
-            2020 British Grand Prix: Tech Talk - Silverstone's High Speed
-            Challenge
+            A crazy final lap at Silverstone | Max celebrates with the Team at
+            the British Grand Prix
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            From the slow and twisty Hungaroring to the ultra-high speed flow of
-            Silverstone. Sam Collins talks through some of the key technical
-            tweaks as we head to Round 4 in Silverstone.
+            Max Verstappen: podium getter, chief hydration officer and team
+            photographer!
           </p>
 
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='https://f1.com/F1TV-TechTalk' target='_blank'>
-              F1TV-TechTalk
+            <ContentLink
+              href='https://www.redbull.com/int-en/redbullracing/'
+              target='_blank'>
+              Aston Martin Red Bull Racing
             </ContentLink>
           </p>
         </div>

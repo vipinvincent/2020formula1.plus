@@ -20,7 +20,7 @@ import Archive1 from 'components/newsarchives/team-on-teammates-battles'
 const Main: React.FC = () => {
   return (
     <div className='flex flex-col'>
-      <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
+      {/* <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
         Latest News
       </div>
       <div className='w-100'>
@@ -36,7 +36,7 @@ const Main: React.FC = () => {
         <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 mt-4'>
           <ThirdContent />
         </div>
-      </div>
+      </div> */}
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mt-2 mb-1 px-2 '>
         Archived News
       </div>

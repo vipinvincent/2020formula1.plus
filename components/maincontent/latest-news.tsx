@@ -24,7 +24,7 @@ const Main: React.FC = () => {
       <div className='w-100'>
         <FirstContent />
       </div>
-      <div className='w-100 mb-4'>
+      <div className='w-100 my-4'>
         <Report />
       </div>
       <div className='w-100 flex flex-col xl:flex-row'>
@@ -35,11 +35,11 @@ const Main: React.FC = () => {
           <ThirdContent />
         </div>
       </div>
-      <div className='bg-white-50 mt-4 px-4 pb-4 rounded-xxl'>
-        <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mt-4 mb-1 px-2'>
-          Featured news on F1 news Sources
-        </div>
-        <div className='w-100 my-4'>
+      <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mt-4 mb-1 px-2'>
+        Featured news on F1 news Sources
+      </div>
+      <div className='bg-white-50 rounded-tl-xxl rounded-br-xxl'>
+        <div className='w-100 mb-4'>
           <F1 />
         </div>
         <div className='w-100 flex flex-col xl:flex-row'>
