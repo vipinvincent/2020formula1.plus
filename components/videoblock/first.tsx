@@ -7,14 +7,14 @@ const First: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=MTalgzryWFs'
+        href='https://www.youtube.com/watch?v=kr4UbLlIpHw'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/MTalgzryWFs/sddefault.jpg'
-              alt='Toto Wolff takes on Lewis Hamilton and Valtteri Bottas in a race around Silverstone! | Sky F1'
+              src='https://img.youtube.com/vi/kr4UbLlIpHw/sddefault.jpg'
+              alt='The Ferrari F1 gamble that unleashed Leclerc and left Vettel nowhere'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,21 +32,26 @@ const First: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=MTalgzryWFs'
+            href='https://www.youtube.com/watch?v=kr4UbLlIpHw'
             target='_blank'>
-            Toto Wolff takes on Lewis Hamilton and Valtteri Bottas in a race
-            around Silverstone! | Sky F1
+            The Ferrari F1 gamble that unleashed Leclerc and left Vettel nowhere
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Mercedes boss Toto Wolff takes on his two drivers Lewis Hamilton and
-            Valtteri Bottas in a three-way Mercedes GTR Battle around
-            Silverstone, filmed earlier this year. Who do you think will come
-            out on top?
+            Ferrari scored an unlikely podium finish in the British Grand Prix,
+            but the fortunate result was a reward for Charles Leclerc putting
+            himself at the sharp end when it counted during the weekend. That
+            required Leclerc to drive a tricky Ferrari on the edge following a
+            set-up gamble taken by the team to make up for the deficiencies of
+            its 2020 car. Sebastian Vettel couldn't get on with it in the same
+            way, so the ploy that gave one Ferrari driver the chance to compete
+            near the sharp end left the other miles off the pace on race day.
+            Scott Mitchell explains what Ferrari did, and how Leclerc got the
+            maximum from it while Vettel couldn't.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='https://www.skysports.com/f1' target='_blank'>
-              Sky Sports F1
+            <ContentLink href=' http://the-race.com/' target='_blank'>
+              the-race.com
             </ContentLink>
           </p>
         </div>

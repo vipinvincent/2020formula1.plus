@@ -7,14 +7,14 @@ const Third: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=u9Fi35-8Hf8'
+        href='https://www.youtube.com/watch?v=uXfMqLXjD-o'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/u9Fi35-8Hf8/sddefault.jpg'
-              alt='RACE ANALYSIS: 2020 Formula 1 British Grand Prix'
+              src='https://img.youtube.com/vi/uXfMqLXjD-o/sddefault.jpg'
+              alt='British GP Last Lap Punctures & Detailed Timeline BREAKDOWN [Formula 1 ONBOARD]'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,26 +32,22 @@ const Third: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=u9Fi35-8Hf8'
+            href='https://www.youtube.com/watch?v=uXfMqLXjD-o'
             target='_blank'>
-            RACE ANALYSIS: 2020 Formula 1 British Grand Prix
+            British GP Last Lap Punctures & Detailed Timeline BREAKDOWN [Formula
+            1 ONBOARD]
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Our latest Formula 1 2020 feature analysing the British Grand Prix.
-            And while the majority of the race was predictable, controlled by
-            six-time F1 World Champion Lewis Hamilton, the final laps were
-            anything but; with both Mercedes and McLaren’s Carlos Sainz enduring
-            dramatic tyre blowouts. Hamilton on the final lap, forcing him to
-            limp to the line on three wheels as Red Bull Racing’s Max Verstappen
-            breathed down his neck, for his 87th victory, his seventh at
-            Silverstone a new record for wins at home. Watch the video, and tell
-            us what you think in the comments…
+            The British Grand Prix Last Lap was some of the best action we've
+            seen in Formula 1 in a while. In this video you'll get a play by
+            play w/onboard video, radio messages, & why F1 70th Anniversary will
+            be just as good if not better.
           </p>
 
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='https://unbeaten.com/formula1' target='_blank'>
-              The Inside Line
+            <ContentLink href='https://www.crankyyankeef1.com/' target='_blank'>
+              CrankyYankeeF1
             </ContentLink>
           </p>
         </div>

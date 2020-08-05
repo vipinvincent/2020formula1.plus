@@ -18,34 +18,36 @@ const MotorSport: React.FC = () => {
             ANALYSIS
           </div>
           <ActionLink
-            href='https://www.motorsport.com/f1/news/racing-point-glimpses-potential-green/4849290/'
+            href='https://www.motorsport.com/f1/news/softer-pirelli-tyres-silverstone-70th/4849620/'
             target='_blank'>
-            Only "glimpses" of Racing Point's potential seen so far
+            Pirelli: Softer tyres not a risk at second Silverstone race
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Racing Point's technical director Andy Green says the
-            Silverstone-based outfit has only been able to show “glimpses” of
-            the RP20's true form, as it tries to unlock the full potential of
-            its 2020 Formula 1 car.
+            Pirelli Formula 1 boss Mario Isola has downplayed fears about the
+            move to softer tyre compounds for the 70th Anniversary GP at
+            Silverstone following the failures in last weekend’s British GP.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The Racing Point is generally regarded as the third fastest team on
-            the 2020 grid behind Mercedes and Red Bull, with the potential to be
-            second. That was the case over one lap in Hungary, where Lance
-            Stroll and Sergio Perez started third and fourth.
+            Pirelli’s analysis of the front left failures on the cars of Lewis
+            Hamilton, Valtteri Bottas and Carlos Sainz has confirmed that the
+            unusually long stints run after drivers made early pitstops under
+            the safety car led to the failures.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            However, the team hasn’t backed that pace up with hard results, and
-            it currently lies only fifth in the world championship, behind
-            McLaren and Ferrari. The British GP weekend was compromised by the
-            loss of Perez to COVID-19 and the need to get his replacement Nico
-            Hulkenberg up to speed, which meant that the team had to abandon its
-            usual Friday test programme.
+            The Italian company has stuck with the original decision to move to
+            the C2, C3 and C4 range – leaving out the C1s that failed last
+            weekend – but will mandate increased pressures. The minimum front
+            pressure will be up by 2psi, and the rear by 1psi. Isola insists
+            that softer compounds won’t create any extra risk as the tyre
+            compound did not have an impact on the failures suffered on Sunday.
+            “The investigation says that the cause of the initial loss of
+            pressure and then the deflation was the level of stress on the tyre,
+            on the construction of the tyre,” he said.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.motorsport.com/f1/news/racing-point-glimpses-potential-green/4849290/'
+              href='https://www.motorsport.com/f1/news/softer-pirelli-tyres-silverstone-70th/4849620/'
               target='_blank'>
               motorsport.com
             </ContentLink>{' '}

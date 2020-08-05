@@ -4,7 +4,7 @@ import ContentLink from 'components/link/ContentLink'
 
 const PlanetF1: React.FC = () => {
   return (
-    <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-0'>
+    <div className='relative bg-white-50 rounded-tl-xxl rounded-br-xxl shadow mt-0'>
       <div className='h-32 sm:h-48 w-full bg-white-100 rounded-tl-xl'>
         <img
           className='w-full h-full object-contain rounded-tl-xl p-12 border-b border-gray-200'
@@ -13,43 +13,41 @@ const PlanetF1: React.FC = () => {
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
-        <div className='px-4 py-4 text-left'>
+        <div className='px-4 pt-4 pb-2 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            Feature
+            News
           </div>
           <ActionLink
-            href='https://www.planetf1.com/news/sebastian-vettel-is-what-it-is/'
+            href='https://www.planetf1.com/news/ferrari-enter-into-racing-point-copycat-saga/'
             target='_blank'>
-            ‘Ousting could have been different but is what it is’
+            Ferrari enter into Racing Point copycat saga
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Although still not entirely happy with the manner in which Ferrari
-            dropped him, Sebastian Vettel will be “professional” in his final
-            season with the Scuderia. With 2020 the final year on Vettel’s
-            second Ferrari contract, the Scuderia told the German, and the
-            media, several times that he was the number one pick for 2021.
+            On the eve of the FIA’s hearing regarding the legality of the Racing
+            Point’s RP20, Ferrari has written to Formula 1 and FIA asking for
+            clarification of their own. The main dissenting voice against the
+            Racing Point and the RP20 which has been heavily inspired by the
+            Mercedes W10 has been Renault.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Team boss Mattia Binotto continued with that line right up until the
-            moment in late April that he phoned Vettel to inform that his
-            services wouldn’t be required after this season. Instead he blamed
-            finances and the world’s pandemic for Ferrari decision to change its
-            tune on the German.
+            The Enstone team has launched not one, not two, but three official
+            protests as part of the FIA’s lengthy investigation into the RP20,
+            and more specifically its brake ducts. Racing Point say they bought
+            the brake ducts from Mercedes before they became a listed part in
+            2019 and used that knowledge for the 2020 version. Renault claim
+            Mercedes has sent drawings of the brake ducts for Racing Point to
+            copy which is against the rules.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The Italian acknowledged that Ferrari’s decision had come as a shock
-            to Vettel. “I heard that he was surprised, do I remember that he was
-            surprised? I would say yes certainly, I understand it,” he said at
-            the Austrian GP weekend. “It is pretty normal to be surprised. “I
-            think that is why he accepted our decision but I think even today he
-            is not fully happy with it which again I think is normal and
-            obvious.” Weeks later Vettel says he is still not happy with the way
-            Ferrari went about things but says he’s dealing with it.
+            With the governing body poised to pass on their judgement on
+            Wednesday, the Scuderia has written to them and Formula 1 as they
+            now want further clarification on the whole reverse engineering
+            process allowed in the sport.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.planetf1.com/news/sebastian-vettel-is-what-it-is/'
+              href='https://www.planetf1.com/news/ferrari-enter-into-racing-point-copycat-saga/'
               target='_blank'>
               planetf1.com
             </ContentLink>{' '}
