@@ -8,41 +8,42 @@ const F1: React.FC = () => {
       <div className='h-32 sm:h-84 w-full'>
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
-          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1596538444/contentImages/content/imola-track_iyvrzw.jpg'
-          alt='Drivers to face unique challenge at Imola as organisers confirm race will have only one practice session'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594990598/contentImages/content/ferarri_gxis2s.jpg'
+          alt=' How Ferrari clawed back some pace with low downforce setup at Silverstone'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 py-4 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            FEATURE
+            TECHNICAL
           </div>
           <ActionLink
             href='https://www.formula1.com/en/latest/article.drivers-to-face-unique-challenge-at-imola-as-organisers-confirm-race-will.5yXq3rFEENsdBvvEYXR3ts.html'
             target='_blank'>
-            Drivers to face unique challenge at Imola as organisers confirm race
-            will have only one practice session
+            How Ferrari clawed back some pace with low downforce setup at
+            Silverstone
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The Formula 1 drivers will face a unique challenge for the Emilia
-            Romagna Grand Prix being held at Imola on November 1st, when they
-            will have only one practice session to dial in their cars ahead of
-            qualifying.
+            What can we glean from the rear wing set-ups of teams such as
+            Ferrari, Mercedes, Red Bull and Racing Point at the British Grand
+            Prix? In today's Tech Tuesday, Mark Hughes examines the
+            configurations the teams used and how that contributed to their
+            eventual pace, with technical illustrations from Giorgio Piola...
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The race at Imola was added to the calendar as part of the rejigged
-            2020 season in response to the coronavirus pandemic - the first time
-            the Italian track will host a Grand Prix since 2006. When it was
-            announced last month, organisers said the event would be a condensed
-            two-day race weekend, and today the session times for the weekend
-            have been confirmed.
+            A look at the various rear wing levels chosen by the teams for
+            Silverstone tells a very interesting story. This circuit has now
+            become a low-downforce track in terms of the ideal set-up. A few
+            years ago – before the introduction of the more aerodynamically
+            powerful regulations of 2017 – it was more of a downforce track, in
+            that the ultimate lap time tended to be derived from a relatively
+            conventional high-level of rear wing.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The format allows for a single practice session on Saturday morning
-            at 10am local time – instead of the usual three spread across Friday
-            and Saturday – meaning the drivers will have just 90 minutes to get
-            a feel for the track and to finalise their car set-up. Qualifying
-            will follow at 2pm local time.
+            But now the cars generate so much downforce from their bigger, more
+            powerful aerodynamic surfaces that they can go through corners such
+            as Copse flat out. No longer are cars with higher rear wing settings
+            faster through such corners.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}

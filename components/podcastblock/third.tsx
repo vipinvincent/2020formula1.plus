@@ -7,14 +7,14 @@ const Third: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=PBQ3mY77I64'
+        href='https://www.youtube.com/watch?v=Bob90TBZ8y4'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-40 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/PBQ3mY77I64/sddefault.jpg'
-              alt='FP1 Post Podium Podcast Episode 3: Hungarian Grand Prix | ft. The TF1 Show'
+              src='https://img.youtube.com/vi/Bob90TBZ8y4/sddefault.jpg'
+              alt='292 seconds of F1 chaos: Did Red Bull and Mercedes blunder in the British GP?'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -29,25 +29,26 @@ const Third: React.FC = () => {
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-2 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            Podcast
+            Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=PBQ3mY77I64'
+            href='https://www.youtube.com/watch?v=Bob90TBZ8y4'
             target='_blank'>
-            FP1 Post Podium Podcast Episode 3: Hungarian Grand Prix | ft. The
-            TF1 Show
+            292 seconds of F1 chaos: Did Red Bull and Mercedes blunder in the
+            British GP?
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            What an ending! A stunningly dramatic final few laps in
-            Northamptonshire in which punctures changed the face of the race.
-            What do you think? Let us know in the comments below!
+            A fairly pedestrian British Grand Prix exploded into life in the
+            closing laps when tyre failures hit three of the top four runners.
+            Scott Mitchell looks back at how it all unfolded, and inspects the
+            decisions made by Mercedes and Red Bull as the outcome of the first
+            2020 race at Silverstone was thrown up into the air for the final
+            few minutes
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink
-              href='https://twitter.com/willearle2000'
-              target='_blank'>
-              FP1
+            <ContentLink href='http://the-race.com/' target='_blank'>
+              the-race.com
             </ContentLink>
           </p>
         </div>

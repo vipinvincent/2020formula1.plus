@@ -7,14 +7,14 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=Bob90TBZ8y4'
+        href='https://www.youtube.com/watch?v=jEb3DfIF-wE'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/Bob90TBZ8y4/sddefault.jpg'
-              alt='292 seconds of F1 chaos: Did Red Bull and Mercedes blunder in the British GP?'
+              src='https://img.youtube.com/vi/jEb3DfIF-wE/sddefault.jpg'
+              alt='LATEST F1 NEWS: Nico Hülkenberg, Sebastian Vettel, Lewis Hamilton, Mercedes, and more!'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,23 +32,19 @@ const Second: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=Bob90TBZ8y4'
+            href='https://www.youtube.com/watch?v=jEb3DfIF-wE'
             target='_blank'>
-            292 seconds of F1 chaos: Did Red Bull and Mercedes blunder in the
-            British GP?
+            LATEST F1 NEWS: Nico Hülkenberg, Sebastian Vettel, Lewis Hamilton,
+            Mercedes, and more!
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            A fairly pedestrian British Grand Prix exploded into life in the
-            closing laps when tyre failures hit three of the top four runners.
-            Scott Mitchell looks back at how it all unfolded, and inspects the
-            decisions made by Mercedes and Red Bull as the outcome of the first
-            2020 race at Silverstone was thrown up into the air for the final
-            few minutes
+            Our latest Formula 1 2020 news updates as part of our rolling
+            coverage.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='https://the-race.com/' target='_blank'>
-              the-race.com/
+            <ContentLink href='https://unbeaten.com/formula1' target='_blank'>
+              The Inside Line
             </ContentLink>
           </p>
         </div>
