@@ -15,7 +15,7 @@ const F1: React.FC = () => {
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 py-4 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            TECHNICAL
+            News
           </div>
           <ActionLink
             href='https://www.formula1.com/en/latest/article.breaking-valtteri-bottas-signs-new-deal-to-drive-for-mercedes-in-2021.5kdl5Krly4Y3Z1l6dCVJjy.html'
