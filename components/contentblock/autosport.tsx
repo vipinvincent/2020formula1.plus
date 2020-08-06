@@ -13,7 +13,7 @@ const AutoSport: React.FC = () => {
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
-        <div className='px-4 pt-4 pb-6 text-left'>
+        <div className='px-4 pt-4 pb-2 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
             News
           </div>
@@ -44,7 +44,8 @@ const AutoSport: React.FC = () => {
             "If those old-school circuits give spectacular races and fun races,
             the people of F1 and the FIA and the FOM will think, why we are
             going to modern circuits if the old circuits give such a spectacle?"
-            he said.
+            he said. "It depends on what happens in those next races that will
+            decide the future."
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
