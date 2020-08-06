@@ -7,14 +7,14 @@ const Third: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=uXfMqLXjD-o'
+        href='https://www.youtube.com/watch?v=Udt-lioYChU'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/uXfMqLXjD-o/sddefault.jpg'
-              alt='British GP Last Lap Punctures & Detailed Timeline BREAKDOWN [Formula 1 ONBOARD]'
+              src='https://img.youtube.com/vi/Udt-lioYChU/sddefault.jpg'
+              alt='F1 News: Pirelli Stick With Softer Tyres, Imola Schedule Confirmed and Bottas Hasnt Given Up'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,22 +32,26 @@ const Third: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=uXfMqLXjD-o'
+            href='https://www.youtube.com/watch?v=Udt-lioYChU'
             target='_blank'>
-            British GP Last Lap Punctures & Detailed Timeline BREAKDOWN [Formula
-            1 ONBOARD]
+            F1 News: Pirelli Stick With Softer Tyres, Imola Schedule Confirmed
+            and Bottas Hasn't Given Up
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The British Grand Prix Last Lap was some of the best action we've
-            seen in Formula 1 in a while. In this video you'll get a play by
-            play w/onboard video, radio messages, & why F1 70th Anniversary will
-            be just as good if not better.
+            In this week’s F1 news round-up: Pirelli reveal the findings of
+            their investigation into last weekend’s British Grand Prix punctures
+            and confirm the softer tyres will still be used for the 70th
+            Anniversary Grand Prix. Elsewhere, F1 has confirmed Imola’s 2-day
+            race weekend schedule, Valtteri Bottas hasn’t given up on the title
+            and Robert Kubica will drive in FP1 at Silverstone.
           </p>
 
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='https://www.crankyyankeef1.com/' target='_blank'>
-              CrankyYankeeF1
+            <ContentLink
+              href='https://www.youtube.com/user/seanculli'
+              target='_blank'>
+              The F1 Word
             </ContentLink>
           </p>
         </div>

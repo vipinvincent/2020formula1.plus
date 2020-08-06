@@ -18,35 +18,38 @@ const AutoSport: React.FC = () => {
             News
           </div>
           <ActionLink
-            href='https://www.autosport.com/f1/news/151046/ferrari-restructure-frees-binotto-from-technical-role'
+            href='https://www.autosport.com/f1/news/151100/sainz-oldschool-venues-need-good-races-to-stay'
             target='_blank'>
-            Ferrari restructuring sees Binotto step back from F1 technical role
+            Sainz: fate of "old-school" F1 circuits will rest on 2020 spectacle
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Ferrari team principal Mattia Binotto says the recent restructuring
-            at Maranello has allowed him to step back from his involvement in
-            its Formula 1 technical department.
+            The fate of Formula 1's 'old school circuits' like Imola and the
+            Nurburgring will rest on their returns this year producing
+            spectacular racing, reckons McLaren's Carlos Sainz Jr.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Since moving up from his technical director role to become team boss
-            last year, Binotto has had to juggle responsibilities across the
-            entire Maranello organisation - which has left him stretched at
-            times.
+            The coronavirus pandemic has prompted F1 to radically shake-up its
+            calendar in a bid to get enough races in, with venues that had been
+            dropped by the sport years ago suddenly getting a fresh chance.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            But on the back of a difficult start to 2020, Ferrari last week
-            announced a new structure that included the creation of a new
-            performance development division.
+            Such an opportunity for the older circuits will offer a fascinating
+            insight into how well suited they are for delivering exciting
+            battles in the modern era, especially compared to contemporary
+            circuit thinking. Sainz believes that the verdict on the returning
+            venues will go as far as defining if the classic tracks have a
+            future in F1 too.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The changes will now allow Binotto to move away from being directly
-            hands on with technical aspects, so he can better focus on other
-            aspects that will help Ferrari.
+            "If those old-school circuits give spectacular races and fun races,
+            the people of F1 and the FIA and the FOM will think, why we are
+            going to modern circuits if the old circuits give such a spectacle?"
+            he said.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.autosport.com/f1/news/151046/ferrari-restructure-frees-binotto-from-technical-role'
+              href='https://www.autosport.com/f1/news/151100/sainz-oldschool-venues-need-good-races-to-stay'
               target='_blank'>
               autosport.com
             </ContentLink>{' '}

@@ -4,7 +4,7 @@ import ContentLink from 'components/link/ContentLink'
 
 const TheRace: React.FC = () => {
   return (
-    <div className='relative bg-white-20 rounded-tl-xxl rounded-br-xxl shadow mt-0'>
+    <div className='relative bg-white-50 rounded-tl-xxl rounded-br-xxl shadow mt-0'>
       <div className='h-32 sm:h-48 w-full bg-black-100 rounded-tl-xl'>
         <img
           className='w-full h-full object-contain rounded-tl-lg bg-gray-800 px-8 py-8'
@@ -13,46 +13,42 @@ const TheRace: React.FC = () => {
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
-        <div className='px-4 pt-4 pb-3 text-left'>
+        <div className='px-4 pt-4 pb-2 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
             News
           </div>
           <ActionLink
-            href='https://the-race.com/formula-1/ferrari-requests-racing-point-design-clarification-from-fia/'
+            href='https://the-race.com/formula-1/hulkenberg-assumes-thursday-f1-duties-drive-unconfirmed/'
             target='_blank'>
-            Ferrari requests Racing Point design clarification from FIA
+            Hulkenberg assumes Thursday F1 duties, expected to race
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Ahead of Wednesday’s hearing of the Renault protest of the Racing
-            Point brake ducts, Ferrari has written to the FIA and Formula 1
-            chiefs requesting clarification on how the Racing Point methodology
-            of ‘reverse-engineering’ its RP20 from last year’s Mercedes W10 can
-            be considered as ‘design’.
+            Nico Hulkenberg will undertake Racing Point’s Thursday media duties
+            ahead of Formula 1’s 70th-anniversary race, but Sergio Perez’s
+            absence for the remainder of the Silverstone weekend is not yet
+            confirmed.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Ferrari points to Appendix 6 of the F1 Sporting Regulations which
-            state that a team can only use listed parts it has designed itself
-            (the relevant section detailed below):
+            Hulkenberg was called up by Racing Point last week when Perez tested
+            positive for COVID-19 and a whirlwind 24 hours got the ex-Renault
+            driver into the paddock just in time to take part in opening
+            practice. He performed admirably in the circumstances but ended up
+            missing the race as well because of a problem getting the engine to
+            fire up.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            A competitor shall, in respect of the Listed Parts to be used in its
-            cars in Formula 1, only use Listed Parts which are designed by it.
-            2. The obligation to design and use Listed Parts shall not prevent a
-            competitor from Outsourcing the design and/or manufacture of any
-            Listed Parts to a third party (including an Associate of such
-            competitor) provided that: a) It retains the exclusive right to use
-            the Listed Parts in Formula 1 so long as it competes in Formula 1.
-            b) In the case of the Outsourcing of manufacture such third party
-            shall not be a competitor. c) In the case of the Outsourcing of
-            design, such third party shall not be a competitor or a party that
-            directly or indirectly designs Listed Parts for any competitor.
-            Ferrari is fully supportive of Renault’s protest, which aligns it
-            also with the position of McLaren.
+            Racing Point said there was uncertainty over Perez’s circumstances
+            and would not initially commit to Hulkenberg racing again this
+            weekend, though had confirmed he would drive should Perez be
+            unavailable. Perez has had to isolate in line with the UK’s
+            guidelines, which changed on the day of Perez’s negative result as
+            the period a person must spend in quarantine increased from seven
+            days to 10.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://the-race.com/formula-1/ferrari-requests-racing-point-design-clarification-from-fia/'
+              href='https://the-race.com/formula-1/hulkenberg-assumes-thursday-f1-duties-drive-unconfirmed/'
               target='_blank'>
               the-race.com
             </ContentLink>{' '}

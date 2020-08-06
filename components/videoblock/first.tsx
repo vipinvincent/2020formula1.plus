@@ -7,14 +7,14 @@ const First: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=kr4UbLlIpHw'
+        href='https://www.youtube.com/watch?v=P-oIr1cTFeE'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/kr4UbLlIpHw/sddefault.jpg'
-              alt='The Ferrari F1 gamble that unleashed Leclerc and left Vettel nowhere'
+              src='https://img.youtube.com/vi/P-oIr1cTFeE/sddefault.jpg'
+              alt='Why Tyres Failed At The 2020 F1 British Grand Prix'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,26 +32,21 @@ const First: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=kr4UbLlIpHw'
+            href='https://www.youtube.com/watch?v=P-oIr1cTFeE'
             target='_blank'>
-            The Ferrari F1 gamble that unleashed Leclerc and left Vettel nowhere
+            Why Tyres Failed At The 2020 F1 British Grand Prix
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Ferrari scored an unlikely podium finish in the British Grand Prix,
-            but the fortunate result was a reward for Charles Leclerc putting
-            himself at the sharp end when it counted during the weekend. That
-            required Leclerc to drive a tricky Ferrari on the edge following a
-            set-up gamble taken by the team to make up for the deficiencies of
-            its 2020 car. Sebastian Vettel couldn't get on with it in the same
-            way, so the ploy that gave one Ferrari driver the chance to compete
-            near the sharp end left the other miles off the pace on race day.
-            Scott Mitchell explains what Ferrari did, and how Leclerc got the
-            maximum from it while Vettel couldn't.
+            There's one standardised component that every car on the grid has in
+            common - tyres. Currently made by Pirelli, these rubber cylinders
+            are all that separate these amazing machines from the track,
+            ignoring times when the underside of the car scrapes along the kerb
+            for a fantastic lightshow.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href=' http://the-race.com/' target='_blank'>
-              the-race.com
+            <ContentLink href='https://www.autosport.com/' target='_blank'>
+              autosport.com
             </ContentLink>
           </p>
         </div>

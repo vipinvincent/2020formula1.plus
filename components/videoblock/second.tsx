@@ -7,14 +7,14 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=jEb3DfIF-wE'
+        href='https://www.youtube.com/watch?v=R4gKZNi71U8'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/jEb3DfIF-wE/sddefault.jpg'
-              alt='LATEST F1 NEWS: Nico Hülkenberg, Sebastian Vettel, Lewis Hamilton, Mercedes, and more!'
+              src='https://img.youtube.com/vi/R4gKZNi71U8/sddefault.jpg'
+              alt='Wheel Tethers - Just how dangerous is a flying F1 tyre anyway?'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,19 +32,20 @@ const Second: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=jEb3DfIF-wE'
+            href='https://www.youtube.com/watch?v=R4gKZNi71U8'
             target='_blank'>
-            LATEST F1 NEWS: Nico Hülkenberg, Sebastian Vettel, Lewis Hamilton,
-            Mercedes, and more!
+            Wheel Tethers - Just how dangerous is a flying F1 tyre anyway?
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Our latest Formula 1 2020 news updates as part of our rolling
-            coverage.
+            Wheel tethers have been in F1 since 1998 and may easily have
+            prevented countless injuries by stopping tyres from flying all over
+            the place. What are they, how do they work, and just how dangerous
+            are flying tyres?
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='https://unbeaten.com/formula1' target='_blank'>
-              The Inside Line
+            <ContentLink href='http://www.chainbear.me' target='_blank'>
+              Chain Bear
             </ContentLink>
           </p>
         </div>

@@ -8,8 +8,8 @@ const F1: React.FC = () => {
       <div className='h-32 sm:h-84 w-full'>
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
-          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594990598/contentImages/content/ferarri_gxis2s.jpg'
-          alt=' How Ferrari clawed back some pace with low downforce setup at Silverstone'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1595072621/contentImages/content/valtteri_-bottas_m5dgbs.jpg'
+          alt='Valtteri Bottas signs new deal to drive for Mercedes in 2021'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
@@ -18,37 +18,45 @@ const F1: React.FC = () => {
             TECHNICAL
           </div>
           <ActionLink
-            href='https://www.formula1.com/en/latest/article.drivers-to-face-unique-challenge-at-imola-as-organisers-confirm-race-will.5yXq3rFEENsdBvvEYXR3ts.html'
+            href='https://www.formula1.com/en/latest/article.breaking-valtteri-bottas-signs-new-deal-to-drive-for-mercedes-in-2021.5kdl5Krly4Y3Z1l6dCVJjy.html'
             target='_blank'>
-            How Ferrari clawed back some pace with low downforce setup at
-            Silverstone
+            Valtteri Bottas signs new deal to drive for Mercedes in 2021
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            What can we glean from the rear wing set-ups of teams such as
-            Ferrari, Mercedes, Red Bull and Racing Point at the British Grand
-            Prix? In today's Tech Tuesday, Mark Hughes examines the
-            configurations the teams used and how that contributed to their
-            eventual pace, with technical illustrations from Giorgio Piola...
+            There’ll be a familiar face at Mercedes next year, with the reigning
+            world champions announcing they have opted to retain Valtteri Bottas
+            for 2021, extending their relationship into a fifth season. The Finn
+            has become an integral part of the Mercedes set-up since being
+            drafted in following Nico Rosberg's shock retirement at the end of
+            2016, achieving a best championship finish of second last year, and
+            scoring eight wins with the team so far.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            A look at the various rear wing levels chosen by the teams for
-            Silverstone tells a very interesting story. This circuit has now
-            become a low-downforce track in terms of the ideal set-up. A few
-            years ago – before the introduction of the more aerodynamically
-            powerful regulations of 2017 – it was more of a downforce track, in
-            that the ultimate lap time tended to be derived from a relatively
-            conventional high-level of rear wing.
+            Ahead of the 70th Anniversary Grand Prix, Mercedes took the
+            opportunity to announce they would be retaining Bottas “until at
+            least the end of 2021”, locking out the first of their two seats for
+            2021 with talks yet to accelerate with Lewis Hamilton about his
+            future.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            But now the cars generate so much downforce from their bigger, more
-            powerful aerodynamic surfaces that they can go through corners such
-            as Copse flat out. No longer are cars with higher rear wing settings
-            faster through such corners.
+            “I’m very happy to stay with Mercedes in 2021 and build on the
+            success we’ve enjoyed together already,” said Bottas. “Thank you to
+            everyone in the team and the wider Mercedes family for their
+            continued support and their trust in me. I’m very proud to represent
+            this great team and the three-pointed star on our journey together
+            again next year.
+          </p>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
+            “The past few years have been all about continuous improvement,
+            working on every aspect of my performance. I’m confident that today
+            I’m the strongest I’ve ever been, but I can always raise the bar.
+            Mercedes embraces the same philosophy: They always want to get
+            better and are always hungry for more.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.formula1.com/en/latest/article.drivers-to-face-unique-challenge-at-imola-as-organisers-confirm-race-will.5yXq3rFEENsdBvvEYXR3ts.html'
+              href='https://www.formula1.com/en/latest/article.breaking-valtteri-bottas-signs-new-deal-to-drive-for-mercedes-in-2021.5kdl5Krly4Y3Z1l6dCVJjy.html'
               target='_blank'>
               formula1.com
             </ContentLink>{' '}
