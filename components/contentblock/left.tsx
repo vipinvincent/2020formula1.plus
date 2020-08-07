@@ -61,7 +61,7 @@ const Left: React.FC = () => {
             last, after the Dane went off at Vale and flat-spotted his tyre on
             his push lap.
           </p>
-          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
+          {/* <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             So, it was yet another dominating performance by Mercedes who
             unsurprisingly finished 1-2 for the 70th Anniversary Grand Prix
             weekend. But The weekend will get interesting as Honda will give Red
@@ -70,7 +70,7 @@ const Left: React.FC = () => {
             took a new energy store on his Honda power unit last weekend at the
             British Grand Prix, but will now also take a second engine,
             turbocharger, MGU-H and MGU-K for the race.
-          </p>
+          </p> */}
           {/* <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink

@@ -29,10 +29,10 @@ const Main: React.FC = () => {
       </div> */}
       <div className='w-100 flex flex-col xl:flex-row'>
         <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 mt-4'>
-          <SecondContent />
+          <ThirdContent />
         </div>
         <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 mt-4'>
-          <ThirdContent />
+          <SecondContent />
         </div>
       </div>
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mt-4 mb-1 px-2'>
