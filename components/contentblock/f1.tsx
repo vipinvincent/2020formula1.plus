@@ -8,8 +8,8 @@ const F1: React.FC = () => {
       <div className='h-32 sm:h-84 w-full'>
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
-          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1595072621/contentImages/content/valtteri_-bottas_m5dgbs.jpg'
-          alt='Valtteri Bottas signs new deal to drive for Mercedes in 2021'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1596777189/contentImages/content/f170_iwh29t.jpg'
+          alt='The unknowns set to spice up the 70th Anniversary Grand Prix'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
@@ -18,33 +18,36 @@ const F1: React.FC = () => {
             News
           </div>
           <ActionLink
-            href='https://www.formula1.com/en/latest/article.breaking-valtteri-bottas-signs-new-deal-to-drive-for-mercedes-in-2021.5kdl5Krly4Y3Z1l6dCVJjy.html'
+            href='https://www.formula1.com/en/latest/article.thursdays-hot-topic-the-unknowns-set-to-spice-up-the-70th-anniversary-grand.6526SIutcsXBGl2yhKNxOe.html'
             target='_blank'>
-            Valtteri Bottas signs new deal to drive for Mercedes in 2021
+            The unknowns set to spice up the 70th Anniversary Grand Prix
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            There’ll be a familiar face at Mercedes next year, with the reigning
-            world champions announcing they have opted to retain Valtteri Bottas
-            for 2021, extending their relationship into a fifth season. The Finn
-            has become an integral part of the Mercedes set-up since being
-            drafted in following Nico Rosberg's shock retirement at the end of
-            2016, achieving a best championship finish of second last year, and
-            scoring eight wins with the team so far.
+            Just days after the curtain fell on a thrilling British Grand Prix,
+            the paddock has returned to Silverstone for another go, this time
+            under the banner of the 70th Anniversary Grand Prix. But while it
+            may be the same track, this is likely to be a very different race,
+            partly thanks to several key factors that are still uncertain
+            heading into this weekend – and unsurprisingly, those were the
+            topics that dominated paddock chatter on Thursday...
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Ahead of the 70th Anniversary Grand Prix, Mercedes took the
-            opportunity to announce they would be retaining Bottas “until at
-            least the end of 2021”, locking out the first of their two seats for
-            2021 with talks yet to accelerate with Lewis Hamilton about his
-            future.
+            <strong>Stroll’s team mate for this weekend remains unknown</strong>
+            <br />
+            Will he? Won’t he? That’s what most were asking on Thursday
+            afternoon when speaking about Sergio Perez. It emerged that the
+            Mexican, who tested positive for Covid-19 and missed the British GP
+            as a result, had completed his period of self-isolation, defined by
+            Public Health England as a stretch of seven days from when you
+            produce the test result.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            “I’m very happy to stay with Mercedes in 2021 and build on the
-            success we’ve enjoyed together already,” said Bottas. “Thank you to
-            everyone in the team and the wider Mercedes family for their
-            continued support and their trust in me. I’m very proud to represent
-            this great team and the three-pointed star on our journey together
-            again next year.
+            That means that should Perez return a negative Covid-19 test, he
+            will be eligible to race his Racing Point RP20 around the high-speed
+            turns of Silverstone. Test positive again and he’ll have to wait
+            until he can return a negative test. All this means Racing Point, at
+            time of publishing, have no idea who’ll partner Lance Stroll this
+            weekend.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             “The past few years have been all about continuous improvement,
@@ -56,7 +59,7 @@ const F1: React.FC = () => {
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.formula1.com/en/latest/article.breaking-valtteri-bottas-signs-new-deal-to-drive-for-mercedes-in-2021.5kdl5Krly4Y3Z1l6dCVJjy.html'
+              href='https://www.formula1.com/en/latest/article.thursdays-hot-topic-the-unknowns-set-to-spice-up-the-70th-anniversary-grand.6526SIutcsXBGl2yhKNxOe.html'
               target='_blank'>
               formula1.com
             </ContentLink>{' '}

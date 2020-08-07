@@ -7,14 +7,14 @@ const Third: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=aSQvhsaQ8VM'
+        href='https://www.youtube.com/watch?v=_pF7gwNU76w'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-40 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/aSQvhsaQ8VM/sddefault.jpg'
-              alt='Lance Stroll discusses his career so far and racing in a podium finish level car in 2020 | Sky F1'
+              src='https://img.youtube.com/vi/_pF7gwNU76w/sddefault.jpg'
+              alt='F1 Contract News: Mercedes Confirm Valtteri Bottas For 2021'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,20 +32,22 @@ const Third: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=aSQvhsaQ8VM'
+            href='https://www.youtube.com/watch?v=_pF7gwNU76w'
             target='_blank'>
-            Lance Stroll discusses his career so far and racing in a podium
-            finish level car in 2020 | Sky F1
+            F1 Contract News: Mercedes Confirm Valtteri Bottas For 2021
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Natalie Pinkham sat down with Racing Point's Lance Stroll to discuss
-            his career so far, his personal and family life and racing in a
-            podium finish level car in 2020.
+            Earlier today, Mercedes announced that Valtteri Bottas will be
+            staying with the team for the 2020 F1 season. Here’s the news,
+            quotes and my thought’s on the Finn’s latest Formula One contract
+            extension.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='https://www.skysports.com/f1' target='_blank'>
-              skysports.com
+            <ContentLink
+              href='https://www.youtube.com/user/seanculli'
+              target='_blank'>
+              The F1 Word
             </ContentLink>
           </p>
         </div>

@@ -13,39 +13,40 @@ const AutoSport: React.FC = () => {
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
-        <div className='px-4 pt-4 pb-2 text-left'>
+        <div className='px-4 pt-4 pb-5 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
             News
           </div>
           <ActionLink
             href='https://www.autosport.com/f1/news/151100/sainz-oldschool-venues-need-good-races-to-stay'
             target='_blank'>
-            Sainz: fate of "old-school" F1 circuits will rest on 2020 spectacle
+            Norris explains misjudgement for "basic" Ricciardo overtake in F1
+            British GP
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The fate of Formula 1's 'old school circuits' like Imola and the
-            Nurburgring will rest on their returns this year producing
-            spectacular racing, reckons McLaren's Carlos Sainz Jr.
+            Lando Norris has explained how a misjudgement while altering
+            settings on his steering wheel left the door open for Daniel
+            Ricciardo to snatch fourth place in the British Grand Prix.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The coronavirus pandemic has prompted F1 to radically shake-up its
-            calendar in a bid to get enough races in, with venues that had been
-            dropped by the sport years ago suddenly getting a fresh chance.
+            The McLaren driver had been looking to hold off his Renault rival
+            and future team-mate in the closing stages of last weekend's
+            Silverstone event. But with three laps to go, Ricciardo made a move
+            down the inside at Stowe to grab fifth, which then became fourth
+            when McLaren's Carlos Sainz hit late tyre trouble.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Such an opportunity for the older circuits will offer a fascinating
-            insight into how well suited they are for delivering exciting
-            battles in the modern era, especially compared to contemporary
-            circuit thinking. Sainz believes that the verdict on the returning
-            venues will go as far as defining if the classic tracks have a
-            future in F1 too.
+            Norris has revealed how multiple factors came together to give
+            Ricciardo the opportunity to pull off what he reckoned was a "basic"
+            pass. "I was struggling with a couple of things, obviously tyres
+            being one of them," explained Norris. "But the move he did was
+            probably one of the most basic moves you could actually do. There
+            was no defence.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            "If those old-school circuits give spectacular races and fun races,
-            the people of F1 and the FIA and the FOM will think, why we are
-            going to modern circuits if the old circuits give such a spectacle?"
-            he said. "It depends on what happens in those next races that will
-            decide the future."
+            "For me it was a misjudgement from me trying to change some things
+            on my steering wheel. "Also my left mirror being completely smashed,
+            so only kind of judging where he was off my right mirror.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}

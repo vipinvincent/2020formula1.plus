@@ -18,37 +18,40 @@ const TheRace: React.FC = () => {
             News
           </div>
           <ActionLink
-            href='https://the-race.com/formula-1/hulkenberg-assumes-thursday-f1-duties-drive-unconfirmed/'
+            href='https://the-race.com/formula-1/mechanical-issue-led-to-puncture-that-caused-kvyats-crash/'
             target='_blank'>
-            Hulkenberg assumes Thursday F1 duties, expected to race
+            ‘Mechanical issue’ led to puncture that caused Kvyat’s crash
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Nico Hulkenberg will undertake Racing Point’s Thursday media duties
-            ahead of Formula 1’s 70th-anniversary race, but Sergio Perez’s
-            absence for the remainder of the Silverstone weekend is not yet
-            confirmed.
+            Pirelli has revealed that Daniil Kvyat’s high-speed crash in the
+            British Grand Prix was caused by the right-rear wheelrim
+            overheating, rather than a slow puncture as previously suspected.
+            Following further analysis of the tyre, and in collaboration with
+            AlphaTauri, Pirelli has now put this down to the excess temperature
+            in an area of the car where the team has had problems previously
+            this year.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Hulkenberg was called up by Racing Point last week when Perez tested
-            positive for COVID-19 and a whirlwind 24 hours got the ex-Renault
-            driver into the paddock just in time to take part in opening
-            practice. He performed admirably in the circumstances but ended up
-            missing the race as well because of a problem getting the engine to
-            fire up.
+            “Together with Scuderia AlphaTauri, Pirelli has concluded an
+            investigation into the precise cause of the incident that resulted
+            in Daniil Kvyat hitting the wall during the British Grand Prix on
+            lap 12,” said a Pirelli statement. “A separate mechanical issue led
+            to the inside of the right-rear wheel rim overheating, which in turn
+            burned the bead of the tyre (the part of the tyre that connects the
+            rubber to the wheel).
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Racing Point said there was uncertainty over Perez’s circumstances
-            and would not initially commit to Hulkenberg racing again this
-            weekend, though had confirmed he would drive should Perez be
-            unavailable. Perez has had to isolate in line with the UK’s
-            guidelines, which changed on the day of Perez’s negative result as
-            the period a person must spend in quarantine increased from seven
-            days to 10.
+            “As a result, the bead was no longer able to seal the tyre onto the
+            rim. This is what caused the subsequent deflation, with the tyre
+            itself playing no part in the cause of the accident.” Kvyat
+            initially blamed himself for the accident, but the team subsequently
+            told him that a puncture was suspected with on-board footage showing
+            clearly that the tyre was deformed.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://the-race.com/formula-1/hulkenberg-assumes-thursday-f1-duties-drive-unconfirmed/'
+              href='https://the-race.com/formula-1/mechanical-issue-led-to-puncture-that-caused-kvyats-crash/'
               target='_blank'>
               the-race.com
             </ContentLink>{' '}

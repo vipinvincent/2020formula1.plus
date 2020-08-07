@@ -7,14 +7,14 @@ const Third: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=Udt-lioYChU'
+        href='https://www.youtube.com/watch?v=Xi8bZrAslWM'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/Udt-lioYChU/sddefault.jpg'
-              alt='F1 News: Pirelli Stick With Softer Tyres, Imola Schedule Confirmed and Bottas Hasnt Given Up'
+              src='https://img.youtube.com/vi/Xi8bZrAslWM/sddefault.jpg'
+              alt='Is McLarens Lando Norris 2020s standout talent?'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,26 +32,21 @@ const Third: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=Udt-lioYChU'
+            href='https://www.youtube.com/watch?v=Xi8bZrAslWM'
             target='_blank'>
-            F1 News: Pirelli Stick With Softer Tyres, Imola Schedule Confirmed
-            and Bottas Hasn't Given Up
+            Is McLaren's Lando Norris 2020's standout talent?
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            In this week’s F1 news round-up: Pirelli reveal the findings of
-            their investigation into last weekend’s British Grand Prix punctures
-            and confirm the softer tyres will still be used for the 70th
-            Anniversary Grand Prix. Elsewhere, F1 has confirmed Imola’s 2-day
-            race weekend schedule, Valtteri Bottas hasn’t given up on the title
-            and Robert Kubica will drive in FP1 at Silverstone.
+            McLaren’s Lando Norris continues to stand out in just his second
+            season of Formula One, with the 20-year-old storming to fifth in
+            Sunday’s British Grand Prix: his home event, and third top-five
+            result in four races.
           </p>
 
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink
-              href='https://www.youtube.com/user/seanculli'
-              target='_blank'>
-              The F1 Word
+            <ContentLink href='https://unbeaten.com/formula1' target='_blank'>
+              The Inside Line
             </ContentLink>
           </p>
         </div>
