@@ -9,7 +9,7 @@ const F1: React.FC = () => {
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
           src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1596777189/contentImages/content/f170_iwh29t.jpg'
-          alt='The unknowns set to spice up the 70th Anniversary Grand Prix'
+          alt='Racing Point deducted 15 points and fined heavily as Renault protest into car legality upheld'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
@@ -20,41 +20,41 @@ const F1: React.FC = () => {
           <ActionLink
             href='https://www.formula1.com/en/latest/article.thursdays-hot-topic-the-unknowns-set-to-spice-up-the-70th-anniversary-grand.6526SIutcsXBGl2yhKNxOe.html'
             target='_blank'>
-            The unknowns set to spice up the 70th Anniversary Grand Prix
+            Racing Point deducted 15 points and fined heavily as Renault protest
+            into car legality upheld
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Just days after the curtain fell on a thrilling British Grand Prix,
-            the paddock has returned to Silverstone for another go, this time
-            under the banner of the 70th Anniversary Grand Prix. But while it
-            may be the same track, this is likely to be a very different race,
-            partly thanks to several key factors that are still uncertain
-            heading into this weekend – and unsurprisingly, those were the
-            topics that dominated paddock chatter on Thursday...
+            Racing Point have been deducted 15 world championship points and
+            fined €400,000 after FIA stewards upheld Renault’s protest about the
+            legality of the design of the team’s RP20 car. Racing Point raised
+            eyebrows at Barcelona testing when they unveiled a car that looked
+            remarkably similar to last year’s championship-winning Mercedes. The
+            team – who take an engine as well as several parts, including the
+            suspension, from Mercedes as per the rules –admitted taking
+            inspiration from the car, but consistently insisted what they had
+            done is within the rules.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            <strong>Stroll’s team mate for this weekend remains unknown</strong>
-            <br />
-            Will he? Won’t he? That’s what most were asking on Thursday
-            afternoon when speaking about Sergio Perez. It emerged that the
-            Mexican, who tested positive for Covid-19 and missed the British GP
-            as a result, had completed his period of self-isolation, defined by
-            Public Health England as a stretch of seven days from when you
-            produce the test result.
+            After the Styrian, Hungarian and British Grands Prix, Renault lodged
+            a protest with the stewards, alleging that Racing Point’s brake
+            ducts had been directly copied from the 2019 Mercedes. And on Friday
+            in Silverstone, the stewards delivered their verdict, upholding
+            Renault’s protest.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            That means that should Perez return a negative Covid-19 test, he
-            will be eligible to race his Racing Point RP20 around the high-speed
-            turns of Silverstone. Test positive again and he’ll have to wait
-            until he can return a negative test. All this means Racing Point, at
-            time of publishing, have no idea who’ll partner Lance Stroll this
-            weekend.
+            Racing Point were fined €200,000 for fielding Sergio Perez’s car in
+            Styria and the same amount for fielding Lance Stroll’s. They were
+            also deducted 7.5 world championship points per car - though Perez
+            and Stroll keep their drivers' championship points. Protests for the
+            Hungarian and British Grands Prix were also upheld, with Racing
+            Point reprimanded for using their car in both events.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            “The past few years have been all about continuous improvement,
-            working on every aspect of my performance. I’m confident that today
-            I’m the strongest I’ve ever been, but I can always raise the bar.
-            Mercedes embraces the same philosophy: They always want to get
-            better and are always hungry for more.
+            In a 14-page document issued at Silverstone, the FIA stewards
+            outlined in detail why Renault’s protest had been upheld. The crux
+            of the matter focused on when the new rules around listed parts were
+            applied, Racing Point arguing that the new sporting regulations only
+            came into force a day before FP1 in Austria.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}

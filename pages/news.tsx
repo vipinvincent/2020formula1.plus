@@ -2,6 +2,7 @@ import Layout from '../components/layout/Layout'
 import News from '../components/maincontent/news'
 import Schedule from '../components/schedule'
 import Recent from '../components/schedule/recent'
+import Hungarian from '../components/schedule/hungarian'
 import Styrian from '../components/schedule/styrian'
 import Austrian from '../components/schedule/austrian'
 import Driver from '../components/driver'
@@ -18,6 +19,7 @@ const IndexPage = () => (
           <div className='hidden lg:block w-4/12 xl:w-4/12 pl-4'>
             <Schedule />
             <Recent />
+            <Hungarian />
             <Styrian />
             <Austrian />
             <Driver />

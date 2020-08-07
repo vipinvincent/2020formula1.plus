@@ -15,39 +15,42 @@ const MotorSport: React.FC = () => {
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-2 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            ANALYSIS
+            News
           </div>
           <ActionLink
-            href='https://www.motorsport.com/f1/news/softer-pirelli-tyres-silverstone-70th/4849620/'
+            href='https://www.motorsport.com/f1/news/honda-red-bull-engine-silverstone/4851213/'
             target='_blank'>
-            Pirelli: Softer tyres not a risk at second Silverstone race
+            Honda gives Red Bull drivers new F1 power units
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Pirelli Formula 1 boss Mario Isola has downplayed fears about the
-            move to softer tyre compounds for the 70th Anniversary GP at
-            Silverstone following the failures in last weekend’s British GP.
+            Honda will give Red Bull Formula 1 drivers Max Verstappen and
+            Alexander Albon new power units ahead of this weekend’s 70th
+            Anniversary Grand Prix.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Pirelli’s analysis of the front left failures on the cars of Lewis
-            Hamilton, Valtteri Bottas and Carlos Sainz has confirmed that the
-            unusually long stints run after drivers made early pitstops under
-            the safety car led to the failures.
+            Honda announced ahead of opening practice at Silverstone on Friday
+            that it would be introducing a set of new power unit elements for
+            both of Red Bull’s cars this weekend. Albon took a new energy store
+            and control electronics on his Honda power unit last weekend at the
+            British Grand Prix, but will now also take a second engine,
+            turbocharger, MGU-H and MGU-K ahead of Friday’s running at
+            Silverstone.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The Italian company has stuck with the original decision to move to
-            the C2, C3 and C4 range – leaving out the C1s that failed last
-            weekend – but will mandate increased pressures. The minimum front
-            pressure will be up by 2psi, and the rear by 1psi. Isola insists
-            that softer compounds won’t create any extra risk as the tyre
-            compound did not have an impact on the failures suffered on Sunday.
-            “The investigation says that the cause of the initial loss of
-            pressure and then the deflation was the level of stress on the tyre,
-            on the construction of the tyre,” he said.
+            To match Albon, Verstappen will have an all-new power unit for the
+            weekend, taking six fresh elements. “As part of our PU strategy for
+            the season, we are introducing new power units for the two Red Bull
+            Racing drivers at this event,” Honda said. “This gives us greater
+            flexibility in terms of power unit management. The new power units
+            are the same specification as the ones coming out.” Teams are
+            forbidden from bringing any updates or developments for their power
+            units through the season after agreeing on a freeze for the year as
+            part of the ongoing cost-saving measures.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.motorsport.com/f1/news/softer-pirelli-tyres-silverstone-70th/4849620/'
+              href='https://www.motorsport.com/f1/news/honda-red-bull-engine-silverstone/4851213/'
               target='_blank'>
               motorsport.com
             </ContentLink>{' '}

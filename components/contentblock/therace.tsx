@@ -13,45 +13,44 @@ const TheRace: React.FC = () => {
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
-        <div className='px-4 pt-4 pb-4 text-left'>
+        <div className='px-4 pt-4 pb-8 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
             News
           </div>
           <ActionLink
-            href='https://the-race.com/formula-1/mechanical-issue-led-to-puncture-that-caused-kvyats-crash/'
+            href='https://the-race.com/formula-1/why-racing-point-can-still-use-parts-developed-illegally/'
             target='_blank'>
-            ‘Mechanical issue’ led to puncture that caused Kvyat’s crash
+            Why Racing Point can still use parts developed illegally
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Pirelli has revealed that Daniil Kvyat’s high-speed crash in the
-            British Grand Prix was caused by the right-rear wheelrim
-            overheating, rather than a slow puncture as previously suspected.
-            Following further analysis of the tyre, and in collaboration with
-            AlphaTauri, Pirelli has now put this down to the excess temperature
-            in an area of the car where the team has had problems previously
-            this year.
+            Racing Point will continue using its Mercedes-inspired brake ducts
+            even though they were developed illegally because expecting it to
+            create a new design would be “unreasonable”, says the FIA.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            “Together with Scuderia AlphaTauri, Pirelli has concluded an
-            investigation into the precise cause of the incident that resulted
-            in Daniil Kvyat hitting the wall during the British Grand Prix on
-            lap 12,” said a Pirelli statement. “A separate mechanical issue led
-            to the inside of the right-rear wheel rim overheating, which in turn
-            burned the bead of the tyre (the part of the tyre that connects the
-            rubber to the wheel).
+            On Friday ahead of the 70th Anniversary Grand Prix at Silverstone
+            the FIA stewards ruled that Racing Point’s process of developing its
+            brake ducts, specifically the rears, from Mercedes data was illegal
+            despite obtaining that data last year being within the rules. Brake
+            ducts were a non-listed part in 2019 which meant Racing Point
+            purchased the components legally, but as they are listed parts in
+            2020 they now have to be of its own design.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            “As a result, the bead was no longer able to seal the tyre onto the
-            rim. This is what caused the subsequent deflation, with the tyre
-            itself playing no part in the cause of the accident.” Kvyat
-            initially blamed himself for the accident, but the team subsequently
-            told him that a puncture was suspected with on-board footage showing
-            clearly that the tyre was deformed.
+            Though the front and rear brake ducts conform to the technical
+            regulations the design process was illegal, and Racing Point has
+            been fined and docked constructors’ championship points for using
+            them in the Styrian Grand Prix, the first race that Renault
+            protested the team. However, the protests of Racing Point’s cars
+            from the Hungarian and British GPs, where the brake ducts were used
+            again, only resulted in reprimands and the stewards’ verdict
+            indicates that Racing Point may continue using the components
+            without further sanction.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://the-race.com/formula-1/mechanical-issue-led-to-puncture-that-caused-kvyats-crash/'
+              href='https://the-race.com/formula-1/why-racing-point-can-still-use-parts-developed-illegally/'
               target='_blank'>
               the-race.com
             </ContentLink>{' '}

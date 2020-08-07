@@ -2,16 +2,16 @@ import React from 'react'
 import H1 from 'components/heading/H1'
 // import ActionLink from 'components/link/ActionLink'
 
-const Right: React.FC = () => {
+const Archive14: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
-      <div className='h-40 xl:h-48 w-full'>
+      {/* <div className='h-48 md:h-64 xl:h-104 w-full'>
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
-          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1596212334/contentImages/content/silverstone_u3q2ho.jpg'
-          alt='Stroll leads Albon and Bottas in FP2; Verstappen quickest from Hamilton and Stroll in FP1 as Hulkenberg shines on his  RETURN'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1596389296/contentImages/content/LewisHamiltonBritishGP_y606sj.jpg'
+          alt='Lucky Hamilton wins seventh British Grand Prix with a punctured tyre; Verstappen finishes second and Leclerc in third after a last lap tyre drama'
         />
-      </div>
+      </div> */}
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-2 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
@@ -67,23 +67,24 @@ const Right: React.FC = () => {
             his race as the Racing Point team discovered a technical issue on
             the RP20 that he'd taken over from Sergio Perez on Friday.
           </p>
-
           {/* <p className='mt-1 text-base leading-normal text-gray-700'>
-            Visit{' '}
+            View the complete {' '}
             <ContentLink
               href='https://www.formula1.com/en/latest/article.we-havent-seen-the-full-potential-of-mercedes-or-red-bull-yet-says-wolff.4hSJsAzStntPh9H8WI6fDQ.html'
               target='_blank'>
               formula1.com
             </ContentLink>{' '}
-            for More Details...
+            Qualifying results
           </p> */}
         </div>
-        {/* <div className='flex flex-col justify-start border-t border-gray-200 mt-1 pb-2 px-2 text-sm  text-center'>
-          <div className='w-full py-2 text-sm'>Follow this topic on -</div>
-          <div className='w-full flex flex-row justify-center my-1'>
+        {/* <div className='flex flex-col md:flex-row justify-start border-t border-gray-200 pb-2 md:py-3 px-4 text-sm md:text-lg text-center md:text-left'>
+          <div className='w-full text-sm md:w-3/12 pb-4 md:pb-0 md:pr-4 leading-tight pt-2 md:pt-4'>
+            Follow this topic on -
+          </div>
+          <div className='w-full flex flex-row justify-center md:justify-start md:w-9/12'>
             <div className='mr-2'>
               <ActionLink
-                href='https://www.formula1.com/en/latest/article.buxton-why-my-admiration-for-the-teams-has-never-been-higher-after-f1s.pAWHgNXi6qMlS2qQZmCVt.html'
+                href='https://www.formula1.com/en/latest/article.fp3-bottas-leads-hamilton-and-perez-as-verstappen-spins-in-final-practice.4eRTHeO9GkMMYh9vxRnOmc.html'
                 target='_blank'>
                 <img
                   className='w-auto h-6 md:h-12 px-2 object-contain rounded-tl-lg rounded-br-lg border border-gray-300'
@@ -94,7 +95,7 @@ const Right: React.FC = () => {
             </div> */}
         {/* <div className='mr-2'>
               <ActionLink
-                href='https://www.bbc.com/sport/formula1/53377338'
+                href='https://www.bbc.com/sport/formula1/53449276'
                 target='_blank'>
                 <img
                   className='w-auto h-6 md:h-12 object-contain rounded-tl-lg rounded-br-lg'
@@ -104,30 +105,30 @@ const Right: React.FC = () => {
               </ActionLink>
             </div> */}
         {/* <div className='mr-2'>
-          <ActionLink
-            href='https://www.motorsport.com/f1/news/mclaren-triple-header-races-standard/4844013/'
-            target='_blank'>
-            <img
-              className='w-auto h-6 md:h-12 object-contain rounded-tl-lg rounded-br-lg'
-              src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826932/contentImages/logo/motorsport_acmgji.jpg'
-              alt='motorsport.com'
-            />
-          </ActionLink>
-        </div> */}
-        {/* <div className='mr-2'>
               <ActionLink
-                href='https://www.skysports.com/f1/news/12433/12026519/lewis-hamilton-proud-to-master-terrifying-styrian-gp-qualifying'
+                href='https://www.motorsport.com/f1/news/hungarian-gp-fp3-report-bottas/4838964/'
                 target='_blank'>
                 <img
                   className='w-auto h-6 md:h-12 object-contain rounded-tl-lg rounded-br-lg'
                   src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826932/contentImages/logo/motorsport_acmgji.jpg'
+                  alt='motorsport.com'
+                />
+              </ActionLink>
+            </div>
+            <div className='mr-2'>
+              <ActionLink
+                href='https://www.skysports.com/f1/news/12433/12031161/hungarian-gp-practice-three-valtteri-bottas-fastest-from-lewis-hamilton'
+                target='_blank'>
+                <img
+                  className='w-auto h-6 md:h-12 object-contain rounded-tl-lg rounded-br-lg'
+                  src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826932/contentImages/logo/skysports_ruuxud.png'
                   alt='skysports.com'
                 />
               </ActionLink>
-            </div> */}
-        {/* <div className='mr-2'>
+            </div>
+            <div className='mr-2'>
               <ActionLink
-                href='https://www.autosport.com/f1/news/150565/red-bull-expects-to-close-gap-on-mercedes-in-hungary'
+                href='https://www.autosport.com/f1/news/150669/bottas-edges-hamilton-in-final-practice'
                 target='_blank'>
                 <img
                   className='w-auto h-6 md:h-12 object-contain rounded-tl-lg rounded-br-lg'
@@ -146,10 +147,10 @@ const Right: React.FC = () => {
                   alt='espn.com'
                 />
               </ActionLink>
-            </div>
-            <div className='mr-2'>
+            </div>*/}
+        {/* <div className='mr-2'>
               <ActionLink
-                href='https://the-race.com/formula-1/hamiltons-not-from-this-world-pole-lap-explained/'
+                href='https://the-race.com/formula-1/hamilton-tops-first-hungary-practice-while-red-bull-toils/'
                 target='_blank'>
                 <img
                   className='w-auto h-6 md:h-12 mt-0 py-2 md:py-4 px-2 object-contain rounded-tl-lg rounded-br-lg bg-gray-800'
@@ -157,24 +158,24 @@ const Right: React.FC = () => {
                   alt='the-race.com'
                 />
               </ActionLink>
-            </div>*/}
+            </div> */}
         {/* <div className='mr-2'>
               <ActionLink
-                href='https://www.grandprix247.com/2020/07/27/seidl-triple-headers-cant-be-the-new-standard/'
+                href='https://www.grandprix247.com/2020/07/15/report-vettel-in-negotiations-with-aston-martin/'
                 target='_blank'>
                 <img
-                  className='w-auto h-6 md:h-12 mt-0 py-2 md:py-4 px-2 object-contain rounded-tl-lg rounded-br-lg border border-gray-200'
+                  className='w-auto h-6 md:h-12 mt-0 py-4 md:py-6 px-2 object-contain rounded-tl-lg rounded-br-lg border border-gray-200'
                   src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826933/contentImages/logo/grandprix247_yj6fcw.png'
                   alt='grandprix247.com'
                 />
               </ActionLink>
-            </div> */}
-        {/* <div className='mr-2'>
+            </div>
+            <div className='mr-2'>
               <ActionLink
-                href='https://www.planetf1.com/news/qualifying-report-styrian-gp-2020/'
+                href='https://www.planetf1.com/news/gerhard-berger-sebastian-vettel-aston-martin/'
                 target='_blank'>
                 <img
-                  className='w-auto h-6 md:h-12 mt-0 py-2 md:py-4 px-2 object-contain rounded-tl-lg rounded-br-lg border border-gray-200'
+                  className='w-auto h-6 md:h-12 mt-0 py-4 md:py-6 px-2 object-contain rounded-tl-lg rounded-br-lg border border-gray-200'
                   src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826932/contentImages/logo/planetf1_zqhrq9.svg'
                   alt='planetf1.com'
                 />
@@ -186,4 +187,4 @@ const Right: React.FC = () => {
     </div>
   )
 }
-export default Right
+export default Archive14

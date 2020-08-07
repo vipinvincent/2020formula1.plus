@@ -5,6 +5,9 @@ import React from 'react'
 // import SecondContent from 'components/contentblock/left'
 // import ThirdContent from 'components/contentblock/right'
 
+import Archive14 from 'components/newsarchives/race-report-british-gp'
+import Archive13 from 'components/newsarchives/qualifying-report-british-gp'
+import Archive12 from 'components/newsarchives/practice-report-british-gp'
 import Archive11 from 'components/newsarchives/team-performance-after-3-races'
 import Archive10 from 'components/newsarchives/ferrari-restructured'
 import Archive9 from 'components/newsarchives/impact-of-triple-header-races'
@@ -41,6 +44,17 @@ const Main: React.FC = () => {
         Archived News
       </div>
       <div className='w-100'>
+        <Archive14 />
+      </div>
+      <div className='w-100 flex flex-col xl:flex-row'>
+        <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 mt-4'>
+          <Archive13 />
+        </div>
+        <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 mt-4'>
+          <Archive12 />
+        </div>
+      </div>
+      <div className='w-100 mt-4'>
         <Archive11 />
       </div>
       <div className='w-100 flex flex-col xl:flex-row'>
@@ -70,6 +84,9 @@ const Main: React.FC = () => {
           <Archive4 />
         </div>
       </div>
+      <div className='w-100 mt-4'>
+        <Archive1 />
+      </div>
       <div className='w-100 flex flex-col xl:flex-row'>
         <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 mt-4'>
           <Archive3 />
@@ -77,9 +94,6 @@ const Main: React.FC = () => {
         <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 mt-4'>
           <Archive2 />
         </div>
-      </div>
-      <div className='w-100 mt-4'>
-        <Archive1 />
       </div>
     </div>
   )
