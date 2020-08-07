@@ -73,8 +73,8 @@ const Schedule: React.FC = () => {
                 <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1'>
                   Lap Record
                 </div>
-                <div className='mt-1 text-sm leading-5 sm:leading-7 text-gray-800 sm:mt-0 sm:col-span-2 mercedes'>
-                  Max Verstappen (<span className='text'>Red Bull</span>){' '}
+                <div className='mt-1 text-sm leading-5 sm:leading-7 text-gray-800 sm:mt-0 sm:col-span-2 redbull'>
+                  Max Verstappen (<span className='text'>Red Bull</span>) <br />
                   1:27.097 (2020)
                 </div>
               </div>

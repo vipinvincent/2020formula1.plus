@@ -1,6 +1,6 @@
 import React from 'react'
 import ContentLink from 'components/link/ContentLink'
-import SiderBarLink from 'components/link/SiderBarLink'
+// import SiderBarLink from 'components/link/SiderBarLink'
 
 const Schedule: React.FC = () => {
   return (
@@ -85,7 +85,7 @@ const Schedule: React.FC = () => {
                   Practice 1
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  31 - July ( 11:00 - 12:30 )
+                  07 - August ( 11:00 - 12:30 )
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -93,7 +93,7 @@ const Schedule: React.FC = () => {
                   Practice 2
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  31 - July ( 15:00 - 16:30 )
+                  07 - August ( 15:00 - 16:30 )
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -101,18 +101,18 @@ const Schedule: React.FC = () => {
                   Practice 3
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  1 - August ( 11:00 - 12:00 )
+                  08 - August ( 11:00 - 12:00 )
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
                 <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1'>
-                  {/* Qualifying */}
-                  <SiderBarLink
+                  Qualifying
+                  {/* <SiderBarLink
                     className='text-primart-on'
                     href='/qualifying-results'
                     target='_self'>
                     Qualifying Results
-                  </SiderBarLink>
+                  </SiderBarLink> */}
                 </div>
                 {/* <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
                   <SiderBarLink
@@ -123,21 +123,21 @@ const Schedule: React.FC = () => {
                   </SiderBarLink>
                 </div> */}
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  1 - August ( 14:00 - 15:00 )
+                  08 - August ( 14:00 - 15:00 )
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
                 <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1'>
-                  {/* Race Day */}
-                  <SiderBarLink
+                  Race Day
+                  {/* <SiderBarLink
                     className='text-primart-on'
                     href='/race-results'
                     target='_self'>
                     Race Results
-                  </SiderBarLink>
+                  </SiderBarLink> */}
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  2 - August ( 14:10 - 16:10 )
+                  09 - August ( 14:10 - 16:10 )
                 </div>
               </div>
             </div>
@@ -196,7 +196,7 @@ const Schedule: React.FC = () => {
                   Most Wins
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  Lewis Hamilton (6)
+                  Lewis Hamilton (7)
                 </div>
               </div>
               {/* <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -229,9 +229,9 @@ const Schedule: React.FC = () => {
                 <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1'>
                   Lap Record
                 </div>
-                <div className='mt-1 text-sm leading-5 sm:leading-7 text-gray-800 sm:mt-0 sm:col-span-2 mercedes'>
-                  Lewis Hamilton (<span className='text'>Mercedes</span>)<br />{' '}
-                  1:27.369 (2019)
+                <div className='mt-1 text-sm leading-5 sm:leading-7 text-gray-800 sm:mt-0 sm:col-span-2 redbull'>
+                  Max Verstappen (<span className='text'>Red Bull</span>)<br />{' '}
+                  1:27.097 (2020)
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
