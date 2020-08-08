@@ -114,7 +114,7 @@ const AlfaRomeo: React.FC = () => {
             </div>
             <div className='bg-gray-100 px-4 py-4 sm:px-6 aifaromeo'>
               <div className='flex items-center justify-center'>
-                <div className='flex-shrink-0 bg-aifaromeo text-xl font-black text-white-100 rounded-tl-xxl rounded-br-xxl py-2 px-4 w-16 h-12'>
+                <div className='flex-shrink-0 bg-alfaromeo text-xl font-black text-white-100 rounded-tl-xxl rounded-br-xxl py-2 px-4 w-16 h-12'>
                   7
                 </div>
                 <div className='text-xl leading-5 text font-medium flex-0 px-4'>
@@ -170,7 +170,7 @@ const AlfaRomeo: React.FC = () => {
               </div>
               <div className='bg-gray-100 px-4 py-4 sm:px-6 aifaromeo'>
                 <div className='flex items-center justify-center'>
-                  <div className='flex-shrink-0 bg-aifaromeo text-xl font-black text-white-100 rounded-tl-xxl rounded-br-xxl py-2 px-4 w-16 h-12'>
+                  <div className='flex-shrink-0 bg-alfaromeo text-xl font-black text-white-100 rounded-tl-xxl rounded-br-xxl py-2 px-4 w-16 h-12'>
                     99
                   </div>
                   <div className='text-xl leading-5 text font-medium flex-0 px-4'>
