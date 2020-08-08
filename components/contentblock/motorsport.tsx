@@ -13,45 +13,48 @@ const MotorSport: React.FC = () => {
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
-        <div className='px-4 pt-4 pb-2 text-left'>
+        <div className='px-4 pt-4 pb-8 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
             News
           </div>
           <ActionLink
-            href='https://www.motorsport.com/f1/news/honda-red-bull-engine-silverstone/4851213/'
+            href='https://www.motorsport.com/f1/news/ferrari-engine-change-vettel-leclerc/4852067/'
             target='_blank'>
-            Insults fly as F1 bosses speak out over Racing Point case
+            Ferrari changes engine on both F1 cars after Vettel failure
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Racing Point Formula 1 boss Otmar Szafnauer has slammed McLaren team
-            principal Zak Brown as the FIA’s ruling on the brake duct
-            controversy continues to stir emotions in the paddock. In a verdict
-            issued by the FIA stewards today, Racing Point was fined €400,000
-            and docked 15 World Constructors' Championship points for using the
-            brake duct design of the Mercedes W10 on this year’s RP20.
+            Ferrari has changed the engine on both of its cars heading into
+            final Formula 1 practice for the 70th Anniversary Grand Prix
+            following Sebastian Vettel’s failure on Friday.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            To the surprise of many observers the team can continue to use the
-            ducts for the rest of the season, with the FIA stressing that the
-            breach was in the design process, and that today’s penalty is
-            sufficient. Rivals disagree, and on Friday evening Ferrari became
-            the first team to confirm that it has lodged a notice of intention
-            appeal against the decision in an effort to get a tougher penalty,
-            with McLaren following shortly afterwards. Brown was one of several
-            team bosses to question the decision today.
+            Vettel was forced to park up at the side of the track towards the
+            end of second practice on Friday afternoon as a failure on his
+            engine caused him to lose all power, with fluid leaking from the
+            bottom of the car. Ferrari revealed after the failure that it would
+            be replacing the power unit on Vettel’s car, and sent the failed
+            parts back to Maranello for further analysis. Formal confirmation of
+            the changes came from the FIA on Saturday morning shortly after the
+            start of final practice at Silverstone, with Vettel taking a new
+            engine, turbocharger and MGU-H. But Ferrari also moved to make the
+            same changes on teammate Charles Leclerc’s car as a precaution
+            following the issues.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            “I think that is confusing for the fans, how something that is not
-            legal in Austria is still on the car,” he said in an FIA press
-            conference. “Around this whole copying, obviously they claimed that
-            they had copied the car via photography. It’s clear from reading the
-            document that is BS and therefore you have to question anything else
-            around that car.”
+            “After yesterday's engine failure on Seb's car, as a precaution we
+            have changed Charles' power unit,” a Ferrari spokeswoman said. “This
+            is also penalty free as we have not exceeded the number of
+            components allowed in the regulations.” It marks a second usage of
+            each element for both Vettel and Leclerc this season, with both
+            remaining on their first MGU-K, energy store and control
+            electronics. The FIA regulations currently set a limit of two
+            elements for the season for each part, but this is set to change as
+            more races are added to the calendar beyond the current tally of 13.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.motorsport.com/f1/news/honda-red-bull-engine-silverstone/4851213/'
+              href='https://www.motorsport.com/f1/news/ferrari-engine-change-vettel-leclerc/4852067/'
               target='_blank'>
               motorsport.com
             </ContentLink>{' '}

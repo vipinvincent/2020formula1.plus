@@ -2,7 +2,7 @@ import React from 'react'
 import H1 from 'components/heading/H1'
 // import ActionLink from 'components/link/ActionLink'
 
-const Left: React.FC = () => {
+const Archive15: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <div className='h-40 xl:h-48 w-full'>
@@ -15,55 +15,52 @@ const Left: React.FC = () => {
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-2 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            FP3 Report - 70th Anniversary GP
+            FP1 Report - 70th Anniversary GP
           </div>
           <H1>
-            Mercedes' Lewis Hamilton topped final practice from his team mate
-            Valtteri Bottas and Mclaren's Lando Norris.
+            Mercedes' Valtteri Bottas leads team mate Lewis Hamilton by 0.138s
+            and Red Bull’s Max Verstappen by 0.727s in first practice session
           </H1>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Mercedes embraces yet another 1-2 in the final practice session for
-            the 70th Anniversary GP displaying their dominance in this season.
-            Hamilton's lap of 1m26.621s was on soft tyres which was 0.163s ahead
-            of Bottas as Mercedes completed a clean sweep of fastest times in
-            all practice sessions. Lando Norris, who briefly topped the times,
-            finished in third, over half a second off Hamilton's best time on
-            medium tyres. Lando predominantly was on mediums while rest of the
-            pack were testing the red striped softs which was last weeks
-            mediums.
+            Valtteri Bottas acknowledged the contract extension for Mercedes by
+            heading the first Free Practice session of the 70th Anniversary
+            Grand Prix weekend with a time of 1m 26.166s. Lewis Hamilton
+            finished second on a sunny Silverstone circuit characterized by
+            pleasantly warm weather, with air temperature up around 28 degrees
+            Celsius.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Both Racing Points were strong and finished in top 5 with Nico
-            Hulkenberg leading Lance Stroll by just 0.007s. Meanwhile the RP20s
-            are still the point of talk at off-track after the FIA confirmed
-            five teams intend to appeal the stewards' verdict allowing Racing
-            Point to use offending parts on their cars and Racing Point too
-            confirmed their intention to appeal brake duct protest verdict after
-            FIA on deducting 15 points and fining them €400,000.
+            Meanwhile Verstappen’s crossed the line with a third, which was just
+            0.049s quicker than Racing Point’s Nico Hulkenberg, with Hulkenberg
+            confirmed as Sergio Perez’s replacement for this weekend two hours
+            before the session start after another positive Covid-19 test for
+            the Mexican. But his team mate Lance Stroll could only manage P8.
+            Earlier Renault’s protest against Racing Point’s RP20 was upheld in
+            the lead-up to FP1, costing the team €400,000 and 15 constructors’
+            championship points.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Ferrari’s Charles Leclerc finished 6th and his team mate Sebastian
-            Vettel, who ended the session in P13, took brand new engines, turbos
-            and MGU-H units ahead of FP3 as Vettel’s Ferrari power unit having
-            issues and leakage at the end of FP2 on Friday. According to
-            Ferrari, the change on Leclerc's car was done “as a precaution”,
-            with no penalty incurred for either of the drivers since they are
-            still within their allocation for the season.
+            Ferrari’s Charles Leclerc was fifth, ahead of Red Bull’s Alex Albon
+            and the second Ferrari of ‘ucomfortable’ Sebastian Vettel. Daniil
+            Kvyat was ninth for AlphaTauri, ahead of the Renault of Esteban Ocon
+            wrapped top 10 for the session.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The Red Bull driver Max Verstappen only could finish P7, ahead of
-            team mate Alex Albon in P8 since Max had to abort his first flying
-            lap on new soft tyres only to a slow-going Stroll through
-            Maggotts/Becketts. Renault's Esteban Ocon managed a ninth-place
-            finish over McLaren’s Carlos Sainz, while Daniel Ricciardo, who was
-            third quickest in FP2 on Friday only finished 14th overall as his
-            final flying laps too were hampered by traffic. Pierre Gasly beat
-            his AlphaTauri team mate by a tenth of a second to finish P11, with
-            Daniil Kvyat P12 ahead of Vettel's Ferrari.
+            McLaren disappointed with both drivers couldn’t finish in the top 10
+            in FP1, Lando Norris finished P12, while Carlos Sainz was P14, with
+            Romain Grosjean of Haas separated the team mates. Williams once
+            again had a good session with George Russell lead his Williams
+            partner and finished in P15, Nicholas Latifi in P16. The other
+            disappointing performance was from Renault's Daniel Ricciardo, as
+            the Australian could only manage P17.
           </p>
-          {/* <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-           
-          </p> */}
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
+            Both Alfa Romeo’s struggled again to get a grip over the session
+            finished in P18, ahead of Robert Kubica, who took over the C39 of
+            Antonio Giovinazzi this morning, Kevin Magnussen of was to finish
+            last, after the Dane went off at Vale and flat-spotted his tyre on
+            his push lap.
+          </p>
           {/* <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             So, it was yet another dominating performance by Mercedes who
             unsurprisingly finished 1-2 for the 70th Anniversary Grand Prix
@@ -192,4 +189,4 @@ const Left: React.FC = () => {
     </div>
   )
 }
-export default Left
+export default Archive15

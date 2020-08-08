@@ -9,7 +9,7 @@ const F1: React.FC = () => {
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
           src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1596777189/contentImages/content/f170_iwh29t.jpg'
-          alt='Ferrari, McLaren and Renault to appeal against stewards verdict in Racing Point case'
+          alt='Racing Point confirm intention to appeal brake duct protest verdict'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
@@ -18,41 +18,39 @@ const F1: React.FC = () => {
             News
           </div>
           <ActionLink
-            href='https://www.formula1.com/en/latest/article.ferrari-to-appeal-against-stewards-verdict-in-racing-point-case.3eKZBmShlXYA703K8g0wVG.html'
+            href='https://www.formula1.com/en/latest/article.racing-point-confirm-intention-to-appeal-brake-duct-protest-verdict.5xq2spvm7Jt9g3ufy8QnXR.html'
             target='_blank'>
-            Ferrari, McLaren and Renault to appeal against stewards’ verdict in
-            Racing Point case
+            Racing Point confirm intention to appeal brake duct protest verdict
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Friday morning at Silverstone brought a verdict in the long-running
-            saga of Racing Points brake ducts, with the FIA stewards declaring
-            the team hadn’t designed them themselves, fining them heavily and
-            deducting them 15 world championship points. But as Friday evening
-            rolled in, that wasn’t the end of the matter, as Ferrari, McLaren
-            and Renault became the first teams to announce an intention to
-            appeal against that decision…
+            The big news on Friday at Silverstone before practice for the 70th
+            Anniversary Grand Prix got underway was the stewards announcing
+            Renault's protest against the legality of Racing Point's car had
+            been upheld. And on Saturday morning, it was confirmed that Racing
+            Point had signalled their intent to appeal the verdict.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            “We can confirm that we have just stated our intention to appeal
-            against this morning's FIA Stewards' decision regarding Racing
-            Point,” a Ferrari spokesperson said. McLaren revealed they had
-            decided to follow suit shortly after Ferrari's announcement, while
-            Renault - the team who lodged the original protest against Racing
-            Point - then told F1.com they would be doing the same.
+            The protest itself focused on the RP20's rear brake ducts, which
+            Renault argued were illegal thanks to their similarity to those on
+            last year's Mercedes W10 car. On Friday morning the stewards
+            announced that they agreed, and reprimanded Racing Point, as well as
+            deducting 15 points and fining them €400,000 - though the team were
+            allowed to keep running the car and were not required to redesign
+            the parts in question.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Whether Ferrari, McLaren and Renault will be the only teams to
-            appeal the decision is unclear. Earlier on Friday several team
-            bosses expressed surprise at the severity of the punishment, and the
-            fact that Racing Point were allowed to continue running the
-            offending parts. With a 24-hour window with which to appeal, we may
-            yet see more teams join in, while Racing Point themselves may choose
-            to appeal the decision to punish them in the first place.
+            Racing Point had 24 hours to signal their intention to appeal the
+            ruling, and on Saturday morning the FIA confirmed to F1.com that the
+            Silverstone-based team had informed the governing body they would
+            indeed be pursuing an appeal. That confirmation followed news late
+            on Friday that Ferrari, McLaren and Renault had also announced their
+            intention to appeal the decision - with Williams joining that group
+            on Saturday.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.formula1.com/en/latest/article.ferrari-to-appeal-against-stewards-verdict-in-racing-point-case.3eKZBmShlXYA703K8g0wVG.html'
+              href='https://www.formula1.com/en/latest/article.racing-point-confirm-intention-to-appeal-brake-duct-protest-verdict.5xq2spvm7Jt9g3ufy8QnXR.html'
               target='_blank'>
               formula1.com
             </ContentLink>{' '}

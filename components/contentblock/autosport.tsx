@@ -18,40 +18,44 @@ const AutoSport: React.FC = () => {
             News
           </div>
           <ActionLink
-            href='https://www.autosport.com/f1/news/151100/sainz-oldschool-venues-need-good-races-to-stay'
+            href='https://www.autosport.com/f1/news/151181/five-teams-to-appeal-racing-point-brake-duct-verdict'
             target='_blank'>
-            Norris explains misjudgement for "basic" Ricciardo overtake in F1
-            British GP
+            Five F1 teams to appeal against Racing Point brake duct verdict
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Lando Norris has explained how a misjudgement while altering
-            settings on his steering wheel left the door open for Daniel
-            Ricciardo to snatch fourth place in the British Grand Prix.
+            Five Formula 1 teams have filed their intent to appeal the Racing
+            Point brake duct case - with the Silverstone outfit itself facing up
+            against a group of four rivals.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The McLaren driver had been looking to hold off his Renault rival
-            and future team-mate in the closing stages of last weekend's
-            Silverstone event. But with three laps to go, Ricciardo made a move
-            down the inside at Stowe to grab fifth, which then became fourth
-            when McLaren's Carlos Sainz hit late tyre trouble.
+            On Friday morning the FIA stewards issued their verdict on the case,
+            which centred on the protests lodged by Renault at the Styrian,
+            Hungarian and British GPs regarding the legality of Racing Point's
+            brake ducts.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Norris has revealed how multiple factors came together to give
-            Ricciardo the opportunity to pull off what he reckoned was a "basic"
-            pass. "I was struggling with a couple of things, obviously tyres
-            being one of them," explained Norris. "But the move he did was
-            probably one of the most basic moves you could actually do. There
-            was no defence.
+            Racing Point was fined €400,000 and docked 15 World Championship
+            points, but is allowed to keep using the same duct design for the
+            rest of the season. Due to the complex nature of the case teams were
+            given 24 hours after the publication of the verdict to log their
+            intention to appeal, instead of the usual hour.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            "For me it was a misjudgement from me trying to change some things
-            on my steering wheel. "Also my left mirror being completely smashed,
-            so only kind of judging where he was off my right mirror.
+            When the deadline passed at 0930 this morning both original parties
+            had taken up the option. Racing Point wants to clear its name, while
+            Renault has questioned the penalty. Other interested parties are
+            allowed to appeal, and Ferrari, McLaren and Williams have all joined
+            Renault's efforts to secure a tougher sanction. An FIA spokesman
+            confirmed: "We have received notices of intention to appeal the
+            Renault Protest Decision from the following Competitors: Ferrari,
+            McLaren, Racing Point, Renault and Williams." All five teams now
+            have a further period of 96 hours in which to consider their options
+            and decide whether to proceed with their appeals.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.autosport.com/f1/news/151100/sainz-oldschool-venues-need-good-races-to-stay'
+              href='https://www.autosport.com/f1/news/151181/five-teams-to-appeal-racing-point-brake-duct-verdict'
               target='_blank'>
               autosport.com
             </ContentLink>{' '}
