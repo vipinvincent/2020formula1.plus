@@ -5,6 +5,8 @@ import React from 'react'
 // import SecondContent from 'components/contentblock/left'
 // import ThirdContent from 'components/contentblock/right'
 
+import Archive16 from 'components/newsarchives/fp2-report-anniversary-gp'
+import Archive15 from 'components/newsarchives/fp1-report-anniversary-gp'
 import Archive14 from 'components/newsarchives/race-report-british-gp'
 import Archive13 from 'components/newsarchives/qualifying-report-british-gp'
 import Archive12 from 'components/newsarchives/practice-report-british-gp'
@@ -43,7 +45,15 @@ const Main: React.FC = () => {
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mt-2 mb-1 px-2 '>
         Archived News
       </div>
-      <div className='w-100'>
+      <div className='w-100 flex flex-col xl:flex-row'>
+        <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 mt-0'>
+          <Archive16 />
+        </div>
+        <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 mt-0'>
+          <Archive15 />
+        </div>
+      </div>
+      <div className='w-100 mt-4'>
         <Archive14 />
       </div>
       <div className='w-100 flex flex-col xl:flex-row'>

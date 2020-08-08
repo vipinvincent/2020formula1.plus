@@ -18,43 +18,34 @@ const MotorSport: React.FC = () => {
             News
           </div>
           <ActionLink
-            href='https://www.motorsport.com/f1/news/ferrari-engine-change-vettel-leclerc/4852067/'
+            href='https://www.motorsport.com/f1/news/vettel-against-wall-siverstone-struggles/4852532/'
             target='_blank'>
-            Ferrari changes engine on both F1 cars after Vettel failure
+            Struggling Vettel feels he's "going up against a wall"
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Ferrari has changed the engine on both of its cars heading into
-            final Formula 1 practice for the 70th Anniversary Grand Prix
-            following Sebastian Vettel’s failure on Friday.
+            Sebastian Vettel feels like he is going up against a wall in trying
+            to work out how to get more speed from his Ferrari at Silverstone.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Vettel was forced to park up at the side of the track towards the
-            end of second practice on Friday afternoon as a failure on his
-            engine caused him to lose all power, with fluid leaking from the
-            bottom of the car. Ferrari revealed after the failure that it would
-            be replacing the power unit on Vettel’s car, and sent the failed
-            parts back to Maranello for further analysis. Formal confirmation of
-            the changes came from the FIA on Saturday morning shortly after the
-            start of final practice at Silverstone, with Vettel taking a new
-            engine, turbocharger and MGU-H. But Ferrari also moved to make the
-            same changes on teammate Charles Leclerc’s car as a precaution
-            following the issues.
+            After a tough time at last weekend's British Grand Prix, Vettel had
+            hoped for an uplift in form at the 70th Anniversary GP. However, he
+            has not shown much better form and failed to make it through to Q3
+            again. With teammate Charles Leclerc ending up eighth on the grid,
+            Vettel could only set the 12th fastest time in Q2 – but will start
+            in 11th spot after Esteban Ocon was given a grid penalty.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            “After yesterday's engine failure on Seb's car, as a precaution we
-            have changed Charles' power unit,” a Ferrari spokeswoman said. “This
-            is also penalty free as we have not exceeded the number of
-            components allowed in the regulations.” It marks a second usage of
-            each element for both Vettel and Leclerc this season, with both
-            remaining on their first MGU-K, energy store and control
-            electronics. The FIA regulations currently set a limit of two
-            elements for the season for each part, but this is set to change as
-            more races are added to the calendar beyond the current tally of 13.
+            Speaking to Sky Italia after qualifying, Vettel said that he and the
+            team had run out of answers as to what was lacking with his car
+            after trying a host of experiments. "We've tried a lot of things and
+            I have to compliment my team on the work they've done," said the
+            German. "This weekend I feel a bit better in the car than I did last
+            weekend, but looking at the stopwatch you can't see the difference.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.motorsport.com/f1/news/ferrari-engine-change-vettel-leclerc/4852067/'
+              href='https://www.motorsport.com/f1/news/vettel-against-wall-siverstone-struggles/4852532/'
               target='_blank'>
               motorsport.com
             </ContentLink>{' '}

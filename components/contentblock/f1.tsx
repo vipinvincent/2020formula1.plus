@@ -9,7 +9,7 @@ const F1: React.FC = () => {
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
           src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1596777189/contentImages/content/f170_iwh29t.jpg'
-          alt='Racing Point confirm intention to appeal brake duct protest verdict'
+          alt='Verstappen pinning hopes on smooth start after tyre gamble thats caught rivals attention'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
@@ -18,39 +18,42 @@ const F1: React.FC = () => {
             News
           </div>
           <ActionLink
-            href='https://www.formula1.com/en/latest/article.racing-point-confirm-intention-to-appeal-brake-duct-protest-verdict.5xq2spvm7Jt9g3ufy8QnXR.html'
+            href='https://www.formula1.com/en/latest/article.verstappen-pinning-hopes-on-smooth-start-after-tyre-gamble-thats-caught.6usM5a2DRS4jtjh4hdt6lN.html'
             target='_blank'>
-            Racing Point confirm intention to appeal brake duct protest verdict
+            Verstappen pinning hopes on smooth start after tyre gamble that's
+            caught rivals’ attention
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The big news on Friday at Silverstone before practice for the 70th
-            Anniversary Grand Prix got underway was the stewards announcing
-            Renault's protest against the legality of Racing Point's car had
-            been upheld. And on Saturday morning, it was confirmed that Racing
-            Point had signalled their intent to appeal the verdict.
+            Max Verstappen finished last weekend’s Silverstone race a fortuitous
+            second, having driven a lonely Grand Prix behind both Mercedes until
+            their late tyre drama. This weekend at the same circuit he’s pinned
+            his hopes on a bold starting tyre choice, as he bids to give the
+            Silver Arrows a tougher run for their money…
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The protest itself focused on the RP20's rear brake ducts, which
-            Renault argued were illegal thanks to their similarity to those on
-            last year's Mercedes W10 car. On Friday morning the stewards
-            announced that they agreed, and reprimanded Racing Point, as well as
-            deducting 15 points and fining them €400,000 - though the team were
-            allowed to keep running the car and were not required to redesign
-            the parts in question.
+            Verstappen will start Sunday’s 70th Anniversary Grand Prix from
+            fourth on the grid, behind the front-row starting Mercedes and Nico
+            Hulkenberg’s Racing Point. But what separates him from those in
+            front – and indeed the rest of the top 10 – is that he’ll start the
+            race on the hard compound tyre.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Racing Point had 24 hours to signal their intention to appeal the
-            ruling, and on Saturday morning the FIA confirmed to F1.com that the
-            Silverstone-based team had informed the governing body they would
-            indeed be pursuing an appeal. That confirmation followed news late
-            on Friday that Ferrari, McLaren and Renault had also announced their
-            intention to appeal the decision - with Williams joining that group
-            on Saturday.
+            With Pirelli’s three tyres for the weekend a step softer than last
+            weekend, most starting on the medium rubber will probably make two
+            stops. But might Verstappen choose to one stop? It’s certainly got
+            his rivals thinking… “It’s a good race tyre, for sure,” said
+            polesitter Valtteri Bottas when asked about Verstappen’s choice. “It
+            can go longer than the compound that everyone else starting in top
+            10. This is a small deficit at the race start itself but then it’s a
+            bit more robust, less overheating, more durable…” Lewis Hamilton
+            added that Verstappen’s choice will make the race “more interesting”
+            with third-placed Hulkenberg saying it “could play out well for him
+            at the end of the day if he doesn’t miss the train.”
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.formula1.com/en/latest/article.racing-point-confirm-intention-to-appeal-brake-duct-protest-verdict.5xq2spvm7Jt9g3ufy8QnXR.html'
+              href='https://www.formula1.com/en/latest/article.verstappen-pinning-hopes-on-smooth-start-after-tyre-gamble-thats-caught.6usM5a2DRS4jtjh4hdt6lN.html'
               target='_blank'>
               formula1.com
             </ContentLink>{' '}

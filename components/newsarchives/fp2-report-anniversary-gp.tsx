@@ -2,66 +2,54 @@ import React from 'react'
 import H1 from 'components/heading/H1'
 // import ActionLink from 'components/link/ActionLink'
 
-const Right: React.FC = () => {
+const Archive16: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
-      <div className='h-40 xl:h-48 w-full'>
-        <img
-          className='w-full h-full object-cover rounded-tl-xxl'
-          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1595072621/contentImages/content/valtteri_-bottas_m5dgbs.jpg'
-          alt=' Bottas beats Hamilton to 70th Anniversary GP pole as Hulkenberg finished stunning third!!!'
-        />
-      </div>
       <div className='relative max-w-screen-xl mx-auto'>
-        <div className='px-4 pt-4 pb-2 text-left'>
+        <div className='px-4 pt-4 pb-4 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            Qualifying Report - 70th Anniversary GP
+            FP2 Report - 70th Anniversary GP
           </div>
           <H1>
-            Bottas beats Hamilton to 70th Anniversary GP pole as Hulkenberg
-            finished stunning third!!!
+            Mercedes clings yet another 1-2 finish; Lewis Hamilton tops FP2 from
+            Valtteri Bottas and Daniel Ricciardo finishes third.
           </H1>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Valtteri Bottas celebrated his extension of contact at Mercedes with
-            top position in qualifying and thereby beating Mercedes team mate
-            Lewis Hamilton who finished just 0.063s behind. The super sub Nico
-            Hulkenberg took a astounding third for the 70th Anniversary Grand
-            Prix at Silverstone. It should be noted that both Mercedes drivers
-            crossed the line in medium while Nico did his fastest lap on soft.
-            The German was one tenth of a second clear of Red Bull’s Max
-            Verstappen. Meanwhile Daniel Riccardo on mediums finished an
-            impressive fifth, equaling Renault’s best performance in the season
-            completes top 5.
+            Under cloudy skies over hot Silverstone, Lewis Hamilton set the
+            fastest lap of the second free practice session for the 70th
+            Anniversary Grand Prix, ahead of his team mate Valtteri Bottas who
+            was fastest in FP1. Hamilton was 0.176s quicker than the Finn, with
+            Renault’s Daniel Ricciardo finished an impressive third with 0.815s
+            off Hamilton’s time.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The second Racing point of Stroll finished P6 with Pierre Gasly
-            continuing his brilliant start to the 2020 campaign with a stunning
-            P7 for AlphaTauri. Ferrari’s Charles Leclerc only managed P8, which
-            is Ferrari’s worst performance at Silverstone since 2014, with team
-            mate Sebastian Vettel failing to qualify Q2, who eventually finished
-            at a disappointing 12th. Red Bull’s Alexander Albon could make
-            through Q3 comfortable, this time and ended up half a second behind
-            team mate Verstappen. McLaren’s Lando Norris rounded out the top 10
-            list.
+            Meanwhile Red Bull’s Max Verstappen only managed fourth while his
+            team mate Alex Albon finished 11th behind Renault’s Esteban Ocon.
+            Renault were the only team to run the hard tyre for long periods on
+            Friday afternoon as others focused on long runs using medium and
+            soft tyres. Both Racing points finished in top 5 with Lance Stroll
+            ahead of Nico Hulkenberg.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Esteban Ocon of Renault finished eleventh ahead of Sebastian Vettel
-            who had engine leakage issues in practice session; Later Esteban
-            Ocon has been handed a three-place grid penalty after blocking
-            George Russell during qualifying on Saturday. Second McLaren of
-            Carlos Sainz only managed thirteenth spot in the starting grid just
-            ahead of Haas’ Romain Grosjean who made it to Q2. Williams’ George
-            Russell was again impressive on Saturday with a Q2 promotion but
-            only managed fifteenth position in the grid. Second Williams car of
-            Nicolas Latifi managed p18 while both Alfa Romeos struggled again in
-            qualifying with both cars routed to rear end of the qualifying list.
-            Kimi Räikkönen finished 20th with his team mate Antonio Giovinazzi
-            out preforming again in Saturday Qualifying.
+            Ferrari’s Charles Leclerc managed 32 laps to go seventh-fastest with
+            both McLaren drivers Lando Norris sand Carlos Sainz finished in P8
+            and P9 with Norris just a tenth faster than Sainz. Clarles’ team
+            mate Vettel's stoppage was the notable incident from the session as
+            he pulled over at Turn 9, his SF1000 leaking oil on the track
+            surface, which triggered a Virtual Safety Car, later red flagging
+            the session. Before his issue, he had only managed the 14th
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            “It feels good,” said pole-sitter Valtteri Bottas during post
-            qualifying conference. “I just love qualifying, especially when it
-            goes well."
+            Romain Grosjean of Hass finished 15 while his team mate Kevin
+            Magnussen only could manage 18th. Williams’ George Russell was again
+            quicker than his team mate Nicholas Latifi and both Alfa Romeos,
+            ending the day 16th quickest ahead of Kimi Raikkonen in 17th .
+            Latifi only could manage 19th place with Antonio Giovinazzi in the
+            last place after taking the wheel from Kubica who drove in FP1.
+            Antonio Giovinazzi’s car stopped on the run off at the
+            Maggotts-Becketts complex in the last few minutes of the session
+            with what appeared to be an engine issue, which brought out the red
+            flags to end the day's running.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'></p>
 
@@ -183,4 +171,4 @@ const Right: React.FC = () => {
     </div>
   )
 }
-export default Right
+export default Archive16

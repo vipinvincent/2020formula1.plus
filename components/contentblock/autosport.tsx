@@ -13,49 +13,40 @@ const AutoSport: React.FC = () => {
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
-        <div className='px-4 pt-4 pb-5 text-left'>
+        <div className='px-4 pt-4 pb-2 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
             News
           </div>
           <ActionLink
-            href='https://www.autosport.com/f1/news/151181/five-teams-to-appeal-racing-point-brake-duct-verdict'
+            href='https://www.autosport.com/f1/news/151192/ocon-handed-threeplace-grid-drop-for-russell-block'
             target='_blank'>
-            Five F1 teams to appeal against Racing Point brake duct verdict
+            Ocon handed three-place F1 grid penalty after blocking Russell
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Five Formula 1 teams have filed their intent to appeal the Racing
-            Point brake duct case - with the Silverstone outfit itself facing up
-            against a group of four rivals.
+            Esteban Ocon has been handed a three-place grid penalty for Formula
+            1's 70th Anniversary Grand Prix after blocking George Russell during
+            qualifying on Saturday. While passing a slow-moving Antonio
+            Giovinazzi, Renault driver Ocon was caught out on the racing line as
+            Russell came through on a hot lap during Q1 at Silverstone, forcing
+            the Williams to back off.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            On Friday morning the FIA stewards issued their verdict on the case,
-            which centred on the protests lodged by Renault at the Styrian,
-            Hungarian and British GPs regarding the legality of Racing Point's
-            brake ducts.
+            Russell was quick to complain over team radio about Ocon's move,
+            saying the Frenchman "massively got in my way" and was "mega
+            dangerous". Ocon went on to qualify 11th for Renault, but was braced
+            for a penalty after talking to race engineer Mark Slade over team
+            radio in the garage, saying: "That wasn't good, Mark."
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Racing Point was fined €400,000 and docked 15 World Championship
-            points, but is allowed to keep using the same duct design for the
-            rest of the season. Due to the complex nature of the case teams were
-            given 24 hours after the publication of the verdict to log their
-            intention to appeal, instead of the usual hour.
-          </p>
-          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            When the deadline passed at 0930 this morning both original parties
-            had taken up the option. Racing Point wants to clear its name, while
-            Renault has questioned the penalty. Other interested parties are
-            allowed to appeal, and Ferrari, McLaren and Williams have all joined
-            Renault's efforts to secure a tougher sanction. An FIA spokesman
-            confirmed: "We have received notices of intention to appeal the
-            Renault Protest Decision from the following Competitors: Ferrari,
-            McLaren, Racing Point, Renault and Williams." All five teams now
-            have a further period of 96 hours in which to consider their options
-            and decide whether to proceed with their appeals.
+            When Ocon asked if he would be penalised for the move, Slade
+            replied: "Yes." Ocon and Russell were both called to see the
+            stewards about the incident following qualifying, with the brief
+            hearing resulting in a three-place grid drop for Ocon.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.autosport.com/f1/news/151181/five-teams-to-appeal-racing-point-brake-duct-verdict'
+              href='https://www.autosport.com/f1/news/151192/ocon-handed-threeplace-grid-drop-for-russell-block'
               target='_blank'>
               autosport.com
             </ContentLink>{' '}
