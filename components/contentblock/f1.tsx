@@ -9,7 +9,7 @@ const F1: React.FC = () => {
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
           src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1596777189/contentImages/content/f170_iwh29t.jpg'
-          alt='Racing Point deducted 15 points and fined heavily as Renault protest into car legality upheld'
+          alt='Ferrari, McLaren and Renault to appeal against stewards verdict in Racing Point case'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
@@ -18,48 +18,41 @@ const F1: React.FC = () => {
             News
           </div>
           <ActionLink
-            href='https://www.formula1.com/en/latest/article.thursdays-hot-topic-the-unknowns-set-to-spice-up-the-70th-anniversary-grand.6526SIutcsXBGl2yhKNxOe.html'
+            href='https://www.formula1.com/en/latest/article.ferrari-to-appeal-against-stewards-verdict-in-racing-point-case.3eKZBmShlXYA703K8g0wVG.html'
             target='_blank'>
-            Racing Point deducted 15 points and fined heavily as Renault protest
-            into car legality upheld
+            Ferrari, McLaren and Renault to appeal against stewards’ verdict in
+            Racing Point case
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Racing Point have been deducted 15 world championship points and
-            fined €400,000 after FIA stewards upheld Renault’s protest about the
-            legality of the design of the team’s RP20 car. Racing Point raised
-            eyebrows at Barcelona testing when they unveiled a car that looked
-            remarkably similar to last year’s championship-winning Mercedes. The
-            team – who take an engine as well as several parts, including the
-            suspension, from Mercedes as per the rules –admitted taking
-            inspiration from the car, but consistently insisted what they had
-            done is within the rules.
+            Friday morning at Silverstone brought a verdict in the long-running
+            saga of Racing Points brake ducts, with the FIA stewards declaring
+            the team hadn’t designed them themselves, fining them heavily and
+            deducting them 15 world championship points. But as Friday evening
+            rolled in, that wasn’t the end of the matter, as Ferrari, McLaren
+            and Renault became the first teams to announce an intention to
+            appeal against that decision…
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            After the Styrian, Hungarian and British Grands Prix, Renault lodged
-            a protest with the stewards, alleging that Racing Point’s brake
-            ducts had been directly copied from the 2019 Mercedes. And on Friday
-            in Silverstone, the stewards delivered their verdict, upholding
-            Renault’s protest.
+            “We can confirm that we have just stated our intention to appeal
+            against this morning's FIA Stewards' decision regarding Racing
+            Point,” a Ferrari spokesperson said. McLaren revealed they had
+            decided to follow suit shortly after Ferrari's announcement, while
+            Renault - the team who lodged the original protest against Racing
+            Point - then told F1.com they would be doing the same.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Racing Point were fined €200,000 for fielding Sergio Perez’s car in
-            Styria and the same amount for fielding Lance Stroll’s. They were
-            also deducted 7.5 world championship points per car - though Perez
-            and Stroll keep their drivers' championship points. Protests for the
-            Hungarian and British Grands Prix were also upheld, with Racing
-            Point reprimanded for using their car in both events.
-          </p>
-          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            In a 14-page document issued at Silverstone, the FIA stewards
-            outlined in detail why Renault’s protest had been upheld. The crux
-            of the matter focused on when the new rules around listed parts were
-            applied, Racing Point arguing that the new sporting regulations only
-            came into force a day before FP1 in Austria.
+            Whether Ferrari, McLaren and Renault will be the only teams to
+            appeal the decision is unclear. Earlier on Friday several team
+            bosses expressed surprise at the severity of the punishment, and the
+            fact that Racing Point were allowed to continue running the
+            offending parts. With a 24-hour window with which to appeal, we may
+            yet see more teams join in, while Racing Point themselves may choose
+            to appeal the decision to punish them in the first place.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.formula1.com/en/latest/article.thursdays-hot-topic-the-unknowns-set-to-spice-up-the-70th-anniversary-grand.6526SIutcsXBGl2yhKNxOe.html'
+              href='https://www.formula1.com/en/latest/article.ferrari-to-appeal-against-stewards-verdict-in-racing-point-case.3eKZBmShlXYA703K8g0wVG.html'
               target='_blank'>
               formula1.com
             </ContentLink>{' '}

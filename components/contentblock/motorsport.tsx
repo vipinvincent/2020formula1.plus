@@ -20,32 +20,33 @@ const MotorSport: React.FC = () => {
           <ActionLink
             href='https://www.motorsport.com/f1/news/honda-red-bull-engine-silverstone/4851213/'
             target='_blank'>
-            Honda gives Red Bull drivers new F1 power units
+            Insults fly as F1 bosses speak out over Racing Point case
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Honda will give Red Bull Formula 1 drivers Max Verstappen and
-            Alexander Albon new power units ahead of this weekend’s 70th
-            Anniversary Grand Prix.
+            Racing Point Formula 1 boss Otmar Szafnauer has slammed McLaren team
+            principal Zak Brown as the FIA’s ruling on the brake duct
+            controversy continues to stir emotions in the paddock. In a verdict
+            issued by the FIA stewards today, Racing Point was fined €400,000
+            and docked 15 World Constructors' Championship points for using the
+            brake duct design of the Mercedes W10 on this year’s RP20.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Honda announced ahead of opening practice at Silverstone on Friday
-            that it would be introducing a set of new power unit elements for
-            both of Red Bull’s cars this weekend. Albon took a new energy store
-            and control electronics on his Honda power unit last weekend at the
-            British Grand Prix, but will now also take a second engine,
-            turbocharger, MGU-H and MGU-K ahead of Friday’s running at
-            Silverstone.
+            To the surprise of many observers the team can continue to use the
+            ducts for the rest of the season, with the FIA stressing that the
+            breach was in the design process, and that today’s penalty is
+            sufficient. Rivals disagree, and on Friday evening Ferrari became
+            the first team to confirm that it has lodged a notice of intention
+            appeal against the decision in an effort to get a tougher penalty,
+            with McLaren following shortly afterwards. Brown was one of several
+            team bosses to question the decision today.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            To match Albon, Verstappen will have an all-new power unit for the
-            weekend, taking six fresh elements. “As part of our PU strategy for
-            the season, we are introducing new power units for the two Red Bull
-            Racing drivers at this event,” Honda said. “This gives us greater
-            flexibility in terms of power unit management. The new power units
-            are the same specification as the ones coming out.” Teams are
-            forbidden from bringing any updates or developments for their power
-            units through the season after agreeing on a freeze for the year as
-            part of the ongoing cost-saving measures.
+            “I think that is confusing for the fans, how something that is not
+            legal in Austria is still on the car,” he said in an FIA press
+            conference. “Around this whole copying, obviously they claimed that
+            they had copied the car via photography. It’s clear from reading the
+            document that is BS and therefore you have to question anything else
+            around that car.”
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}

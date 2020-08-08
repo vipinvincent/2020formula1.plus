@@ -18,39 +18,40 @@ const TheRace: React.FC = () => {
             News
           </div>
           <ActionLink
-            href='https://the-race.com/formula-1/why-racing-point-can-still-use-parts-developed-illegally/'
+            href='https://the-race.com/formula-1/will-a-not-good-tyre-choice-shake-up-f1s-silverstone-follow-up/'
             target='_blank'>
-            Why Racing Point can still use parts developed illegally
+            Will a ‘not good’ tyre choice shake up F1’s Silverstone follow-up?
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Racing Point will continue using its Mercedes-inspired brake ducts
-            even though they were developed illegally because expecting it to
-            create a new design would be “unreasonable”, says the FIA.
+            Change the tyre compounds, increase the pressures after the
+            late-race dramas of last Sunday, ramp up the track temperature. Do
+            it all at the same track a week later – and what happens? For
+            Mercedes it doesn’t look much different, as Lewis Hamilton and
+            Valtteri Bottas between them dominated both the single-lap qually
+            simulations and long runs. By a comfortable margin.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            On Friday ahead of the 70th Anniversary Grand Prix at Silverstone
-            the FIA stewards ruled that Racing Point’s process of developing its
-            brake ducts, specifically the rears, from Mercedes data was illegal
-            despite obtaining that data last year being within the rules. Brake
-            ducts were a non-listed part in 2019 which meant Racing Point
-            purchased the components legally, but as they are listed parts in
-            2020 they now have to be of its own design.
+            Hamilton’s fastest time in FP2 (on the mediums) was 0.8s clear of
+            any non-Mercedes. Similarly, the long runs on the same mediums
+            (which were the C3s, the softs of last week) showed Mercedes
+            comfortably clear of the pack, with Bottas and Hamilton over 1s
+            clear of the field.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Though the front and rear brake ducts conform to the technical
-            regulations the design process was illegal, and Racing Point has
-            been fined and docked constructors’ championship points for using
-            them in the Styrian Grand Prix, the first race that Renault
-            protested the team. However, the protests of Racing Point’s cars
-            from the Hungarian and British GPs, where the brake ducts were used
-            again, only resulted in reprimands and the stewards’ verdict
-            indicates that Racing Point may continue using the components
-            without further sanction.
+            Actually, this was probably something of a relief for Mercedes, as a
+            couple of times this year its usual advantage narrowed very
+            significantly when the track temperatures became as hot as this. A
+            lot of work has been done in understanding how to better manage the
+            tyres – but actually the increase in mandated minimum pressures by
+            2psi at the front (to a unheard-of 27psi) and 1psi at the rear (to
+            22) has probably helped Mercedes relative to the others. The greater
+            structural integrity of the tyre comes at the expense of grip – and
+            therefore the generation of heat.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://the-race.com/formula-1/why-racing-point-can-still-use-parts-developed-illegally/'
+              href='https://the-race.com/formula-1/will-a-not-good-tyre-choice-shake-up-f1s-silverstone-follow-up/'
               target='_blank'>
               the-race.com
             </ContentLink>{' '}

@@ -7,13 +7,13 @@ const Third: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=Xi8bZrAslWM'
+        href='https://www.youtube.com/watch?v=wQoDdkNk-N0'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/Xi8bZrAslWM/sddefault.jpg'
+              src='https://img.youtube.com/vi/wQoDdkNk-N0/sddefault.jpg'
               alt='Is McLarens Lando Norris 2020s standout talent?'
             />
           </div>
@@ -32,21 +32,24 @@ const Third: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=Xi8bZrAslWM'
+            href='https://www.youtube.com/watch?v=wQoDdkNk-N0'
             target='_blank'>
-            Is McLaren's Lando Norris 2020's standout talent?
+            Bottas Admits He Had Discussions With Other Teams
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            McLaren’s Lando Norris continues to stand out in just his second
-            season of Formula One, with the 20-year-old storming to fifth in
-            Sunday’s British Grand Prix: his home event, and third top-five
-            result in four races.
+            Mercedes had taken a backseat to all the shenanigans of the silly
+            season in the F1 driver market until now. Technically, both their
+            seats were unfilled for 2021 with neither Valtteri Bottas nor
+            defending world champion Lewis Hamilton having put ink to the dotted
+            line. The former has now been signed for another year.
           </p>
 
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='https://unbeaten.com/formula1' target='_blank'>
-              The Inside Line
+            <ContentLink
+              href='https://www.youtube.com/channel/UCo6MV9Xd5pHfLMsLGNWnYTA'
+              target='_blank'>
+              Formula World
             </ContentLink>
           </p>
         </div>
