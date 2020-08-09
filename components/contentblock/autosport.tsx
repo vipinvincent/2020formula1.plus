@@ -18,35 +18,37 @@ const AutoSport: React.FC = () => {
             News
           </div>
           <ActionLink
-            href='https://www.autosport.com/f1/news/151192/ocon-handed-threeplace-grid-drop-for-russell-block'
+            href='https://www.autosport.com/f1/news/151237/bottas-mercedes-sleeping-when-verstappen-got-ahead'
             target='_blank'>
-            Ocon handed three-place F1 grid penalty after blocking Russell
+            Bottas: Mercedes "sleeping" when Verstappen got ahead in F1 70th
+            Anniversary GP
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Esteban Ocon has been handed a three-place grid penalty for Formula
-            1's 70th Anniversary Grand Prix after blocking George Russell during
-            qualifying on Saturday. While passing a slow-moving Antonio
-            Giovinazzi, Renault driver Ocon was caught out on the racing line as
-            Russell came through on a hot lap during Q1 at Silverstone, forcing
-            the Williams to back off.
+            Valtteri Bottas says Mercedes was "sleeping at some point" when Max
+            Verstappen managed to get ahead en route to victory in the Formula 1
+            70th Anniversary Grand Prix.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Russell was quick to complain over team radio about Ocon's move,
-            saying the Frenchman "massively got in my way" and was "mega
-            dangerous". Ocon went on to qualify 11th for Renault, but was braced
-            for a penalty after talking to race engineer Mark Slade over team
-            radio in the garage, saying: "That wasn't good, Mark."
+            Bottas led the early part of the race after starting on pole
+            position, but struggled for pace after switching to the hard
+            compound tyre for the second stint. Red Bull opted to keep
+            Verstappen out for a long first stint on the hard tyre, during which
+            he was able to match Bottas' pace despite the Finn having pitted for
+            a fresher set.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            When Ocon asked if he would be penalised for the move, Slade
-            replied: "Yes." Ocon and Russell were both called to see the
-            stewards about the incident following qualifying, with the brief
-            hearing resulting in a three-place grid drop for Ocon.
+            It meant that by the time Verstappen took his first pit stop, he
+            emerged just behind Bottas before passing into Brooklands on his
+            out-lap, before going on to take a commanding victory. Bottas
+            ultimately finished the race third on a two-stop strategy after
+            being passed by Mercedes team-mate Lewis Hamilton in the closing
+            stages. "Very frustrating obviously, starting from pole and
+            finishing third is not ideal," Bottas said after the race.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.autosport.com/f1/news/151192/ocon-handed-threeplace-grid-drop-for-russell-block'
+              href='https://www.autosport.com/f1/news/151237/bottas-mercedes-sleeping-when-verstappen-got-ahead'
               target='_blank'>
               autosport.com
             </ContentLink>{' '}

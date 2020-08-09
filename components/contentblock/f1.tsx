@@ -9,7 +9,7 @@ const F1: React.FC = () => {
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
           src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1596777189/contentImages/content/f170_iwh29t.jpg'
-          alt='Verstappen pinning hopes on smooth start after tyre gamble thats caught rivals attention'
+          alt='Delighted Leclerc says fourth place feels like victory after strategy gamble pays off'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
@@ -18,42 +18,38 @@ const F1: React.FC = () => {
             News
           </div>
           <ActionLink
-            href='https://www.formula1.com/en/latest/article.verstappen-pinning-hopes-on-smooth-start-after-tyre-gamble-thats-caught.6usM5a2DRS4jtjh4hdt6lN.html'
+            href='https://www.formula1.com/en/latest/article.delighted-leclerc-says-fourth-place-feels-like-victory-after-strategy-gamble.4H2YVpxUjiKdpDyDB8pSdX.html'
             target='_blank'>
-            Verstappen pinning hopes on smooth start after tyre gamble that's
-            caught rivals’ attention
+            Delighted Leclerc says fourth place ‘feels like victory’ after
+            strategy gamble pays off
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Max Verstappen finished last weekend’s Silverstone race a fortuitous
-            second, having driven a lonely Grand Prix behind both Mercedes until
-            their late tyre drama. This weekend at the same circuit he’s pinned
-            his hopes on a bold starting tyre choice, as he bids to give the
-            Silver Arrows a tougher run for their money…
+            Charles Leclerc was one of just three drivers in the 70th
+            Anniversary Grand Prix to attempt a one-stop strategy. And following
+            a tough qualifying, the Monegasque was left delighted after eking
+            out a 34-lap stint on his hard tyres to finish fourth at the
+            chequered flag.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Verstappen will start Sunday’s 70th Anniversary Grand Prix from
-            fourth on the grid, behind the front-row starting Mercedes and Nico
-            Hulkenberg’s Racing Point. But what separates him from those in
-            front – and indeed the rest of the top 10 – is that he’ll start the
-            race on the hard compound tyre.
+            Leclerc had qualified in P8 at Silverstone, complaining to his
+            Ferrari team that he “[couldn’t] do anything” with his SF1000 car.
+            But after pitting just once on Lap 18 of the race (Renault’s Esteban
+            Ocon and Alfa Romeo’s Kimi Raikkonen also one-stopping) before
+            running a long stint as others stopped again, Leclerc found himself
+            third with seven laps of the Grand Prix to go.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            With Pirelli’s three tyres for the weekend a step softer than last
-            weekend, most starting on the medium rubber will probably make two
-            stops. But might Verstappen choose to one stop? It’s certainly got
-            his rivals thinking… “It’s a good race tyre, for sure,” said
-            polesitter Valtteri Bottas when asked about Verstappen’s choice. “It
-            can go longer than the compound that everyone else starting in top
-            10. This is a small deficit at the race start itself but then it’s a
-            bit more robust, less overheating, more durable…” Lewis Hamilton
-            added that Verstappen’s choice will make the race “more interesting”
-            with third-placed Hulkenberg saying it “could play out well for him
-            at the end of the day if he doesn’t miss the train.”
+            And although a faster, fresher-rubbered Lewis Hamilton eventually
+            dropped him to fourth, Leclerc was nonetheless extremely pleased
+            with his day. “I’m so happy today,” beamed Leclerc, who finished
+            third last time out at the British Grand Prix. “For me it feels like
+            a victory. Of course it’s not looking good once we call a fourth
+            place a victory but at the moment it’s where we’re at.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.formula1.com/en/latest/article.verstappen-pinning-hopes-on-smooth-start-after-tyre-gamble-thats-caught.6usM5a2DRS4jtjh4hdt6lN.html'
+              href='https://www.formula1.com/en/latest/article.delighted-leclerc-says-fourth-place-feels-like-victory-after-strategy-gamble.4H2YVpxUjiKdpDyDB8pSdX.html'
               target='_blank'>
               formula1.com
             </ContentLink>{' '}

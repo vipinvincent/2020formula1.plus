@@ -1,10 +1,6 @@
 import React from 'react'
 
-// import Report from 'components/contentblock/report'
-// import FirstContent from 'components/contentblock/main'
-// import SecondContent from 'components/contentblock/left'
-// import ThirdContent from 'components/contentblock/right'
-
+import Archive17 from 'components/newsarchives/non-mercedes-race-winner'
 import Archive16 from 'components/newsarchives/fp2-report-anniversary-gp'
 import Archive15 from 'components/newsarchives/fp1-report-anniversary-gp'
 import Archive14 from 'components/newsarchives/race-report-british-gp'
@@ -25,31 +21,17 @@ import Archive1 from 'components/newsarchives/team-on-teammates-battles'
 const Main: React.FC = () => {
   return (
     <div className='flex flex-col'>
-      {/* <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
-        Latest News
-      </div>
-      <div className='w-100'>
-        <FirstContent />
-      </div>
-      <div className='w-100 mt-4'>
-        <Report />
-      </div>
-      <div className='w-100 flex flex-col xl:flex-row'>
-        <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 mt-4'>
-          <SecondContent />
-        </div>
-        <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 mt-4'>
-          <ThirdContent />
-        </div>
-      </div> */}
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mt-2 mb-1 px-2 '>
         Archived News
       </div>
+      <div className='w-100'>
+        <Archive17 />
+      </div>
       <div className='w-100 flex flex-col xl:flex-row'>
-        <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 mt-0'>
+        <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 mt-4'>
           <Archive16 />
         </div>
-        <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 mt-0'>
+        <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 mt-4'>
           <Archive15 />
         </div>
       </div>

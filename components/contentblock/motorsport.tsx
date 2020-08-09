@@ -13,39 +13,41 @@ const MotorSport: React.FC = () => {
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
-        <div className='px-4 pt-4 pb-8 text-left'>
+        <div className='px-4 pt-4 pb-4 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
             News
           </div>
           <ActionLink
-            href='https://www.motorsport.com/f1/news/vettel-against-wall-siverstone-struggles/4852532/'
+            href='https://www.motorsport.com/f1/news/hulkenberg-late-pitstop-anniversary-gp-explained/4853321/'
             target='_blank'>
-            Struggling Vettel feels he's "going up against a wall"
+            Hulkenberg explains reasons for "forced" late pitstop
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Sebastian Vettel feels like he is going up against a wall in trying
-            to work out how to get more speed from his Ferrari at Silverstone.
+            Nico Hulkenberg doubts his tyres would have lasted until the end of
+            the 70th Anniversary Grand Prix due to a vibration that forced him
+            into a late pitstop.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            After a tough time at last weekend's British Grand Prix, Vettel had
-            hoped for an uplift in form at the 70th Anniversary GP. However, he
-            has not shown much better form and failed to make it through to Q3
-            again. With teammate Charles Leclerc ending up eighth on the grid,
-            Vettel could only set the 12th fastest time in Q2 – but will start
-            in 11th spot after Esteban Ocon was given a grid penalty.
+            After qualifying third on Saturday at Silverstone, Racing Point
+            stand-in Hulkenberg looked on course to record a top-five finish
+            after completing his second stop for a fresh set of hard tyres.
+            Hulkenberg was lapping quicker than both Mercedes drivers at one
+            point and was catching the one-stopping Charles Leclerc, only to be
+            called into the pits for a third time with eight laps remaining.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Speaking to Sky Italia after qualifying, Vettel said that he and the
-            team had run out of answers as to what was lacking with his car
-            after trying a host of experiments. "We've tried a lot of things and
-            I have to compliment my team on the work they've done," said the
-            German. "This weekend I feel a bit better in the car than I did last
-            weekend, but looking at the stopwatch you can't see the difference.
+            The stop caused Hulkenberg to drop back to seventh in the final
+            classification, losing positions to Red Bull's Alexander Albon and
+            Racing Point teammate Lance Stroll. Racing Point quickly said after
+            the race that Hulkenberg had been struggling with a vibration on his
+            tyres towards the end of the third stint, leaving it with no choice
+            but to bring him in again. Hulkenberg doubted his tyres would have
+            made it to the end of the race due to the issue.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.motorsport.com/f1/news/vettel-against-wall-siverstone-struggles/4852532/'
+              href='https://www.motorsport.com/f1/news/hulkenberg-late-pitstop-anniversary-gp-explained/4853321/'
               target='_blank'>
               motorsport.com
             </ContentLink>{' '}
