@@ -14,6 +14,7 @@ import AutoSport from 'components/contentblock/autosport'
 import FirstContent from 'components/contentblock/main'
 import SecondContent from 'components/contentblock/left'
 import ThirdContent from 'components/contentblock/right'
+import FourthContent from 'components/contentblock/second'
 
 const Main: React.FC = () => {
   return (
@@ -34,6 +35,9 @@ const Main: React.FC = () => {
         <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 mt-4'>
           <SecondContent />
         </div>
+      </div>
+      <div className='w-100 mt-4'>
+        <FourthContent />
       </div>
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mt-4 mb-1 px-2'>
         Featured news on F1 news Sources
