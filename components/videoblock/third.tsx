@@ -13,7 +13,7 @@ const Third: React.FC = () => {
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
-              src='http://i3.ytimg.com/vi/XcwlQdJ3N-4/maxresdefault.jpg'
+              src='https://i3.ytimg.com/vi/XcwlQdJ3N-4/maxresdefault.jpg'
               alt='70th Anniversary Grand Prix: Race Reaction'
             />
           </div>
