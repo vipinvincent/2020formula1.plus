@@ -37,9 +37,9 @@ const First: React.FC = () => {
             F1 2020 70th Anniversary GP Review
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The Finn is in his 18th season of Formula One and his last year in
-            his Alfa Romeo contract. The talk then is whether he will sign
-            another one and stay in the sport for another year.
+            Round 5 of the 2020 F1 season is done and dusted so here are my
+            intial thoughts and reactions from the 70th Anniversary Grand Prix
+            at Silverstone
           </p>
 
           <p className='mt-1 text-base leading-normal text-gray-700'>
