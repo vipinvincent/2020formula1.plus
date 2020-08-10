@@ -7,14 +7,14 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=1TD30oDBpmI'
+        href='https://www.youtube.com/watch?v=tn4wLwagB7o'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/1TD30oDBpmI/sddefault.jpg'
-              alt='Why Racing Point broke the rules... and survived! Sort of'
+              src='https://img.youtube.com/vi/tn4wLwagB7o/sddefault.jpg'
+              alt='Szafnauer Rips Into Zak Brown: Im Surprised How Little He Knows'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,18 +32,23 @@ const Second: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=1TD30oDBpmI'
+            href='https://www.youtube.com/watch?v=tn4wLwagB7o'
             target='_blank'>
-            Why Racing Point broke the rules... and survived! Sort of
+            Szafnauer Rips Into Zak Brown: "I'm Surprised How Little He Knows"
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Racing Point were found to have used Mercedes brake duct designs.
-            But it's more complicated than that...
+            After it was announced by the stewards that Racing Point had
+            infringed on the regulations in the design of their brake ducts for
+            their 2020 car they have garnered criticism from the other teams
+            with McLaren CEO Zak Brown being particularly vocal. Racing Point
+            team principal Otmar Szafnauer has now responded.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='http://www.chainbear.me' target='_blank'>
-              Chain Bear
+            <ContentLink
+              href='https://www.youtube.com/c/FormulaWorld'
+              target='_blank'>
+              Formula World
             </ContentLink>
           </p>
         </div>

@@ -2,7 +2,7 @@ import React from 'react'
 import { Line } from 'react-chartjs-2'
 
 const data = {
-  labels: ['Austria', 'Styria', 'Hungary', 'Britian'],
+  labels: ['Austria', 'Styria', 'Hungary', 'Britian', '70th Anniversary'],
   datasets: [
     {
       label: ' Mercedes',
@@ -23,7 +23,7 @@ const data = {
       pointHoverBorderWidth: 2,
       pointRadius: 3,
       pointHitRadius: 10,
-      data: [37, 80, 121, 146],
+      data: [37, 80, 121, 146, 180],
     },
     {
       label: '  Red Bull',
@@ -44,7 +44,7 @@ const data = {
       pointHoverBorderWidth: 2,
       pointRadius: 3,
       pointHitRadius: 10,
-      data: [0, 37, 55, 78],
+      data: [0, 37, 55, 78, 113],
     },
     {
       label: ' McLaren',
@@ -65,7 +65,7 @@ const data = {
       pointHoverBorderWidth: 2,
       pointRadius: 3,
       pointHitRadius: 10,
-      data: [26, 39, 41, 51],
+      data: [26, 39, 41, 51, 53],
     },
     {
       label: ' Racing Point',
@@ -86,7 +86,7 @@ const data = {
       pointHoverBorderWidth: 2,
       pointRadius: 3,
       pointHitRadius: 10,
-      data: [8, 22, 40, 42],
+      data: [8, 22, 40, 42, 41],
     },
     {
       label: ' Ferrari',
@@ -107,7 +107,7 @@ const data = {
       pointHoverBorderWidth: 2,
       pointRadius: 3,
       pointHitRadius: 10,
-      data: [19, 19, 27, 43],
+      data: [19, 19, 27, 43, 55],
     },
     {
       label: ' Renault',
@@ -128,7 +128,7 @@ const data = {
       pointHoverBorderWidth: 2,
       pointRadius: 3,
       pointHitRadius: 10,
-      data: [4, 8, 12, 32],
+      data: [4, 8, 12, 32, 36],
     },
     {
       label: ' AlphaTauri',
@@ -149,7 +149,7 @@ const data = {
       pointHoverBorderWidth: 2,
       pointRadius: 3,
       pointHitRadius: 10,
-      data: [6, 7, 7, 13],
+      data: [6, 7, 7, 13, 14],
     },
     {
       label: ' Alfa Romeo',
@@ -170,7 +170,7 @@ const data = {
       pointHoverBorderWidth: 2,
       pointRadius: 3,
       pointHitRadius: 10,
-      data: [2, 2, 2, 2],
+      data: [2, 2, 2, 2, 2],
     },
     {
       label: ' Haas',
@@ -191,7 +191,7 @@ const data = {
       pointHoverBorderWidth: 2,
       pointRadius: 3,
       pointHitRadius: 10,
-      data: [0, 0, 1, 1],
+      data: [0, 0, 1, 1, 1],
     },
     {
       label: ' Williams',
@@ -212,7 +212,7 @@ const data = {
       pointHoverBorderWidth: 2,
       pointRadius: 3,
       pointHitRadius: 10,
-      data: [0, 0, 0, 0],
+      data: [0, 0, 0, 0, 0],
     },
   ],
 }

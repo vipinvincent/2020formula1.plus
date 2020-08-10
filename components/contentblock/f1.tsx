@@ -9,7 +9,7 @@ const F1: React.FC = () => {
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
           src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1596777189/contentImages/content/f170_iwh29t.jpg'
-          alt='Delighted Leclerc says fourth place feels like victory after strategy gamble pays off'
+          alt='‘As a team we were sleeping’ – Bottas points finger at Mercedes strategy as he slips from pole to third'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
@@ -18,38 +18,45 @@ const F1: React.FC = () => {
             News
           </div>
           <ActionLink
-            href='https://www.formula1.com/en/latest/article.delighted-leclerc-says-fourth-place-feels-like-victory-after-strategy-gamble.4H2YVpxUjiKdpDyDB8pSdX.html'
+            href='https://www.formula1.com/en/latest/article.as-a-team-we-were-sleeping-bottas-points-finger-at-mercedes-strategy-as-he.7fJk8nQbpTvmIa8hcNUEqM.html'
             target='_blank'>
-            Delighted Leclerc says fourth place ‘feels like victory’ after
-            strategy gamble pays off
+            ‘As a team we were sleeping’ – Bottas points finger at Mercedes
+            strategy as he slips from pole to third
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Charles Leclerc was one of just three drivers in the 70th
-            Anniversary Grand Prix to attempt a one-stop strategy. And following
-            a tough qualifying, the Monegasque was left delighted after eking
-            out a 34-lap stint on his hard tyres to finish fourth at the
-            chequered flag.
+            After turning the tide on Mercedes team mate Lewis Hamilton in
+            qualifying for the 70th Anniversary Grand Prix on Saturday, Valtteri
+            Bottas was understandably delighted. But his demeanour couldn’t have
+            been more different after the race on Sunday as he slipped behind
+            both Hamilton and Red Bull’s Max Verstappen to finish third, with
+            the Finn quick to point a finger at his team’s strategy calls after
+            the race.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Leclerc had qualified in P8 at Silverstone, complaining to his
-            Ferrari team that he “[couldn’t] do anything” with his SF1000 car.
-            But after pitting just once on Lap 18 of the race (Renault’s Esteban
-            Ocon and Alfa Romeo’s Kimi Raikkonen also one-stopping) before
-            running a long stint as others stopped again, Leclerc found himself
-            third with seven laps of the Grand Prix to go.
+            Bottas led away from Hamilton at the start and maintained that lead
+            into the first pit sequence, even as Mercedes’ struggles with
+            blistering started to ring alarm bells for the team’s strategists.
+            Bottas stopped on lap 13, swapping his medium tyres for hards and
+            staying ahead of Hamilton when he made the same move a lap later.
+            This allowed the hard-starting Verstappen to charge into the lead,
+            and though he momentarily lost the lead back to Bottas when he
+            stopped for mediums on lap 27, the Dutchman was able to sweep back
+            past the Finn for the lead shortly after.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            And although a faster, fresher-rubbered Lewis Hamilton eventually
-            dropped him to fourth, Leclerc was nonetheless extremely pleased
-            with his day. “I’m so happy today,” beamed Leclerc, who finished
-            third last time out at the British Grand Prix. “For me it feels like
-            a victory. Of course it’s not looking good once we call a fourth
-            place a victory but at the moment it’s where we’re at.
+            From then on, Bottas had no challenge for the Red Bull driver,
+            stopping for the second and final time on the same lap as
+            Verstappen, but struggling with blistering on his final set of tyres
+            far more than the Dutchman. “Very frustrating, obviously, starting
+            from pole and finishing third is not ideal,” he said. “I think as a
+            team we were sleeping at some point when Max managed to get ahead of
+            us, and my strategy was far, far from ideal so, lots to lean from
+            today I think.”
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.formula1.com/en/latest/article.delighted-leclerc-says-fourth-place-feels-like-victory-after-strategy-gamble.4H2YVpxUjiKdpDyDB8pSdX.html'
+              href='https://www.formula1.com/en/latest/article.as-a-team-we-were-sleeping-bottas-points-finger-at-mercedes-strategy-as-he.7fJk8nQbpTvmIa8hcNUEqM.html'
               target='_blank'>
               formula1.com
             </ContentLink>{' '}

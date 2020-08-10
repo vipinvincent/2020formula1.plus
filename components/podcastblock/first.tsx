@@ -7,13 +7,13 @@ const First: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=38onhOkcvgI'
+        href='https://www.youtube.com/watch?v=paL1oKNj0F4'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-40 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/38onhOkcvgI/sddefault.jpg'
+              src='https://img.youtube.com/vi/paL1oKNj0F4/sddefault.jpg'
               alt='Is Time Up for Kimi Raikkonen?'
             />
           </div>
@@ -32,9 +32,9 @@ const First: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=38onhOkcvgI'
+            href='https://www.youtube.com/watch?v=paL1oKNj0F4'
             target='_blank'>
-            Is Time Up for Kimi Raikkonen?
+            F1 2020 70th Anniversary GP Review
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             The Finn is in his 18th season of Formula One and his last year in

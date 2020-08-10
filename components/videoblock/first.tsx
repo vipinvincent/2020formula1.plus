@@ -7,13 +7,13 @@ const First: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=rVB57VF3lSs'
+        href='https://www.youtube.com/watch?v=WOYG1axwLbs'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/rVB57VF3lSs/sddefault.jpg'
+              src='https://img.youtube.com/vi/WOYG1axwLbs/sddefault.jpg'
               alt='10 things you need to know about Racing Points illegal F1 parts'
             />
           </div>
@@ -32,26 +32,20 @@ const First: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=rVB57VF3lSs'
+            href='https://www.youtube.com/watch?v=WOYG1axwLbs'
             target='_blank'>
-            10 things you need to know about Racing Point's illegal F1 parts
+            Toto Wolff disagrees with Valtteri Bottas on the Mercedes strategy
+            being "sub-optimal"
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Renault's protest against Racing Point's 2020 F1 car was successful,
-            with a panel of stewards ruling that the rear brake ducts on the
-            'Pink Mercedes' were the result of illegal design processes. Racing
-            Point has been fined and had points taken away, but it's still
-            allowed to use the parts... Confused? Don't be. In this video we
-            explain everything that has gone on in this case, why Racing Point's
-            defence didn't work, and why the outcome won't even please the
-            winners of the case.
+            Toto Wolff responds to Valtteri Bottas' comments that Mercedes'
+            strategy was "sub-optimal" after both cars were beaten by Red Bull's
+            Max Verstappen.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink
-              href='https://the-race.com/formula-1/our-verdict-on-racing-points-punishment/'
-              target='_blank'>
-              the-race.com
+            <ContentLink href='https://www.skysports.com/f1' target='_blank'>
+              skysports.com
             </ContentLink>
           </p>
         </div>

@@ -18,36 +18,37 @@ const MotorSport: React.FC = () => {
             News
           </div>
           <ActionLink
-            href='https://www.motorsport.com/f1/news/hulkenberg-late-pitstop-anniversary-gp-explained/4853321/'
+            href='https://www.motorsport.com/f1/news/horner-verstappen-praise-silverstone-win/4853333/'
             target='_blank'>
-            Hulkenberg explains reasons for "forced" late pitstop
+            Horner surprised others didn't try Verstappen's tyre strategy
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Nico Hulkenberg doubts his tyres would have lasted until the end of
-            the 70th Anniversary Grand Prix due to a vibration that forced him
-            into a late pitstop.
+            Red Bull’s Christian Horner says Max Verstappen’s victory in the
+            70th Anniversary GP at Silverstone was an “amazing performance” –
+            but was surprised more teams didn't gamble on using the hard tyre in
+            qualifying that played a key role.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            After qualifying third on Saturday at Silverstone, Racing Point
-            stand-in Hulkenberg looked on course to record a top-five finish
-            after completing his second stop for a fresh set of hard tyres.
-            Hulkenberg was lapping quicker than both Mercedes drivers at one
-            point and was catching the one-stopping Charles Leclerc, only to be
-            called into the pits for a third time with eight laps remaining.
+            Verstappen was the only top runner to start on the hard tyre, and he
+            converted that into a surprise race win with a brilliant charging
+            performance that saw him run a long first stint. He was ultimately
+            able to pit and come out just behind Valtteri Bottas, who he then
+            passed. He gained the lead for the final time later in the race when
+            Lewis Hamilton made his second stop after a long middle stint.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The stop caused Hulkenberg to drop back to seventh in the final
-            classification, losing positions to Red Bull's Alexander Albon and
-            Racing Point teammate Lance Stroll. Racing Point quickly said after
-            the race that Hulkenberg had been struggling with a vibration on his
-            tyres towards the end of the third stint, leaving it with no choice
-            but to bring him in again. Hulkenberg doubted his tyres would have
-            made it to the end of the race due to the issue.
+            “It was an amazing performance today,” Horner told Sky Sports F1. “I
+            mean, the pace in the race was beyond what we expected. We started
+            on that sort of reverse strategy, and Max was just chilling out to
+            the beginning of the race. “And the pace in the car, it was just so
+            easy today. And even after Mercedes pitted and went on to a new
+            hard, we were able to pull away, and at that point, you think this
+            is really game on now.”
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.motorsport.com/f1/news/hulkenberg-late-pitstop-anniversary-gp-explained/4853321/'
+              href='https://www.motorsport.com/f1/news/horner-verstappen-praise-silverstone-win/4853333/'
               target='_blank'>
               motorsport.com
             </ContentLink>{' '}

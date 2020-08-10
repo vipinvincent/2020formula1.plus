@@ -7,14 +7,14 @@ const Third: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=_pF7gwNU76w'
+        href='https://www.youtube.com/watch?v=ghb9pOW5Ewk'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-40 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/_pF7gwNU76w/sddefault.jpg'
-              alt='F1 Contract News: Mercedes Confirm Valtteri Bottas For 2021'
+              src='https://img.youtube.com/vi/ghb9pOW5Ewk/sddefault.jpg'
+              alt='The Internets Best Reactions To The 2020 70th Anniversary Grand Prix'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,22 +32,19 @@ const Third: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=_pF7gwNU76w'
+            href='https://www.youtube.com/watch?v=ghb9pOW5Ewk'
             target='_blank'>
-            F1 Contract News: Mercedes Confirm Valtteri Bottas For 2021
+            The Internet's Best Reactions To The 2020 70th Anniversary Grand
+            Prix
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Earlier today, Mercedes announced that Valtteri Bottas will be
-            staying with the team for the 2020 F1 season. Here’s the news,
-            quotes and my thought’s on the Finn’s latest Formula One contract
-            extension.
+            This week Matt takes a look at the best comments and reactions from
+            the 2020 70th Anniversary GP at Silverstone.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink
-              href='https://www.youtube.com/user/seanculli'
-              target='_blank'>
-              The F1 Word
+            <ContentLink href='http://www.wtf1.com' target='_blank'>
+              wtf1.com
             </ContentLink>
           </p>
         </div>

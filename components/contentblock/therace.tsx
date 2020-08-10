@@ -13,45 +13,43 @@ const TheRace: React.FC = () => {
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
-        <div className='px-4 pt-4 pb-8 text-left'>
+        <div className='px-4 pt-4 pb-4 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
             News
           </div>
           <ActionLink
-            href='https://the-race.com/formula-1/will-a-not-good-tyre-choice-shake-up-f1s-silverstone-follow-up/'
+            href='https://the-race.com/formula-1/ricciardo-explains-the-seb-spin-that-ruined-his-race/'
             target='_blank'>
-            Will a ‘not good’ tyre choice shake up F1’s Silverstone follow-up?
+            Ricciardo on the ‘Seb spin’ that ruined his race
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Change the tyre compounds, increase the pressures after the
-            late-race dramas of last Sunday, ramp up the track temperature. Do
-            it all at the same track a week later – and what happens? For
-            Mercedes it doesn’t look much different, as Lewis Hamilton and
-            Valtteri Bottas between them dominated both the single-lap qually
-            simulations and long runs. By a comfortable margin.
+            Daniel Ricciardo described the mistake that cost him a points finish
+            in the 70th Anniversary Grand Prix at Silverstone as a “Seb spin”,
+            given the similarity to the spate of such incidents his former
+            Formula 1 team-mate Sebastian Vettel has suffered.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Hamilton’s fastest time in FP2 (on the mediums) was 0.8s clear of
-            any non-Mercedes. Similarly, the long runs on the same mediums
-            (which were the C3s, the softs of last week) showed Mercedes
-            comfortably clear of the pack, with Bottas and Hamilton over 1s
-            clear of the field.
+            The Renault driver was running 10th on the 31st lap of the race
+            having made his second pitstop five laps earlier when he defended
+            into the Village right-hander after McLaren’s Carlos Sainz got a run
+            on him. Ricciardo held the inside line and the pair were side by
+            side exiting the corner when the Renault driver spun on the
+            application of the power, which he put down to a loss of downforce
+            on the left side of the car.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Actually, this was probably something of a relief for Mercedes, as a
-            couple of times this year its usual advantage narrowed very
-            significantly when the track temperatures became as hot as this. A
-            lot of work has been done in understanding how to better manage the
-            tyres – but actually the increase in mandated minimum pressures by
-            2psi at the front (to a unheard-of 27psi) and 1psi at the rear (to
-            22) has probably helped Mercedes relative to the others. The greater
-            structural integrity of the tyre comes at the expense of grip – and
-            therefore the generation of heat.
+            This forced an unplanned third pitstop five laps later given the
+            damage to the hards he was running on that made the car “pretty bad
+            in the high speed’ according to a radio message, on his way to a
+            14th place finish. Ricciardo said he spoke to Vettel in the media
+            pen after the race about it, as it’s the first time Ricciardo’s
+            experienced the loss of downforce the Ferrari driver has struggled
+            with in such situations
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://the-race.com/formula-1/will-a-not-good-tyre-choice-shake-up-f1s-silverstone-follow-up/'
+              href='https://the-race.com/formula-1/ricciardo-explains-the-seb-spin-that-ruined-his-race/'
               target='_blank'>
               the-race.com
             </ContentLink>{' '}

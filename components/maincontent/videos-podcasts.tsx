@@ -35,10 +35,10 @@ const Main: React.FC = () => {
             <SecondPodcast />
           </div>
           <div className='w-full sm:w-1/2 md:w-full mt-4 md:pl-4'>
-            <FourthPodcast />
+            <ThirdPodcast />
           </div>
           <div className='w-full sm:w-1/2 md:w-full mt-4 sm:pl-4'>
-            <ThirdPodcast />
+            <FourthPodcast />
           </div>
         </div>
       </div>

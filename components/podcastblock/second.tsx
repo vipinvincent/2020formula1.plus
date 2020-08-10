@@ -7,14 +7,14 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=6du3xhYwJoc'
+        href='https://www.youtube.com/watch?v=fYLo9QZ8hiQ'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-40 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/6du3xhYwJoc/sddefault.jpg'
-              alt='LAST LAP CARNAGE! 2020 British GP - Unbiased F1 Podcast'
+              src='https://img.youtube.com/vi/fYLo9QZ8hiQ/sddefault.jpg'
+              alt='VERSTAPPEN CRUSHES MERCEDES! 70th Anniversary GP Podcast'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,14 +32,14 @@ const Second: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=6du3xhYwJoc'
+            href='https://www.youtube.com/watch?v=fYLo9QZ8hiQ'
             target='_blank'>
-            LAST LAP CARNAGE! 2020 British GP - Unbiased F1 Podcast
+            VERSTAPPEN CRUSHES MERCEDES! 70th Anniversary GP Podcast
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            What an ending! A stunningly dramatic final few laps in
-            Northamptonshire in which punctures changed the face of the race.
-            What do you think? Let us know in the comments below!
+            Verstappen and Red Bull take the win in the second weekend at
+            Silverstone, after the soaring temperatures defeat Mercedes' tyres!
+            Let us know your thoughts on the race below.
           </p>
 
           <p className='mt-1 text-base leading-normal text-gray-700'>

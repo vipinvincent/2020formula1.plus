@@ -7,14 +7,14 @@ const Third: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=wQoDdkNk-N0'
+        href='https://www.youtube.com/watch?v=XcwlQdJ3N-4-N0'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/wQoDdkNk-N0/sddefault.jpg'
-              alt='Is McLarens Lando Norris 2020s standout talent?'
+              src='http://i3.ytimg.com/vi/XcwlQdJ3N-4/maxresdefault.jpg'
+              alt='70th Anniversary Grand Prix: Race Reaction'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,24 +32,22 @@ const Third: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=wQoDdkNk-N0'
+            href='https://www.youtube.com/watch?v=XcwlQdJ3N-4-N0'
             target='_blank'>
-            Bottas Admits He Had Discussions With Other Teams
+            70th Anniversary Grand Prix: Race Reaction
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Mercedes had taken a backseat to all the shenanigans of the silly
-            season in the F1 driver market until now. Technically, both their
-            seats were unfilled for 2021 with neither Valtteri Bottas nor
-            defending world champion Lewis Hamilton having put ink to the dotted
-            line. The former has now been signed for another year.
+            Was Valtteri Bottas able to close Lewis Hamilton's championship
+            lead? Or could Max Verstappen take the fight to the Mercedes and
+            upset their start to the season?
           </p>
 
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
             <ContentLink
-              href='https://www.youtube.com/channel/UCo6MV9Xd5pHfLMsLGNWnYTA'
+              href='https://www.youtube.com/user/seanculli'
               target='_blank'>
-              Formula World
+              The F1 Word
             </ContentLink>
           </p>
         </div>
