@@ -7,14 +7,14 @@ const Third: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=ghb9pOW5Ewk'
+        href='https://www.youtube.com/watch?v=cNpoxZ7PKZA'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-40 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/ghb9pOW5Ewk/sddefault.jpg'
-              alt='The Internets Best Reactions To The 2020 70th Anniversary Grand Prix'
+              src='https://img.youtube.com/vi/cNpoxZ7PKZA/sddefault.jpg'
+              alt='How Max Verstappen stole victory away from Mercedes at Silverstone - F1 News 08 08 20'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,19 +32,25 @@ const Third: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=ghb9pOW5Ewk'
+            href='https://www.youtube.com/watch?v=cNpoxZ7PKZA'
             target='_blank'>
-            The Internet's Best Reactions To The 2020 70th Anniversary Grand
-            Prix
+            How Max Verstappen stole victory away from Mercedes at Silverstone -
+            F1 News 08 08 20
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            This week Matt takes a look at the best comments and reactions from
-            the 2020 70th Anniversary GP at Silverstone.
+            Max Verstappen clinched a convincing victory ahead of both Mercedes
+            drivers on Sunday at Silverstone. The Dutch driver won the race
+            after Red Bull's disruptive strategy managed to wrong-foot Mercedes.
+            Hamilton and Bottas struggled throughout the race with tyre
+            blistering but would still have been in a race of their own had
+            Verstappen not forced himself into the mix.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='http://www.wtf1.com' target='_blank'>
-              wtf1.com
+            <ContentLink
+              href='https://formulaspy.com/f1/how-verstappen-stole-victory-from-mercedes-at-silverstone-70548'
+              target='_blank'>
+              formulaspy.com
             </ContentLink>
           </p>
         </div>
