@@ -5,11 +5,11 @@ import ContentLink from 'components/link/ContentLink'
 const F1: React.FC = () => {
   return (
     <div className='relative bg-white-50 rounded-tl-xxl rounded-br-xxl shadow mt-0'>
-      <div className='h-32 sm:h-84 w-full'>
+      <div className='h-32 sm:h-84 w-full bg-white-100 rounded-tl-xxl '>
         <img
-          className='w-full h-full object-cover rounded-tl-xxl'
+          className='w-full h-full object-contain rounded-tl-xxl'
           src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1596777189/contentImages/content/f170_iwh29t.jpg'
-          alt='‘As a team we were sleeping’ – Bottas points finger at Mercedes strategy as he slips from pole to third'
+          alt='Norris surprised at points finish after worst stint I’ve ever had in my life at Silverstone'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
@@ -18,45 +18,38 @@ const F1: React.FC = () => {
             News
           </div>
           <ActionLink
-            href='https://www.formula1.com/en/latest/article.as-a-team-we-were-sleeping-bottas-points-finger-at-mercedes-strategy-as-he.7fJk8nQbpTvmIa8hcNUEqM.html'
+            href='https://www.formula1.com/en/latest/article.norris-surprised-at-points-finish-after-worst-stint-ive-ever-had-in-my-life.2CCVsoivmtCZzTatG9pwK2.html'
             target='_blank'>
-            ‘As a team we were sleeping’ – Bottas points finger at Mercedes
-            strategy as he slips from pole to third
+            Norris surprised at points finish after ‘worst stint I’ve ever had
+            in my life’ at Silverstone
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            After turning the tide on Mercedes team mate Lewis Hamilton in
-            qualifying for the 70th Anniversary Grand Prix on Saturday, Valtteri
-            Bottas was understandably delighted. But his demeanour couldn’t have
-            been more different after the race on Sunday as he slipped behind
-            both Hamilton and Red Bull’s Max Verstappen to finish third, with
-            the Finn quick to point a finger at his team’s strategy calls after
-            the race.
+            McLaren's Lando Norris admitted that he surprised himself by scoring
+            points in the 70th Anniversary Grand Prix on Sunday, after saying it
+            felt like “a terrible race”.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Bottas led away from Hamilton at the start and maintained that lead
-            into the first pit sequence, even as Mercedes’ struggles with
-            blistering started to ring alarm bells for the team’s strategists.
-            Bottas stopped on lap 13, swapping his medium tyres for hards and
-            staying ahead of Hamilton when he made the same move a lap later.
-            This allowed the hard-starting Verstappen to charge into the lead,
-            and though he momentarily lost the lead back to Bottas when he
-            stopped for mediums on lap 27, the Dutchman was able to sweep back
-            past the Finn for the lead shortly after.
+            Softer and less durable tyres for the second race in two weeks at
+            Silverstone made it a difficult one for many including championship
+            leaders Mercedes. And while Red Bull managed to curb the heavy tyre
+            wear to win with Max Verstappen, Norris – who managed to finish
+            ninth to pick up two points – says McLaren's problems were
+            Mercedes-esque in nature.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            From then on, Bottas had no challenge for the Red Bull driver,
-            stopping for the second and final time on the same lap as
-            Verstappen, but struggling with blistering on his final set of tyres
-            far more than the Dutchman. “Very frustrating, obviously, starting
-            from pole and finishing third is not ideal,” he said. “I think as a
-            team we were sleeping at some point when Max managed to get ahead of
-            us, and my strategy was far, far from ideal so, lots to lean from
-            today I think.”
+            "This was much harder than last week’s race," he said after the
+            race. "Tyre degradation was a much bigger issue. I think we were
+            always expecting it but my second stint was the worst stint I’ve
+            ever had in my life." "I’m surprised I was still P9 after what was
+            feeling like a terrible race. So, I’m still happy, I think we could
+            tell the Racing Points and everyone ahead, and even the Renaults,
+            were much quicker. So to be able to battle them and have a good
+            start and a [good] first stint was also positive."
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.formula1.com/en/latest/article.as-a-team-we-were-sleeping-bottas-points-finger-at-mercedes-strategy-as-he.7fJk8nQbpTvmIa8hcNUEqM.html'
+              href='https://www.formula1.com/en/latest/article.norris-surprised-at-points-finish-after-worst-stint-ive-ever-had-in-my-life.2CCVsoivmtCZzTatG9pwK2.html'
               target='_blank'>
               formula1.com
             </ContentLink>{' '}

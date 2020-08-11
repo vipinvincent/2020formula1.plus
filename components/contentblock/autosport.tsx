@@ -20,30 +20,25 @@ const AutoSport: React.FC = () => {
           <ActionLink
             href='https://www.autosport.com/f1/news/151237/bottas-mercedes-sleeping-when-verstappen-got-ahead'
             target='_blank'>
-            Bottas: Mercedes "sleeping" when Verstappen got ahead in F1 70th
-            Anniversary GP
+            F1 to review formation lap radio chat rule
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Valtteri Bottas says Mercedes was "sleeping at some point" when Max
-            Verstappen managed to get ahead en route to victory in the Formula 1
-            70th Anniversary Grand Prix.
+            The FIA is to review the rule that limits radio communication
+            between Formula 1 teams and drivers on the formation lap, and which
+            led to penalties for Haas in Hungary.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Bottas led the early part of the race after starting on pole
-            position, but struggled for pace after switching to the hard
-            compound tyre for the second stint. Red Bull opted to keep
-            Verstappen out for a long first stint on the hard tyre, during which
-            he was able to match Bottas' pace despite the Finn having pitted for
-            a fresher set.
+            The restriction dates back to a technical directive issued in 2017
+            which stated the requirement that drivers have to drive the car
+            "alone and unaided" to stop chatter that could improve starts,
+            specifically regarding clutch bite points. It states that only radio
+            messages concerning safety are allowed.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            It meant that by the time Verstappen took his first pit stop, he
-            emerged just behind Bottas before passing into Brooklands on his
-            out-lap, before going on to take a commanding victory. Bottas
-            ultimately finished the race third on a two-stop strategy after
-            being passed by Mercedes team-mate Lewis Hamilton in the closing
-            stages. "Very frustrating obviously, starting from pole and
-            finishing third is not ideal," Bottas said after the race.
+            In Hungary the ruling surfaced in unusual circumstances when both
+            Kevin Magnussen and Romain Grosjean discussed a tyre change during
+            the formation lap, and subsequently came in at the end of it to
+            switch to slick tyres and start from the pitlane.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}

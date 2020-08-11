@@ -1,7 +1,7 @@
 import React from 'react'
 import ActionLink from 'components/link/ActionLink'
 import ContentLink from 'components/link/ContentLink'
-// import SiderBarLink from 'components/link/SiderBarLink'
+import SiderBarLink from 'components/link/SiderBarLink'
 
 const Schedule: React.FC = () => {
   return (
@@ -20,12 +20,11 @@ const Schedule: React.FC = () => {
         <div className='relative max-w-screen-xl mx-auto'>
           <div className='py-4 text-left px-4'>
             <ActionLink href='/circuit-details' target='_self'>
-              Formula 1 Pirelli British Grand Prix 2020
+              Emirates Formula 1 70th Anniversary Grand Prix 2020
             </ActionLink>
             <p className='mt-1 text-sm leading-normal text-gray-700'>
-              Formula 1 Pirelli British Grand Prix 2020, which takes place over
-              52 laps of the 5.891km Silverstone, Northamptonshire England,
-              United Kingdom on Sunday, August 2 2020
+              2020 70th Anniversary Grand Prix, which takes place over 52 laps
+              of the 5.891-kilometre Silverstone Circuit on Sunday, August 9.
             </p>
           </div>
           <div className='bg-white overflow-hidden'>
@@ -74,34 +73,14 @@ const Schedule: React.FC = () => {
                 <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1'>
                   Lap Record
                 </div>
-                <div className='mt-1 text-sm leading-5 sm:leading-7 text-gray-800 sm:mt-0 sm:col-span-2 mercedes'>
-                  Lewis Hamilton (<span className='text'>Mercedes</span>)<br />{' '}
-                  1:27.369 (2019)
+                <div className='mt-1 text-sm leading-5 sm:leading-7 text-gray-800 sm:mt-0 sm:col-span-2 redbull'>
+                  Max Verstappen (<span className='text'>Red Bull</span>) <br />
+                  1:27.097 (2020)
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-b sm:border-gray-200'>
                 <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1 self-center'>
-                  2019 Winner
-                </div>
-                <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2 self-start'>
-                  <div className='inine-block pb-4'>
-                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block mercedes'>
-                      Lewis Hamilton (<span className='text'>Mercedes</span>){' '}
-                      <br />
-                      1:22:01.822
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-b sm:border-gray-200'>
-                <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1 self-center'>
-                  {/* <SiderBarLink
-                    className='text-primart-on'
-                    href='/race-results'
-                    target='_self'>
-                    Race Results
-                  </SiderBarLink> */}
-                  2020 Race
+                  2020 Winner
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2 self-start'>
                   <div className='inine-block pb-4'>
@@ -111,32 +90,51 @@ const Schedule: React.FC = () => {
                       1:28:01.283
                     </div>
                   </div>
+                </div>
+              </div>
+              <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-b sm:border-gray-200'>
+                <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1 self-center'>
+                  <SiderBarLink
+                    className='text-primart-on'
+                    href='/race-results'
+                    target='_self'>
+                    Race Results
+                  </SiderBarLink>
+                  {/* 2020 Race */}
+                </div>
+                <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2 self-start'>
                   <div className='inine-block pb-4'>
                     <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block redbull'>
                       Max Verstappen (<span className='text'>Red Bull</span>){' '}
                       <br />
-                      +5.856s
+                      1:19:41.993
                     </div>
                   </div>
-
                   <div className='inine-block pb-4'>
-                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block ferrari'>
-                      Charles Leclerc (<span className='text'>Ferrari</span>){' '}
+                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block mercedes'>
+                      Lewis Hamilton (<span className='text'>Mercedes</span>){' '}
                       <br />
-                      +18.474s
+                      +11.326s
+                    </div>
+                  </div>
+                  <div className='inine-block pb-4'>
+                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block mercedes'>
+                      Valtteri Bottas (<span className='text'>Mercedes</span>){' '}
+                      <br />
+                      +19.231s
                     </div>
                   </div>
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-b sm:border-gray-200'>
                 <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1 self-center'>
-                  {/* <SiderBarLink
+                  <SiderBarLink
                     className='text-primart-on'
                     href='/qualifying-results'
                     target='_self'>
                     Qualifying Results
-                  </SiderBarLink> */}
-                  2020 Qualifying
+                  </SiderBarLink>
+                  {/* 2020 Qualifying */}
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2 self-start'>
                   <div className='inine-block pb-4'>
@@ -165,7 +163,7 @@ const Schedule: React.FC = () => {
             </div>
           </div>
           <p className='my-2 pr-4 text-base leading-normal text-gray-700 text-right'>
-            <ContentLink href='/circuit-details' target='_self'>
+            <ContentLink href='/silverstone' target='_self'>
               More Details...
             </ContentLink>
           </p>

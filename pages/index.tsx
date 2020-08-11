@@ -1,7 +1,7 @@
 import Layout from '../components/layout/Layout'
 import Main from '../components/maincontent'
 import Schedule from '../components/schedule'
-import Grid from '../components/grid'
+// import Grid from '../components/grid'
 import Recent from '../components/schedule/recent'
 import Driver from '../components/driver'
 import Team from '../components/team'
@@ -20,29 +20,29 @@ const IndexPage = () => (
         <div className='flex flex-row'>
           <div className='flex flex-col lg:w-8/12 xl:w-9/12'>
             {/* <Qualifying /> */}
-            <Race />
             <Main />
             <VideosPodcasts />
           </div>
           <div className='hidden lg:block w-4/12 xl:w-4/12 pl-4'>
-            <Grid />
+            <Race />
+            {/* <Grid /> */}
             <Schedule />
             <Driver />
             <Team />
             <Recent />
-            <div className='w-100 xl:hidden text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mt-0 mb-1 px-2'>
+            <div className='w-100 text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mt-0 mb-1 px-2'>
               Latest Podcasts from Youtube
             </div>
-            <div className='w-100 xl:hidden mt-0'>
+            <div className='w-100  mt-0'>
               <FirstPodcast />
             </div>
-            <div className='w-100 xl:hidden mt-4'>
+            <div className='w-100 mt-4'>
               <SecondPodcast />
             </div>
-            <div className='w-100 xl:hidden mt-4'>
+            <div className='w-100 mt-4'>
               <ThirdPodcast />
             </div>
-            <div className='w-100 xl:hidden mt-4'>
+            <div className='w-100 mt-4'>
               <FourthPodcast />
             </div>
           </div>

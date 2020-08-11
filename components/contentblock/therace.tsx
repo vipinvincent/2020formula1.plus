@@ -13,43 +13,36 @@ const TheRace: React.FC = () => {
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
-        <div className='px-4 pt-4 pb-4 text-left'>
+        <div className='px-4 pt-4 pb-8 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
             News
           </div>
           <ActionLink
-            href='https://the-race.com/formula-1/ricciardo-explains-the-seb-spin-that-ruined-his-race/'
+            href='https://the-race.com/formula-1/how-verstappen-and-red-bull-made-mercedes-look-silly/'
             target='_blank'>
-            Ricciardo on the ‘Seb spin’ that ruined his race
+            How Verstappen and Red Bull made Mercedes look silly
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Daniel Ricciardo described the mistake that cost him a points finish
-            in the 70th Anniversary Grand Prix at Silverstone as a “Seb spin”,
-            given the similarity to the spate of such incidents his former
-            Formula 1 team-mate Sebastian Vettel has suffered.
+            Max Verstappen rode a bull straight through the notion of Mercedes
+            winning every Formula 1 race in 2020 with a stunning victory in the
+            70th Anniversary Grand Prix.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The Renault driver was running 10th on the 31st lap of the race
-            having made his second pitstop five laps earlier when he defended
-            into the Village right-hander after McLaren’s Carlos Sainz got a run
-            on him. Ricciardo held the inside line and the pair were side by
-            side exiting the corner when the Renault driver spun on the
-            application of the power, which he put down to a loss of downforce
-            on the left side of the car.
+            Mercedes’ dominance from the first race at Silverstone a week ago
+            could not be repeated, with Lewis Hamilton and Valtteri Bottas
+            losing out in a straight fight with Verstappen and being reduced to
+            battling for second.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            This forced an unplanned third pitstop five laps later given the
-            damage to the hards he was running on that made the car “pretty bad
-            in the high speed’ according to a radio message, on his way to a
-            14th place finish. Ricciardo said he spoke to Vettel in the media
-            pen after the race about it, as it’s the first time Ricciardo’s
-            experienced the loss of downforce the Ferrari driver has struggled
-            with in such situations
+            In this video Scott Mitchell explains how it happened, looking at
+            Red Bull’s strategy, why Mercedes had so many problems, and how
+            Verstappen took his destiny into his own hands when he spotted an
+            opportunity.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://the-race.com/formula-1/ricciardo-explains-the-seb-spin-that-ruined-his-race/'
+              href='https://the-race.com/formula-1/how-verstappen-and-red-bull-made-mercedes-look-silly/'
               target='_blank'>
               the-race.com
             </ContentLink>{' '}

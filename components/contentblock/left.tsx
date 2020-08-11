@@ -13,7 +13,7 @@ const Left: React.FC = () => {
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
-        <div className='px-4 pt-4 pb-2 text-left'>
+        <div className='px-4 pt-4 pb-1 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
             FP3 Report - 70th Anniversary GP
           </div>

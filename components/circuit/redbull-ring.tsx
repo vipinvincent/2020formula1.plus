@@ -18,7 +18,7 @@ const Schedule: React.FC = () => {
         </div>
         <div className='relative max-w-screen-xl mx-auto'>
           <div className='py-4 text-left px-4'>
-            <p className='mt-1 text-sm leading-normal text-gray-700'>
+            <p className='mt-1 text-normal leading-normal text-gray-700'>
               Formula 1 Rolex Grosser Preis Von Österreich 2020 (Austrian Grand
               Prix), which takes place over 71 laps of the 4.318-kilometre Red
               Bull Ring in Spielberg on Sunday, July 5 2020. The Austrian Grand
@@ -27,14 +27,14 @@ const Schedule: React.FC = () => {
               the most recent incarnation of the Österreichring circuit, which
               debuted back in 1970.
             </p>
-            <p className='mt-2 text-sm leading-normal text-gray-700'>
+            <p className='mt-2 text-normal leading-normal text-gray-700'>
               The Red Bull Ring will host the first two rounds of the updated
               2020 Formula 1 calendar, but both races will be held behind closed
               doors with no spectators present. The 2020 Austrian Grand Prix
               takes place on July 3-5 and the 2020 Styrian Grand Prix on July
               10-12.
             </p>
-            <p className='mt-2 text-sm leading-normal text-gray-700'>
+            <p className='mt-2 text-normal leading-normal text-gray-700'>
               The A1-Ring, as it was then called, was opened in 1996, with
               Formula 1 arriving at the circuit a year later. Jacques Villeneuve
               won the race, while Jean Alesi had a spectacular crash when his
@@ -42,7 +42,7 @@ const Schedule: React.FC = () => {
               Gerhard Berger, meanwhile, used his home Grand Prix to announce
               his F1 retirement.
             </p>
-            <p className='mt-2 text-sm leading-normal text-gray-700'>
+            <p className='mt-2 text-normal leading-normal text-gray-700'>
               The A1 Ring was not a money maker however, and was removed from
               the calendar for 2004 because of Austria’s support for
               anti-tobacco legislation in the EU. Enter Dietrich Mateschitz, the
