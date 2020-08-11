@@ -7,14 +7,14 @@ const First: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=WOYG1axwLbs'
+        href='https://www.youtube.com/watch?v=-7QyssFU6HU'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/WOYG1axwLbs/sddefault.jpg'
-              alt='10 things you need to know about Racing Points illegal F1 parts'
+              src='https://img.youtube.com/vi/-7QyssFU6HU/sddefault.jpg'
+              alt='How Verstappen and Red Bull made Mercedes look silly'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,20 +32,25 @@ const First: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=WOYG1axwLbs'
+            href='https://www.youtube.com/watch?v=-7QyssFU6HU'
             target='_blank'>
-            Toto Wolff disagrees with Valtteri Bottas on the Mercedes strategy
-            being "sub-optimal"
+            How Verstappen and Red Bull made Mercedes 'look silly'
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Toto Wolff responds to Valtteri Bottas' comments that Mercedes'
-            strategy was "sub-optimal" after both cars were beaten by Red Bull's
-            Max Verstappen.
+            Forget the talk of if Mercedes can win every F1 race in 2020 - Max
+            Verstappen rode a bull straight through that notion with a stunning
+            victory in a straight fight with Lewis Hamilton and Valtteri Bottas
+            at Silverstone's 'Anniversary Grand Prix'. In this video Scott
+            Mitchell explains how it happened, looking at Red Bull's strategy,
+            why Mercedes had so many problems, and how Verstappen took his
+            destiny into his own hands when he spotted an opportunity.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='https://www.skysports.com/f1' target='_blank'>
-              skysports.com
+            <ContentLink
+              href='https://the-race.com/formula-1/the-mercedes-change-that-let-relentless-verstappen-defeat-it/'
+              target='_blank'>
+              the-race.com
             </ContentLink>
           </p>
         </div>

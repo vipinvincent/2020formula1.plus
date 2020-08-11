@@ -7,13 +7,13 @@ const Third: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=XcwlQdJ3N-4-N0'
+        href='https://www.youtube.com/watch?v=Vv-k5u4eIe0'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
-              src='https://i3.ytimg.com/vi/XcwlQdJ3N-4/maxresdefault.jpg'
+              src='https://img.youtube.com/vi/Vv-k5u4eIe0/sddefault.jpg'
               alt='70th Anniversary Grand Prix: Race Reaction'
             />
           </div>
@@ -32,22 +32,19 @@ const Third: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=XcwlQdJ3N-4-N0'
+            href='https://www.youtube.com/watch?v=Vv-k5u4eIe0'
             target='_blank'>
             70th Anniversary Grand Prix: Race Reaction
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Was Valtteri Bottas able to close Lewis Hamilton's championship
-            lead? Or could Max Verstappen take the fight to the Mercedes and
-            upset their start to the season?
+            Our series of trackside explainers is back and this week we're
+            looking at the pit wall What is the pit wall for, how does it work,
+            who sits there, and why is it so important?
           </p>
-
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink
-              href='https://www.youtube.com/user/seanculli'
-              target='_blank'>
-              The F1 Word
+            <ContentLink href='http://www.MercedesAMGF1.com' target='_blank'>
+              Mercedes-AMG Petronas Formula One Team
             </ContentLink>
           </p>
         </div>

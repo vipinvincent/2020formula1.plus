@@ -7,14 +7,14 @@ const Third: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=cNpoxZ7PKZA'
+        href='https://www.youtube.com/watch?v=8h4OUaCnxFI'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-40 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/cNpoxZ7PKZA/sddefault.jpg'
-              alt='How Max Verstappen stole victory away from Mercedes at Silverstone - F1 News 08 08 20'
+              src='https://img.youtube.com/vi/8h4OUaCnxFI/sddefault.jpg'
+              alt='Paddock chat with Esteban Ocon & Clarisse Agbegnenou '
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -29,28 +29,22 @@ const Third: React.FC = () => {
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-2 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            Video
+            Interview
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=cNpoxZ7PKZA'
+            href='https://www.youtube.com/watch?v=8h4OUaCnxFI'
             target='_blank'>
-            How Max Verstappen stole victory away from Mercedes at Silverstone -
-            F1 News 08 08 20
+            Paddock chat with Esteban Ocon & Clarisse Agbegnenou
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Max Verstappen clinched a convincing victory ahead of both Mercedes
-            drivers on Sunday at Silverstone. The Dutch driver won the race
-            after Red Bull's disruptive strategy managed to wrong-foot Mercedes.
-            Hamilton and Bottas struggled throughout the race with tyre
-            blistering but would still have been in a race of their own had
-            Verstappen not forced himself into the mix.
+            Pre-race chat with Esteban Ocon & Le Coq Sportif ambassador Clarisse
+            Agbegnenou! This was recorded live on Sunday of the F1 70th
+            Anniversary GP.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink
-              href='https://formulaspy.com/f1/how-verstappen-stole-victory-from-mercedes-at-silverstone-70548'
-              target='_blank'>
-              formulaspy.com
+            <ContentLink href='https://www.renaultsport.com/' target='_blank'>
+              Renault Sport
             </ContentLink>
           </p>
         </div>
