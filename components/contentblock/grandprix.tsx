@@ -4,7 +4,7 @@ import ContentLink from 'components/link/ContentLink'
 
 const TheRace: React.FC = () => {
   return (
-    <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-0'>
+    <div className='relative bg-white-50 rounded-tl-xxl rounded-br-xxl shadow mt-0'>
       <div className='h-32 sm:h-48 w-full bg-white-100 rounded-tl-xl'>
         <img
           className='w-full h-full object-contain rounded-tl-lg border-b border-gray-400 px-8 py-8'
@@ -13,38 +13,46 @@ const TheRace: React.FC = () => {
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
-        <div className='px-4 pt-4 pb-3 text-left'>
+        <div className='px-4 pt-4 pb-6 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
             Feature
           </div>
           <ActionLink
-            href='https://www.grandprix247.com/2020/07/31/bottas-fuelling-issue-cost-me-time-in-hungary/'
+            href='https://www.grandprix247.com/2020/08/12/horner-albon-delivered-everything-we-couldve-asked-for/'
             target='_blank'>
-            Bottas: Fuelling issue cost me time in Hungary
+            Horner: Albon delivered everything we could’ve asked for
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Mercedes put too much fuel in Valtteri Bottas’s car for Hungarian
-            Grand Prix qualifying after also making a ride-height error in
-            Austria, Lewis Hamilton’s team mate and closest Formula 1 rival
-            revealed on Thursday.
+            Alexander Albon’s performance in the 70th Anniversary Grand Prix was
+            further proof of his quality, says Red Bull boss Christian Horner.
+            Starting ninth on the grid, Albon put together a series of passing
+            maneuvers to come through to fifth at the flag, earning high praise
+            from his team principal in the process.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The Finn won the season-opener in Austria this month but lost to
-            Hamilton in the second and third races when the mistakes were made,
-            leaving him five points adrift of the six-times world champion.
+            “Alex wasn’t happy with his Q3 performance on Saturday, he was a few
+            tenths short of where he would have liked to have been on the soft
+            tyre, but his performance again on Sunday was fantastic,” Horner
+            said in his weekly column on the Red Bull website. “He really
+            delivered everything we could have asked for in that respect and, in
+            another couple of laps he would have been on Charles Leclerc’s tail.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            “There was an issue with the fuelling system, something with the
-            pipe or the vent where the fuel goes, so it was around two kilos or
-            a bit more over-fuelled in qualifying,” he told reporters at the
-            British Grand Prix. “I think they said it (cost) like eight
-            hundredths (of a second) per lap,” he added. Hamilton beat Bottas to
-            pole position in Hungary by 0.107 seconds.
+            “What really impressed me was his race craft. It was clean but firm
+            and extremely brave with some great overtakes around the outside of
+            Copse being the real stand-out.” A target of heavy criticism from
+            outside observers for his performances relative to teammate Max
+            Verstappen this season, Horner suggested people were expecting too
+            much from a driver with only 26 races of Formula 1 experience.
+          </p>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
+            “It is all about confidence and everyone has to remember that Alex
+            has not got a lot of F1 experience compared to his teammate.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.grandprix247.com/2020/07/31/bottas-fuelling-issue-cost-me-time-in-hungary/'
+              href='https://www.grandprix247.com/2020/08/12/horner-albon-delivered-everything-we-couldve-asked-for/'
               target='_blank'>
               grandprix247.com
             </ContentLink>{' '}

@@ -14,7 +14,7 @@ const Third: React.FC = () => {
             <img
               className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
               src='https://img.youtube.com/vi/Vv-k5u4eIe0/sddefault.jpg'
-              alt='70th Anniversary Grand Prix: Race Reaction'
+              alt='Mercedes F1 Pit Wall EXPLAINED!'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -34,7 +34,7 @@ const Third: React.FC = () => {
           <ContentLink
             href='https://www.youtube.com/watch?v=Vv-k5u4eIe0'
             target='_blank'>
-            70th Anniversary Grand Prix: Race Reaction
+            Mercedes F1 Pit Wall EXPLAINED!
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             Our series of trackside explainers is back and this week we're

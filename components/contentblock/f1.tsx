@@ -9,47 +9,44 @@ const F1: React.FC = () => {
         <img
           className='w-full h-full object-contain rounded-tl-xxl'
           src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1596777189/contentImages/content/f170_iwh29t.jpg'
-          alt='Norris surprised at points finish after worst stint I’ve ever had in my life at Silverstone'
+          alt='Racing Point’s RP20 and the Mercedes W10 are similar, but not identical – here’s where they differ'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 py-4 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            News
+            TECHNICAL
           </div>
           <ActionLink
-            href='https://www.formula1.com/en/latest/article.norris-surprised-at-points-finish-after-worst-stint-ive-ever-had-in-my-life.2CCVsoivmtCZzTatG9pwK2.html'
+            href='https://www.formula1.com/en/latest/article.racing-points-rp20-and-the-mercedes-w10-are-similar-but-not-identical-heres.6iocL43gVsMH8rkAYf7o5r.html'
             target='_blank'>
-            Norris surprised at points finish after ‘worst stint I’ve ever had
-            in my life’ at Silverstone
+            Racing Point’s RP20 and the Mercedes W10 are similar, but not
+            identical – here’s where they differ
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            McLaren's Lando Norris admitted that he surprised himself by scoring
-            points in the 70th Anniversary Grand Prix on Sunday, after saying it
-            felt like “a terrible race”.
+            It’s easy to forget amid the controversy surrounding the close
+            similarity of the Racing Point RP20 to last year’s Mercedes W10 that
+            the two cars aren’t actually identical. The external aerodynamic
+            surfaces are a close copy, but there are several points of
+            differentiation, as F1 technical expert Mark Hughes explains...
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Softer and less durable tyres for the second race in two weeks at
-            Silverstone made it a difficult one for many including championship
-            leaders Mercedes. And while Red Bull managed to curb the heavy tyre
-            wear to win with Max Verstappen, Norris – who managed to finish
-            ninth to pick up two points – says McLaren's problems were
-            Mercedes-esque in nature.
+            Mechanically, the two cars are quite different at the front. The
+            Mercedes uses hydraulic actuation for its inboard heave spring
+            whereas the Racing Point sticks with the more traditional mechanical
+            linkages. Comparing the images below shows this quite clearly.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            "This was much harder than last week’s race," he said after the
-            race. "Tyre degradation was a much bigger issue. I think we were
-            always expecting it but my second stint was the worst stint I’ve
-            ever had in my life." "I’m surprised I was still P9 after what was
-            feeling like a terrible race. So, I’m still happy, I think we could
-            tell the Racing Points and everyone ahead, and even the Renaults,
-            were much quicker. So to be able to battle them and have a good
-            start and a [good] first stint was also positive."
+            The hydraulic spring allows a wider variation of modes and greater
+            fidelity but is banned as from next year when all springs must be
+            mechanical. Also at the front of the car, Racing Point favours the
+            S-duct in the nose (as you can see in the image below), whereas the
+            Mercedes never had this feature.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.formula1.com/en/latest/article.norris-surprised-at-points-finish-after-worst-stint-ive-ever-had-in-my-life.2CCVsoivmtCZzTatG9pwK2.html'
+              href='https://www.formula1.com/en/latest/article.racing-points-rp20-and-the-mercedes-w10-are-similar-but-not-identical-heres.6iocL43gVsMH8rkAYf7o5r.html'
               target='_blank'>
               formula1.com
             </ContentLink>{' '}

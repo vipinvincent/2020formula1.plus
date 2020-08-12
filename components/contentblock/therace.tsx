@@ -13,36 +13,45 @@ const TheRace: React.FC = () => {
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
-        <div className='px-4 pt-4 pb-8 text-left'>
+        <div className='px-4 pt-4 pb-2 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
             News
           </div>
           <ActionLink
-            href='https://the-race.com/formula-1/how-verstappen-and-red-bull-made-mercedes-look-silly/'
+            href='https://the-race.com/formula-1/mclaren-drops-racing-point-appeal-renault-and-ferrari-proceed/'
             target='_blank'>
-            How Verstappen and Red Bull made Mercedes look silly
+            McLaren drops Racing Point appeal, Renault and Ferrari proceed
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Max Verstappen rode a bull straight through the notion of Mercedes
-            winning every Formula 1 race in 2020 with a stunning victory in the
-            70th Anniversary Grand Prix.
+            McLaren is not pursuing an appeal against the stewards’ decision
+            regarding Renault’s protest of Formula 1 rival Racing Point, but
+            Renault and Ferrari are. Racing Point was hit with a €400,000 fine
+            and 15-point constructors’ championship penalty after the FIA
+            stewards found it guilty of illegally developing its rear brake
+            ducts from Mercedes data.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Mercedes’ dominance from the first race at Silverstone a week ago
-            could not be repeated, with Lewis Hamilton and Valtteri Bottas
-            losing out in a straight fight with Verstappen and being reduced to
-            battling for second.
+            The team protests its innocence and announced its intention to
+            appeal the decision, but has yet to confirm if it is going ahead
+            with it. At the same, four of its rivals – McLaren, Ferrari, Renault
+            and Williams – submitted their intention to appeal the verdict,
+            seeking greater punishment.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            In this video Scott Mitchell explains how it happened, looking at
-            Red Bull’s strategy, why Mercedes had so many problems, and how
-            Verstappen took his destiny into his own hands when he spotted an
-            opportunity.
+            They believe Racing Point has got off lightly for the offence
+            because the team is able to continue running the parts for the
+            remainder of the season. There is also some confusion over why the
+            FIA has retrospectively ‘grandfathered’ the front brake ducts that
+            Racing Point also developed from Mercedes data, on the grounds that
+            Racing Point actually used them in 2019 when that was allowed and
+            incorporated the information into the DNA of its car. Ferrari and
+            Renault have confirmed they will go ahead with appealing the
+            verdict, ahead of a 9am Wednesday deadline.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://the-race.com/formula-1/how-verstappen-and-red-bull-made-mercedes-look-silly/'
+              href='https://the-race.com/formula-1/mclaren-drops-racing-point-appeal-renault-and-ferrari-proceed/'
               target='_blank'>
               the-race.com
             </ContentLink>{' '}
