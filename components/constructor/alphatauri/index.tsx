@@ -17,7 +17,7 @@ const RacingPoint: React.FC = () => {
         </div>
         <div className='relative max-w-screen-xl mx-auto'>
           <div className='py-4 text-left px-4'>
-            <p className='mt-1 text-sm leading-normal text-gray-700'>
+            <p className='mt-1 text-base leading-normal text-gray-700'>
               AT01, first AlphaTauri challenger, is a strong evolution of last
               year's STR14 because the changes to the technical regulations for
               2020 are fairly minimal. The focus has gone on pushing forward the
@@ -25,7 +25,7 @@ const RacingPoint: React.FC = () => {
               systems, and integrating all of that together to take the car to
               the next level and to give us maximum aero freedom.
             </p>
-            <p className='mt-2 text-sm leading-normal text-gray-700'>
+            <p className='mt-2 text-base leading-normal text-gray-700'>
               The chassis is the core element around which the entire car is
               built, with the driver's survival cell at its heart. Attached to
               the chassis is all the other major components; power unit,
@@ -36,7 +36,7 @@ const RacingPoint: React.FC = () => {
               while the suspension members and associated brackets are Scuderia
               AlphaTauri Designed & Manufactured.
             </p>
-            <p className='mt-2 text-sm leading-normal text-gray-700'>
+            <p className='mt-2 text-base leading-normal text-gray-700'>
               The technical regulations relating to the PU have hardly changed
               since last year. The key is continuity as this is our third year
               together with Honda. The Power Unit consists of a 1600cc V6
@@ -45,7 +45,7 @@ const RacingPoint: React.FC = () => {
               battery: the MGU-K recovers kinetic energy from braking and the
               MGU-H converts energy from the turbo exhaust gases.
             </p>
-            <p className='mt-2 text-sm leading-normal text-gray-700'>
+            <p className='mt-2 text-base leading-normal text-gray-700'>
               Birds need wings to fly, but turn the wings around and they help
               keep our car glued to the ground. Produced in-house, all the car
               surfaces that are brushed by airflow; the bodywork, wings, and
@@ -56,7 +56,7 @@ const RacingPoint: React.FC = () => {
               focus has been on getting everything packaged as tight as it can
               be.
             </p>
-            <p className='mt-2 text-sm leading-normal text-gray-700'>
+            <p className='mt-2 text-base leading-normal text-gray-700'>
               The bodywork produces aerodynamic grip, while the tyres generate
               mechanical grip and transfer the power from the engine to the
               track surface. If our car were a runner, the tyres would be its

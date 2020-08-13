@@ -17,7 +17,7 @@ const Ferrari: React.FC = () => {
         </div>
         <div className='relative max-w-screen-xl mx-auto'>
           <div className='py-4 text-left px-4'>
-            <p className='mt-1 text-sm leading-normal text-gray-700'>
+            <p className='mt-1 text-base leading-normal text-gray-700'>
               The SF1000 - design code 671 - is the 66th car built by Ferrari to
               take part in the Formula 1 World Championship. Although this
               year’s technical regulations have changed very little since 2019,
@@ -25,7 +25,7 @@ const Ferrari: React.FC = () => {
               with the changes aimed at optimising aerodynamic downforce and
               balance.
             </p>
-            <p className='mt-2 text-sm leading-normal text-gray-700'>
+            <p className='mt-2 text-base leading-normal text-gray-700'>
               For the 2020 season, the Ferrari 065 power unit represents a step
               forward in the combustion efficiency of its Internal Combustion
               Engine, due mainly to two factors, a new design and a new fuel. A
@@ -35,7 +35,7 @@ const Ferrari: React.FC = () => {
               focused on being as compact as possible, while also rationalising
               the weight and size of the Energy Store.
             </p>
-            <p className='mt-2 text-sm leading-normal text-gray-700'>
+            <p className='mt-2 text-base leading-normal text-gray-700'>
               The SF1000 is the seventh car built to race in Formula 1’s hybrid
               era, which began in 2014. Its name reflects the fact that, when we
               get to the ninth race of this year, the Scuderia will have taken
@@ -44,7 +44,7 @@ const Ferrari: React.FC = () => {
               Prix. The Maranello team is the most successful in the sport with
               16 Constructors’ titles, 15 Drivers’ and 238 Grand Prix victories.
             </p>
-            <p className='mt-2 text-sm leading-normal text-gray-700'>
+            <p className='mt-2 text-base leading-normal text-gray-700'>
               For many, Ferrari and Formula 1 racing have become inseparable.
               The only team to have competed in every season since the world
               championship began, the Prancing Horse has grown from the humble

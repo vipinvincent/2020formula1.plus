@@ -17,7 +17,7 @@ const Mercedes: React.FC = () => {
         </div>
         <div className='relative max-w-screen-xl mx-auto'>
           <div className='py-4 text-left px-4'>
-            <p className='mt-1 text-sm leading-normal text-gray-700'>
+            <p className='mt-1 text-base leading-normal text-gray-700'>
               The Mercedes-AMG F1 W11 EQ Performance is an evolution of last
               year’s contender – the car that won Mercedes its historic sixth
               consecutive double championship. The team has looked at a myriad
@@ -29,12 +29,12 @@ const Mercedes: React.FC = () => {
               trying to make sure that we don’t run out of development steam on
               a package that worked pretty well for us last year,” said James.
             </p>
-            <p className='mt-2 text-sm leading-normal text-gray-700'>
+            <p className='mt-2 text-base leading-normal text-gray-700'>
               In addition to many detail changes and smaller improvements, the
               team has introduced three larger changes – one at the front, one
               at the middle and one at the back of the car.
             </p>
-            <p className='mt-2 text-sm leading-normal text-gray-700'>
+            <p className='mt-2 text-base leading-normal text-gray-700'>
               2020 is a special year for the Mercedes-AMG Petronas F1 Team as
               the outfit celebrates its 10th anniversary as the modern Mercedes
               works team in Formula One. On 14 March 2010, the new Mercedes F1
@@ -43,7 +43,7 @@ const Mercedes: React.FC = () => {
               Prix (198), taken 93 victories, 194 podium places and 48 one-two
               wins.
             </p>
-            <p className='mt-2 text-sm leading-normal text-gray-700'>
+            <p className='mt-2 text-base leading-normal text-gray-700'>
               Similar to the development on the chassis side, the all-new Power
               Unit – christened Mercedes-AMG F1 M11 EQ Performance – is an
               evolution, as the regulations stayed largely the same. However,
@@ -53,12 +53,12 @@ const Mercedes: React.FC = () => {
               current generation of 1.6 litre V6 hybrid engines in 2014, making
               the hunt for performance increasingly difficult.
             </p>
-            <p className='mt-2 text-sm leading-normal text-gray-700'>
+            <p className='mt-2 text-base leading-normal text-gray-700'>
               In addition to larger radiators in the car, the team has focused
               on making the cooling more efficient by proving out higher
               operating temperatures for the engine.
             </p>
-            <p className='mt-2 text-sm leading-normal text-gray-700'>
+            <p className='mt-2 text-base leading-normal text-gray-700'>
               In the six years since its introduction, the Mercedes PU has made
               significant progress not just in terms of power output and
               reliability, but also in terms of its efficiency. From 2014 to

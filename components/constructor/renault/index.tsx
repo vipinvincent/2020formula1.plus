@@ -17,7 +17,7 @@ const Renault: React.FC = () => {
         </div>
         <div className='relative max-w-screen-xl mx-auto'>
           <div className='py-4 text-left px-4'>
-            <p className='mt-1 text-sm leading-normal text-gray-700'>
+            <p className='mt-1 text-base leading-normal text-gray-700'>
               The 2020 competition vehicle is based on a Renault R.S.20 chassis
               developed and manufactured at the Renault F1 Team centre in
               Enstone. It was originally intended to compete in the 2020 Formula
@@ -26,7 +26,7 @@ const Renault: React.FC = () => {
               2020-specification cars—including the R.S.20 will have their
               lifespan extended to compete in 2021.
             </p>
-            <p className='mt-2 text-sm leading-normal text-gray-700'>
+            <p className='mt-2 text-base leading-normal text-gray-700'>
               The chassis was designed by Nick Chester, Simon Virrill, Matthew
               Harman and Dirk de Beer with Marcin Budkowski overseeing the
               design and production of the car as executive technical director
@@ -37,7 +37,7 @@ const Renault: React.FC = () => {
               driven by Daniel Ricciardo and Esteban Ocon in 2020, and by Ocon
               in 2021 as Ricciardo is due to move to McLaren.
             </p>
-            <p className='mt-2 text-sm leading-normal text-gray-700'>
+            <p className='mt-2 text-base leading-normal text-gray-700'>
               The Renault R.S. 20 is the last car to be designed by Nick
               Chester. Chester was replaced as Technical Director in the
               off-season by former McLaren Engineering Director Pat Fry. Peter

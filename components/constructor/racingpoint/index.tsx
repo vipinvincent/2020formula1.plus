@@ -17,7 +17,7 @@ const RacingPoint: React.FC = () => {
         </div>
         <div className='relative max-w-screen-xl mx-auto'>
           <div className='py-4 text-left px-4'>
-            <p className='mt-1 text-sm leading-normal text-gray-700'>
+            <p className='mt-1 text-base leading-normal text-gray-700'>
               BWT Racing Point reveal the RP20 for the 2020 FIA Formula One
               World Championship. The 2020 BWT Racing Point Formula One car, the
               RP20, implements the changes in regulations for the 2019 season,
@@ -26,13 +26,13 @@ const RacingPoint: React.FC = () => {
               partners BWT, the new contender looks aggressive, racy - ready to
               take on the challenge of the new season
             </p>
-            <p className='mt-2 text-sm leading-normal text-gray-700'>
+            <p className='mt-2 text-base leading-normal text-gray-700'>
               BWT Racing Point'S entry throws down the gauntlet at the biggest
               teams in the the pinnacle of motorsport. The RP20 aims to be
               competitive from the start and help the team push forward as it
               closes the gap towards the front of the grid.
             </p>
-            <p className='mt-2 text-sm leading-normal text-gray-700'>
+            <p className='mt-2 text-base leading-normal text-gray-700'>
               The RP20 is entirely new, meaning that there’s very little
               carryover from their 2019 car. For 2020, the car was designed from
               scratch, starting from almost a blank sheet of paper – which is
@@ -43,7 +43,7 @@ const RacingPoint: React.FC = () => {
               it their best shot at optimising the final season of these present
               regulations
             </p>
-            <p className='mt-2 text-sm leading-normal text-gray-700'>
+            <p className='mt-2 text-base leading-normal text-gray-700'>
               In recent seasons, we have had two main weaknesses: car has had an
               Achilles heel as far as balance is concerned and also struggled on
               high-downforce circuits. For 2020, RP20 have addressed these two

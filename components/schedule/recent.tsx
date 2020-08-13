@@ -22,7 +22,7 @@ const Schedule: React.FC = () => {
             <ActionLink href='/circuit-details' target='_self'>
               Emirates Formula 1 70th Anniversary Grand Prix 2020
             </ActionLink>
-            <p className='mt-1 text-sm leading-normal text-gray-700'>
+            <p className='mt-1 text-base leading-normal text-gray-700'>
               2020 70th Anniversary Grand Prix, which takes place over 52 laps
               of the 5.891-kilometre Silverstone Circuit on Sunday, August 9.
             </p>

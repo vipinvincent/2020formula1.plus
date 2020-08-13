@@ -17,7 +17,7 @@ const Haas: React.FC = () => {
         </div>
         <div className='relative max-w-screen-xl mx-auto'>
           <div className='py-4 text-left px-4'>
-            <p className='mt-1 text-sm leading-normal text-gray-700'>
+            <p className='mt-1 text-base leading-normal text-gray-700'>
               Haas have become the first team to unveil their 2020 F1 livery
               after they revealed the VF-20's new look. Before the car hits the
               track for pre-season testing in Barcelona next week, here's how
@@ -35,7 +35,7 @@ const Haas: React.FC = () => {
               team have experienced during their relatively short life as a
               Formula 1 team.
             </p>
-            <p className='mt-2 text-sm leading-normal text-gray-700'>
+            <p className='mt-2 text-base leading-normal text-gray-700'>
               Haas admitted it would take until the new season to address them
               properly. The VF-20 is the product of last year’s painful lessons
               and as a result there will be many anxious faces at Haas not only
@@ -52,7 +52,7 @@ const Haas: React.FC = () => {
               car’s air intake is noticeably different to last year’s, adopting
               a triangular shape more similar to that used by the factory team.
             </p>
-            <p className='mt-2 text-sm leading-normal text-gray-700'>
+            <p className='mt-2 text-base leading-normal text-gray-700'>
               Gene Haas, founder of Haas Automation and chairman of Haas F1 Team
               stated that “I’m pleased to see the car return to the more
               familiar Haas Automation colours, it’s certainly a livery that
@@ -66,7 +66,7 @@ const Haas: React.FC = () => {
               back in the mix and consistently scoring points, we certainly have
               the capability and we’ve proved as an organisation we can do it.”
             </p>
-            <p className='mt-2 text-sm leading-normal text-gray-700'>
+            <p className='mt-2 text-base leading-normal text-gray-700'>
               As per Guenther Steiner, team principal “It’s always exciting to
               see the development of a new Formula 1 car and undoubtedly the
               VF-20 has to deliver where our previous car didn’t. With the

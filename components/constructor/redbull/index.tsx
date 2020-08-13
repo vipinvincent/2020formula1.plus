@@ -17,14 +17,14 @@ const redbull: React.FC = () => {
         </div>
         <div className='relative max-w-screen-xl mx-auto'>
           <div className='py-4 text-left px-4'>
-            <p className='mt-2 text-sm leading-normal text-gray-700'>
+            <p className='mt-2 text-base leading-normal text-gray-700'>
               The Red Bull Racing RB16 is a Formula One racing car designed and
               constructed by Red Bull Racing to compete during the 2020 Formula
               One World Championship. The car will be driven by Max Verstappen
               and Alexander Albon who are teammates for the second year running.
               The RB16 is the second Red Bull car to use Honda engines.
             </p>
-            <p className='mt-2 text-sm leading-normal text-gray-700'>
+            <p className='mt-2 text-base leading-normal text-gray-700'>
               The car was planned to make its competitive début at the 2020
               Australian Grand Prix, but this was delayed when the race was
               cancelled and the next three events in Bahrain, Vietnam and China
@@ -33,7 +33,7 @@ const redbull: React.FC = () => {
               Silverstone Circuit in the UK, one week ahead of the start of
               pre-season testing in Barcelona.{' '}
             </p>
-            <p className='mt-1 text-sm leading-normal text-gray-700'>
+            <p className='mt-1 text-base leading-normal text-gray-700'>
               Red Bull Racing came into existence late in 2004 – under the
               guidance of Team Principal Christian Horner – with ambitions to
               challenge for race victories and world championship titles. Ahead
@@ -44,7 +44,7 @@ const redbull: React.FC = () => {
               refinement of lessons learned from RB15 and exploiting areas where
               gains were still on offer.
             </p>
-            <p className='mt-2 text-sm leading-normal text-gray-700'>
+            <p className='mt-2 text-base leading-normal text-gray-700'>
               With largely unchanged technical regulations for the 2020 season,
               the RB16 was based on its predecessor the RB15. The RB16 featured
               a narrower nose with two additional inlets at its front, as well

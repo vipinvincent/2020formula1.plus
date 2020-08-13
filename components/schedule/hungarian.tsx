@@ -22,7 +22,7 @@ const Schedule: React.FC = () => {
             <ActionLink href='/circuit-details' target='_self'>
               Formula 1 Aramco Magyar Nagydíj 2020
             </ActionLink>
-            <p className='mt-1 text-sm leading-normal text-gray-700'>
+            <p className='mt-1 text-base leading-normal text-gray-700'>
               Formula 1 Aramco Magyar Nagydíj 2020 (Hungarian Grand Prix), which
               takes place over 70 laps of the 4.381km Hungaroring in Budapest on
               Sunday, July 19 2020

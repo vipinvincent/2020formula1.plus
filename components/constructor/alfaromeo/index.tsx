@@ -17,7 +17,7 @@ const AlfaRomeo: React.FC = () => {
         </div>
         <div className='relative max-w-screen-xl mx-auto'>
           <div className='py-4 text-left px-4'>
-            <p className='mt-1 text-sm leading-normal text-gray-700'>
+            <p className='mt-1 text-base leading-normal text-gray-700'>
               Sauber Motorsport ‘to manages and operates’ le team ‘Alfa Romeo
               Racing ORLEN’ engagé dans le championnat du monde de F1, a
               présenté la monplace pour la saison 2020, dénommé C39, juste avant
@@ -31,7 +31,7 @@ const AlfaRomeo: React.FC = () => {
               carénage de la monoplace Alfa Romeo c’est un bloc moteur V6 1.6L
               Power Unit Ferrari. Présentation.
             </p>
-            <p className='mt-2 text-sm leading-normal text-gray-700'>
+            <p className='mt-2 text-base leading-normal text-gray-700'>
               The livery, developed in close cooperation with the Centro Stile
               Alfa Romeo, features the iconic red of Alfa Romeo, with scarlet
               stripes now extending all the way towards the front of the
@@ -41,7 +41,7 @@ const AlfaRomeo: React.FC = () => {
               in the last two years and continue its progress towards the front
               of the grid.
             </p>
-            <p className='mt-2 text-sm leading-normal text-gray-700'>
+            <p className='mt-2 text-base leading-normal text-gray-700'>
               In the current era of hybrid Formula One power units, the main
               power source is provided by a V6 1600cc engine, mated to a single
               turbocharger. The energy harvested during a lap by two electric
@@ -49,7 +49,7 @@ const AlfaRomeo: React.FC = () => {
               via a 120kW electric motor. The gearbox has 8 forward gears and 1
               reverse gear. The entire drivetrain is supplied by Ferrari.
             </p>
-            <p className='mt-2 text-sm leading-normal text-gray-700'>
+            <p className='mt-2 text-base leading-normal text-gray-700'>
               The C39 is a natural evolution of last year’s car, even though it
               doesn’t share a lot with its predecessor. It’s the usual process
               of constant improvement, but it’s a brand new beast. It is

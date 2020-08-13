@@ -22,7 +22,7 @@ const Schedule: React.FC = () => {
             <ActionLink href='/circuit-details' target='_self'>
               Formula 1 Aramco Gran Premio De España 2020
             </ActionLink>
-            <p className='mt-1 text-sm leading-normal text-gray-700'>
+            <p className='mt-1 text-base leading-normal text-gray-700'>
               2020 Spanish Grand Prix takes place over 66 laps of the
               4.655-kilometre Circuit de Barcelona-Catalunya on Sunday, August
               16.

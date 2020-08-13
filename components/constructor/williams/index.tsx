@@ -17,7 +17,7 @@ const Williams: React.FC = () => {
         </div>
         <div className='relative max-w-screen-xl mx-auto'>
           <div className='py-4 text-left px-4'>
-            <p className='mt-1 text-sm leading-normal text-gray-700'>
+            <p className='mt-1 text-base leading-normal text-gray-700'>
               Williams Racing has officially revealed its 2020 Formula One
               challenger, the Williams Mercedes FW43. The FW43 is an evolution
               of the FW42, with much of the development work carried out
@@ -32,7 +32,7 @@ const Williams: React.FC = () => {
               spirit is still very much alive, and this year, everyone will
               continue that fight until we get back to where we want to be.”
             </p>
-            <p className='mt-2 text-sm leading-normal text-gray-700'>
+            <p className='mt-2 text-base leading-normal text-gray-700'>
               Design Director, Doug McKiernan, commented: “The team at the
               factory have been working incredibly hard on the development of
               the car for the 2020 season. We have paid significant attention to
@@ -51,7 +51,7 @@ const Williams: React.FC = () => {
               some good progress across these areas and will continue to focus
               on them during the season.”
             </p>
-            <p className='mt-2 text-sm leading-normal text-gray-700'>
+            <p className='mt-2 text-base leading-normal text-gray-700'>
               Chief Engineer, Adam Carter, added: “The initiatives that we put
               in place to drive performance across all disciplines within the
               engineering department are evident in the design and development
@@ -74,7 +74,7 @@ const Williams: React.FC = () => {
               tests to ensure we are in the best possible place ahead of the
               first race in Australia.”
             </p>
-            <p className='mt-2 text-sm leading-normal text-gray-700'>
+            <p className='mt-2 text-base leading-normal text-gray-700'>
               This approach tallies well with both the team’s situation and the
               upcoming regulation changes in 2020. After a challenging year,
               there may be the temptation to try for a radically different

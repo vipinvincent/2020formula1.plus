@@ -17,14 +17,14 @@ const McLaren: React.FC = () => {
         </div>
         <div className='relative max-w-screen-xl mx-auto'>
           <div className='py-4 text-left px-4'>
-            <p className='mt-1 text-sm leading-normal text-gray-700'>
+            <p className='mt-1 text-base leading-normal text-gray-700'>
               McLaren Racing unveiled the team’s 2020 F1 car, the MCL35, live
               from the McLaren Technology Centre to a global audience. Drivers
               Carlos Sainz and Lando Norris, who both enter their second season
               with the team, proudly presented the car ahead of it taking to the
               track for the first time during pre-season testing next week.
             </p>
-            <p className='mt-2 text-sm leading-normal text-gray-700'>
+            <p className='mt-2 text-base leading-normal text-gray-700'>
               McLaren set to work on the MCL35, which is powered by the Renault
               E-Tech 20, during 2019 as the team pursued the first phase of its
               performance recovery programme. The season saw the team climb to
@@ -32,7 +32,7 @@ const McLaren: React.FC = () => {
               provided valuable insights for the development of the MCL35, in
               what will be an intensely competitive 2020 Formula 1 season.
             </p>
-            <p className='mt-2 text-sm leading-normal text-gray-700'>
+            <p className='mt-2 text-base leading-normal text-gray-700'>
               The MCL35 continues to sport the striking McLaren papaya and blue,
               the original colours chosen by founder Bruce McLaren and
               representing the team’s 57-year legacy in the sport. The dynamic
@@ -40,7 +40,7 @@ const McLaren: React.FC = () => {
               further increase stand-out on the grid while being fully optimised
               for racing performance.
             </p>
-            <p className='mt-2 text-sm leading-normal text-gray-700'>
+            <p className='mt-2 text-base leading-normal text-gray-700'>
               McLaren has also continued its positive commercial trend, with
               eight new partners for 2020, broadening the team’s partner family
               to 38 partners in total. The MCL35 will made its official on-track
