@@ -7,14 +7,14 @@ const Fourth: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=9SgfJwFloZk'
+        href='https://www.youtube.com/watch?v=6p3jPbKexyk'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-40 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/9SgfJwFloZk/sddefault.jpg'
-              alt='2020 70th Anniversary GP Race Review | WTF1 Podcast'
+              src='https://img.youtube.com/vi/6p3jPbKexyk/sddefault.jpg'
+              alt='Lewis Hamilton on new contract talks, battling racism & being described as the G.O.A.T'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -29,120 +29,28 @@ const Fourth: React.FC = () => {
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-2 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            PODCAST
+            Interview
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=9SgfJwFloZk'
+            href='https://www.youtube.com/watch?v=6p3jPbKexyk'
             target='_blank'>
-            2020 70th Anniversary GP Race Review | WTF1 Podcast
+            Lewis Hamilton on new contract talks, battling racism & being
+            described as the G.O.A.T
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            We were treated to a great race for F1's 70th anniversary
-            celebrations. Tommy is joined by Tommo F1 (who comes in as a last
-            minute Nico Hulkenberg replacement) to talk about Verstappen's
-            victory and whether Vettel will stay with Ferrari for the rest of
-            the season.
+            Lewis Hamilton sat down with Karun Chandhok to discuss his victory
+            at the British Grand Prix, driving without crowds, his battle with
+            racism and whether there have been talks over a new Mercedes
+            contract. Hamilton also reacts to being described as the 'Greatest
+            of all Time'.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='http://www.wtf1.com' target='_blank'>
-              wtf1.com
+            <ContentLink href='https://www.skysports.com/f1' target='_blank'>
+              skysports.com
             </ContentLink>
           </p>
         </div>
-        {/* <div className='flex flex-col justify-start border-t border-gray-200 mt-4 pb-2 px-2 text-sm  text-center'>
-          <div className='w-full py-2 text-sm'>Follow this topic on -</div>
-          <div className='w-full flex flex-row justify-center my-1'> */}
-        {/* <div className='mr-2'>
-              <ActionLink
-                href='https://www.bbc.com/sport/formula1/53377338'
-                target='_blank'>
-                <img
-                  className='w-auto h-8 md:h-12 object-contain rounded-tl-lg rounded-br-lg'
-                  src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594827284/contentImages/logo/bbc_xek5di.png'
-                  alt='bbc.com/sport'
-                />
-              </ActionLink>
-            </div> */}
-        {/* <div className='mr-2'>
-              <ActionLink
-                href='https://www.motorsport.com/f1/news/red-bull-albon-slow-pace-styria/4833470/'
-                target='_blank'>
-                <img
-                  className='w-auto h-8 md:h-12 object-contain rounded-tl-lg rounded-br-lg'
-                  src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826932/contentImages/logo/motorsport_acmgji.jpg'
-                  alt='motorsport.com'
-                />
-              </ActionLink>
-            </div> */}
-        {/* <div className='mr-2'>
-              <ActionLink
-                href='https://www.skysports.com/f1/news/12433/12026519/lewis-hamilton-proud-to-master-terrifying-styrian-gp-qualifying'
-                target='_blank'>
-                <img
-                  className='w-auto h-8 md:h-12 object-contain rounded-tl-lg rounded-br-lg'
-                  src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826932/contentImages/logo/motorsport_acmgji.jpg'
-                  alt='skysports.com'
-                />
-              </ActionLink>
-            </div> */}
-        {/* <div className='mr-2'>
-              <ActionLink
-                href='https://www.autosport.com/f1/news/150565/red-bull-expects-to-close-gap-on-mercedes-in-hungary'
-                target='_blank'>
-                <img
-                  className='w-auto h-8 md:h-12 object-contain rounded-tl-lg rounded-br-lg'
-                  src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826932/contentImages/logo/autosport_ketnss.jpg'
-                  alt='autosport.com'
-                />
-              </ActionLink>
-            </div> */}
-        {/* <div className='mr-2'>
-              <ActionLink
-                href='https://www.espn.in/f1/story/_/id/29438233/mugello-host-first-f1-race-sochi-added-2020-calendar'
-                target='_blank'>
-                <img
-                  className='w-auto h-8 md:h-12 object-contain rounded-tl-lg rounded-br-lg'
-                  src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826931/contentImages/logo/espn_av2iv1.png'
-                  alt='espn.com'
-                />
-              </ActionLink>
-            </div>
-            <div className='mr-2'>
-              <ActionLink
-                href='https://the-race.com/formula-1/hamiltons-not-from-this-world-pole-lap-explained/'
-                target='_blank'>
-                <img
-                  className='w-auto h-8 md:h-12 mt-0 py-2 md:py-4 px-2 object-contain rounded-tl-lg rounded-br-lg bg-gray-800'
-                  src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826932/contentImages/logo/therace_cq3ao6.png'
-                  alt='the-race.com'
-                />
-              </ActionLink>
-            </div>*/}
-        {/* <div className='mr-2'>
-              <ActionLink
-                href='https://www.grandprix247.com/2020/07/14/horner-i-hope-well-be-more-competitive-in-hungary/'
-                target='_blank'>
-                <img
-                  className='w-auto h-8 md:h-12 mt-0 py-2 md:py-4 px-2 object-contain rounded-tl-lg rounded-br-lg border border-gray-200'
-                  src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826933/contentImages/logo/grandprix247_yj6fcw.png'
-                  alt='grandprix247.com'
-                />
-              </ActionLink>
-            </div> */}
-        {/* <div className='mr-2'>
-              <ActionLink
-                href='https://www.planetf1.com/news/qualifying-report-styrian-gp-2020/'
-                target='_blank'>
-                <img
-                  className='w-auto h-8 md:h-12 mt-0 py-2 md:py-4 px-2 object-contain rounded-tl-lg rounded-br-lg border border-gray-200'
-                  src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826932/contentImages/logo/planetf1_zqhrq9.svg'
-                  alt='planetf1.com'
-                />
-              </ActionLink>
-            </div> */}
-        {/* </div>
-    </div> */}
       </div>
     </div>
   )

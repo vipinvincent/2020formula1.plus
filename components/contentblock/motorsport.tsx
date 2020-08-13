@@ -20,30 +20,33 @@ const MotorSport: React.FC = () => {
           <ActionLink
             href='https://www.motorsport.com/f1/news/horner-verstappen-praise-silverstone-win/4853333/'
             target='_blank'>
-            Horner surprised others didn't try Verstappen's tyre strategy
+            Why Mercedes gets uncomfortable when the pressure goes up
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Red Bull’s Christian Horner says Max Verstappen’s victory in the
-            70th Anniversary GP at Silverstone was an “amazing performance” –
-            but was surprised more teams didn't gamble on using the hard tyre in
-            qualifying that played a key role.
+            Max Verstappen’s victory for Red Bull at the 70th Anniversary Grand
+            Prix came as a relief for many, as Mercedes dominance until that
+            point raised the spectre of a season-long ‘silverwash’.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Verstappen was the only top runner to start on the hard tyre, and he
-            converted that into a surprise race win with a brilliant charging
-            performance that saw him run a long first stint. He was ultimately
-            able to pit and come out just behind Valtteri Bottas, who he then
-            passed. He gained the lead for the final time later in the race when
-            Lewis Hamilton made his second stop after a long middle stint.
+            Tyre performance continues to be one of Mercedes’ few weak points
+            and, while it largely cured that issue through the Hybrid-turbo era,
+            there have been occasions where it has caused problems. Leading up
+            to the 70th Anniversary race, the left-front wear problems in the
+            British GP that led to failures on both cars was fresh in its mind.
+            And the move to softer-compound tyres only meant its headache could
+            get even worse.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            “It was an amazing performance today,” Horner told Sky Sports F1. “I
-            mean, the pace in the race was beyond what we expected. We started
-            on that sort of reverse strategy, and Max was just chilling out to
-            the beginning of the race. “And the pace in the car, it was just so
-            easy today. And even after Mercedes pitted and went on to a new
-            hard, we were able to pull away, and at that point, you think this
-            is really game on now.”
+            Just to throw another variable in the mix, Pirelli decided to
+            increase the minimum tyre pressures too. At the front of the car,
+            the teams would have to run at least 27psi (up by 2psi) and 22psi at
+            the rear (up by 1psi). While this might not sound much, it’s
+            actually a substantial change in F1 terms, causing the tyres to
+            “balloon” as Hamilton described after the race. The increased
+            pressures cause a change in the shape of the tyre, altering the
+            distribution of the tread platform and shoulders to the track’s
+            surface. This also results in a change to any brake
+            temperature-transfer bias that the teams might be running.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}

@@ -4,7 +4,7 @@ import ContentLink from 'components/link/ContentLink'
 
 const SkySports: React.FC = () => {
   return (
-    <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-0'>
+    <div className='relative bg-white-50 rounded-tl-xxl rounded-br-xxl shadow mt-0'>
       <div className='h-32 sm:h-48 w-full bg-black-100 rounded-tl-xl'>
         <img
           className='w-full h-full object-contain rounded-tl-xl bg-skysports'
@@ -13,41 +13,44 @@ const SkySports: React.FC = () => {
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
-        <div className='px-4 py-4 text-left'>
+        <div className='px-4 pt-4 pb-4 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            Feature
+            News
           </div>
           <ActionLink
-            href='https://www.skysports.com/f1/news/12433/12037245/lando-norris-why-mclaren-can-stay-in-fight-for-third-and-his-development-in-f1'
+            href='https://www.skysports.com/f1/news/12433/12046960/nico-hulkenberg-eyes-seat-on-2021-f1-grid-after-super-silverstone'
             target='_blank'>
-            Lando Norris: Why McLaren can stay in fight for third and his
-            development in F1
+            Nico Hulkenberg eyes seat on 2021 F1 grid after super Silverstone
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Lando Norris believes McLaren can maintain a challenge for third
-            place in the Constructors' Championship over the season. McLaren
-            head into their home British GP this week behind only Mercedes and
-            Red Bull in the standings after a start to the season in which they
-            have already achieved three top-five race results - including a
-            maiden F1 podium for Norris in Austria.
+            Nico Hulkenberg says he will continue talks with Formula 1 teams
+            about a full-time return to the grid in 2021 - even if he doesn't
+            get another chance to shine as a Racing Point stand-in this year.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Back on the rise after a fourth-placed finish last year, McLaren
-            currently sit a point clear of Racing Point and 14 ahead of Ferrari,
-            who have slipped away from their usual front-running rivals at the
-            start of this campaign.
+            Hulkenberg, who by paddock consensus was unfortunate to lose his
+            seat last season, shot back to F1 prominence as a temporary
+            replacement for Sergio Perez for the two races at Silverstone, and
+            last weekend qualified an incredible third before securing valuable
+            points for Racing Point. His performances will only increase
+            speculation about a possible return next season, and Hulkenberg
+            admitted to Sky F1 after the 70th Anniversary GP that he is staying
+            in touch with team bosses, but that a resolution might still take
+            some time.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Speaking to Sky Sports News at the McLaren's Woking Technology
-            Centre ahead of the forthcoming Silverstone double-header, Norris
-            spoke with optimism about their prospects of remaining a threat
-            behind the current top two. "We can definitely fight for it," said
-            Norris, in an interview with Craig Slater.
+            "There are conversations already ongoing for quite a while, not just
+            now because of this," the 32-year-old, who left Renault last year,
+            said. "Obviously that's kind of a process, you stay in touch with
+            team principals, you talk about possible opportunities and what
+            might change. "That's still ongoing, obviously behind the scenes. I
+            think it's still going to take a while to get an answer there, but
+            that's OK for me."
           </p>
-          <p className='mt-1 text-base leading-normal text-gray-700'>
+          <p className='mt-8 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.skysports.com/f1/news/12433/12037245/lando-norris-why-mclaren-can-stay-in-fight-for-third-and-his-development-in-f1'
+              href='https://www.skysports.com/f1/news/12433/12046960/nico-hulkenberg-eyes-seat-on-2021-f1-grid-after-super-silverstone'
               target='_blank'>
               skysports.com
             </ContentLink>{' '}

@@ -9,7 +9,7 @@ const F1: React.FC = () => {
         <img
           className='w-full h-full object-contain rounded-tl-xxl'
           src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1596777189/contentImages/content/f170_iwh29t.jpg'
-          alt='Racing Point’s RP20 and the Mercedes W10 are similar, but not identical – here’s where they differ'
+          alt='Ferrari give Vettel new chassis for Spanish Grand Prix after small fault found'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
@@ -18,35 +18,40 @@ const F1: React.FC = () => {
             TECHNICAL
           </div>
           <ActionLink
-            href='https://www.formula1.com/en/latest/article.racing-points-rp20-and-the-mercedes-w10-are-similar-but-not-identical-heres.6iocL43gVsMH8rkAYf7o5r.html'
+            href='https://www.formula1.com/en/latest/article.ferrari-give-vettel-new-chassis-for-spanish-grand-prix.5jekMOypEzQb93le7Q5CVQ.html'
             target='_blank'>
-            Racing Point’s RP20 and the Mercedes W10 are similar, but not
-            identical – here’s where they differ
+            Ferrari give Vettel new chassis for Spanish Grand Prix after 'small
+            fault' found
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            It’s easy to forget amid the controversy surrounding the close
-            similarity of the Racing Point RP20 to last year’s Mercedes W10 that
-            the two cars aren’t actually identical. The external aerodynamic
-            surfaces are a close copy, but there are several points of
-            differentiation, as F1 technical expert Mark Hughes explains...
+            Sebastian Vettel cut a bleak figure during the 70th Anniversary
+            Grand Prix weekend, the Ferrari driver admitting he has “run out of
+            answers” to explain his struggles. And in a bid to turn around his
+            fortunes, the Scuderia are giving the German a new chassis for this
+            weekend’s Spanish Grand Prix…
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Mechanically, the two cars are quite different at the front. The
-            Mercedes uses hydraulic actuation for its inboard heave spring
-            whereas the Racing Point sticks with the more traditional mechanical
-            linkages. Comparing the images below shows this quite clearly.
+            Vettel failed to score points for the second time this season last
+            time out at Silverstone, while team mate Charles Leclerc excelled on
+            his way to fourth. He made life hard for himself when he hit a kerb
+            hard at Turn 1, spinning him round and sending him to the back of
+            the field.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The hydraulic spring allows a wider variation of modes and greater
-            fidelity but is banned as from next year when all springs must be
-            mechanical. Also at the front of the car, Racing Point favours the
-            S-duct in the nose (as you can see in the image below), whereas the
-            Mercedes never had this feature.
+            Following an investigation at the factory, Ferrari found an issue
+            with the chassis caused by such an impact, and have opted to change
+            it ahead of Barcelona, but stressed they don’t think the issue
+            wasn’t fundamental. “There will be no particular updates on the
+            SF1000, however Sebastian will have a new chassis, because after the
+            Silverstone post-race analysis, we spotted a small fault caused by a
+            heavy impact over a kerb,” said Head of Chassis Engineering Simone
+            Resta. “It would not have had much of an effect on performance, but
+            it was the logical decision to take.”
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.formula1.com/en/latest/article.racing-points-rp20-and-the-mercedes-w10-are-similar-but-not-identical-heres.6iocL43gVsMH8rkAYf7o5r.html'
+              href='https://www.formula1.com/en/latest/article.ferrari-give-vettel-new-chassis-for-spanish-grand-prix.5jekMOypEzQb93le7Q5CVQ.html'
               target='_blank'>
               formula1.com
             </ContentLink>{' '}
