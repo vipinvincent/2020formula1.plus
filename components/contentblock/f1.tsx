@@ -9,49 +9,44 @@ const F1: React.FC = () => {
         <img
           className='w-full h-full object-contain rounded-tl-xxl'
           src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1596777189/contentImages/content/f170_iwh29t.jpg'
-          alt='Ferrari give Vettel new chassis for Spanish Grand Prix after small fault found'
+          alt='Perez will compete in Spanish GP weekend after testing negative for Covid-19'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 py-4 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            TECHNICAL
+            News
           </div>
           <ActionLink
-            href='https://www.formula1.com/en/latest/article.ferrari-give-vettel-new-chassis-for-spanish-grand-prix.5jekMOypEzQb93le7Q5CVQ.html'
+            href='https://www.formula1.com/en/latest/article.breaking-perez-will-compete-in-spanish-gp-weekend-after-testing-negative-for.5xCHxe9XrVYLTPR9pAio7k.html'
             target='_blank'>
-            Ferrari give Vettel new chassis for Spanish Grand Prix after 'small
-            fault' found
+            Perez will compete in Spanish GP weekend after testing negative for
+            Covid-19
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Sebastian Vettel cut a bleak figure during the 70th Anniversary
-            Grand Prix weekend, the Ferrari driver admitting he has “run out of
-            answers” to explain his struggles. And in a bid to turn around his
-            fortunes, the Scuderia are giving the German a new chassis for this
-            weekend’s Spanish Grand Prix…
+            Sergio Perez will make a return to Grand Prix racing with Racing
+            Point at this weekend’s Spanish Grand Prix after testing negative
+            for Covid-19…
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Vettel failed to score points for the second time this season last
-            time out at Silverstone, while team mate Charles Leclerc excelled on
-            his way to fourth. He made life hard for himself when he hit a kerb
-            hard at Turn 1, spinning him round and sending him to the back of
-            the field.
+            The Mexican has watched the British and 70th Anniversary Grands Prix
+            from his sofa, having having tested positive for the virus in the
+            run up to the first race at Silverstone. In his absence, Nico
+            Hulkenberg has been driving in his place for the pink team.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Following an investigation at the factory, Ferrari found an issue
-            with the chassis caused by such an impact, and have opted to change
-            it ahead of Barcelona, but stressed they don’t think the issue
-            wasn’t fundamental. “There will be no particular updates on the
-            SF1000, however Sebastian will have a new chassis, because after the
-            Silverstone post-race analysis, we spotted a small fault caused by a
-            heavy impact over a kerb,” said Head of Chassis Engineering Simone
-            Resta. “It would not have had much of an effect on performance, but
-            it was the logical decision to take.”
+            However, he has only had mild symptoms throughout and on Wednesday
+            said that he was 100% ready to race if he was given the all-clear.
+            And on Thursday, the team shared the news that Perez had taken a
+            throat and nostril swab and delivered a negative result. “The FIA
+            have confirmed that Checo can return to the F1 paddock and he will
+            compete for the team in this weekend’s Spanish Grand Prix,” said
+            Racing Point.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.formula1.com/en/latest/article.ferrari-give-vettel-new-chassis-for-spanish-grand-prix.5jekMOypEzQb93le7Q5CVQ.html'
+              href='https://www.formula1.com/en/latest/article.breaking-perez-will-compete-in-spanish-gp-weekend-after-testing-negative-for.5xCHxe9XrVYLTPR9pAio7k.html'
               target='_blank'>
               formula1.com
             </ContentLink>{' '}

@@ -18,40 +18,30 @@ const TheRace: React.FC = () => {
             News
           </div>
           <ActionLink
-            href='https://the-race.com/formula-1/mclaren-drops-racing-point-appeal-renault-and-ferrari-proceed/'
+            href='https://the-race.com/formula-1/special-qualifying-modes-could-be-banned-after-spain/'
             target='_blank'>
-            McLaren drops Racing Point appeal, Renault and Ferrari proceed
+            Special qualifying modes could be banned after Spain
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            McLaren is not pursuing an appeal against the stewards’ decision
-            regarding Renault’s protest of Formula 1 rival Racing Point, but
-            Renault and Ferrari are. Racing Point was hit with a €400,000 fine
-            and 15-point constructors’ championship penalty after the FIA
-            stewards found it guilty of illegally developing its rear brake
-            ducts from Mercedes data.
+            Peak qualifying engine modes could be outlawed from this year’s
+            Belgian Grand Prix onwards, The Race understands.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The team protests its innocence and announced its intention to
-            appeal the decision, but has yet to confirm if it is going ahead
-            with it. At the same, four of its rivals – McLaren, Ferrari, Renault
-            and Williams – submitted their intention to appeal the verdict,
-            seeking greater punishment.
+            Throughout the V6 turbo-hybrid era, F1’s engine manufacturers have
+            been pushed to develop high-performance settings – dubbed ‘party
+            mode’ by Mercedes’ Lewis Hamilton two years ago – that allow the
+            engines to be turned up for crucial moments in qualifying and very
+            briefly during grands prix.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            They believe Racing Point has got off lightly for the offence
-            because the team is able to continue running the parts for the
-            remainder of the season. There is also some confusion over why the
-            FIA has retrospectively ‘grandfathered’ the front brake ducts that
-            Racing Point also developed from Mercedes data, on the grounds that
-            Racing Point actually used them in 2019 when that was allowed and
-            incorporated the information into the DNA of its car. Ferrari and
-            Renault have confirmed they will go ahead with appealing the
-            verdict, ahead of a 9am Wednesday deadline.
+            The Race understands that teams have been informed a rule change
+            could be rapidly implemented to ban such modes as of the Spa round
+            in just over two weeks’ time.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://the-race.com/formula-1/mclaren-drops-racing-point-appeal-renault-and-ferrari-proceed/'
+              href='https://the-race.com/formula-1/special-qualifying-modes-could-be-banned-after-spain/'
               target='_blank'>
               the-race.com
             </ContentLink>{' '}

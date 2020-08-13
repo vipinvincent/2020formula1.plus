@@ -7,14 +7,14 @@ const First: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=paL1oKNj0F4'
+        href='https://www.youtube.com/watch?v=qRt_sikgMWw'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-40 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/paL1oKNj0F4/sddefault.jpg'
-              alt='Is Time Up for Kimi Raikkonen?'
+              src='https://img.youtube.com/vi/qRt_sikgMWw/sddefault.jpg'
+              alt='FP1 Post Podium Podcast Episode 5: 70th Anniversary Grand Prix'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,14 +32,15 @@ const First: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=paL1oKNj0F4'
+            href='https://www.youtube.com/watch?v=qRt_sikgMWw'
             target='_blank'>
-            F1 2020 70th Anniversary GP Review
+            FP1 Post Podium Podcast Episode 5: 70th Anniversary Grand Prix
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Round 5 of the 2020 F1 season is done and dusted so here are my
-            intial thoughts and reactions from the 70th Anniversary Grand Prix
-            at Silverstone
+            Welcome back to the FP1 Post Podium Podcast, back this week with The
+            Apex Motorsport to discuss the 70th Anniversary Grand Prix. Make
+            sure you check out the guys and subscribe to their channel, all
+            links are below!
           </p>
 
           <p className='mt-1 text-base leading-normal text-gray-700'>

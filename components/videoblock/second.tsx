@@ -7,14 +7,14 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=oA7Bf-D3qAY'
+        href='https://www.youtube.com/watch?v=PGJeRJgGt1Y'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/oA7Bf-D3qAY/sddefault.jpg'
-              alt='Ferrari & Renault appeal Racing Point brake duct ruling '
+              src='https://img.youtube.com/vi/PGJeRJgGt1Y/sddefault.jpg'
+              alt='Has Racing Point gone too far in 2020?'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,24 +32,21 @@ const Second: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=oA7Bf-D3qAY'
+            href='https://www.youtube.com/watch?v=PGJeRJgGt1Y'
             target='_blank'>
-            Ferrari & Renault appeal Racing Point brake duct ruling
+            Has Racing Point gone too far in 2020?
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Last week, the FIA released their findings into the numerous
-            protests against the Racing Point brake ducts, with the protests
-            being lodged after every race by Renault. The crux of the matter is
-            that the brake ducts were found by the FIA to have been designed by
-            Mercedes in early 2019, with the Sporting Regulations making this
-            illegal for 2020 through a 'listed parts' rule that means teams must
-            design the brake ducts themselves. The team were deducted 15 points
-            in the Constructor's Championship, and given a 400,000 euro fine.
+            Racing Point trucks-in to Spain’s Circuit de Barcelona-Catalunya as
+            F1’s “most wanted” - its rivals up-in-arms over the FIA’s decision
+            to let it race-on with sanctioned brake ducts - despite reprimands,
+            a fine of €400,000 Euros and 15-points deducted from the
+            constructors’ standings.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='http://www.formulaspy.com' target='_blank'>
-              Thomas Maher
+            <ContentLink href='http://theinsideline.com/ ' target='_blank'>
+              The Inside Line
             </ContentLink>
           </p>
         </div>

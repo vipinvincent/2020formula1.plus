@@ -13,45 +13,35 @@ const MotorSport: React.FC = () => {
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
-        <div className='px-4 pt-4 pb-4 text-left'>
+        <div className='px-4 pt-4 pb-2 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
             News
           </div>
           <ActionLink
-            href='https://www.motorsport.com/f1/news/horner-verstappen-praise-silverstone-win/4853333/'
+            href='https://www.motorsport.com/f1/news/corner-cutting-barcelona-fia-spain/4855160/'
             target='_blank'>
-            Why Mercedes gets uncomfortable when the pressure goes up
+            FIA clamps down on corner cutting ahead of Spanish GP
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Max Verstappen’s victory for Red Bull at the 70th Anniversary Grand
-            Prix came as a relief for many, as Mercedes dominance until that
-            point raised the spectre of a season-long ‘silverwash’.
+            Formula 1 race director Michael Masi has clamped down on corner
+            cutting ahead of the Spanish Grand Prix by issuing new guidance to
+            drivers on Thursday.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Tyre performance continues to be one of Mercedes’ few weak points
-            and, while it largely cured that issue through the Hybrid-turbo era,
-            there have been occasions where it has caused problems. Leading up
-            to the 70th Anniversary race, the left-front wear problems in the
-            British GP that led to failures on both cars was fresh in its mind.
-            And the move to softer-compound tyres only meant its headache could
-            get even worse.
+            The FIA previously moved to prevent drivers from gaining an
+            advantage by cutting the corner at Turn 2 of the Circuit de
+            Barcelona-Catalunya by placing a bollard in the run-off area for
+            last year’s race.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Just to throw another variable in the mix, Pirelli decided to
-            increase the minimum tyre pressures too. At the front of the car,
-            the teams would have to run at least 27psi (up by 2psi) and 22psi at
-            the rear (up by 1psi). While this might not sound much, it’s
-            actually a substantial change in F1 terms, causing the tyres to
-            “balloon” as Hamilton described after the race. The increased
-            pressures cause a change in the shape of the tyre, altering the
-            distribution of the tread platform and shoulders to the track’s
-            surface. This also results in a change to any brake
-            temperature-transfer bias that the teams might be running.
+            Any driver failing to negotiate Turn 2 properly after cutting across
+            the run-off at the inside of the corner was required to stay to the
+            left of the bollard before returning to the track in a safe manner.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.motorsport.com/f1/news/horner-verstappen-praise-silverstone-win/4853333/'
+              href='https://www.motorsport.com/f1/news/corner-cutting-barcelona-fia-spain/4855160/'
               target='_blank'>
               motorsport.com
             </ContentLink>{' '}
