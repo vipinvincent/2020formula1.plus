@@ -6,7 +6,7 @@ import Recent from '../components/schedule/recent'
 import Driver from '../components/driver'
 import Team from '../components/team'
 // import Qualifying from 'components/qualifying/quick-look'
-import Race from '../components/race/quick-look'
+// import Race from '../components/race/quick-look'
 import VideosPodcasts from 'components/maincontent/videos-podcasts'
 import FirstPodcast from 'components/podcastblock/first'
 import SecondPodcast from 'components/podcastblock/second'
@@ -24,7 +24,7 @@ const IndexPage = () => (
             <VideosPodcasts />
           </div>
           <div className='hidden lg:block w-4/12 xl:w-4/12 pl-4'>
-            <Race />
+            {/* <Race /> */}
             {/* <Grid /> */}
             <Schedule />
             <Driver />

@@ -1,5 +1,7 @@
 import Layout from '../components/layout/Layout'
 import News from '../components/maincontent/news'
+import Race from '../components/race/quick-look'
+import Qualifying from 'components/qualifying/quick-look'
 import Schedule from '../components/schedule'
 import Recent from '../components/schedule/recent'
 import British from '../components/schedule/british'
@@ -18,6 +20,8 @@ const IndexPage = () => (
             <News />
           </div>
           <div className='hidden lg:block w-4/12 xl:w-4/12 pl-4'>
+            <Race />
+            <Qualifying />
             <Schedule />
             <Recent />
             <British />

@@ -8,72 +8,68 @@ const Left: React.FC = () => {
       <div className='h-40 xl:h-48 w-full'>
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
-          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594992043/contentImages/content/mercedes12_ufegj1.jpg'
-          alt=' Lewis Hamilton with a new lap record storms to pole position for British Grand Prix with Bottas in P2 and Max Verstappen in P3.'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1596990283/contentImages/content/max_afwfdz.jpg'
+          alt=' Max Verstappen defeats Mercedes at Silverstone and wins Formula 1s 70th Anniversary Grand Prix. '
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-1 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            FP3 Report - 70th Anniversary GP
+            Race REPORT - 70TH ANNIVERSARY GP
           </div>
           <H1>
-            Mercedes' Lewis Hamilton topped final practice from his team mate
-            Valtteri Bottas and Mclaren's Lando Norris.
+            Max Verstappen defeats Mercedes at Silverstone and wins Formula 1's
+            70th Anniversary Grand Prix.{' '}
           </H1>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Mercedes embraces yet another 1-2 in the final practice session for
-            the 70th Anniversary GP displaying their dominance in this season.
-            Hamilton's lap of 1m26.621s was on soft tyres which was 0.163s ahead
-            of Bottas as Mercedes completed a clean sweep of fastest times in
-            all practice sessions. Lando Norris, who briefly topped the times,
-            finished in third, over half a second off Hamilton's best time on
-            medium tyres. Lando predominantly was on mediums while rest of the
-            pack were testing the red striped softs which was last weeks
-            mediums.
+            Max Verstappen has become the first non-Mercedes driver to win a
+            race in 2020 F1 season aided with incredible driving and a brilliant
+            strategy by the team. The interesting choice of tyres made by the F1
+            for the 70th Anniversary Grand Prix produced an action-packed racing
+            throughout the grid, encouraging teams to try out wide variety of
+            strategies. Verstappen being the only driver in the top 10 to begin
+            the race on the hard tyres. quickly passed the Racing Point of Nico
+            Hulkenberg in P3 and he managed his pace brilliantly throughout the
+            race, pressuring the Mercedes and forcing them to take alternative
+            strategies secures his first victory since Brazil last year and Red
+            Bull’s first win at Silverstone since 2012.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Both Racing Points were strong and finished in top 5 with Nico
-            Hulkenberg leading Lance Stroll by just 0.007s. Meanwhile the RP20s
-            are still the point of talk at off-track after the FIA confirmed
-            five teams intend to appeal the stewards' verdict allowing Racing
-            Point to use offending parts on their cars and Racing Point too
-            confirmed their intention to appeal brake duct protest verdict after
-            FIA on deducting 15 points and fining them €400,000.
+            Lewis Hamilton of Mercedes accomplished a late-race surge on his
+            team mate Valtteri Bottas with two laps to go into Brooklands to
+            claim second place there by equaling the number of podiums finishes
+            by Michael Schumacher. Meanwhile Bottas, probably the biggest looser
+            of race, second time in three years that has failed to convert a
+            Silverstone pole into a win, as he has to settle with third only
+            after a questionable strategy performed by Mercedes team backing
+            Hamilton to perform better in the last stint of the race.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Ferrari’s Charles Leclerc finished 6th and his team mate Sebastian
-            Vettel, who ended the session in P13, took brand new engines, turbos
-            and MGU-H units ahead of FP3 as Vettel’s Ferrari power unit having
-            issues and leakage at the end of FP2 on Friday. According to
-            Ferrari, the change on Leclerc's car was done “as a precaution”,
-            with no penalty incurred for either of the drivers since they are
-            still within their allocation for the season.
+            Ferrari’s Charles Leclerc with a one-stop work to claimed P4, while
+            his team mate Sebastian Vettel could only manage P12, due to an
+            early spin at the first corner of the race. Alex Albon took an
+            impressive fifth in the second Red Bull, passing the Racing Point of
+            Lance Stroll with a lap to go. Both Racing point drivers could not
+            keep up the qualifying performances in the race as Stroll finished
+            P6 ahead of stand-in team mate Nico Hulkenberg, who stopped very
+            late on for soft tyres, later clarified that the Nico has reported a
+            significant vibration towards the end of the race. Renault’s Esteban
+            Ocon finished P8, ahead of the McLaren of Lando Norris in P9 and the
+            AlphaTauri of Daniil Kvyat in P10, despite of his lower starting
+            position, finished ahead of his team mate Pierre Gasly.
           </p>
-          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The Red Bull driver Max Verstappen only could finish P7, ahead of
-            team mate Alex Albon in P8 since Max had to abort his first flying
-            lap on new soft tyres only to a slow-going Stroll through
-            Maggotts/Becketts. Renault's Esteban Ocon managed a ninth-place
-            finish over McLaren’s Carlos Sainz, while Daniel Ricciardo, who was
-            third quickest in FP2 on Friday only finished 14th overall as his
-            final flying laps too were hampered by traffic. Pierre Gasly beat
-            his AlphaTauri team mate by a tenth of a second to finish P11, with
-            Daniil Kvyat P12 ahead of Vettel's Ferrari.
+          <p className='mt-1'>
+            The second Mclaren driver Carlos Sainz finished 13th and the Renault
+            of Daniel Ricciardo who had spun battling Sainz in the middle phase
+            of the race could only manage a disappointing P14, who started 5th.
+            {/* Kimi Räikkönen of Alfa Romeo finished P15 from the last place of the
+            start grid as his team mate Antonio Giovinazzi finished 17 just
+            behind the Hass of Romain Grosjean who finished 16th. Both Williams
+            drivers disappoints as they got rooted in the back of the grid with
+            George Russell in 18th and Nicholas Latifi in 19th. Kevin Magnussen,
+            the only non-finisher had to retire the car towards the end of the
+            race. */}
           </p>
-          {/* <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-           
-          </p> */}
-          {/* <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            So, it was yet another dominating performance by Mercedes who
-            unsurprisingly finished 1-2 for the 70th Anniversary Grand Prix
-            weekend. But The weekend will get interesting as Honda will give Red
-            Bull Formula 1 drivers Max Verstappen and Alexander Albon new power
-            units ahead of this weekend’s 70th Anniversary Grand Prix. Albon
-            took a new energy store on his Honda power unit last weekend at the
-            British Grand Prix, but will now also take a second engine,
-            turbocharger, MGU-H and MGU-K for the race.
-          </p> */}
           {/* <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
