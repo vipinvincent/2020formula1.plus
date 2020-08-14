@@ -9,44 +9,48 @@ const F1: React.FC = () => {
         <img
           className='w-full h-full object-contain rounded-tl-xxl'
           src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1596777189/contentImages/content/f170_iwh29t.jpg'
-          alt='Perez will compete in Spanish GP weekend after testing negative for Covid-19'
+          alt='How heat and tyres could shake things up in the Spanish Grand Prix'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 py-4 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            News
+            FEATURE
           </div>
           <ActionLink
-            href='https://www.formula1.com/en/latest/article.breaking-perez-will-compete-in-spanish-gp-weekend-after-testing-negative-for.5xCHxe9XrVYLTPR9pAio7k.html'
+            href='https://www.formula1.com/en/latest/article.thursdays-hot-topic-how-heat-and-tyres-could-shake-things-up-in-the-spanish.5StlqqmbgXjZSOYYoc2vk5.html'
             target='_blank'>
-            Perez will compete in Spanish GP weekend after testing negative for
-            Covid-19
+            How heat and tyres could shake things up in the Spanish Grand Prix
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Sergio Perez will make a return to Grand Prix racing with Racing
-            Point at this weekend’s Spanish Grand Prix after testing negative
-            for Covid-19…
+            The warm weather combined with softer tyre compounds at last
+            weekend’s 70th Anniversary Grand Prix at Silverstone created a
+            perfect storm of conditions to spice up the race. And with similarly
+            hot conditions expected in Spain, the hope is for more of the same
+            this weekend…
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The Mexican has watched the British and 70th Anniversary Grands Prix
-            from his sofa, having having tested positive for the virus in the
-            run up to the first race at Silverstone. In his absence, Nico
-            Hulkenberg has been driving in his place for the pink team.
+            A brief thunderstorm struck the Circuit de Barcelona-Catalunya late
+            on Thursday afternoon, soaking the paddock and giving those inside
+            it sweet respite from the searing heat that had battered them up
+            until that point. Usually in Barcelona, you’re either in need of a
+            winter coat and hat for pre-season testing, or only a couple of
+            layers as spring rolls in for the Grand Prix in May. Instead, F1
+            paddock folk were doing their best to find some shade or take
+            shelter and hydrate in their air conditioned hospitality units.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            However, he has only had mild symptoms throughout and on Wednesday
-            said that he was 100% ready to race if he was given the all-clear.
-            And on Thursday, the team shared the news that Perez had taken a
-            throat and nostril swab and delivered a negative result. “The FIA
-            have confirmed that Checo can return to the F1 paddock and he will
-            compete for the team in this weekend’s Spanish Grand Prix,” said
-            Racing Point.
+            That will be a recurring theme through the weekend, with conditions
+            expected to get even hotter – hitting 32C tomorrow and Saturday,
+            before dropping a single degree on Sunday. And while the tyre
+            compounds are one step harder in Barcelona – versus Silverstone –
+            they’ll still be a huge factor – as this track is punishing on the
+            rubber.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.formula1.com/en/latest/article.breaking-perez-will-compete-in-spanish-gp-weekend-after-testing-negative-for.5xCHxe9XrVYLTPR9pAio7k.html'
+              href='https://www.formula1.com/en/latest/article.thursdays-hot-topic-how-heat-and-tyres-could-shake-things-up-in-the-spanish.5StlqqmbgXjZSOYYoc2vk5.html'
               target='_blank'>
               formula1.com
             </ContentLink>{' '}

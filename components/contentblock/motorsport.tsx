@@ -18,30 +18,35 @@ const MotorSport: React.FC = () => {
             News
           </div>
           <ActionLink
-            href='https://www.motorsport.com/f1/news/corner-cutting-barcelona-fia-spain/4855160/'
+            href='https://www.motorsport.com/f1/news/haas-magnussen-haas-nothing-wrong-car/4855611/'
             target='_blank'>
-            FIA clamps down on corner cutting ahead of Spanish GP
+            Magnussen mystery: Haas says nothing “specific” wrong with car
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Formula 1 race director Michael Masi has clamped down on corner
-            cutting ahead of the Spanish Grand Prix by issuing new guidance to
-            drivers on Thursday.
+            The Haas Formula 1 team has rebuilt Kevin Magnussen’s car following
+            the Dane’s retirement at Silverstone – but no specific problem was
+            traced as a root cause.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The FIA previously moved to prevent drivers from gaining an
-            advantage by cutting the corner at Turn 2 of the Circuit de
-            Barcelona-Catalunya by placing a bollard in the run-off area for
-            last year’s race.
+            Magnussen was retired from the 70th Anniversary GP for safety
+            reasons after his car used up its tyres at an alarming rate, and
+            afterwards he suggested that something had gone awry in the rebuild
+            following his major first lap accident in the British GP a week
+            earlier. In the short gap since last weekend the car has been
+            rebuilt ahead of the Spanish GP with new parts in an attempt to
+            resolve the issues that Magnussen suffered.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Any driver failing to negotiate Turn 2 properly after cutting across
-            the run-off at the inside of the corner was required to stay to the
-            left of the bollard before returning to the track in a safe manner.
+            “Basically, in the second race at Silverstone we ran out of tyres,”
+            said Magnussen. “The rear tyre just blistered massively, and then
+            all of the tread came off from the middle to the inside of the rear
+            tyre, and just caused massive vibrations, and became an actual
+            safety issue at the end of it. So that's why we retired the car.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.motorsport.com/f1/news/corner-cutting-barcelona-fia-spain/4855160/'
+              href='https://www.motorsport.com/f1/news/haas-magnussen-haas-nothing-wrong-car/4855611/'
               target='_blank'>
               motorsport.com
             </ContentLink>{' '}

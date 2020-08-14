@@ -48,8 +48,9 @@ const Archive4: React.FC = () => {
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             The session was affected by intermittent light rain. But the drivers
             was not affected as they continued the session using dry-weather
-            'slick' tyres. Spots of rain over the Hungaroring for Free Practice
-            1 indicates a sign of things to come during weekend.
+            'slick' tyres.
+            {/* Spots of rain over the Hungaroring for Free Practice
+            1 indicates a sign of things to come during weekend. */}
           </p>
         </div>
       </div>

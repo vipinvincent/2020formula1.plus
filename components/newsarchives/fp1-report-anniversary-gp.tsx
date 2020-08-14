@@ -50,9 +50,8 @@ const Archive15: React.FC = () => {
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             Both Alfa Romeo’s struggled again to get a grip over the session
             finished in P18, ahead of Robert Kubica, who took over the C39 of
-            Antonio Giovinazzi this morning, Kevin Magnussen of was to finish
-            last, after the Dane went off at Vale and flat-spotted his tyre on
-            his push lap.
+            Antonio Giovinazzi this morning. Kevin Magnussen of was to finish
+            last, after the Dane went off at Vale.
           </p>
         </div>
       </div>

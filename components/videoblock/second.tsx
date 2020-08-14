@@ -7,14 +7,14 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=PGJeRJgGt1Y'
+        href='https://www.youtube.com/watch?v=zR3r-uKIJt0'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/PGJeRJgGt1Y/sddefault.jpg'
-              alt='Has Racing Point gone too far in 2020?'
+              src='https://img.youtube.com/vi/zR3r-uKIJt0/sddefault.jpg'
+              alt='RACE PREVIEW: 2020 Formula 1 Spanish Grand Prix'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,16 +32,18 @@ const Second: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=PGJeRJgGt1Y'
+            href='https://www.youtube.com/watch?v=zR3r-uKIJt0'
             target='_blank'>
-            Has Racing Point gone too far in 2020?
+            RACE PREVIEW: 2020 Formula 1 Spanish Grand Prix
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Racing Point trucks-in to Spain’s Circuit de Barcelona-Catalunya as
-            F1’s “most wanted” - its rivals up-in-arms over the FIA’s decision
-            to let it race-on with sanctioned brake ducts - despite reprimands,
-            a fine of €400,000 Euros and 15-points deducted from the
-            constructors’ standings.
+            Spain’s Circuit de Barcelona-Catalunya is a welcome sight for F1
+            teams, drivers and fans, with the Montmeló circuit annually
+            providing a first taste of the competitive order in pre-season
+            testing. But this year’s Spanish Grand Prix will no doubt feel more
+            test than race given the event will be yet another held behind
+            closed doors. Watch the video, and tell us what you think in the
+            comments…
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}

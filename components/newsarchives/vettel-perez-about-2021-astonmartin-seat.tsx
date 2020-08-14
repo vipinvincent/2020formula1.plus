@@ -55,10 +55,10 @@ const Archive2: React.FC = () => {
             the game,” he added “The team has taken a big step forward so it's
             good to have big names related to the team because that means that
             we're making a good job, we're making progress and I think the team
-            should be proud of it. And the rest? In Formula 1 you never know.
-            Until you start the race, you don’t know if you are racing. This is
+            should be proud of it. And the rest? In Formula 1 you never know.”
+            {/* Until you start the race, you don’t know if you are racing. This is
             how things are. I've been in Formula 1 10 years so I'm used to this
-            stuff.”
+            stuff.” */}
           </p>
         </div>
       </div>

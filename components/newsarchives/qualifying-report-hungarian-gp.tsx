@@ -36,7 +36,7 @@ const Archive7: React.FC = () => {
             his team mate Romain Grosjean. AlphaTauri 's Daniil Kvyat finished a
             disappointing 16th. Both Alfa Romeo Racing cars was glued to the
             last spot with Antonio Giovinazzi in 19 and 40 year old veteran Kimi
-            Räikkönen in 20th spot which probably be worst performance of his.
+            Räikkönen in 20th spot.
           </p>
         </div>
       </div>

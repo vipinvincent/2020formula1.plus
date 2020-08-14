@@ -1,5 +1,8 @@
 import React from 'react'
 
+import Archive20 from 'components/newsarchives/race-report-anniversary-gp'
+import Archive19 from 'components/newsarchives/qualifying-report-anniversary-gp'
+import Archive18 from 'components/newsarchives/fp3-report-anniversary-gp'
 import Archive17 from 'components/newsarchives/non-mercedes-race-winner'
 import Archive16 from 'components/newsarchives/fp2-report-anniversary-gp'
 import Archive15 from 'components/newsarchives/fp1-report-anniversary-gp'
@@ -25,6 +28,17 @@ const Main: React.FC = () => {
         Archived News
       </div>
       <div className='w-100'>
+        <Archive20 />
+      </div>
+      <div className='w-100 flex flex-col xl:flex-row'>
+        <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 mt-4'>
+          <Archive19 />
+        </div>
+        <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 mt-4'>
+          <Archive18 />
+        </div>
+      </div>
+      <div className='w-100 mt-4'>
         <Archive17 />
       </div>
       <div className='w-100 flex flex-col xl:flex-row'>
