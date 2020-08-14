@@ -7,50 +7,50 @@ const Main: React.FC = () => {
       <div className='h-48 md:h-64 xl:h-104 w-full'>
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
-          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1595072621/contentImages/content/valtteri_-bottas_m5dgbs.jpg'
-          alt=' FP1 REPORT - Spanish GP 2020'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594992043/contentImages/content/mercedes12_ufegj1.jpg'
+          alt=' FP2 REPORT - Spanish GP 2020'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-2 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            FP1 REPORT - Spanish GP 2020
+            FP2 REPORT - Spanish GP 2020
           </div>
           <H1>
-            Bottas leads from Hamilton and Verstappen in Spanish GP first
-            practice session at Barcelona
+            Hamilton leads from Bottas and Verstappen with Ricciardo and
+            Grosjean in P4 and P5
           </H1>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            A familiar grid for first practice at the Spanish Grand Prix as
-            Mercedes dominated with a 1-2 as Valtteri Bottas crossed the line
-            fastest in the first practice session with Lewis Hamilton finished
-            second with just 0.039s behind and Max Verstappen in third with 0.9s
-            after the leader. Ferrari’s Charles Leclerc finished fourth with
-            1.185s off Bottas and just 0.011s faster than team mate Sebastian
-            Vettel, who received a new chassis for this weekend after
-            discovering a “small fault” on his chassis and he looked to be more
-            comfortable with the new chassis as he was able to finish closer to
-            his team mate than he managed at the last race weekend. Romain
-            Grosjean was a surprise sixth for Haas, 1.506s off the pace.
+            Mercedes dominated the Friday practice as they registered their
+            second one-two finish at the Circuit de Barcelona-Catalunya, with
+            Lewis Hamilton heading team mate Valtteri Bottas by 0.287s in Free
+            Practice 2, and Red Bull’s Max Verstappen third. Verstappen was the
+            best non-Mercedes runner, 0.821s adrift of Hamilton for Red Bull.
+            Daniel Ricciardo reconfirming Renault’s strong one-lap pace recently
+            by going fourth fastest, 0.164s off Verstappen and Romain Grosjean’s
+            Haas went one better in FP2, ending up fifth position.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Racing Point’s Sergio Perez, who returns after missing the two races
-            in Britain following a positive Covid-19 test, on mediums finished
-            seventh, and he was 0.180s off Haas’s Grosjean. Alex Albon finished
-            eighth for Red Bull with the other Haas of Kevin Magnussen just a
-            hundredth off him in P9 and the second Racing Point of Lance Stroll
-            rounding out the top 10 list.
+            Ferrari’s Charles Leclerc finished P6 as his team mate Sebastian
+            Vettel struggled more in FP2, ending up in P12. to Leclerc’s P6,
+            although the pair were only separated by 0.257s in FP1. Carlos Sainz
+            was P7 for McLaren in his new MCL35 chassis while Sergio Perez was
+            P8 on his first day back at the wheel of his Racing Point RP20 after
+            testing negative for Covid-19. The second Renault of Esteban Ocon,
+            who complained about a lack of rear stability on his R.S.20 before
+            finishing ninth, while Pierre Gasly for AlphaTauri, finished P11
+            rounding out the top 10.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Carlos Sainz of McLaren with a new chassis for this weekend finished
-            P11 in FP1, while team mate Lando Norris finished 13th quickest.
-            Renault’s Esteban Ocon finished 12th. The AlphaTauri drivers
-            finished 14th and 17th with Pierre Gasly faster than his team mate
-            Daniil Kvyat. Alfa Romeo drivers Antonio Giovinazzi and Kimi
-            Raikkonen, finished P15 and P16 respectively with Daniel Ricciardo
-            in the second Renault finished18th in this session, 2.445s off the
-            leader. Nicholas Latifi was 19th and Williams junior Roy Nissany
-            finished last in his first-ever F1 FP1 session.
+            The second Racing Point of Lance Stroll crossed the line in P11
+            whereas Alex Albon in P13 after having made a mistake out of Turn 5
+            on his fastest lap. Behind Vettel and Albon, Lando Norris finished
+            14th for McLaren, ahead of the second AlphaTauri of Daniil Kvyat and
+            the second Haas of Kevin Magnussen. Alfa Romeo’s Kimi Raikkonen and
+            Antonio Giovinazzi had a better performance from the last race with
+            P17 and P18 finishes, while Nicholas Latifi was the leading Williams
+            driver as George ended up 2.508s off the ultimate pace in P20 as he
+            felt his car was“driving on ice”.
           </p>
           {/* <p className='mt-1 text-base leading-normal text-gray-700'>
             View the complete {' '}

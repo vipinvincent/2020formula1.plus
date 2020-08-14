@@ -9,7 +9,7 @@ const F1: React.FC = () => {
         <img
           className='w-full h-full object-contain rounded-tl-xxl'
           src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1596777189/contentImages/content/f170_iwh29t.jpg'
-          alt='How heat and tyres could shake things up in the Spanish Grand Prix'
+          alt='McLaren chief Brown hits back at Szafnauers historic racing barb in tense press conference'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
@@ -18,39 +18,41 @@ const F1: React.FC = () => {
             FEATURE
           </div>
           <ActionLink
-            href='https://www.formula1.com/en/latest/article.thursdays-hot-topic-how-heat-and-tyres-could-shake-things-up-in-the-spanish.5StlqqmbgXjZSOYYoc2vk5.html'
+            href='https://www.formula1.com/en/latest/article.mclaren-chief-brown-hits-back-at-szafnauers-historic-racing-barb.7yxc4R5jbcnqhYNmyQD1sm.html'
             target='_blank'>
-            How heat and tyres could shake things up in the Spanish Grand Prix
+            McLaren chief Brown hits back at Szafnauer's 'historic racing' barb
+            in tense press conference
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The warm weather combined with softer tyre compounds at last
-            weekend’s 70th Anniversary Grand Prix at Silverstone created a
-            perfect storm of conditions to spice up the race. And with similarly
-            hot conditions expected in Spain, the hope is for more of the same
-            this weekend…
+            The Racing Point brake duct issue has been one of the biggest
+            controversies of the 2020 season so far, and the row raged on at the
+            Spanish Grand Prix as Racing Point Team Principal Otmar Szafnauer,
+            McLaren CEO Zak Brown and Renault Team Principal Cyril Abiteboul
+            discussed the issue in a tense press conference on Friday.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            A brief thunderstorm struck the Circuit de Barcelona-Catalunya late
-            on Thursday afternoon, soaking the paddock and giving those inside
-            it sweet respite from the searing heat that had battered them up
-            until that point. Usually in Barcelona, you’re either in need of a
-            winter coat and hat for pre-season testing, or only a couple of
-            layers as spring rolls in for the Grand Prix in May. Instead, F1
-            paddock folk were doing their best to find some shade or take
-            shelter and hydrate in their air conditioned hospitality units.
+            This week it was announced that Renault and Ferrari would be
+            officially appealing the stewards’ ruling on the RP20’s rear brake
+            ducts – deemed to be not of the team's own design. McLaren,
+            meanwhile, will not be appealing, but have voiced dissatisfaction
+            over the severity of the punishment handed down to Racing Point,
+            with Brown saying at Silverstone last week that claims from Racing
+            Point that the car had been designed via photographs of the 2019
+            Mercedes alone were ”BS”.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            That will be a recurring theme through the weekend, with conditions
-            expected to get even hotter – hitting 32C tomorrow and Saturday,
-            before dropping a single degree on Sunday. And while the tyre
-            compounds are one step harder in Barcelona – versus Silverstone –
-            they’ll still be a huge factor – as this track is punishing on the
-            rubber.
+            In response to Brown's comments, Szafnauer said: “He’s got no idea
+            what he’s talking about. Zero. And I’m surprised at how little he
+            knows about the rules of F1. It seems to me he knows more about
+            historic racing than he does about F1.” And at the press conference
+            at the Circuit de Barcelona-Catalunya after FP1 on Friday, the
+            tension was palpable as Brown was asked for a response on those
+            comments by Szafnauer.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.formula1.com/en/latest/article.thursdays-hot-topic-how-heat-and-tyres-could-shake-things-up-in-the-spanish.5StlqqmbgXjZSOYYoc2vk5.html'
+              href='https://www.formula1.com/en/latest/article.mclaren-chief-brown-hits-back-at-szafnauers-historic-racing-barb.7yxc4R5jbcnqhYNmyQD1sm.html'
               target='_blank'>
               formula1.com
             </ContentLink>{' '}

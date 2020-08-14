@@ -7,13 +7,13 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=zR3r-uKIJt0'
+        href='https://www.youtube.com/watch?v=Mt9hox1u6eo'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/zR3r-uKIJt0/sddefault.jpg'
+              src='https://img.youtube.com/vi/Mt9hox1u6eo/sddefault.jpg'
               alt='RACE PREVIEW: 2020 Formula 1 Spanish Grand Prix'
             />
           </div>
@@ -32,23 +32,23 @@ const Second: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=zR3r-uKIJt0'
+            href='https://www.youtube.com/watch?v=Mt9hox1u6eo'
             target='_blank'>
-            RACE PREVIEW: 2020 Formula 1 Spanish Grand Prix
+            Why Red Bull is So Desperate to Close the Gap to Mercedes This Year
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Spain’s Circuit de Barcelona-Catalunya is a welcome sight for F1
-            teams, drivers and fans, with the Montmeló circuit annually
-            providing a first taste of the competitive order in pre-season
-            testing. But this year’s Spanish Grand Prix will no doubt feel more
-            test than race given the event will be yet another held behind
-            closed doors. Watch the video, and tell us what you think in the
-            comments…
+            Red Bull has become the clear number two in F1 and they even gave
+            Mercedes their sternest test yet at the 70th Anniversary GP last
+            week. Team principal Christian Horner has looked at how they hope to
+            close the gap to Mercedes and be consistent challengers for race
+            wins this year and next year as well.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='http://theinsideline.com/ ' target='_blank'>
-              The Inside Line
+            <ContentLink
+              href='https://www.youtube.com/c/FormulaWorld/'
+              target='_blank'>
+              Formula World
             </ContentLink>
           </p>
         </div>

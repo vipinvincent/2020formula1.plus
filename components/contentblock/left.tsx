@@ -13,7 +13,7 @@ const Left: React.FC = () => {
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
-        <div className='px-4 pt-4 pb-1 text-left'>
+        <div className='px-4 pt-4 pb-4 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
             Race REPORT - 70TH ANNIVERSARY GP
           </div>
@@ -51,25 +51,26 @@ const Left: React.FC = () => {
             impressive fifth in the second Red Bull, passing the Racing Point of
             Lance Stroll with a lap to go. Both Racing point drivers could not
             keep up the qualifying performances in the race as Stroll finished
-            P6 ahead of stand-in team mate Nico Hulkenberg, who stopped very
+            P6 ahead of stand-in team mate Nico Hulkenberg.
+            {/* who stopped very
             late on for soft tyres, later clarified that the Nico has reported a
             significant vibration towards the end of the race. Renault’s Esteban
             Ocon finished P8, ahead of the McLaren of Lando Norris in P9 and the
             AlphaTauri of Daniil Kvyat in P10, despite of his lower starting
-            position, finished ahead of his team mate Pierre Gasly.
+            position, finished ahead of his team mate Pierre Gasly. */}
           </p>
-          <p className='mt-1'>
+          {/* <p className='mt-1'>
             The second Mclaren driver Carlos Sainz finished 13th and the Renault
             of Daniel Ricciardo who had spun battling Sainz in the middle phase
             of the race could only manage a disappointing P14, who started 5th.
-            {/* Kimi Räikkönen of Alfa Romeo finished P15 from the last place of the
+             Kimi Räikkönen of Alfa Romeo finished P15 from the last place of the
             start grid as his team mate Antonio Giovinazzi finished 17 just
             behind the Hass of Romain Grosjean who finished 16th. Both Williams
             drivers disappoints as they got rooted in the back of the grid with
             George Russell in 18th and Nicholas Latifi in 19th. Kevin Magnussen,
             the only non-finisher had to retire the car towards the end of the
-            race. */}
-          </p>
+            race. 
+          </p>*/}
           {/* <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink

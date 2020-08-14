@@ -15,55 +15,44 @@ const Right: React.FC = () => {
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-5 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            Qualifying Report - 70th Anniversary GP
+            FP1 REPORT - Spanish GP 2020
           </div>
           <H1>
-            Bottas beats Hamilton to 70th Anniversary GP pole as Hulkenberg
-            finished stunning third!!!
+            Bottas leads from Hamilton and Verstappen in Spanish GP first
+            practice session at Barcelona
           </H1>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Valtteri Bottas celebrated his extension of contact at Mercedes with
-            top position in qualifying and thereby beating Mercedes team mate
-            Lewis Hamilton who finished just 0.063s behind. The super sub Nico
-            Hulkenberg took a astounding third for the 70th Anniversary Grand
-            Prix at Silverstone. It should be noted that both Mercedes drivers
-            crossed the line in medium while Nico did his fastest lap on soft.
-            The German was one tenth of a second clear of Red Bull’s Max
-            Verstappen. Meanwhile Daniel Riccardo on mediums finished an
-            impressive fifth, equaling Renault’s best performance in the season
-            completes top 5.
+            A familiar grid for first practice at the Spanish Grand Prix as
+            Mercedes dominated with a 1-2 as Valtteri Bottas crossed the line
+            fastest in the first practice session with Lewis Hamilton finished
+            second with just 0.039s behind and Max Verstappen in third with 0.9s
+            after the leader. Ferrari’s Charles Leclerc finished fourth with
+            1.185s off Bottas and just 0.011s faster than team mate Sebastian
+            Vettel, who received a new chassis for this weekend after
+            discovering a “small fault” on his chassis and he looked to be more
+            comfortable with the new chassis as he was able to finish closer to
+            his team mate than he managed at the last race weekend. Romain
+            Grosjean was a surprise sixth for Haas, 1.506s off the pace.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The second Racing point of Stroll finished P6 with Pierre Gasly
-            continuing his brilliant start to the 2020 campaign with a stunning
-            P7 for AlphaTauri. Ferrari’s Charles Leclerc only managed P8, which
-            is Ferrari’s worst performance at Silverstone since 2014, with team
-            mate Sebastian Vettel failing to qualify Q2, who eventually finished
-            at a disappointing 12th. Red Bull’s Alexander Albon could make
-            through Q3 comfortable, this time and ended up half a second behind
-            team mate Verstappen. McLaren’s Lando Norris rounded out the top 10
-            list.
+            Racing Point’s Sergio Perez, who returns after missing the two races
+            in Britain following a positive Covid-19 test, on mediums finished
+            seventh, and he was 0.180s off Haas’s Grosjean. Alex Albon finished
+            eighth for Red Bull with the other Haas of Kevin Magnussen just a
+            hundredth off him in P9 and the second Racing Point of Lance Stroll
+            rounding out the top 10 list.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Esteban Ocon of Renault finished eleventh ahead of Sebastian Vettel
-            who had engine leakage issues in practice session; Later Esteban
-            Ocon has been handed a three-place grid penalty after blocking
-            George Russell during qualifying on Saturday. Second McLaren of
-            Carlos Sainz only managed thirteenth spot in the starting grid just
-            ahead of Haas’ Romain Grosjean who made it to Q2. Williams’ George
-            Russell was again impressive on Saturday with a Q2 promotion but
-            only managed fifteenth position in the grid. Second Williams car of
-            Nicolas Latifi managed p18 while both Alfa Romeos struggled again in
-            qualifying with both cars routed to rear end of the qualifying list.
-            Kimi Räikkönen finished 20th with his team mate Antonio Giovinazzi
-            out preforming again in Saturday Qualifying.
+            Carlos Sainz of McLaren with a new chassis for this weekend finished
+            P11 in FP1, while team mate Lando Norris finished 13th quickest.
+            Renault’s Esteban Ocon finished 12th. The AlphaTauri drivers
+            finished 14th and 17th with Pierre Gasly faster than his team mate
+            Daniil Kvyat. Alfa Romeo drivers Antonio Giovinazzi and Kimi
+            Raikkonen, finished P15 and P16 respectively with Daniel Ricciardo
+            in the second Renault finished18th in this session, 2.445s off the
+            leader. Nicholas Latifi was 19th and Williams junior Roy Nissany
+            finished last in his first-ever F1 FP1 session.
           </p>
-          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            “It feels good,” said pole-sitter Valtteri Bottas during post
-            qualifying conference. “I just love qualifying, especially when it
-            goes well."
-          </p>
-          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'></p>
 
           {/* <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}

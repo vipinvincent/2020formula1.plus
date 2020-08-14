@@ -4,7 +4,7 @@ import ContentLink from 'components/link/ContentLink'
 
 const BBC: React.FC = () => {
   return (
-    <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-0'>
+    <div className='relative bg-white-50 rounded-tl-xxl rounded-br-xxl shadow mt-0'>
       <div className='h-32 sm:h-48 w-full bg-bbc rounded-tl-xl'>
         <img
           className='w-full h-full object-contain rounded-tl-xl'
@@ -18,44 +18,35 @@ const BBC: React.FC = () => {
             Feature
           </div>
           <ActionLink
-            href='https://www.bbc.com/sport/formula1/53504023'
+            href='https://www.bbc.com/sport/formula1/53778066'
             target='_blank'>
-            Formula 1: US, Mexican & Brazilian races will not go ahead in 2020
+            Toto Wolff considering future as Mercedes boss after 2020 season
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Formula 1 has called off the US, Mexican and Brazilian Grands Prix
-            this year as a result of the coronavirus crisis in the Americas.
-            With infection rates rising in the three countries, F1 bosses
-            believe it would be irresponsible to hold races there.
+            Toto Wolff says he is considering whether to continue as Mercedes
+            team principal after this season. Under Wolff, Mercedes have become
+            the most successful F1 team in history but his contract runs out
+            this year.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Instead, three further races in Europe are to be added to the
-            calendar. These will see a return for Germany's Nurburgring and
-            Imola in Italy, and an F1 debut for Portugal's Portimao track. The
-            US Grand Prix in Austin, Texas, had been due to be held on 23
-            October, with the Mexican race in Mexico City a week later and
-            Brazil on 13 November. But F1 officials have accepted that it will
-            be impossible to hold the races.
+            He said he was discussing his future with Ola Kallenius, chairman of
+            Mercedes' parent company Daimler. "Many factors make me want to stay
+            but it takes its toll," Wolff said. "There is no reason not to
+            continue. We will find out in which role."
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Any hopes of reviving the Canadian race, originally scheduled for
-            June and postponed in April, have also been abandoned. The
-            coronavirus has a much lower prevalence in Canada, but the country
-            has local restrictions and travel rules that make impossible to hold
-            a race.
+            Wolff is a 30% shareholder in the Mercedes F1 team as well as its
+            boss, and that of the entire Mercedes motorsport programme. He said:
+            "We want to do the best for the team and continue to see the team
+            prosper. I really enjoy the role and my plan is to continue but I
+            never want to be in situation where you are becoming from very good
+            to good."
           </p>
-          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            An F1 statement said: "Due to the fluid nature of the ongoing
-            Covid-19 pandemic, local restrictions and the importance of keeping
-            communities and our colleagues safe, it will not be possible to race
-            in Brazil, USA, Mexico and Canada this season." The grand prix at
-            the Nurburgring, which last hosted a race in 2013, will be held on
-            11 October, when it will be vulnerable to bad weather.
-          </p>
+
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.bbc.com/sport/formula1/53504023'
+              href='https://www.bbc.com/sport/formula1/53778066'
               target='_blank'>
               bbc.com
             </ContentLink>{' '}

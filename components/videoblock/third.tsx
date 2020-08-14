@@ -7,13 +7,13 @@ const Third: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=D69RkzK6pJY'
+        href='https://www.youtube.com/watch?v=B7RamGHr-WA'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/D69RkzK6pJY/sddefault.jpg'
+              src='https://img.youtube.com/vi/B7RamGHr-WA/sddefault.jpg'
               alt='Spanish GP A Must Win For Bottas?'
             />
           </div>
@@ -32,16 +32,15 @@ const Third: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=D69RkzK6pJY'
+            href='https://www.youtube.com/watch?v=B7RamGHr-WA'
             target='_blank'>
-            Spanish GP A Must Win For Bottas?
+            Will Hulkenberg Return To F1 Full-Time Next Season?
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            After finishing behind teammate Lewis Hamilton last weekend and
-            falling behind Max Verstappen in the Drivers’ Championship, this
-            weekend’s Spanish Grand Prix is an important race for Valtteri
-            Bottas. But is it a must win race for the Finn if he wants to
-            challenge for the F1 World Title?
+            Nico Hulkenberg returned to F1 in place of Sergio Perez for the
+            British and 70th Anniversary Grands Prix. But with the Mexican back
+            for Barcelona, what now for the Hulk? Has he done enough to land a
+            seat for 2021? And if so, what are his options?
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}

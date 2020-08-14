@@ -18,35 +18,34 @@ const TheRace: React.FC = () => {
             News
           </div>
           <ActionLink
-            href='https://the-race.com/formula-1/vettel-and-ferraris-last-attempt-at-harmony/'
+            href='https://the-race.com/formula-1/renault-racing-point-should-lose-all-points-since-f1-opener/'
             target='_blank'>
-            Vettel and Ferrari’s last attempt at harmony
+            Renault: Racing Point should lose all points since F1 opener
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Ahead of the Spanish Grand Prix Sebastian Vettel was playing down
-            his antagonism towards the Ferrari team that was very evident last
-            week at Silverstone’s 70th Anniversary event.
+            Renault team principal Cyril Abiteboul says he wants Racing Point
+            lose all of the points it has scored in races where his team
+            protested its illegally-designed brake ducts.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            His open hostility over the radio towards his team, during which he
-            said, “You know you’ve messed up”, and his subsequent post-race
-            criticism of Ferrari’s strategy and tyre choices had many
-            questioning whether the partnership could even run its contracted
-            term until the end of this season. At Barcelona he was attributing
-            that outburst to the emotion of the race – which had gone badly –
-            and its immediate aftermath and implied it was unrepresentative of
-            the reality of the relationship.
+            Renault is pressing on with its appeal against the FIA stewards’
+            verdict issued at last weekend’s 70th Anniversary Grand Prix, which
+            resulted in Racing Point being docked 15 points and fined E400,000
+            but being allowed to continue to run the illegally-designed rear
+            brake ducts for the rest of the season with only repeated
+            reprimands.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            He also conceded that the idea of him not continuing with the team
-            until the end of the season was not a decision that involved only
-            him, the implication being he acknowledged the possibility of him
-            being dropped.
+            Abiteboul drew comparisons with his team losing a double points
+            finish after being excluded from last year’s Japanese Grand Prix for
+            using an automatic brake-bias adjustment system, which broke the
+            rules demanding that the car be driven alone and unaided following a
+            protest from Racing Point.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://the-race.com/formula-1/vettel-and-ferraris-last-attempt-at-harmony/'
+              href='https://the-race.com/formula-1/renault-racing-point-should-lose-all-points-since-f1-opener/'
               target='_blank'>
               the-race.com
             </ContentLink>{' '}
