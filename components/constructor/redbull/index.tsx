@@ -8,7 +8,7 @@ const redbull: React.FC = () => {
         Red Bull Racing F1 - RB 16
       </div>
       <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mb-4'>
-        <div className='h-48 sm:h-64 lg:h-96 w-full text-center'>
+        <div className='h-32 sm:h-48 lg:h-72 w-full text-center'>
           <img
             className='w-full h-full object-cover rounded-tl-xxl rounded-br-xl-t text-center'
             src='/images/cars/redbull.jpg'

@@ -14,7 +14,7 @@ import TheRace from 'components/contentblock/therace'
 import FirstContent from 'components/contentblock/main'
 import SecondContent from 'components/contentblock/left'
 import ThirdContent from 'components/contentblock/right'
-// import FourthContent from 'components/contentblock/second'
+import FourthContent from 'components/contentblock/second'
 
 const Main: React.FC = () => {
   return (
@@ -36,9 +36,9 @@ const Main: React.FC = () => {
           <ThirdContent />
         </div>
       </div>
-      {/* <div className='w-100 mt-4'>
+      <div className='w-100 mt-4'>
         <FourthContent />
-      </div> */}
+      </div>
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mt-4 mb-1 px-2'>
         Featured news on F1 news Sources
       </div>
