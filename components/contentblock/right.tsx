@@ -8,8 +8,8 @@ const Right: React.FC = () => {
       <div className='h-40 xl:h-48 w-full'>
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
-          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1595072621/contentImages/content/valtteri_-bottas_m5dgbs.jpg'
-          alt=' Bottas beats Hamilton to 70th Anniversary GP pole as Hulkenberg finished stunning third!!!'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1597490683/contentImages/content/lewis-hamilton3_za9deq.jpg'
+          alt='FP3 REPORT - Spanish GP 2020'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
@@ -57,10 +57,9 @@ const Right: React.FC = () => {
             Romain Grosjean took a new engine after a failure at the end of FP2
             but couldn’t replicate his impressive form and ended up 13th, just
             ahead of Kimi Raikkonen who improved very late in the session for
-            P14 in his Alfa Romeo.
-            {/* Lando Norris
-            could only manage 15th, ahead of AlphaTauri's Daniil Kvyat and Kevin
-            of Haas. Antonio Giovinazzi took P18 ahead of the two Williams, with
+            P14 in his Alfa Romeo. Lando Norris could only manage 15th, ahead of
+            AlphaTauri's Daniil Kvyat and Kevin of Haas.
+            {/* Antonio Giovinazzi took P18 ahead of the two Williams, with
             George Russell ahead of Nicholas Latifi who rooted in last spot. */}
           </p>
 

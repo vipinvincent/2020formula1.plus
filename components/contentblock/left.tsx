@@ -15,43 +15,45 @@ const Left: React.FC = () => {
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-2 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            FP2 REPORT - Spanish GP 2020
+            Qualifying REPORT - Spanish GP 2020
           </div>
           <H1>
-            Hamilton leads from Bottas and Verstappen with Ricciardo and
-            Grosjean in P4 and P5
+            Hamilton with 92nd pole tops the qualifying at 2020 Spanish GP with
+            Bottas in P2 and Verstappen in P3
           </H1>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Mercedes dominated the Friday practice as they registered their
-            second one-two finish at the Circuit de Barcelona-Catalunya, with
-            Lewis Hamilton heading team mate Valtteri Bottas by 0.287s in Free
-            Practice 2, and Red Bull’s Max Verstappen third. Verstappen was the
-            best non-Mercedes runner, 0.821s adrift of Hamilton for Red Bull.
-            Daniel Ricciardo reconfirming Renault’s strong one-lap pace recently
-            by going fourth fastest, 0.164s off Verstappen and Romain Grosjean’s
-            Haas went one better in FP2, ending up fifth position.
+            Mercedes’ domination in the practice sessions reflects in qualifying
+            with Lewis Hamilton heading team mate Valtteri Bottas by just
+            +0.059s Red Bull’s Max Verstappen qualified third by 0.708s down on
+            pole, ahead of the Racing Points of Sergio Perez and Lance Stroll.
+            Verstappen just crossed ahead of Perez for third, as he too failed
+            to improve on his final run, with Perez setting a personal best but
+            still being unable to get ahead of the Red Bull. Lance Stroll was
+            sixth ahead of Alex Albon in the other Red Bull in sixth, with
+            Carlos Sainz Jr leading Lando Norris who only made into Q3 by
+            0.002s, in seventh and eighth for McLaren. Ferrari’s Charles Leclerc
+            and Pierre Gasly (AlphaTauri) rounded out the top 10.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Ferrari’s Charles Leclerc finished P6 as his team mate Sebastian
-            Vettel struggled more in FP2, ending up in P12. to Leclerc’s P6,
-            although the pair were only separated by 0.257s in FP1. Carlos Sainz
-            was P7 for McLaren in his new MCL35 chassis while Sergio Perez was
-            P8 on his first day back at the wheel of his Racing Point RP20 after
-            testing negative for Covid-19. The second Renault of Esteban Ocon,
-            who complained about a lack of rear stability on his R.S.20 before
-            finishing ninth, while Pierre Gasly for AlphaTauri, finished P11
-            rounding out the top 10.
+            Gasly's late improvement towards the end of Q2 knocked out Sebastian
+            Vettel, and the second Ferrari will start 11th for the second race
+            in a row. To make things worse It is for the third time this season
+            he has not made it into the Q3 in qualifying. Daniil Kvyat, finishes
+            12th 12th ahead of Daniel Ricciardo who will face a post-qualifying
+            investigation for an incident with Kevin Magnussen at the second
+            corner in Q1. Kimi Raikkonen scored his best qualifying result so
+            far in 2020 with 14th, as Esteban Ocon finished as the slowest
+            driver in Q2.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The second Racing Point of Lance Stroll crossed the line in P11
-            whereas Alex Albon in P13 after having made a mistake out of Turn 5
-            on his fastest lap. Behind Vettel and Albon, Lando Norris finished
-            14th for McLaren, ahead of the second AlphaTauri of Daniil Kvyat and
-            the second Haas of Kevin Magnussen. Alfa Romeo’s Kimi Raikkonen and
-            Antonio Giovinazzi had a better performance from the last race with
-            P17 and P18 finishes, while Nicholas Latifi was the leading Williams
-            driver as George ended up 2.508s off the ultimate pace in P20 as he
-            felt his car was“driving on ice”.
+            Kevin Magnussen managed to outqualify Romain Grosjean despite being
+            behind in all three practice. George Russell did not make it into Q2
+            for the first time since the season opener, but he maintained his
+            100% qualifying record over Nicholas Latifi and Williams. Antonio
+            Giovinazzi finished last in Q1, almost a second slower than his
+            teammate with his best time, after earlier running heavily over the
+            kerb at the exit of the final corner on his penultimate flying
+            effort.
           </p>
           {/* <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
