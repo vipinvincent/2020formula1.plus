@@ -19,7 +19,7 @@ const Right: React.FC = () => {
           </div>
           <H1>
             Mercedes completes a clean sweep in practice sessions with Hamilton
-            leads from Bottas and Verstappen FP3
+            leads from Bottas and Verstappen in FP3
           </H1>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             Mercedes domination fulfilled in the free practice sessions as they

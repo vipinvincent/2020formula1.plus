@@ -9,7 +9,7 @@ const Left: React.FC = () => {
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
           src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594992043/contentImages/content/mercedes12_ufegj1.jpg'
-          alt=' FP2 REPORT - Spanish GP 2020'
+          alt='FP2 REPORT - Spanish GP 2020'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
@@ -18,21 +18,22 @@ const Left: React.FC = () => {
             Qualifying REPORT - Spanish GP 2020
           </div>
           <H1>
-            Hamilton with 92nd pole tops the qualifying at 2020 Spanish GP with
-            Bottas in P2 and Verstappen in P3
+            Hamilton with his 92nd pole tops the qualifying with Bottas in P2
+            and Verstappen in P3
           </H1>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             Mercedes’ domination in the practice sessions reflects in qualifying
-            with Lewis Hamilton heading team mate Valtteri Bottas by just
-            +0.059s Red Bull’s Max Verstappen qualified third by 0.708s down on
-            pole, ahead of the Racing Points of Sergio Perez and Lance Stroll.
-            Verstappen just crossed ahead of Perez for third, as he too failed
-            to improve on his final run, with Perez setting a personal best but
-            still being unable to get ahead of the Red Bull. Lance Stroll was
-            sixth ahead of Alex Albon in the other Red Bull in sixth, with
-            Carlos Sainz Jr leading Lando Norris who only made into Q3 by
-            0.002s, in seventh and eighth for McLaren. Ferrari’s Charles Leclerc
-            and Pierre Gasly (AlphaTauri) rounded out the top 10.
+            with Lewis Hamilton heading his team mate Valtteri Bottas by just
+            +0.059s. Red Bull’s Max Verstappen qualified third by 0.708s down on
+            leader, ahead of the Racing Point's of Sergio Perez and Lance
+            Stroll. Verstappen just crossed ahead of Perez for third, as he
+            failed to improve on his final run, with Perez setting a personal
+            best but still being unable to get ahead of the Red Bull. Lance
+            Stroll was sixth ahead of Alex Albon in the other Red Bull in sixth,
+            with Carlos Sainz leading his team mate Lando Norris who only made
+            into Q3 by 0.002s, in seventh and eighth for McLaren. Ferrari’s
+            Charles Leclerc and Pierre Gasly (AlphaTauri) rounded out the top
+            10.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             Gasly's late improvement towards the end of Q2 knocked out Sebastian
