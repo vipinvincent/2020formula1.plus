@@ -2,7 +2,7 @@ import React from 'react'
 import H1 from 'components/heading/H1'
 // import ActionLink from 'components/link/ActionLink'
 
-const Right: React.FC = () => {
+const Archive21: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <div className='h-40 xl:h-48 w-full'>
@@ -13,55 +13,45 @@ const Right: React.FC = () => {
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
-        <div className='px-4 pt-4 pb-2 text-left'>
+        <div className='px-4 pt-4 pb-8 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            FP3 REPORT - Spanish GP 2020
+            FP1 REPORT - Spanish GP 2020
           </div>
           <H1>
-            Mercedes completes a clean sweep in practice sessions with Hamilton
-            leads from Bottas and Verstappen FP3
+            Bottas leads from Hamilton and Verstappen in Spanish GP first
+            practice session at Barcelona
           </H1>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Mercedes domination fulfilled in the free practice sessions as they
-            registered their “Hat Trick” one-two finish at the Circuit de
-            Barcelona-Catalunya, with Lewis Hamilton heading team mate Valtteri
-            Bottas by +0.151s in Free Practice 3, and Red Bull’s Max Verstappen
-            third. Verstappen improved his performance with jut +0.515s adrift
-            of Hamilton for Red Bull. McLaren’s Carlos Sainz could gather back
-            his rhythm as he finished P4 with Sergio Perez of Racing point in an
-            impressive P5 on his comeback after the Covid 19 recovery.
+            A familiar grid for first practice at the Spanish Grand Prix as
+            Mercedes dominated with a 1-2 as Valtteri Bottas crossed the line
+            fastest in the first practice session with Lewis Hamilton finished
+            second with just 0.039s behind and Max Verstappen in third with 0.9s
+            after the leader. Ferrari’s Charles Leclerc finished fourth with
+            1.185s off Bottas and just 0.011s faster than team mate Sebastian
+            Vettel, who received a new chassis for this weekend after
+            discovering a “small fault” on his chassis and he looked to be more
+            comfortable with the new chassis as he was able to finish closer to
+            his team mate than he managed at the last race weekend. Romain
+            Grosjean was a surprise sixth for Haas, 1.506s off the pace.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Ferrari’s Charles Leclerc who was a tenth slower than Racing Point
-            finised P6 with his Team mate Sebastian Vettel , running a new
-            chassis this weekend could not improve his form, but finished P12
-            which was half a second off Leclerc, having expressed some optimism
-            after a solid Friday. AlphaTauri’s Pierre Gasly was the final driver
-            who was under a second away from Hamilton’s time finishes in P7,
-            with the second Racing Point of Lance Stroll narrowly behind for P8.
-            Alexander Albon in the second Red Bull only managed P9 with 0.634s
-            slower than his team mate Max. Daniel Ricciardo of Renault couldn’t
-            keep up his performance of FP2 rounds the top 10 list.
+            Racing Point’s Sergio Perez, who returns after missing the two races
+            in Britain following a positive Covid-19 test, on mediums finished
+            seventh, and he was 0.180s off Haas’s Grosjean. Alex Albon finished
+            eighth for Red Bull with the other Haas of Kevin Magnussen just a
+            hundredth off him in P9 and the second Racing Point of Lance Stroll
+            rounding out the top 10 list.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Ocon ended up 11th quickest before his crash, over 0.2s behind team
-            mate Daniel Ricciardo. Ocon found himself darted into a slow-moving
-            Kevin Magnussen on the run-up to Turn 4.
-            {/* Ocon spun in avoidance and
-            hit the wall on the right-hand-side, ripping off his front wing and
-            bringing out a red flag to end the session with a couple of minutes
-            left on the clock. */}
-            {/* The Renault mechanics will have less than two
-            hours before qualifying begins so that they could fix the issues and
-            make it ready for the grid. */}
-            Romain Grosjean took a new engine after a failure at the end of FP2
-            but couldn’t replicate his impressive form and ended up 13th, just
-            ahead of Kimi Raikkonen who improved very late in the session for
-            P14 in his Alfa Romeo.
-            {/* Lando Norris
-            could only manage 15th, ahead of AlphaTauri's Daniil Kvyat and Kevin
-            of Haas. Antonio Giovinazzi took P18 ahead of the two Williams, with
-            George Russell ahead of Nicholas Latifi who rooted in last spot. */}
+            Carlos Sainz of McLaren with a new chassis for this weekend finished
+            P11 in FP1, while team mate Lando Norris finished 13th quickest.
+            Renault’s Esteban Ocon finished 12th. The AlphaTauri drivers
+            finished 14th and 17th with Pierre Gasly faster than his team mate
+            Daniil Kvyat. Alfa Romeo drivers Antonio Giovinazzi and Kimi
+            Raikkonen, finished P15 and P16 respectively with Daniel Ricciardo
+            in the second Renault finished18th in this session, 2.445s off the
+            leader. Nicholas Latifi was 19th and Williams junior Roy Nissany
+            finished last in his first-ever F1 FP1 session.
           </p>
 
           {/* <p className='mt-1 text-base leading-normal text-gray-700'>
@@ -182,4 +172,4 @@ const Right: React.FC = () => {
     </div>
   )
 }
-export default Right
+export default Archive21

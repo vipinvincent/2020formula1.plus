@@ -2,7 +2,7 @@ import React from 'react'
 import H1 from 'components/heading/H1'
 // import ActionLink from 'components/link/ActionLink'
 
-const Main: React.FC = () => {
+const Archive20: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <div className='h-48 md:h-64 xl:h-104 w-full'>
@@ -75,4 +75,4 @@ const Main: React.FC = () => {
     </div>
   )
 }
-export default Main
+export default Archive20
