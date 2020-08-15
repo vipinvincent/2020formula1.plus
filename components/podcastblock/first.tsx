@@ -7,13 +7,13 @@ const First: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=qRt_sikgMWw'
+        href='https://www.youtube.com/watch?v=Dl0Mq0GnGyE'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-40 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/qRt_sikgMWw/sddefault.jpg'
+              src='https://img.youtube.com/vi/Dl0Mq0GnGyE/sddefault.jpg'
               alt='FP1 Post Podium Podcast Episode 5: 70th Anniversary Grand Prix'
             />
           </div>
@@ -32,15 +32,17 @@ const First: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=qRt_sikgMWw'
+            href='https://www.youtube.com/watch?v=Dl0Mq0GnGyE'
             target='_blank'>
-            FP1 Post Podium Podcast Episode 5: 70th Anniversary Grand Prix
+            How Bad is Roy Nissany?
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Welcome back to the FP1 Post Podium Podcast, back this week with The
-            Apex Motorsport to discuss the 70th Anniversary Grand Prix. Make
-            sure you check out the guys and subscribe to their channel, all
-            links are below!
+            In FP1 of the 2020 Formula One Spanish Grand Prix Roy Nissany made
+            his debut for the Williams F1 team, having been announced as part of
+            their junior programme back at the start of the year. But who
+            actually is this guy and does he deserve this chance given the likes
+            of W Series Champion and fellow Williams Junior Driver Jamie
+            Chadwick has had no such opportunity?
           </p>
 
           <p className='mt-1 text-base leading-normal text-gray-700'>

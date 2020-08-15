@@ -18,34 +18,37 @@ const TheRace: React.FC = () => {
             News
           </div>
           <ActionLink
-            href='https://the-race.com/formula-1/renault-racing-point-should-lose-all-points-since-f1-opener/'
+            href='https://the-race.com/formula-1/whats-behind-haas-and-grosjeans-absolutely-mega-friday/'
             target='_blank'>
-            Renault: Racing Point should lose all points since F1 opener
+            What’s behind Haas and Grosjean’s ‘absolutely mega’ Friday?
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Renault team principal Cyril Abiteboul says he wants Racing Point
-            lose all of the points it has scored in races where his team
-            protested its illegally-designed brake ducts.
+            A Haas driver in the top 10 has been vanishingly rare during the
+            2020 Formula 1 season, yet Romain Grosjean managed to be in the top
+            six in both Friday practice sessions for the Spanish Grand Prix. As
+            Grosjean himself put it: “today was absolutely mega”.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Renault is pressing on with its appeal against the FIA stewards’
-            verdict issued at last weekend’s 70th Anniversary Grand Prix, which
-            resulted in Racing Point being docked 15 points and fined E400,000
-            but being allowed to continue to run the illegally-designed rear
-            brake ducts for the rest of the season with only repeated
-            reprimands.
+            While Haas is not suddenly a contender for the third row, this pace
+            does hint that it could be on for its strongest weekend of a
+            difficult season, in which Kevin Magnussen’s point for 10th in the
+            Hungarian Grand Prix has been the only tangible result. As well as
+            being quick, Grosjean was also confident in the car and believes
+            there was a little more time left on the table had he nailed a
+            perfect qualifying simulation lap in Q2.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Abiteboul drew comparisons with his team losing a double points
-            finish after being excluded from last year’s Japanese Grand Prix for
-            using an automatic brake-bias adjustment system, which broke the
-            rules demanding that the car be driven alone and unaided following a
-            protest from Racing Point.
+            “It’s getting better and better especially [using] the hard tyre at
+            the beginning of FP2 and then on the soft gaining 2.5s, so obviously
+            it’s never going to be a perfect lap because you can’t gain so much
+            and then get it perfectly right,” said Grosjean. “There’s a few
+            corners that I’m going to have to look at and to work on and then we
+            should be able to fight for a good position.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://the-race.com/formula-1/renault-racing-point-should-lose-all-points-since-f1-opener/'
+              href='https://the-race.com/formula-1/whats-behind-haas-and-grosjeans-absolutely-mega-friday/'
               target='_blank'>
               the-race.com
             </ContentLink>{' '}

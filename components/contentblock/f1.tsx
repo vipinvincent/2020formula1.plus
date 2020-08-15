@@ -9,7 +9,7 @@ const F1: React.FC = () => {
         <img
           className='w-full h-full object-contain rounded-tl-xxl'
           src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1596777189/contentImages/content/f170_iwh29t.jpg'
-          alt='McLaren chief Brown hits back at Szafnauers historic racing barb in tense press conference'
+          alt='Sainz and Grosjean take new engines ahead of Spanish GP final practice'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
@@ -18,41 +18,35 @@ const F1: React.FC = () => {
             FEATURE
           </div>
           <ActionLink
-            href='https://www.formula1.com/en/latest/article.mclaren-chief-brown-hits-back-at-szafnauers-historic-racing-barb.7yxc4R5jbcnqhYNmyQD1sm.html'
+            href='https://www.formula1.com/en/latest/article.sainz-and-grosjean-take-new-engines-ahead-of-spanish-gp-final-practice.4KvkFMdSqWDyb6nWv2ULCv.html'
             target='_blank'>
-            McLaren chief Brown hits back at Szafnauer's 'historic racing' barb
-            in tense press conference
+            Sainz and Grosjean take new engines ahead of Spanish GP final
+            practice
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The Racing Point brake duct issue has been one of the biggest
-            controversies of the 2020 season so far, and the row raged on at the
-            Spanish Grand Prix as Racing Point Team Principal Otmar Szafnauer,
-            McLaren CEO Zak Brown and Renault Team Principal Cyril Abiteboul
-            discussed the issue in a tense press conference on Friday.
+            McLaren have given Carlos Sainz a fresh power unit ahead of final
+            practice for the Spanish Grand Prix, as they continue their quest to
+            cure his car’s cooling issues, while Haas have done the same for
+            Romain Grosjean, too, after he lost power towards the end of FP2…
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            This week it was announced that Renault and Ferrari would be
-            officially appealing the stewards’ ruling on the RP20’s rear brake
-            ducts – deemed to be not of the team's own design. McLaren,
-            meanwhile, will not be appealing, but have voiced dissatisfaction
-            over the severity of the punishment handed down to Racing Point,
-            with Brown saying at Silverstone last week that claims from Racing
-            Point that the car had been designed via photographs of the 2019
-            Mercedes alone were ”BS”.
+            Sainz was at a loss to explain why the cooling issues that held him
+            back at Silverstone last weekend were still costing him performance
+            at his home Grand Prix, even after they changed a host of parts
+            including the chassis, and admitted they are “starting to run out of
+            things to try”.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            In response to Brown's comments, Szafnauer said: “He’s got no idea
-            what he’s talking about. Zero. And I’m surprised at how little he
-            knows about the rules of F1. It seems to me he knows more about
-            historic racing than he does about F1.” And at the press conference
-            at the Circuit de Barcelona-Catalunya after FP1 on Friday, the
-            tension was palpable as Brown was asked for a response on those
-            comments by Szafnauer.
+            The next step was to change the power unit, with McLaren opting to
+            fit a fresh Renault internal combustion engine (ICE), turbocharger,
+            MGU-H and MGU-K ahead of final practice at Barcelona on Saturday
+            morning. It is the first time he has changed any of those
+            components, so he can do so penalty free.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.formula1.com/en/latest/article.mclaren-chief-brown-hits-back-at-szafnauers-historic-racing-barb.7yxc4R5jbcnqhYNmyQD1sm.html'
+              href='https://www.formula1.com/en/latest/article.sainz-and-grosjean-take-new-engines-ahead-of-spanish-gp-final-practice.4KvkFMdSqWDyb6nWv2ULCv.html'
               target='_blank'>
               formula1.com
             </ContentLink>{' '}

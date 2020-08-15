@@ -7,50 +7,56 @@ const Main: React.FC = () => {
       <div className='h-48 md:h-64 xl:h-104 w-full'>
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
-          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594992043/contentImages/content/mercedes12_ufegj1.jpg'
-          alt=' FP2 REPORT - Spanish GP 2020'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1597490683/contentImages/content/lewis-hamilton3_za9deq.jpg'
+          alt='FP3 REPORT - Spanish GP 2020'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-2 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            FP2 REPORT - Spanish GP 2020
+            FP3 REPORT - Spanish GP 2020
           </div>
           <H1>
-            Hamilton leads from Bottas and Verstappen with Ricciardo and
-            Grosjean in P4 and P5
+            Mercedes completes a clean sweep in practice sessions with Hamilton
+            leads from Bottas and Verstappen FP3
           </H1>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Mercedes dominated the Friday practice as they registered their
-            second one-two finish at the Circuit de Barcelona-Catalunya, with
-            Lewis Hamilton heading team mate Valtteri Bottas by 0.287s in Free
-            Practice 2, and Red Bull’s Max Verstappen third. Verstappen was the
-            best non-Mercedes runner, 0.821s adrift of Hamilton for Red Bull.
-            Daniel Ricciardo reconfirming Renault’s strong one-lap pace recently
-            by going fourth fastest, 0.164s off Verstappen and Romain Grosjean’s
-            Haas went one better in FP2, ending up fifth position.
+            Mercedes domination fulfilled in the free practice sessions as they
+            registered their “Hat Trick” one-two finish at the Circuit de
+            Barcelona-Catalunya, with Lewis Hamilton heading team mate Valtteri
+            Bottas by +0.151s in Free Practice 3, and Red Bull’s Max Verstappen
+            third. Verstappen improved his performance with jut +0.515s adrift
+            of Hamilton for Red Bull. McLaren’s Carlos Sainz could gather back
+            his rhythm as he finished P4 with Sergio Perez of Racing point in an
+            impressive P5 on his comeback after the Covid 19 recovery.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Ferrari’s Charles Leclerc finished P6 as his team mate Sebastian
-            Vettel struggled more in FP2, ending up in P12. to Leclerc’s P6,
-            although the pair were only separated by 0.257s in FP1. Carlos Sainz
-            was P7 for McLaren in his new MCL35 chassis while Sergio Perez was
-            P8 on his first day back at the wheel of his Racing Point RP20 after
-            testing negative for Covid-19. The second Renault of Esteban Ocon,
-            who complained about a lack of rear stability on his R.S.20 before
-            finishing ninth, while Pierre Gasly for AlphaTauri, finished P11
-            rounding out the top 10.
+            Ferrari’s Charles Leclerc who was a tenth slower than Racing Point
+            finised P6 with his Team mate Sebastian Vettel , running a new
+            chassis this weekend could not improve his form, but finished P12
+            which was half a second off Leclerc, having expressed some optimism
+            after a solid Friday. AlphaTauri’s Pierre Gasly was the final driver
+            who was under a second away from Hamilton’s time finishes in P7,
+            with the second Racing Point of Lance Stroll narrowly behind for P8.
+            Alexander Albon in the second Red Bull only managed P9 with 0.634s
+            slower than his team mate Max. Daniel Ricciardo of Renault couldn’t
+            keep up his performance of FP2 rounds the top 10 list.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The second Racing Point of Lance Stroll crossed the line in P11
-            whereas Alex Albon in P13 after having made a mistake out of Turn 5
-            on his fastest lap. Behind Vettel and Albon, Lando Norris finished
-            14th for McLaren, ahead of the second AlphaTauri of Daniil Kvyat and
-            the second Haas of Kevin Magnussen. Alfa Romeo’s Kimi Raikkonen and
-            Antonio Giovinazzi had a better performance from the last race with
-            P17 and P18 finishes, while Nicholas Latifi was the leading Williams
-            driver as George ended up 2.508s off the ultimate pace in P20 as he
-            felt his car was“driving on ice”.
+            Ocon ended up 11th quickest before his crash, over 0.2s behind team
+            mate Daniel Ricciardo. Ocon found himself darted into a slow-moving
+            Kevin Magnussen on the run-up to Turn 4. Ocon spun in avoidance and
+            hit the wall on the right-hand-side, ripping off his front wing and
+            bringing out a red flag to end the session with a couple of minutes
+            left on the clock. The Renault mechanics will have less than two
+            hours before qualifying begins so that they could fix the issues and
+            make it ready for the grid. Romain Grosjean took a new engine after
+            a failure at the end of FP2 but couldn’t replicate his impressive
+            form and ended up 13th, just ahead of Kimi Raikkonen who improved
+            very late in the session for P14 in his Alfa Romeo. Lando Norris
+            could only manage 15th, ahead of AlphaTauri's Daniil Kvyat and Kevin
+            of Haas. Antonio Giovinazzi took P18 ahead of the two Williams, with
+            George Russell ahead of Nicholas Latifi who rooted in last spot.
           </p>
           {/* <p className='mt-1 text-base leading-normal text-gray-700'>
             View the complete {' '}

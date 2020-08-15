@@ -7,14 +7,14 @@ const Third: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=B7RamGHr-WA'
+        href='https://www.youtube.com/watch?v=YYCGlAYoYt8'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/B7RamGHr-WA/sddefault.jpg'
-              alt='Spanish GP A Must Win For Bottas?'
+              src='https://img.youtube.com/vi/YYCGlAYoYt8/sddefault.jpg'
+              alt='How to Master the Spanish GP! | Nico Rosberg'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,20 +32,22 @@ const Third: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=B7RamGHr-WA'
+            href='https://www.youtube.com/watch?v=YYCGlAYoYt8'
             target='_blank'>
-            Will Hulkenberg Return To F1 Full-Time Next Season?
+            How to Master the Spanish GP! | Nico Rosberg
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Nico Hulkenberg returned to F1 in place of Sergio Perez for the
-            British and 70th Anniversary Grands Prix. But with the Mexican back
-            for Barcelona, what now for the Hulk? Has he done enough to land a
-            seat for 2021? And if so, what are his options?
+            My next F1 Fridays episode! What an incredibly interesting Formula 1
+            2020 Season so far! Check out my in-depth analysis of the 2020
+            Spanish Grand Prix track. where I share the F1 drivers’ secrets on
+            how to master the Circuit de Barcelona-Catalunya. Of course,
+            followed by a hot lap and my F1 Fan Q&A – answering your questions
+            about the Spanish GP weekend.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href=' https://www.gptoday.net/en/' target='_blank'>
-              The F1 Word
+            <ContentLink href='http://www.nicorosberg.com' target='_blank'>
+              Nico Rosberg
             </ContentLink>
           </p>
         </div>

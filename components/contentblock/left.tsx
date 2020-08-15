@@ -8,69 +8,51 @@ const Left: React.FC = () => {
       <div className='h-40 xl:h-48 w-full'>
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
-          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1596990283/contentImages/content/max_afwfdz.jpg'
-          alt=' Max Verstappen defeats Mercedes at Silverstone and wins Formula 1s 70th Anniversary Grand Prix. '
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594992043/contentImages/content/mercedes12_ufegj1.jpg'
+          alt=' FP2 REPORT - Spanish GP 2020'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
-        <div className='px-4 pt-4 pb-4 text-left'>
+        <div className='px-4 pt-4 pb-2 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            Race REPORT - 70TH ANNIVERSARY GP
+            FP2 REPORT - Spanish GP 2020
           </div>
           <H1>
-            Max Verstappen defeats Mercedes at Silverstone and wins Formula 1's
-            70th Anniversary Grand Prix.{' '}
+            Hamilton leads from Bottas and Verstappen with Ricciardo and
+            Grosjean in P4 and P5
           </H1>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Max Verstappen has become the first non-Mercedes driver to win a
-            race in 2020 F1 season aided with incredible driving and a brilliant
-            strategy by the team. The interesting choice of tyres made by the F1
-            for the 70th Anniversary Grand Prix produced an action-packed racing
-            throughout the grid, encouraging teams to try out wide variety of
-            strategies. Verstappen being the only driver in the top 10 to begin
-            the race on the hard tyres. quickly passed the Racing Point of Nico
-            Hulkenberg in P3 and he managed his pace brilliantly throughout the
-            race, pressuring the Mercedes and forcing them to take alternative
-            strategies secures his first victory since Brazil last year and Red
-            Bull’s first win at Silverstone since 2012.
+            Mercedes dominated the Friday practice as they registered their
+            second one-two finish at the Circuit de Barcelona-Catalunya, with
+            Lewis Hamilton heading team mate Valtteri Bottas by 0.287s in Free
+            Practice 2, and Red Bull’s Max Verstappen third. Verstappen was the
+            best non-Mercedes runner, 0.821s adrift of Hamilton for Red Bull.
+            Daniel Ricciardo reconfirming Renault’s strong one-lap pace recently
+            by going fourth fastest, 0.164s off Verstappen and Romain Grosjean’s
+            Haas went one better in FP2, ending up fifth position.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Lewis Hamilton of Mercedes accomplished a late-race surge on his
-            team mate Valtteri Bottas with two laps to go into Brooklands to
-            claim second place there by equaling the number of podiums finishes
-            by Michael Schumacher. Meanwhile Bottas, probably the biggest looser
-            of race, second time in three years that has failed to convert a
-            Silverstone pole into a win, as he has to settle with third only
-            after a questionable strategy performed by Mercedes team backing
-            Hamilton to perform better in the last stint of the race.
+            Ferrari’s Charles Leclerc finished P6 as his team mate Sebastian
+            Vettel struggled more in FP2, ending up in P12. to Leclerc’s P6,
+            although the pair were only separated by 0.257s in FP1. Carlos Sainz
+            was P7 for McLaren in his new MCL35 chassis while Sergio Perez was
+            P8 on his first day back at the wheel of his Racing Point RP20 after
+            testing negative for Covid-19. The second Renault of Esteban Ocon,
+            who complained about a lack of rear stability on his R.S.20 before
+            finishing ninth, while Pierre Gasly for AlphaTauri, finished P11
+            rounding out the top 10.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Ferrari’s Charles Leclerc with a one-stop work to claimed P4, while
-            his team mate Sebastian Vettel could only manage P12, due to an
-            early spin at the first corner of the race. Alex Albon took an
-            impressive fifth in the second Red Bull, passing the Racing Point of
-            Lance Stroll with a lap to go. Both Racing point drivers could not
-            keep up the qualifying performances in the race as Stroll finished
-            P6 ahead of stand-in team mate Nico Hulkenberg.
-            {/* who stopped very
-            late on for soft tyres, later clarified that the Nico has reported a
-            significant vibration towards the end of the race. Renault’s Esteban
-            Ocon finished P8, ahead of the McLaren of Lando Norris in P9 and the
-            AlphaTauri of Daniil Kvyat in P10, despite of his lower starting
-            position, finished ahead of his team mate Pierre Gasly. */}
+            The second Racing Point of Lance Stroll crossed the line in P11
+            whereas Alex Albon in P13 after having made a mistake out of Turn 5
+            on his fastest lap. Behind Vettel and Albon, Lando Norris finished
+            14th for McLaren, ahead of the second AlphaTauri of Daniil Kvyat and
+            the second Haas of Kevin Magnussen. Alfa Romeo’s Kimi Raikkonen and
+            Antonio Giovinazzi had a better performance from the last race with
+            P17 and P18 finishes, while Nicholas Latifi was the leading Williams
+            driver as George ended up 2.508s off the ultimate pace in P20 as he
+            felt his car was“driving on ice”.
           </p>
-          {/* <p className='mt-1'>
-            The second Mclaren driver Carlos Sainz finished 13th and the Renault
-            of Daniel Ricciardo who had spun battling Sainz in the middle phase
-            of the race could only manage a disappointing P14, who started 5th.
-             Kimi Räikkönen of Alfa Romeo finished P15 from the last place of the
-            start grid as his team mate Antonio Giovinazzi finished 17 just
-            behind the Hass of Romain Grosjean who finished 16th. Both Williams
-            drivers disappoints as they got rooted in the back of the grid with
-            George Russell in 18th and Nicholas Latifi in 19th. Kevin Magnussen,
-            the only non-finisher had to retire the car towards the end of the
-            race. 
-          </p>*/}
           {/* <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink

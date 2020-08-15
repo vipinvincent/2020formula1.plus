@@ -18,35 +18,37 @@ const MotorSport: React.FC = () => {
             News
           </div>
           <ActionLink
-            href='https://www.motorsport.com/f1/news/haas-magnussen-haas-nothing-wrong-car/4855611/'
+            href='https://www.motorsport.com/f1/news/horner-engine-mode-ban-healthy/4856850/'
             target='_blank'>
-            Magnussen mystery: Haas says nothing “specific” wrong with car
+            Horner: Engine mode ban "healthy" for F1
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The Haas Formula 1 team has rebuilt Kevin Magnussen’s car following
-            the Dane’s retirement at Silverstone – but no specific problem was
-            traced as a root cause.
+            Red Bull Formula 1 team principal Christian Horner is supportive of
+            the FIA’s move to clamp down on teams using higher engine modes
+            during qualifying, saying it is a "healthy thing for the
+            manufacturers".
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Magnussen was retired from the 70th Anniversary GP for safety
-            reasons after his car used up its tyres at an alarming rate, and
-            afterwards he suggested that something had gone awry in the rebuild
-            following his major first lap accident in the British GP a week
-            earlier. In the short gap since last weekend the car has been
-            rebuilt ahead of the Spanish GP with new parts in an attempt to
-            resolve the issues that Magnussen suffered.
+            In the week leading up to the Spanish Grand Prix, the teams were
+            informed by the FIA that there will be less scope to play with
+            different engine modes from the Belgian Grand Prix onwards, which
+            will particularly affect teams running so-called ‘party modes’
+            during qualifying. The clampdown, which is set to be formalised in a
+            technical directive, is seen to particularly affect the dominant
+            Mercedes team, which tends to find a lot of extra performance in the
+            crucial stages of qualifying, and its customers Racing Point and
+            Williams.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            “Basically, in the second race at Silverstone we ran out of tyres,”
-            said Magnussen. “The rear tyre just blistered massively, and then
-            all of the tread came off from the middle to the inside of the rear
-            tyre, and just caused massive vibrations, and became an actual
-            safety issue at the end of it. So that's why we retired the car.
+            On Thursday Mercedes’ world champion Lewis Hamilton argued the ban
+            was put in place “to try and slow us down”, while Ferrari’s Charles
+            Leclerc admitted it was “only a positive” for Ferrari given its
+            straight-line speed deficit in 2020.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.motorsport.com/f1/news/haas-magnussen-haas-nothing-wrong-car/4855611/'
+              href='https://www.motorsport.com/f1/news/horner-engine-mode-ban-healthy/4856850/'
               target='_blank'>
               motorsport.com
             </ContentLink>{' '}

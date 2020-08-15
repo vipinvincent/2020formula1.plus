@@ -7,13 +7,13 @@ const First: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=BxN-s4FFQ14'
+        href='https://www.youtube.com/watch?v=6Y7ktXL7wiE'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/BxN-s4FFQ14/sddefault.jpg'
+              src='https://img.youtube.com/vi/6Y7ktXL7wiE/sddefault.jpg'
               alt='Sebastian Vettel gets a new chassis & denies failing relationship with Ferrari - F1 News 14 08 20'
             />
           </div>
@@ -32,18 +32,17 @@ const First: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=BxN-s4FFQ14'
+            href='https://www.youtube.com/watch?v=6Y7ktXL7wiE'
             target='_blank'>
-            Sebastian Vettel gets a new chassis & denies failing relationship
-            with Ferrari - F1 News 14 08 20
+            FIA set to ban Qualifying engine modes
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Vettel was mysteriously off the pace at both rounds of the British
-            events, scoring just a solitary point from two races, while Charles
-            Leclerc was noticeably more competitive including snatching a podium
-            in the first race. This led to some comments from Vettel saying that
-            he was ‘out of answers’ in how to fix his issues, while saying the
-            pace difference between himself and his teammate was ‘unusual’.
+            The FIA look set to clamp down on special qualifying engine modes
+            through the introduction of a new Technical Directive in Belgium.
+            While not yet officially confirmed, it appears a new Technical
+            Directive is to be sent to all the teams for the Belgian Grand Prix
+            onwards, which will dictate the use of special 'qualifying' settings
+            for the power units.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
