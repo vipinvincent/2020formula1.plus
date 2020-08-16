@@ -89,7 +89,7 @@ const Schedule: React.FC = () => {
                     <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block mercedes'>
                       Lewis Hamilton (<span className='text'>Mercedes</span>){' '}
                       <br />
-                      1:35:50.443
+                      1:31:45.279
                     </div>
                   </div>
                 </div>

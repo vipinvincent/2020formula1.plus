@@ -18,32 +18,41 @@ const AutoSport: React.FC = () => {
             News
           </div>
           <ActionLink
-            href='https://www.autosport.com/f1/news/151237/bottas-mercedes-sleeping-when-verstappen-got-ahead'
+            href='https://www.autosport.com/f1/news/151450/vettel-nothing-to-lose-with-risky-onestop-strategy'
             target='_blank'>
-            F1 to review formation lap radio chat rule
+            Vettel: Ferrari had "nothing to lose" with risky one-stop strategy
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The FIA is to review the rule that limits radio communication
-            between Formula 1 teams and drivers on the formation lap, and which
-            led to penalties for Haas in Hungary.
+            Sebastian Vettel says there was "nothing to lose" with the risky
+            one-stop strategy in the Spanish Grand Prix that lifted him to
+            seventh place at the chequered flag. After qualifying 11th, Vettel
+            spent the opening stint of the race sitting outside of the points
+            before pitting on lap 29 for a set of soft tyres - losing a position
+            to Daniil Kvyat in the process.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The restriction dates back to a technical directive issued in 2017
-            which stated the requirement that drivers have to drive the car
-            "alone and unaided" to stop chatter that could improve starts,
-            specifically regarding clutch bite points. It states that only radio
-            messages concerning safety are allowed.
+            Vettel was Ferrari's sole remaining driver in the race just after
+            half distance when team-mate Charles Leclerc was forced to retire
+            due to an electrical issue. The four-time world champion asked the
+            Ferrari pit wall via team radio whether he should manage his tyres
+            to attempt a one-stop strategy, having risen to fifth place after
+            cars ahead had pitted for a second time.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            In Hungary the ruling surfaced in unusual circumstances when both
-            Kevin Magnussen and Romain Grosjean discussed a tyre change during
-            the formation lap, and subsequently came in at the end of it to
-            switch to slick tyres and start from the pitlane.
+            Despite being overtaken by Lance Stroll and Carlos Sainz Jr in the
+            closing stages, Vettel was able to hold on to seventh ahead of Red
+            Bull's Alexander Albon after making his soft tyres last 36 laps.
+            "It's quite simple, we didn't have anything to lose," Vettel said of
+            the decision to switch to a one-stop strategy. "We were P11, and I
+            think we were trying to offset until the end of the race, so
+            obviously we were catching the cars in front. "They pitted for their
+            second stop, but I was not in a rush to catch them and [was]
+            managing the tyres.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.autosport.com/f1/news/151237/bottas-mercedes-sleeping-when-verstappen-got-ahead'
+              href='https://www.autosport.com/f1/news/151450/vettel-nothing-to-lose-with-risky-onestop-strategy'
               target='_blank'>
               autosport.com
             </ContentLink>{' '}

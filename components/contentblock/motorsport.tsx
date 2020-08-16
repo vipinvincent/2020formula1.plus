@@ -18,37 +18,41 @@ const MotorSport: React.FC = () => {
             News
           </div>
           <ActionLink
-            href='https://www.motorsport.com/f1/news/horner-engine-mode-ban-healthy/4856850/'
+            href='https://www.motorsport.com/f1/news/perez-spanish-gp-penalty-reaction/4858323/'
             target='_blank'>
-            Horner: Engine mode ban "healthy" for F1
+            Perez feels Spanish GP penalty was "very unfair"
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Red Bull Formula 1 team principal Christian Horner is supportive of
-            the FIA’s move to clamp down on teams using higher engine modes
-            during qualifying, saying it is a "healthy thing for the
-            manufacturers".
+            Sergio Perez has called his penalty for ignoring blue flags during
+            the Spanish Grand Prix unfair as he felt he allowed Lewis Hamilton
+            to lap him at an opportune moment.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            In the week leading up to the Spanish Grand Prix, the teams were
-            informed by the FIA that there will be less scope to play with
-            different engine modes from the Belgian Grand Prix onwards, which
-            will particularly affect teams running so-called ‘party modes’
-            during qualifying. The clampdown, which is set to be formalised in a
-            technical directive, is seen to particularly affect the dominant
-            Mercedes team, which tends to find a lot of extra performance in the
-            crucial stages of qualifying, and its customers Racing Point and
-            Williams.
+            On his first Formula 1 race back since testing positive for
+            COVID-19, the Racing Point driver was handed a five-second time
+            penalty for ignoring blue flags shown to him, instructing him to
+            allow race leader Hamilton to lap him, but the Mexican driver has
+            argued his position which ultimately cost him fourth place to
+            teammate Lance Stroll.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            On Thursday Mercedes’ world champion Lewis Hamilton argued the ban
-            was put in place “to try and slow us down”, while Ferrari’s Charles
-            Leclerc admitted it was “only a positive” for Ferrari given its
-            straight-line speed deficit in 2020.
+            Hamilton, who lapped every driver apart from Max Verstappen and
+            Valtteri Bottas in the race, came up behind Perez around the twisty
+            final sector of the Circuit de Barcelona-Catalunya, with the Racing
+            Point driver opting to allow Hamilton to lap him at the start of the
+            next lap on the main straight. The FIA stewards handed Perez a
+            five-second time penalty during the race which meant Stroll moved
+            ahead of him in the final classification to claim fourth place, with
+            Perez pushed back to fifth. "I don't understand where I should have
+            moved, Hamilton got to me very late in the lap and then in the final
+            sector it is very tight, very narrow, so I don't have anywhere [to
+            go]," Perez told Sky Sports F1. "It would have been very unsafe for
+            me to do something there but still I got the penalty.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.motorsport.com/f1/news/horner-engine-mode-ban-healthy/4856850/'
+              href='https://www.motorsport.com/f1/news/perez-spanish-gp-penalty-reaction/4858323/'
               target='_blank'>
               motorsport.com
             </ContentLink>{' '}

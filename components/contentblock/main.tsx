@@ -14,45 +14,71 @@ const Main: React.FC = () => {
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-2 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            Qualifying REPORT - Spanish GP 2020
+            Race REPORT - Spanish GP 2020
           </div>
           <H1>
-            Hamilton with 92nd pole tops the qualifying at 2020 Spanish GP with
-            Bottas in P2 and Verstappen in P3
+            Hamilton dominates and wins his fifth Spanish GP win with Verstappen
+            in P2 splitting Mercedes
           </H1>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Mercedes’ domination in the practice sessions reflects in qualifying
-            with Lewis Hamilton heading team mate Valtteri Bottas by just
-            +0.059s Red Bull’s Max Verstappen qualified third by 0.708s down on
-            pole, ahead of the Racing Points of Sergio Perez and Lance Stroll.
-            Verstappen just crossed ahead of Perez for third, as he too failed
-            to improve on his final run, with Perez setting a personal best but
-            still being unable to get ahead of the Red Bull. Lance Stroll was
-            sixth ahead of Alex Albon in the other Red Bull in sixth, with
-            Carlos Sainz Jr leading Lando Norris who only made into Q3 by
-            0.002s, in seventh and eighth for McLaren. Ferrari’s Charles Leclerc
-            and Pierre Gasly (AlphaTauri) rounded out the top 10.
+            Mercedes’ Lewis Hamilton, after leading every lap from pole to
+            finish completed his fifth Spanish Grand Prix win, and his fourth
+            victory of the 2020 season with Red Bull’s Max Verstappen coming
+            home ahead of the sister Mercedes of Valtteri Bottas. After having a
+            good start, Hamilton stormed in to first turn and never looked back
+            executed a near perfect race even calling the (best) strategy to put
+            mediums while his engineers opted for red softs. Verstappen also had
+            a great start, jumped to second at the getaway, but could not
+            challenge Hamilton as he finished 24s adrift. But Bottas had a poor
+            start dropping him from P2 to P4 off the line, before eventually
+            recovering to third in the beginning of the race without causing any
+            issues. But a wrong strategy of using a set of used softs couldn’t
+            help him catch Verstappen as he was pushed into traffic after the
+            first pit stop. Eventually Bottas finished +44.752s behind his
+            teammate.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Gasly's late improvement towards the end of Q2 knocked out Sebastian
-            Vettel, and the second Ferrari will start 11th for the second race
-            in a row. To make things worse It is for the third time this season
-            he has not made it into the Q3 in qualifying. Daniil Kvyat, finishes
-            12th 12th ahead of Daniel Ricciardo who will face a post-qualifying
-            investigation for an incident with Kevin Magnussen at the second
-            corner in Q1. Kimi Raikkonen scored his best qualifying result so
-            far in 2020 with 14th, as Esteban Ocon finished as the slowest
-            driver in Q2.
+            Racing Point’s Sergio Perez crossed the line in fourth but forced to
+            as a five-second penalty for ignoring blue flags, promoting Lance
+            Stroll P4. Perez eventually slotted into fifth, ahead of the McLaren
+            of Carlos Sainz who maintained his 100% record of finishing in the
+            points at his home race. This time Ferrari of Sebastian Vettel was
+            in the points, as his late call on the one-stop strategy helped him
+            to cross the line in seventh. The second Red Bull of Alexander Albon
+            only managed eight as his strategy of pitting early for hards never
+            paid off and more over spoiled his chances as he was pushed into the
+            traffic after the first pitstop, raising eye brows again for a bad
+            strategy call. Pierre Gasly of AlphaTauri had a good race with some
+            impressive moves in the mid field finished in ninth spot ahead of
+            second McLaren of Lando Norris, this time no last lap magic rounded
+            top 10 list.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Kevin Magnussen managed to outqualify Romain Grosjean despite being
-            behind in all three practice. George Russell did not make it into Q2
-            for the first time since the season opener, but he maintained his
-            100% qualifying record over Nicholas Latifi and Williams. Antonio
-            Giovinazzi finished last in Q1, almost a second slower than his
-            teammate with his best time, after earlier running heavily over the
-            kerb at the exit of the final corner on his penultimate flying
-            effort.
+            Unfortunately, the two Renault drivers disappoints as they failed to
+            materialize the expected strong race pace on race day as Daniel
+            Ricciardo finished 11th with Esteban Ocon 13th. The alternate
+            strategy of one pit stop also not helped the yellow and black cars
+            as the both cars couldn’t finish in points. The second AlphaTauri of
+            Daniil Kvyat, after a five-second penalty for ignoring blue flags,
+            as like Sergio, splits the two Renaults and finished 12th outside
+            the points. Kimi Räikkönen finished in 14th the same spot he started
+            the race from. In between Kimi Raikkonen breaks record for most
+            miles driven in sport’s history after completing lap 37 of the
+            Spanish Grand Prix on Sunday. The Finn has raced over 50,000 miles –
+            more than twice the circumference of the Earth.
+          </p>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
+            Kevin Magnussen of Haas finished fifteenth ahead of the second Alfa
+            Romeo of Giovinazzi who finished in 16th. The two Williams of George
+            Russell and Nicholas Latifi finished P17 and P18. The second Haas of
+            Grosjean Romain Grosjean was classified 19th and last after a
+            half-spin at Turn 8 on the penultimate lap. Also, he might have some
+            explaining to do in the next Grand Prix Drivers’ Association
+            meeting, after he once again executed a late defensive move on
+            Raikkonen. Ferrari’s Charles Leclerc, the only driver to retire from
+            the race, after suffering an electrical issue at the halfway point
+            that pitched him into a spin at Turn 15, before eventually retiring
+            his SF1000.
           </p>
           {/* <p className='mt-1 text-base leading-normal text-gray-700'>
             View the complete {' '}

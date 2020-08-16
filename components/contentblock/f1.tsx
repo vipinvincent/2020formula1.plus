@@ -15,38 +15,43 @@ const F1: React.FC = () => {
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 py-4 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            FEATURE
+            News
           </div>
           <ActionLink
-            href='https://www.formula1.com/en/latest/article.sainz-and-grosjean-take-new-engines-ahead-of-spanish-gp-final-practice.4KvkFMdSqWDyb6nWv2ULCv.html'
+            href='https://www.formula1.com/en/latest/article.leclerc-had-good-chance-of-p6-before-hitting-electrical-issue-and-undoing.1zWydJzlDhzjxvS6SUQOHe.html'
             target='_blank'>
-            Sainz and Grosjean take new engines ahead of Spanish GP final
-            practice
+            Leclerc had 'good chance' of P6 before hitting electrical issue and
+            undoing belts
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            McLaren have given Carlos Sainz a fresh power unit ahead of final
-            practice for the Spanish Grand Prix, as they continue their quest to
-            cure his car’s cooling issues, while Haas have done the same for
-            Romain Grosjean, too, after he lost power towards the end of FP2…
+            After a lacklustre qualifying session in Spain left him ninth on the
+            grid, Charles Leclerc says he was on course for a possible sixth
+            place finish before his race came to an abrupt halt in unusual
+            circumstances.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Sainz was at a loss to explain why the cooling issues that held him
-            back at Silverstone last weekend were still costing him performance
-            at his home Grand Prix, even after they changed a host of parts
-            including the chassis, and admitted they are “starting to run out of
-            things to try”.
+            The Monegasque was lapping just behind McLaren’s Lando Norris in
+            10th place, having swapped from soft to medium tyres, when he spun
+            around at the Turn 14/15 chicane on lap 36. Replays quickly
+            confirmed that his car had appeared to switch off mid-corner, with
+            Ferrari later blaming an electrical fault. Leclerc eventually got
+            the car re-started but returned to the pits after a lap.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The next step was to change the power unit, with McLaren opting to
-            fit a fresh Renault internal combustion engine (ICE), turbocharger,
-            MGU-H and MGU-K ahead of final practice at Barcelona on Saturday
-            morning. It is the first time he has changed any of those
-            components, so he can do so penalty free.
+            “To be honest there were two issues,” Leclerc said afterwards. “The
+            engine switched off, actually not only the engine but the whole car
+            switched off, and it locked completely the rear wheels," he
+            continued. "I don’t know what happened, the team don’t know what’s
+            happened yet, so we need to investigate that. “I tried to start the
+            engine after the issue and it was not starting. So I took off the
+            seatbelt getting ready to get out. But they asked me to try one last
+            time, and the last time it actually worked again. Then I had no seat
+            belts so I had to stop.”
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.formula1.com/en/latest/article.sainz-and-grosjean-take-new-engines-ahead-of-spanish-gp-final-practice.4KvkFMdSqWDyb6nWv2ULCv.html'
+              href='https://www.formula1.com/en/latest/article.leclerc-had-good-chance-of-p6-before-hitting-electrical-issue-and-undoing.1zWydJzlDhzjxvS6SUQOHe.html'
               target='_blank'>
               formula1.com
             </ContentLink>{' '}
