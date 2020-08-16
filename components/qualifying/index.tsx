@@ -1,4 +1,5 @@
 import React from 'react'
+import ContentLink from 'components/link/ContentLink'
 
 const Qualifying: React.FC = () => {
   return (
@@ -408,7 +409,7 @@ const Qualifying: React.FC = () => {
                   </span>
                 </td>
               </tr>
-              <tr className='odd:bg-gray-100 bg-white-100 rounded-br-xxl'>
+              <tr className='odd:bg-gray-100 bg-white-100 border-b border-gray-200'>
                 <td className='p-4 whitespace-no-wrap text-left table-cell'>
                   20
                 </td>
@@ -432,6 +433,11 @@ const Qualifying: React.FC = () => {
             </tbody>
           </table>
         </div>
+        <p className='my-2 pr-4 text-base leading-normal text-gray-660 text-right'>
+          <ContentLink href='/race-results' target='_self'>
+            View Race Results...
+          </ContentLink>
+        </p>
       </div>
     </div>
   )
