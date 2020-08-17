@@ -7,14 +7,14 @@ const First: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=6Y7ktXL7wiE'
+        href='https://www.youtube.com/watch?v=RFCLiJ6pDbA'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/6Y7ktXL7wiE/sddefault.jpg'
-              alt='Sebastian Vettel gets a new chassis & denies failing relationship with Ferrari - F1 News 14 08 20'
+              src='https://img.youtube.com/vi/RFCLiJ6pDbA/sddefault.jpg'
+              alt='Sebastian Vettel says Ferrari had nothing to lose by staying out on Softs'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,17 +32,17 @@ const First: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=6Y7ktXL7wiE'
+            href='https://www.youtube.com/watch?v=RFCLiJ6pDbA'
             target='_blank'>
-            FIA set to ban Qualifying engine modes
+            Sebastian Vettel says Ferrari had 'nothing to lose' by staying out
+            on Softs
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The FIA look set to clamp down on special qualifying engine modes
-            through the introduction of a new Technical Directive in Belgium.
-            While not yet officially confirmed, it appears a new Technical
-            Directive is to be sent to all the teams for the Belgian Grand Prix
-            onwards, which will dictate the use of special 'qualifying' settings
-            for the power units.
+            Ferrari’s Sebastian Vettel says he had ‘nothing to lose’ by staying
+            out to try getting to the end on an old set of Soft tyres. Vettel
+            came home in P7 in Sunday’s Spanish Grand Prix, after a strategic
+            roll of the dice after an apparent breakdown in communication
+            between Ferrari and Vettel.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}

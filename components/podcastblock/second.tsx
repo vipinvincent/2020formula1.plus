@@ -7,13 +7,13 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=jILbTz4akJM'
+        href='https://www.youtube.com/watch?v=xaSS9r9KVDs'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-40 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/jILbTz4akJM/sddefault.jpg'
+              src='https://img.youtube.com/vi/xaSS9r9KVDs/sddefault.jpg'
               alt='VERSTAPPEN CRUSHES MERCEDES! 70th Anniversary GP Podcast'
             />
           </div>
@@ -32,22 +32,22 @@ const Second: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=jILbTz4akJM'
+            href='https://www.youtube.com/watch?v=xaSS9r9KVDs'
             target='_blank'>
-            Should F1 Introduce Mandatory 2-stop Races? | Is It Just Me? Podcast
+            HAS HAMILTON WON THE TITLE ALREADY? | 2020 Spanish GP Podcast
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Jess McFadyen is joined by Luke Smith ahead of the 2020 Spanish GP
-            this weekend. After the switch up of tyre compounds that made the
-            70th Anniversary GP come alive and see Max Verstappen secure his
-            first win of the season, this week we ask: Should F1 Introduce
-            Mandatory 2-stop Races? Jess and Luke go through what you think.
+            The Unbiased Formula 1 Podcast is a podcast channel summarising all
+            the big talking points from the latest #F1 race - with in depth
+            reaction and discussion into what happened, both on and off track.
+            Subscribe for more!
           </p>
-
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='https://www.autosport.com/' target='_blank'>
-              Autosport
+            <ContentLink
+              href='https://www.youtube.com/channel/UCiMPcmFo6sMsZOWvlLCz0YQ'
+              target='_blank'>
+              Unbiased Formula 1 Podcast
             </ContentLink>
           </p>
         </div>

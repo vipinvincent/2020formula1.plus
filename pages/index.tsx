@@ -32,10 +32,10 @@ const IndexPage = () => (
               Latest Podcasts from Youtube
             </div>
             <div className='w-100  mt-0'>
-              <FirstPodcast />
+              <SecondPodcast />
             </div>
             <div className='w-100 mt-4'>
-              <SecondPodcast />
+              <FirstPodcast />
             </div>
             <div className='w-100 mt-4'>
               <ThirdPodcast />

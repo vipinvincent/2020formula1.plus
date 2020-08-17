@@ -18,37 +18,36 @@ const TheRace: React.FC = () => {
             News
           </div>
           <ActionLink
-            href='https://the-race.com/formula-1/whats-behind-haas-and-grosjeans-absolutely-mega-friday/'
+            href='https://the-race.com/formula-1/despondent-bottas-sees-title-drifting-away-again/'
             target='_blank'>
-            What’s behind Haas and Grosjean’s ‘absolutely mega’ Friday?
+            Despondent Bottas sees title ‘drifting away again’
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            A Haas driver in the top 10 has been vanishingly rare during the
-            2020 Formula 1 season, yet Romain Grosjean managed to be in the top
-            six in both Friday practice sessions for the Spanish Grand Prix. As
-            Grosjean himself put it: “today was absolutely mega”.
+            Valtteri Bottas can see the Formula 1 title “drifting away” after a
+            disappointing Spanish Grand Prix and “just wants to be somewhere
+            else than here” so he can regroup.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            While Haas is not suddenly a contender for the third row, this pace
-            does hint that it could be on for its strongest weekend of a
-            difficult season, in which Kevin Magnussen’s point for 10th in the
-            Hungarian Grand Prix has been the only tangible result. As well as
-            being quick, Grosjean was also confident in the car and believes
-            there was a little more time left on the table had he nailed a
-            perfect qualifying simulation lap in Q2.
+            Bottas finished third at Barcelona after a poor start dropped him
+            behind the Red Bull of Max Verstappen and Racing Point of Lance
+            Stroll, and ensured he finished behind team-mate and world
+            championship leader Lewis Hamilton for the fifth race in a row.
+            After winning the season opener in Austria last month, Bottas has
+            slipped to 43 points behind Hamilton.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            “It’s getting better and better especially [using] the hard tyre at
-            the beginning of FP2 and then on the soft gaining 2.5s, so obviously
-            it’s never going to be a perfect lap because you can’t gain so much
-            and then get it perfectly right,” said Grosjean. “There’s a few
-            corners that I’m going to have to look at and to work on and then we
-            should be able to fight for a good position.
+            That gap is exaggerated by the late-race puncture that wrecked
+            Bottas’s British GP, but he has also dropped valuable points by
+            being beaten three times now by Red Bull driver Verstappen. Asked by
+            The Race for his initial analysis of another tricky race and the
+            setback it presents, Bottas said it came down to “just a bad start”,
+            before accepting his chance of beating Hamilton in the championship
+            for the first time is now looking slim.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://the-race.com/formula-1/whats-behind-haas-and-grosjeans-absolutely-mega-friday/'
+              href='https://the-race.com/formula-1/despondent-bottas-sees-title-drifting-away-again/'
               target='_blank'>
               the-race.com
             </ContentLink>{' '}

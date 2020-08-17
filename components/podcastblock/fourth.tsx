@@ -7,14 +7,14 @@ const Fourth: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=6p3jPbKexyk'
+        href='https://www.youtube.com/watch?v=kRzjKG4ZmRc'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-40 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/6p3jPbKexyk/sddefault.jpg'
-              alt='Lewis Hamilton on new contract talks, battling racism & being described as the G.O.A.T'
+              src='https://img.youtube.com/vi/kRzjKG4ZmRc/sddefault.jpg'
+              alt='Spanish Grand Prix: Race Reaction'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,22 +32,21 @@ const Fourth: React.FC = () => {
             Interview
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=6p3jPbKexyk'
+            href='https://www.youtube.com/watch?v=kRzjKG4ZmRc'
             target='_blank'>
-            Lewis Hamilton on new contract talks, battling racism & being
-            described as the G.O.A.T
+            Spanish Grand Prix: Race Reaction
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Lewis Hamilton sat down with Karun Chandhok to discuss his victory
-            at the British Grand Prix, driving without crowds, his battle with
-            racism and whether there have been talks over a new Mercedes
-            contract. Hamilton also reacts to being described as the 'Greatest
-            of all Time'.
+            Join us for some instant reaction to the 2020 Spanish Grand Prix.
+            Was Lewis Hamilton able to convert pole position in to victory? Or
+            could Max Verstappen or Valtteri Bottas spoil his party?
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='https://www.skysports.com/f1' target='_blank'>
-              skysports.com
+            <ContentLink
+              href='https://www.youtube.com/c/TheF1Word'
+              target='_blank'>
+              The F1 Word
             </ContentLink>
           </p>
         </div>

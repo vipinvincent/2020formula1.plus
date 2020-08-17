@@ -9,7 +9,7 @@ const F1: React.FC = () => {
         <img
           className='w-full h-full object-contain rounded-tl-xxl'
           src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1596777189/contentImages/content/f170_iwh29t.jpg'
-          alt='Sainz and Grosjean take new engines ahead of Spanish GP final practice'
+          alt='Verstappen happy to split Mercedes drivers as he explains angry team radio messages'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
@@ -20,33 +20,29 @@ const F1: React.FC = () => {
           <ActionLink
             href='https://www.formula1.com/en/latest/article.leclerc-had-good-chance-of-p6-before-hitting-electrical-issue-and-undoing.1zWydJzlDhzjxvS6SUQOHe.html'
             target='_blank'>
-            Leclerc had 'good chance' of P6 before hitting electrical issue and
-            undoing belts
+            Verstappen ‘happy’ to split Mercedes drivers as he explains angry
+            team radio messages
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            After a lacklustre qualifying session in Spain left him ninth on the
-            grid, Charles Leclerc says he was on course for a possible sixth
-            place finish before his race came to an abrupt halt in unusual
-            circumstances.
+            It wasn’t the race victory that Max Verstappen will have hoped for
+            in the Spanish Grand Prix, but the Dutchman was “happy” to finish
+            second between the Mercedes cars, even if he'd sounded angry and
+            frustrated over team radio at various points during the race…
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The Monegasque was lapping just behind McLaren’s Lando Norris in
-            10th place, having swapped from soft to medium tyres, when he spun
-            around at the Turn 14/15 chicane on lap 36. Replays quickly
-            confirmed that his car had appeared to switch off mid-corner, with
-            Ferrari later blaming an electrical fault. Leclerc eventually got
-            the car re-started but returned to the pits after a lap.
+            Starting third, Verstappen, winner of the last race at Silverstone,
+            leapt ahead of Valtteri Bottas at the start to run second, but was
+            unable to making any in-roads into race leader Lewis Hamilton and
+            subsequently could not react when the Mercedes started pulling away.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            “To be honest there were two issues,” Leclerc said afterwards. “The
-            engine switched off, actually not only the engine but the whole car
-            switched off, and it locked completely the rear wheels," he
-            continued. "I don’t know what happened, the team don’t know what’s
-            happened yet, so we need to investigate that. “I tried to start the
-            engine after the issue and it was not starting. So I took off the
-            seatbelt getting ready to get out. But they asked me to try one last
-            time, and the last time it actually worked again. Then I had no seat
-            belts so I had to stop.”
+            From there, he comfortably held on to second to maintain his 100%
+            record of scoring a podium in races he has finished this year (five
+            from six). “The start was OK and then I could get into the tow of
+            Lewis, so I could get past Valtteri into Turn 1 and from there I
+            tried to follow Lewis a bit,” he said. “Of course initially it was
+            just managing tyres so I tried to back out of it as well but of
+            course Valtteri’s got back into P3 so you can’t drop back too much.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}

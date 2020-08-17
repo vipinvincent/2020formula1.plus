@@ -18,41 +18,36 @@ const MotorSport: React.FC = () => {
             News
           </div>
           <ActionLink
-            href='https://www.motorsport.com/f1/news/perez-spanish-gp-penalty-reaction/4858323/'
+            href='https://www.motorsport.com/f1/news/binotto-surprised-tension-vettel-relationship/4858493/'
             target='_blank'>
-            Perez feels Spanish GP penalty was "very unfair"
+            Binotto "surprised" by suggestion of Vettel tension
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Sergio Perez has called his penalty for ignoring blue flags during
-            the Spanish Grand Prix unfair as he felt he allowed Lewis Hamilton
-            to lap him at an opportune moment.
+            Ferrari Formula 1 chief Mattia Binotto has denied there is any added
+            tension in the team's relationship with Sebastian Vettel, feeling
+            "quite surprised" by the suggestion.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            On his first Formula 1 race back since testing positive for
-            COVID-19, the Racing Point driver was handed a five-second time
-            penalty for ignoring blue flags shown to him, instructing him to
-            allow race leader Hamilton to lap him, but the Mexican driver has
-            argued his position which ultimately cost him fourth place to
-            teammate Lance Stroll.
+            Outgoing Ferrari driver Vettel finished seventh in Sunday's Spanish
+            Grand Prix after pulling off a risky one-stop strategy to fight back
+            from the fringes of the points. The TV feed during the race played
+            radio messages from Vettel asking the Ferrari pit wall for guidance
+            on his strategy, with the team appearing to take some time to issue
+            a reply.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Hamilton, who lapped every driver apart from Max Verstappen and
-            Valtteri Bottas in the race, came up behind Perez around the twisty
-            final sector of the Circuit de Barcelona-Catalunya, with the Racing
-            Point driver opting to allow Hamilton to lap him at the start of the
-            next lap on the main straight. The FIA stewards handed Perez a
-            five-second time penalty during the race which meant Stroll moved
-            ahead of him in the final classification to claim fourth place, with
-            Perez pushed back to fifth. "I don't understand where I should have
-            moved, Hamilton got to me very late in the lap and then in the final
-            sector it is very tight, very narrow, so I don't have anywhere [to
-            go]," Perez told Sky Sports F1. "It would have been very unsafe for
-            me to do something there but still I got the penalty.
+            It was the second race in a row there had been some exchanges back
+            and forth between Vettel and the engineers regarding his strategy,
+            following some confusion at Silverstone last Sunday. But Binotto
+            felt it was unfair to label the exchange in Spain as
+            "misunderstandings", instead calling it a strength of Ferrari to
+            discuss its plans openly. "We prefer to talk openly. Others don't,
+            perhaps so as not to reveal their intentions," Binotto said.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.motorsport.com/f1/news/perez-spanish-gp-penalty-reaction/4858323/'
+              href='https://www.motorsport.com/f1/news/binotto-surprised-tension-vettel-relationship/4858493/'
               target='_blank'>
               motorsport.com
             </ContentLink>{' '}

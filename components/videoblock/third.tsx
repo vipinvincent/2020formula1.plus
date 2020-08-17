@@ -7,14 +7,14 @@ const Third: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=YYCGlAYoYt8'
+        href='https://www.youtube.com/watch?v=lLhzN7krI6M'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/YYCGlAYoYt8/sddefault.jpg'
-              alt='How to Master the Spanish GP! | Nico Rosberg'
+              src='https://img.youtube.com/vi/lLhzN7krI6M/sddefault.jpg'
+              alt='2020 Spanish Grand Prix: Post-Race Driver Reaction'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,22 +32,19 @@ const Third: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=YYCGlAYoYt8'
+            href='https://www.youtube.com/watch?v=lLhzN7krI6M'
             target='_blank'>
-            How to Master the Spanish GP! | Nico Rosberg
+            2020 Spanish Grand Prix: Post-Race Driver Reaction
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            My next F1 Fridays episode! What an incredibly interesting Formula 1
-            2020 Season so far! Check out my in-depth analysis of the 2020
-            Spanish Grand Prix track. where I share the F1 drivers’ secrets on
-            how to master the Circuit de Barcelona-Catalunya. Of course,
-            followed by a hot lap and my F1 Fan Q&A – answering your questions
-            about the Spanish GP weekend.
+            Hear from those celebrating, those commiserating, and everybody in
+            between as we gather the drivers' thoughts after the race in
+            Barcelona.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='http://www.nicorosberg.com' target='_blank'>
-              Nico Rosberg
+            <ContentLink href='https://www.formula1.com/' target='_blank'>
+              formula1.com
             </ContentLink>
           </p>
         </div>

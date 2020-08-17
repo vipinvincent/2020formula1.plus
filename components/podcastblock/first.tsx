@@ -7,13 +7,13 @@ const First: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=Dl0Mq0GnGyE'
+        href='https://www.youtube.com/watch?v=AEtzvI4bJfg'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-40 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/Dl0Mq0GnGyE/sddefault.jpg'
+              src='https://img.youtube.com/vi/AEtzvI4bJfg/sddefault.jpg'
               alt='FP1 Post Podium Podcast Episode 5: 70th Anniversary Grand Prix'
             />
           </div>
@@ -32,19 +32,16 @@ const First: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=Dl0Mq0GnGyE'
+            href='https://www.youtube.com/watch?v=AEtzvI4bJfg'
             target='_blank'>
-            How Bad is Roy Nissany?
+            F1 2020 Spanish GP Review
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            In FP1 of the 2020 Formula One Spanish Grand Prix Roy Nissany made
-            his debut for the Williams F1 team, having been announced as part of
-            their junior programme back at the start of the year. But who
-            actually is this guy and does he deserve this chance given the likes
-            of W Series Champion and fellow Williams Junior Driver Jamie
-            Chadwick has had no such opportunity?
+            So... The Spanish Grand Prix happened... I mean what can I say... it
+            was just a bit dull I'll be honest. Here are my thoughts immediately
+            after the race, let me know what you thought of it all down in the
+            comments below!
           </p>
-
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
             <ContentLink
