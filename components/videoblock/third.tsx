@@ -7,14 +7,14 @@ const Third: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=lLhzN7krI6M'
+        href='https://www.youtube.com/watch?v=r-rs-SBf8_U'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/lLhzN7krI6M/sddefault.jpg'
-              alt='2020 Spanish Grand Prix: Post-Race Driver Reaction'
+              src='https://img.youtube.com/vi/r-rs-SBf8_U/sddefault.jpg'
+              alt='Toto Wolff reflects on Hamilton & Bottas performances and explains Hamiltons choice of tyres'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,19 +32,21 @@ const Third: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=lLhzN7krI6M'
+            href='https://www.youtube.com/watch?v=r-rs-SBf8_U'
             target='_blank'>
-            2020 Spanish Grand Prix: Post-Race Driver Reaction
+            Toto Wolff reflects on Hamilton & Bottas' performances and explains
+            Hamilton's choice of tyres
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Hear from those celebrating, those commiserating, and everybody in
-            between as we gather the drivers' thoughts after the race in
-            Barcelona.
+            Toto Wolff joined us after the race today to discuss Lewis Hamilton,
+            Bottas and Mercedes performance at the Spanish Grand Prix, with
+            Wolff particularly impressed with Hamilton choosing medium over soft
+            tyres as the latter caused teammate Bottas problems
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='https://www.formula1.com/' target='_blank'>
-              formula1.com
+            <ContentLink href='https://www.skysports.com/f1' target='_blank'>
+              Sky Sports F1
             </ContentLink>
           </p>
         </div>

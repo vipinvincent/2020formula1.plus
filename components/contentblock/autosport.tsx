@@ -20,34 +20,31 @@ const AutoSport: React.FC = () => {
           <ActionLink
             href='https://www.autosport.com/f1/news/151450/vettel-nothing-to-lose-with-risky-onestop-strategy'
             target='_blank'>
-            Vettel: Ferrari had "nothing to lose" with risky one-stop strategy
+            Perez/Kvyat Spanish GP penalties first in FIA crackdown on F1 blue
+            flags
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Sebastian Vettel says there was "nothing to lose" with the risky
-            one-stop strategy in the Spanish Grand Prix that lifted him to
-            seventh place at the chequered flag. After qualifying 11th, Vettel
-            spent the opening stint of the race sitting outside of the points
-            before pitting on lap 29 for a set of soft tyres - losing a position
-            to Daniil Kvyat in the process.
+            The penalties handed to Sergio Perez and Daniil Kvyat for ignoring
+            blue flags in the Spanish Grand Prix were the first as part of a new
+            crackdown by the FIA.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Vettel was Ferrari's sole remaining driver in the race just after
-            half distance when team-mate Charles Leclerc was forced to retire
-            due to an electrical issue. The four-time world champion asked the
-            Ferrari pit wall via team radio whether he should manage his tyres
-            to attempt a one-stop strategy, having risen to fifth place after
-            cars ahead had pitted for a second time.
+            Both Perez and Kvyat were hit with a five-second time penalty for
+            failing to adhere to blue flags in the closing stages of the race at
+            the Circuit de Barcelona-Catalunya as they were lapped by the
+            leading cars. Perez was penalised for failing to move out of the way
+            of race leader Lewis Hamilton through the final sector of the track,
+            instead moving aside on the start/finish straight.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Despite being overtaken by Lance Stroll and Carlos Sainz Jr in the
-            closing stages, Vettel was able to hold on to seventh ahead of Red
-            Bull's Alexander Albon after making his soft tyres last 36 laps.
-            "It's quite simple, we didn't have anything to lose," Vettel said of
-            the decision to switch to a one-stop strategy. "We were P11, and I
-            think we were trying to offset until the end of the race, so
-            obviously we were catching the cars in front. "They pitted for their
-            second stop, but I was not in a rush to catch them and [was]
-            managing the tyres.
+            The Racing Point driver called the penalty "very unfair" after it
+            dropped him from fourth place on the road to fifth in the final
+            classification. AlphaTauri's Kvyat was also found to have failed to
+            obey blue flags between Turn 6 and Turn 1 at the start of the next
+            lap when being lapped, but remained 12th despite the five-second
+            penalty. FIA race director Michael Masi explained the sanctions came
+            about as a result of talks with drivers about being stricter in
+            enforcing the blue flag rules earlier this year
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}

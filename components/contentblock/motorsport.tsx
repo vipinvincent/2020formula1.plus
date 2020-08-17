@@ -13,41 +13,43 @@ const MotorSport: React.FC = () => {
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
-        <div className='px-4 pt-4 pb-2 text-left'>
+        <div className='px-4 pt-4 pb-5 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
             News
           </div>
           <ActionLink
-            href='https://www.motorsport.com/f1/news/binotto-surprised-tension-vettel-relationship/4858493/'
+            href='https://www.motorsport.com/f1/news/bottas-black-overalls-weight-loss/4858708/'
             target='_blank'>
-            Binotto "surprised" by suggestion of Vettel tension
+            Bottas blames black overalls for losing 3kg in Spanish GP
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Ferrari Formula 1 chief Mattia Binotto has denied there is any added
-            tension in the team's relationship with Sebastian Vettel, feeling
-            "quite surprised" by the suggestion.
+            Valtteri Bottas says he lost three kilos during the Spanish GP and
+            believes that the black overalls adopted by Mercedes for the 2020
+            Formula 1 season played a role.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Outgoing Ferrari driver Vettel finished seventh in Sunday's Spanish
-            Grand Prix after pulling off a risky one-stop strategy to fight back
-            from the fringes of the points. The TV feed during the race played
-            radio messages from Vettel asking the Ferrari pit wall for guidance
-            on his strategy, with the team appearing to take some time to issue
-            a reply.
+            Early in the Barcelona race Bottas was heard telling his engineer on
+            the radio “these black overalls are f**cking hot.” The move from
+            white to black overalls was part of a pre-season rebranding exercise
+            that saw the team also switch its car from traditional silver livery
+            to black as part of its ongoing diversity message.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            It was the second race in a row there had been some exchanges back
-            and forth between Vettel and the engineers regarding his strategy,
-            following some confusion at Silverstone last Sunday. But Binotto
-            felt it was unfair to label the exchange in Spain as
-            "misunderstandings", instead calling it a strength of Ferrari to
-            discuss its plans openly. "We prefer to talk openly. Others don't,
-            perhaps so as not to reveal their intentions," Binotto said.
+            “It was really hot in the car,” Bottas said after the race. “This
+            year, it's been even hotter in the car. Obviously, we had to change
+            the colour of the overalls. And it's known that black colour takes
+            more of the heat, especially when there's direct sun. “I don't know
+            any number or facts, how much actually black versus white is in
+            terms of temperature difference, but this year, it's been really hot
+            in the car. And also there's a new homologation this year for the
+            overalls, so they are thicker, and the underwear is thicker, so I
+            don't know how much effect that has. “It was just so hot so I said,
+            ‘Guys, you know that these overalls are way too hot.’
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.motorsport.com/f1/news/binotto-surprised-tension-vettel-relationship/4858493/'
+              href='https://www.motorsport.com/f1/news/bottas-black-overalls-weight-loss/4858708/'
               target='_blank'>
               motorsport.com
             </ContentLink>{' '}

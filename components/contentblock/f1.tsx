@@ -15,39 +15,44 @@ const F1: React.FC = () => {
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 py-4 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            News
+            Feature
           </div>
           <ActionLink
-            href='https://www.formula1.com/en/latest/article.leclerc-had-good-chance-of-p6-before-hitting-electrical-issue-and-undoing.1zWydJzlDhzjxvS6SUQOHe.html'
+            href='https://www.formula1.com/en/latest/article.could-verstappen-have-won-in-spain-had-red-bull-repeated-their-silverstone.3kd9TeSmaNtziNKdlhbmHa.html'
             target='_blank'>
-            Verstappen ‘happy’ to split Mercedes drivers as he explains angry
-            team radio messages
+            Could Verstappen have won in Spain had Red Bull repeated their
+            Silverstone tyre gamble?
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            It wasn’t the race victory that Max Verstappen will have hoped for
-            in the Spanish Grand Prix, but the Dutchman was “happy” to finish
-            second between the Mercedes cars, even if he'd sounded angry and
-            frustrated over team radio at various points during the race…
+            After Max Verstappen's superb victory in the 70th Anniversary Grand
+            Prix, Mercedes were back to winning ways in Spain. But could the
+            Dutchman have beaten Lewis Hamilton had Red Bull repeated their tyre
+            gamble from the Silverstone race? Mark Hughes takes a look at how
+            things might have played out if they had...
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Starting third, Verstappen, winner of the last race at Silverstone,
-            leapt ahead of Valtteri Bottas at the start to run second, but was
-            unable to making any in-roads into race leader Lewis Hamilton and
-            subsequently could not react when the Mercedes started pulling away.
+            Just like the preceding two Silverstone races, Barcelona was a
+            tyre-dominated event – but in a different way. The challenge around
+            this track on a super-hot day turned out to be thermal degradation
+            rather than wear or blistering. Mercedes’ concern coming into the
+            weekend was summarised by track engineering chief Andrew Shovlin.
+            “We are expecting it to be pretty tough because we’ve sort of seen
+            this trend where the hotter it is, the closer Red Bull are.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            From there, he comfortably held on to second to maintain his 100%
-            record of scoring a podium in races he has finished this year (five
-            from six). “The start was OK and then I could get into the tow of
-            Lewis, so I could get past Valtteri into Turn 1 and from there I
-            tried to follow Lewis a bit,” he said. “Of course initially it was
-            just managing tyres so I tried to back out of it as well but of
-            course Valtteri’s got back into P3 so you can’t drop back too much.
+            “The challenge is really going to be down to two things: how much
+            you’re wearing the rears and how much you can look after them, but
+            also just the overheating on the surface of the tyre and trying to
+            keep the surface under control because that just costs you grip and
+            then you generate more wear, and if we look at Friday, there’s not
+            enough data to get a good picture on whether we are slightly ahead,
+            slightly behind, whether we have better degradation, who can go
+            further out of us and Verstappen.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.formula1.com/en/latest/article.leclerc-had-good-chance-of-p6-before-hitting-electrical-issue-and-undoing.1zWydJzlDhzjxvS6SUQOHe.html'
+              href='https://www.formula1.com/en/latest/article.could-verstappen-have-won-in-spain-had-red-bull-repeated-their-silverstone.3kd9TeSmaNtziNKdlhbmHa.html'
               target='_blank'>
               formula1.com
             </ContentLink>{' '}
