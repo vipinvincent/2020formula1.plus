@@ -18,36 +18,37 @@ const TheRace: React.FC = () => {
             News
           </div>
           <ActionLink
-            href='https://the-race.com/formula-1/despondent-bottas-sees-title-drifting-away-again/'
+            href='https://the-race.com/formula-1/f1-copying-saga-is-flirting-with-a-total-nonsense-allegation/'
             target='_blank'>
-            Despondent Bottas sees title ‘drifting away again’
+            F1 copying saga is flirting with a ‘total nonsense’ allegation
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Valtteri Bottas can see the Formula 1 title “drifting away” after a
-            disappointing Spanish Grand Prix and “just wants to be somewhere
-            else than here” so he can regroup.
+            An appeal date is expected to be set shortly for the three Formula 1
+            teams contesting the stewards’ decision regarding Racing Point’s
+            Mercedes-inspired brake ducts. When they go to court, a long-running
+            saga will take a fresh twist.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Bottas finished third at Barcelona after a poor start dropped him
-            behind the Red Bull of Max Verstappen and Racing Point of Lance
-            Stroll, and ensured he finished behind team-mate and world
-            championship leader Lewis Hamilton for the fifth race in a row.
-            After winning the season opener in Austria last month, Bottas has
-            slipped to 43 points behind Hamilton.
+            This case is about a specific protest, specific components, and a
+            specific set of circumstances. But as is widely known, there is a
+            second element to the saga – the concern several teams have that
+            Racing Point’s wider car concept is a copy of Mercedes’ 2019 car
+            design. These have so far been handled as two parallel issues.
+            They’ve had to be because the copying angst has never manifested
+            itself as an explicit allegation, only public gripes, whereas the
+            brake ducts were targeted as a specific alleged rules breach.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            That gap is exaggerated by the late-race puncture that wrecked
-            Bottas’s British GP, but he has also dropped valuable points by
-            being beaten three times now by Red Bull driver Verstappen. Asked by
-            The Race for his initial analysis of another tricky race and the
-            setback it presents, Bottas said it came down to “just a bad start”,
-            before accepting his chance of beating Hamilton in the championship
-            for the first time is now looking slim.
+            There is now overlap between the brake ducts issue and the wider
+            debate about whether teams can copy cars in the legal process. Two
+            parties, Ferrari and Renault, are appealing the stewards’ decision
+            with the intention of forcing the wider issue of the entire car to
+            be addressed.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://the-race.com/formula-1/despondent-bottas-sees-title-drifting-away-again/'
+              href='https://the-race.com/formula-1/f1-copying-saga-is-flirting-with-a-total-nonsense-allegation/'
               target='_blank'>
               the-race.com
             </ContentLink>{' '}

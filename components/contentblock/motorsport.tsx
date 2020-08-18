@@ -13,43 +13,43 @@ const MotorSport: React.FC = () => {
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
-        <div className='px-4 pt-4 pb-5 text-left'>
+        <div className='px-4 pt-4 pb-2 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
             News
           </div>
           <ActionLink
-            href='https://www.motorsport.com/f1/news/bottas-black-overalls-weight-loss/4858708/'
+            href='https://www.motorsport.com/f1/news/closing-speeds-magnussen-ocon-incident/4859206/'
             target='_blank'>
-            Bottas blames black overalls for losing 3kg in Spanish GP
+            Closing speeds to be discussed after Magnussen/Ocon incident
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Valtteri Bottas says he lost three kilos during the Spanish GP and
-            believes that the black overalls adopted by Mercedes for the 2020
-            Formula 1 season played a role.
+            Formula 1 drivers are set discuss concerns about the closing speeds
+            between cars on hot laps and slow laps following the incident
+            involving Kevin Magnussen and Esteban Ocon in Spain.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Early in the Barcelona race Bottas was heard telling his engineer on
-            the radio “these black overalls are f**cking hot.” The move from
-            white to black overalls was part of a pre-season rebranding exercise
-            that saw the team also switch its car from traditional silver livery
-            to black as part of its ongoing diversity message.
+            Ocon crashed into the wall towards the end of final practice for the
+            Spanish Grand Prix after taking evasive action to avoid a
+            slow-moving Magnussen between Turn 3 and Turn 4. Magnussen was on a
+            slow lap in a bid to cool his tyres, while Ocon was trying to get
+            his tyres up to temperature after exiting the pits, explaining the
+            speed difference. Both the drivers and the stewards put it down as
+            an “unfortunate” accident, with no action being taken.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            “It was really hot in the car,” Bottas said after the race. “This
-            year, it's been even hotter in the car. Obviously, we had to change
-            the colour of the overalls. And it's known that black colour takes
-            more of the heat, especially when there's direct sun. “I don't know
-            any number or facts, how much actually black versus white is in
-            terms of temperature difference, but this year, it's been really hot
-            in the car. And also there's a new homologation this year for the
-            overalls, so they are thicker, and the underwear is thicker, so I
-            don't know how much effect that has. “It was just so hot so I said,
-            ‘Guys, you know that these overalls are way too hot.’
+            But there was a repeat of cars going slowly on-track through
+            qualifying in Barcelona as drivers tried to cool their tyres,
+            causing them to bunch in the final sector before starting their
+            flying laps. “It's not really acceptable to have a queue of cars,”
+            Ocon said. “If there is someone coming up at race speed, it can be
+            dangerous. This has been the trend. “In hot conditions, we are a
+            minute slower in a cool-down lap or to prep the lap. It's very, very
+            slow.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.motorsport.com/f1/news/bottas-black-overalls-weight-loss/4858708/'
+              href='https://www.motorsport.com/f1/news/closing-speeds-magnussen-ocon-incident/4859206/'
               target='_blank'>
               motorsport.com
             </ContentLink>{' '}

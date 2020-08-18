@@ -9,50 +9,45 @@ const F1: React.FC = () => {
         <img
           className='w-full h-full object-contain rounded-tl-xxl'
           src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1596777189/contentImages/content/f170_iwh29t.jpg'
-          alt='Verstappen happy to split Mercedes drivers as he explains angry team radio messages'
+          alt='Is this RB16 aero detail the secret to Red Bull’s hot weather speed?'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 py-4 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            Feature
+            FEATURE
           </div>
           <ActionLink
-            href='https://www.formula1.com/en/latest/article.could-verstappen-have-won-in-spain-had-red-bull-repeated-their-silverstone.3kd9TeSmaNtziNKdlhbmHa.html'
+            href='https://www.formula1.com/en/latest/article.tech-tuesday-is-this-rb16-aero-detail-the-secret-to-red-bulls-hot-weather.16ZRRPBmoRMgOP1eumvqg9.html'
             target='_blank'>
-            Could Verstappen have won in Spain had Red Bull repeated their
-            Silverstone tyre gamble?
+            Is this RB16 aero detail the secret to Red Bull’s hot weather speed?
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            After Max Verstappen's superb victory in the 70th Anniversary Grand
-            Prix, Mercedes were back to winning ways in Spain. But could the
-            Dutchman have beaten Lewis Hamilton had Red Bull repeated their tyre
-            gamble from the Silverstone race? Mark Hughes takes a look at how
-            things might have played out if they had...
+            Although at Barcelona, Red Bull were unable to repeat their victory
+            of a week earlier at Silverstone, Max Verstappen still manged to
+            split the two Mercedes. In this week's Tech Tuesday, Mark Hughes
+            examines how and why the team's RB16 car seems to be able to cope
+            with hotter temperatures better than their rivals...
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Just like the preceding two Silverstone races, Barcelona was a
-            tyre-dominated event – but in a different way. The challenge around
-            this track on a super-hot day turned out to be thermal degradation
-            rather than wear or blistering. Mercedes’ concern coming into the
-            weekend was summarised by track engineering chief Andrew Shovlin.
-            “We are expecting it to be pretty tough because we’ve sort of seen
-            this trend where the hotter it is, the closer Red Bull are.
+            A pattern has emerged through the various practice sessions and
+            races in 2020 that the Mercedes advantage over Red Bull is narrowed,
+            and occasionally even overcome, when the temperatures are high. To a
+            large extent this is driven by the different ways the two cars load
+            the very temperature-sensitive tyres.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            “The challenge is really going to be down to two things: how much
-            you’re wearing the rears and how much you can look after them, but
-            also just the overheating on the surface of the tyre and trying to
-            keep the surface under control because that just costs you grip and
-            then you generate more wear, and if we look at Friday, there’s not
-            enough data to get a good picture on whether we are slightly ahead,
-            slightly behind, whether we have better degradation, who can go
-            further out of us and Verstappen.
+            But differences in competitiveness between cars at different
+            temperatures is often also driven by much the bodywork has to be
+            opened up – and thereby how much aerodynamic damage is done – to
+            retain adequate cooling. We saw this very clearly in the last two
+            events with the problems suffered by Carlos Sainz as his McLaren
+            consistently ran hotter than that of team mate Lando Norris.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.formula1.com/en/latest/article.could-verstappen-have-won-in-spain-had-red-bull-repeated-their-silverstone.3kd9TeSmaNtziNKdlhbmHa.html'
+              href='https://www.formula1.com/en/latest/article.tech-tuesday-is-this-rb16-aero-detail-the-secret-to-red-bulls-hot-weather.16ZRRPBmoRMgOP1eumvqg9.html'
               target='_blank'>
               formula1.com
             </ContentLink>{' '}

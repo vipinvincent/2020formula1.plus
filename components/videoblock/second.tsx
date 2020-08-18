@@ -7,14 +7,14 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=SWSfgS0R1Ms'
+        href='https://www.youtube.com/watch?v=PI_0rJ0LEr4'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/SWSfgS0R1Ms/sddefault.jpg'
-              alt='Why Red Bull Still Believe Verstappen Can Win The Title'
+              src='https://img.youtube.com/vi/PI_0rJ0LEr4/sddefault.jpg'
+              alt='Is Ferrari Sabotaging Vettel?'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,16 +32,18 @@ const Second: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=SWSfgS0R1Ms'
+            href='https://www.youtube.com/watch?v=PI_0rJ0LEr4'
             target='_blank'>
-            Why Red Bull Still Believe Verstappen Can Win The Title
+            Is Ferrari Sabotaging Vettel?
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            After his heroics at the 70th Anniversary GP, Red Bull’s Max
-            Verstappen reduced the gap to championship leader Lewis Hamilton.
-            Red Bull advisor Helmut Marko is of the opinion that they can
-            realistically overcome the gap to Hamilton and still be able to
-            crown Max Verstappen as the youngest F1 champion ever
+            Ferrari’s Sebastian Vettel finally managed to get a decent result by
+            finishing in 7th at the Spanish GP and ahead of his teammate Charles
+            Leclerc who recorded a DNF. However, prior to that, the results
+            suggested Vettel was lagging quite a bit behind Leclerc in terms of
+            performance and there were allegations that Ferrari have been
+            working against Vettel. Team principal Mattia Binotto has now
+            responded to these claims.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}

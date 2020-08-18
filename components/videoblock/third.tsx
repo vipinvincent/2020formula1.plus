@@ -7,14 +7,14 @@ const Third: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=r-rs-SBf8_U'
+        href='https://www.youtube.com/watch?v=rhAKrTOlbA8'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/r-rs-SBf8_U/sddefault.jpg'
-              alt='Toto Wolff reflects on Hamilton & Bottas performances and explains Hamiltons choice of tyres'
+              src='https://img.youtube.com/vi/rhAKrTOlbA8/sddefault.jpg'
+              alt='RACE ANALYSIS: 2020 Formula 1 Spanish Grand Prix'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,21 +32,24 @@ const Third: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=r-rs-SBf8_U'
+            href='https://www.youtube.com/watch?v=rhAKrTOlbA8'
             target='_blank'>
-            Toto Wolff reflects on Hamilton & Bottas' performances and explains
-            Hamilton's choice of tyres
+            RACE ANALYSIS: 2020 Formula 1 Spanish Grand Prix
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Toto Wolff joined us after the race today to discuss Lewis Hamilton,
-            Bottas and Mercedes performance at the Spanish Grand Prix, with
-            Wolff particularly impressed with Hamilton choosing medium over soft
-            tyres as the latter caused teammate Bottas problems
+            Barcelona’s Circuit de Catalunya remains a fixture on the Formula
+            One calendar, with 2020’s edition a golden milestone - the 50th
+            Spanish Grand Prix, and 30th held at the familiar Montmeló track. …
+            and golden performance, from the sport’s six-time F1 World Champion
+            Lewis Hamilton, who shrugged off concerns about blistering rubber in
+            the Spanish sun, to dominate from lights-to-flag for his fourth
+            victory of 2020, his fifth in Barcelona, his fourth-straight there,
+            and 88th overall.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='https://www.skysports.com/f1' target='_blank'>
-              Sky Sports F1
+            <ContentLink href='https://unbeaten.com/formula1' target='_blank'>
+              The Inside Line
             </ContentLink>
           </p>
         </div>
