@@ -1,7 +1,7 @@
 import Layout from '../components/layout/Layout'
 import Main from '../components/maincontent'
 import Schedule from '../components/schedule'
-import Grid from '../components/grid'
+// import Grid from '../components/grid'
 import Twitter from '../components/twitter'
 import Recent from '../components/schedule/recent'
 import Driver from '../components/driver'
@@ -24,9 +24,9 @@ const IndexPage = () => (
           </div>
           <div className='hidden lg:block w-4/12 xl:w-4/12 pl-4'>
             {/* <Race /> */}
-            <Grid />
-            <Twitter />
+            {/* <Grid /> */}
             <Schedule />
+            <Twitter />
             <Driver />
             <Team />
             <Recent />

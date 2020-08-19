@@ -20,14 +20,14 @@ import ThirdContent from 'components/contentblock/right'
 // import FourthContent from 'components/contentblock/second'
 
 // import Qualifying from 'components/qualifying/quick-look'
-import Race from 'components/race/quick-look'
+// import Race from 'components/race/quick-look'
 
 const Main: React.FC = () => {
   return (
     <div className='flex flex-col'>
-      <div className='w-100 mb-0'>
+      {/* <div className='w-100 mb-0'>
         <Race />
-      </div>
+      </div> */}
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
         Latest News
       </div>
