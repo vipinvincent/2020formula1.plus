@@ -9,45 +9,52 @@ const F1: React.FC = () => {
         <img
           className='w-full h-full object-contain rounded-tl-xxl'
           src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1596777189/contentImages/content/f170_iwh29t.jpg'
-          alt='Is this RB16 aero detail the secret to Red Bull’s hot weather speed?'
+          alt='‘Racing is in our DNA’ says Ferrari chief as the team signs new F1 Concorde Agreement'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 py-4 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            FEATURE
+            News
           </div>
           <ActionLink
-            href='https://www.formula1.com/en/latest/article.tech-tuesday-is-this-rb16-aero-detail-the-secret-to-red-bulls-hot-weather.16ZRRPBmoRMgOP1eumvqg9.html'
+            href='https://www.formula1.com/en/latest/article.racing-is-in-our-dna-says-ferrari-chief-as-the-team-signs-new-f1-concorde.3zy1IdyREXqKtL59cVAfnp.html'
             target='_blank'>
-            Is this RB16 aero detail the secret to Red Bull’s hot weather speed?
+            ‘Racing is in our DNA’ says Ferrari chief as the team signs new F1
+            Concorde Agreement
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Although at Barcelona, Red Bull were unable to repeat their victory
-            of a week earlier at Silverstone, Max Verstappen still manged to
-            split the two Mercedes. In this week's Tech Tuesday, Mark Hughes
-            examines how and why the team's RB16 car seems to be able to cope
-            with hotter temperatures better than their rivals...
+            Having raced in every Formula 1 season since 1950, Ferrari have
+            signalled their commitment to remain in the sport by signing the new
+            Concorde Agreement, the commercial agreement which outlines the
+            terms under which Formula 1 teams will compete in the championship
+            up until 2025.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            A pattern has emerged through the various practice sessions and
-            races in 2020 that the Mercedes advantage over Red Bull is narrowed,
-            and occasionally even overcome, when the temperatures are high. To a
-            large extent this is driven by the different ways the two cars load
-            the very temperature-sensitive tyres.
+            Ferrari Team Principal Mattia Binotto had been outspoken about his
+            team’s willingness to sign the Concorde Agreement in recent months.
+            And after re-stating their commitment to signing at the 70th
+            Anniversary Grand Prix, Ferrari announced that they had put pen to
+            paper in the week following the Spanish Grand Prix. “We are pleased
+            to have signed up again to what is commonly known as the Concorde
+            Agreement, which will regulate Formula One for the next five years,”
+            said Ferrari CEO Louis Camilleri.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            But differences in competitiveness between cars at different
-            temperatures is often also driven by much the bodywork has to be
-            opened up – and thereby how much aerodynamic damage is done – to
-            retain adequate cooling. We saw this very clearly in the last two
-            events with the problems suffered by Carlos Sainz as his McLaren
-            consistently ran hotter than that of team mate Lando Norris.
+            “It is an important step to ensure the stability and growth of the
+            sport. We are very confident that the collaboration with the FIA and
+            Liberty Media can make Formula One even more attractive and
+            spectacular, while preserving its status as the ultimate
+            technological challenge. “Racing is in Ferrari’s DNA and it is no
+            coincidence that the Scuderia is the only team that has participated
+            in every edition of the FIA Formula One World Championship, becoming
+            an integral and essential part of its success, today as in the past
+            and, above all, in the future.”
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.formula1.com/en/latest/article.tech-tuesday-is-this-rb16-aero-detail-the-secret-to-red-bulls-hot-weather.16ZRRPBmoRMgOP1eumvqg9.html'
+              href='https://www.formula1.com/en/latest/article.racing-is-in-our-dna-says-ferrari-chief-as-the-team-signs-new-f1-concorde.3zy1IdyREXqKtL59cVAfnp.html'
               target='_blank'>
               formula1.com
             </ContentLink>{' '}

@@ -18,37 +18,41 @@ const TheRace: React.FC = () => {
             News
           </div>
           <ActionLink
-            href='https://the-race.com/formula-1/f1-copying-saga-is-flirting-with-a-total-nonsense-allegation/'
+            href='https://the-race.com/formula-1/was-renaults-poor-spanish-gp-really-an-anomaly/'
             target='_blank'>
-            F1 copying saga is flirting with a ‘total nonsense’ allegation
+            Was Renault’s poor Spanish GP really an ‘anomaly’?
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            An appeal date is expected to be set shortly for the three Formula 1
-            teams contesting the stewards’ decision regarding Racing Point’s
-            Mercedes-inspired brake ducts. When they go to court, a long-running
-            saga will take a fresh twist.
+            Renault endured its worst weekend of the 2020 Formula 1 season in
+            the Spanish Grand Prix, failing either to get a car into Q3 in
+            qualifying or score points for the first time this season. Ricciardo
+            missed out on a place in Q3 by just 0.032s but was only
+            13th-fastest, with team-mate Esteban Ocon a further 0.369s behind
+            and complaining of a power deficit. Ricciardo finished 11th in the
+            race, two places ahead of his team-mate.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            This case is about a specific protest, specific components, and a
-            specific set of circumstances. But as is widely known, there is a
-            second element to the saga – the concern several teams have that
-            Racing Point’s wider car concept is a copy of Mercedes’ 2019 car
-            design. These have so far been handled as two parallel issues.
-            They’ve had to be because the copying angst has never manifested
-            itself as an explicit allegation, only public gripes, whereas the
-            brake ducts were targeted as a specific alleged rules breach.
+            “I certainly hope this weekend was a bit of an anomaly, a bit of an
+            Achilles’ heel for us,” said Ricciardo. “Everyone’s so familiar with
+            this track and to find something extra it is challenging. “But we’ve
+            had good pace all year and this didn’t quite correlate to that
+            around here, so hopefully it’s a one-off. We’ll try and learn from
+            it but come Spa, Monza, these are tracks we’re normally pretty
+            strong on and should have a better run.”
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            There is now overlap between the brake ducts issue and the wider
-            debate about whether teams can copy cars in the legal process. Two
-            parties, Ferrari and Renault, are appealing the stewards’ decision
-            with the intention of forcing the wider issue of the entire car to
-            be addressed.
+            Ricciardo’s point about the familiarity of the track is pertinent
+            because this wasn’t actually Renault’s worst weekend in terms of
+            pure performance. In Spain, its fastest time was 2.135% off the
+            outright fastest, after it had set a season’s best pace of just
+            1.342% down in the Silverstone event the previous weekend. But at
+            the third round of the season at the Hungaroring, it was 3.014%
+            down.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://the-race.com/formula-1/f1-copying-saga-is-flirting-with-a-total-nonsense-allegation/'
+              href='https://the-race.com/formula-1/was-renaults-poor-spanish-gp-really-an-anomaly/'
               target='_blank'>
               the-race.com
             </ContentLink>{' '}

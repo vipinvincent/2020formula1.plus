@@ -7,14 +7,14 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=PI_0rJ0LEr4'
+        href='https://www.youtube.com/watch?v=DmZvryU9FiY'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/PI_0rJ0LEr4/sddefault.jpg'
-              alt='Is Ferrari Sabotaging Vettel?'
+              src='https://img.youtube.com/vi/DmZvryU9FiY/sddefault.jpg'
+              alt='What is the F1 Concorde Agreement?'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,25 +32,20 @@ const Second: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=PI_0rJ0LEr4'
+            href='https://www.youtube.com/watch?v=DmZvryU9FiY'
             target='_blank'>
-            Is Ferrari Sabotaging Vettel?
+            What is the F1 Concorde Agreement?
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Ferrari’s Sebastian Vettel finally managed to get a decent result by
-            finishing in 7th at the Spanish GP and ahead of his teammate Charles
-            Leclerc who recorded a DNF. However, prior to that, the results
-            suggested Vettel was lagging quite a bit behind Leclerc in terms of
-            performance and there were allegations that Ferrari have been
-            working against Vettel. Team principal Mattia Binotto has now
-            responded to these claims.
+            There's been a lot of talk about the impending deadline for F1 teams
+            and Liberty Media to sign and agree to the renewed Concorde
+            Agreement, but what is it and how does it affect racing? We break it
+            down into what you need to know.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink
-              href='https://www.youtube.com/c/FormulaWorld/'
-              target='_blank'>
-              Formula World
+            <ContentLink href='https://www.autosport.com/' target='_blank'>
+              Autosport
             </ContentLink>
           </p>
         </div>

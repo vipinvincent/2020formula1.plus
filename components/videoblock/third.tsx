@@ -7,14 +7,14 @@ const Third: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=rhAKrTOlbA8'
+        href='https://www.youtube.com/watch?v=K5mQifo2Lu8'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/rhAKrTOlbA8/sddefault.jpg'
-              alt='RACE ANALYSIS: 2020 Formula 1 Spanish Grand Prix'
+              src='https://img.youtube.com/vi/K5mQifo2Lu8/sddefault.jpg'
+              alt='Ferrari, McLaren & Williams to stay in F1 until 2025'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,24 +32,19 @@ const Third: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=rhAKrTOlbA8'
+            href='https://www.youtube.com/watch?v=K5mQifo2Lu8'
             target='_blank'>
-            RACE ANALYSIS: 2020 Formula 1 Spanish Grand Prix
+            Ferrari, McLaren & Williams to stay in F1 until 2025
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Barcelona’s Circuit de Catalunya remains a fixture on the Formula
-            One calendar, with 2020’s edition a golden milestone - the 50th
-            Spanish Grand Prix, and 30th held at the familiar Montmeló track. …
-            and golden performance, from the sport’s six-time F1 World Champion
-            Lewis Hamilton, who shrugged off concerns about blistering rubber in
-            the Spanish sun, to dominate from lights-to-flag for his fourth
-            victory of 2020, his fifth in Barcelona, his fourth-straight there,
-            and 88th overall.
+            McLaren, Ferrari & Williams, the longest established teams in
+            Formula 1, have committed to staying in the sport until the end of
+            2025, after confirming they've signed the new Concorde Agreement.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='https://unbeaten.com/formula1' target='_blank'>
-              The Inside Line
+            <ContentLink href='http://www.formulaspy.com' target='_blank'>
+              Thomas Maher
             </ContentLink>
           </p>
         </div>
