@@ -4,7 +4,7 @@ import ContentLink from 'components/link/ContentLink'
 
 const TheRace: React.FC = () => {
   return (
-    <div className='relative bg-white-50 rounded-tl-xxl rounded-br-xxl shadow mt-0'>
+    <div className='relative  mt-0'>
       <div className='h-32 sm:h-48 w-full bg-white-100 rounded-tl-xl'>
         <img
           className='w-full h-full object-contain rounded-tl-lg border-b border-gray-400 px-8 py-8'

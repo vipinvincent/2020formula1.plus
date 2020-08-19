@@ -30,88 +30,88 @@ const Main: React.FC = () => {
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mt-0 mb-1 px-2 '>
         Archived News
       </div>
-      <div className='w-100'>
+      <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
         <Archive23 />
       </div>
       <div className='w-100 flex flex-col xl:flex-row'>
-        <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 mt-4'>
+        <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 mt-4 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
           <Archive22 />
         </div>
-        <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 mt-4'>
+        <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 mt-4 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
           <Archive21 />
         </div>
       </div>
-      <div className='w-100 mt-4'>
+      <div className='w-100 mt-4 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
         <Archive20 />
       </div>
       <div className='w-100 flex flex-col xl:flex-row'>
-        <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 mt-4'>
+        <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 mt-4 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
           <Archive19 />
         </div>
-        <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 mt-4'>
+        <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 mt-4 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
           <Archive18 />
         </div>
       </div>
-      <div className='w-100 mt-4'>
+      <div className='w-100 mt-4 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
         <Archive17 />
       </div>
       <div className='w-100 flex flex-col xl:flex-row'>
-        <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 mt-4'>
+        <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 mt-4 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
           <Archive16 />
         </div>
-        <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 mt-4'>
+        <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 mt-4 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
           <Archive15 />
         </div>
       </div>
-      <div className='w-100 mt-4'>
+      <div className='w-100 mt-4 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
         <Archive14 />
       </div>
       <div className='w-100 flex flex-col xl:flex-row'>
-        <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 mt-4'>
+        <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 mt-4 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
           <Archive13 />
         </div>
-        <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 mt-4'>
+        <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 mt-4 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
           <Archive12 />
         </div>
       </div>
-      <div className='w-100 mt-4'>
+      <div className='w-100 mt-4 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
         <Archive11 />
       </div>
       <div className='w-100 flex flex-col xl:flex-row'>
-        <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 mt-4'>
+        <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 mt-4 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
           <Archive10 />
         </div>
-        <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 mt-4'>
+        <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 mt-4 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
           <Archive9 />
         </div>
       </div>
-      <div className='w-100 mt-4'>
+      <div className='w-100 mt-4 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
         <Archive8 />
       </div>
       <div className='w-100 flex flex-col xl:flex-row'>
-        <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 mt-4'>
+        <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 mt-4 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
           <Archive7 />
         </div>
-        <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 mt-4'>
+        <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 mt-4 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
           <Archive6 />
         </div>
       </div>
       <div className='w-100 flex flex-col xl:flex-row'>
-        <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 mt-4'>
+        <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 mt-4 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
           <Archive5 />
         </div>
-        <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 mt-4'>
+        <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 mt-4 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
           <Archive4 />
         </div>
       </div>
-      <div className='w-100 mt-4'>
+      <div className='w-100 mt-4 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
         <Archive1 />
       </div>
       <div className='w-100 flex flex-col xl:flex-row'>
-        <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 mt-4'>
+        <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 mt-4 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
           <Archive3 />
         </div>
-        <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 mt-4'>
+        <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 mt-4 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
           <Archive2 />
         </div>
       </div>

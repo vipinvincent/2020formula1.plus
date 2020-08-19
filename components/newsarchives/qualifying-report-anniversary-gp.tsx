@@ -4,7 +4,7 @@ import H1 from 'components/heading/H1'
 
 const Archive19: React.FC = () => {
   return (
-    <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
+    <div className='relative'>
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-6 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
@@ -51,11 +51,11 @@ const Archive19: React.FC = () => {
             Kimi Räikkönen finished 20th with his team mate Antonio Giovinazzi
             out preforming again in Saturday Qualifying.
           </p>
-          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
+          {/* <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             “It feels good,” said pole-sitter Valtteri Bottas during post
             qualifying conference. “I just love qualifying, especially when it
             goes well."
-          </p>
+          </p> */}
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'></p>
         </div>
       </div>

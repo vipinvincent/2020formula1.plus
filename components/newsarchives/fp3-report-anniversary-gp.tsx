@@ -4,7 +4,7 @@ import H1 from 'components/heading/H1'
 
 const Archive18: React.FC = () => {
   return (
-    <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
+    <div className='relative'>
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-4 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
@@ -54,16 +54,16 @@ const Archive18: React.FC = () => {
             his AlphaTauri team mate by a tenth of a second to finish P11, with
             Daniil Kvyat P12 ahead of Vettel's Ferrari.
           </p>
-          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
+          {/* <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             So, it was yet another dominating performance by Mercedes who
             unsurprisingly finished 1-2 for the 70th Anniversary Grand Prix
-            {/* weekend. But The weekend will get interesting as Honda will give Red
+            weekend. But The weekend will get interesting as Honda will give Red
             Bull Formula 1 drivers Max Verstappen and Alexander Albon new power
             units ahead of this weekend’s 70th Anniversary Grand Prix. Albon
             took a new energy store on his Honda power unit last weekend at the
             British Grand Prix, but will now also take a second engine,
-            turbocharger, MGU-H and MGU-K for the race. */}
-          </p>
+            turbocharger, MGU-H and MGU-K for the race.
+          </p> */}
         </div>
       </div>
     </div>

@@ -4,7 +4,7 @@ import ContentLink from 'components/link/ContentLink'
 
 const MotorSport: React.FC = () => {
   return (
-    <div className='relative bg-white-50 rounded-tl-xxl rounded-br-xxl shadow mt-0'>
+    <div className='relative  mt-0'>
       <div className='h-32 sm:h-48 w-full bg-black-100 rounded-tl-xl'>
         <img
           className='w-full h-full object-contain rounded-tl-lg rounded-br-lg-tl-xl'

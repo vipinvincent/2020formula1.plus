@@ -32,22 +32,22 @@ const Main: React.FC = () => {
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
         Latest News
       </div>
-      <div className='w-100'>
+      <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
         <FirstContent />
       </div>
       <div className='w-100 flex flex-col xl:flex-row'>
-        <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 mt-4'>
+        <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 mt-4 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
           <SecondContent />
         </div>
-        <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 mt-4'>
+        <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 mt-4 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
           <ThirdContent />
         </div>
       </div>
       <div className='w-100 flex flex-col xl:flex-row mt-4'>
-        <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 mt-0'>
+        <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 mt-0 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
           <Archive22 />
         </div>
-        <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 mt-0'>
+        <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 mt-0 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
           <Archive21 />
         </div>
       </div>
@@ -58,14 +58,14 @@ const Main: React.FC = () => {
         Featured news on F1 news Sources
       </div>
       <div className='rounded-tl-xxl rounded-br-xxl'>
-        <div className='w-100 mb-4'>
+        <div className='w-100 mb-4 bg-white-70 rounded-tl-xxl rounded-br-xxl shadow'>
           <F1 />
         </div>
         <div className='w-100 flex flex-col xl:flex-row'>
-          <div className='w-100 xl:w-1/2 mr-0 xl:mr-2'>
+          <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 bg-white-70 rounded-tl-xxl rounded-br-xxl shadow'>
             <TheRace />
           </div>
-          <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 mt-4 xl:mt-0'>
+          <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 mt-4 xl:mt-0 bg-white-70 rounded-tl-xxl rounded-br-xxl shadow'>
             <FormulaSpy />
           </div>
         </div>

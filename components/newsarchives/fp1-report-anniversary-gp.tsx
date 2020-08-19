@@ -4,7 +4,7 @@ import H1 from 'components/heading/H1'
 
 const Archive15: React.FC = () => {
   return (
-    <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
+    <div className='relative'>
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-2 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>

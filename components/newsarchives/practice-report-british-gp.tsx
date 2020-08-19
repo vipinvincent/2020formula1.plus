@@ -4,14 +4,7 @@ import H1 from 'components/heading/H1'
 
 const Archive12: React.FC = () => {
   return (
-    <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
-      {/* <div className='h-40 xl:h-48 w-full'>
-        <img
-          className='w-full h-full object-cover rounded-tl-xxl'
-          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1596212334/contentImages/content/silverstone_u3q2ho.jpg'
-          alt='Stroll leads Albon and Bottas in FP2; Verstappen quickest from Hamilton and Stroll in FP1 as Hulkenberg shines on his  RETURN'
-        />
-      </div> */}
+    <div className='relative'>
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-4 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>

@@ -4,7 +4,7 @@ import H1 from 'components/heading/H1'
 
 const Left: React.FC = () => {
   return (
-    <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
+    <div className='relative'>
       <div className='h-40 xl:h-48 w-full'>
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
