@@ -13,12 +13,12 @@ import TheRace from 'components/contentblock/therace'
 
 // import Report from 'components/contentblock/report'
 
-import Archive22 from 'components/newsarchives/fp2-report-spanish-gp'
-import Archive21 from 'components/newsarchives/fp1-report-spanish-gp'
+// import Archive22 from 'components/newsarchives/fp2-report-spanish-gp'
+// import Archive21 from 'components/newsarchives/fp1-report-spanish-gp'
 import FirstContent from 'components/contentblock/main'
 import SecondContent from 'components/contentblock/left'
 import ThirdContent from 'components/contentblock/right'
-// import FourthContent from 'components/contentblock/second'
+import FourthContent from 'components/contentblock/second'
 
 // import Qualifying from 'components/qualifying/quick-look'
 // import Race from 'components/race/quick-look'
@@ -32,7 +32,10 @@ const Main: React.FC = () => {
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
         Latest News
       </div>
-      <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
+      <div className='w-100'>
+        <FourthContent />
+      </div>
+      <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow  mt-4'>
         <FirstContent />
       </div>
       <div className='w-100 flex flex-col xl:flex-row'>
@@ -43,14 +46,14 @@ const Main: React.FC = () => {
           <ThirdContent />
         </div>
       </div>
-      <div className='w-100 flex flex-col xl:flex-row mt-4'>
+      {/* <div className='w-100 flex flex-col xl:flex-row mt-4'>
         <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 mt-0 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
           <Archive22 />
         </div>
         <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 mt-0 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
           <Archive21 />
         </div>
-      </div>
+      </div> */}
       {/* <div className='w-100 mt-4'>
         <FourthContent />
       </div> */}
