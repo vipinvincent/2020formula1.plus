@@ -9,7 +9,7 @@ const F1: React.FC = () => {
         <img
           className='w-full h-full object-contain rounded-tl-xxl'
           src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1596777189/contentImages/content/f170_iwh29t.jpg'
-          alt='‘Racing is in our DNA’ says Ferrari chief as the team signs new F1 Concorde Agreement'
+          alt='F1.com'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
@@ -18,43 +18,37 @@ const F1: React.FC = () => {
             News
           </div>
           <ActionLink
-            href='https://www.formula1.com/en/latest/article.racing-is-in-our-dna-says-ferrari-chief-as-the-team-signs-new-f1-concorde.3zy1IdyREXqKtL59cVAfnp.html'
+            href='https://www.formula1.com/en/latest/article.hamilton-and-bottas-fully-supportive-of-wolff-amid-questions-over-his-future.2Eezg95VSoXKtxOWAlH96N.html'
             target='_blank'>
-            ‘Racing is in our DNA’ says Ferrari chief as the team signs new F1
-            Concorde Agreement
+            Hamilton and Bottas ‘fully supportive’ of Wolff amid questions over
+            his future
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Having raced in every Formula 1 season since 1950, Ferrari have
-            signalled their commitment to remain in the sport by signing the new
-            Concorde Agreement, the commercial agreement which outlines the
-            terms under which Formula 1 teams will compete in the championship
-            up until 2025.
+            Lewis Hamilton and Valtteri Bottas have come out in support of their
+            Team Principal Toto Wolff, following comments made by the Mercedes
+            chief at the Spanish Grand Prix regarding his future – although both
+            drivers added that Wolff’s ultimate decision on whether to stay or
+            leave Mercedes would have no impact on their own future plans.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Ferrari Team Principal Mattia Binotto had been outspoken about his
-            team’s willingness to sign the Concorde Agreement in recent months.
-            And after re-stating their commitment to signing at the 70th
-            Anniversary Grand Prix, Ferrari announced that they had put pen to
-            paper in the week following the Spanish Grand Prix. “We are pleased
-            to have signed up again to what is commonly known as the Concorde
-            Agreement, which will regulate Formula One for the next five years,”
-            said Ferrari CEO Louis Camilleri.
+            Wolff is synonymous with the Silver Arrows’ success as a shareholder
+            of the team, his leadership a major part of their dominance since
+            2014. But reports about his future have swirled since he said he was
+            in a “moment of reflection” during the Spanish Grand Prix weekend.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            “It is an important step to ensure the stability and growth of the
-            sport. We are very confident that the collaboration with the FIA and
-            Liberty Media can make Formula One even more attractive and
-            spectacular, while preserving its status as the ultimate
-            technological challenge. “Racing is in Ferrari’s DNA and it is no
-            coincidence that the Scuderia is the only team that has participated
-            in every edition of the FIA Formula One World Championship, becoming
-            an integral and essential part of its success, today as in the past
-            and, above all, in the future.”
+            No decision has been taken yet, but Hamilton and Bottas said they
+            would back their boss in whatever he decides to do. “We’ve done so
+            much already together in this period of time. I hope he stays
+            because it’s fun working with him, and it’s fun negotiating with him
+            and fun having the up and downs. So I’m truly grateful to Toto and
+            I’ll be fully supportive in whatever he decides to do,” said
+            Hamilton in Spain.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.formula1.com/en/latest/article.racing-is-in-our-dna-says-ferrari-chief-as-the-team-signs-new-f1-concorde.3zy1IdyREXqKtL59cVAfnp.html'
+              href='https://www.formula1.com/en/latest/article.hamilton-and-bottas-fully-supportive-of-wolff-amid-questions-over-his-future.2Eezg95VSoXKtxOWAlH96N.html'
               target='_blank'>
               formula1.com
             </ContentLink>{' '}

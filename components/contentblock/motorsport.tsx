@@ -18,38 +18,40 @@ const MotorSport: React.FC = () => {
             News
           </div>
           <ActionLink
-            href='https://www.motorsport.com/f1/news/closing-speeds-magnussen-ocon-incident/4859206/'
+            href='https://www.motorsport.com/f1/news/turkey-return-easy-flat-turn-8/4860114/'
             target='_blank'>
-            Closing speeds to be discussed after Magnussen/Ocon incident
+            F1 drivers support plan to bring back "awesome" Turkey
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Formula 1 drivers are set discuss concerns about the closing speeds
-            between cars on hot laps and slow laps following the incident
-            involving Kevin Magnussen and Esteban Ocon in Spain.
+            Formula 1 drivers are relishing the pending addition of Turkey’s
+            Istanbul Park to the 2020 calendar, and expect Turn 8 to be “easy
+            flat” in the modern cars.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Ocon crashed into the wall towards the end of final practice for the
-            Spanish Grand Prix after taking evasive action to avoid a
-            slow-moving Magnussen between Turn 3 and Turn 4. Magnussen was on a
-            slow lap in a bid to cool his tyres, while Ocon was trying to get
-            his tyres up to temperature after exiting the pits, explaining the
-            speed difference. Both the drivers and the stewards put it down as
-            an “unfortunate” accident, with no action being taken.
+            F1 is set to confirm the return of the Turkish Grand Prix in the
+            final 2020 calendar in the near future, reviving the race after nine
+            years off the schedule. Turkey will take up a November date slot
+            ahead of back-to-back races in Bahrain and the season finale in Abu
+            Dhabi in mid-December, lifting the schedule to 17 races. Of the
+            current grid, only Lewis Hamilton, Sebastian Vettel, Kimi Raikkonen
+            and Sergio Perez have prior experience in F1 machinery at the
+            circuit. Romain Grosjean raced at Istanbul Park back in GP2, winning
+            races there in 2008 and 2011, and was excited by the prospect of the
+            track returning.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            But there was a repeat of cars going slowly on-track through
-            qualifying in Barcelona as drivers tried to cool their tyres,
-            causing them to bunch in the final sector before starting their
-            flying laps. “It's not really acceptable to have a queue of cars,”
-            Ocon said. “If there is someone coming up at race speed, it can be
-            dangerous. This has been the trend. “In hot conditions, we are a
-            minute slower in a cool-down lap or to prep the lap. It's very, very
-            slow.
+            “It would be mega,” Grosjean said when asked by Motorsport.com about
+            going back to Turkey. “I think it would be bloody awesome. It’s such
+            a cool track. I really enjoy going there and racing. “Turn 8 is a
+            good one for the neck, so I think it would be very fast.” The
+            quadruple-apex left-hand Turn 8 was one of the most spectacular
+            corners in F1 when Turkey first joined the calendar in 2005, but has
+            never been tested out with the modern-spec high-downforce cars.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.motorsport.com/f1/news/closing-speeds-magnussen-ocon-incident/4859206/'
+              href='https://www.motorsport.com/f1/news/turkey-return-easy-flat-turn-8/4860114/'
               target='_blank'>
               motorsport.com
             </ContentLink>{' '}

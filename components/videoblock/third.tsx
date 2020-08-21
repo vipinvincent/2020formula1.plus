@@ -7,14 +7,14 @@ const Third: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=K5mQifo2Lu8'
+        href='https://www.youtube.com/watch?v=WAMA-MJFQgU'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/K5mQifo2Lu8/sddefault.jpg'
-              alt='Ferrari, McLaren & Williams to stay in F1 until 2025'
+              src='https://img.youtube.com/vi/WAMA-MJFQgU/sddefault.jpg'
+              alt='Start Struggles, Double Stacks and More | 2020 Spanish GP F1 Debrief'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,19 +32,19 @@ const Third: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=K5mQifo2Lu8'
+            href='https://www.youtube.com/watch?v=WAMA-MJFQgU'
             target='_blank'>
-            Ferrari, McLaren & Williams to stay in F1 until 2025
+            Start Struggles, Double Stacks and More | 2020 Spanish GP F1 Debrief
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            McLaren, Ferrari & Williams, the longest established teams in
-            Formula 1, have committed to staying in the sport until the end of
-            2025, after confirming they've signed the new Concorde Agreement.
+            In our Spanish GP F1 Race Debrief, James Vowles talks Valtteri’s
+            difficult start, one-stop possibilities, scorching temperatures and
+            more! 👀
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='http://www.formulaspy.com' target='_blank'>
-              Thomas Maher
+            <ContentLink href='https://www.mercedesamgf1.com/' target='_blank'>
+              Mercedes-AMG Petronas Formula One Team
             </ContentLink>
           </p>
         </div>

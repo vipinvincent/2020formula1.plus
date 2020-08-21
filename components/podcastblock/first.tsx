@@ -7,14 +7,14 @@ const First: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=AEtzvI4bJfg'
+        href='https://www.youtube.com/watch?v=gE-LRh0b14s'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-40 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/AEtzvI4bJfg/sddefault.jpg'
-              alt='FP1 Post Podium Podcast Episode 5: 70th Anniversary Grand Prix'
+              src='https://img.youtube.com/vi/gE-LRh0b14s/sddefault.jpg'
+              alt='Why Dont Gasly & Ocon Get Along?'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,15 +32,16 @@ const First: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=AEtzvI4bJfg'
+            href='https://www.youtube.com/watch?v=gE-LRh0b14s'
             target='_blank'>
-            F1 2020 Spanish GP Review
+            Why Don't Gasly & Ocon Get Along?
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            So... The Spanish Grand Prix happened... I mean what can I say... it
-            was just a bit dull I'll be honest. Here are my thoughts immediately
-            after the race, let me know what you thought of it all down in the
-            comments below!
+            On paper, Esteban Ocon and Pierre Gasly are the perfect Renault
+            team. Both young, both very talented Formula 1 drivers, and both
+            French! But unfortunately, it's not quite that simple. Today I look
+            at the history between the pair, and how they went from best friends
+            as kids, to anything but. Hope you enjoy!
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}

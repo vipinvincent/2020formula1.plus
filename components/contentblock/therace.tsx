@@ -18,41 +18,41 @@ const TheRace: React.FC = () => {
             News
           </div>
           <ActionLink
-            href='https://the-race.com/formula-1/was-renaults-poor-spanish-gp-really-an-anomaly/'
+            href='https://the-race.com/formula-1/who-wins-from-f1s-new-concorde-deal-and-how-itll-work/'
             target='_blank'>
-            Was Renault’s poor Spanish GP really an ‘anomaly’?
+            Who wins from F1’s new Concorde deal and how it’ll work
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Renault endured its worst weekend of the 2020 Formula 1 season in
-            the Spanish Grand Prix, failing either to get a car into Q3 in
-            qualifying or score points for the first time this season. Ricciardo
-            missed out on a place in Q3 by just 0.032s but was only
-            13th-fastest, with team-mate Esteban Ocon a further 0.369s behind
-            and complaining of a power deficit. Ricciardo finished 11th in the
-            race, two places ahead of his team-mate.
+            Formula 1’s confirmation that all 10 teams have signed the Concorde
+            Agreement is a watershed moment for Liberty Media and those who have
+            worked through a pandemic to put on a near-complete calendar, revise
+            a first-ever budget cap before it was even introduced and then
+            negotiate all-new commercial terms that undo a lot of damage done to
+            F1’s competitive prospects in recent years.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            “I certainly hope this weekend was a bit of an anomaly, a bit of an
-            Achilles’ heel for us,” said Ricciardo. “Everyone’s so familiar with
-            this track and to find something extra it is challenging. “But we’ve
-            had good pace all year and this didn’t quite correlate to that
-            around here, so hopefully it’s a one-off. We’ll try and learn from
-            it but come Spa, Monza, these are tracks we’re normally pretty
-            strong on and should have a better run.”
+            From that final collective glory and the various positives that
+            emerge from the Robin Hood-style Concorde – which takes from the
+            richest teams to give to the poorest – came two official comments
+            from F1: One on Wednesday morning to confirm it was complete, and
+            one the previous day attached to Ferrari’s individual announcement.
+            This was not an entire F1 press release dedicated to a single team
+            but it was still an indicator, like the special terms for Ferrari
+            that still reside within the latest commercial terms, that F1 puts
+            Ferrari above the rest.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Ricciardo’s point about the familiarity of the track is pertinent
-            because this wasn’t actually Renault’s worst weekend in terms of
-            pure performance. In Spain, its fastest time was 2.135% off the
-            outright fastest, after it had set a season’s best pace of just
-            1.342% down in the Silverstone event the previous weekend. But at
-            the third round of the season at the Hungaroring, it was 3.014%
-            down.
+            So, while Ferrari’s on-track performances in F1 leave a lot to be
+            desired at present, it can take some consolation in still wielding
+            enough power off-track to get what it wants. “We got what was
+            essential for us,” Ferrari team boss Mattia Binotto told Sky Sports
+            F1 after his team kept its veto right during regulation discussions,
+            and a massively reduced special payment.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://the-race.com/formula-1/was-renaults-poor-spanish-gp-really-an-anomaly/'
+              href='https://the-race.com/formula-1/who-wins-from-f1s-new-concorde-deal-and-how-itll-work/'
               target='_blank'>
               the-race.com
             </ContentLink>{' '}

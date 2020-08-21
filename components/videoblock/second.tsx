@@ -7,14 +7,14 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=DmZvryU9FiY'
+        href='https://www.youtube.com/watch?v=10UhOInDljY'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/DmZvryU9FiY/sddefault.jpg'
-              alt='What is the F1 Concorde Agreement?'
+              src='https://img.youtube.com/vi/10UhOInDljY/sddefault.jpg'
+              alt='F1 News: Teams Sign Agreement and Turkey Set To Return'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,20 +32,20 @@ const Second: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=DmZvryU9FiY'
+            href='https://www.youtube.com/watch?v=10UhOInDljY'
             target='_blank'>
-            What is the F1 Concorde Agreement?
+            Teams Sign Agreement and Turkey Set To Return
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            There's been a lot of talk about the impending deadline for F1 teams
-            and Liberty Media to sign and agree to the renewed Concorde
-            Agreement, but what is it and how does it affect racing? We break it
-            down into what you need to know.
+            In today’s F1 news round-up: Formula One announce that all 10-teams
+            have signed the new Concorde Agreement, the Turkish Grand Prix is
+            set to return to the calendar for 2020, and FIA race director
+            Michael Masi is confident they can police the engine mode ban.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='https://www.autosport.com/' target='_blank'>
-              Autosport
+            <ContentLink href='https://www.gptoday.net/' target='_blank'>
+              The F1 Word
             </ContentLink>
           </p>
         </div>
