@@ -18,7 +18,7 @@ import TheRace from 'components/contentblock/therace'
 import FirstContent from 'components/contentblock/main'
 import SecondContent from 'components/contentblock/left'
 import ThirdContent from 'components/contentblock/right'
-import FourthContent from 'components/contentblock/second'
+// import FourthContent from 'components/contentblock/second'
 
 // import Qualifying from 'components/qualifying/quick-look'
 // import Race from 'components/race/quick-look'
