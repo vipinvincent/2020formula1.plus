@@ -1,5 +1,7 @@
 import React from 'react'
-
+import Archive26 from 'components/newsarchives/race-report-spanish-gp'
+import Archive25 from 'components/newsarchives/qualifying-report-spanish-gp'
+import Archive24 from 'components/newsarchives/fp3-report-spanish-gp'
 import Archive23 from 'components/newsarchives/racingpoint-verdict-fia'
 import Archive22 from 'components/newsarchives/fp2-report-spanish-gp'
 import Archive21 from 'components/newsarchives/fp1-report-spanish-gp'
@@ -31,6 +33,17 @@ const Main: React.FC = () => {
         Archived News
       </div>
       <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
+        <Archive26 />
+      </div>
+      <div className='w-100 flex flex-col xl:flex-row'>
+        <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 mt-4 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
+          <Archive25 />
+        </div>
+        <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 mt-4 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
+          <Archive24 />
+        </div>
+      </div>
+      <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-4'>
         <Archive23 />
       </div>
       <div className='w-100 flex flex-col xl:flex-row'>

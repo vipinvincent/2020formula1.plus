@@ -7,14 +7,14 @@ const First: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=EQRSfd0aDtU'
+        href='https://www.youtube.com/watch?v=Dn0FXsqfMbM'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/EQRSfd0aDtU/sddefault.jpg'
-              alt='Is Ricciardos 2021 McLaren move an inspired one?'
+              src='https://img.youtube.com/vi/Dn0FXsqfMbM/sddefault.jpg'
+              alt='F1’s new team payment deals explained'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,19 +32,27 @@ const First: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=EQRSfd0aDtU'
+            href='https://www.youtube.com/watch?v=Dn0FXsqfMbM'
             target='_blank'>
-            Is Ricciardo's 2021 McLaren move an inspired one?
+            F1’s new team payment deals explained
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Daniel Ricciardo’s shock McLaren switch may have seemed impetuous at
-            the time, but the Australian’s decision to move from 2021 is looking
-            increasingly inspired, with the momentum behind the Woking squad …
+            All 10 Formula 1 teams have signed up to the new Concorde Agreement,
+            committing them to the championship from 2021-2025. The aim of the
+            new contracts between F1 and the teams was primarily to fix the
+            flawed financial deals that were in place before, which guaranteed
+            the top teams swept up too much of the money, making it almost
+            impossible for the rest to catch up. In this video Scott Mitchell
+            explains how the new deals are structured, including the terms of
+            new, smaller bonuses for the bigger or long-standing teams, and
+            better rewards for the rest in a more even distribution of F1’s cash
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='https://unbeaten.com/formula1' target='_blank'>
-              The Inside Line
+            <ContentLink
+              href='https://the-race.com/formula-1/who-wins-from-f1s-new-concorde-deal-and-how-itll-work/'
+              target='_blank'>
+              The race
             </ContentLink>
           </p>
         </div>

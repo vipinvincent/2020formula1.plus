@@ -2,57 +2,59 @@ import React from 'react'
 import H1 from 'components/heading/H1'
 // import ActionLink from 'components/link/ActionLink'
 
-const Left: React.FC = () => {
+const Archive25: React.FC = () => {
   return (
     <div className='relative'>
       <div className='h-40 xl:h-48 w-full'>
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
-          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1598076171/contentImages/content/williams_azo6ch.jpg'
-          alt='Williams announces the ale of F1 team to US investment company'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594992043/contentImages/content/mercedes12_ufegj1.jpg'
+          alt='FP2 REPORT - Spanish GP 2020'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-2 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            News
+            Qualifying REPORT - Spanish GP 2020
           </div>
           <H1>
-            Williams announces the sale of F1 team to US investment company;
+            Hamilton with his 92nd pole tops the qualifying with Bottas in P2
+            and Verstappen in P3
           </H1>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            US based private investment firm Dorilton Capital has acquired
-            Williams Racing, the former formula 1 champions, marking the end of
-            an era for the family-owned team. It will continue to race and
-            compete under the Williams brand and with an unchanged chassis name,
-            and the team says there are no plans to relocate from its
-            headquarters from deep-rooted Grove base.
+            Mercedes’ domination in the practice sessions reflects in qualifying
+            with Lewis Hamilton heading his team mate Valtteri Bottas by just
+            +0.059s. Red Bull’s Max Verstappen qualified third by 0.708s down on
+            leader, ahead of the Racing Point's of Sergio Perez and Lance
+            Stroll. Verstappen just crossed ahead of Perez for third, as he
+            failed to improve on his final run, with Perez setting a personal
+            best but still being unable to get ahead of the Red Bull. Lance
+            Stroll was sixth ahead of Alex Albon in the other Red Bull in sixth,
+            with Carlos Sainz leading his team mate Lando Norris who only made
+            into Q3 by 0.002s, in seventh and eighth for McLaren. Ferrari’s
+            Charles Leclerc and Pierre Gasly (AlphaTauri) rounded out the top
+            10.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The iconic British constructor Sir Frank Williams, who has remained
-            team principal, and Sir Patrick Head, Founded Williams Racing in
-            1977. Williams have won nine constructors' titles and seven drivers'
-            championships, the most recent coming through Canadian Jacques
-            Villeneuve in 1997.
+            Gasly's late improvement towards the end of Q2 knocked out Sebastian
+            Vettel, and the second Ferrari will start 11th for the second race
+            in a row. To make things worse It is for the third time this season
+            he has not made it into the Q3 in qualifying. Daniil Kvyat, finishes
+            12th 12th ahead of Daniel Ricciardo who will face a post-qualifying
+            investigation for an incident with Kevin Magnussen at the second
+            corner in Q1. Kimi Raikkonen scored his best qualifying result so
+            far in 2020 with 14th, as Esteban Ocon finished as the slowest
+            driver in Q2.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            In May, Williams began a formal sale process as part of a new
-            company strategic review and immediately entered preliminary
-            discussions regarding potential investment. On Friday, just after
-            signing the new Concorde Agreement” for 2021 the team said Dorilton
-            Capital would be their new owners, stated "This marks the beginning
-            of an exciting new era in the history of Williams, which with its
-            new owner is well positioned to capitalise upon the sweeping rule
-            changes coming into Formula 1 with the new Concorde Agreement." It
-            said the decision for the acquisition of Williams Racing was
-            supported unanimously by the board, including 78-year-old founder
-            Frank Williams. "This is the end of an era for Williams as a
-            family-owned team, but we know it is in good hands," deputy team
-            principal Claire Williams said. "It ensures the team's survival but
-            importantly provides a path to success." Importantly, the team said
-            the private investment firm “recognises and appreciates the
-            importance of respecting and retaining Williams’ heritage and
-            culture and is committed to maintaining its identity”.
+            Kevin Magnussen managed to outqualify Romain Grosjean despite being
+            behind in all three practice. George Russell did not make it into Q2
+            for the first time since the season opener, but he maintained his
+            100% qualifying record over Nicholas Latifi and Williams. Antonio
+            Giovinazzi finished last in Q1, almost a second slower than his
+            teammate with his best time, after earlier running heavily over the
+            kerb at the exit of the final corner on his penultimate flying
+            effort.
           </p>
           {/* <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
@@ -172,4 +174,4 @@ const Left: React.FC = () => {
     </div>
   )
 }
-export default Left
+export default Archive25

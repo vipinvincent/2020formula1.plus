@@ -7,14 +7,14 @@ const First: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=gE-LRh0b14s'
+        href='https://www.youtube.com/watch?v=MF0XBHRxK_0'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-40 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/gE-LRh0b14s/sddefault.jpg'
-              alt='Why Dont Gasly & Ocon Get Along?'
+              src='https://img.youtube.com/vi/MF0XBHRxK_0/sddefault.jpg'
+              alt='Is It The Track or The Cars That Make The Spanish GP Boring? | Is It Just Me? Podcast'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,23 +32,20 @@ const First: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=gE-LRh0b14s'
+            href='https://www.youtube.com/watch?v=MF0XBHRxK_0'
             target='_blank'>
-            Why Don't Gasly & Ocon Get Along?
+            Is It The Track or The Cars That Make The Spanish GP Boring? | Is It
+            Just Me? Podcast
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            On paper, Esteban Ocon and Pierre Gasly are the perfect Renault
-            team. Both young, both very talented Formula 1 drivers, and both
-            French! But unfortunately, it's not quite that simple. Today I look
-            at the history between the pair, and how they went from best friends
-            as kids, to anything but. Hope you enjoy!
+            The 2020 Spanish GP was another dull affair, but what makes the
+            racing so boring? Is it the circuit layout or is it the 2020 cars?
+            Luke and Jess discuss in this week's episode.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink
-              href='https://www.youtube.com/channel/UCihjJgRm3Th-quKmTW-9AwQ'
-              target='_blank'>
-              FP1 - Formula Podcast One
+            <ContentLink href='https://www.autosport.com/' target='_blank'>
+              Autosport
             </ContentLink>
           </p>
         </div>

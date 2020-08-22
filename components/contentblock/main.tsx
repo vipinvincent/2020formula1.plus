@@ -1,203 +1,164 @@
 import React from 'react'
 import H1 from 'components/heading/H1'
 
-const Main: React.FC = () => {
+const Second: React.FC = () => {
   return (
-    <div className='relative'>
+    <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <div className='h-48 md:h-64 xl:h-104 w-full'>
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
-          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1597490683/contentImages/content/lewis-hamilton2_x4c01p.jpg'
-          alt='Qualifying REPORT - Spanish GP 2020'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1597986174/contentImages/content/mercedes-domination_ilfmqc.jpg'
+          alt='Will the ban of "party mode" really slow down Mercedes and end the F1 Monotony?'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-2 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            Race REPORT - Spanish GP 2020
+            Feature
           </div>
           <H1>
-            Hamilton dominates and wins his fifth Spanish GP win with Verstappen
-            in P2 splitting Mercedes
+            Will the ban of "party mode" really slow down Mercedes and end the
+            F1 Monotony?{' '}
           </H1>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Mercedes’ Lewis Hamilton, after leading every lap from pole to
-            finish completed his fifth Spanish Grand Prix win, and his fourth
-            victory of the 2020 season with Red Bull’s Max Verstappen coming
-            home ahead of the sister Mercedes of Valtteri Bottas. After having a
-            good start, Hamilton stormed in to first turn and never looked back
-            executed a near perfect race even calling the (best) strategy to put
-            mediums while his engineers opted for red softs. Verstappen also had
-            a great start, jumped to second at the getaway, but could not
-            challenge Hamilton as he finished 24s adrift. But Bottas had a poor
-            start dropping him from P2 to P4 off the line, before eventually
-            recovering to third in the beginning of the race without causing any
-            issues. But a wrong strategy of using a set of used softs couldn’t
-            help him catch Verstappen as he was pushed into traffic after the
-            first pit stop. Eventually Bottas finished +44.752s behind his
-            teammate.
+            <strong>
+              {' '}
+              What are Qualifying engine modes or "Party Modes" ?{' '}
+            </strong>
+            Qualifying modes or the “part modes” is essentially tuning up of
+            engine with extra engine revs and using the hybrid system
+            differently so as to improve the ability to run without harvesting
+            power and diverting it to the battery, thereby allowing maximum
+            deployment of energy recovered via the two energy recovery systems.
+            Sometimes the party modes use aggressive ignition timing and fuel
+            mixture, there by pushing the power unit to its absolute best yield.
+            A homogeneous system is also used for overtaking during the racing.
+            Previously the qualifying and overtake modes would have a time limit
+            per event imposed upon them by the engine manufacturer, so as to
+            keep the power unit within its usage limit.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Racing Point’s Sergio Perez crossed the line in fourth but forced to
-            as a five-second penalty for ignoring blue flags, promoting Lance
-            Stroll P4. Perez eventually slotted into fifth, ahead of the McLaren
-            of Carlos Sainz who maintained his 100% record of finishing in the
-            points at his home race. This time Ferrari of Sebastian Vettel was
-            in the points, as his late call on the one-stop strategy helped him
-            to cross the line in seventh. The second Red Bull of Alexander Albon
-            only managed eight as his strategy of pitting early for hards never
-            paid off and more over spoiled his chances as he was pushed into the
-            traffic after the first pitstop, raising eye brows again for a bad
-            strategy call. Pierre Gasly of AlphaTauri had a good race with some
-            impressive moves in the mid field finished in ninth spot ahead of
-            second McLaren of Lando Norris, this time no last lap magic rounded
-            top 10 list.
+            <strong>
+              {' '}
+              What are the proposed Qualifying engine modes changes?{' '}
+            </strong>
+            A letter sent to the teams at Barcelona and were informed that
+            Technical Directive wants to have only one mode in use for both
+            qualifying and the race with the details to be confirmed by a
+            technical directive that will be issued before the Belgian GP at the
+            end of August. To assist policing, the FIA has to regulate a number
+            of power unit parameters through very detailed data analysis which
+            will help officials monitor what teams are doing with their power
+            units. Noting the “multitude and complexity of modes being used, it
+            is extremely difficult for the FIA to monitor compliance with all
+            the PU-related regulations and provisions in selected critical
+            moments of the event.” The letter also cited Article 27.1 of the
+            sporting regulations, which references drivers being required to
+            drive the car alone and unaided, and specified that “the changes to
+            ICE modes that are currently in force could potentially mean that
+            the driver does not drive the car alone and unaided.”
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Unfortunately, the two Renault drivers disappoints as they failed to
-            materialize the expected strong race pace on race day as Daniel
-            Ricciardo finished 11th with Esteban Ocon 13th. The alternate
-            strategy of one pit stop also not helped the yellow and black cars
-            as the both cars couldn’t finish in points. The second AlphaTauri of
-            Daniil Kvyat, after a five-second penalty for ignoring blue flags,
-            as like Sergio, splits the two Renaults and finished 12th outside
-            the points. Kimi Räikkönen finished in 14th the same spot he started
-            the race from. In between Kimi Raikkonen breaks record for most
-            miles driven in sport’s history after completing lap 37 of the
-            Spanish Grand Prix on Sunday. The Finn has raced over 50,000 miles –
-            more than twice the circumference of the Earth.
+            <strong> What are the expected outcomes? </strong>
+            The clampdown, which is set to be formalized as a technical
+            directive, will blunt the dominant Mercedes’ edge in qualifying
+            there by levelling the Formula 1 field by ceasing the huge advantage
+            enjoyed during on Saturday afternoon qualifying sessions. This will
+            also regulate the teams using the “overtake modes” used during
+            racing for easy and seamless overtaking. The same is used by Lando
+            Norris during Austrian GP, towards the end of the race for
+            overtaking and accomplish the fastest lap. The new regulations,
+            however is set to stop all these scenarios.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Kevin Magnussen of Haas finished fifteenth ahead of the second Alfa
-            Romeo of Giovinazzi who finished in 16th. The two Williams of George
-            Russell and Nicholas Latifi finished P17 and P18. The second Haas of
-            Grosjean Romain Grosjean was classified 19th and last after a
-            half-spin at Turn 8 on the penultimate lap. Also, he might have some
-            explaining to do in the next Grand Prix Drivers’ Association
-            meeting, after he once again executed a late defensive move on
-            Raikkonen. Ferrari’s Charles Leclerc, the only driver to retire from
-            the race, after suffering an electrical issue at the halfway point
-            that pitched him into a spin at Turn 15, before eventually retiring
-            his SF1000.
+            <strong> Will it benefit any teams? </strong>
+            Yes. The new regulation would save expensive development programs
+            for Honda, Renault and Ferrari at a time when the FIA is very
+            actively trying to close down cost drivers. The party mode ban is
+            supposed to shrinks that gap of Mercedes with other teams during the
+            qualification and there by balancing the rest of the grid, which
+            will diminish any chances supremacy. Moreover, the new regulation
+            will improve the engine lifespan and reliability of the power unit,
+            which will inherit extra cost benefits.
           </p>
-          {/* <p className='mt-1 text-base leading-normal text-gray-700'>
-            View the complete {' '}
-            <ContentLink
-              href='https://www.formula1.com/en/latest/article.we-havent-seen-the-full-potential-of-mercedes-or-red-bull-yet-says-wolff.4hSJsAzStntPh9H8WI6fDQ.html'
-              target='_blank'>
-              formula1.com
-            </ContentLink>{' '}
-            Qualifying results
-          </p> */}
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
+            <strong> Will it really benefit the F1 and fans? </strong>
+            No. The ban of qualifying mode is primarily focused to tame
+            Mercedes’ massive advantage during the qualifying, but this will
+            ultimately work in favor of Mercedes’ advantage in the race, as the
+            other teams will not have the special modes during racing . On the
+            contrary, the banning of the special modes means, other teams will
+            not have any access to the “overtake modes” used during the race for
+            easy overtakes and the strategy calls for under cuts and over cuts.
+            This will result in more boring races with car trains all over the
+            race tracks and the driver in back needs to rely only on the
+            mistakes by the driver in front for overtakes. Even though the
+            intention of ban is to level up the race field, but this will
+            neutralize the race and the race will be predicable based on the
+            qualification or start grid.
+          </p>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
+            <strong>
+              What do the drivers and teams think of this new regulations?
+            </strong>
+            <strong> Lewis Hamilton</strong> commented that it’s “not a
+            surprise” that an advantage Mercedes and their customer teams have
+            could potentially be quashed. “It’s not a surprise, they’re always
+            trying to slow us down,” Hamilton added: “ Just going back to the
+            fact, at the end of the day, the guys at our team have done such a
+            great job with the engine. “As I told you, it’s obviously to slow us
+            down, but I don’t think it’s going to get the result that they want.
+            So, it’s totally fine if they do it,” he said. Team mate{' '}
+            <strong>Valtteri Bottas </strong>
+            added, “If that’s the regulation that comes it’s the same for
+            everyone. It’s not up to us but we’ll take it if it comes.”
+            <br />
+            <strong> Max Verstappen</strong> commented “Maybe it’s good because
+            we are not really allowed to touch the car after qualifying except…
+            engine modes, so probably if you want to go down that route then I
+            think it’s good that you maybe get rid of as well,”
+            <br />
+            “For us we don’t have anything different from quali to the race, so
+            for us it won’t change anything,” said{' '}
+            <strong>Charles Leclerc</strong>. <strong>Vettel </strong>
+            added, “As Charles said, it doesn’t affect us this season so let’s
+            wait and see. It always depends what you are able to pull off, I
+            guess. If you have something developed or on your engine that you
+            can probably run a certain amount of mileage with more power or more
+            stress on the engine then it’s probably not the best news.
+            <br />
+            <strong>George Russell</strong> said “Yeah, I’d be disappointed to
+            see it lost,” he said. “I think for every engine manufacturer you’ve
+            got a boost for qualifying when you’re within the car, you’ve got
+            the lowest amount of fuel you have for the whole weekend, you’ve got
+            the fastest engine mode, you’re the most pumped up and ready you are
+            for that lap you’re about to approach. “Everything feels like that
+            little bit extra that allows you to extract that little bit more
+            from the car and it’s such an exciting part of the weekend.”
+            <br />
+            Mercedes Formula 1 boss <strong>Toto Wolff</strong> believes the
+            upcoming ban on engine modes in qualifying will potentially give the
+            team more performance in races. “I think we don’t lack performance
+            on Saturdays. We had until now quite a margin. We struggled in some
+            of the races where we were quite limited in powerful engine modes,
+            and if F1 were to ban in-season certain power unit modes, then I
+            think it will actually help us in the race.
+            <br />
+            Red Bull's <strong>Christian Horner</strong> suggests all teams will
+            be affected by the engine mode ban, but believes the FIA's
+            initiative is "a healthy thing" for the manufacturers."It will
+            affect all teams, the question is how much," Horner said on Friday.
+            "I think that these qualifying modes have been pushed and developed
+            over the years.
+            <br />
+            Ferrari Team boss <strong>Mattia Binotto</strong> says that, “It’s
+            not the last Directive, certainly, it’s even not the first technical
+            directive on power units, showing how complex and difficult is that
+            set of regulations.”.
+          </p>
         </div>
-        {/* <div className='flex flex-col md:flex-row justify-start border-t border-gray-200 pb-2 md:py-3 px-4 text-sm md:text-lg text-center md:text-left'>
-          <div className='w-full text-sm md:w-3/12 pb-4 md:pb-0 md:pr-4 leading-tight pt-2 md:pt-4'>
-            Follow this topic on -
-          </div>
-          <div className='w-full flex flex-row justify-center md:justify-start md:w-9/12'>
-            <div className='mr-2'>
-              <ActionLink
-                href='https://www.formula1.com/en/latest/article.fp3-bottas-leads-hamilton-and-perez-as-verstappen-spins-in-final-practice.4eRTHeO9GkMMYh9vxRnOmc.html'
-                target='_blank'>
-                <img
-                  className='w-auto h-6 md:h-12 px-2 object-contain rounded-tl-lg rounded-br-lg border border-gray-300'
-                  src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826932/contentImages/logo/formula1_qd0yzg.jpg'
-                  alt='f1.com'
-                />
-              </ActionLink>
-            </div> */}
-        {/* <div className='mr-2'>
-              <ActionLink
-                href='https://www.bbc.com/sport/formula1/53449276'
-                target='_blank'>
-                <img
-                  className='w-auto h-6 md:h-12 object-contain rounded-tl-lg rounded-br-lg'
-                  src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594827284/contentImages/logo/bbc_xek5di.png'
-                  alt='bbc.com/sport'
-                />
-              </ActionLink>
-            </div> */}
-        {/* <div className='mr-2'>
-              <ActionLink
-                href='https://www.motorsport.com/f1/news/hungarian-gp-fp3-report-bottas/4838964/'
-                target='_blank'>
-                <img
-                  className='w-auto h-6 md:h-12 object-contain rounded-tl-lg rounded-br-lg'
-                  src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826932/contentImages/logo/motorsport_acmgji.jpg'
-                  alt='motorsport.com'
-                />
-              </ActionLink>
-            </div>
-            <div className='mr-2'>
-              <ActionLink
-                href='https://www.skysports.com/f1/news/12433/12031161/hungarian-gp-practice-three-valtteri-bottas-fastest-from-lewis-hamilton'
-                target='_blank'>
-                <img
-                  className='w-auto h-6 md:h-12 object-contain rounded-tl-lg rounded-br-lg'
-                  src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826932/contentImages/logo/skysports_ruuxud.png'
-                  alt='skysports.com'
-                />
-              </ActionLink>
-            </div>
-            <div className='mr-2'>
-              <ActionLink
-                href='https://www.autosport.com/f1/news/150669/bottas-edges-hamilton-in-final-practice'
-                target='_blank'>
-                <img
-                  className='w-auto h-6 md:h-12 object-contain rounded-tl-lg rounded-br-lg'
-                  src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826932/contentImages/logo/autosport_ketnss.jpg'
-                  alt='autosport.com'
-                />
-              </ActionLink>
-            </div> */}
-        {/* <div className='mr-2'>
-              <ActionLink
-                href='https://www.espn.in/f1/story/_/id/29438233/mugello-host-first-f1-race-sochi-added-2020-calendar'
-                target='_blank'>
-                <img
-                  className='w-auto h-6 md:h-12 object-contain rounded-tl-lg rounded-br-lg'
-                  src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826931/contentImages/logo/espn_av2iv1.png'
-                  alt='espn.com'
-                />
-              </ActionLink>
-            </div>*/}
-        {/* <div className='mr-2'>
-              <ActionLink
-                href='https://the-race.com/formula-1/hamilton-tops-first-hungary-practice-while-red-bull-toils/'
-                target='_blank'>
-                <img
-                  className='w-auto h-6 md:h-12 mt-0 py-2 md:py-4 px-2 object-contain rounded-tl-lg rounded-br-lg bg-gray-800'
-                  src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826932/contentImages/logo/therace_cq3ao6.png'
-                  alt='the-race.com'
-                />
-              </ActionLink>
-            </div> */}
-        {/* <div className='mr-2'>
-              <ActionLink
-                href='https://www.grandprix247.com/2020/07/15/report-vettel-in-negotiations-with-aston-martin/'
-                target='_blank'>
-                <img
-                  className='w-auto h-6 md:h-12 mt-0 py-4 md:py-6 px-2 object-contain rounded-tl-lg rounded-br-lg border border-gray-200'
-                  src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826933/contentImages/logo/grandprix247_yj6fcw.png'
-                  alt='grandprix247.com'
-                />
-              </ActionLink>
-            </div>
-            <div className='mr-2'>
-              <ActionLink
-                href='https://www.planetf1.com/news/gerhard-berger-sebastian-vettel-aston-martin/'
-                target='_blank'>
-                <img
-                  className='w-auto h-6 md:h-12 mt-0 py-4 md:py-6 px-2 object-contain rounded-tl-lg rounded-br-lg border border-gray-200'
-                  src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826932/contentImages/logo/planetf1_zqhrq9.svg'
-                  alt='planetf1.com'
-                />
-              </ActionLink>
-            </div> */}
-        {/* </div>
-        </div> */}
       </div>
     </div>
   )
 }
-export default Main
+export default Second

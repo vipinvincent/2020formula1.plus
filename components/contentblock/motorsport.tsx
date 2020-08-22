@@ -18,40 +18,42 @@ const MotorSport: React.FC = () => {
             News
           </div>
           <ActionLink
-            href='https://www.motorsport.com/f1/news/turkey-return-easy-flat-turn-8/4860114/'
+            href='https://www.motorsport.com/f1/news/ferrari-appeal-clarity-car-copying/4860688/'
             target='_blank'>
-            F1 drivers support plan to bring back "awesome" Turkey
+            Ferrari wants "clarity and transparency" on car copying
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Formula 1 drivers are relishing the pending addition of Turkey’s
-            Istanbul Park to the 2020 calendar, and expect Turn 8 to be “easy
-            flat” in the modern cars.
+            Ferrari hopes to gain “clarity and transparency” from the FIA over
+            the rules on Formula 1 car copying after formalising its appeal in
+            the Racing Point brake duct case.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            F1 is set to confirm the return of the Turkish Grand Prix in the
-            final 2020 calendar in the near future, reviving the race after nine
-            years off the schedule. Turkey will take up a November date slot
-            ahead of back-to-back races in Bahrain and the season finale in Abu
-            Dhabi in mid-December, lifting the schedule to 17 races. Of the
-            current grid, only Lewis Hamilton, Sebastian Vettel, Kimi Raikkonen
-            and Sergio Perez have prior experience in F1 machinery at the
-            circuit. Romain Grosjean raced at Istanbul Park back in GP2, winning
-            races there in 2008 and 2011, and was excited by the prospect of the
-            track returning.
+            Racing Point was deemed to have copied the design of Mercedes’ 2019
+            brake ducts for its 2020 car following a protest lodged by Renault,
+            resulting in a 15-point constructors’ championship penalty and a
+            €400,000 fine.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            “It would be mega,” Grosjean said when asked by Motorsport.com about
-            going back to Turkey. “I think it would be bloody awesome. It’s such
-            a cool track. I really enjoy going there and racing. “Turn 8 is a
-            good one for the neck, so I think it would be very fast.” The
-            quadruple-apex left-hand Turn 8 was one of the most spectacular
-            corners in F1 when Turkey first joined the calendar in 2005, but has
-            never been tested out with the modern-spec high-downforce cars.
+            But the team is allowed to continue using the rear brake ducts for
+            the remainder of the season as the FIA stewards said it could not be
+            expected to unlearn the designs. Racing Point is appealing the
+            ruling in a bid to overturn the penalty, while both Ferrari and
+            Renault are also proceeding with legal action as they pursue a
+            harsher sanction.
+          </p>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
+            {' '}
+            While the FIA has confirmed it will clamp down on attempts to copy
+            other cars from next season, Ferrari F1 boss Mattia Binotto said the
+            thrust of his team's appeal was to gain clarity on how intellectual
+            property of teams could be protected. “The reason why we have
+            confirmed our appeal, I think it’s because we need to seek
+            clarification and transparency,” Binotto said.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.motorsport.com/f1/news/turkey-return-easy-flat-turn-8/4860114/'
+              href='https://www.motorsport.com/f1/news/ferrari-appeal-clarity-car-copying/4860688/'
               target='_blank'>
               motorsport.com
             </ContentLink>{' '}

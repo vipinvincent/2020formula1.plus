@@ -7,14 +7,14 @@ const Third: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=-9Mg4pjo7k0'
+        href='https://www.youtube.com/watch?v=pA5hNeJe1_I'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-40 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/-9Mg4pjo7k0/sddefault.jpg'
-              alt='2020 Spanish GP Race Review | WTF1 Podcast'
+              src='https://img.youtube.com/vi/pA5hNeJe1_I/sddefault.jpg'
+              alt='7 Of The Biggest F1 Punishments'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,15 +32,14 @@ const Third: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=-9Mg4pjo7k0'
+            href='https://www.youtube.com/watch?v=pA5hNeJe1_I'
             target='_blank'>
-            2020 Spanish GP Race Review | WTF1 Podcast
+            7 Of The Biggest F1 Punishments
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Spain may have been a pretty boring race but that doesn’t stop Matt
-            & Tommy from discussing some of the hot topics from the 2020 F1
-            Spanish Grand Prix! We discuss Leclerc driving around with no
-            seatbelt, Vettel falling out with Ferrari and much more!
+            $100 million fines, disqualification from the championship and even
+            team members JAILED! Here are 7 of the biggest punishments in
+            Formula 1 history.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}

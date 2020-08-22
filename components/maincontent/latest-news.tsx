@@ -22,6 +22,7 @@ import FourthContent from 'components/contentblock/second'
 
 // import Qualifying from 'components/qualifying/quick-look'
 // import Race from 'components/race/quick-look'
+import ButtonLink from 'components/link/ButtonLink'
 
 const Main: React.FC = () => {
   return (
@@ -32,10 +33,7 @@ const Main: React.FC = () => {
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
         Latest News
       </div>
-      <div className='w-100'>
-        <FourthContent />
-      </div>
-      <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow  mt-4'>
+      <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
         <FirstContent />
       </div>
       <div className='w-100 flex flex-col xl:flex-row'>
@@ -46,6 +44,9 @@ const Main: React.FC = () => {
           <ThirdContent />
         </div>
       </div>
+      {/* <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow  mt-4'>
+        <FourthContent />
+      </div> */}
       {/* <div className='w-100 flex flex-col xl:flex-row mt-4'>
         <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 mt-0 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
           <Archive22 />
@@ -57,6 +58,11 @@ const Main: React.FC = () => {
       {/* <div className='w-100 mt-4'>
         <FourthContent />
       </div> */}
+      <div className='w-100 flex flex-col md:self-center'>
+        <ButtonLink href='/news' target='_self'>
+          More News...
+        </ButtonLink>
+      </div>
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mt-4 mb-1 px-2'>
         Featured news on F1 news Sources
       </div>

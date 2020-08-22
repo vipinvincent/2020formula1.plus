@@ -18,41 +18,37 @@ const TheRace: React.FC = () => {
             News
           </div>
           <ActionLink
-            href='https://the-race.com/formula-1/who-wins-from-f1s-new-concorde-deal-and-how-itll-work/'
+            href='https://the-race.com/formula-1/qualifying-mode-ban-to-come-into-effect-from-monza/'
             target='_blank'>
-            Who wins from F1’s new Concorde deal and how it’ll work
+            Qualifying mode ban to come into effect from Monza
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Formula 1’s confirmation that all 10 teams have signed the Concorde
-            Agreement is a watershed moment for Liberty Media and those who have
-            worked through a pandemic to put on a near-complete calendar, revise
-            a first-ever budget cap before it was even introduced and then
-            negotiate all-new commercial terms that undo a lot of damage done to
-            F1’s competitive prospects in recent years.
+            Formula 1 teams have been informed that FIA’s special qualifying
+            mode ban will come into effect from the Italian Grand Prix onwards.
+            News of a potential ‘party mode’ ban first emerged ahead of the
+            Spanish Grand Prix, and race director Michael Masi confirmed that
+            the intention was to introduce it as early as the following round,
+            the Belgian Grand Prix at Spa-Francorchamps on August 28-30.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            From that final collective glory and the various positives that
-            emerge from the Robin Hood-style Concorde – which takes from the
-            richest teams to give to the poorest – came two official comments
-            from F1: One on Wednesday morning to confirm it was complete, and
-            one the previous day attached to Ferrari’s individual announcement.
-            This was not an entire F1 press release dedicated to a single team
-            but it was still an indicator, like the special terms for Ferrari
-            that still reside within the latest commercial terms, that F1 puts
-            Ferrari above the rest.
+            The Race understands a technical directive has now been distributed
+            to teams on Friday, with the aim to normalise the use of engine
+            modes across a grand prix weekend. But the technical directive will
+            come into play at Monza, a week after Spa, with the FIA understood
+            to be giving teams an extra week for ‘preparatory dyno testing’.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            So, while Ferrari’s on-track performances in F1 leave a lot to be
-            desired at present, it can take some consolation in still wielding
-            enough power off-track to get what it wants. “We got what was
-            essential for us,” Ferrari team boss Mattia Binotto told Sky Sports
-            F1 after his team kept its veto right during regulation discussions,
-            and a massively reduced special payment.
+            The FIA says the reason for the new directives is to make it easier
+            to police the legality of F1’s current complex V6 turbo-hybrids. The
+            conventional wisdom is that the ‘party mode’ ban should peg back the
+            dominant Mercedes team in qualifying, although both its team boss
+            Toto Wolff and lead driver Lewis Hamilton have made it clear they
+            didn’t believe it would be a significant hindrance to the team.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://the-race.com/formula-1/who-wins-from-f1s-new-concorde-deal-and-how-itll-work/'
+              href='https://the-race.com/formula-1/qualifying-mode-ban-to-come-into-effect-from-monza/'
               target='_blank'>
               the-race.com
             </ContentLink>{' '}
