@@ -72,7 +72,7 @@ const Main: React.FC = () => {
                 </div>
               </div>
             </li>
-            <li className='col-span-1 bg-black-5 rounded-lg shadow-md border border-gray-200'>
+            <li className='col-span-1 bg-mercedes rounded-lg shadow-md border border-gray-200'>
               <div className='w-full flex items-center justify-between p-2 space-x-6'>
                 <div className='flex-1 '>
                   <div className='flex justify-center space-x-3'>
@@ -84,7 +84,7 @@ const Main: React.FC = () => {
               </div>
               <div className='border-t border-gray-400 p-3'>
                 <div className='-mt-px flex'>
-                  <div className='w-0 flex-1 flex justify-center mercedes'>
+                  <div className='w-0 flex-1 flex justify-center text-white-100'>
                     <span className='text-lg font-bold text'>
                       Lewis Hamilton
                     </span>
@@ -149,11 +149,11 @@ const Main: React.FC = () => {
                 </div>
               </div>
             </li>
-            <li className='col-span-1 bg-black-5 rounded-lg shadow-md border border-gray-200'>
+            <li className='col-span-1 bg-redbull rounded-lg shadow-md border border-gray-200'>
               <div className='w-full flex items-center justify-between p-2 space-x-6'>
                 <div className='flex-1 '>
                   <div className='flex justify-center space-x-3'>
-                    <h3 className='text-gray-700 text-lg leading-5 font-semi-bold text-center'>
+                    <h3 className='text-gray-300 text-lg leading-5 font-semi-bold text-center'>
                       Winner
                     </h3>
                   </div>
@@ -161,7 +161,7 @@ const Main: React.FC = () => {
               </div>
               <div className='border-t border-gray-400 p-3'>
                 <div className='-mt-px flex'>
-                  <div className='w-0 flex-1 flex justify-center redbull'>
+                  <div className='w-0 flex-1 flex justify-center text-white-100'>
                     <span className='text-lg font-bold text'>
                       Max Verstappen
                     </span>
@@ -225,7 +225,7 @@ const Main: React.FC = () => {
                 </div>
               </div>
             </li>
-            <li className='col-span-1 bg-black-5 rounded-lg shadow-md border border-gray-200'>
+            <li className='col-span-1 bg-racingpoint rounded-lg shadow-md border border-gray-200'>
               <div className='w-full flex items-center justify-between p-2 space-x-6'>
                 <div className='flex-1 '>
                   <div className='flex justify-center space-x-3'>
@@ -237,7 +237,7 @@ const Main: React.FC = () => {
               </div>
               <div className='border-t border-gray-400 p-3'>
                 <div className='-mt-px flex'>
-                  <div className='w-0 flex-1 flex justify-center racingpoint'>
+                  <div className='w-0 flex-1 flex justify-center text-white-100'>
                     <span className='text-lg font-bold text'>
                       Too close to call
                     </span>
@@ -301,7 +301,7 @@ const Main: React.FC = () => {
                 </div>
               </div>
             </li>
-            <li className='col-span-1 bg-black-5 rounded-lg shadow-md border border-gray-200'>
+            <li className='col-span-1 bg-mclaren rounded-lg shadow-md border border-gray-200'>
               <div className='w-full flex items-center justify-between p-2 space-x-6'>
                 <div className='flex-1 '>
                   <div className='flex justify-center space-x-3'>
@@ -313,7 +313,7 @@ const Main: React.FC = () => {
               </div>
               <div className='border-t border-gray-400 p-3'>
                 <div className='-mt-px flex'>
-                  <div className='w-0 flex-1 flex justify-center mclaren'>
+                  <div className='w-0 flex-1 flex justify-center text-white-100'>
                     <span className='text-lg font-bold text'>Lando Norris</span>
                   </div>
                 </div>
@@ -375,7 +375,7 @@ const Main: React.FC = () => {
                 </div>
               </div>
             </li>
-            <li className='col-span-1 bg-black-5 rounded-lg shadow-md border border-gray-200'>
+            <li className='col-span-1 bg-ferrari rounded-lg shadow-md border border-gray-200'>
               <div className='w-full flex items-center justify-between p-2 space-x-6'>
                 <div className='flex-1 '>
                   <div className='flex justify-center space-x-3'>
@@ -387,7 +387,7 @@ const Main: React.FC = () => {
               </div>
               <div className='border-t border-gray-400 p-3'>
                 <div className='-mt-px flex'>
-                  <div className='w-0 flex-1 flex justify-center ferrari'>
+                  <div className='w-0 flex-1 flex justify-center text-white-100'>
                     <span className='text-lg font-bold text'>
                       Charles Leclerc
                     </span>
@@ -451,7 +451,7 @@ const Main: React.FC = () => {
                 </div>
               </div>
             </li>
-            <li className='col-span-1 bg-black-5 rounded-lg shadow-md border border-gray-200'>
+            <li className='col-span-1 bg-renault rounded-lg shadow-md border border-gray-200'>
               <div className='w-full flex items-center justify-between p-2 space-x-6'>
                 <div className='flex-1 '>
                   <div className='flex justify-center space-x-3'>
@@ -463,8 +463,8 @@ const Main: React.FC = () => {
               </div>
               <div className='border-t border-gray-400 p-3'>
                 <div className='-mt-px flex'>
-                  <div className='w-0 flex-1 flex justify-center renault'>
-                    <span className='text-lg font-bold text three-d-text'>
+                  <div className='w-0 flex-1 flex justify-center text-gray-600'>
+                    <span className='text-lg font-bold text '>
                       Daniel Ricciardo
                     </span>
                   </div>
@@ -527,11 +527,11 @@ const Main: React.FC = () => {
                 </div>
               </div>
             </li>
-            <li className='col-span-1 bg-black-5 rounded-lg shadow-md border border-gray-200'>
+            <li className='col-span-1 bg-alphatauri rounded-lg shadow-md border border-gray-200'>
               <div className='w-full flex items-center justify-between p-2 space-x-6'>
                 <div className='flex-1 '>
                   <div className='flex justify-center space-x-3'>
-                    <h3 className='text-gray-700 text-lg leading-5 font-semi-bold text-center'>
+                    <h3 className='text-gray-500 text-lg leading-5 font-semi-bold text-center'>
                       Winner
                     </h3>
                   </div>
@@ -539,7 +539,7 @@ const Main: React.FC = () => {
               </div>
               <div className='border-t border-gray-400 p-3'>
                 <div className='-mt-px flex'>
-                  <div className='w-0 flex-1 flex justify-center alphatauri'>
+                  <div className='w-0 flex-1 flex justify-center text-white-100'>
                     <span className='text-lg font-bold text'>Pierre Gasly</span>
                   </div>
                 </div>
@@ -601,11 +601,11 @@ const Main: React.FC = () => {
                 </div>
               </div>
             </li>
-            <li className='col-span-1 bg-black-5 rounded-lg shadow-md border border-gray-200'>
+            <li className='col-span-1 bg-alfaromeo rounded-lg shadow-md border border-gray-200'>
               <div className='w-full flex items-center justify-between p-2 space-x-6'>
                 <div className='flex-1 '>
                   <div className='flex justify-center space-x-3'>
-                    <h3 className='text-gray-700 text-lg leading-5 font-semi-bold text-center'>
+                    <h3 className='text-gray-500 text-lg leading-5 font-semi-bold text-center'>
                       Winner
                     </h3>
                   </div>
@@ -613,7 +613,7 @@ const Main: React.FC = () => {
               </div>
               <div className='border-t border-gray-400 p-3'>
                 <div className='-mt-px flex'>
-                  <div className='w-0 flex-1 flex justify-center alfaromeo'>
+                  <div className='w-0 flex-1 flex justify-center text-white-100'>
                     <span className='text-lg font-bold text'>
                       Antonio Giovinazzi
                     </span>
@@ -677,11 +677,11 @@ const Main: React.FC = () => {
                 </div>
               </div>
             </li>
-            <li className='col-span-1 bg-black-5 rounded-lg shadow-md border border-gray-200'>
+            <li className='col-span-1 bg-haas rounded-lg shadow-md border border-gray-200'>
               <div className='w-full flex items-center justify-between p-2 space-x-6'>
                 <div className='flex-1 '>
                   <div className='flex justify-center space-x-3'>
-                    <h3 className='text-gray-700 text-lg leading-5 font-semi-bold text-center'>
+                    <h3 className='text-gray-900 text-lg leading-5 font-semi-bold text-center'>
                       Winner
                     </h3>
                   </div>
@@ -689,7 +689,7 @@ const Main: React.FC = () => {
               </div>
               <div className='border-t border-gray-400 p-3'>
                 <div className='-mt-px flex'>
-                  <div className='w-0 flex-1 flex justify-center haas'>
+                  <div className='w-0 flex-1 flex justify-center text-white-100'>
                     <span className='text-lg font-bold text'>
                       Kevin Magnussen
                     </span>
@@ -754,11 +754,11 @@ const Main: React.FC = () => {
                 </div>
               </div>
             </li>
-            <li className='col-span-1 bg-black-5 rounded-lg shadow-md border border-gray-200'>
+            <li className='col-span-1 bg-williams rounded-lg shadow-md border border-gray-200'>
               <div className='w-full flex items-center justify-between p-2 space-x-6'>
                 <div className='flex-1 '>
                   <div className='flex justify-center space-x-3'>
-                    <h3 className='text-gray-700 text-lg leading-5 font-semi-bold text-center'>
+                    <h3 className='text-gray-300 text-lg leading-5 font-semi-bold text-center'>
                       Winner
                     </h3>
                   </div>
@@ -766,7 +766,7 @@ const Main: React.FC = () => {
               </div>
               <div className='border-t border-gray-400 p-3'>
                 <div className='-mt-px flex'>
-                  <div className='w-0 flex-1 flex justify-center williams'>
+                  <div className='w-0 flex-1 flex justify-center text-white-100'>
                     <span className='text-lg font-bold text'>
                       George Russell
                     </span>
