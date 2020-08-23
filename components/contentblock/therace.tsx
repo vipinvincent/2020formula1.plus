@@ -18,37 +18,38 @@ const TheRace: React.FC = () => {
             News
           </div>
           <ActionLink
-            href='https://the-race.com/formula-1/qualifying-mode-ban-to-come-into-effect-from-monza/'
+            href='https://the-race.com/formula-1/the-harsh-realities-of-a-failing-lifelong-f1-dream/'
             target='_blank'>
-            Qualifying mode ban to come into effect from Monza
+            The harsh realities of a failing lifelong F1 dream
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Formula 1 teams have been informed that FIA’s special qualifying
-            mode ban will come into effect from the Italian Grand Prix onwards.
-            News of a potential ‘party mode’ ban first emerged ahead of the
-            Spanish Grand Prix, and race director Michael Masi confirmed that
-            the intention was to introduce it as early as the following round,
-            the Belgian Grand Prix at Spa-Francorchamps on August 28-30.
+            The Valtteri Bottas that turns up for the Belgian Grand Prix will
+            undoubtedly be different to the one left to despondently survey his
+            fading Formula 1 hopes after a tough Barcelona race. He said as much
+            when he admitted he could see the championship slipping away and was
+            assessing the first fragments of another failed title bid.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The Race understands a technical directive has now been distributed
-            to teams on Friday, with the aim to normalise the use of engine
-            modes across a grand prix weekend. But the technical directive will
-            come into play at Monza, a week after Spa, with the FIA understood
-            to be giving teams an extra week for ‘preparatory dyno testing’.
+            Moments of vulnerability are rare in elite sport and it’s no
+            different in F1. Raw emotion comes to the surface quite a lot but
+            often there is no room to appear weak – mistakes will be
+            acknowledged and learned from, difficult days will be brushed aside
+            to look ahead to better things. Sometimes that’s not so easy to do.
+            One example that stands out is Sergey Sirotkin visibly struggling to
+            come to terms with the fact he wouldn’t be an F1 driver anymore
+            after finding out he was being replaced at Williams. Bottas, after
+            the Spanish GP, evoked a similar feeling.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The FIA says the reason for the new directives is to make it easier
-            to police the legality of F1’s current complex V6 turbo-hybrids. The
-            conventional wisdom is that the ‘party mode’ ban should peg back the
-            dominant Mercedes team in qualifying, although both its team boss
-            Toto Wolff and lead driver Lewis Hamilton have made it clear they
-            didn’t believe it would be a significant hindrance to the team.
+            It would be an exaggeration to say Bottas was a broken man after
+            finishing third at Barcelona and falling 43 points behind team-mate
+            Lewis Hamilton after six races. But he did cut a dejected, slightly
+            lost figure.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://the-race.com/formula-1/qualifying-mode-ban-to-come-into-effect-from-monza/'
+              href='https://the-race.com/formula-1/the-harsh-realities-of-a-failing-lifelong-f1-dream/'
               target='_blank'>
               the-race.com
             </ContentLink>{' '}

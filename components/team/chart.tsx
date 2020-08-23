@@ -8,7 +8,7 @@ const data = {
     'Hungary',
     'Britian',
     '70th Anniversary',
-    'spain',
+    'Spain',
   ],
   datasets: [
     {

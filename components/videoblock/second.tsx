@@ -7,14 +7,14 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=2QN1UbiOAAk'
+        href='https://www.youtube.com/watch?v=2TiWzVK8NLc'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/2QN1UbiOAAk/sddefault.jpg'
-              alt='F1 News: Perez Addresses Speculation Over His Seat for 2021'
+              src='https://img.youtube.com/vi/2TiWzVK8NLc/sddefault.jpg'
+              alt='F1 News: Why Hulkenberg Wouldnt Be Interested in Joining Haas'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,16 +32,18 @@ const Second: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=2QN1UbiOAAk'
+            href='https://www.youtube.com/watch?v=2TiWzVK8NLc'
             target='_blank'>
-            Perez Addresses Speculation Over His Seat for 2021
+            Why Hulkenberg Wouldn't Be Interested in Joining Haas
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            One of the most persistent rumours of recent times has been that
-            current Ferrari driver Sebastian Vettel will be signed by Racing
-            Point next year and that he will take current driver Sergio Perez’s
-            place. Nothing has been confirmed or denied by the team yet but
-            Sergio Perez has now opened up about it all.
+            Former F1 driver Nico Hulkenberg recently impressed many in F1 by
+            the manner in which he fulfilled his stand-in duties at Racing Point
+            for two races while regular driver Sergio Perez was recovering from
+            the coronavirus. This in the eyes of many made the possibility of a
+            full-time return for Hulkenberg in 2021 all the more plausible. One
+            of the teams being touted as a possibility is Haas. Haas’ team
+            principal Gunther Steiner has now weighed in on this.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}

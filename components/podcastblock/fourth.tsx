@@ -7,13 +7,13 @@ const Fourth: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=0AjFiopjnzo'
+        href='https://www.youtube.com/watch?v=qpYxPDUaUJ8'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-40 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/0AjFiopjnzo/sddefault.jpg'
+              src='https://img.youtube.com/vi/qpYxPDUaUJ8/sddefault.jpg'
               alt='Spanish Grand Prix Post Race Chinwag '
             />
           </div>
@@ -32,21 +32,24 @@ const Fourth: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=0AjFiopjnzo'
+            href='https://www.youtube.com/watch?v=qpYxPDUaUJ8'
             target='_blank'>
-            Spanish Grand Prix Post Race Chinwag
+            Why Copycat Cars are GOOD for Formula 1
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Join us for some instant reaction to the 2020 Spanish Grand Prix.
-            Was Lewis Hamilton able to convert pole position in to victory? Or
-            could Max Verstappen or Valtteri Bottas spoil his party?
+            So there has been a lot of talk over Racing Points 2020 car this
+            year, and it's familiarity to the 2019 Mercedes W10. However are
+            these 'copycat' cars good for the sport or not. Here I give my views
+            on it all but really this video is here to start a debate down
+            below! Should we have copycat and customer cars in Formula 1, let me
+            know!
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
             <ContentLink
-              href='https://www.youtube.com/user/McCluskey93'
+              href='https://www.youtube.com/c/FP1FormulaPodcastOne'
               target='_blank'>
-              Tommo F1
+              FP1 - Formula Podcast One
             </ContentLink>
           </p>
         </div>

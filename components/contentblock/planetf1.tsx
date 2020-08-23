@@ -4,7 +4,7 @@ import ContentLink from 'components/link/ContentLink'
 
 const PlanetF1: React.FC = () => {
   return (
-    <div className='relative  mt-0'>
+    <div className='relative mt-0'>
       <div className='h-32 sm:h-48 w-full bg-white-100 rounded-tl-xl'>
         <img
           className='w-full h-full object-contain rounded-tl-xl p-12 border-b border-gray-200'
@@ -18,36 +18,38 @@ const PlanetF1: React.FC = () => {
             News
           </div>
           <ActionLink
-            href='https://www.planetf1.com/news/ferrari-enter-into-racing-point-copycat-saga/'
+            href='https://www.planetf1.com/news/helmut-marko-daniil-kvyat-underperforming/'
             target='_blank'>
-            Ferrari enter into Racing Point copycat saga
+            Marko: Kvyat ‘not performing as expected’
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            On the eve of the FIA’s hearing regarding the legality of the Racing
-            Point’s RP20, Ferrari has written to Formula 1 and FIA asking for
-            clarification of their own. The main dissenting voice against the
-            Racing Point and the RP20 which has been heavily inspired by the
-            Mercedes W10 has been Renault.
+            Boss of the Red Bull driver programme Helmut Marko says Daniil Kvyat
+            is underperforming, but he won’t be replaced yet. Kvyat was recalled
+            to the Red Bull programme ahead of the 2019 season and received a
+            seat at Toro Rosso, finishing on the podium at the German Grand
+            Prix.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The Enstone team has launched not one, not two, but three official
-            protests as part of the FIA’s lengthy investigation into the RP20,
-            and more specifically its brake ducts. Racing Point say they bought
-            the brake ducts from Mercedes before they became a listed part in
-            2019 and used that knowledge for the 2020 version. Renault claim
-            Mercedes has sent drawings of the brake ducts for Racing Point to
-            copy which is against the rules.
+            The Russian driver scored 37 points that season, but so far 2020 has
+            been a disappointing sequel. Six races in to the team’s new era as
+            AlphaTauri Kvyat has scored only two points, whilst team-mate Pierre
+            Gasly has put 14 on the board.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            With the governing body poised to pass on their judgement on
-            Wednesday, the Scuderia has written to them and Formula 1 as they
-            now want further clarification on the whole reverse engineering
-            process allowed in the sport.
+            Gasly has also outqualified Kvyat at every race so far this season.
+            It’s well known by now that Red Bull don’t really do patience when
+            it comes to their drivers, meaning rumours have started to bubble up
+            about Kvyat possibly being dropped by Red Bull for a second time.
+            But whilst Marko confirmed that Kvyat isn’t doing the job expected
+            of him, there are no immediate plans to drop the three-time podium
+            finisher. “Yes, Daniil does not perform as we expected,” Marko is
+            quoted by GPToday.net as having told Austrian newspaper Salzburger
+            Nachrichten. “But we are still just before halfway in the season.”
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.planetf1.com/news/ferrari-enter-into-racing-point-copycat-saga/'
+              href='https://www.planetf1.com/news/helmut-marko-daniil-kvyat-underperforming/'
               target='_blank'>
               planetf1.com
             </ContentLink>{' '}
