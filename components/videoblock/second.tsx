@@ -7,13 +7,13 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=2TiWzVK8NLc'
+        href='https://www.youtube.com/watch?v=c6ndb29gAl0'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/2TiWzVK8NLc/sddefault.jpg'
+              src='https://img.youtube.com/vi/c6ndb29gAl0/sddefault.jpg'
               alt='F1 News: Why Hulkenberg Wouldnt Be Interested in Joining Haas'
             />
           </div>
@@ -32,18 +32,16 @@ const Second: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=2TiWzVK8NLc'
+            href='https://www.youtube.com/watch?v=c6ndb29gAl0'
             target='_blank'>
-            Why Hulkenberg Wouldn't Be Interested in Joining Haas
+            The Time When Ricciardo Kicked A Hole Through Verstappen’s Wall
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Former F1 driver Nico Hulkenberg recently impressed many in F1 by
-            the manner in which he fulfilled his stand-in duties at Racing Point
-            for two races while regular driver Sergio Perez was recovering from
-            the coronavirus. This in the eyes of many made the possibility of a
-            full-time return for Hulkenberg in 2021 all the more plausible. One
-            of the teams being touted as a possibility is Haas. Haas’ team
-            principal Gunther Steiner has now weighed in on this.
+            Current Renault driver Daniel Ricciardo endured a horrid final
+            season at Red Bull in 2018. He would retire from eight races that
+            year, with the penultimate retirement coming at the US GP where
+            Ricciardo would cause some property damage in the ensuing
+            frustration.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}

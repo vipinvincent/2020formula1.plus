@@ -18,36 +18,38 @@ const F1: React.FC = () => {
             News
           </div>
           <ActionLink
-            href='https://www.formula1.com/en/latest/article.perez-bullish-about-racing-point-future-amid-vettel-rumours-the-team-believe.8L5unxT9P085ZOcmS2ADM.html'
+            href='https://www.formula1.com/en/latest/article.i-feel-like-ive-turned-a-corner-russell-explains-why-the-spanish-gp-was-such.lGrwTInmlxczdbW5Ais9q.html'
             target='_blank'>
-            Perez bullish about Racing Point future amid Vettel rumours – ‘The
-            team believe in me’
+            'I feel like I’ve turned a corner’ – Russell explains why the
+            Spanish GP was such a confidence booster
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Despite ongoing speculation about Sebastian Vettel joining Racing
-            Point for the 2021 season at the expense of Sergio Perez, the
-            Mexican driver says he’s confident of his future at the
-            Silverstone-based squad.
+            Having spent the majority of his maiden F1 season last year
+            circulating at the back of the field in the slowest car, Williams’
+            George Russell has been relishing the chance to battle with rivals
+            from other teams in 2020 – with the Briton feeling that he’d taken a
+            significant step in his F1 apprenticeship at the Spanish Grand Prix.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            With four-time champion Vettel set to leave Ferrari at the end of
-            this season, Racing Point have emerged as a possible destination for
-            him – but the team in pink already have two drivers in the shape of
-            Lance Stroll (son of team owner Lawrence) and Perez, who is
-            contracted until the end of 2022.
+            Having had precious little wheel-to-wheel action in 2019, barring
+            some brief flurries against his then-team mate Robert Kubica, the
+            2020 Williams FW43’s stronger one-lap and race pace has helped put
+            Russell in amongst the action – with Russell admitting that his
+            recent battling drive at Barcelona had been a welcome tonic, even if
+            he only finished P17.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Asked about that speculation at the Spanish Grand Prix weekend,
-            Perez insisted he was not worried about losing his seat to the
-            German driver. "With the rumours of Sebastian, I think there is
-            nothing I can do," he said. "What I’ve heard from the team is that
-            we want to keep going, to continue, so I believe it’s just a matter
-            of time before those rumours can go away."
+            “I’m feeling good now, I’m feeling confident again,” said Russell
+            after the race. “I dropped off like a stone in the last few laps but
+            I was just giving it everything I had. Ultimately it is very, very
+            difficult as a driver when you’re constantly on the defensive. When
+            you are in a car that isn’t as fast as the others, it’s very tricky
+            to race against them. But I really enjoyed it.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.formula1.com/en/latest/article.perez-bullish-about-racing-point-future-amid-vettel-rumours-the-team-believe.8L5unxT9P085ZOcmS2ADM.html'
+              href='https://www.formula1.com/en/latest/article.i-feel-like-ive-turned-a-corner-russell-explains-why-the-spanish-gp-was-such.lGrwTInmlxczdbW5Ais9q.html'
               target='_blank'>
               formula1.com
             </ContentLink>{' '}

@@ -18,38 +18,38 @@ const TheRace: React.FC = () => {
             News
           </div>
           <ActionLink
-            href='https://the-race.com/formula-1/the-harsh-realities-of-a-failing-lifelong-f1-dream/'
+            href='https://the-race.com/formula-1/how-wolffs-annoying-rivals-and-what-mercedes-future-holds/'
             target='_blank'>
-            The harsh realities of a failing lifelong F1 dream
+            Why Wolff’s ‘annoying’ rivals and what Mercedes’ future holds
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The Valtteri Bottas that turns up for the Belgian Grand Prix will
-            undoubtedly be different to the one left to despondently survey his
-            fading Formula 1 hopes after a tough Barcelona race. He said as much
-            when he admitted he could see the championship slipping away and was
-            assessing the first fragments of another failed title bid.
+            Mercedes Formula 1 boss Toto Wolff understands why his multiple
+            business interests might be “annoying” or “piss some people off”,
+            and would pick up on them if roles were reversed. Wolff joined the
+            Mercedes team in 2013 after being a shareholder at Williams, and
+            under his leadership Mercedes has won six consecutive F1 world
+            titles, but Wolff is not ‘only’ an F1 team principal.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Moments of vulnerability are rare in elite sport and it’s no
-            different in F1. Raw emotion comes to the surface quite a lot but
-            often there is no room to appear weak – mistakes will be
-            acknowledged and learned from, difficult days will be brushed aside
-            to look ahead to better things. Sometimes that’s not so easy to do.
-            One example that stands out is Sergey Sirotkin visibly struggling to
-            come to terms with the fact he wouldn’t be an F1 driver anymore
-            after finding out he was being replaced at Williams. Bottas, after
-            the Spanish GP, evoked a similar feeling.
+            In the past, Wolff was directly involved in driver management and
+            now has a role in Mercedes Grand Prix team’s young driver stable –
+            which has included the likes of George Russell and Esteban Ocon –
+            even if it is only by proxy. Wolff has undertaken a small personal
+            investment in the Aston Martin car company through his relationship
+            with Racing Point F1 team boss Lawrence Stroll, who has taken over
+            the British manufacturer and will rebrand Racing Point under the
+            Aston name next year.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            It would be an exaggeration to say Bottas was a broken man after
-            finishing third at Barcelona and falling 43 points behind team-mate
-            Lewis Hamilton after six races. But he did cut a dejected, slightly
-            lost figure.
+            He has been questioned about his role in dynamics within the
+            paddock, too, after saying he was asked to mediate discussions
+            between Racing Point and other teams to avoid the case surrounding
+            the team’s brake ducts going to the International Court of Appeal.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://the-race.com/formula-1/the-harsh-realities-of-a-failing-lifelong-f1-dream/'
+              href='https://the-race.com/formula-1/how-wolffs-annoying-rivals-and-what-mercedes-future-holds/'
               target='_blank'>
               the-race.com
             </ContentLink>{' '}

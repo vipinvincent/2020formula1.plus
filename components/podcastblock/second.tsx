@@ -7,14 +7,14 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=xaSS9r9KVDs'
+        href='https://www.youtube.com/watch?v=H9Z1xVIhT_I'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-40 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/xaSS9r9KVDs/sddefault.jpg'
-              alt='VERSTAPPEN CRUSHES MERCEDES! 70th Anniversary GP Podcast'
+              src='https://img.youtube.com/vi/H9Z1xVIhT_I/sddefault.jpg'
+              alt='Mark Webber On Vettel Battles, Flying Crashes And More | F1 Unscripted | Heineken Non-Race Sundays'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,22 +32,21 @@ const Second: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=xaSS9r9KVDs'
+            href='https://www.youtube.com/watch?v=H9Z1xVIhT_I'
             target='_blank'>
-            HAS HAMILTON WON THE TITLE ALREADY? | 2020 Spanish GP Podcast
+            Mark Webber On Vettel Battles, Flying Crashes And More | F1
+            Unscripted | Heineken Non-Race Sundays
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The Unbiased Formula 1 Podcast is a podcast channel summarising all
-            the big talking points from the latest #F1 race - with in depth
-            reaction and discussion into what happened, both on and off track.
-            Subscribe for more!
+            The Aussie driver joins David Coulthard to discuss the major talking
+            points of his stand-out F1 career including his spectacular debut in
+            Melbourne, going wheel to wheel with Sebastian Vettel at Red Bull,
+            and that spectacular crash at the 2010 European Grand Prix.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink
-              href='https://www.youtube.com/channel/UCiMPcmFo6sMsZOWvlLCz0YQ'
-              target='_blank'>
-              Unbiased Formula 1 Podcast
+            <ContentLink href=' http://www.formula1.com' target='_blank'>
+              Formula1.com
             </ContentLink>
           </p>
         </div>

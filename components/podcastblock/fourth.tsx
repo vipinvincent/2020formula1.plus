@@ -7,14 +7,14 @@ const Fourth: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=qpYxPDUaUJ8'
+        href='https://www.youtube.com/watch?v=gSWOfCizVak'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-40 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/qpYxPDUaUJ8/sddefault.jpg'
-              alt='Spanish Grand Prix Post Race Chinwag '
+              src='https://img.youtube.com/vi/gSWOfCizVak/sddefault.jpg'
+              alt='Why Renault Chose Alonso Over Vettel or a Junior Driver '
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,24 +32,24 @@ const Fourth: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=qpYxPDUaUJ8'
+            href='https://www.youtube.com/watch?v=gSWOfCizVak'
             target='_blank'>
-            Why Copycat Cars are GOOD for Formula 1
+            Why Renault Chose Alonso Over Vettel or a Junior Driver
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            So there has been a lot of talk over Racing Points 2020 car this
-            year, and it's familiarity to the 2019 Mercedes W10. However are
-            these 'copycat' cars good for the sport or not. Here I give my views
-            on it all but really this video is here to start a debate down
-            below! Should we have copycat and customer cars in Formula 1, let me
-            know!
+            After current Renault driver Daniel Ricciardo revealed that he would
+            be moving to McLaren next year, the ensuing vacant seat resulted in
+            a lot of speculation. Many different possible replacements for
+            Ricciardo were suggested before Renault settled on Fernando Alonso.
+            Team principal Cyril Abiteboul has now revealed why they went with
+            the Spaniard.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
             <ContentLink
-              href='https://www.youtube.com/c/FP1FormulaPodcastOne'
+              href='https://www.youtube.com/c/FormulaWorld'
               target='_blank'>
-              FP1 - Formula Podcast One
+              Formula World
             </ContentLink>
           </p>
         </div>

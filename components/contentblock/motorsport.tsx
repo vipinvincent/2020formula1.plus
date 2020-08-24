@@ -18,28 +18,28 @@ const MotorSport: React.FC = () => {
             News
           </div>
           <ActionLink
-            href='https://www.motorsport.com/f1/news/ferrari-appeal-clarity-car-copying/4860688/'
+            href='https://www.motorsport.com/fia-f2/news/tsunoda-alphatauri-tost-honda/4859649/'
             target='_blank'>
-            Ferrari wants "clarity and transparency" on car copying
+            Tsunoda will be in AlphaTauri “sooner or later”, says Tost
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Ferrari hopes to gain “clarity and transparency” from the FIA over
-            the rules on Formula 1 car copying after formalising its appeal in
-            the Racing Point brake duct case.
+            AlphaTauri Formula 1 boss Franz Tost expects to see Japanese F2
+            racer Yuki Tsunoda driving one of the team’s cars “sooner or later.”
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Racing Point was deemed to have copied the design of Mercedes’ 2019
-            brake ducts for its 2020 car following a protest lodged by Renault,
-            resulting in a 15-point constructors’ championship penalty and a
-            €400,000 fine.
+            Tsunoda is a protege of both Red Bull and Honda, and is widely
+            regarded as one of the best current prospects from Japan. He
+            finished ninth in his rookie season in the FIA F3 series last year,
+            having scored one race victory in the Monza sprint event for the
+            unfancied Jenzer Motorsport squad.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            But the team is allowed to continue using the rear brake ducts for
-            the remainder of the season as the FIA stewards said it could not be
-            expected to unlearn the designs. Racing Point is appealing the
-            ruling in a bid to overturn the penalty, while both Ferrari and
-            Renault are also proceeding with legal action as they pursue a
-            harsher sanction.
+            The 20-year-old moved up to F2 with Carlin this year, winning the
+            Sunday sprint race at the 70th Anniversary Grand Prix meeting at
+            Silverstone, while logging another two feature race podium finishes
+            and taking pole at the second Austrian event. Tsunoda currently lies
+            fourth in the championship, in line with the target needed to obtain
+            a superlicence, 39 points behind series leader Callum Ilott.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             {' '}
@@ -53,7 +53,7 @@ const MotorSport: React.FC = () => {
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.motorsport.com/f1/news/ferrari-appeal-clarity-car-copying/4860688/'
+              href='https://www.motorsport.com/fia-f2/news/tsunoda-alphatauri-tost-honda/4859649/'
               target='_blank'>
               motorsport.com
             </ContentLink>{' '}

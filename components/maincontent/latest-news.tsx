@@ -2,10 +2,10 @@ import React from 'react'
 
 import F1 from 'components/contentblock/f1'
 // import BBC from 'components/contentblock/bbc'
-// import MotorSport from 'components/contentblock/motorsport'
+import MotorSport from 'components/contentblock/motorsport'
 // import SkySports from 'components/contentblock/skysports'
 import TheRace from 'components/contentblock/therace'
-import PlanetF1 from 'components/contentblock/planetf1'
+// import PlanetF1 from 'components/contentblock/planetf1'
 // import FormulaSpy from 'components/contentblock/formulaspy'
 // import GrandPrix from 'components/contentblock/grandprix'
 // import ESPN from 'components/contentblock/espn'
@@ -72,10 +72,10 @@ const Main: React.FC = () => {
         </div>
         <div className='w-100 flex flex-col xl:flex-row'>
           <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 bg-white-70 rounded-tl-xxl rounded-br-xxl shadow'>
-            <TheRace />
+            <MotorSport />
           </div>
           <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 mt-4 xl:mt-0 bg-white-70 rounded-tl-xxl rounded-br-xxl shadow'>
-            <PlanetF1 />
+            <TheRace />
           </div>
         </div>
         {/* <div className='w-100 mt-4'>
