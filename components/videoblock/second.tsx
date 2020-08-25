@@ -7,14 +7,14 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=c6ndb29gAl0'
+        href='https://www.youtube.com/watch?v=xRVnYxdRYIU'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/c6ndb29gAl0/sddefault.jpg'
-              alt='F1 News: Why Hulkenberg Wouldnt Be Interested in Joining Haas'
+              src='https://img.youtube.com/vi/xRVnYxdRYIU/sddefault.jpg'
+              alt='Vettel Reveals Why He Is Having A "Hard Time"'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,16 +32,16 @@ const Second: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=c6ndb29gAl0'
+            href='https://www.youtube.com/watch?v=xRVnYxdRYIU'
             target='_blank'>
-            The Time When Ricciardo Kicked A Hole Through Verstappen’s Wall
+            Vettel Reveals Why He Is Having A "Hard Time"
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Current Renault driver Daniel Ricciardo endured a horrid final
-            season at Red Bull in 2018. He would retire from eight races that
-            year, with the penultimate retirement coming at the US GP where
-            Ricciardo would cause some property damage in the ensuing
-            frustration.
+            While Ferrari is seen to be generally struggling ever since the FIA
+            investigation into their engines concluded last year, Sebastian
+            Vettel has had an especially difficult time in 2020 in comparison to
+            his teammate Charles Leclerc. Vettel has now gone into details about
+            his struggles
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}

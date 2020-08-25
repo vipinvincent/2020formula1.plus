@@ -7,14 +7,14 @@ const First: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=Dn0FXsqfMbM'
+        href='https://www.youtube.com/watch?v=7mRU9MmQMm0'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/Dn0FXsqfMbM/sddefault.jpg'
-              alt='F1’s new team payment deals explained'
+              src='https://img.youtube.com/vi/7mRU9MmQMm0/sddefault.jpg'
+              alt='8 things Williamss new owners need to do next'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,25 +32,22 @@ const First: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=Dn0FXsqfMbM'
+            href='https://www.youtube.com/watch?v=7mRU9MmQMm0'
             target='_blank'>
-            F1’s new team payment deals explained
+            8 things Williams's new owners need to do next
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            All 10 Formula 1 teams have signed up to the new Concorde Agreement,
-            committing them to the championship from 2021-2025. The aim of the
-            new contracts between F1 and the teams was primarily to fix the
-            flawed financial deals that were in place before, which guaranteed
-            the top teams swept up too much of the money, making it almost
-            impossible for the rest to catch up. In this video Scott Mitchell
-            explains how the new deals are structured, including the terms of
-            new, smaller bonuses for the bigger or long-standing teams, and
-            better rewards for the rest in a more even distribution of F1’s cash
+            Williams secured its Formula 1 future by selling up to US investment
+            firm Dorilton Capital, but that hard work really starts now. In this
+            video we highlight the key areas the new owners should focus on if
+            it wants to turn Williams back into a credible player on the F1
+            grid, and to make sure it takes advantage of the rule changes coming
+            in for 2022.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
             <ContentLink
-              href='https://the-race.com/formula-1/who-wins-from-f1s-new-concorde-deal-and-how-itll-work/'
+              href='https://the-race.com/formula-1/eight-things-williams-needs-to-do-next/'
               target='_blank'>
               The race
             </ContentLink>

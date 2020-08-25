@@ -7,14 +7,14 @@ const Third: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=3l-gNheEM30'
+        href='https://www.youtube.com/watch?v=jlKQaVWKLNo'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/3l-gNheEM30/sddefault.jpg'
-              alt='Mercedes F1 Steering Wheel EXPLAINED!'
+              src='https://img.youtube.com/vi/jlKQaVWKLNo/sddefault.jpg'
+              alt='Why Ferraris Treatment Of Sebastian Vettel In 2020 ISNT Surprising'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,21 +32,21 @@ const Third: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=3l-gNheEM30'
+            href='https://www.youtube.com/watch?v=jlKQaVWKLNo'
             target='_blank'>
-            Will The 2020 F1 Season Still Be A World Championship?
+            Why Ferrari's Treatment Of Sebastian Vettel In 2020 ISN'T Surprising
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            With the F1 calendar only featuring races from two continents, will
-            this season still count as a World Championship? It’s a question
-            that seems to get asked a lot at the moment. So, in this F1 Word
-            short, I take a look at the regulations, the circumstances around
-            2020, and answer that very question.
+            In light of the events at the 70th Anniversary GP and the Spanish
+            GP, I wanted to make a video about how Ferrari are treating
+            Sebastian Vettel this season and it may not come as a surprise.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='https://www.gptoday.net/en/' target='_blank'>
-              The F1 Word
+            <ContentLink
+              href='https://www.youtube.com/channel/UC0_DTzrD8nSiIr4S_QWVLPw'
+              target='_blank'>
+              BMPHF1
             </ContentLink>
           </p>
         </div>

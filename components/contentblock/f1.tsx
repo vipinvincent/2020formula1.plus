@@ -15,41 +15,43 @@ const F1: React.FC = () => {
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 py-4 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            News
+            FEATURE
           </div>
           <ActionLink
-            href='https://www.formula1.com/en/latest/article.i-feel-like-ive-turned-a-corner-russell-explains-why-the-spanish-gp-was-such.lGrwTInmlxczdbW5Ais9q.html'
+            href='https://www.formula1.com/en/latest/article.trending-topics-williams-future-and-7-more-talking-points-ahead-of-the.4vj8dMsMJ8Lb0csiPeCS2E.html'
             target='_blank'>
-            'I feel like I’ve turned a corner’ – Russell explains why the
-            Spanish GP was such a confidence booster
+            Williams' future, and 7 more talking points ahead of the Belgian GP
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Having spent the majority of his maiden F1 season last year
-            circulating at the back of the field in the slowest car, Williams’
-            George Russell has been relishing the chance to battle with rivals
-            from other teams in 2020 – with the Briton feeling that he’d taken a
-            significant step in his F1 apprenticeship at the Spanish Grand Prix.
+            Six races down and the season continues to move quickly with another
+            triple-header on the horizon, this time at three different venues,
+            starting with the Belgian Grand Prix. So it’s time to take a look at
+            what we think will be making the headlines at Spa-Francorchamps
+            after a significant week off the track in Formula 1.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Having had precious little wheel-to-wheel action in 2019, barring
-            some brief flurries against his then-team mate Robert Kubica, the
-            2020 Williams FW43’s stronger one-lap and race pace has helped put
-            Russell in amongst the action – with Russell admitting that his
-            recent battling drive at Barcelona had been a welcome tonic, even if
-            he only finished P17.
+            Last Tuesday was a big day in F1, as all 10 teams signed the new
+            Concorde Agreement that governs the sport from 2021 until 2025. In
+            doing so, they have put their faith in the long-term vision that is
+            in place for Formula 1. In conjunction with the budget cap that will
+            be introduced next year, a more equal distribution of revenues
+            should ensure teams are more closely-matched from a financial point
+            of view, putting the focus on their performance and ability rather
+            than how much money they can spend.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            “I’m feeling good now, I’m feeling confident again,” said Russell
-            after the race. “I dropped off like a stone in the last few laps but
-            I was just giving it everything I had. Ultimately it is very, very
-            difficult as a driver when you’re constantly on the defensive. When
-            you are in a car that isn’t as fast as the others, it’s very tricky
-            to race against them. But I really enjoyed it.
+            That means there’s a better opportunity for a number of teams on the
+            grid to aspire to podiums or even race wins, while also being more
+            secure from a business perspective. This is a win-win all round. And
+            almost to reiterate the importance of the new Concorde Agreement,
+            Williams announced the sale of the team to new ownership on Friday
+            morning. US-based Dorilton Capital is purchasing the F1 team,
+            securing their long-term future after recent uncertainty.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.formula1.com/en/latest/article.i-feel-like-ive-turned-a-corner-russell-explains-why-the-spanish-gp-was-such.lGrwTInmlxczdbW5Ais9q.html'
+              href='https://www.formula1.com/en/latest/article.trending-topics-williams-future-and-7-more-talking-points-ahead-of-the.4vj8dMsMJ8Lb0csiPeCS2E.html'
               target='_blank'>
               formula1.com
             </ContentLink>{' '}

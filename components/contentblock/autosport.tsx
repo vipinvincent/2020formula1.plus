@@ -18,38 +18,40 @@ const AutoSport: React.FC = () => {
             News
           </div>
           <ActionLink
-            href='https://www.autosport.com/f1/news/151450/vettel-nothing-to-lose-with-risky-onestop-strategy'
+            href='https://www.autosport.com/f1/news/151640/red-bull-highrake-concept-still-right-direction'
             target='_blank'>
-            Perez/Kvyat Spanish GP penalties first in FIA crackdown on F1 blue
-            flags
+            Red Bull: High-rake F1 concept still the right direction
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The penalties handed to Sergio Perez and Daniil Kvyat for ignoring
-            blue flags in the Spanish Grand Prix were the first as part of a new
-            crackdown by the FIA.
+            Red Bull has faith that its high-rake concept is still the right way
+            to go in Formula 1, despite some rivals suggesting it may have
+            reached its limit of performance.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Both Perez and Kvyat were hit with a five-second time penalty for
-            failing to adhere to blue flags in the closing stages of the race at
-            the Circuit de Barcelona-Catalunya as they were lapped by the
-            leading cars. Perez was penalised for failing to move out of the way
-            of race leader Lewis Hamilton through the final sector of the track,
-            instead moving aside on the start/finish straight.
+            The Milton Keynes-based outfit has led the way with its high-rake
+            concept in F1, with technical chief Adrian Newey convinced that it
+            is the best solution for maximising downforce. But amid the
+            difficulties of its troublesome RB16, which has left Max Verstappen
+            and Alex Albon struggling at times to find a good balance, there
+            have been suggestions that the high-rake option may no longer offer
+            as much scope for improvement as low-rake solutions.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The Racing Point driver called the penalty "very unfair" after it
-            dropped him from fourth place on the road to fifth in the final
-            classification. AlphaTauri's Kvyat was also found to have failed to
-            obey blue flags between Turn 6 and Turn 1 at the start of the next
-            lap when being lapped, but remained 12th despite the five-second
-            penalty. FIA race director Michael Masi explained the sanctions came
-            about as a result of talks with drivers about being stricter in
-            enforcing the blue flag rules earlier this year
+            McLaren technical director James Key suggested recently that his
+            outfit was considering moving to a low-rake car for 2021 because it
+            felt that there could be bigger opportunities for downforce gains.
+            "While I don't think the high-rake philosophy is dead necessarily,
+            it does make you step back and think, well, maybe there is more out
+            there that we could be finding at a lower rake," said Key. "And in
+            fact we've got some ideas and thoughts on how that might work." But
+            while Red Bull is aware that there is some debate about high-rake
+            cars, its motorsport advisor Helmut Marko says that Newey is sure
+            that its philosophy is the right one.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.autosport.com/f1/news/151450/vettel-nothing-to-lose-with-risky-onestop-strategy'
+              href='https://www.autosport.com/f1/news/151640/red-bull-highrake-concept-still-right-direction'
               target='_blank'>
               autosport.com
             </ContentLink>{' '}

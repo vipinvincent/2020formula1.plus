@@ -18,42 +18,41 @@ const MotorSport: React.FC = () => {
             News
           </div>
           <ActionLink
-            href='https://www.motorsport.com/fia-f2/news/tsunoda-alphatauri-tost-honda/4859649/'
+            href='https://www.motorsport.com/f1/news/renault-copying-rules-crystal-clear-appeal/4861015/'
             target='_blank'>
-            Tsunoda will be in AlphaTauri “sooner or later”, says Tost
+            Renault pursuing F1 appeal to make copying rules "crystal clear"
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            AlphaTauri Formula 1 boss Franz Tost expects to see Japanese F2
-            racer Yuki Tsunoda driving one of the team’s cars “sooner or later.”
+            Renault Formula 1 boss Cyril Abiteboul insists that the team is
+            pursuing its appeal in the Racing Point brake ducts case in order to
+            make the rules “crystal clear.”
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Tsunoda is a protege of both Red Bull and Honda, and is widely
-            regarded as one of the best current prospects from Japan. He
-            finished ninth in his rookie season in the FIA F3 series last year,
-            having scored one race victory in the Monza sprint event for the
-            unfancied Jenzer Motorsport squad.
+            Renault protested the brake duct design of the Racing Points after
+            the Styrian, Hungarian and British GPs. Following a hearing at
+            Silverstone, the FIA stewards delivered their verdict before the
+            70th Anniversary GP, handing Racing Point a €400,000 fine and
+            docking the team 15 points for using a design provided by Mercedes.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The 20-year-old moved up to F2 with Carlin this year, winning the
-            Sunday sprint race at the 70th Anniversary Grand Prix meeting at
-            Silverstone, while logging another two feature race podium finishes
-            and taking pole at the second Austrian event. Tsunoda currently lies
-            fourth in the championship, in line with the target needed to obtain
-            a superlicence, 39 points behind series leader Callum Ilott.
+            However, the team is allowed to use the contentious brake ducts for
+            the balance of the season, while receiving a reprimand at every
+            race. Renault and Ferrari both subsequently lodged an appeal, while
+            McLaren and Williams initially indicated an intention to do so, but
+            later withdrew.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            {' '}
-            While the FIA has confirmed it will clamp down on attempts to copy
-            other cars from next season, Ferrari F1 boss Mattia Binotto said the
-            thrust of his team's appeal was to gain clarity on how intellectual
-            property of teams could be protected. “The reason why we have
-            confirmed our appeal, I think it’s because we need to seek
-            clarification and transparency,” Binotto said.
+            The FIA has announced that it will address the copying issue and
+            ensure that F1 remains a championship for constructors, even noting
+            that it will stop the use of photography and other reverse
+            engineering techniques However, Abiteboul hopes that the
+            International Court of Appeal will provide further clarity on the
+            subject.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.motorsport.com/fia-f2/news/tsunoda-alphatauri-tost-honda/4859649/'
+              href='https://www.motorsport.com/f1/news/renault-copying-rules-crystal-clear-appeal/4861015/'
               target='_blank'>
               motorsport.com
             </ContentLink>{' '}
