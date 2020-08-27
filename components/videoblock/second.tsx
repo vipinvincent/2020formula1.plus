@@ -7,14 +7,14 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=xRVnYxdRYIU'
+        href='https://www.youtube.com/watch?v=XT8yoJ3deRQ'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/xRVnYxdRYIU/sddefault.jpg'
-              alt='Vettel Reveals Why He Is Having A "Hard Time"'
+              src='https://img.youtube.com/vi/XT8yoJ3deRQ/sddefault.jpg'
+              alt='Haas Explain Why They Decided to Stay in F1'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,16 +32,17 @@ const Second: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=xRVnYxdRYIU'
+            href='https://www.youtube.com/watch?v=XT8yoJ3deRQ'
             target='_blank'>
-            Vettel Reveals Why He Is Having A "Hard Time"
+            Haas Explain Why They Decided to Stay in F1
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            While Ferrari is seen to be generally struggling ever since the FIA
-            investigation into their engines concluded last year, Sebastian
-            Vettel has had an especially difficult time in 2020 in comparison to
-            his teammate Charles Leclerc. Vettel has now gone into details about
-            his struggles
+            The future of the Haas F1 team was supposedly on shaky ground as it
+            was unsure if team owner Gene Haas would want to continue in F1
+            after the team’s poor string of results in recent times. However,
+            they have signed the new Concorde Agreement which commits them to F1
+            for the next five years. Team principal Gunther Steiner has now gone
+            into the details of the reasons behind this decision.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}

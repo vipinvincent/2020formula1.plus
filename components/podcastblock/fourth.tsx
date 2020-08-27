@@ -7,13 +7,13 @@ const Fourth: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=gSWOfCizVak'
+        href='https://www.youtube.com/watch?v=mTcyn0PdOaM'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-40 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/gSWOfCizVak/sddefault.jpg'
+              src='https://img.youtube.com/vi/mTcyn0PdOaM/sddefault.jpg'
               alt='Why Renault Chose Alonso Over Vettel or a Junior Driver '
             />
           </div>
@@ -32,24 +32,23 @@ const Fourth: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=gSWOfCizVak'
+            href='https://www.youtube.com/watch?v=mTcyn0PdOaM'
             target='_blank'>
-            Why Renault Chose Alonso Over Vettel or a Junior Driver
+            Romain Grosjean: IS HIS CAREER OVER?!
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            After current Renault driver Daniel Ricciardo revealed that he would
-            be moving to McLaren next year, the ensuing vacant seat resulted in
-            a lot of speculation. Many different possible replacements for
-            Ricciardo were suggested before Renault settled on Fernando Alonso.
-            Team principal Cyril Abiteboul has now revealed why they went with
-            the Spaniard.
+            Welcome to a brand new series on the channel! Is His Career Over
+            discusses the drivers on the grid who are not yet confirmed for
+            2021. For the pilot episode I'm delighted to say I am joined by Josh
+            Revell to discuss Romain Grosjean: his career so far, and his
+            options going into next year.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
             <ContentLink
-              href='https://www.youtube.com/c/FormulaWorld'
+              href='https://www.youtube.com/c/JoshRevellYT'
               target='_blank'>
-              Formula World
+              FP1 - Formula Podcast One
             </ContentLink>
           </p>
         </div>

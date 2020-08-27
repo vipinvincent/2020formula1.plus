@@ -18,38 +18,43 @@ const TheRace: React.FC = () => {
             News
           </div>
           <ActionLink
-            href='https://the-race.com/formula-1/how-wolffs-annoying-rivals-and-what-mercedes-future-holds/'
+            href='https://the-race.com/formula-1/the-lessons-f1s-midfield-star-wishes-he-never-needed/'
             target='_blank'>
-            Why Wolff’s ‘annoying’ rivals and what Mercedes’ future holds
+            The lessons F1’s midfield star wishes he never needed
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Mercedes Formula 1 boss Toto Wolff understands why his multiple
-            business interests might be “annoying” or “piss some people off”,
-            and would pick up on them if roles were reversed. Wolff joined the
-            Mercedes team in 2013 after being a shareholder at Williams, and
-            under his leadership Mercedes has won six consecutive F1 world
-            titles, but Wolff is not ‘only’ an F1 team principal.
+            Pierre Gasly headed into last year’s Belgian Grand Prix weekend
+            abandoned and unwanted, relegated from Red Bull Racing to what is
+            now called AlphaTauri. It might have been a career-ending body blow,
+            but the 24-year-old has shown formidable fortitude over the past 12
+            months to revitalise his grand prix career to the point where he’s
+            almost unrecognisable from the driver who floundered alongside Max
+            Verstappen.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            In the past, Wolff was directly involved in driver management and
-            now has a role in Mercedes Grand Prix team’s young driver stable –
-            which has included the likes of George Russell and Esteban Ocon –
-            even if it is only by proxy. Wolff has undertaken a small personal
-            investment in the Aston Martin car company through his relationship
-            with Racing Point F1 team boss Lawrence Stroll, who has taken over
-            the British manufacturer and will rebrand Racing Point under the
-            Aston name next year.
+            Since then, he’s recaptured the form that earned him his promotion
+            in the first place, only more so. He was fast in 2018 but
+            inconsistent, but he’s now become a formidable performer in F1’s
+            ultra-competitive mid-pack, better able to anticipate problems and
+            head them off before they set in. Even when race weekends don’t
+            start well, which has often been the case for AlphaTauri this year,
+            he and the team recover. The result is Gasly has comprehensively
+            outperformed team-mate Daniil Kvyat, only being outqualified by him
+            in a straight fight once since then and outscoring him 46 to 12.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            He has been questioned about his role in dynamics within the
-            paddock, too, after saying he was asked to mediate discussions
-            between Racing Point and other teams to avoid the case surrounding
-            the team’s brake ducts going to the International Court of Appeal.
+            It’s clear the way he was dropped still rankles. Offered the chance
+            to focus on the positives of the situation, specifically that he’s
+            shown remarkable robustness to bounce back so effectively, Gasly
+            makes it very clear that he would rather have not gone through this.
+            He can see the benefits, but underpinning it is that same shrouded
+            outrage what happened to him – perhaps augmented by the fact the man
+            who went the other way, Alex Albon, is also struggling.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://the-race.com/formula-1/how-wolffs-annoying-rivals-and-what-mercedes-future-holds/'
+              href='https://the-race.com/formula-1/the-lessons-f1s-midfield-star-wishes-he-never-needed/'
               target='_blank'>
               the-race.com
             </ContentLink>{' '}

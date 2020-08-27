@@ -7,13 +7,13 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=H9Z1xVIhT_I'
+        href='https://www.youtube.com/watch?v=1lNVgI6_cv4'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-40 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/H9Z1xVIhT_I/sddefault.jpg'
+              src='https://img.youtube.com/vi/1lNVgI6_cv4/sddefault.jpg'
               alt='Mark Webber On Vettel Battles, Flying Crashes And More | F1 Unscripted | Heineken Non-Race Sundays'
             />
           </div>
@@ -32,16 +32,14 @@ const Second: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=H9Z1xVIhT_I'
+            href='https://www.youtube.com/watch?v=1lNVgI6_cv4'
             target='_blank'>
-            Mark Webber On Vettel Battles, Flying Crashes And More | F1
-            Unscripted | Heineken Non-Race Sundays
+            Andy Cowell Interview | Beyond The Grid | F1 Official Podcast
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The Aussie driver joins David Coulthard to discuss the major talking
-            points of his stand-out F1 career including his spectacular debut in
-            Melbourne, going wheel to wheel with Sebastian Vettel at Red Bull,
-            and that spectacular crash at the 2010 European Grand Prix.
+            Mercedes engine guru Andy Cowell discusses how the all-conquering
+            engine was created, what makes Lewis Hamilton such a good
+            development driver, and how engine development has changed.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}

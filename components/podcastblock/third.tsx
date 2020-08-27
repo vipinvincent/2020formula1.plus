@@ -7,13 +7,13 @@ const Third: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=pA5hNeJe1_I'
+        href='https://www.youtube.com/watch?v=EbkD6jDh_3c'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-40 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/pA5hNeJe1_I/sddefault.jpg'
+              src='https://img.youtube.com/vi/EbkD6jDh_3c/sddefault.jpg'
               alt='7 Of The Biggest F1 Punishments'
             />
           </div>
@@ -29,22 +29,23 @@ const Third: React.FC = () => {
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-2 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            Podcast
+            Q & A
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=pA5hNeJe1_I'
+            href='https://www.youtube.com/watch?v=EbkD6jDh_3c'
             target='_blank'>
-            7 Of The Biggest F1 Punishments
+            The 382728 Sub 'Q and A' Spectacular
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            $100 million fines, disqualification from the championship and even
-            team members JAILED! Here are 7 of the biggest punishments in
-            Formula 1 history.
+            How can the FIA change engine mode rules mid season? Which driver
+            has surprised/disappointed? How long until Spain is off the
+            calendar? Should the FIA vet team sponsors? Who will benefit from
+            2022 rules?....
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='http://www.wtf1.com' target='_blank'>
-              wtf1.com
+            <ContentLink href='http://www.chainbear.me' target='_blank'>
+              Chain Bear
             </ContentLink>
           </p>
         </div>

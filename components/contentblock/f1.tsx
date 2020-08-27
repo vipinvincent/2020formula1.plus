@@ -18,40 +18,40 @@ const F1: React.FC = () => {
             FEATURE
           </div>
           <ActionLink
-            href='https://www.formula1.com/en/latest/article.trending-topics-williams-future-and-7-more-talking-points-ahead-of-the.4vj8dMsMJ8Lb0csiPeCS2E.html'
+            href='https://www.formula1.com/en/latest/article.analysis-what-happens-now-after-renaults-request-to-withdraw-racing-point.1BUHBsn7fCovnAl7FtTf6e.html'
             target='_blank'>
-            Williams' future, and 7 more talking points ahead of the Belgian GP
+            What happens now after Renault’s request to withdraw Racing Point
+            appeal
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Six races down and the season continues to move quickly with another
-            triple-header on the horizon, this time at three different venues,
-            starting with the Belgian Grand Prix. So it’s time to take a look at
-            what we think will be making the headlines at Spa-Francorchamps
-            after a significant week off the track in Formula 1.
+            There was widespread surprise within Formula 1 circles on Tuesday
+            night when Renault revealed their decision to withdraw an appeal
+            against the penalty handed out to Racing Point for running what were
+            deemed to be illegal rear brake ducts on their RP20 racing car. So
+            now what?
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Last Tuesday was a big day in F1, as all 10 teams signed the new
-            Concorde Agreement that governs the sport from 2021 until 2025. In
-            doing so, they have put their faith in the long-term vision that is
-            in place for Formula 1. In conjunction with the budget cap that will
-            be introduced next year, a more equal distribution of revenues
-            should ensure teams are more closely-matched from a financial point
-            of view, putting the focus on their performance and ability rather
-            than how much money they can spend.
+            Renault have been the strongest voice when it has come to
+            questioning the legality of Racing Point’s brake ducts, the French
+            manufacturer the ones who protested the parts to the stewards and
+            kept the pressure on with subsequent protests. Along with Ferrari
+            and Racing Point, they also moved to appeal the ruling – which
+            handed Racing Point a €400,000 fine and a deduction of 15 world
+            championship points for running brake ducts that were deemed to be
+            of Mercedes' and not their own design, whilst allowing them to keep
+            the offending parts on the car.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            That means there’s a better opportunity for a number of teams on the
-            grid to aspire to podiums or even race wins, while also being more
-            secure from a business perspective. This is a win-win all round. And
-            almost to reiterate the importance of the new Concorde Agreement,
-            Williams announced the sale of the team to new ownership on Friday
-            morning. US-based Dorilton Capital is purchasing the F1 team,
-            securing their long-term future after recent uncertainty.
+            But on the eve of the Belgian Grand Prix, Renault shocked their
+            rivals by requesting a U-turn of their appeal. They said the signing
+            of the new Concorde Agreement gave them piece of mind that
+            “originality” in F1 – which was at the crux of their issue with
+            Racing Point’s actions – would be safeguarded.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.formula1.com/en/latest/article.trending-topics-williams-future-and-7-more-talking-points-ahead-of-the.4vj8dMsMJ8Lb0csiPeCS2E.html'
+              href='https://www.formula1.com/en/latest/article.analysis-what-happens-now-after-renaults-request-to-withdraw-racing-point.1BUHBsn7fCovnAl7FtTf6e.html'
               target='_blank'>
               formula1.com
             </ContentLink>{' '}

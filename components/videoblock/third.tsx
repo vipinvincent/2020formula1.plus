@@ -7,14 +7,14 @@ const Third: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=jlKQaVWKLNo'
+        href='https://www.youtube.com/watch?v=5qBlnjSBRmA'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/jlKQaVWKLNo/sddefault.jpg'
-              alt='Why Ferraris Treatment Of Sebastian Vettel In 2020 ISNT Surprising'
+              src='https://img.youtube.com/vi/5qBlnjSBRmA/sddefault.jpg'
+              alt='Is Sebastian Vettel about to sign for Racing Point?'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,21 +32,21 @@ const Third: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=jlKQaVWKLNo'
+            href='https://www.youtube.com/watch?v=5qBlnjSBRmA'
             target='_blank'>
-            Why Ferrari's Treatment Of Sebastian Vettel In 2020 ISN'T Surprising
+            Is Sebastian Vettel about to sign for Racing Point?
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            In light of the events at the 70th Anniversary GP and the Spanish
-            GP, I wanted to make a video about how Ferrari are treating
-            Sebastian Vettel this season and it may not come as a surprise.
+            Four-time Formula One World Champion Sebastian Vettel is on the cusp
+            of a switch from red to pink, with rumours rife that the 33-year-old
+            will sign a contract with Racing Point in Belgium to lock him in at
+            the soon-to-be Aston Martin works squad on a three-year deal from
+            2021.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink
-              href='https://www.youtube.com/channel/UC0_DTzrD8nSiIr4S_QWVLPw'
-              target='_blank'>
-              BMPHF1
+            <ContentLink href='The Inside Line' target='_blank'>
+              http://theinsideline.com/
             </ContentLink>
           </p>
         </div>

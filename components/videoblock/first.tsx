@@ -7,14 +7,14 @@ const First: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=7mRU9MmQMm0'
+        href='https://www.youtube.com/watch?v=HO2P3LcZcTA'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/7mRU9MmQMm0/sddefault.jpg'
-              alt='8 things Williamss new owners need to do next'
+              src='https://img.youtube.com/vi/HO2P3LcZcTA/sddefault.jpg'
+              alt='Renault call off their protest against Racing Point in brake duct saga'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,24 +32,27 @@ const First: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=7mRU9MmQMm0'
+            href='https://www.youtube.com/watch?v=HO2P3LcZcTA'
             target='_blank'>
-            8 things Williams's new owners need to do next
+            Renault call off their protest against Racing Point in brake duct
+            saga
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Williams secured its Formula 1 future by selling up to US investment
-            firm Dorilton Capital, but that hard work really starts now. In this
-            video we highlight the key areas the new owners should focus on if
-            it wants to turn Williams back into a credible player on the F1
-            grid, and to make sure it takes advantage of the rule changes coming
-            in for 2022.
+            Renault have decided to call off the dogs in their pursuit of a
+            larger punishment for Racing Point. The pink team were stripped of
+            fifteen points and fined 400,000 euro for the Styrian Grand Prix,
+            and reprimanded for every other race they’ve entered since. This was
+            after an FIA investigation into their brake ducts adjudged them to
+            have been designed by Mercedes in 2019, with Racing Point using the
+            parts throughout 2019 and into 2020. This was legal in 2019, but not
+            in 2020, leading to a complicated mess where the parts in question
+            are legal from a technical perspective, but not from a sporting
+            perspective.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink
-              href='https://the-race.com/formula-1/eight-things-williams-needs-to-do-next/'
-              target='_blank'>
-              The race
+            <ContentLink href=' http://www.formulaspy.com' target='_blank'>
+              Thomas Maher
             </ContentLink>
           </p>
         </div>
