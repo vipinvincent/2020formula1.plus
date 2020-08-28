@@ -7,14 +7,14 @@ const Third: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=CrzHNgKq-Lg'
+        href='https://www.youtube.com/watch?v=1ZtdPEtEKgk'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/CrzHNgKq-Lg/sddefault.jpg'
-              alt='Is Sebastian Vettel about to sign for Racing Point?'
+              src='https://img.youtube.com/vi/1ZtdPEtEKgk/sddefault.jpg'
+              alt='The verdict on F1s new almost oval track with sub-60s lap'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,22 +32,21 @@ const Third: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=CrzHNgKq-Lg'
+            href='https://www.youtube.com/watch?v=1ZtdPEtEKgk'
             target='_blank'>
-            RACE PREVIEW: 2020 Formula 1 Belgian Grand Prix
+            The verdict on F1's new 'almost oval' track with sub-60s lap
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The eyes of the world remain on Belgium’s Ardennes region, with F1
-            arriving just two weeks after the World Endurance Championship's
-            six-hours of Spa- Francorchamps - where Toyota Gazoo Racing enjoyed
-            its fourth one-two for 2019-20, the number seven LMP1 of Mike
-            Conway, Kamui Kobayashi and José María López earning outright
-            honours in changeable conditions.
+            It's official - Formula 1 will race on Bahrain's "sort of almost
+            oval" this year. That means a sub-60s lap on a barely-known circuit
+            layout. So we've tried it for ourselves, and explored the challenges
+            of what is set to be the shortest lap in F1 history. What do you
+            think?
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='The Inside Line' target='_blank'>
-              http://theinsideline.com/
+            <ContentLink href='http://the-race.com/' target='_blank'>
+              The Race
             </ContentLink>
           </p>
         </div>

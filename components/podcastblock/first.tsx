@@ -7,14 +7,14 @@ const First: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=MF0XBHRxK_0'
+        href='https://www.youtube.com/watch?v=cI2B8ArXwhQ'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/MF0XBHRxK_0/sddefault.jpg'
-              alt='Is It The Track or The Cars That Make The Spanish GP Boring? | Is It Just Me? Podcast'
+              src='https://img.youtube.com/vi/cI2B8ArXwhQ/sddefault.jpg'
+              alt='Are The New F1 Tracks Added For 2020 Overhyped? | Is It Just Me? Podcast'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,15 +32,17 @@ const First: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=MF0XBHRxK_0'
+            href='https://www.youtube.com/watch?v=cI2B8ArXwhQ'
             target='_blank'>
-            Is It The Track or The Cars That Make The Spanish GP Boring? | Is It
-            Just Me? Podcast
+            Are The New F1 Tracks Added For 2020 Overhyped? | Is It Just Me?
+            Podcast
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The 2020 Spanish GP was another dull affair, but what makes the
-            racing so boring? Is it the circuit layout or is it the 2020 cars?
-            Luke and Jess discuss in this week's episode.
+            The 2020 F1 calendar will feature brand new tracks like Mugello,
+            Portimao and the Bahrain outer oval, as well as returning classic
+            tracks like Istanbul, Imola and Nurburgring - but will the racing be
+            any good? In this weeks episode, Jess and Luke discuss if the racing
+            will live up to the hype.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}

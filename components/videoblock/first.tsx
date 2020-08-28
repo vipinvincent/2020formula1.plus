@@ -7,14 +7,14 @@ const First: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=oiZ2Y-upqzs'
+        href='https://www.youtube.com/watch?v=D5n8_Zz1kgk'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/oiZ2Y-upqzs/sddefault.jpg'
-              alt='Formula 1 to honour Anthoine Hubert at Belgian Grand Prix '
+              src='https://img.youtube.com/vi/D5n8_Zz1kgk/sddefault.jpg'
+              alt='F1 News: Red Bull "Overachieving" and Leclerc Explains Seat Belt Incident '
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,22 +32,22 @@ const First: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=oiZ2Y-upqzs'
+            href='https://www.youtube.com/watch?v=D5n8_Zz1kgk'
             target='_blank'>
-            Formula 1 to honour Anthoine Hubert at Belgian Grand Prix
+            F1 News: Red Bull "Overachieving" and Leclerc Explains Seat Belt
+            Incident
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Formula 1 and Formula 2 will both pay tribute to the late Anthoine
-            Hubert on the anniversary of his death this weekend. French racing
-            driver Anthoine Hubert lost his life in a Formula 2 race at
-            Spa-Francorchamps during the 2019 Belgian Grand Prix weekend, with
-            the 23 year old succumbing to injuries he suffered in a collision
-            between himself and Juan Manuel Correa.
+            In this week’s F1 news round-up: Max Verstappen believes Red Bull
+            are overachieving in 2020, Charles Leclerc explains why he drove
+            with his Seat Belts undone in Spain and Formula One confirm the
+            final calendar for this season. Plus, Renault drop their Racing
+            Point appeal and Haas are keeping their 2021 driver options open.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href=' http://www.formulaspy.com' target='_blank'>
-              Thomas Maher
+            <ContentLink href='https://www.gptoday.net/en/' target='_blank'>
+              The F1 Word
             </ContentLink>
           </p>
         </div>
