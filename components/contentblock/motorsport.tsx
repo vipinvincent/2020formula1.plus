@@ -18,49 +18,46 @@ const MotorSport: React.FC = () => {
             News
           </div>
           <ActionLink
-            href='https://www.motorsport.com/f1/news/horner-real-vettel-struggles-ferrari/4864335/'
+            href='https://www.motorsport.com/f1/news/ricciardos-engine-undamaged-spa-practice/4864511/'
             target='_blank'>
-            Horner: F1 not seeing the "real" Vettel in 2020
+            Ricciardo's engine undamaged after FP2 stoppage
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Red Bull Racing boss Christian Horner has defended his former driver
-            Sebastian Vettel after the German's difficult start to the 2020
-            Formula 1 season.
+            Renault F1 boss Cyril Abiteboul says Daniel Ricciardo's engine and
+            gearbox are unharmed after a hydraulic failure stopped the
+            Australian's car on track in second practice for the Belgian GP.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Horner said F1 is not seeing the “real Sebastian Vettel” at the
-            moment, suggesting that he is struggling in his current environment.
-            Vettel won four world championships with Red Bull in 2010-13 before
-            joining Ferrari in 2015. Since then he has won 14 races with the
-            Italian team, and was runner-up in the championship in both 2017 and
-            2018. However, he has not be retained for 2021, and thus far this
-            season he has struggled to match teammate Charles Leclerc, scoring
-            16 points to Leclerc's 45.
+            Ricciardo stopped on track with some 15 minutes left on the clock
+            and marshals had to push his car behind the barriers. Prior to the
+            issue, Ricciardo set what would stand as the second fastest time in
+            the session, behind only Red Bull's Max Verstappen. He also logged
+            the best sector time in S3, while his team mate Esteban Ocon was
+            fastest in S1. Abiteboul cautioned that it's still early in the
+            Belgian GP weekend, but he conceded that it was a promising start
+            for the Enstone outfit
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Horner was asked by Motorsport.com if Vettel was struggling now in
-            part because cars have changed since he excelled in the days of
-            blown diffusers. “Well, not really,” said Horner. “I mean, Sebastian
-            drove with refuelling, no refuelling, blown diffusers, no diffusers,
-            f-ducts, no f-ducts, DRS, no DRS. He drove a whole variance of
-            different cars over the years. “And obviously what he achieved in
-            the period during those years with Red Bull was quite special. I
-            think he's the third most successful driver in the history of the
-            sport.
-          </p>
-          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            “And he has achieved some incredible things, many records which will
-            stand for some time. So, for whatever reason, things aren’t working
-            for him at the moment. I think any driver has to be happy in their
-            environment, and you can see that he's carrying quite a lot of
-            weight on his shoulders. “And that has a bearing on any on any
-            sportsman, on any athlete. So I don't think we're seeing the real
-            Sebastian Vettel at the moment.
+            "What happens on Friday isn't always representative of Saturday and
+            Sunday, and it's Sunday that matters," Abiteboul told Sky F1. "We
+            see that the car has made some progress, except for Barcelona, where
+            we were not quite able to get the set-up, but also in terms of
+            overall aerodynamic performance competitiveness. At a low downforce
+            track, a bit like Silverstone, but even a different extreme here, we
+            feel good. "We feel that the engine is working well. Obviously there
+            is the disappointment of the run that was cut short because of the
+            hydraulic problem, but as far as I understand no damage to the
+            gearbox, which was new, or to the engine, which is what matters.
+            "The car was going to stop anyway when you lose hydraulic pressure,
+            but we understand no damage was done to the engine." Abiteboul
+            conceded that the cars were running a low-downforce levels – a
+            policy that might be compromised because of the threat of rain later
+            in the weekend.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.motorsport.com/f1/news/horner-real-vettel-struggles-ferrari/4864335/'
+              href='https://www.motorsport.com/f1/news/ricciardos-engine-undamaged-spa-practice/4864511/'
               target='_blank'>
               motorsport.com
             </ContentLink>{' '}

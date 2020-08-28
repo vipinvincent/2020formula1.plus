@@ -18,45 +18,43 @@ const F1: React.FC = () => {
             News
           </div>
           <ActionLink
-            href='https://www.formula1.com/en/latest/article.f1-to-use-bahrains-high-speed-outer-track-for-sakhir-grand-prix.6niLbb2btc0IrscR1BMpx8.html'
+            href='https://www.formula1.com/en/latest/article.sad-to-see-ferrari-so-far-down-says-leclerc-as-team-slump-to-p15-and-p17-in.3TWOHANG4I7JaacH6S2X3D.html'
             target='_blank'>
-            F1 to use Bahrain’s ‘outer track’ for Sakhir Grand Prix, sub-60s
-            laps expected
+            ‘Sad to see Ferrari so far down’ says Leclerc as team slump to P15
+            and P17 in Spa second practice
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Formula 1 is set for sub-60s lap times after it was confirmed that
-            December’s Sakhir Grand Prix will be run on Bahrain’s ultra-quick
-            3.543 km ‘outer track’.
+            1.317s – that was how much slower Ferrari were in FP2 for the 2020
+            Belgian Grand Prix than they had been at the same track in 2019. And
+            having led the session for the team last year before going on to
+            score pole position and take his maiden victory, Charles Leclerc
+            admitted he was “sad” to see how far the Scuderia had fallen.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Following a detailed analysis of the different track layouts
-            available in Bahrain, all of which have an FIA Grade 1 license,
-            Formula 1 has concluded that the 11-turn outer circuit - which has
-            never been used for an international race - is the most suitable
-            option for the second of Bahrain’s double header races on December
-            6. The Sakhir Grand Prix will be a full night race with both
-            qualifying and the race taking place later in the evening compared
-            to the Bahrain Grand Prix, which will take place the weekend before
-            using the usual 5.412 km international track layout.
+            In what has been a difficult season anyway for Ferrari, Friday’s lap
+            times at Spa-Francorchamps nonetheless made for sobering reading,
+            Leclerc ending up 1.696s off the pace of Red Bull’s Max Verstappen
+            in 15th place in FP2 – and just 0.023s up on the Williams of George
+            Russell – while Sebastian Vettel fared even worse, the three-time
+            Spa winner taking the 17th fastest time, just 0.091s ahead of the
+            second Williams of Nicholas Latifi.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            With such a short track - the second shortest on the calendar after
-            Monaco - the Sakhir GP will be an 87-lap race to ensure the 305 km
-            official minimum distance is met – that’s the most racing laps of
-            any Grand Prix this year. F1 simulations predict qualifying lap
-            times below 55 seconds, and race laps below 60 seconds. The only
-            sub-60s pole time in F1 history came in 1974, when Niki Lauda lapped
-            Dijon-Prenois in his Ferrari in 58.79s. The shortest lap time seen
-            in recent times was Valtteri Bottas’s pole lap in Austria earlier
-            this year of 1m 02.939s. The outer track takes in Turns 1, 2 and 3
-            of the international track, before breaking away at Turn 4 for a
-            series of quick sweeps before re-joining the familiar track at Turn
-            13.
+            “A very difficult day,” was Leclerc’s grim assessment at the end of
+            Friday. “I think it’s probably a surprise to be so far back,
+            especially in FP2. We tried quite a lot of things in FP2. "At the
+            beginning I tried something quite aggressive in downforce levels but
+            it didn’t really work out so we came back on that, and we are just
+            lacking pace at the moment so we need to work hard to catch back.
+            But I don’t expect miracles for this weekend. “It doesn’t feel good
+            and it’s sad to see Ferrari so far down,” Leclerc added, “but as
+            always, our work as drivers is to give our best and that’s exactly
+            what I’m trying and what Seb is trying to do in the car.”
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.formula1.com/en/latest/article.f1-to-use-bahrains-high-speed-outer-track-for-sakhir-grand-prix.6niLbb2btc0IrscR1BMpx8.html'
+              href='https://www.formula1.com/en/latest/article.sad-to-see-ferrari-so-far-down-says-leclerc-as-team-slump-to-p15-and-p17-in.3TWOHANG4I7JaacH6S2X3D.html'
               target='_blank'>
               formula1.com
             </ContentLink>{' '}

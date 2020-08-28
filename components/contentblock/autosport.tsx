@@ -18,35 +18,34 @@ const AutoSport: React.FC = () => {
             News
           </div>
           <ActionLink
-            href='https://www.autosport.com/f1/news/151720/hamilton-keeping-an-eye-on-title-runner-red-bull'
+            href='https://www.autosport.com/f1/news/151730/verstappen-not-expecting-pole-fight-with-mercedes'
             target='_blank'>
-            Hamilton "absolutely" keeping an eye on F1 "title runner" Red Bull
+            Verstappen not expecting F1 Belgian GP pole fight with Mercedes duo
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Lewis Hamilton says he will "absolutely keep my eye" on Max
-            Verstappen and Red Bull's potential threat in Formula 1's 2020 title
-            fight, warning Mercedes must "stay on our toes".
+            Max Verstappen doubts he will be able to fight with the Mercedes
+            drivers for pole position in Belgium despite setting the pace
+            through Friday's Formula 1 practice running. Verstappen finished
+            just eight-hundredths of a second behind Mercedes' Valtteri Bottas
+            in opening practice before setting the fastest time in the afternoon
+            session.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Verstappen is 37 points behind Hamilton after the opening six races
-            of the 2020 season - ahead of Valtteri Bottas in second place in the
-            drivers' standings - and has been the only driver regularly able to
-            keep pace with the Mercedes duo so far in the campaign. The Red Bull
-            driver is six points ahead of Bottas after the latter's puncture at
-            the end of the British GP, and because he was able to finish ahead
-            of him after the Finn's poor starts in Hungary and Spain.
+            Verstappen was able to pip Renault's Daniel Ricciardo to top spot by
+            0.048 seconds, with Lewis Hamilton finishing 0.096s off the pace in
+            third for Mercedes. But the Red Bull driver did not think his run to
+            top spot was a sign he could fight for pole position on Saturday,
+            predicting Mercedes would bounce back from its issues. "I personally
+            think they're still struggling a bit with their balance," Verstappen
+            said of Mercedes.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            When asked if he views Verstappen as a genuine title threat for the
-            rest of 2020, Hamilton said: "You take the first race away with Max
-            having the DNF, I think if you look at the results, we would be very
-            close in points still. "So in my mind they are [a title threat], and
-            obviously they've had very strong results. "And they're getting
-            closer and races. Maybe in qualifying we do have the edge. But let's
-            say when it comes to the race, we're generally a lot closer. "We're
-            not even halfway through the season. And so, I absolutely keep my
-            eye on them. I think they still are a title runner. We need to stay
-            on our toes."
+            "I expect them to be stronger tomorrow. You can see already on the
+            long runs they are also very competitive. "I'm not expecting to
+            fight for pole position, but if we can be a bit closer, that would
+            be good." Verstappen anticipated that the Racing Point cars of
+            Sergio Perez and Lance Stroll would be "very close" to Red Bull in
+            qualifying.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             Verstappen, who downplayed his current position as an
@@ -59,7 +58,7 @@ const AutoSport: React.FC = () => {
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.autosport.com/f1/news/151720/hamilton-keeping-an-eye-on-title-runner-red-bull'
+              href='https://www.autosport.com/f1/news/151730/verstappen-not-expecting-pole-fight-with-mercedes'
               target='_blank'>
               autosport.com
             </ContentLink>{' '}

@@ -6,9 +6,9 @@ import MotorSport from 'components/contentblock/motorsport'
 // import SkySports from 'components/contentblock/skysports'
 // import TheRace from 'components/contentblock/therace'
 // import PlanetF1 from 'components/contentblock/planetf1'
-// import FormulaSpy from 'components/contentblock/formulaspy'
+import FormulaSpy from 'components/contentblock/formulaspy'
 // import GrandPrix from 'components/contentblock/grandprix'
-import ESPN from 'components/contentblock/espn'
+// import ESPN from 'components/contentblock/espn'
 import AutoSport from 'components/contentblock/autosport'
 
 // import Report from 'components/contentblock/report'
@@ -86,8 +86,8 @@ const Main: React.FC = () => {
             <AutoSport />
           </div>
         </div>
-        <div className='w-100 mt-4'>
-          <ESPN />
+        <div className='w-100 mt-4  bg-white-70 rounded-tl-xxl rounded-br-xxl shadow'>
+          <FormulaSpy />
         </div>
       </div>
     </div>

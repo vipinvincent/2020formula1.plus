@@ -18,39 +18,44 @@ const PlanetF1: React.FC = () => {
             News
           </div>
           <ActionLink
-            href='https://formulaspy.com/features/is-vettel-going-to-racing-point-a-done-deal-70799'
+            href='https://formulaspy.com/f1/ricciardo-not-surprised-by-strong-practice-showing-70893'
             target='_blank'>
-            Is Vettel going to Racing Point a done deal?
+            Ricciardo ‘not surprised’ by strong practice showing
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Sebastian Vettel’s most likely destination for 2021 appears to be
-            Racing Point, so can we expect an announcement soon? The ongoing
-            saga regarding Sebastien Vettel’s Formula One racing future took
-            another twist recently when Vettel was spotted getting a ride in the
-            Ferrari of Racing Point team co-owner Otmar Szafnauer.
+            Belgian Grand Prix – Renault’s Daniel Ricciardo finished P2 at the
+            end of Friday’s practice, despite a late technical issue with his
+            R.S.20. Renault’s Daniel Ricciardo finished in P2 at the end of
+            Friday’s track time, finishing less than a tenth behind pacesetter
+            Max Verstappen. He did 21 laps in the morning session en route to
+            P9, before vaulting up to P2 in second practice with 12 laps on the
+            board.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Rumors have linked Vettel to Racing Point for several months now as
-            the four-time F1 world driving champion will leave Ferrari at the
-            end of the current season. Pressed about whether he’d taken a spin
-            with Szafnauer, Vettel acknowledged that he indeed had shared a ride
-            with the rival team owner.
+            “It was another good FP2 as has been the case for us at the last few
+            rounds.” said Ricciardo afterwards. “We have to do it tomorrow,
+            though, as that’s when it counts. Today was strong, even with the
+            issue at the end.” Ricciardo had been on a push lap towards the end
+            of the session when he suffered a mechanical problem coming over the
+            crest at Radillion, with the car seeming to go into neutral. The
+            Australian driver brought the car to a controlled stop along the
+            Kemmel Straight, triggering Virtual Safety Car conditions while the
+            car was recovered.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            “It is correct. We were heading to the fuel station,” Vettel said at
-            Silverstone. “After the fuel station he was going home and I
-            continued going somewhere else. It’s a nice car. A Ferrari Pista and
-            I remember years ago he was talking about that car and now he
-            obviously got one.” “I find it a bit awkward nowadays that people
-            make a fuss out of everything. I don’t see the news in that.”
-            Vettel, 33, was also spotted sharing an elbow bump with Racing Point
-            co-owner Lawrence Stroll. Again, he readily downplayed any
-            significance to the moment.
+            Renault later confirmed it was a hydraulic issue on the car, leading
+            Ricciardo to stop the car as a precaution. “For safety, we pulled
+            the car over as there’s no point taking risks with mechanical issues
+            on Fridays.” Ricciardo explained. “Our low fuel run was a good one.
+            During the lap, I knew it felt good and sometimes you just know when
+            the car’s working. I knew it was competitive and I wasn’t that
+            surprised it was up there on the timesheets. It was a good day and
+            we certainly understood a lot from it.”
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://formulaspy.com/features/is-vettel-going-to-racing-point-a-done-deal-70799'
+              href='https://formulaspy.com/f1/ricciardo-not-surprised-by-strong-practice-showing-70893'
               target='_blank'>
               formulaspy.com
             </ContentLink>{' '}
