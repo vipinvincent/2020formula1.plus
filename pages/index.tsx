@@ -12,7 +12,7 @@ import VideosPodcasts from 'components/maincontent/videos-podcasts'
 import FirstPodcast from 'components/podcastblock/first'
 import SecondPodcast from 'components/podcastblock/second'
 import ThirdPodcast from 'components/podcastblock/third'
-import FourthPodcast from 'components/podcastblock/fourth'
+// import FourthPodcast from 'components/podcastblock/fourth'
 
 import FirstVideo from 'components/videoblock/first'
 import SecondVideo from 'components/videoblock/second'
@@ -63,9 +63,9 @@ const IndexPage = () => (
             <div className='w-100 mt-4'>
               <ThirdPodcast />
             </div>
-            <div className='w-100 mt-4'>
+            {/* <div className='w-100 mt-4'>
               <FourthPodcast />
-            </div>
+            </div> */}
           </div>
         </div>
         <div className='w-full flex flex-row px-4'></div>
