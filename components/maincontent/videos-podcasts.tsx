@@ -11,11 +11,11 @@ import FourthPodcast from 'components/podcastblock/fourth'
 
 const Main: React.FC = () => {
   return (
-    <div className='flex flex-col'>
+    <div className='flex flex-col lg:hidden'>
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mt-4 mb-1 px-2'>
         Latest Videos from Youtube
       </div>
-      <div className='w-100 flex flex-col '>
+      <div className='w-100 flex flex-col'>
         <div className='w-100 mr-0'>
           <div className='w-100 mt-0'>
             <FirstVideo />

@@ -18,38 +18,36 @@ const ESPN: React.FC = () => {
             News
           </div>
           <ActionLink
-            href='https://www.espn.in/f1/story/_/id/29507518/red-bull-sees-albon-getting-stronger-stronger'
+            href='https://www.espn.in/f1/story/_/id/29753437/gasly-struggling-accept-hubert-death-one-year-on'
             target='_blank'>
-            Red Bull sees Albon getting stronger and stronger
+            Gasly still struggling to accept Anthoine Hubert's death one year on
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Red Bull see plenty of untapped potential in Alex Albon and are
-            happy with the British-born Thai driver, according to team boss
-            Christian Horner.
+            One year on from the death of Anthoine Hubert at Spa-Francorchamps,
+            Formula One drivers Pierre Gasly and Charles Leclerc have paid
+            tribute to their friend ahead of this weekend's Belgian Grand Prix.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Williams driver George Russell defended his friend and rival at the
-            weekend's Hungarian Grand Prix, saying he was "being made to look
-            like an idiot and he's absolutely not" after Albon qualified 13th.
+            On Thursday, Gasly was among members of the F1 paddock who laid
+            flowers at the corner where Hubert suffered fatal injuries in the
+            Formula Two race last year. Both Gasly and Leclerc were close
+            friends of Hubert's and raced against him in junior categories.
+            Gasly, who drives for Alpha Tauri in F1, said it was not easy
+            returning to the scene of Hubert's accident this year.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The Thai, a Formula One rookie last year alongside established race
-            winner Max Verstappen, ultimately put in a strong performance to
-            finish fifth while his Dutch team mate was second. "I'm very pleased
-            with Alex. He's picked up a bit of criticism which has been very
-            harsh on him," Horner told Sky Sports television.
-          </p>
-          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            "We made a mistake in the timing (in qualifying), we put too much
-            pressure on him. We have to take responsibility to that. "He's done
-            the passing manoeuvres when he needed to, he's responded very well.
-            I really believe that Alex has got a lot more potential that we just
-            haven't uncovered yet."
+            "As soon as I put one foot in the paddock, I just have these images
+            that come back in my mind, and things I don't want to accept or I
+            struggle to accept," Gasly said. "Even during the track walk, I was
+            thinking ... I just struggle to realise it really happened and
+            unfortunately that's just the truth, the reality. "It hasn't been
+            easy." Gasly first raced against Hubert when he was 9, and the two
+            drivers were roommates during their junior career.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.espn.in/f1/story/_/id/29507518/red-bull-sees-albon-getting-stronger-stronger'
+              href='https://www.espn.in/f1/story/_/id/29753437/gasly-struggling-accept-hubert-death-one-year-on'
               target='_blank'>
               espn.com
             </ContentLink>{' '}

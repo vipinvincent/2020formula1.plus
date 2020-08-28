@@ -7,13 +7,13 @@ const Third: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=EbkD6jDh_3c'
+        href='https://www.youtube.com/watch?v=obF8sRYUFmA'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
-              className='w-full h-40 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/EbkD6jDh_3c/sddefault.jpg'
+              className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
+              src='https://img.youtube.com/vi/obF8sRYUFmA/sddefault.jpg'
               alt='7 Of The Biggest F1 Punishments'
             />
           </div>
@@ -29,23 +29,28 @@ const Third: React.FC = () => {
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-2 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            Q & A
+            Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=EbkD6jDh_3c'
+            href='https://www.youtube.com/watch?v=obF8sRYUFmA'
             target='_blank'>
-            The 382728 Sub 'Q and A' Spectacular
+            Your F1 questions answered! | The Gary Anderson F1 Show | Special
+            podcast
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            How can the FIA change engine mode rules mid season? Which driver
-            has surprised/disappointed? How long until Spain is off the
-            calendar? Should the FIA vet team sponsors? Who will benefit from
-            2022 rules?....
+            For this special episode of The Gary Anderson F1 Show, we asked our
+            YouTube audience for questions we could put to Gary. To show our
+            appreciation for all the questions we received, we're releasing this
+            special episode on YouTube as well as in our usual podcast feeds.
+            Gary tackles all sorts of questions about car design and some of the
+            big talking points of 2020 such as Ferrari's car problems that have
+            been expose by its engine difficulties, and discusses where F1 may
+            head technically in the future.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='http://www.chainbear.me' target='_blank'>
-              Chain Bear
+            <ContentLink href='http://the-race.com/' target='_blank'>
+              The Race
             </ContentLink>
           </p>
         </div>

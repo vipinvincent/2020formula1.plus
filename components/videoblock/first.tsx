@@ -7,14 +7,14 @@ const First: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=HO2P3LcZcTA'
+        href='https://www.youtube.com/watch?v=oiZ2Y-upqzs'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
-              className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/HO2P3LcZcTA/sddefault.jpg'
-              alt='Renault call off their protest against Racing Point in brake duct saga'
+              className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
+              src='https://img.youtube.com/vi/oiZ2Y-upqzs/sddefault.jpg'
+              alt='Formula 1 to honour Anthoine Hubert at Belgian Grand Prix '
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,22 +32,17 @@ const First: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=HO2P3LcZcTA'
+            href='https://www.youtube.com/watch?v=oiZ2Y-upqzs'
             target='_blank'>
-            Renault call off their protest against Racing Point in brake duct
-            saga
+            Formula 1 to honour Anthoine Hubert at Belgian Grand Prix
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Renault have decided to call off the dogs in their pursuit of a
-            larger punishment for Racing Point. The pink team were stripped of
-            fifteen points and fined 400,000 euro for the Styrian Grand Prix,
-            and reprimanded for every other race they’ve entered since. This was
-            after an FIA investigation into their brake ducts adjudged them to
-            have been designed by Mercedes in 2019, with Racing Point using the
-            parts throughout 2019 and into 2020. This was legal in 2019, but not
-            in 2020, leading to a complicated mess where the parts in question
-            are legal from a technical perspective, but not from a sporting
-            perspective.
+            Formula 1 and Formula 2 will both pay tribute to the late Anthoine
+            Hubert on the anniversary of his death this weekend. French racing
+            driver Anthoine Hubert lost his life in a Formula 2 race at
+            Spa-Francorchamps during the 2019 Belgian Grand Prix weekend, with
+            the 23 year old succumbing to injuries he suffered in a collision
+            between himself and Juan Manuel Correa.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}

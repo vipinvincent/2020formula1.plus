@@ -4,13 +4,13 @@ import H1 from 'components/heading/H1'
 const Archive26: React.FC = () => {
   return (
     <div className='relative'>
-      <div className='h-48 md:h-64 xl:h-104 w-full'>
+      {/* <div className='h-48 md:h-64 xl:h-104 w-full'>
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
           src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1597490683/contentImages/content/lewis-hamilton2_x4c01p.jpg'
           alt='Qualifying REPORT - Spanish GP 2020'
         />
-      </div>
+      </div> */}
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-2 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>

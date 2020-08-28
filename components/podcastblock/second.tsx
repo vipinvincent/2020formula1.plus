@@ -12,7 +12,7 @@ const Second: React.FC = () => {
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
-              className='w-full h-40 object-cover rounded-tl-xxl'
+              className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
               src='https://img.youtube.com/vi/1lNVgI6_cv4/sddefault.jpg'
               alt='Mark Webber On Vettel Battles, Flying Crashes And More | F1 Unscripted | Heineken Non-Race Sundays'
             />

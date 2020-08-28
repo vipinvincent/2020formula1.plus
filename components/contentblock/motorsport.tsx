@@ -18,41 +18,49 @@ const MotorSport: React.FC = () => {
             News
           </div>
           <ActionLink
-            href='https://www.motorsport.com/f1/news/renault-copying-rules-crystal-clear-appeal/4861015/'
+            href='https://www.motorsport.com/f1/news/horner-real-vettel-struggles-ferrari/4864335/'
             target='_blank'>
-            Renault pursuing F1 appeal to make copying rules "crystal clear"
+            Horner: F1 not seeing the "real" Vettel in 2020
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Renault Formula 1 boss Cyril Abiteboul insists that the team is
-            pursuing its appeal in the Racing Point brake ducts case in order to
-            make the rules “crystal clear.”
+            Red Bull Racing boss Christian Horner has defended his former driver
+            Sebastian Vettel after the German's difficult start to the 2020
+            Formula 1 season.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Renault protested the brake duct design of the Racing Points after
-            the Styrian, Hungarian and British GPs. Following a hearing at
-            Silverstone, the FIA stewards delivered their verdict before the
-            70th Anniversary GP, handing Racing Point a €400,000 fine and
-            docking the team 15 points for using a design provided by Mercedes.
+            Horner said F1 is not seeing the “real Sebastian Vettel” at the
+            moment, suggesting that he is struggling in his current environment.
+            Vettel won four world championships with Red Bull in 2010-13 before
+            joining Ferrari in 2015. Since then he has won 14 races with the
+            Italian team, and was runner-up in the championship in both 2017 and
+            2018. However, he has not be retained for 2021, and thus far this
+            season he has struggled to match teammate Charles Leclerc, scoring
+            16 points to Leclerc's 45.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            However, the team is allowed to use the contentious brake ducts for
-            the balance of the season, while receiving a reprimand at every
-            race. Renault and Ferrari both subsequently lodged an appeal, while
-            McLaren and Williams initially indicated an intention to do so, but
-            later withdrew.
+            Horner was asked by Motorsport.com if Vettel was struggling now in
+            part because cars have changed since he excelled in the days of
+            blown diffusers. “Well, not really,” said Horner. “I mean, Sebastian
+            drove with refuelling, no refuelling, blown diffusers, no diffusers,
+            f-ducts, no f-ducts, DRS, no DRS. He drove a whole variance of
+            different cars over the years. “And obviously what he achieved in
+            the period during those years with Red Bull was quite special. I
+            think he's the third most successful driver in the history of the
+            sport.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The FIA has announced that it will address the copying issue and
-            ensure that F1 remains a championship for constructors, even noting
-            that it will stop the use of photography and other reverse
-            engineering techniques However, Abiteboul hopes that the
-            International Court of Appeal will provide further clarity on the
-            subject.
+            “And he has achieved some incredible things, many records which will
+            stand for some time. So, for whatever reason, things aren’t working
+            for him at the moment. I think any driver has to be happy in their
+            environment, and you can see that he's carrying quite a lot of
+            weight on his shoulders. “And that has a bearing on any on any
+            sportsman, on any athlete. So I don't think we're seeing the real
+            Sebastian Vettel at the moment.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.motorsport.com/f1/news/renault-copying-rules-crystal-clear-appeal/4861015/'
+              href='https://www.motorsport.com/f1/news/horner-real-vettel-struggles-ferrari/4864335/'
               target='_blank'>
               motorsport.com
             </ContentLink>{' '}

@@ -18,46 +18,48 @@ const AutoSport: React.FC = () => {
             News
           </div>
           <ActionLink
-            href='https://www.autosport.com/f1/news/151678/wolff-f1-nearing-biggest-transition-in-its-history'
+            href='https://www.autosport.com/f1/news/151720/hamilton-keeping-an-eye-on-title-runner-red-bull'
             target='_blank'>
-            Wolff: Formula 1 nearing "biggest transition" in its history
+            Hamilton "absolutely" keeping an eye on F1 "title runner" Red Bull
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Toto Wolff believes Formula 1 is set for the "biggest transition" in
-            its history through the upcoming changes to the technical and
-            financial structure of the series.
+            Lewis Hamilton says he will "absolutely keep my eye" on Max
+            Verstappen and Red Bull's potential threat in Formula 1's 2020 title
+            fight, warning Mercedes must "stay on our toes".
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            F1 announced last Wednesday that the entire grid had met the
-            early-sign deadline for the new Concorde Agreement, committing to
-            the revised commercial terms that will last from 2021 to 2025. At
-            the heart of the new agreement is a more equal distribution of prize
-            money, which is part of F1's drive to make the championship more
-            sustainable and competitive.
+            Verstappen is 37 points behind Hamilton after the opening six races
+            of the 2020 season - ahead of Valtteri Bottas in second place in the
+            drivers' standings - and has been the only driver regularly able to
+            keep pace with the Mercedes duo so far in the campaign. The Red Bull
+            driver is six points ahead of Bottas after the latter's puncture at
+            the end of the British GP, and because he was able to finish ahead
+            of him after the Finn's poor starts in Hungary and Spain.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The revised commercial terms will work in tandem with the 2021
-            budget cap and the updated technical regulations that will come into
-            force in 2022. Mercedes F1 chief Wolff said ahead of this weekend's
-            Belgian Grand Prix that it was no surprise to see all 10 teams sign
-            up, but he nevertheless felt pleased to see talks get across the
-            line. Wolff also predicted that F1 would face some of the biggest
-            changes in its history as a result of all the planned shake-up.
+            When asked if he views Verstappen as a genuine title threat for the
+            rest of 2020, Hamilton said: "You take the first race away with Max
+            having the DNF, I think if you look at the results, we would be very
+            close in points still. "So in my mind they are [a title threat], and
+            obviously they've had very strong results. "And they're getting
+            closer and races. Maybe in qualifying we do have the edge. But let's
+            say when it comes to the race, we're generally a lot closer. "We're
+            not even halfway through the season. And so, I absolutely keep my
+            eye on them. I think they still are a title runner. We need to stay
+            on our toes."
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            "We have always said that we wanted to stay in F1, so the agreement
-            wasn't necessarily all that surprising," Wolff said. "But we're
-            happy that we could bring the negotiations to a positive conclusion.
-            "We are committed to our sport and we're looking forward to the
-            upcoming years which will see the biggest transition F1 has ever
-            seen. "This will reward agile, open-minded teams who can adapt
-            successfully to the demands of the new rules."
+            Verstappen, who downplayed his current position as an
+            "overachievement" so far in 2020, was able to beat the Mercedes
+            drivers in the 70th Anniversary GP as a combination of softer tyres,
+            hot temperatures and the levels of downforce the W11s were producing
+            through Silverstone's high-speed and high-energy corners.
           </p>
 
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.autosport.com/f1/news/151678/wolff-f1-nearing-biggest-transition-in-its-history'
+              href='https://www.autosport.com/f1/news/151720/hamilton-keeping-an-eye-on-title-runner-red-bull'
               target='_blank'>
               autosport.com
             </ContentLink>{' '}

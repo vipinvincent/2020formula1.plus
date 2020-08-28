@@ -8,10 +8,15 @@ import Driver from '../components/driver'
 import Team from '../components/team'
 import Race from 'components/race/quick-look'
 import VideosPodcasts from 'components/maincontent/videos-podcasts'
+
 import FirstPodcast from 'components/podcastblock/first'
 import SecondPodcast from 'components/podcastblock/second'
 import ThirdPodcast from 'components/podcastblock/third'
 import FourthPodcast from 'components/podcastblock/fourth'
+
+import FirstVideo from 'components/videoblock/first'
+import SecondVideo from 'components/videoblock/second'
+import ThirdVideo from 'components/videoblock/third'
 
 const IndexPage = () => (
   <Layout title='Formula1 Plus - Formula 1 Latest News, Insights, Live Grand Prix Updates, Schedule, Standings, Drivers, Teams, Results and much more...'>
@@ -30,7 +35,23 @@ const IndexPage = () => (
             <Team />
             <Recent />
             <Race />
-            <div className='w-100 text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mt-0 mb-1 px-2'>
+            <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2'>
+              Latest Videos from Youtube
+            </div>
+            <div className='w-100 flex flex-col'>
+              <div className='w-100 mr-0'>
+                <div className='w-100 mt-0'>
+                  <FirstVideo />
+                </div>
+                <div className='w-100 mt-4'>
+                  <SecondVideo />
+                </div>
+                <div className='w-100 mt-4'>
+                  <ThirdVideo />
+                </div>
+              </div>
+            </div>
+            <div className='w-100 text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mt-4 mb-1 px-2'>
               Latest Podcasts from Youtube
             </div>
             <div className='w-100  mt-0'>

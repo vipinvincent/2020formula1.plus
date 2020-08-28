@@ -15,43 +15,48 @@ const F1: React.FC = () => {
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 py-4 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            FEATURE
+            News
           </div>
           <ActionLink
-            href='https://www.formula1.com/en/latest/article.analysis-what-happens-now-after-renaults-request-to-withdraw-racing-point.1BUHBsn7fCovnAl7FtTf6e.html'
+            href='https://www.formula1.com/en/latest/article.f1-to-use-bahrains-high-speed-outer-track-for-sakhir-grand-prix.6niLbb2btc0IrscR1BMpx8.html'
             target='_blank'>
-            What happens now after Renault’s request to withdraw Racing Point
-            appeal
+            F1 to use Bahrain’s ‘outer track’ for Sakhir Grand Prix, sub-60s
+            laps expected
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            There was widespread surprise within Formula 1 circles on Tuesday
-            night when Renault revealed their decision to withdraw an appeal
-            against the penalty handed out to Racing Point for running what were
-            deemed to be illegal rear brake ducts on their RP20 racing car. So
-            now what?
+            Formula 1 is set for sub-60s lap times after it was confirmed that
+            December’s Sakhir Grand Prix will be run on Bahrain’s ultra-quick
+            3.543 km ‘outer track’.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Renault have been the strongest voice when it has come to
-            questioning the legality of Racing Point’s brake ducts, the French
-            manufacturer the ones who protested the parts to the stewards and
-            kept the pressure on with subsequent protests. Along with Ferrari
-            and Racing Point, they also moved to appeal the ruling – which
-            handed Racing Point a €400,000 fine and a deduction of 15 world
-            championship points for running brake ducts that were deemed to be
-            of Mercedes' and not their own design, whilst allowing them to keep
-            the offending parts on the car.
+            Following a detailed analysis of the different track layouts
+            available in Bahrain, all of which have an FIA Grade 1 license,
+            Formula 1 has concluded that the 11-turn outer circuit - which has
+            never been used for an international race - is the most suitable
+            option for the second of Bahrain’s double header races on December
+            6. The Sakhir Grand Prix will be a full night race with both
+            qualifying and the race taking place later in the evening compared
+            to the Bahrain Grand Prix, which will take place the weekend before
+            using the usual 5.412 km international track layout.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            But on the eve of the Belgian Grand Prix, Renault shocked their
-            rivals by requesting a U-turn of their appeal. They said the signing
-            of the new Concorde Agreement gave them piece of mind that
-            “originality” in F1 – which was at the crux of their issue with
-            Racing Point’s actions – would be safeguarded.
+            With such a short track - the second shortest on the calendar after
+            Monaco - the Sakhir GP will be an 87-lap race to ensure the 305 km
+            official minimum distance is met – that’s the most racing laps of
+            any Grand Prix this year. F1 simulations predict qualifying lap
+            times below 55 seconds, and race laps below 60 seconds. The only
+            sub-60s pole time in F1 history came in 1974, when Niki Lauda lapped
+            Dijon-Prenois in his Ferrari in 58.79s. The shortest lap time seen
+            in recent times was Valtteri Bottas’s pole lap in Austria earlier
+            this year of 1m 02.939s. The outer track takes in Turns 1, 2 and 3
+            of the international track, before breaking away at Turn 4 for a
+            series of quick sweeps before re-joining the familiar track at Turn
+            13.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.formula1.com/en/latest/article.analysis-what-happens-now-after-renaults-request-to-withdraw-racing-point.1BUHBsn7fCovnAl7FtTf6e.html'
+              href='https://www.formula1.com/en/latest/article.f1-to-use-bahrains-high-speed-outer-track-for-sakhir-grand-prix.6niLbb2btc0IrscR1BMpx8.html'
               target='_blank'>
               formula1.com
             </ContentLink>{' '}

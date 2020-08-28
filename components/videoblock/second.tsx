@@ -7,14 +7,14 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=XT8yoJ3deRQ'
+        href='https://www.youtube.com/watch?v=BpMznB5S0zk'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
-              className='w-full h-48 lg:h-96 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/XT8yoJ3deRQ/sddefault.jpg'
-              alt='Haas Explain Why They Decided to Stay in F1'
+              className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
+              src='https://img.youtube.com/vi/BpMznB5S0zk/sddefault.jpg'
+              alt='Mercedes Engine Boss Andy Cowell Explains Decision To Leave Mercedes'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,17 +32,16 @@ const Second: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=XT8yoJ3deRQ'
+            href='https://www.youtube.com/watch?v=BpMznB5S0zk'
             target='_blank'>
-            Haas Explain Why They Decided to Stay in F1
+            Mercedes Engine Boss Andy Cowell Explains Decision To Leave Mercedes
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The future of the Haas F1 team was supposedly on shaky ground as it
-            was unsure if team owner Gene Haas would want to continue in F1
-            after the team’s poor string of results in recent times. However,
-            they have signed the new Concorde Agreement which commits them to F1
-            for the next five years. Team principal Gunther Steiner has now gone
-            into the details of the reasons behind this decision.
+            Andy Cowell, Managing Director of Mercedes AMG’s High Performance
+            Powertrains recently confirmed that he has handed his notice in and
+            that he would be leaving Mercedes. Cowell has gone into the details
+            as to why he wants to leave from a position that has been successful
+            enough to see six championships.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}

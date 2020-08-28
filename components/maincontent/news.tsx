@@ -1,4 +1,5 @@
 import React from 'react'
+import Archive27 from 'components/newsarchives/party-mode-ban'
 import Archive26 from 'components/newsarchives/race-report-spanish-gp'
 import Archive25 from 'components/newsarchives/qualifying-report-spanish-gp'
 import Archive24 from 'components/newsarchives/fp3-report-spanish-gp'
@@ -33,6 +34,9 @@ const Main: React.FC = () => {
         Archived News
       </div>
       <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
+        <Archive27 />
+      </div>
+      <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-4'>
         <Archive26 />
       </div>
       <div className='w-100 flex flex-col xl:flex-row'>
