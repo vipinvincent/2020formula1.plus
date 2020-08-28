@@ -15,7 +15,7 @@ import AutoSport from 'components/contentblock/autosport'
 
 // import Archive22 from 'components/newsarchives/fp2-report-spanish-gp'
 // import Archive21 from 'components/newsarchives/fp1-report-spanish-gp'
-// import MainContent from 'components/contentblock/main'
+import MainContent from 'components/contentblock/main'
 // import FirstContent from 'components/contentblock/first'
 import SecondContent from 'components/contentblock/left'
 import ThirdContent from 'components/contentblock/right'
@@ -37,10 +37,10 @@ const Main: React.FC = () => {
       </div>
       {/* <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
         <FirstContent />
-      </div>
+      </div>*/}
       <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-4'>
         <MainContent />
-      </div>*/}
+      </div>
       <div className='w-100 flex flex-col xl:flex-row'>
         <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 mt-4 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
           <SecondContent />

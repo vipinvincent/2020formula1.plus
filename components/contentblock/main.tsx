@@ -16,41 +16,47 @@ const Main: React.FC = () => {
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
             FP1 REPORT - Belgian GP 2020
           </div>
-          <H1>Team-mate battles in 2020 after 6 races!!! </H1>
+          <H1>
+            Bottas celebrates his birthday by leading the first practice session
+            from Hamilton and Verstappen{' '}
+          </H1>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            After months and months of deliberations and discussions, all 10
-            Formula 1 teams have signed up to the new Concorde Agreement that
-            will cover 2021-2025. The Concorde Agreement binds the teams,
-            commercial rights holder Liberty Media and the FIA together and
-            formalises the governance of Formula 1, also effectively committing
-            the teams to continuing in the world championship for another five
-            years.
+            Bottas managed the top spot in the tight battle from his Mercedes
+            team mate Lewis Hamilton by just 0.069s with Red Bulls’s Max
+            Verstappen finished third, just 0.012s behind Hamilton. The Finn who
+            turned 31 today set the fastest lap of 1m 44.493 on soft tyres. The
+            same compound was used by every driver in the top-10 to set their
+            respective flying laps. Meanwhile Hamilton couldn’t match Bottas’s
+            time due to a mistake in sector three. Verstappen had a very
+            impressive run with just 0.012s behind the second Mercedes of
+            Hamilton.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            A statement from Formula 1 remarks: "The agreement will secure the
-            long-term sustainable future for Formula 1 and combined with the new
-            regulations, announced in October 2019 that come into force in 2022,
-            will reduce the financial and on track disparities between the
-            teams, helping to level the playing field, creating closer racing on
-            the track that our fans want to see more of. "With closer racing we
-            will attract more fans to our sport, benefitting every team, and
-            continue to increase the global growth of Formula 1." Chase Carey,
-            F1's Chairman and CEO, said: “This year has been unprecedented for
-            the world and we are proud that Formula 1 has come together in
-            recent months to return to racing in a safe way.
+            Sergio Perez was the faster Racing Point driver, with 0.136s off
+            Bottas and finished fourth. Team mate Lance Stroll was another
+            two-tenths off Perez, rounding out the top five. Alex Albon, who
+            made his debut for Red Bull at this track finished P6 with just over
+            half a second off his team. Renault and McLaren rounded the top 10
+            list with Esteban Ocon in P7, six tenths off top spot. Behind him
+            was McLaren’s Carlos Sainz, who shrugged off a brief DRS issue
+            finished P8. Daniel Ricciardo finishes in P9 and Lando Norris in
+            P10.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Despite some concerns by Mercedes in recent weeks over where
-            negotiations stood, most teams confirmed during the Spanish Grand
-            Prix weekend they were close to being in a position to sign the new
-            agreement. Later Ferrari, McLaren and Williams on Tuesday they had
-            signed up to the new Concorde Agreement, confirming their places on
-            the grid for next year. The FIA and F1 announced on Wednesday
-            morning that all 10 teams have met the early-sign deadline,
-            completing the Concorde Agreement arrangements for the 2021-25
-            period. With the 10 teams signed up for the next five years, and the
-            regulations and cost cap defined, Formula 1 can finally embark on a
-            new era.
+            AlphaTauri duo Daniil Kvyat and Pierre Gasly were 11th and 12th,
+            respectively, with Alfa Romeo's Kimi Raikkonen an impressive 13th.
+            Ferrari had a worrying session only managed 14th and 15th. Charles
+            Leclerc won this race for the Scuderia last year, but today he could
+            only manage 1.266s off P1. His team mate Sebastian Vettel was 1.686s
+            off top spot , ahead only of the two Williams who set a
+            representative lap time in the session. Williams’ Nicholas Latifi
+            finished 16th, his team mate George Russell just behind in 17th and
+            over two-seconds off P1. Neither Haas drivers could set a time after
+            Romain Grosjean encountered power issues on his early out lap. Both
+            he and Kevin Magnussen were kept in the garage without setting a
+            time in FP1 as Haas examined their Ferrari power units. Alfa Romeo’s
+            Antonio Giovinazzi also didn’t set a time either, with unexplained
+            issues, as dark clouds loomed over Spa-Francorchamps on Friday.
           </p>
         </div>
       </div>
