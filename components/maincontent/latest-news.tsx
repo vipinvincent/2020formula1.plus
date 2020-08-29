@@ -16,7 +16,7 @@ import AutoSport from 'components/contentblock/autosport'
 import Archive29 from 'components/newsarchives/concorde-agreement-signed'
 import Archive28 from 'components/newsarchives/williams-sale'
 
-// import MainContent from 'components/contentblock/main'
+import MainContent from 'components/contentblock/main'
 import FirstContent from 'components/contentblock/first'
 import SecondContent from 'components/contentblock/left'
 import ThirdContent from 'components/contentblock/right'
@@ -36,10 +36,10 @@ const Main: React.FC = () => {
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
         Latest News
       </div>
-      {/* <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shado'>
-        <MainContent />
-      </div> */}
       <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
+        <MainContent />
+      </div>
+      <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-4'>
         <FirstContent />
       </div>
       <div className='w-100 flex flex-col xl:flex-row'>

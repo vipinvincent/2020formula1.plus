@@ -7,56 +7,53 @@ const Main: React.FC = () => {
       <div className='h-48 md:h-64 xl:h-104 w-full'>
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
-          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1595072621/contentImages/content/valtteri_-bottas_m5dgbs.jpg'
-          alt='FP1 REPORT - Belgian GP 2020'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1597490309/contentImages/content/lewis-hamilton_oavnow.jpg'
+          alt='Qualifying REPORT - Belgian GP 2020'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-4 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            FP1 REPORT - Belgian GP 2020
+            Qualifying REPORT - Belgian GP 2020
           </div>
           <H1>
-            Bottas celebrates his birthday by leading the first practice session
-            from Hamilton and Verstappen{' '}
+            Hamilton set the lap record in Qualifying leads Bottas and
+            Verstappen
           </H1>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Bottas managed the top spot in the tight battle from his Mercedes
-            team mate Lewis Hamilton by just 0.069s with Red Bulls’s Max
-            Verstappen finished third, just 0.012s behind Hamilton. The Finn who
-            turned 31 today set the fastest lap of 1m 44.493 on soft tyres. The
-            same compound was used by every driver in the top-10 to set their
-            respective flying laps. Meanwhile Hamilton couldn’t match Bottas’s
-            time due to a mistake in sector three. Verstappen had a very
-            impressive run with just 0.012s behind the second Mercedes of
-            Hamilton.
+            Lewis Hamilton continued his form set the fastest time in Qualifying
+            of the Belgian Grand Prix with his Mercedes team mate Bottas in P3
+            and RedBull’s Max Verstappen in P3. All the drivers set their
+            fastest laps in soft compound. Hamilton ended up 0.5s clear of team
+            mate Valtteri Bottas, to secure his sixth pole at Spa and fifth of
+            the season. Bottas only managed second to give Mercedes their first
+            front row lock out in Belgium since 2015, finishing just 0.015s
+            adrift in third. Renault’s Daniel Ricciardo carried his impressive
+            Friday pace through to qualifying as he ended up a brilliant fourth
+            fastest, his best-ever qualifying at Spa ahead of Red Bull’s Alex
+            Albon who continued his improved form with his most accomplished
+            qualifying performance of the year.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Sergio Perez was the faster Racing Point driver, with 0.136s off
-            Bottas and finished fourth. Team mate Lance Stroll was another
-            two-tenths off Perez, rounding out the top five. Alex Albon, who
-            made his debut for Red Bull at this track finished P6 with just over
-            half a second off his team. Renault and McLaren rounded the top 10
-            list with Esteban Ocon in P7, six tenths off top spot. Behind him
-            was McLaren’s Carlos Sainz, who shrugged off a brief DRS issue
-            finished P8. Daniel Ricciardo finishes in P9 and Lando Norris in
-            P10.
+            Esteban Ocon finished in six for the first time since Monza last
+            year, while Carlos Sainz starts seventh, his best Spa qualifying,
+            beating the two Racing Points. Sergio Perez and Lance Stroll finised
+            in eighth and ninth respectively. McLaren’s Lando Norris completed
+            the top 10. Alphatauri’s Daniil Kvyat and Pierre Gasly slotted in
+            11th and 12 respectively with Kvyat out performing Gasly for the
+            first time in 2020.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            AlphaTauri duo Daniil Kvyat and Pierre Gasly were 11th and 12th,
-            respectively, with Alfa Romeo's Kimi Raikkonen an impressive 13th.
-            Ferrari had a worrying session only managed 14th and 15th. Charles
-            Leclerc won this race for the Scuderia last year, but today he could
-            only manage 1.266s off P1. His team mate Sebastian Vettel was 1.686s
-            off top spot , ahead only of the two Williams who set a
-            representative lap time in the session. Williams’ Nicholas Latifi
-            finished 16th, his team mate George Russell just behind in 17th and
-            over two-seconds off P1. Neither Haas drivers could set a time after
-            Romain Grosjean encountered power issues on his early out lap. Both
-            he and Kevin Magnussen were kept in the garage without setting a
-            time in FP1 as Haas examined their Ferrari power units. Alfa Romeo’s
-            Antonio Giovinazzi also didn’t set a time either, with unexplained
-            issues, as dark clouds loomed over Spa-Francorchamps on Friday.
+            Ferrari disappoints in qualifying, lacking their pace in all three
+            sectors couldn’t manage to slot into Q3. Ferrari’s Charles Leclerc
+            and Sebastian Vettel finished in 13th and 14th respectively with the
+            red cars 1.048s slower than the dominant pace at Spa last year. This
+            was the first time since Silverstone 2014 that a red car took no
+            part in Q3. George Russell of Williams could manage Q2 but only
+            managed 15th place in the end. Alfa Romeo’s Kimi and Giovinazzi in
+            finished in 16th and 18th with Grosjean of Haas splitting the two
+            Alfa Romeos. The second Williams of Latifi managed 19th with the
+            second Haas of Kevin Magnussen finished in the last spot.
           </p>
         </div>
       </div>

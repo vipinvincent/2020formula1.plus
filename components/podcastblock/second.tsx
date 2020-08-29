@@ -7,13 +7,13 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=1lNVgI6_cv4'
+        href='https://www.youtube.com/watch?v=PMhBVq2QpJU'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/1lNVgI6_cv4/sddefault.jpg'
+              src='https://img.youtube.com/vi/PMhBVq2QpJU/sddefault.jpg'
               alt='Mark Webber On Vettel Battles, Flying Crashes And More | F1 Unscripted | Heineken Non-Race Sundays'
             />
           </div>
@@ -32,19 +32,23 @@ const Second: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=1lNVgI6_cv4'
+            href='https://www.youtube.com/watch?v=PMhBVq2QpJU'
             target='_blank'>
-            Andy Cowell Interview | Beyond The Grid | F1 Official Podcast
+            How to Master the SPA F1 Track! | Nico Rosberg
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Mercedes engine guru Andy Cowell discusses how the all-conquering
-            engine was created, what makes Lewis Hamilton such a good
-            development driver, and how engine development has changed.
+            My next F1 Fridays episode! We are back on one of the most legendary
+            F1 tracks: Spa-Francorchamps! The Belgian Grand Prix and the Spa F1
+            Track are just epic! Check out my in-depth analysis of the 2020
+            Belgian Grand Prix track – of course also showing how to master Eau
+            Rouge! Here I share the F1 drivers’ secrets on how to master the
+            Belgian F1 track. Of course, followed by a hot lap and my F1 Fan Q&A
+            – answering your questions about the 2020 Belgian GP weekend.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href=' http://www.formula1.com' target='_blank'>
-              Formula1.com
+            <ContentLink href='http://www.nicorosberg.com' target='_blank'>
+              Nico Rosberg
             </ContentLink>
           </p>
         </div>

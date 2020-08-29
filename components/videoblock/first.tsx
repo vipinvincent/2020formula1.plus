@@ -7,13 +7,13 @@ const First: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=D5n8_Zz1kgk'
+        href='https://www.youtube.com/watch?v=CrzHNgKq-Lg'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/D5n8_Zz1kgk/sddefault.jpg'
+              src='https://img.youtube.com/vi/CrzHNgKq-Lg/sddefault.jpg'
               alt='F1 News: Red Bull "Overachieving" and Leclerc Explains Seat Belt Incident '
             />
           </div>
@@ -32,22 +32,22 @@ const First: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=D5n8_Zz1kgk'
+            href='https://www.youtube.com/watch?v=CrzHNgKq-Lg'
             target='_blank'>
-            F1 News: Red Bull "Overachieving" and Leclerc Explains Seat Belt
-            Incident
+            RACE PREVIEW: 2020 Formula 1 Belgian Grand Prix
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            In this week’s F1 news round-up: Max Verstappen believes Red Bull
-            are overachieving in 2020, Charles Leclerc explains why he drove
-            with his Seat Belts undone in Spain and Formula One confirm the
-            final calendar for this season. Plus, Renault drop their Racing
-            Point appeal and Haas are keeping their 2021 driver options open.
+            The eyes of the world remain on Belgium’s Ardennes region, with F1
+            arriving just two weeks after the World Endurance Championship's
+            six-hours of Spa- Francorchamps - where Toyota Gazoo Racing enjoyed
+            its fourth one-two for 2019-20, the number seven LMP1 of Mike
+            Conway, Kamui Kobayashi and José María López earning outright
+            honours in changeable conditions.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='https://www.gptoday.net/en/' target='_blank'>
-              The F1 Word
+            <ContentLink href='https://unbeaten.com/formula1' target='_blank'>
+              The Inside Line
             </ContentLink>
           </p>
         </div>
