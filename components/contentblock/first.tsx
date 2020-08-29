@@ -8,8 +8,8 @@ const First: React.FC = () => {
       <div className='h-48 md:h-64 xl:h-104 w-full'>
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
-          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1598629313/contentImages/content/max-verstappen-red-bull-racing_qufnjn.jpg'
-          alt='FP2 REPORT - Belgian GP 2020'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1597490309/contentImages/content/lewis-hamilton_oavnow.jpg'
+          alt='FP3 REPORT - Belgian GP 2020'
         />
       </div>
       {/* <Zoom>
@@ -22,46 +22,44 @@ const First: React.FC = () => {
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-4 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            FP2 REPORT - Belgian GP 2020
+            FP3 REPORT - Belgian GP 2020
           </div>
           <H1>
-            Red Bull’s Max Verstappen tops in Free Practice 2 with Renault’s
-            Daniel Ricciardo taking a surprising P2, just ahead of the Mercedes
-            of Lewis Hamilton
+            Hamilton leads final practice from Ocon and Norris as Ferrari's
+            Vettel deep-rooted at last spot
           </H1>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Verstappen become P1 inn FP2 with a time of 1m 43.744s around the
-            7.004km Spa-Francorchamps track. Surprisingly the Renault of
-            Ricciardo crossed the line in second place, while Hamilton took
-            third, just 0.096s behind Verstappen, due to a slight error at the
-            final chicane on his fastest push lap. However, Ricciardo joy was
-            short lived as an issue which forced him to park up his R.S.20 on
-            the Kemmel Straight with 20 minutes of the session left to run, his
-            Renault suffering a loss of hydraulic pressure
+            Lewis Hamilton set the fastest time in the final practice session of
+            the Belgian Grand Prix with Renault’s Esteban Ocon P2 and McLaren’s
+            Lando Norris in P3. Meanwhile at the rear end Ferrari’s struggles
+            continued at Spa with Sebastian Vettel posted the slowest time and
+            Charles Leclerc managed 17th. Hamilton set his fastest time of
+            1m43.255s, but his team mate Valtteri Bottas sliding at La Source on
+            his way only managed P5, 0.558s off the pace. Notably, Bottas had
+            set the pace on medium tyres with a fastest time of 1m43.813s on
+            medium tyres.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Once again, the second Red Bull of Alex Albon wasn’t quite able to
-            match the one-lap pace of his team matebut put in a decent effort to
-            go fourth, 0.390s off Verstappen, and just 0.003s up on the Racing
-            Point of Sergio Perez in fifth. Birth day boy Valtteri Bottas was
-            sixth for Mercedes, while Lando Norris overcame an early power unit
-            worry to take seventh for McLaren. The second Renault of Esteban
-            Ocon finished eighth with Carlos Sainz of McLaren finished ninth
-            while AlphaTauri’s Pierre Gasly completes the top 10 list.
+            Second-place Renault driver Esteban Ocon ed 0.230s off Hamilton with
+            a fast first sector to and ahead of McLaren’s Lando Norris, with
+            Redbull’s Alex Albon in fourth. His teammate, Max Verstappen was
+            second-fastest on medium tyres but when he switched to softs, he
+            could only manage sixth, 0.641s off the pace. The second Renault of
+            Daniel Ricciardo only could manage P7 under a tenth slower to finish
+            P7. Lance Stroll, eighth, with 0.733s off the pace and 0.02s faster
+            than McLaren’s Carlos Sainz, who split the Racing Points in ninth.
+            Sergio Perez was 10th on softs having made a mistake on his final
+            flying effort. Later Perez was summoned to the stewards and given a
+            warning for impeding Romain Grosjean.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The second Racing Point of Lance Stroll was 11th on mediums, having
-            failed to improve on his time on his soft tyre run, while the second
-            AlphaTauri of Daniil Kvyat was 12th. Alfa Romeo’s Antonio Giovinazzi
-            and Kimi Räikkönen finishes 13th and 14th respectively ahead of the
-            best Ferrari of Charles Leclerc. George Russell of Williams finishes
-            ahead of second Ferrari of Sebastian Vettel at 16th with Vettel in
-            17th. Nicholas Latifi in second Williams finishes ahead of two Haas
-            cars. Following their failure to set a lap this morning in FP1 after
-            unrelated power unit issues struck both cars, Haas’ Romain Grosjean
-            and Kevin Magnussen could join the Belgian GP weekend after 55
-            minutes into the session, having both had engine changes, ended up
-            P19 and P20.
+            The AlphaTauris were competitive on mediums with Pierre Gasly and
+            Daniil Kvyat lining up 11th and 12th, respectively, ahead of
+            Williams’ Nicholas Latifi in P13. Kevin Magnussen and Romain
+            Grosjean finished 14th and 15th, Magnussen 0.003s faster than
+            Grosjean. Ex-Belgian Grand Prix winner Kimi Raikkonen finished 16th
+            for Alfa Romeo. Williams’ George Russell and Alfa Romeo’s Antonio
+            Giovinazzi both finished ahead of Vettel in 18th and 19th.
           </p>
         </div>
       </div>

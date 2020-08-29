@@ -2,62 +2,57 @@ import React from 'react'
 import H1 from 'components/heading/H1'
 // import ActionLink from 'components/link/ActionLink'
 
-const Right: React.FC = () => {
+const Left: React.FC = () => {
   return (
     <div className='relative'>
       <div className='h-40 xl:h-48 w-full'>
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
-          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1595072621/contentImages/content/valtteri_-bottas_m5dgbs.jpg'
-          alt='FP1 REPORT - Belgian GP 2020'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1598076171/contentImages/content/williams_azo6ch.jpg'
+          alt='Williams announces the ale of F1 team to US investment company'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-2 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            FP1 REPORT - Belgian GP 2020
+            News
           </div>
           <H1>
-            Bottas celebrates his birthday by leading the first practice session
-            from Hamilton and Verstappen{' '}
+            Williams announces the sale of F1 team to US investment company;
           </H1>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Bottas managed the top spot in the tight battle from his Mercedes
-            team mate Lewis Hamilton by just 0.069s with Red Bulls’s Max
-            Verstappen finished third, just 0.012s behind Hamilton. The Finn who
-            turned 31 today set the fastest lap of 1m 44.493 on soft tyres. The
-            same compound was used by every driver in the top-10 to set their
-            respective flying laps. Meanwhile Hamilton couldn’t match Bottas’s
-            time due to a mistake in sector three. Verstappen had a very
-            impressive run with just 0.012s behind the second Mercedes of
-            Hamilton.
+            US based private investment firm Dorilton Capital has acquired
+            Williams Racing, the former formula 1 champions, marking the end of
+            an era for the family-owned team. It will continue to race and
+            compete under the Williams brand and with an unchanged chassis name,
+            and the team says there are no plans to relocate from its
+            headquarters from deep-rooted Grove base.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Sergio Perez was the faster Racing Point driver, with 0.136s off
-            Bottas and finished fourth. Team mate Lance Stroll was another
-            two-tenths off Perez, rounding out the top five. Alex Albon, who
-            made his debut for Red Bull at this track finished P6 with just over
-            half a second off his team. Renault and McLaren rounded the top 10
-            list with Esteban Ocon in P7, six tenths off top spot. Behind him
-            was McLaren’s Carlos Sainz, who shrugged off a brief DRS issue
-            finished P8. Daniel Ricciardo finishes in P9 and Lando Norris in
-            P10.
+            The iconic British constructor Sir Frank Williams, who has remained
+            team principal, and Sir Patrick Head, Founded Williams Racing in
+            1977. Williams have won nine constructors' titles and seven drivers'
+            championships, the most recent coming through Canadian Jacques
+            Villeneuve in 1997.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            AlphaTauri duo Daniil Kvyat and Pierre Gasly were 11th and 12th,
-            respectively, with Alfa Romeo's Kimi Raikkonen an impressive 13th.
-            Ferrari had a worrying session only managed 14th and 15th. Charles
-            Leclerc won this race for the Scuderia last year, but today he could
-            only manage 1.266s off P1. His team mate Sebastian Vettel was 1.686s
-            off top spot , ahead only of the two Williams who set a
-            representative lap time in the session. Williams’ Nicholas Latifi
-            finished 16th, his team mate George Russell just behind in 17th and
-            over two-seconds off P1. Neither Haas drivers could set a time after
-            Romain Grosjean encountered power issues on his early out lap. Both
-            he and Kevin Magnussen were kept in the garage without setting a
-            time in FP1 as Haas examined their Ferrari power units. Alfa Romeo’s
-            Antonio Giovinazzi also didn’t set a time either, with unexplained
-            issues, as dark clouds loomed over Spa-Francorchamps on Friday.
+            In May, Williams began a formal sale process as part of a new
+            company strategic review and immediately entered preliminary
+            discussions regarding potential investment. On Friday, just after
+            signing the new Concorde Agreement” for 2021 the team said Dorilton
+            Capital would be their new owners, stated "This marks the beginning
+            of an exciting new era in the history of Williams, which with its
+            new owner is well positioned to capitalise upon the sweeping rule
+            changes coming into Formula 1 with the new Concorde Agreement." It
+            said the decision for the acquisition of Williams Racing was
+            supported unanimously by the board, including 78-year-old founder
+            Frank Williams. "This is the end of an era for Williams as a
+            family-owned team, but we know it is in good hands," deputy team
+            principal Claire Williams said. "It ensures the team's survival but
+            importantly provides a path to success." Importantly, the team said
+            the private investment firm “recognises and appreciates the
+            importance of respecting and retaining Williams’ heritage and
+            culture and is committed to maintaining its identity”.
           </p>
           {/* <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
@@ -177,4 +172,4 @@ const Right: React.FC = () => {
     </div>
   )
 }
-export default Right
+export default Left
