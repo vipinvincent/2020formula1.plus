@@ -13,13 +13,13 @@ const Schedule: React.FC = () => {
         <div className='h-32 sm:h-40 w-full text-center'>
           <img
             className='w-full h-full object-contain rounded-tl-xxl rounded-br-xl-t pt-0 text-center'
-            src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594827571/contentImages/circuit/20140623145614_Circuit_Red_Bull_Ring_os0qj2.svg'
+            src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1598679070/contentImages/circuit/Red_Bull_Ring_pcsrwd.png'
             alt='2020 Austrian Grand Prix'
           />
         </div>
         <div className='relative max-w-screen-xl mx-auto'>
           <div className='py-4 text-left px-4'>
-            <ActionLink href='/circuit-details' target='_self'>
+            <ActionLink href='/redbull-ring' target='_self'>
               Formula 1 Pirelli Grosser Preis Der Steiermark 2020
             </ActionLink>
             <p className='mt-1 text-base leading-normal text-gray-700'>

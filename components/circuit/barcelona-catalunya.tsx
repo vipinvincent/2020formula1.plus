@@ -1,5 +1,6 @@
 import React from 'react'
 import ContentLink from 'components/link/ContentLink'
+import Zoom from 'react-medium-image-zoom'
 // import SiderBarLink from 'components/link/SiderBarLink'
 
 const Schedule: React.FC = () => {
@@ -9,12 +10,14 @@ const Schedule: React.FC = () => {
         Circuit Facts - Circuit de Barcelona-Catalunya
       </div>
       <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mb-4'>
-        <div className='h-32 sm:h-84 py-4 w-full text-center'>
-          <img
-            className='w-full h-full object-contain rounded-tl-xxl rounded-br-xl-t pt-4 text-center'
-            src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1597123333/contentImages/circuit/catalunya-circuit_hicodt.png'
-            alt='2020 Spanish Grand Prix'
-          />
+        <div className='h-32 sm:h-84 py-4 w-full text-center zoom-image'>
+          <Zoom>
+            <img
+              className='w-full h-32 sm:h-84 object-contain rounded-tl-xxl rounded-br-xl-t p-4 text-center'
+              src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1597123333/contentImages/circuit/catalunya-circuit_hicodt.png'
+              alt='2020 Spanish Grand Prix'
+            />
+          </Zoom>
         </div>
         <div className='relative max-w-screen-xl mx-auto'>
           <div className='py-4 text-left px-4'>

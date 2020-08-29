@@ -25,6 +25,7 @@
     "react-dom": "^16.13.1",
     "react-error-boundary": "^2.3.1",
     "react-ga": "^3.0.0",
+    "react-medium-image-zoom": "^4.3.1",
     "react-scroll-to-top": "^0.2.4",
     "react-twitter-embed": "^3.0.3"
   },

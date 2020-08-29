@@ -1,5 +1,6 @@
 import React from 'react'
 import H1 from 'components/heading/H1'
+// import Zoom from 'react-medium-image-zoom'
 
 const First: React.FC = () => {
   return (
@@ -11,6 +12,13 @@ const First: React.FC = () => {
           alt='FP2 REPORT - Belgian GP 2020'
         />
       </div>
+      {/* <Zoom>
+        <img
+          className='w-full h-full object-cover rounded-tl-xxl'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1598629313/contentImages/content/max-verstappen-red-bull-racing_qufnjn.jpg'
+          alt='FP2 REPORT - Belgian GP 2020'
+        />
+      </Zoom> */}
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-4 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>

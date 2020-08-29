@@ -372,6 +372,10 @@ body {
   border-top-left-radius: 1rem;
 }
 
+.zoom-image button:focus {
+  outline: none !important;
+}
+
 @tailwind base;
 @tailwind components;
 /* purgecss end ignore */

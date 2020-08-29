@@ -19,7 +19,7 @@ const Schedule: React.FC = () => {
         </div>
         <div className='relative max-w-screen-xl mx-auto'>
           <div className='py-4 text-left px-4'>
-            <ActionLink href='/circuit-details' target='_self'>
+            <ActionLink href='/barcelona-catalunya' target=' _self'>
               Formula 1 Aramco Gran Premio De España 2020
             </ActionLink>
             <p className='mt-1 text-base leading-normal text-gray-700'>
