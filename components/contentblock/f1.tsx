@@ -15,46 +15,43 @@ const F1: React.FC = () => {
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 py-4 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            News
+            FEATURE
           </div>
           <ActionLink
-            href='https://www.formula1.com/en/latest/article.sad-to-see-ferrari-so-far-down-says-leclerc-as-team-slump-to-p15-and-p17-in.3TWOHANG4I7JaacH6S2X3D.html'
+            href='https://www.formula1.com/en/latest/article.friday-pace-analysis-can-verstappen-take-the-fight-to-mercedes-at-spa.4cyyoatVYCQ85mjosQJ80z.html'
             target='_blank'>
-            ‘Sad to see Ferrari so far down’ says Leclerc as team slump to P15
-            and P17 in Spa second practice
+            Can Verstappen take the fight to Mercedes at Spa?
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            1.317s – that was how much slower Ferrari were in FP2 for the 2020
-            Belgian Grand Prix than they had been at the same track in 2019. And
-            having led the session for the team last year before going on to
-            score pole position and take his maiden victory, Charles Leclerc
-            admitted he was “sad” to see how far the Scuderia had fallen.
+            Two hours after second practice for the Belgian Grand Prix, heavy
+            rain lashed the picturesque Spa-Francorchamps circuit. The wet stuff
+            was nowhere to be seen while F1 cars were out on track, though, with
+            Max Verstappen making hay in his Red Bull. But is the Dutchman
+            really the man to beat at the longest circuit on the calendar? Let’s
+            look at the numbers…
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            In what has been a difficult season anyway for Ferrari, Friday’s lap
-            times at Spa-Francorchamps nonetheless made for sobering reading,
-            Leclerc ending up 1.696s off the pace of Red Bull’s Max Verstappen
-            in 15th place in FP2 – and just 0.023s up on the Williams of George
-            Russell – while Sebastian Vettel fared even worse, the three-time
-            Spa winner taking the 17th fastest time, just 0.091s ahead of the
-            second Williams of Nicholas Latifi.
+            Belgium has been Ferrari country in recent years, the Scuderia
+            having previously developed the class-leading power unit. They
+            cannot boast that accolade this year, though, the SF1000 lacking the
+            sufficient grunt to match their rivals. Some data even suggests they
+            have dropped to fourth and last in the pecking order for power unit
+            suppliers. It’s perhaps no surprise, then, that they were well off
+            the pace when they returned to Spa this year.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            “A very difficult day,” was Leclerc’s grim assessment at the end of
-            Friday. “I think it’s probably a surprise to be so far back,
-            especially in FP2. We tried quite a lot of things in FP2. "At the
-            beginning I tried something quite aggressive in downforce levels but
-            it didn’t really work out so we came back on that, and we are just
-            lacking pace at the moment so we need to work hard to catch back.
-            But I don’t expect miracles for this weekend. “It doesn’t feel good
-            and it’s sad to see Ferrari so far down,” Leclerc added, “but as
-            always, our work as drivers is to give our best and that’s exactly
-            what I’m trying and what Seb is trying to do in the car.”
+            Charles Leclerc was down in 15th on the timesheets in FP2, with his
+            team mate Sebastian Vettel two places further back. Leclerc admitted
+            Ferrari were surprised by how far adrift they were of the pace, and
+            the fact that they ended up behind both Ferrari-powered Alfa Romeos
+            adds evidence to the argument that it is not just the engine that is
+            holding the Scuderia back. Their aerodynamic package needs work,
+            too. And that will be of great concern.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.formula1.com/en/latest/article.sad-to-see-ferrari-so-far-down-says-leclerc-as-team-slump-to-p15-and-p17-in.3TWOHANG4I7JaacH6S2X3D.html'
+              href='https://www.formula1.com/en/latest/article.friday-pace-analysis-can-verstappen-take-the-fight-to-mercedes-at-spa.4cyyoatVYCQ85mjosQJ80z.html'
               target='_blank'>
               formula1.com
             </ContentLink>{' '}

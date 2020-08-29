@@ -18,47 +18,40 @@ const AutoSport: React.FC = () => {
             News
           </div>
           <ActionLink
-            href='https://www.autosport.com/f1/news/151730/verstappen-not-expecting-pole-fight-with-mercedes'
+            href='https://www.autosport.com/f1/news/151745/horner-mercedes-rake-move-proves-concept-works'
             target='_blank'>
-            Verstappen not expecting F1 Belgian GP pole fight with Mercedes duo
+            Horner: Mercedes rake move proves F1 car concept still works
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Max Verstappen doubts he will be able to fight with the Mercedes
-            drivers for pole position in Belgium despite setting the pace
-            through Friday's Formula 1 practice running. Verstappen finished
-            just eight-hundredths of a second behind Mercedes' Valtteri Bottas
-            in opening practice before setting the fastest time in the afternoon
-            session.
+            Red Bull team boss Christian Horner says Mercedes' slow shift
+            towards a higher rake car proves the concept still works in Formula
+            1.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Verstappen was able to pip Renault's Daniel Ricciardo to top spot by
-            0.048 seconds, with Lewis Hamilton finishing 0.096s off the pace in
-            third for Mercedes. But the Red Bull driver did not think his run to
-            top spot was a sign he could fight for pole position on Saturday,
-            predicting Mercedes would bounce back from its issues. "I personally
-            think they're still struggling a bit with their balance," Verstappen
-            said of Mercedes.
+            There has been intense debate this year about whether high-rake
+            solutions have reached the end of the line, with Red Bull struggling
+            with some balance issues at the start of the season. But while lower
+            rake cars like Mercedes and Racing Point are performing strongly,
+            Horner thinks there is not actually much of a difference now between
+            the different concept solutions. "I think Mercedes have been raising
+            and raising their rear ride height," explained Horner, when asked if
+            the high-rake concept was now the wrong route for F1.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            "I expect them to be stronger tomorrow. You can see already on the
-            long runs they are also very competitive. "I'm not expecting to
-            fight for pole position, but if we can be a bit closer, that would
-            be good." Verstappen anticipated that the Racing Point cars of
-            Sergio Perez and Lance Stroll would be "very close" to Red Bull in
-            qualifying.
+            "If you look at how much it has increased over the last few years,
+            it's not a long way off where we are. So I would disagree with that
+            comment." Horner says that the issues Red Bull have faced with the
+            RB16 are not down to the choice of rake, but are instead just a
+            legacy of trying to get complicated aero solutions to work in
+            harmony. "These cars are incredibly complicated aerodynamically
+            now," he said. "You have only got to look at the components that
+            make up a barge board, a front wing, and the underside of a front
+            wing.
           </p>
-          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Verstappen, who downplayed his current position as an
-            "overachievement" so far in 2020, was able to beat the Mercedes
-            drivers in the 70th Anniversary GP as a combination of softer tyres,
-            hot temperatures and the levels of downforce the W11s were producing
-            through Silverstone's high-speed and high-energy corners.
-          </p>
-
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.autosport.com/f1/news/151730/verstappen-not-expecting-pole-fight-with-mercedes'
+              href='https://www.autosport.com/f1/news/151745/horner-mercedes-rake-move-proves-concept-works'
               target='_blank'>
               autosport.com
             </ContentLink>{' '}

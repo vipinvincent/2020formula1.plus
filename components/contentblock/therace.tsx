@@ -18,43 +18,43 @@ const TheRace: React.FC = () => {
             News
           </div>
           <ActionLink
-            href='https://the-race.com/formula-1/the-lessons-f1s-midfield-star-wishes-he-never-needed/'
+            href='https://the-race.com/formula-1/how-an-overlooked-f1-prospect-is-giving-ferrari-a-2021-headache/'
             target='_blank'>
-            The lessons F1’s midfield star wishes he never needed
+            How an overlooked F1 prospect is giving Ferrari a 2021 headache
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Pierre Gasly headed into last year’s Belgian Grand Prix weekend
-            abandoned and unwanted, relegated from Red Bull Racing to what is
-            now called AlphaTauri. It might have been a career-ending body blow,
-            but the 24-year-old has shown formidable fortitude over the past 12
-            months to revitalise his grand prix career to the point where he’s
-            almost unrecognisable from the driver who floundered alongside Max
-            Verstappen.
+            Callum Ilott has thrown Ferrari a curveball. At the start of the
+            season, he was barely a footnote in the Ferrari Driver Academy
+            stable amid the focus on which of the Prema drivers in Formula 2 –
+            anointed next Formula 1 cab-off-the-rank Mick Schumacher or
+            graduating European F3 champion Robert Shwartzman – would earn a
+            move into F1. But Ilott, driving for the hugely accomplished
+            UNI-Virtuosi team, leads the championship heading into this
+            weekend’s Spa races.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Since then, he’s recaptured the form that earned him his promotion
-            in the first place, only more so. He was fast in 2018 but
-            inconsistent, but he’s now become a formidable performer in F1’s
-            ultra-competitive mid-pack, better able to anticipate problems and
-            head them off before they set in. Even when race weekends don’t
-            start well, which has often been the case for AlphaTauri this year,
-            he and the team recover. The result is Gasly has comprehensively
-            outperformed team-mate Daniil Kvyat, only being outqualified by him
-            in a straight fight once since then and outscoring him 46 to 12.
+            Ilott has always been fast. But during his nomadic junior
+            single-seater career – seasons with Carlin, Van Amersfoort Racing
+            and Prema in F3, ART in GP3, then moving full-time into F2 with
+            Charouz last year before this year’s switch to UNI-Virtuosi – it has
+            never entirely come together over a season despite there being
+            plenty of highs. After all, this is a driver good enough to have a
+            Macau Grand Prix pole position on his CV.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            It’s clear the way he was dropped still rankles. Offered the chance
-            to focus on the positives of the situation, specifically that he’s
-            shown remarkable robustness to bounce back so effectively, Gasly
-            makes it very clear that he would rather have not gone through this.
-            He can see the benefits, but underpinning it is that same shrouded
-            outrage what happened to him – perhaps augmented by the fact the man
-            who went the other way, Alex Albon, is also struggling.
+            This year has been different. He’s bagged feature race F2 victories
+            at the Red Bull Ring and Silverstone and was only denied another
+            last time out in Spain by the capricious impact of the safety car.
+            Aside from spinning out of fourth place in the first Silverstone
+            round sprint race after thumping a kerb too hard, it’s been an
+            excellent season. And although he starts today’s feature race at Spa
+            from a disappointing 12th place, he has shown he has the pace needed
+            to turn that into a good result.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://the-race.com/formula-1/the-lessons-f1s-midfield-star-wishes-he-never-needed/'
+              href='https://the-race.com/formula-1/how-an-overlooked-f1-prospect-is-giving-ferrari-a-2021-headache/'
               target='_blank'>
               the-race.com
             </ContentLink>{' '}

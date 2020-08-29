@@ -18,46 +18,40 @@ const MotorSport: React.FC = () => {
             News
           </div>
           <ActionLink
-            href='https://www.motorsport.com/f1/news/ricciardos-engine-undamaged-spa-practice/4864511/'
+            href='https://www.motorsport.com/f1/news/wolff-mercedes-concorde-talks-comments/4864817/'
             target='_blank'>
-            Ricciardo's engine undamaged after FP2 stoppage
+            Wolff: Mercedes didn't get all it wanted in Concorde talks
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Renault F1 boss Cyril Abiteboul says Daniel Ricciardo's engine and
-            gearbox are unharmed after a hydraulic failure stopped the
-            Australian's car on track in second practice for the Belgian GP.
+            Mercedes boss Toto Wolff says his team did not get all it wanted
+            from Formula 1’s Concorde Agreement talks.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Ricciardo stopped on track with some 15 minutes left on the clock
-            and marshals had to push his car behind the barriers. Prior to the
-            issue, Ricciardo set what would stand as the second fastest time in
-            the session, behind only Red Bull's Max Verstappen. He also logged
-            the best sector time in S3, while his team mate Esteban Ocon was
-            fastest in S1. Abiteboul cautioned that it's still early in the
-            Belgian GP weekend, but he conceded that it was a promising start
-            for the Enstone outfit
+            Wolff had openly spoken out recently against the way that Mercedes
+            had been treated in the discussions over the new Concorde Agreement,
+            as he especially felt the German car manufacturer’s contribution to
+            the sport had not been recognised by F1. But despite his clear
+            unease as the negotiations entered their final phase, in the end
+            Mercedes joined all the other teams in committing to F1 for the next
+            five-year period by signing up. Reflecting on why Mercedes elected
+            to sign despite not being happy, Wolff said that both his team and
+            F1 had to give way for the good of the sport.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            "What happens on Friday isn't always representative of Saturday and
-            Sunday, and it's Sunday that matters," Abiteboul told Sky F1. "We
-            see that the car has made some progress, except for Barcelona, where
-            we were not quite able to get the set-up, but also in terms of
-            overall aerodynamic performance competitiveness. At a low downforce
-            track, a bit like Silverstone, but even a different extreme here, we
-            feel good. "We feel that the engine is working well. Obviously there
-            is the disappointment of the run that was cut short because of the
-            hydraulic problem, but as far as I understand no damage to the
-            gearbox, which was new, or to the engine, which is what matters.
-            "The car was going to stop anyway when you lose hydraulic pressure,
-            but we understand no damage was done to the engine." Abiteboul
-            conceded that the cars were running a low-downforce levels – a
-            policy that might be compromised because of the threat of rain later
-            in the weekend.
+            “Look, it is a negotiation at the end of the day,” he said. “I have
+            great respect for Chase Carey and the complications in dealing with
+            all the stakeholders. Everybody will have a different agenda and
+            different objectives. “On the other side, why I was outspoken was
+            that I felt that Mercedes’ role, particularly in the last seven
+            years, wasn’t maybe recognised in the way I would have wished for in
+            terms of the financial split. "But on the other side, I think he
+            tried hard to create a better show, to balance the prize fund
+            distribution better, and I think he achieved it.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.motorsport.com/f1/news/ricciardos-engine-undamaged-spa-practice/4864511/'
+              href='https://www.motorsport.com/f1/news/wolff-mercedes-concorde-talks-comments/4864817/'
               target='_blank'>
               motorsport.com
             </ContentLink>{' '}
