@@ -7,13 +7,13 @@ const Third: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=izX5IQoVIYs'
+        href='https://www.youtube.com/watch?v=qrQqcxc5Mc0'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/izX5IQoVIYs/sddefault.jpg'
+              src='https://img.youtube.com/vi/qrQqcxc5Mc0/sddefault.jpg'
               alt='2020 Belgian Grand Prix: Tech Talk - Drag Reduction At Spa'
             />
           </div>
@@ -32,14 +32,15 @@ const Third: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=izX5IQoVIYs'
+            href='https://www.youtube.com/watch?v=qrQqcxc5Mc0'
             target='_blank'>
-            2020 Belgian Grand Prix: Tech Talk - Drag Reduction At Spa
+            F1 Live: Belgian Grand Prix Post-Race Show
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            As we prepare for race weekend at iconic Spa, find out why drag
-            reduction matters so much at one of the fastest circuits in the
-            world...
+            Straight after the podium - it's the F1 Live Belgian Grand Prix
+            Post-Race Show! Host Will Buxton is joined by special guest Stoffel
+            Vandoorne to walkthrough all the reaction, news, highlights and
+            analysis from the race...
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}

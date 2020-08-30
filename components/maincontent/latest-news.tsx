@@ -4,14 +4,14 @@ import F1 from 'components/contentblock/f1'
 // import BBC from 'components/contentblock/bbc'
 import MotorSport from 'components/contentblock/motorsport'
 // import SkySports from 'components/contentblock/skysports'
-import TheRace from 'components/contentblock/therace'
-// import PlanetF1 from 'components/contentblock/planetf1'
+// import TheRace from 'components/contentblock/therace'
+import PlanetF1 from 'components/contentblock/planetf1'
 // import FormulaSpy from 'components/contentblock/formulaspy'
 // import GrandPrix from 'components/contentblock/grandprix'
 // import ESPN from 'components/contentblock/espn'
 import AutoSport from 'components/contentblock/autosport'
 
-// import Report from 'components/contentblock/report'
+import Report from 'components/contentblock/report'
 
 import Archive29 from 'components/newsarchives/concorde-agreement-signed'
 import Archive28 from 'components/newsarchives/williams-sale'
@@ -31,6 +31,9 @@ const Main: React.FC = () => {
     <div className='flex flex-col'>
       <div className='w-100 mb-0'>
         <Race />
+      </div>
+      <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-4'>
+        <Report />
       </div>
       <div className='w-100 mb-0 mt-2'>
         <Qualifying />
@@ -87,7 +90,7 @@ const Main: React.FC = () => {
           </div>
         </div>
         <div className='w-100 mt-4  bg-white-70 rounded-tl-xxl rounded-br-xxl shadow'>
-          <TheRace />
+          <PlanetF1 />
         </div>
       </div>
     </div>

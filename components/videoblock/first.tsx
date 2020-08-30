@@ -7,14 +7,14 @@ const First: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=CrzHNgKq-Lg'
+        href='https://www.youtube.com/watch?v=7lvY65aToHo'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/CrzHNgKq-Lg/sddefault.jpg'
-              alt='F1 News: Red Bull "Overachieving" and Leclerc Explains Seat Belt Incident '
+              src='https://img.youtube.com/vi/7lvY65aToHo/sddefault.jpg'
+              alt='"Both drivers aren t there like me & Valtteri are" | Hamilton on the gap between Red Bull & Mercedes'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,22 +32,20 @@ const First: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=CrzHNgKq-Lg'
+            href='https://www.youtube.com/watch?v=7lvY65aToHo'
             target='_blank'>
-            RACE PREVIEW: 2020 Formula 1 Belgian Grand Prix
+            "Both drivers aren't there like me & Valtteri are" | Hamilton on the
+            gap between Red Bull & Mercedes
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The eyes of the world remain on Belgium’s Ardennes region, with F1
-            arriving just two weeks after the World Endurance Championship's
-            six-hours of Spa- Francorchamps - where Toyota Gazoo Racing enjoyed
-            its fourth one-two for 2019-20, the number seven LMP1 of Mike
-            Conway, Kamui Kobayashi and José María López earning outright
-            honours in changeable conditions.
+            Lewis Hamilton stretched his championship lead to a massive 47
+            points in front of Red Bull's Max Verstappen and he believes there
+            is a reason for the huge gap.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='https://unbeaten.com/formula1' target='_blank'>
-              The Inside Line
+            <ContentLink href='https://www.skysports.com/f1/' target='_blank'>
+              Sky Sports F1
             </ContentLink>
           </p>
         </div>

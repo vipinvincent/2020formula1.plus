@@ -15,43 +15,51 @@ const F1: React.FC = () => {
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 py-4 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            FEATURE
+            News
           </div>
           <ActionLink
-            href='https://www.formula1.com/en/latest/article.friday-pace-analysis-can-verstappen-take-the-fight-to-mercedes-at-spa.4cyyoatVYCQ85mjosQJ80z.html'
+            href='https://www.formula1.com/en/latest/article.ferrari-looking-to-put-extremely-frustrating-spa-weekend-behind-them-ahead.5YZJFMR71jDJceTPOAKOHX.html'
             target='_blank'>
-            Can Verstappen take the fight to Mercedes at Spa?
+            Ferrari looking to put ‘extremely frustrating’ Spa weekend behind
+            them ahead of pair of home races
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Two hours after second practice for the Belgian Grand Prix, heavy
-            rain lashed the picturesque Spa-Francorchamps circuit. The wet stuff
-            was nowhere to be seen while F1 cars were out on track, though, with
-            Max Verstappen making hay in his Red Bull. But is the Dutchman
-            really the man to beat at the longest circuit on the calendar? Let’s
-            look at the numbers…
+            A tough qualifying for Ferrari for the 2020 Belgian Grand Prix was
+            followed up by an equally tough race, with the team’s cars coming
+            home in the 13th and 14th positions they’d started in – albeit with
+            Sebastian Vettel having moved ahead of Charles Leclerc.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Belgium has been Ferrari country in recent years, the Scuderia
-            having previously developed the class-leading power unit. They
-            cannot boast that accolade this year, though, the SF1000 lacking the
-            sufficient grunt to match their rivals. Some data even suggests they
-            have dropped to fourth and last in the pecking order for power unit
-            suppliers. It’s perhaps no surprise, then, that they were well off
-            the pace when they returned to Spa this year.
+            Leclerc had initially shown promise in the race after starting on
+            the soft tyres – the only driver outside the top 10 to do so – as he
+            jumped up four places on Lap 1. But a pair of slow pit stops – his
+            tyres not ready at the first, leaving him stopped for 10.4s, while
+            Ferrari were forced to top up his pneumatic pressure at the second –
+            left him 14th at the flag, one place behind Vettel.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Charles Leclerc was down in 15th on the timesheets in FP2, with his
-            team mate Sebastian Vettel two places further back. Leclerc admitted
-            Ferrari were surprised by how far adrift they were of the pace, and
-            the fact that they ended up behind both Ferrari-powered Alfa Romeos
-            adds evidence to the argument that it is not just the engine that is
-            holding the Scuderia back. Their aerodynamic package needs work,
-            too. And that will be of great concern.
+            “Extremely frustrating,” said Leclerc after the race. “It’s been a
+            very difficult weekend for us and the race was not any easier. We
+            had issues on the few pit stops I’ve made, which made me lose quite
+            a lot of lap time and positions. Then I tried to catch back but then
+            it’s very difficult for us to overtake, even with the DRS, so we
+            need to work and find something, because like this it’s very
+            difficult.”
+          </p>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
+            Having briefly banged wheels with his team mate, meanwhile, Vettel
+            also suffered the ignominy of being passed not once but twice by the
+            Ferrari-powered Alfa Romeo of Kimi Raikkonen, before ultimately
+            finishing one place behind the Finn. But the German called for unity
+            in the Scuderia camp to help them try and improve the situation
+            ahead of his final Ferrari outing at Monza next week – and the
+            team's celebration of their 1,000th Grand Prix at Mugello the week
+            after that…
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.formula1.com/en/latest/article.friday-pace-analysis-can-verstappen-take-the-fight-to-mercedes-at-spa.4cyyoatVYCQ85mjosQJ80z.html'
+              href='https://www.formula1.com/en/latest/article.ferrari-looking-to-put-extremely-frustrating-spa-weekend-behind-them-ahead.5YZJFMR71jDJceTPOAKOHX.html'
               target='_blank'>
               formula1.com
             </ContentLink>{' '}

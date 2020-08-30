@@ -18,40 +18,38 @@ const MotorSport: React.FC = () => {
             News
           </div>
           <ActionLink
-            href='https://www.motorsport.com/f1/news/wolff-mercedes-concorde-talks-comments/4864817/'
+            href='https://www.motorsport.com/f1/news/gasly-perez-belgian-gp-wall/4866008/'
             target='_blank'>
-            Wolff: Mercedes didn't get all it wanted in Concorde talks
+            Gasly thought he would hit wall in Perez fight at Spa
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Mercedes boss Toto Wolff says his team did not get all it wanted
-            from Formula 1’s Concorde Agreement talks.
+            AlphaTauri F1 driver Pierre Gasly admits he thought "we were in the
+            wall" when he pulled off a spectacular pass of Sergio Perez in the
+            Belgian GP.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Wolff had openly spoken out recently against the way that Mercedes
-            had been treated in the discussions over the new Concorde Agreement,
-            as he especially felt the German car manufacturer’s contribution to
-            the sport had not been recognised by F1. But despite his clear
-            unease as the negotiations entered their final phase, in the end
-            Mercedes joined all the other teams in committing to F1 for the next
-            five-year period by signing up. Reflecting on why Mercedes elected
-            to sign despite not being happy, Wolff said that both his team and
-            F1 had to give way for the good of the sport.
+            Gasly tried to pass the Mexican on the run down the hill from La
+            Source to Eau Rouge, and just managed to squeeze through on the
+            right as the gap between the Racing Point and the barrier closed.
+            The move was one of several that Gasly made during a charging race
+            to eighth place that also won him the Driver of the Day vote. He was
+            the only driver to start on the hard tyres, and along with Perez was
+            one of only two who opted to stay out when everyone else pitted
+            under the safety car for the Antonio Giovinazzi/George Russell
+            accident.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            “Look, it is a negotiation at the end of the day,” he said. “I have
-            great respect for Chase Carey and the complications in dealing with
-            all the stakeholders. Everybody will have a different agenda and
-            different objectives. “On the other side, why I was outspoken was
-            that I felt that Mercedes’ role, particularly in the last seven
-            years, wasn’t maybe recognised in the way I would have wished for in
-            terms of the financial split. "But on the other side, I think he
-            tried hard to create a better show, to balance the prize fund
-            distribution better, and I think he achieved it.
+            After the race, Gasly recalled the moment with Perez when shown a
+            video by Sky F1's Anthony Davidson. "Honestly I thought we were in
+            the wall," he said. "I'm not kidding, I was inside, I was like I
+            can't move more than that. And at that point we're probably going
+            280 or 300km/h. "Sergio really squeezed me, which made me even more
+            like I'm not gonna lift, I'm gonna make this work. And it was tight.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.motorsport.com/f1/news/wolff-mercedes-concorde-talks-comments/4864817/'
+              href='https://www.motorsport.com/f1/news/gasly-perez-belgian-gp-wall/4866008/'
               target='_blank'>
               motorsport.com
             </ContentLink>{' '}

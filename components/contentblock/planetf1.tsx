@@ -18,38 +18,39 @@ const PlanetF1: React.FC = () => {
             News
           </div>
           <ActionLink
-            href='https://www.planetf1.com/news/helmut-marko-daniil-kvyat-underperforming/'
+            href='https://www.planetf1.com/news/daniel-ricciardo-spa-p4/'
             target='_blank'>
-            Marko: Kvyat ‘not performing as expected’
+            Ricciardo wary of ruining race with Max duel
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Boss of the Red Bull driver programme Helmut Marko says Daniil Kvyat
-            is underperforming, but he won’t be replaced yet. Kvyat was recalled
-            to the Red Bull programme ahead of the 2019 season and received a
-            seat at Toro Rosso, finishing on the podium at the German Grand
-            Prix.
+            Daniel Ricciardo said he wasn’t prepared to collide with former
+            team-mate Max Verstappen and ruin his race on Lap 1 of the Belgian
+            GP. Ricciardo delivered a stellar qualifying performance to put his
+            Renault P4 on the grid for the Belgian Grand Prix.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The Russian driver scored 37 points that season, but so far 2020 has
-            been a disappointing sequel. Six races in to the team’s new era as
-            AlphaTauri Kvyat has scored only two points, whilst team-mate Pierre
-            Gasly has put 14 on the board.
+            And for the first half of the opening lap he enjoyed a
+            back-and-forth battle with former Red Bull team-mate Verstappen over
+            P3. The Dutchman would maintain the spot though and from there went
+            on to run in a lonely P3 before crossing the line in that position
+            with the top three staying the same for all 44 laps of the race.
+            Ricciardo though went about his own race and secured a solid P4
+            finish, though he was rapidly closing in on Verstappen in the final
+            few laps as the top three nursed their tyres to the end.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Gasly has also outqualified Kvyat at every race so far this season.
-            It’s well known by now that Red Bull don’t really do patience when
-            it comes to their drivers, meaning rumours have started to bubble up
-            about Kvyat possibly being dropped by Red Bull for a second time.
-            But whilst Marko confirmed that Kvyat isn’t doing the job expected
-            of him, there are no immediate plans to drop the three-time podium
-            finisher. “Yes, Daniil does not perform as we expected,” Marko is
-            quoted by GPToday.net as having told Austrian newspaper Salzburger
-            Nachrichten. “But we are still just before halfway in the season.”
+            Ultimately though a first Renault podium still eludes Ricciardo, as
+            does Renault boss Cyril Abiteboul’s tattoo should Ricciardo visit
+            the podium before his contract expires at the end of the season. “I
+            feel our podium this year, if it happens, will be overshadowed by
+            the tattoo!,” he told Sky F1. But P4 may not have been possible if
+            the Aussie had have risked it all against Verstappen at the start,
+            though that is something he wasn’t prepared to do.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.planetf1.com/news/helmut-marko-daniil-kvyat-underperforming/'
+              href='https://www.planetf1.com/news/daniel-ricciardo-spa-p4/'
               target='_blank'>
               planetf1.com
             </ContentLink>{' '}

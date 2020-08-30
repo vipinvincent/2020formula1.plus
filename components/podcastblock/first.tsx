@@ -7,14 +7,14 @@ const First: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=cI2B8ArXwhQ'
+        href='https://www.youtube.com/watch?v=7R1-ONZ0VAA'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/cI2B8ArXwhQ/sddefault.jpg'
-              alt='Are The New F1 Tracks Added For 2020 Overhyped? | Is It Just Me? Podcast'
+              src='https://img.youtube.com/vi/7R1-ONZ0VAA/sddefault.jpg'
+              alt='2020 Belgian Grand Prix l What You Need To Know'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,22 +32,22 @@ const First: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=cI2B8ArXwhQ'
+            href='https://www.youtube.com/watch?v=7R1-ONZ0VAA'
             target='_blank'>
-            Are The New F1 Tracks Added For 2020 Overhyped? | Is It Just Me?
-            Podcast
+            2020 Belgian Grand Prix l What You Need To Know
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The 2020 F1 calendar will feature brand new tracks like Mugello,
-            Portimao and the Bahrain outer oval, as well as returning classic
-            tracks like Istanbul, Imola and Nurburgring - but will the racing be
-            any good? In this weeks episode, Jess and Luke discuss if the racing
-            will live up to the hype.
+            A Formula 1 fans guide to the 2020 Belgian Grand Prix - In this
+            video you'll get a breakdown of storylines coming in, what to watch
+            for, and official predictions as well an invitation to add your
+            predictions in the CYF1 prediction league.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='https://www.autosport.com/' target='_blank'>
-              Autosport
+            <ContentLink
+              href='https://www.youtube.com/c/CrankyYankeeF1'
+              target='_blank'>
+              CrankyYankeeF1
             </ContentLink>
           </p>
         </div>

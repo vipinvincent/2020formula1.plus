@@ -7,14 +7,14 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=00D3HGhIUtc'
+        href='https://www.youtube.com/watch?v=c3DUXAp08IY'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/00D3HGhIUtc/sddefault.jpg'
-              alt='Renault Reveal Why They Withdrew Their Protest Against Racing Point'
+              src='https://img.youtube.com/vi/c3DUXAp08IY/sddefault.jpg'
+              alt='Toto Wolff Calls Out “Certain Members” of Ferrari'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,15 +32,18 @@ const Second: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=00D3HGhIUtc'
+            href='https://www.youtube.com/watch?v=c3DUXAp08IY'
             target='_blank'>
-            Renault Reveal Why They Withdrew Their Protest Against Racing Point
+            Toto Wolff Calls Out “Certain Members” of Ferrari
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Even though Racing Point had been penalized with a docking of points
-            and a fine, some of the other teams continued protesting against
-            that outcome. Recently, McLaren had withdrawn their protest and now
-            Renault have done the same. The team has now revealed why
+            Mercedes had experienced their sternest challenge in the hybrid era
+            from Ferrari over the last few years and they were seen as a
+            possible title contender during that time. Yet, this year Ferrari is
+            a long way off and many expect things to only get worse from here as
+            the car seemingly has no strong suits. Mercedes team principal Toto
+            Wolff has called into question some people at Ferrari that have put
+            them in this situation.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}

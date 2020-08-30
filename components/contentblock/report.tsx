@@ -14,71 +14,51 @@ const Main: React.FC = () => {
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-2 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            Race REPORT - Spanish GP 2020
+            Race REPORT - BELGIAN GP 2020
           </div>
           <H1>
-            Hamilton dominates and wins his fifth Spanish GP win with Verstappen
-            in P2 splitting Mercedes
+            Hamilton dominates and wins his fourth win at Spa with Mercedes 1-2
+            finish as Verstappen finished in third
           </H1>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Mercedes’ Lewis Hamilton, after leading every lap from pole to
-            finish completed his fifth Spanish Grand Prix win, and his fourth
-            victory of the 2020 season with Red Bull’s Max Verstappen coming
-            home ahead of the sister Mercedes of Valtteri Bottas. After having a
-            good start, Hamilton stormed in to first turn and never looked back
-            executed a near perfect race even calling the (best) strategy to put
-            mediums while his engineers opted for red softs. Verstappen also had
-            a great start, jumped to second at the getaway, but could not
-            challenge Hamilton as he finished 24s adrift. But Bottas had a poor
-            start dropping him from P2 to P4 off the line, before eventually
-            recovering to third in the beginning of the race without causing any
-            issues. But a wrong strategy of using a set of used softs couldn’t
-            help him catch Verstappen as he was pushed into traffic after the
-            first pit stop. Eventually Bottas finished +44.752s behind his
-            teammate.
+            Mercedes’ Lewis Hamilton from the pole. leading every lap, took
+            fifth victory of the season at the Belgian Grand Prix. Meanwhile his
+            team mate Valtteri Bottas couldn’t overcome the first lap
+            slipstreaming contest down to Les Combes, only to cross the line in
+            second as Red Bull’s Max Verstappen took third to maintain his
+            record of finishing on the podium in each race of 2020 season.
+            Bottas finished eight seconds behind his team mate, with Verstappen
+            a further seven seconds in P3.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Racing Point’s Sergio Perez crossed the line in fourth but forced to
-            as a five-second penalty for ignoring blue flags, promoting Lance
-            Stroll P4. Perez eventually slotted into fifth, ahead of the McLaren
-            of Carlos Sainz who maintained his 100% record of finishing in the
-            points at his home race. This time Ferrari of Sebastian Vettel was
-            in the points, as his late call on the one-stop strategy helped him
-            to cross the line in seventh. The second Red Bull of Alexander Albon
-            only managed eight as his strategy of pitting early for hards never
-            paid off and more over spoiled his chances as he was pushed into the
-            traffic after the first pitstop, raising eye brows again for a bad
-            strategy call. Pierre Gasly of AlphaTauri had a good race with some
-            impressive moves in the mid field finished in ninth spot ahead of
-            second McLaren of Lando Norris, this time no last lap magic rounded
-            top 10 list.
+            Renault’s Daniel Ricciardo finished fourth which was the team’s best
+            of the year, crossed the line under four seconds behind Verstappen
+            with the last lap fastest lap point. His team mate Esteban Ocon also
+            impressed by overtaking the struggling Red Bull of Alex Albon on the
+            final lap to take fifth. Albon could hold onto sixth from the
+            McLaren of Lando Norris who finished under 1 second from the Red
+            Bull car. An impressive drive aided with a good strategy helped
+            Pierre Gasly to take eighth for AlphaTauri. Meanwhile the Spa
+            specialists Racing Points, could only manage P9 and P10 with Lance
+            Stroll leading Sergio Perez rounded top 10.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Unfortunately, the two Renault drivers disappoints as they failed to
-            materialize the expected strong race pace on race day as Daniel
-            Ricciardo finished 11th with Esteban Ocon 13th. The alternate
-            strategy of one pit stop also not helped the yellow and black cars
-            as the both cars couldn’t finish in points. The second AlphaTauri of
-            Daniil Kvyat, after a five-second penalty for ignoring blue flags,
-            as like Sergio, splits the two Renaults and finished 12th outside
-            the points. Kimi Räikkönen finished in 14th the same spot he started
-            the race from. In between Kimi Raikkonen breaks record for most
-            miles driven in sport’s history after completing lap 37 of the
-            Spanish Grand Prix on Sunday. The Finn has raced over 50,000 miles –
-            more than twice the circumference of the Earth.
-          </p>
-          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Kevin Magnussen of Haas finished fifteenth ahead of the second Alfa
-            Romeo of Giovinazzi who finished in 16th. The two Williams of George
-            Russell and Nicholas Latifi finished P17 and P18. The second Haas of
-            Grosjean Romain Grosjean was classified 19th and last after a
-            half-spin at Turn 8 on the penultimate lap. Also, he might have some
-            explaining to do in the next Grand Prix Drivers’ Association
-            meeting, after he once again executed a late defensive move on
-            Raikkonen. Ferrari’s Charles Leclerc, the only driver to retire from
-            the race, after suffering an electrical issue at the halfway point
-            that pitched him into a spin at Turn 15, before eventually retiring
-            his SF1000.
+            The second Alpha Tauri of Daniil Kvyat finished eleventh with Kimi
+            Räikkönen of Alfa Romeo in twelfth. Notably Kimi finished ahead of
+            both the Ferrari drivers Sebastian Vettel and Charles Leclerc who
+            finished out of the points in P13 and P14 respectively. It was a
+            extremely frustrating Spa weekend for ferrari with tough qualifying
+            followed up by an equally burdensome race, with the team’s cars
+            coming home in the positions they’d started in, but Sebastian Vettel
+            having moved ahead of Charles Leclerc. Both Haas drivers crossed the
+            line in 15th and 17th with Romain Grosjean leading his team mate
+            Kevin Magnussen. Nicholas Latifi of Williams spitted the Haas
+            drivers and finished 16th. McLaren’s Carlos Sainz was unable to take
+            the race start after a power unit issue, Meanwhile a big crash for
+            Alfa Romeo’s Antonio Giovinazzi ended his race in lap 11, with
+            Williams’ George Russell arriving on the scene and hitting
+            Giovinazzi’s wheel, which forced his own retirement. Luckily both
+            drivers emerged unhurt.
           </p>
           {/* <p className='mt-1 text-base leading-normal text-gray-700'>
             View the complete {' '}
