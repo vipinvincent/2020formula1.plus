@@ -21,9 +21,8 @@ import FirstContent from 'components/contentblock/first'
 import SecondContent from 'components/contentblock/left'
 import ThirdContent from 'components/contentblock/right'
 import FourthContent from 'components/contentblock/second'
-import Archive27 from 'components/newsarchives/party-mode-ban'
 
-// import Qualifying from 'components/qualifying/quick-look'
+import Qualifying from 'components/qualifying/quick-look'
 import Race from 'components/race/quick-look'
 import ButtonLink from 'components/link/ButtonLink'
 
@@ -32,6 +31,9 @@ const Main: React.FC = () => {
     <div className='flex flex-col'>
       <div className='w-100 mb-0'>
         <Race />
+      </div>
+      <div className='w-100 mb-0 mt-2'>
+        <Qualifying />
       </div>
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
         Latest News
@@ -61,9 +63,9 @@ const Main: React.FC = () => {
       <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow  mt-4'>
         <FourthContent />
       </div>
-      <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-4'>
+      {/* <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-4'>
         <Archive27 />
-      </div>
+      </div> */}
       <div className='w-100 flex flex-col md:self-center'>
         <ButtonLink href='/news' target='_self'>
           More News...
