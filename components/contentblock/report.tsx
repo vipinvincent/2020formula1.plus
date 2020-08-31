@@ -62,14 +62,14 @@ const Main: React.FC = () => {
             drivers emerged unhurt.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Check out the positions of Top-5 drivers at the time when Hamilton
+            Check out the positions of Top-5 drivers at the time Hamilton
             crossing the finish line.
           </p>
           <div className='h-full w-full zoom-image'>
             <Zoom>
               <img
                 className='w-full h-full object-cover rounded-tl-xxl'
-                src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1598859764/contentImages/content/track-position_gs8oyy.png'
+                src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1598860581/contentImages/content/spa_fj1j8u.png'
                 alt='Check out the positions of top5 drivers when Hamilton crossing the finish line!!!!'
               />
             </Zoom>
