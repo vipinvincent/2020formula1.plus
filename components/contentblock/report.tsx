@@ -1,5 +1,6 @@
 import React from 'react'
 import H1 from 'components/heading/H1'
+import Zoom from 'react-medium-image-zoom'
 
 const Main: React.FC = () => {
   return (
@@ -8,7 +9,7 @@ const Main: React.FC = () => {
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
           src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1597490683/contentImages/content/lewis-hamilton2_x4c01p.jpg'
-          alt='Qualifying REPORT - Spanish GP 2020'
+          alt='Race REPORT - BELGIAN GP 2020'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
@@ -60,6 +61,19 @@ const Main: React.FC = () => {
             Giovinazzi’s wheel, which forced his own retirement. Luckily both
             drivers emerged unhurt.
           </p>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
+            Check out the positions of Top-5 drivers at the time when Hamilton
+            crossing the finish line.
+          </p>
+          <div className='h-full w-full zoom-image'>
+            <Zoom>
+              <img
+                className='w-full h-full object-cover rounded-tl-xxl'
+                src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1598859764/contentImages/content/track-position_gs8oyy.png'
+                alt='Check out the positions of top5 drivers when Hamilton crossing the finish line!!!!'
+              />
+            </Zoom>
+          </div>
           {/* <p className='mt-1 text-base leading-normal text-gray-700'>
             View the complete {' '}
             <ContentLink
