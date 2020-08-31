@@ -18,38 +18,38 @@ const MotorSport: React.FC = () => {
             News
           </div>
           <ActionLink
-            href='https://www.motorsport.com/f1/news/gasly-perez-belgian-gp-wall/4866008/'
+            href='https://www.motorsport.com/f1/news/verstappen-belgian-gp/4866019/'
             target='_blank'>
-            Gasly thought he would hit wall in Perez fight at Spa
+            Verstappen: Managing tyres made Belgian GP "boring"
           </ActionLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            AlphaTauri F1 driver Pierre Gasly admits he thought "we were in the
-            wall" when he pulled off a spectacular pass of Sergio Perez in the
-            Belgian GP.
+            Max Verstappen found Sunday's Belgian Grand Prix "pretty boring",
+            believing he spent 38 of the 44 laps at Spa managing his tyres en
+            route to third place.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Gasly tried to pass the Mexican on the run down the hill from La
-            Source to Eau Rouge, and just managed to squeeze through on the
-            right as the gap between the Racing Point and the barrier closed.
-            The move was one of several that Gasly made during a charging race
-            to eighth place that also won him the Driver of the Day vote. He was
-            the only driver to start on the hard tyres, and along with Perez was
-            one of only two who opted to stay out when everyone else pitted
-            under the safety car for the Antonio Giovinazzi/George Russell
-            accident.
+            Verstappen spent every single lap of the race running third as he
+            struggled to take the fight to the Mercedes pair of Lewis Hamilton
+            and Valtteri Bottas ahead. Verstappen made an earlier than planned
+            switch to the hard compound tyre following an early safety car,
+            forcing him to then manage his pace for the remainder of the race to
+            pull off a one-stop strategy. The option Red Bull had to switch to a
+            two-stop strategy was compromised by Renault's Daniel Ricciardo, who
+            sat within Verstappen's pit stop window in fourth place.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            After the race, Gasly recalled the moment with Perez when shown a
-            video by Sky F1's Anthony Davidson. "Honestly I thought we were in
-            the wall," he said. "I'm not kidding, I was inside, I was like I
-            can't move more than that. And at that point we're probably going
-            280 or 300km/h. "Sergio really squeezed me, which made me even more
-            like I'm not gonna lift, I'm gonna make this work. And it was tight.
+            Verstappen explained after the race that he was forced to manage his
+            tyres for the majority of the race, something he found disappointing
+            at a track as exciting as Spa. "On the hard tyre I was trying to
+            follow Valtteri a bit, and then they told him to speed up, so I lost
+            of a bit of ground," Verstappen said. "From then on, at one point
+            with 10 laps to go, I started to have really bad vibrations on the
+            tyres, and then I started to have a lot of understeer.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
-              href='https://www.motorsport.com/f1/news/gasly-perez-belgian-gp-wall/4866008/'
+              href='https://www.motorsport.com/f1/news/verstappen-belgian-gp/4866019/'
               target='_blank'>
               motorsport.com
             </ContentLink>{' '}
