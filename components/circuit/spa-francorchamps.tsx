@@ -7,150 +7,112 @@ const Schedule: React.FC = () => {
   return (
     <div className='flex flex-col mb-4'>
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
-        Circuit Facts - Autodromo Nazionale Monza
+        Circuit Facts - Circuit de Spa-Francorchamps
       </div>
-      <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mb-6'>
+      <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mb-4'>
         <div className='h-64 sm:h-84 py-4 w-full text-center zoom-image'>
           <Zoom>
             <img
-              className='w-full h-64 sm:h-84 object-contain rounded-tl-xxl rounded-br-xl-t py-4 text-center'
-              src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1598967600/contentImages/circuit/monza_nlwdfu.png'
-              alt='2020 Italian Grand Prix'
+              className='w-full h-64 sm:h-84 object-contain rounded-tl-xxl rounded-br-xl-t pt-4 text-center'
+              src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1597814913/contentImages/circuit/spa-francorchamps_ghhxjc.png'
+              alt='2020 Belgian Grand Prix'
             />
           </Zoom>
         </div>
         <div className='relative max-w-screen-xl mx-auto'>
           <div className='py-4 text-left px-4'>
             <p className='mt-1 text-normal leading-normal text-gray-700'>
-              Formula 1 Gran Premio Heineken D’italia 2020 takes place over 53
-              laps of the 5.793-kilometre Autodromo Nazionale Monza on Sunday,
-              September 6.
+              Formula 1 Rolex Belgian Grand Prix 2020, 2020 Belgian Grand Prix,
+              which takes place over 44 laps of the 7.004 km Circuit de
+              Spa-Francorchamps on Sunday, August 30.
             </p>
             <p className='mt-2 text-normal leading-normal text-gray-700'>
-              The Autodromo Nazionale di Monza is a historic race track near the
-              city of Monza, north of Milan, in Italy. Built in 1922, it is the
-              world's third purpose-built motor racing circuit after those of
-              Brooklands and Indianapolis. The circuit's biggest event is the
-              Formula One Italian Grand Prix. Except for in 1980, the race has
-              been hosted there since the series' inception.
+              The Circuit de Spa-Francorchamps is a motor-racing circuit located
+              in Stavelot, Belgium. It is the current venue of the Formula One
+              Belgian Grand Prix, hosting its first Grand Prix in 1925, and has
+              held a Grand Prix every year since 1983 (except 1984, 2003 and
+              2006). Spa also hosts several other international events including
+              the 24 Hours of Spa and the World Endurance Championship 6 Hours
+              of Spa-Francorchamps, and the TCR Spa 500. It is also home to the
+              Uniroyal Fun Cup 25 Hours of Spa, one of the longest motor races
+              in the world.
             </p>
             <p className='mt-2 text-normal leading-normal text-gray-700'>
-              Built in the Royal Villa of Monza park in a woodland setting, the
-              site has three tracks – the 5.793-kilometre (3.600 mi) Grand Prix
-              track, the 2.405-kilometre (1.494 mi) Junior track, and a
-              4.250-kilometre (2.641 mi) high speed oval track with steep
-              bankings which has been unused for many decades and has been
-              decaying for years until restorations in the 2010s. The major
-              features of the main Grand Prix track include the Curva Grande,
-              the Curva di Lesmo, the Variante Ascari and the Curva Parabolica.
-              The high speed curve, Curva Grande, is located after the Variante
-              del Rettifilo which is located at the end of the front straight or
-              Rettifilo Tribune, and is usually taken flat out by Formula One
-              cars.
+              The circuit has undergone several redesigns through its history,
+              most extensively in 1979 when the track was modified and shortened
+              from a 14.10 km (8.76 mi) circuit using public roads to a 6.95 km
+              (4.32 mi) permanent circuit due to safety concerns with the old
+              circuit. Despite its name, the circuit is not in Spa but lies in
+              the vicinity of the town of Francorchamps within the boundaries of
+              the municipality of Stavelot, with a part in the boundaries of
+              Malmedy.
             </p>
             <p className='mt-2 text-normal leading-normal text-gray-700'>
-              Constructed in just 110 days in 1922, the Autodromo Nazionale
-              Monza was the world’s third purpose-built race track, coming after
-              Brooklands in the UK and Indianapolis in the US. Like those two
-              tracks, the original circuit featured a daunting series of banked
-              curves, as well as much of the ‘outfield’ section that’s still in
-              use today. Monza opened its doors on September 3 1922, just a week
-              before it hosted that year’s Italian Grand Prix. It was then part
-              of the original Formula 1 calendar in 1950, and has held the
-              Italian Grand Prix every year bar one since.
+              The original, triangle-shaped track was built in 1921, with
+              designers Jules de Thier and Henri Langlois van Ophem using public
+              roads between the towns of Francorchamps, Malmedy, and Stavelot to
+              create an amazing 14.9km circuit taking in the forests and rolling
+              hills of the beautiful Ardennes region. The track was redeveloped
+              in 1979, and although the new circuit is only half the original's
+              length, it’s still the longest on the current calendar at 7.004km.
+              Having hosted a non-championship Grand Prix as long ago as 1924,
+              Belgium’s iconic circuit was one of just seven to be part of
+              Formula 1’s maiden championship in 1950. That race was won by the
+              legendary Juan Manuel Fangio, who led home an Alfa Romeo one-two
+              ahead of team mate Nino Farina.
             </p>
             <p className='mt-2 text-normal leading-normal text-gray-700'>
-              The parkland setting of Monza, located just to the north east of
-              Italy’s fashion capital Milan, makes for a relaxed, leafy setting
-              for a Grand Prix, while the preserved Monza banking – spot it in
-              the background as the cars exit the Parabolica, as well as on the
-              flyover bridge they pass under en route to the Variante Ascari –
-              leaves you in no doubt that you’re in the presence of a very
-              special race track.
+              Spa is among Formula 1 drivers’ most loved tracks, with its mix of
+              long straights and challenging fast corners allowing them to push
+              their cars to the edge of their capabilities – if it’s dry, that
+              is. The size of the track and the nature of Belgian weather means
+              it can sometimes be raining on one part of the track and dry on
+              another, meaning grip can vary from one corner to the next. Keep
+              an eye on the thrilling Eau Rouge, arguably the most famous
+              sequence of corners in the world, as the drivers flick left, right
+              and then up the hill through Raidillon. Since its inception,
+              Spa-Francorchamps has been known for its unpredictable weather. At
+              one stage in its history it had rained at the Belgian Grand Prix
+              for twenty years in a row. Frequently drivers confront a part of
+              the course that is clear and bright while another stretch is rainy
+              and slippery. The Belgian Grand Prix was designated the European
+              Grand Prix six times between 1925 and 1973, when this title was an
+              honorary designation given each year to one Grand Prix race in
+              Europe. It is one of the most popular races on the Formula One
+              calendar, due to the scenic and historical Spa-Francorchamps
+              circuit being a favourite of drivers and fans.
             </p>
             <p className='mt-2 text-normal leading-normal text-gray-700'>
-              Drivers are on full throttle for most of the lap due to its long
-              straights and fast corners, and is usually the scenario in which
-              the open-wheeled Formula One cars show the raw speed of which they
-              are capable: 372 kilometres per hour (231 mph) during the
-              mid-2000s V10 engine formula, although in 2012 with the 2.4L V8
-              engines, top speeds in Formula One rarely reached over 340
-              kilometres per hour (211 mph); the 1.6L turbocharged hybrid V6
-              engine, reduced-downforce formula of 2014 displayed top speeds of
-              up to 360 kilometres per hour (224 mph). The circuit is generally
-              flat, but has a gradual gradient from the second Lesmos to the
-              Variante Ascari. Due to the low aerodynamic profile needed, with
-              its resulting low downforce, the grip is very low; understeer is a
-              more serious issue than at other circuits; however, the opposite
-              effect, oversteer, is also present in the second sector, requiring
-              the use of a very distinctive opposite lock technique. Since both
-              maximum power and minimal drag are keys for speed on the
-              straights, only competitors with enough power or aerodynamic
-              efficiency at their disposal are able to challenge for the top
-              places.
-            </p>
-            <p className='mt-2 text-normal leading-normal text-gray-700'>
-              {' '}
-              In addition to Formula One, the circuit previously hosted the 1000
-              km Monza, and endurance sports car race held as part of the World
-              Sportscar Championship and the Le Mans Series. Monza also featured
-              the unique Race of Two Worlds events, which attempted to run
-              Formula One and USAC National Championship cars against each
-              other. The racetrack also previously held rounds of the Grand Prix
-              motorcycle racing (Italian motorcycle Grand Prix), World Touring
-              Car Championship, TCR International Series, Superbike World
-              Championship, Formula Renault 3.5 Series and Auto GP. Monza
-              currently hosts rounds of the Blancpain GT Series Endurance Cup,
-              International GT Open and Euroformula Open Championship, as well
-              as various local championships such as the TCR Italian Series,
-              Italian GT Championship, Porsche Carrera Cup Italia and Italian F4
-              Championship, as well as the Monza Rally Show.
-            </p>
-            <p className='mt-2 text-normal leading-normal text-gray-700'>
-              <span className='font-bold italic'>
-                A lap in a Formula One car
-              </span>{' '}
-              would be as follows - Cars approach the first corner at 340
-              kilometres per hour (210 mph) in eighth gear, and brake at about
-              120 metres (390 ft) before the first chicane – the Variante del
-              Rettifilo – entering at 86 km/h (53 mph) in first gear, and
-              exiting at 74 kilometres per hour (46 mph) in second gear. Good
-              traction out of the first corner is imperative for a quick lap.
-              Conservation of speed through the first chicane is made possible
-              by driving the straightest line, as a small mistake here can
-              result in a lot of time being lost through the Curva Grande down
-              to the Variante della Roggia chicane in seventh gear, at 330
-              kilometres per hour (210 mph). The braking point is just under the
-              bridge. The kerbs are very vicious and it is very easy for a car
-              to become unbalanced and a driver to lose control. This chicane is
-              probably the best overtaking chance on the lap, as it is the only
-              one with the "slow corner, long straight, slow corner"; one of the
-              characteristics of modern circuits. The Curve di Lesmo are two
-              corners that are not as fast as they used to be, but are still
-              challenging corners. The first is blind, entered at 264 km/h (164
-              mph) in fifth gear, dropping to fourth gear at 193 km/h (120 mph),
-              and has a slight banking. The second is a fifth gear entry at 260
-              km/h (160 mph), apexing in third gear at 178 kilometres per hour
-              (111 mph), and it is very important that all the kerb is used. A
-              mistake at one of these corners will result in a spin into the
-              gravel, while good exits can set you up for an overtaking move
-              into Variante Ascari. The downhill straight down to Variante
-              Ascari is very bumpy under the bridge. Variante Ascari is a very
-              tricky sequence of corners and is key to the lap time. The final
-              challenge is the Curva Parabolica: approaching at 335 kilometres
-              per hour (208 mph) in seventh gear, cars quickly dance around the
-              corner, apexing in fourth gear at 215 kilometres per hour (134
-              mph) and exiting in fifth gear at 285 kilometres per hour (177
-              mph), accelerating onto the main start/finish straight. A good
-              exit and slipstream off a fellow driver along the main straight
-              can produce an overtaking opportunity under heavy braking into
-              Variante del Rettifilo; however, it is difficult to follow a
-              leading car closely through the Parabolica as the tow will reduce
-              downforce and cornering speed. Maximum speed achieved in a 2019
-              Formula One car is 359.7 km/h (223.5 mph), established at the end
-              of the start/finish straight. They experience a maximum g-force of
-              4.50 during deceleration, as the track has many dramatic high to
-              low speed transitions.
+              The fearsome Eau Rouge/Raidillon corner, arguably the most famous
+              on the current F1 calendar, features an elevation change of 35
+              meters from its lowest to highest point. Of current drivers, Kimi
+              Raikkonen has the best record at Spa with four victories. Lewis
+              Hamilton and Sebastian Vettel have each won three times. In 2019,
+              Charles Leclerc became the first driver to score a maiden Grand
+              Prix Victory at Spa since Michael Schumacher did so in 1992.
+              Fernando Alonso never took a victory at Spa during his F1 career.
+              Max Verstappen was born in Belgium to a Belgian mother, but
+              decided to represent The Netherlands, where his father comes from.
+              Nevertheless, Spa became his defacto ‘home race’ before the Dutch
+              Grand Prix rejoined the calendar for 2020, and thousands of Dutch
+              fans come out to support him here. At 7.004km long, Spa is the
+              longest current F1 circuit. Despite this, it has one of the
+              smaller spectator capacities on the current calendar (70,000 fans)
+              Spa is not only famous for Formula 1. It also holds other popular
+              annual events, including the Spa 24 hours and the 6 Hours of Spa
+              Francorchamps for sportscars. The entry list for races at Spa was
+              usually shorter than those at other events during the early years
+              of Formula 1, largely due to the track’s fearsome nature. Despite
+              taking his first F1 victory at Spa and going on to win the Belgian
+              Grand Prix for four consecutive seasons, Jim Clark detested the
+              track. Bruno Senna set the only fastest lap of his F1 career at
+              the Belgian Grand Prix in 2012. Strangely, that’s something which
+              his Uncle Ayrton never achieved, despite winning six Grands Prix
+              at Spa. Michael Schumacher is the only driver to have won the
+              World Championship at the Spa Francorchamps track. He claimed his
+              seventh and final title here in 2004. 12 of the last 20 Belgian
+              Grands Prix have been won by less than five seconds. The largest
+              win margin here came in 1963, when Jim Clark won by 474 seconds!
             </p>
           </div>
         </div>
@@ -161,7 +123,7 @@ const Schedule: React.FC = () => {
         </p>
       </div>
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
-        2020 Italian Grand Prix weekend{' '}
+        2020 Belgian Grand Prix weekend{' '}
         <span className='font-light'>(Track Time)</span>
       </div>
       <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mb-4'>
@@ -173,7 +135,7 @@ const Schedule: React.FC = () => {
                   Practice 1
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  04 - September ( 11:00 - 12:30 )
+                  28 - August ( 11:00 - 12:30 )
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -181,7 +143,7 @@ const Schedule: React.FC = () => {
                   Practice 2
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  04 - September ( 15:00 - 16:30 )
+                  28 - August ( 15:00 - 16:30 )
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -189,7 +151,7 @@ const Schedule: React.FC = () => {
                   Practice 3
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  05 - September ( 12:00 - 13:00 )
+                  29 - August ( 12:00 - 13:00 )
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -211,7 +173,7 @@ const Schedule: React.FC = () => {
                   </SiderBarLink>
                 </div> */}
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  05 - September ( 15:00 - 16:00 )
+                  29 - August ( 15:00 - 16:00 )
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -225,7 +187,7 @@ const Schedule: React.FC = () => {
                   </SiderBarLink> */}
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  06 - September ( 15:10 - 17:10 )
+                  30 - August ( 15:10 - 17:10 )
                 </div>
               </div>
             </div>
@@ -233,7 +195,7 @@ const Schedule: React.FC = () => {
         </div>
       </div>
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
-        Italian Grand Prix Facts
+        Belgian Grand Prix Facts
       </div>
       <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
         <div className='relative max-w-screen-xl mx-auto'>
@@ -244,7 +206,7 @@ const Schedule: React.FC = () => {
                   Circuit Name
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  Autodromo Nazionale Monza
+                  Circuit de Spa-Francorchamps
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -252,7 +214,7 @@ const Schedule: React.FC = () => {
                   Track Length
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  5.793km (3.600 mi)
+                  7.004 km (4.352 mi)
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -260,7 +222,7 @@ const Schedule: React.FC = () => {
                   Turns
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  11 turns
+                  19 turns
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -268,7 +230,7 @@ const Schedule: React.FC = () => {
                   Race Distance
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  53 laps (306.72 km)
+                  44 laps (307.104 km)
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -276,7 +238,7 @@ const Schedule: React.FC = () => {
                   F1 Races Held
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  89
+                  75
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -292,9 +254,7 @@ const Schedule: React.FC = () => {
                   Most Wins
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  Michael Schumacher (5)
-                  <br />
-                  Kingdom Lewis Hamilton (5)
+                  Michael Schumacher (6)
                 </div>
               </div>
               {/* <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -319,7 +279,7 @@ const Schedule: React.FC = () => {
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
                   <div className='ferrari'>
-                    <span className='text'> Ferrari (20)</span>
+                    <span className='text'> Ferrari (18)</span>
                   </div>
                 </div>
               </div>
@@ -327,9 +287,9 @@ const Schedule: React.FC = () => {
                 <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1'>
                   Lap Record
                 </div>
-                <div className='mt-1 text-sm leading-5 sm:leading-7 text-gray-800 sm:mt-0 sm:col-span-2 ferrari'>
-                  Rubens Barrichello (<span className='text'>Ferrari</span>)
-                  <br /> 1:21.046
+                <div className='mt-1 text-sm leading-5 sm:leading-7 text-gray-800 sm:mt-0 sm:col-span-2 mercedes'>
+                  Valtteri Bottas (<span className='text'>Mercedes</span>)
+                  <br /> 1:46.286 (2018)
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -356,9 +316,9 @@ const Schedule: React.FC = () => {
                       &nbsp;
                     </div>
                     <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block mercedes'>
-                      Valtteri Bottas (<span className='text'>Mercedes</span>){' '}
+                      Lewis Hamilton (<span className='text'>Mercedes</span>){' '}
                       <br />
-                      +0.835s
+                      +0.981s
                     </div>
                   </div>
                   <div className='inine-block pb-4'>
@@ -368,9 +328,9 @@ const Schedule: React.FC = () => {
                       &nbsp;
                     </div>
                     <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block mercedes'>
-                      Lewis Hamilton(<span className='text'>Mercedes</span>){' '}
+                      Valtteri Bottas(<span className='text'>Mercedes</span>){' '}
                       <br />
-                      +35.199s
+                      +12.585s
                     </div>
                   </div>
                   {/* <div className='inine-block pb-4'>

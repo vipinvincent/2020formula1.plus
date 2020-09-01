@@ -6,7 +6,7 @@ import Twitter from '../components/twitter'
 import Recent from '../components/schedule/recent'
 import Driver from '../components/driver'
 import Team from '../components/team'
-import Race from 'components/race/quick-look'
+// import Race from 'components/race/quick-look'
 import VideosPodcasts from 'components/maincontent/videos-podcasts'
 
 import FirstPodcast from 'components/podcastblock/first'
@@ -28,13 +28,13 @@ const IndexPage = () => (
             <VideosPodcasts />
           </div>
           <div className='hidden lg:block w-4/12 xl:w-4/12 pl-4'>
-            <Grid />
             <Schedule />
+            <Grid />
             <Twitter />
             <Driver />
             <Team />
             <Recent />
-            <Race />
+            {/* <Race /> */}
             <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2'>
               Latest Videos from Youtube
             </div>

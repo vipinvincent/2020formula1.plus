@@ -23,9 +23,8 @@ const Schedule: React.FC = () => {
               Formula 1 Pirelli Grosser Preis Der Steiermark 2020
             </ActionLink>
             <p className='mt-1 text-base leading-normal text-gray-700'>
-              Formula 1 Pirelli Grosser Preis Der Steiermark 2020 (Styrian Grand
-              Prix), which takes place over 71 laps of the 4.318km Red Bull Ring
-              in Spielberg on Sunday, July 12 2020.
+              2020 Styrian Grand Prix takes place over 71 laps of the 4.318km
+              Red Bull Ring in Spielberg on Sunday, July 12 2020.
             </p>
           </div>
           <div className='bg-white overflow-hidden'>

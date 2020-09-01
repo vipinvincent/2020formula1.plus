@@ -74,7 +74,7 @@ const Main: React.FC = () => {
           More News...
         </ButtonLink>
       </div>
-      <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mt-4 mb-1 px-2'>
+      {/* <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mt-4 mb-1 px-2'>
         Featured news on F1 news Sources
       </div>
       <div className='rounded-tl-xxl rounded-br-xxl'>
@@ -92,7 +92,7 @@ const Main: React.FC = () => {
         <div className='w-100 mt-4  bg-white-70 rounded-tl-xxl rounded-br-xxl shadow'>
           <PlanetF1 />
         </div>
-      </div>
+      </div> */}
     </div>
   )
 }

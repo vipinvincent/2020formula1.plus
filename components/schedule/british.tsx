@@ -23,9 +23,9 @@ const Schedule: React.FC = () => {
               Formula 1 Pirelli British Grand Prix 2020
             </ActionLink>
             <p className='mt-1 text-base leading-normal text-gray-700'>
-              Formula 1 Pirelli British Grand Prix 2020, which takes place over
-              52 laps of the 5.891km Silverstone, Northamptonshire England,
-              United Kingdom on Sunday, August 2 2020
+              2020 British Grand Prix 2020 takes place over 52 laps of the
+              5.891km Silverstone, Northamptonshire England, United Kingdom on
+              Sunday, August 2 2020
             </p>
           </div>
           <div className='bg-white overflow-hidden'>
