@@ -7,13 +7,13 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=c3DUXAp08IY'
+        href='https://www.youtube.com/watch?v=-t1lmeK1CCs'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/c3DUXAp08IY/sddefault.jpg'
+              src='https://img.youtube.com/vi/-t1lmeK1CCs/sddefault.jpg'
               alt='Toto Wolff Calls Out “Certain Members” of Ferrari'
             />
           </div>
@@ -32,25 +32,23 @@ const Second: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=c3DUXAp08IY'
+            href='https://www.youtube.com/watch?v=-t1lmeK1CCs'
             target='_blank'>
-            Toto Wolff Calls Out “Certain Members” of Ferrari
+            Carlos Sainz's rotten luck extends to his Ferrari deal
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Mercedes had experienced their sternest challenge in the hybrid era
-            from Ferrari over the last few years and they were seen as a
-            possible title contender during that time. Yet, this year Ferrari is
-            a long way off and many expect things to only get worse from here as
-            the car seemingly has no strong suits. Mercedes team principal Toto
-            Wolff has called into question some people at Ferrari that have put
-            them in this situation.
+            Carlos Sainz’s switch to Ferrari couldn’t be coming at a worse time
+            in his career, as the team are currently going through their worst
+            season in 40 years. Carlos Sainz had to watch the Belgian Grand Prix
+            as a spectator for the second year in a row, following a technical
+            failure on his car just 30 minutes before the start of the race.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
             <ContentLink
               href='https://www.youtube.com/c/FormulaWorld'
               target='_blank'>
-              Formula World
+              Thomas Maher
             </ContentLink>
           </p>
         </div>

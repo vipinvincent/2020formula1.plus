@@ -13,11 +13,13 @@ import React from 'react'
 
 import Report from 'components/contentblock/report'
 
+import Archive31 from 'components/newsarchives/fp2-report-belgian-gp'
+import Archive30 from 'components/newsarchives/fp1-report-belgian-gp'
 import Archive29 from 'components/newsarchives/concorde-agreement-signed'
 import Archive28 from 'components/newsarchives/williams-sale'
 
 import MainContent from 'components/contentblock/main'
-import FirstContent from 'components/contentblock/first'
+// import FirstContent from 'components/contentblock/first'
 import SecondContent from 'components/contentblock/left'
 import ThirdContent from 'components/contentblock/right'
 import FourthContent from 'components/contentblock/second'
@@ -29,23 +31,26 @@ import ButtonLink from 'components/link/ButtonLink'
 const Main: React.FC = () => {
   return (
     <div className='flex flex-col'>
-      <div className='w-100 mb-0'>
-        <Race />
-      </div>
-      <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-4'>
-        <Report />
-      </div>
-      <div className='w-100 mb-0 mt-2'>
-        <Qualifying />
-      </div>
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
         Latest News
       </div>
       <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
         <MainContent />
       </div>
-      <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-4'>
+      {/*  <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-4'>
         <FirstContent />
+      </div> */}
+      <div className='w-100 mb-0 mt-4'>
+        <Race />
+      </div>
+      <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
+        BELGIAN GP 2020 - Race Report
+      </div>
+      <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-0'>
+        <Report />
+      </div>
+      <div className='w-100 mb-0 mt-2'>
+        <Qualifying />
       </div>
       <div className='w-100 flex flex-col xl:flex-row'>
         <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 mt-4 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
@@ -53,6 +58,14 @@ const Main: React.FC = () => {
         </div>
         <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 mt-4 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
           <ThirdContent />
+        </div>
+      </div>
+      <div className='w-100 flex flex-col xl:flex-row'>
+        <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 mt-4 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
+          <Archive30 />
+        </div>
+        <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 mt-4 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
+          <Archive31 />
         </div>
       </div>
       <div className='w-100 flex flex-col xl:flex-row mt-4'>
