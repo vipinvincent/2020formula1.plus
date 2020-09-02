@@ -5,10 +5,10 @@ import H1 from 'components/heading/H1'
 const Right: React.FC = () => {
   return (
     <div className='relative'>
-      <div className='h-48 md:h-64 xl:h-104 w-full'>
+      <div className='h-40 xl:h-48 w-full'>
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
-          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1597490683/contentImages/content/lewis-hamilton1_bzargd.jpg'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1597490683/contentImages/content/lewis-hamilton2_x4c01p.jpg'
           alt='FP3 REPORT - Belgian GP 2020'
         />
       </div>

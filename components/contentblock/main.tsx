@@ -8,7 +8,7 @@ const Main: React.FC = () => {
       <div className='h-48 md:h-64 xl:h-104 w-full'>
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
-          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594990598/contentImages/content/ferarri_gxis2s.jpg'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1599029109/contentImages/content/redbull-pitcrew_vsebkx.jpg'
           alt='One-stop races are making F1 boring - Christian Horner'
         />
       </div>
