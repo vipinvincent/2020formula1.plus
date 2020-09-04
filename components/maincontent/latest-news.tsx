@@ -19,7 +19,7 @@ import Archive29 from 'components/newsarchives/concorde-agreement-signed'
 import Archive28 from 'components/newsarchives/williams-sale'
 
 import MainContent from 'components/contentblock/main'
-// import FirstContent from 'components/contentblock/first'
+import FirstContent from 'components/contentblock/first'
 import SecondContent from 'components/contentblock/left'
 import ThirdContent from 'components/contentblock/right'
 import FourthContent from 'components/contentblock/second'
@@ -35,11 +35,11 @@ const Main: React.FC = () => {
         Latest News
       </div>
       <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
+        <FirstContent />
+      </div>
+      <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-4'>
         <MainContent />
       </div>
-      {/*  <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-4'>
-        <FirstContent />
-      </div> */}
       <div className='w-100 mb-0 mt-4'>
         <Race />
       </div>

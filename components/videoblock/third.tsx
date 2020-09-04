@@ -7,14 +7,14 @@ const Third: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=_Ps1tJpyQEs'
+        href='https://www.youtube.com/watch?v=eQQpE7er5qQ'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/_Ps1tJpyQEs/sddefault.jpg'
-              alt='Why Ferrari has upped the stakes in its F1 row with Racing Point'
+              src='https://img.youtube.com/vi/eQQpE7er5qQ/sddefault.jpg'
+              alt='Williams Family Quit F1'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,27 +32,20 @@ const Third: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=_Ps1tJpyQEs'
+            href='https://www.youtube.com/watch?v=eQQpE7er5qQ'
             target='_blank'>
-            Why Ferrari has upped the stakes in its F1 row with Racing Point
+            Williams Family Quit F1
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Ferrari stands alone as the only team still challenging Racing
-            Point’s punishment for its illegally-designed brake ducts on its
-            ‘Pink Mercedes’, and after the Belgian Grand Prix it announced its
-            intention to also contest the reprimand the team receives after each
-            race as part of its punishment. But why is Ferrari still upset when
-            the other teams that were on its side decided to back away? In this
-            video we explain the end game behind Ferrari’s appeals, and the
-            other rules around customer car parts that it is hoping to get
-            changed
+            It has been confirmed that Claire Williams will step down as deputy
+            team principal after this weekend’s Italian Grand Prix…and the whole
+            family will walk away from F1. Here’s the news and my thoughts on
+            the decision.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink
-              href='https://the-race.com/formula-1/ferrari-appeals-racing-point-brake-duct-reprimand/'
-              target='_blank'>
-              The Race
+            <ContentLink href='https://www.gptoday.net/en/' target='_blank'>
+              The F1 Word
             </ContentLink>
           </p>
         </div>

@@ -150,7 +150,9 @@ const Schedule: React.FC = () => {
               Formula One car is 359.7 km/h (223.5 mph), established at the end
               of the start/finish straight. They experience a maximum g-force of
               4.50 during deceleration, as the track has many dramatic high to
-              low speed transitions.
+              low speed transitions. Cars are on full throttle for 80% of the
+              lap, and hit their Vmax on the circuit’s 1.1km start/finish
+              straight.
             </p>
           </div>
         </div>

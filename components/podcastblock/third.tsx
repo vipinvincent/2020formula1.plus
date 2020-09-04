@@ -7,14 +7,14 @@ const Third: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=XkpjO5nI6HI'
+        href='https://www.youtube.com/watch?v=YKg57v8RQ38'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/XkpjO5nI6HI/sddefault.jpg'
-              alt='Haas Explain Why Leaving Ferrari Would Be "Very Difficult"'
+              src='https://img.youtube.com/vi/YKg57v8RQ38/sddefault.jpg'
+              alt='F1 Drivers Look Ahead To The 2020 Italian Grand Prix'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -29,26 +29,21 @@ const Third: React.FC = () => {
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-2 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            Podcast
+            Interview
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=XkpjO5nI6HI'
+            href='https://www.youtube.com/watch?v=YKg57v8RQ38'
             target='_blank'>
-            Haas Explain Why Leaving Ferrari Would Be "Very Difficult"
+            F1 Drivers Look Ahead To The 2020 Italian Grand Prix
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Ferrari’s factory team along with its customer teams Alfa Romeo and
-            Haas have been struggling ever since racing has commenced in 2020.
-            With regulations scheduled to stay quite stable for another year,
-            Ferrari supposedly have few options when it comes to correcting
-            their power deficit until at least the end of 2021. As such, some
-            have questioned if Ferrari’s customer teams will continue using
-            their engines. Haas have now responded.
+            Ferrari's home race, end of an era at Williams and more - hear from
+            the F1 grid as they look forward to race weekend at Monza...
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='https://formula.world/' target='_blank'>
-              Formula World
+            <ContentLink href='http://www.formula1.com' target='_blank'>
+              Formula1.com
             </ContentLink>
           </p>
         </div>

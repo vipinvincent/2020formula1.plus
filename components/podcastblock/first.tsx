@@ -7,14 +7,14 @@ const First: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=PtQ1Ejp6dbY'
+        href='https://www.youtube.com/watch?v=H3DNJBSRJDU'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/PtQ1Ejp6dbY/sddefault.jpg'
-              alt='F1 Nation: Jody Scheckter on Ferrari crisis and Andreas Seidl on learning from Bayern Munich'
+              src='https://img.youtube.com/vi/H3DNJBSRJDU/sddefault.jpg'
+              alt='Building the Greatest F1 Team | Episode 1: Race Engineer'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,21 +32,22 @@ const First: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=PtQ1Ejp6dbY'
+            href='https://www.youtube.com/watch?v=H3DNJBSRJDU'
             target='_blank'>
-            F1 Nation: Jody Scheckter on Ferrari crisis and Andreas Seidl on
-            learning from Bayern Munich
+            Building the Greatest F1 Team | Episode 1: Race Engineer
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            This week we're joined by 1979 champion Jody Scheckter to hear about
-            Ferrari's crisis in 1980, before McLaren team principal Andreas
-            Seidl drops by to explain his management philosophy and how it's
-            been informed by Bayern Munich...
+            Welcome to a very special 7-part series where we've asked the
+            question: what would the lineup of the greatest F1 team look like?
+            We’ve set out to build a team made up of the best there ever was.
+            The first vacancy we're filling today is that of Race Engineer. On
+            the podcast, your host Jessica McFadyen is joined by James Allen,
+            Jonathan Noble, Stuart Codling and James Newbold.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='https://www.formula1.com' target='_blank'>
-              Formula1.com
+            <ContentLink href='https://www.motorsport.com/f1/' target='_blank'>
+              Motorsport.com
             </ContentLink>
           </p>
         </div>

@@ -7,14 +7,14 @@ const First: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=KqaG2m5dMXc'
+        href='https://www.youtube.com/watch?v=LRDt63hTjiE'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/KqaG2m5dMXc/sddefault.jpg'
-              alt='Bottas Vents About What "P***es Him Off"'
+              src='https://img.youtube.com/vi/LRDt63hTjiE/sddefault.jpg'
+              alt='Vettel Addresses What Went Wrong While Reflecting on Time at Ferrari'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,16 +32,15 @@ const First: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=KqaG2m5dMXc'
+            href='https://www.youtube.com/watch?v=LRDt63hTjiE'
             target='_blank'>
-            Bottas Vents About What "P***es Him Off"
+            Vettel Addresses What Went Wrong While Reflecting on Time at Ferrari
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Despite a promising start to the season with a win at Austria,
-            Valtteri Bottas finds himself 3rd in the championship after 7 races.
-            The primary reason being suggested behind this is his inability to
-            match Hamilton’s pace in the qualifying sessions. Bottas has now
-            vented his frustrations on this.
+            Ferrari’s Sebastian Vettel is getting closer to the end of his stint
+            at Ferrari. He has now looked back candidly at his time with the
+            team and has also revealed what he really thinks about his teammate
+            Charles Leclerc while speaking to the Italian branch Motorsport
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}

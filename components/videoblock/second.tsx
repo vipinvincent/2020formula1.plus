@@ -7,14 +7,14 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=-t1lmeK1CCs'
+        href='https://www.youtube.com/watch?v=DPWIC2S7avU'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/-t1lmeK1CCs/sddefault.jpg'
-              alt='Toto Wolff Calls Out “Certain Members” of Ferrari'
+              src='https://img.youtube.com/vi/DPWIC2S7avU/sddefault.jpg'
+              alt='How Ferrari woe adds more gloom for F1 2020’s unluckiest driver'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,23 +32,29 @@ const Second: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=-t1lmeK1CCs'
+            href='https://www.youtube.com/watch?v=DPWIC2S7avU'
             target='_blank'>
-            Carlos Sainz's rotten luck extends to his Ferrari deal
+            How Ferrari woe adds more gloom for F1 2020’s unluckiest driver
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Carlos Sainz’s switch to Ferrari couldn’t be coming at a worse time
-            in his career, as the team are currently going through their worst
-            season in 40 years. Carlos Sainz had to watch the Belgian Grand Prix
-            as a spectator for the second year in a row, following a technical
-            failure on his car just 30 minutes before the start of the race.
+            The Belgian Grand Prix was a miserable experience for Ferrari’s
+            Formula 1 drivers. Even the one who doesn’t race for Ferrari yet.
+            Carlos Sainz Jr didn't even start the race at Spa, yet he still
+            managed to match his 2021 team’s points haul from the weekend, as
+            both Ferrari drivers went the distance but failed to finish in the
+            top 10. Sainz is saying farewell to McLaren at the end of 2020 as
+            he’s been afforded the opportunity of his career by replacing
+            Sebastian Vettel at Ferrari from 2021. Or at least that’s how it
+            looked on paper. Now he faces a nervous few months observing from
+            afar in the hope that Ferrari can start to turn things around before
+            his arrival
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
             <ContentLink
-              href='https://www.youtube.com/c/FormulaWorld'
+              href='https://the-race.com/category/formula-1/'
               target='_blank'>
-              Thomas Maher
+              The Race
             </ContentLink>
           </p>
         </div>

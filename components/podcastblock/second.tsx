@@ -7,13 +7,13 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=a6B_YFVhrZE'
+        href='https://www.youtube.com/watch?v=8fZDDua4S88'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/a6B_YFVhrZE/sddefault.jpg'
+              src='https://img.youtube.com/vi/8fZDDua4S88/sddefault.jpg'
               alt='2020 Belgian GP Race Review | WTF1 Podcast'
             />
           </div>
@@ -29,23 +29,24 @@ const Second: React.FC = () => {
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-2 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            Podcast
+            Interview
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=a6B_YFVhrZE'
+            href='https://www.youtube.com/watch?v=8fZDDua4S88'
             target='_blank'>
-            2020 Belgian GP Race Review | WTF1 Podcast
+            How will the Concorde Agreement affect Formula One? | Chase Carey
+            Interview
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Not even Spa could give us any rain but there was still plenty to
-            talk about from the Belgian Grand Prix. Matt and Tommy discuss
-            Ricciardo and Gasly's incredible drives, if Bottas can ever prove
-            he's a title contender and much more!
+            Martin Brundle sits down with Chase Carey to discuss what the future
+            holds for F1 now the Concorde Agreement has been signed, what the
+            new financial regulations mean for teams, will the grid become much
+            closer and if he’s happy with the deal.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='http://www.wtf1.com' target='_blank'>
-              WTF1
+            <ContentLink href='https://www.skysports.com/f1/' target='_blank'>
+              Sky Sports F1
             </ContentLink>
           </p>
         </div>
