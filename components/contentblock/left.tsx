@@ -15,46 +15,60 @@ const Left: React.FC = () => {
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-4 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            Qualifying REPORT - Belgian GP 2020
+            FP2 REPORT - ITALIAN GP 2020
           </div>
           <H1>
-            Hamilton set the lap record in Qualifying leads Bottas and
-            Verstappen
+            Hamilton leads the Second Practice session from Bottas and Norris
           </H1>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Lewis Hamilton continued his form set the fastest time in Qualifying
-            of the Belgian Grand Prix with his Mercedes team mate Bottas in P3
-            and RedBull’s Max Verstappen in P3. All the drivers set their
-            fastest laps in soft compound. Hamilton ended up 0.5s clear of team
-            mate Valtteri Bottas, to secure his sixth pole at Spa and fifth of
-            the season. Bottas only managed second to give Mercedes their first
-            front row lock out in Belgium since 2015, finishing just 0.015s
-            adrift in third. Renault’s Daniel Ricciardo carried his impressive
-            Friday pace through to qualifying as he ended up a brilliant fourth
-            fastest, his best-ever qualifying at Spa ahead of Red Bull’s Alex
-            Albon who continued his improved form with his most accomplished
-            qualifying performance of the year.
+            Lewis Hamilton tops FP2 with Mercedes’ second one-two of the day as
+            Valtteri Bottas crossed the line +0.262s behind Hamilton . Hamilton
+            finished FP2 with a best time of 1m 20.192s which is 0.786s faster
+            than Charles Leclerc’s leading time from the session last year.
+            Lando Norris, of McLaren put himself in an impressive P3 which is
+            nine-tenths in the qualifying like simulations. Earlier, Lando
+            Norris’ session was hampered by a power unit, but a late effort on
+            the soft compound was good enough for P3. AlphaTauri's Pierre Gasly
+            impressed as the best Honda runner, ending up P4 and just over a
+            tenth quicker than Red Bull’s Max Verstappen.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Esteban Ocon finished in six for the first time since Monza last
-            year, while Carlos Sainz starts seventh, his best Spa qualifying,
-            beating the two Racing Points. Sergio Perez and Lance Stroll finised
-            in eighth and ninth respectively. McLaren’s Lando Norris completed
-            the top 10. Alphatauri’s Daniil Kvyat and Pierre Gasly slotted in
-            11th and 12 respectively with Kvyat out performing Gasly for the
-            first time in 2020.
+            Carlos Sainz finished in sixth in the second McLaren. Daniil Kvyat
+            of AlphaTauri’s crossed the line in seventh, ahead of the Racing
+            Point of Lance Stroll who was in P8. Meanwhile Ferrari had a better
+            afternoon with a top 10 finish as Leclerc took P9 which is 1.311s
+            off Hamilton’s time. Although both drivers struggled with Vettel
+            spinning and Leclerc had a short journey through gravel and
+            described the car as “so hard to drive”. The top 10 was rounded out
+            by Sergio Perez in the second Racing Point. Renault’s Esteban Ocon
+            crossed the line in P11 with the second Ferrari of Sebastian Vettel
+            finished in P12, who had a late spin at the exit of Lesmo 1,
+            seemingly caught out by his SF1000’s low-downforce set-up.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Ferrari disappoints in qualifying, lacking their pace in all three
-            sectors couldn’t manage to slot into Q3. Ferrari’s Charles Leclerc
-            and Sebastian Vettel finished in 13th and 14th respectively with the
-            red cars 1.048s slower than the dominant pace at Spa last year. This
-            was the first time since Silverstone 2014 that a red car took no
-            part in Q3. George Russell of Williams could manage Q2 but only
-            managed 15th place in the end. Alfa Romeo’s Kimi and Giovinazzi in
-            finished in 16th and 18th with Grosjean of Haas splitting the two
-            Alfa Romeos. The second Williams of Latifi managed 19th with the
-            second Haas of Kevin Magnussen finished in the last spot.
+            Antonio Giovinazzi was Alfa Romeo’s fastest driver in 13th, as Alex
+            Albon and Daniel Ricciardo ended up in 14th and 15th respectively,
+            only after the best laps deleted for track limit infringements at
+            the Parabolica. The deleted lap times of both drivers was worthy of
+            top 5 finish which looks promising for a better qualifying time on
+            Saturday. Kevin Magnussen took 16th for Haas, ahead of 2018
+            polesitter Kimi Raikkonen and the second Haas of Romain Grosjean in
+            18th. Nicholas Latifi finished as the fastest Williams in 19th,
+            while George Russell was 20th on his first session of the weekend as
+            Roy Nissany took his car in FP. But both drivers complained that his
+            car was “feeling horrific” on his high fuel runs raising eye brows
+            of many including the Clare Williams who will have a farewell
+            weekend at Williams team at Monza.
+          </p>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
+            So, with or without party mode, Mercedes still has a significant
+            advantage at the “Temple of Speed”. Even though, Lewis Hamilton
+            fears there will be a repeat of traffic "nightmare" from 2019 in
+            qualifying at Monza tomorrow, hopefully there’ll be no repeats of
+            the tow dramas on Saturday Qualifying this time. Meanwhile, FIA race
+            director Michael Masi issued a warning about drivers running too
+            slowly, and indicated that there would be a minimum out lap time in
+            FP3 and qualifying.
           </p>
           {/* <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}

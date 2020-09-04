@@ -8,53 +8,63 @@ const Right: React.FC = () => {
       <div className='h-40 xl:h-48 w-full'>
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
-          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1597490683/contentImages/content/lewis-hamilton2_x4c01p.jpg'
-          alt='FP3 REPORT - Belgian GP 2020'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1595072621/contentImages/content/valtteri_-bottas_m5dgbs.jpg'
+          alt='FP1 REPORT - Italian GP 2020'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-2 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            FP3 REPORT - Belgian GP 2020
+            FP1 REPORT - Italian GP 2020
           </div>
           <H1>
-            Hamilton leads final practice from Ocon and Norris as Ferrari's
-            Vettel deep-rooted at last spot
+            Bottas tops the First Practice session of 2020 Italian GP from
+            Hamilton and Albon
           </H1>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Lewis Hamilton set the fastest time in the final practice session of
-            the Belgian Grand Prix with Renault’s Esteban Ocon P2 and McLaren’s
-            Lando Norris in P3. Meanwhile at the rear end Ferrari’s struggles
-            continued at Spa with Sebastian Vettel posted the slowest time and
-            Charles Leclerc managed 17th. Hamilton set his fastest time of
-            1m43.255s, but his team mate Valtteri Bottas sliding at La Source on
-            his way only managed P5, 0.558s off the pace. Notably, Bottas had
-            set the pace on medium tyres with a fastest time of 1m43.813s on
-            medium tyres.
+            Valtteri Bottas leads the first practice session at Monza with a
+            Mercedes’ one-two. Lewis Hamilton crosses the line in P2 which was
+            0.245s slower than the lead driver. Red Bull’s Alex Albon finished
+            third while his team mate Max Verstappen crashed and lost his front
+            wing at the Ascari Chicane. Max spun while approaching into the exit
+            of the chicane, careered over the kerbs, through the gravel and hit
+            the barriers nose-first, causing a brief red flag. After swift
+            repairs to his Red Bull, the Dutchman finished fifth on softs.
+            Daniil Kvyat for AlphaTauri impressed with Fourth on medium tyres,
+            which was 0.8s off the top and ahead of Verstappen by a tenth.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Second-place Renault driver Esteban Ocon ed 0.230s off Hamilton with
-            a fast first sector to and ahead of McLaren’s Lando Norris, with
-            Redbull’s Alex Albon in fourth. His teammate, Max Verstappen was
-            second-fastest on medium tyres but when he switched to softs, he
-            could only manage sixth, 0.641s off the pace. The second Renault of
-            Daniel Ricciardo only could manage P7 under a tenth slower to finish
-            P7. Lance Stroll, eighth, with 0.733s off the pace and 0.02s faster
-            than McLaren’s Carlos Sainz, who split the Racing Points in ninth.
-            Sergio Perez was 10th on softs having made a mistake on his final
-            flying effort. Later Perez was summoned to the stewards and given a
-            warning for impeding Romain Grosjean.
+            AlphaTauri’s Pierre Gasly finished six for, as he was the last
+            driver within a second of Bottas, also was on medium tyres. Later
+            the Frenchman spun at the Turn 4 chicane at the end of the session,
+            rolling backwards into the gravel as the chequered flag was waving.
+            Racing Points disappoints again as in Belgium. Sergio Perez only
+            could manage a P7, which was exactly the same time as McLaren’s
+            Lando Norris in P8 both on soft tyres. Renault’s Daniel Ricciardo
+            was behind them in P9 and the second McLaren of Carlos Sainz rounded
+            out the top 10, with under a tenth of a second covering Sainz to
+            Perez. Last year’s winner Charles Leclerc was eleventh with mediums
+            for his fastest lap to go ahead of Renault’s Esteban Ocon who was in
+            12th. Lance Stroll settled for 13th as he couldn’t get a clean run
+            on soft tyres. Stroll did his fastest lap on hards which was 1.428s
+            slower than the leader.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The AlphaTauris were competitive on mediums with Pierre Gasly and
-            Daniil Kvyat lining up 11th and 12th, respectively, ahead of
-            Williams’ Nicholas Latifi in P13. Kevin Magnussen and Romain
-            Grosjean finished 14th and 15th, Magnussen 0.003s faster than
-            Grosjean. Ex-Belgian Grand Prix winner Kimi Raikkonen finished 16th
-            for Alfa Romeo.The Ferrari of Charles Leclerc, the winnner the 2019
-            Belgian Grand Prix only could manage 17th. The last year champions'
-            tumble is desolate. Williams’ George Russell and Alfa Romeo’s
-            Antonio Giovinazzi both finished ahead of Vettel in 18th and 19th.
+            Both Haas drivers, Romain Grosjean and Kevin Magnussen managed to
+            get soft-tyre flying runs in for P14 and P15. But Magnussen has to
+            end his session early as Haas investigated a cooling issue on his
+            car. Meanwhile the famous traffic at Monza hampered a number of
+            drivers’ laps with the drivers constantly complaining about “blind”
+            drivers in the front. Both Alfa Romeo has a clean run with Italian
+            Antonio Giovinazzi finishing ahead of his team mate Kimi Räikkönen
+            in P16 and P17 respectively. It was yet another punishing session
+            for Sebastian Vettel in Ferrari's home race. The three-time Italian
+            Grand Prix winner could only split the Williams in P19, losing his
+            control at Turn 6, showing just how much the four-time champion is
+            struggling. Roy Nissany, Williams' FP1 stand-in was the lead driver
+            for the team as he finished P18 with Nicholas Latifi in the second
+            Williams was last in the standings. George Russell will return back
+            in place of Nissany for FP2, later for the evening.
           </p>
           {/* <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
