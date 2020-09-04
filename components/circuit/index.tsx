@@ -13,7 +13,7 @@ const Schedule: React.FC = () => {
         <div className='h-64 sm:h-84 py-4 w-full text-center zoom-image'>
           <Zoom>
             <img
-              className='w-full h-64 sm:h-84 object-contain rounded-tl-xxl rounded-br-xl-t py-4 text-center'
+              className='w-full h-64 sm:h-84 object-contain rounded-tl-xxl rounded-br-xl-t py-4 px-2 text-center'
               src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1598967600/contentImages/circuit/monza_nlwdfu.png'
               alt='2020 Italian Grand Prix'
             />
