@@ -19,7 +19,7 @@ const QualifyingReport: React.FC = () => {
           <H1>
             Mercedes dominates Monza without “Party” modes as Lewis Hamilton’s
             breaks the lap record for P1 with Bottas in second and Carlos Sainz
-            third
+            in third
           </H1>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             Lewis Hamilton grabs pole position with a new track record at Monza
