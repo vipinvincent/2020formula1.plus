@@ -1,4 +1,12 @@
 import React from 'react'
+
+import Archive34 from 'components/newsarchives/race-report-belgian-gp'
+import Archive33 from 'components/newsarchives/qualifying-report-belgian-gp'
+import Archive32 from 'components/newsarchives/fp3-report-belgian-gp'
+import Archive31 from 'components/newsarchives/fp2-report-belgian-gp'
+import Archive30 from 'components/newsarchives/fp1-report-belgian-gp'
+import Archive29 from 'components/newsarchives/concorde-agreement-signed'
+import Archive28 from 'components/newsarchives/williams-sale'
 import Archive27 from 'components/newsarchives/party-mode-ban'
 import Archive26 from 'components/newsarchives/race-report-spanish-gp'
 import Archive25 from 'components/newsarchives/qualifying-report-spanish-gp'
@@ -33,7 +41,34 @@ const Main: React.FC = () => {
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mt-0 mb-1 px-2 '>
         Archived News
       </div>
-      <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
+      <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-0'>
+        <Archive34 />
+      </div>
+      <div className='w-100 flex flex-col xl:flex-row'>
+        <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 mt-4 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
+          <Archive33 />
+        </div>
+        <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 mt-4 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
+          <Archive32 />
+        </div>
+      </div>
+      <div className='w-100 flex flex-col xl:flex-row'>
+        <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 mt-4 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
+          <Archive30 />
+        </div>
+        <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 mt-4 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
+          <Archive31 />
+        </div>
+      </div>
+      <div className='w-100 flex flex-col xl:flex-row'>
+        <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 mt-4 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
+          <Archive29 />
+        </div>
+        <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 mt-4 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
+          <Archive28 />
+        </div>
+      </div>
+      <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-4'>
         <Archive27 />
       </div>
       <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-4'>

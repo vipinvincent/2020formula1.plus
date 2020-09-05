@@ -2,7 +2,7 @@ import React from 'react'
 import H1 from 'components/heading/H1'
 import Zoom from 'react-medium-image-zoom'
 
-const Main: React.FC = () => {
+const RaceReport: React.FC = () => {
   return (
     <div className='relative'>
       <div className='h-48 md:h-64 xl:h-104 w-full'>
@@ -194,4 +194,4 @@ const Main: React.FC = () => {
     </div>
   )
 }
-export default Main
+export default RaceReport

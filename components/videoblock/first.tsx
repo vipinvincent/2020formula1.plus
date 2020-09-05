@@ -7,14 +7,14 @@ const First: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=LRDt63hTjiE'
+        href='https://www.youtube.com/watch?v=BXtEDm7N8KU'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/LRDt63hTjiE/sddefault.jpg'
-              alt='Vettel Addresses What Went Wrong While Reflecting on Time at Ferrari'
+              src='https://img.youtube.com/vi/BXtEDm7N8KU/sddefault.jpg'
+              alt='What is a Tow, and Why is it Vital at Monza? | Tech Talk | 2020 Italian Grand Prix'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,20 +32,20 @@ const First: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=LRDt63hTjiE'
+            href='https://www.youtube.com/watch?v=BXtEDm7N8KU'
             target='_blank'>
-            Vettel Addresses What Went Wrong While Reflecting on Time at Ferrari
+            What is a Tow, and Why is it Vital at Monza? | Tech Talk | 2020
+            Italian Grand Prix
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Ferrari’s Sebastian Vettel is getting closer to the end of his stint
-            at Ferrari. He has now looked back candidly at his time with the
-            team and has also revealed what he really thinks about his teammate
-            Charles Leclerc while speaking to the Italian branch Motorsport
+            Slipstreaming. It's a simple concept, but why is it so powerful at
+            F1's temple of speed in Monza? Join Sam Collins for a primer on how
+            aerodynamic tows work.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='https://formula.world/' target='_blank'>
-              Formula World
+            <ContentLink href='https://formula1.com/' target='_blank'>
+              Formula1.com
             </ContentLink>
           </p>
         </div>
