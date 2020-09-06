@@ -11,7 +11,7 @@ import React from 'react'
 // import ESPN from 'components/contentblock/espn'
 // import AutoSport from 'components/contentblock/autosport'
 
-import RaceReport from 'components/contentblock/race-report'
+// import RaceReport from 'components/contentblock/race-report'
 // import QualifyingReport from 'components/contentblock/qualifying-report'
 
 import Archive36 from 'components/newsarchives/fp2-report-italian-gp'
