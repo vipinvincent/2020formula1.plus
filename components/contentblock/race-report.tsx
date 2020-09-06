@@ -15,7 +15,7 @@ const RaceReport: React.FC = () => {
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-2 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            Race REPORT - BELGIAN GP 2020
+            Race REPORT - Italian GP 2020
           </div>
           <H1>
             Hamilton dominates and wins his fourth win at Spa with Mercedes 1-2

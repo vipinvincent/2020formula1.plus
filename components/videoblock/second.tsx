@@ -7,14 +7,14 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=DPWIC2S7avU'
+        href='https://www.youtube.com/watch?v=X4Qks3HDHwg'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/DPWIC2S7avU/sddefault.jpg'
-              alt='How Ferrari woe adds more gloom for F1 2020’s unluckiest driver'
+              src='https://img.youtube.com/vi/X4Qks3HDHwg/sddefault.jpg'
+              alt='Claire Williams reveals reasons for F1 exit ahead of final Grand Prix as a family run team'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,29 +32,21 @@ const Second: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=DPWIC2S7avU'
+            href='https://www.youtube.com/watch?v=X4Qks3HDHwg'
             target='_blank'>
-            How Ferrari woe adds more gloom for F1 2020’s unluckiest driver
+            Claire Williams reveals reasons for F1 exit ahead of final Grand
+            Prix as a family run team
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The Belgian Grand Prix was a miserable experience for Ferrari’s
-            Formula 1 drivers. Even the one who doesn’t race for Ferrari yet.
-            Carlos Sainz Jr didn't even start the race at Spa, yet he still
-            managed to match his 2021 team’s points haul from the weekend, as
-            both Ferrari drivers went the distance but failed to finish in the
-            top 10. Sainz is saying farewell to McLaren at the end of 2020 as
-            he’s been afforded the opportunity of his career by replacing
-            Sebastian Vettel at Ferrari from 2021. Or at least that’s how it
-            looked on paper. Now he faces a nervous few months observing from
-            afar in the hope that Ferrari can start to turn things around before
-            his arrival
+            Claire Williams has spoken candidly to Sky Sports F1 about her
+            reasons for stepping away from the team and Formula 1 - admitting
+            she would have likely found staying into its new era under different
+            owners "enormously difficult".
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink
-              href='https://the-race.com/category/formula-1/'
-              target='_blank'>
-              The Race
+            <ContentLink href='https://www.skysports.com/f1' target='_blank'>
+              Sky Sports F1
             </ContentLink>
           </p>
         </div>

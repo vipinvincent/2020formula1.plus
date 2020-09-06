@@ -9,62 +9,63 @@ const Right: React.FC = () => {
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
           src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1595072621/contentImages/content/valtteri_-bottas_m5dgbs.jpg'
-          alt='FP1 REPORT - Italian GP 2020'
+          alt='FP3 REPORT - Italian GP 2020'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-2 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            FP1 REPORT - Italian GP 2020
+            FP3 REPORT - Italian GP 2020
           </div>
           <H1>
-            Bottas tops the First Practice session of 2020 Italian GP from
-            Hamilton and Albon
+            Mercedes’s Valtteri Bottas top FP3 ahead of the McLarens of Carlos
+            Sainz and Lando Norris, with Daniel Ricciardo’s Renault in fourth
           </H1>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Valtteri Bottas leads the first practice session at Monza with a
-            Mercedes’ one-two. Lewis Hamilton crosses the line in P2 which was
-            0.245s slower than the lead driver. Red Bull’s Alex Albon finished
-            third while his team mate Max Verstappen crashed and lost his front
-            wing at the Ascari Chicane. Max spun while approaching into the exit
-            of the chicane, careered over the kerbs, through the gravel and hit
-            the barriers nose-first, causing a brief red flag. After swift
-            repairs to his Red Bull, the Dutchman finished fifth on softs.
-            Daniil Kvyat for AlphaTauri impressed with Fourth on medium tyres,
-            which was 0.8s off the top and ahead of Verstappen by a tenth.
+            Valtteri Bottas topped the third practice session as McLaren’s
+            Carlos Sainz and Lando Norris finishes in P2 and P3 respectively as
+            Hamilton narrowly avoided a heart stopping accident at speeds
+            approaching 200mph towards the end of session from the slow-moving
+            traffic, which is going to be a big issue during Qualifying. The
+            Mercedes was denied of a clean sweep of 1-2s as the session red
+            flagged intermittently when Ricciardo was forced to pull over at the
+            side of the track with a mechanical issue just after setting the
+            fourth quickest time. The Australian already has taken a new power
+            unit for this weekend; with 10 minutes remaining as he crawled to a
+            halt after the Della Roggia chicane. Lewis Hamilton finished fifth
+            behind Ricciardo after failing to set a time on the first lap on his
+            final run on the soft tyres as the third practice session was full
+            of slipstreaming action.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            AlphaTauri’s Pierre Gasly finished six for, as he was the last
-            driver within a second of Bottas, also was on medium tyres. Later
-            the Frenchman spun at the Turn 4 chicane at the end of the session,
-            rolling backwards into the gravel as the chequered flag was waving.
-            Racing Points disappoints again as in Belgium. Sergio Perez only
-            could manage a P7, which was exactly the same time as McLaren’s
-            Lando Norris in P8 both on soft tyres. Renault’s Daniel Ricciardo
-            was behind them in P9 and the second McLaren of Carlos Sainz rounded
-            out the top 10, with under a tenth of a second covering Sainz to
-            Perez. Last year’s winner Charles Leclerc was eleventh with mediums
-            for his fastest lap to go ahead of Renault’s Esteban Ocon who was in
-            12th. Lance Stroll settled for 13th as he couldn’t get a clean run
-            on soft tyres. Stroll did his fastest lap on hards which was 1.428s
-            slower than the leader.
+            Red Bull’s Max Verstappen managed sixth on medium tyres, as he is
+            the only driver to do so in the session. Alex Albon took sixth on
+            softs behind his Red Bull team mate, with the second Renault of
+            Esteban Ocon crossed the line in seventh. The Racing Points rounded
+            up top 10 with ninth and 10th ahead of last year's Italian GP winner
+            Charles Leclerc in the final seconds of the session. Even though
+            they had impressed on Friday, the AlphaTauris were down in 12th and
+            13th in FP3, with Pierre Gasly narrowly ahead of Daniil Kvyat. All
+            the top 13 cars were only separated by 0.9s from the leader Bottas,
+            the qualifying will be so close with lots of slipstreaming and tow
+            blagging action reminiscing of last year qualifying.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Both Haas drivers, Romain Grosjean and Kevin Magnussen managed to
-            get soft-tyre flying runs in for P14 and P15. But Magnussen has to
-            end his session early as Haas investigated a cooling issue on his
-            car. Meanwhile the famous traffic at Monza hampered a number of
-            drivers’ laps with the drivers constantly complaining about “blind”
-            drivers in the front. Both Alfa Romeo has a clean run with Italian
-            Antonio Giovinazzi finishing ahead of his team mate Kimi Räikkönen
-            in P16 and P17 respectively. It was yet another punishing session
-            for Sebastian Vettel in Ferrari's home race. The three-time Italian
-            Grand Prix winner could only split the Williams in P19, losing his
-            control at Turn 6, showing just how much the four-time champion is
-            struggling. Roy Nissany, Williams' FP1 stand-in was the lead driver
-            for the team as he finished P18 with Nicholas Latifi in the second
-            Williams was last in the standings. George Russell will return back
-            in place of Nissany for FP2, later for the evening.
+            Romain Grosjean of Haas beat Ferrari's Sebasitan Vettel to 14th.
+            Meanwhile the problems for Sebastian Vettel continues as his pace
+            nowhere near to the top drivers, sparking fears for his
+            participation in Q2 nad Q3 sessions of qualifying. Kevin Magnussen
+            in the second Haas took 16th, just behind Vettel, while Kimi
+            Raikkonen was 17th for Alfa Romeo. The two Williams drivers led by
+            George Russell in 18th, his team mate Nicholas Latifi 19th, spitted
+            the Alfa Romeos, as Antonio Giovinazzi rounded off the standings two
+            seconds off top spot. With the “party” modes now outlawed from this
+            weekend and a heavy Monza traffic as drivers look for a tow, we’re
+            set for a captivating shootout for pole in qualifying. 'It's going
+            to be a nightmare' – Hamilton indicated based on last year’s
+            qualifying session at Monza’s ended in bizarre circumstances as most
+            of the drivers missed the chance of a final run in Q3 as they were
+            caught in traffic for position in a bid to get in line for a tow.
           </p>
           {/* <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}

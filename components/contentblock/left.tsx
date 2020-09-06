@@ -8,67 +8,65 @@ const Left: React.FC = () => {
       <div className='h-40 xl:h-48 w-full'>
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
-          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1597490683/contentImages/content/lewis-hamilton3_za9deq.jpg'
-          alt='Qualifying REPORT - Belgian GP 2020'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1597490309/contentImages/content/lewis-hamilton_oavnow.jpg'
+          alt='Qualifying REPORT - Italian GP 2020'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-4 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            FP2 REPORT - ITALIAN GP 2020
+            Qualifying REPORT - Italian GP 2020
           </div>
           <H1>
-            Hamilton leads the Second Practice session from Bottas and Norris
+            Mercedes dominates Monza without “Party” modes as Lewis Hamilton’s
+            breaks the lap record for P1 from Bottas and Sainz
           </H1>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Lewis Hamilton tops FP2 with Mercedes’ second one-two of the day as
-            Valtteri Bottas crossed the line +0.262s behind Hamilton . Hamilton
-            finished FP2 with a best time of 1m 20.192s which is 0.786s faster
-            than Charles Leclerc’s leading time from the session last year.
-            Lando Norris, of McLaren put himself in an impressive P3 which is
-            nine-tenths in the qualifying like simulations. Earlier, Lando
-            Norris’ session was hampered by a power unit, but a late effort on
-            the soft compound was good enough for P3. AlphaTauri's Pierre Gasly
-            impressed as the best Honda runner, ending up P4 and just over a
-            tenth quicker than Red Bull’s Max Verstappen.
+            Lewis Hamilton grabs pole position with a new track record at Monza
+            in the Italian Grand Prix qualifying ahead of Valtteri Bottas
+            claiming yet another 1-2 for Mercedes. It was a private affair for
+            pole position at Monza between the two Mercedes cars as Lewis
+            Hamilton, leading his team mate Valtteri Bottas only by 0.069s as
+            Ferrari failed to get a car in the top 10 at their home race for the
+            first time in 36 years. Carlos Sainz for McLaren was the best of the
+            rest with an impressive third, which was McLaren’s third of the
+            season, with Sergio Perez in the Racing Point at fourth. It’s also
+            McLaren’s first top-three start at Monza since they locked out the
+            front row in 2012. Perez will start fourth for the eighth time in
+            his F1 career, with Max Verstappen pushed down to fifth. Since the
+            turbo hybrid era began in 2014, this is for the first time Red Bull
+            have failed to start on the front two rows of the grid at Monza.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Carlos Sainz finished in sixth in the second McLaren. Daniil Kvyat
-            of AlphaTauri’s crossed the line in seventh, ahead of the Racing
-            Point of Lance Stroll who was in P8. Meanwhile Ferrari had a better
-            afternoon with a top 10 finish as Leclerc took P9 which is 1.311s
-            off Hamilton’s time. Although both drivers struggled with Vettel
-            spinning and Leclerc had a short journey through gravel and
-            described the car as “so hard to drive”. The top 10 was rounded out
-            by Sergio Perez in the second Racing Point. Renault’s Esteban Ocon
-            crossed the line in P11 with the second Ferrari of Sebastian Vettel
-            finished in P12, who had a late spin at the exit of Lesmo 1,
-            seemingly caught out by his SF1000’s low-downforce set-up.
+            The second McLaren of Lando Norris crossed the line in sixth with
+            Daniel Ricciardo in seventh. Lance Stroll in the second Racing point
+            finished eighth and Alexander Albon, who had three laps deleted for
+            exceeding track limits finished in ninth. AlphaTauri’s Pierre Gasly
+            rounded out the top 10 as his teammate Daniil Kvyat finished 11th.
+            Meanwhile, Esteban Ocon had to settle for P12 as he got knocked out
+            despite running behind teammate Ricciardo early in his final Q2 lap
+            to try and take advantage of the tow. But, Ricciardo made a mistake
+            and put his left-side wheels off into the gravel as he was exiting
+            the second chicane and he later slowed and abandoned his lap, with
+            Ocon not improving his final flyer in Q2.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Antonio Giovinazzi was Alfa Romeo’s fastest driver in 13th, as Alex
-            Albon and Daniel Ricciardo ended up in 14th and 15th respectively,
-            only after the best laps deleted for track limit infringements at
-            the Parabolica. The deleted lap times of both drivers was worthy of
-            top 5 finish which looks promising for a better qualifying time on
-            Saturday. Kevin Magnussen took 16th for Haas, ahead of 2018
-            polesitter Kimi Raikkonen and the second Haas of Romain Grosjean in
-            18th. Nicholas Latifi finished as the fastest Williams in 19th,
-            while George Russell was 20th on his first session of the weekend as
-            Roy Nissany took his car in FP. But both drivers complained that his
-            car was “feeling horrific” on his high fuel runs raising eye brows
-            of many including the Clare Williams who will have a farewell
-            weekend at Williams team at Monza.
-          </p>
-          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            So, with or without party mode, Mercedes still has a significant
-            advantage at the “Temple of Speed”. Even though, Lewis Hamilton
-            fears there will be a repeat of traffic "nightmare" from 2019 in
-            qualifying at Monza tomorrow, hopefully there’ll be no repeats of
-            the tow dramas on Saturday Qualifying this time. Meanwhile, FIA race
-            director Michael Masi issued a warning about drivers running too
-            slowly, and indicated that there would be a minimum out lap time in
-            FP3 and qualifying.
+            Charles Leclerc of Ferrari ended up in P13, calling his Q2 lap "the
+            best I can do", as Ferrari was again exposed by its straightline
+            speed issues with the SF100. Kimi Raikkonen for Alfa Romeo and Kevin
+            Magnussen for Haas made it through to Q2, but Magnussen ran very
+            wide into the gravel as he flew through the second Lesmo, which
+            ruined his final lap in the middle segment as they finished 14th and
+            15th respectively. The second Haas of Romain Grosjean ended up in
+            P16, ahead of Vettel, who abandoned his final Q1 run, as there were
+            race-like scenes on the final runs in the opening segment, where
+            backing-up at the Parabolica meant several drivers including Vettel
+            fought for space at the right-hander and down the main straight.
+            Behind Vettel came Antonio Giovinazzi and George Russell, who
+            criticized his Williams team over his radio for getting involved in
+            the chaotic scenes. Meanwhile the second Williams driver Nicholas
+            Latifi, who was also involved, was the only driver to set a personal
+            best, although he still ended up 20th and last.
           </p>
           {/* <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
