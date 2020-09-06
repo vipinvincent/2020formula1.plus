@@ -11,7 +11,7 @@ import React from 'react'
 // import ESPN from 'components/contentblock/espn'
 // import AutoSport from 'components/contentblock/autosport'
 
-// import RaceReport from 'components/contentblock/race-report'
+import RaceReport from 'components/contentblock/race-report'
 // import QualifyingReport from 'components/contentblock/qualifying-report'
 
 import Archive36 from 'components/newsarchives/fp2-report-italian-gp'
@@ -35,23 +35,23 @@ const Main: React.FC = () => {
       <div className='w-100 mb-0 mt-2'>
         <Race />
       </div>
-      {/* <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
+      <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
+        Latest News
+      </div>
+      <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
         <RaceReport />
-      </div> */}
+      </div>
       {/* <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-4'>
         <FirstContent />
       </div> */}
       <div className='w-100 mb-0 mt-2'>
         <Qualifying />
       </div>
-      <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 mt-4'>
-        Latest News
-      </div>
       <div className='w-100 flex flex-col xl:flex-row'>
-        <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-0'>
+        <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-4'>
           <SecondContent />
         </div>
-        <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-0'>
+        <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-4'>
           <ThirdContent />
         </div>
       </div>
