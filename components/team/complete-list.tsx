@@ -52,7 +52,7 @@ const CompleteList: React.FC = () => {
                 </td>
                 <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell text-right mercedes'>
                   <span className='px-2 inline-flex text-base leading-5 font-semibold rounded-full py-2 bg-gray-200 text'>
-                    264 (739)
+                    281 (739)
                   </span>
                 </td>
               </tr>
@@ -104,7 +104,7 @@ const CompleteList: React.FC = () => {
                 </td>
                 <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell text-right mclaren'>
                   <span className='px-2 inline-flex text-base leading-5 font-semibold rounded-full py-2 bg-gray-200 text'>
-                    68 (145)
+                    98 (145)
                   </span>
                 </td>
               </tr>
@@ -129,13 +129,40 @@ const CompleteList: React.FC = () => {
                 </td>
                 <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell text-right racingpoint'>
                   <span className='px-2 inline-flex text-base leading-5 font-semibold rounded-full py-2 bg-gray-200 text'>
-                    66 (73)
+                    82 (73)
+                  </span>
+                </td>
+              </tr>{' '}
+              <tr className='odd:bg-gray-200 bg-white-100'>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-left table-cell'>
+                  5
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell'>
+                  <div className='flex items-center'>
+                    <TextLink href='/renault-f1' target='_self'>
+                      <div className='text-base leading-5 font-medium text-gray-900 renault '>
+                        <span className='text three-d-text'>
+                          Renault DP World F1 Team
+                        </span>
+                      </div>
+                    </TextLink>
+                  </div>
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-sm leading-5 font-medium text-gray-900 text-center hidden sm:table-cell'>
+                  R.S.20
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-sm leading-5 font-medium text-gray-900 text-center hidden sm:table-cell'>
+                  United Kingdom
+                </td>
+                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell text-right renault'>
+                  <span className='px-2 inline-flex text-base leading-5 font-semibold rounded-full py-2 bg-gray-200 text three-d-text'>
+                    71 (91)
                   </span>
                 </td>
               </tr>
               <tr className='odd:bg-gray-200 bg-white-100'>
                 <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-left table-cell'>
-                  5
+                  6
                 </td>
                 <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell'>
                   <div className='flex items-center'>
@@ -162,33 +189,6 @@ const CompleteList: React.FC = () => {
               </tr>
               <tr className='odd:bg-gray-200 bg-white-100'>
                 <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-left table-cell'>
-                  6
-                </td>
-                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell'>
-                  <div className='flex items-center'>
-                    <TextLink href='/renault-f1' target='_self'>
-                      <div className='text-base leading-5 font-medium text-gray-900 renault '>
-                        <span className='text three-d-text'>
-                          Renault DP World F1 Team
-                        </span>
-                      </div>
-                    </TextLink>
-                  </div>
-                </td>
-                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-sm leading-5 font-medium text-gray-900 text-center hidden sm:table-cell'>
-                  R.S.20
-                </td>
-                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-sm leading-5 font-medium text-gray-900 text-center hidden sm:table-cell'>
-                  United Kingdom
-                </td>
-                <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell text-right renault'>
-                  <span className='px-2 inline-flex text-base leading-5 font-semibold rounded-full py-2 bg-gray-200 text three-d-text'>
-                    59 (91)
-                  </span>
-                </td>
-              </tr>
-              <tr className='odd:bg-gray-200 bg-white-100'>
-                <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-left table-cell'>
                   7
                 </td>
                 <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell'>
@@ -208,7 +208,7 @@ const CompleteList: React.FC = () => {
                 </td>
                 <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell text-right '>
                   <span className='px-2 inline-flex text-base leading-5 font-semibold rounded-full py-2 bg-gray-200 text'>
-                    20 (85)
+                    47 (85)
                   </span>
                 </td>
               </tr>

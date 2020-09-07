@@ -7,14 +7,14 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=X4Qks3HDHwg'
+        href='https://www.youtube.com/watch?v=Z9ZA2wa9h4o'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/X4Qks3HDHwg/sddefault.jpg'
-              alt='Claire Williams reveals reasons for F1 exit ahead of final Grand Prix as a family run team'
+              src='https://img.youtube.com/vi/Z9ZA2wa9h4o/sddefault.jpg'
+              alt='Ted reveals who at Mercedes knew the pitlane was shut & speaks to Pierre Gasly! | The Notebook Italy'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,16 +32,18 @@ const Second: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=X4Qks3HDHwg'
+            href='https://www.youtube.com/watch?v=Z9ZA2wa9h4o'
             target='_blank'>
-            Claire Williams reveals reasons for F1 exit ahead of final Grand
-            Prix as a family run team
+            Ted reveals who at Mercedes knew the pitlane was shut & speaks to
+            Pierre Gasly! | The Notebook Italy
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Claire Williams has spoken candidly to Sky Sports F1 about her
-            reasons for stepping away from the team and Formula 1 - admitting
-            she would have likely found staying into its new era under different
-            owners "enormously difficult".
+            Ted Kravitz brings you all the news and views from the paddock
+            following a dramatic Italian Grand Prix. Ted reveals who from the
+            Mercedes team spotted that the pit-lane had shut (but too late for
+            Lewis Hamilton), what the mood was like in the Williams garage as
+            Claire Williams departs F1, and speaks to surprise race winner
+            Pierre Gasly!
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}

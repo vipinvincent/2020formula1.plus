@@ -7,71 +7,105 @@ const Schedule: React.FC = () => {
   return (
     <div className='flex flex-col mb-4'>
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
-        Circuit Facts - Autodromo Internazionale del Mugello
+        Circuit Facts - Autodromo Nazionale Monza
       </div>
       <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mb-6'>
         <div className='h-64 sm:h-84 py-4 w-full text-center zoom-image'>
           <Zoom>
             <img
               className='w-full h-64 sm:h-84 object-contain rounded-tl-xxl rounded-br-xl-t py-4 px-2 text-center'
-              src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1599458704/contentImages/circuit/MugelloRacingCircui_wikiwe.png'
-              alt='2020 Tuscan Grand Prix'
+              src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1598967600/contentImages/circuit/monza_nlwdfu.png'
+              alt='2020 Italian Grand Prix'
             />
           </Zoom>
         </div>
         <div className='relative max-w-screen-xl mx-auto'>
           <div className='py-4 text-left px-4'>
             <p className='mt-1 text-normal leading-normal text-gray-700'>
-              Formula 1 Pirelli Gran Premio Della Toscana Ferrari 1000 2020, the
-              2020 Tuscan Grand Prix, Ferrari's 1,000th F1 race, which takes
-              place over 59 laps of the 5.245-kilometre Autodromo Internazionale
-              del Mugello in Italy on Sunday, September 13.
+              Formula 1 Gran Premio Heineken D’italia 2020 takes place over 53
+              laps of the 5.793-kilometre Autodromo Nazionale Monza on Sunday,
+              September 6.
             </p>
             <p className='mt-2 text-normal leading-normal text-gray-700'>
-              Mugello Circuit (Autodromo Internazionale del Mugello) is a race
-              track in Scarperia e San Piero, Tuscany, Italy. The circuit length
-              is 5.245 km (3.259 mi). It has 15 turns and a 1.141 km (0.709 mi)
-              long straight. The circuit stadium stands have a capacity of
-              50,000. Although the ‘Mugello’ name had been associated with
-              racing in that area of Tuscany since back in 1914 – having
-              previously referred to a fearsome 61-km road racing course – the
-              Mugello circuit proper opened in June 1974. Ferrari then purchased
-              the track, based a 120-km drive away from their headquarters, in
-              1988.
+              The Autodromo Nazionale di Monza is a historic race track near the
+              city of Monza, north of Milan, in Italy. Built in 1922, it is the
+              world's third purpose-built motor racing circuit after those of
+              Brooklands and Indianapolis. The circuit's biggest event is the
+              Formula One Italian Grand Prix. Except for in 1980, the race has
+              been hosted there since the series' inception.
             </p>
             <p className='mt-2 text-normal leading-normal text-gray-700'>
-              The present-day closed Mugello circuit was constructed in 1973 and
-              opened in 1974, about 5 km east from the easternmost part of the
-              original road circuit. The circuit was used for the in-season test
-              during the 2012 Formula One season, by all teams except HRT. An
-              unofficial track record of 1:21.035 was set by Romain Grosjean
-              during the test. The track was praised by Mark Webber, who stated
-              that he "did 10 dry laps today around Mugello, which is the same
-              as doing 1000 laps around Abu Dhabi track in terms of
-              satisfaction". Four-time Formula One world champion Sebastian
-              Vettel said “unfortunately we don’t have this track on the
-              calendar. It’s an incredible circuit with a lot of high-speed
-              corners”. It holds a grade 1 FIA license, meaning that it meets
-              the standards to host a Formula 1 race.
+              Built in the Royal Villa of Monza park in a woodland setting, the
+              site has three tracks – the 5.793-kilometre (3.600 mi) Grand Prix
+              track, the 2.405-kilometre (1.494 mi) Junior track, and a
+              4.250-kilometre (2.641 mi) high speed oval track with steep
+              bankings which has been unused for many decades and has been
+              decaying for years until restorations in the 2010s. The major
+              features of the main Grand Prix track include the Curva Grande,
+              the Curva di Lesmo, the Variante Ascari and the Curva Parabolica.
+              The high speed curve, Curva Grande, is located after the Variante
+              del Rettifilo which is located at the end of the front straight or
+              Rettifilo Tribune, and is usually taken flat out by Formula One
+              cars.
             </p>
             <p className='mt-2 text-normal leading-normal text-gray-700'>
-              Despite having been a fixture for a number of international series
-              over the years, most notably MotoGP, 2020 marks the first time
-              that Mugello hosts a Formula 1 World Championship event. On 10
-              July 2020, it was announced that the circuit would be the ninth
-              race in the 2020 Formula One calendar, marking the 1000th Grand
-              Prix for Ferrari.
+              Constructed in just 110 days in 1922, the Autodromo Nazionale
+              Monza was the world’s third purpose-built race track, coming after
+              Brooklands in the UK and Indianapolis in the US. Like those two
+              tracks, the original circuit featured a daunting series of banked
+              curves, as well as much of the ‘outfield’ section that’s still in
+              use today. Monza opened its doors on September 3 1922, just a week
+              before it hosted that year’s Italian Grand Prix. It was then part
+              of the original Formula 1 calendar in 1950, and has held the
+              Italian Grand Prix every year bar one since.
             </p>
             <p className='mt-2 text-normal leading-normal text-gray-700'>
-              Mugello is a swooping, undulating circuit that the drivers almost
-              universally adore. Set in a valley, the natural topography makes a
-              lap of the 5.2-km track which has hosted many an F1 test in its
-              time, including Kimi Raikkonen’s famous first outing with Sauber a
-              real rollercoaster ride, with the stomach-churning run through
-              Casanova, Savelli and into Arrabbiata 1 and 2 a particular
-              highlight.
+              The parkland setting of Monza, located just to the north east of
+              Italy’s fashion capital Milan, makes for a relaxed, leafy setting
+              for a Grand Prix, while the preserved Monza banking – spot it in
+              the background as the cars exit the Parabolica, as well as on the
+              flyover bridge they pass under en route to the Variante Ascari –
+              leaves you in no doubt that you’re in the presence of a very
+              special race track.
             </p>
-            {/*             
+            <p className='mt-2 text-normal leading-normal text-gray-700'>
+              Drivers are on full throttle for most of the lap due to its long
+              straights and fast corners, and is usually the scenario in which
+              the open-wheeled Formula One cars show the raw speed of which they
+              are capable: 372 kilometres per hour (231 mph) during the
+              mid-2000s V10 engine formula, although in 2012 with the 2.4L V8
+              engines, top speeds in Formula One rarely reached over 340
+              kilometres per hour (211 mph); the 1.6L turbocharged hybrid V6
+              engine, reduced-downforce formula of 2014 displayed top speeds of
+              up to 360 kilometres per hour (224 mph). The circuit is generally
+              flat, but has a gradual gradient from the second Lesmos to the
+              Variante Ascari. Due to the low aerodynamic profile needed, with
+              its resulting low downforce, the grip is very low; understeer is a
+              more serious issue than at other circuits; however, the opposite
+              effect, oversteer, is also present in the second sector, requiring
+              the use of a very distinctive opposite lock technique. Since both
+              maximum power and minimal drag are keys for speed on the
+              straights, only competitors with enough power or aerodynamic
+              efficiency at their disposal are able to challenge for the top
+              places.
+            </p>
+            <p className='mt-2 text-normal leading-normal text-gray-700'>
+              {' '}
+              In addition to Formula One, the circuit previously hosted the 1000
+              km Monza, and endurance sports car race held as part of the World
+              Sportscar Championship and the Le Mans Series. Monza also featured
+              the unique Race of Two Worlds events, which attempted to run
+              Formula One and USAC National Championship cars against each
+              other. The racetrack also previously held rounds of the Grand Prix
+              motorcycle racing (Italian motorcycle Grand Prix), World Touring
+              Car Championship, TCR International Series, Superbike World
+              Championship, Formula Renault 3.5 Series and Auto GP. Monza
+              currently hosts rounds of the Blancpain GT Series Endurance Cup,
+              International GT Open and Euroformula Open Championship, as well
+              as various local championships such as the TCR Italian Series,
+              Italian GT Championship, Porsche Carrera Cup Italia and Italian F4
+              Championship, as well as the Monza Rally Show.
+            </p>
             <p className='mt-2 text-normal leading-normal text-gray-700'>
               <span className='font-bold italic'>
                 A lap in a Formula One car
@@ -119,7 +153,7 @@ const Schedule: React.FC = () => {
               low speed transitions. Cars are on full throttle for 80% of the
               lap, and hit their Vmax on the circuit’s 1.1km start/finish
               straight.
-            </p> */}
+            </p>
           </div>
         </div>
         <p className='my-2 pr-4 text-base leading-normal text-gray-700 text-right'>
@@ -129,7 +163,7 @@ const Schedule: React.FC = () => {
         </p>
       </div>
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
-        2020 Tuscan Grand Prix weekend{' '}
+        2020 Italian Grand Prix weekend{' '}
         <span className='font-light'>(Track Time)</span>
       </div>
       <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mb-4'>
@@ -141,7 +175,7 @@ const Schedule: React.FC = () => {
                   Practice 1
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  11 - September ( 11:00 - 12:30 )
+                  04 - September ( 11:00 - 12:30 )
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -149,7 +183,7 @@ const Schedule: React.FC = () => {
                   Practice 2
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  11 - September ( 15:00 - 16:30 )
+                  04 - September ( 15:00 - 16:30 )
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -157,7 +191,7 @@ const Schedule: React.FC = () => {
                   Practice 3
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  12 - September ( 12:00 - 13:00 )
+                  05 - September ( 12:00 - 13:00 )
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -179,7 +213,7 @@ const Schedule: React.FC = () => {
                   </SiderBarLink>
                 </div> */}
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  12 - September ( 15:00 - 16:00 )
+                  05 - September ( 15:00 - 16:00 )
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -193,7 +227,7 @@ const Schedule: React.FC = () => {
                   </SiderBarLink> */}
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  13 - September ( 15:10 - 17:10 )
+                  06 - September ( 15:10 - 17:10 )
                 </div>
               </div>
             </div>
@@ -201,7 +235,7 @@ const Schedule: React.FC = () => {
         </div>
       </div>
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
-        Tuscan Grand Prix Facts
+        Italian Grand Prix Facts
       </div>
       <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
         <div className='relative max-w-screen-xl mx-auto'>
@@ -212,7 +246,7 @@ const Schedule: React.FC = () => {
                   Circuit Name
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  Autodromo Internazionale del Mugello
+                  Autodromo Nazionale Monza
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -220,7 +254,7 @@ const Schedule: React.FC = () => {
                   Track Length
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  5.245 km (3.259 mi)
+                  5.793km (3.600 mi)
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -228,7 +262,7 @@ const Schedule: React.FC = () => {
                   Turns
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  15 turns
+                  11 turns
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -239,23 +273,23 @@ const Schedule: React.FC = () => {
                   53 laps (306.72 km)
                 </div>
               </div>
-              {/* <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
+              <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
                 <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1'>
                   F1 Races Held
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  0
+                  89
                 </div>
-              </div> */}
-              {/* <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
+              </div>
+              <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
                 <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1'>
                   First GP held
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  2020
+                  1950
                 </div>
-              </div> */}
-              {/* <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
+              </div>
+              <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
                 <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1'>
                   Most Wins
                 </div>
@@ -264,7 +298,7 @@ const Schedule: React.FC = () => {
                   <br />
                   Kingdom Lewis Hamilton (5)
                 </div>
-              </div> */}
+              </div>
               {/* <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
                 <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1'>
                   Most Podiums
@@ -281,7 +315,7 @@ const Schedule: React.FC = () => {
                   Lewis Hamilton (73)
                 </div>
               </div> */}
-              {/* <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
+              <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
                 <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1'>
                   Most Wins (constructors)
                 </div>
@@ -290,8 +324,8 @@ const Schedule: React.FC = () => {
                     <span className='text'> Ferrari (20)</span>
                   </div>
                 </div>
-              </div> */}
-              {/* <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
+              </div>
+              <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
                 <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1'>
                   Lap Record
                 </div>
@@ -299,8 +333,8 @@ const Schedule: React.FC = () => {
                   Rubens Barrichello (<span className='text'>Ferrari</span>)
                   <br /> 1:21.046
                 </div>
-              </div> */}
-              {/* <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
+              </div>
+              <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
                 <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1 self-center'>
                   2019 Results
                 </div>
@@ -314,7 +348,7 @@ const Schedule: React.FC = () => {
                     <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block ferrari'>
                       Charles Leclerc (<span className='text'>Ferrari</span>){' '}
                       <br />
-                      1:23:45.710
+                      1:15:26.665
                     </div>
                   </div>
                   <div className='inine-block pb-4'>
@@ -340,8 +374,8 @@ const Schedule: React.FC = () => {
                       <br />
                       +35.199s
                     </div>
-                  </div> */}
-              {/* <div className='inine-block pb-4'>
+                  </div>
+                  {/* <div className='inine-block pb-4'>
                     <div className='text-primary-on text-lg font-bold leading-5 w-12 inline-block'>
                       II<sup>nd</sup>
                       <br />
@@ -353,7 +387,7 @@ const Schedule: React.FC = () => {
                       +7.679s
                     </div>
                   </div> */}
-              {/* <div className='inine-block pb-4'>
+                  {/* <div className='inine-block pb-4'>
                     <div className='text-primary-on text-lg font-bold leading-5 w-12 inline-block'>
                       III<sup>rd</sup>
                       <br />
@@ -365,8 +399,8 @@ const Schedule: React.FC = () => {
                       +30.117s
                     </div>
                   </div> */}
-              {/* </div>
-              </div> */}
+                </div>
+              </div>
             </div>
           </div>
         </div>

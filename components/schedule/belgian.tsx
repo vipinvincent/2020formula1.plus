@@ -7,33 +7,33 @@ const Schedule: React.FC = () => {
   return (
     <div className='flex flex-col mb-4'>
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
-        Recent Race
+        Round 7 - Belgian GP
       </div>
       <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
         <div className='h-32 sm:h-48 py-4 w-full text-center'>
           <img
             className='w-full h-full object-contain rounded-tl-xxl rounded-br-xl-t pt-2 px-8 text-center'
-            src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1598967600/contentImages/circuit/monza_nlwdfu.png'
-            alt='2020 Italian Grand Prix'
+            src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1597814913/contentImages/circuit/spa-francorchamps_ghhxjc.png'
+            alt='2020 Belgian Grand Prix'
           />
         </div>
         <div className='relative max-w-screen-xl mx-auto'>
           <div className='py-4 text-left px-4'>
             <ActionLink href='/circuit-details' target='_self'>
-              Formula 1 Gran Premio Heineken D’italia 2020
+              Formula 1 Rolex Belgian Grand Prix 2020
             </ActionLink>
             <p className='mt-1 text-base leading-normal text-gray-700'>
-              2020 Italian Grand Prix takes place over 53 laps of the
-              5.793-kilometre Autodromo Nazionale Monza on Sunday, September 6.
+              2020 Belgian Grand Prix, which takes place over 44 laps of the
+              7.004-kilometre Circuit de Spa-Francorchamps on Sunday, August 30.
             </p>
           </div>
           <div className='bg-white overflow-hidden'>
             <div className='px-4 pb-5 border-b border-gray-200'>
               <h3 className='text-lg leading-6 font-medium text-gray-900'>
-                Circuit Facts ( Autodromo Nazionale Monza )
+                Circuit Facts ( Circuit de Spa-Francorchamps )
               </h3>
               <p className='mt-1 text-sm leading-5 text-gray-500'>
-                Italian Grand Prix Facts
+                Spanish Grand Prix Facts
               </p>
             </div>
             <div className='px-4 py-5 sm:p-0 text-left'>
@@ -42,7 +42,7 @@ const Schedule: React.FC = () => {
                   Circuit Name
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  Autodromo Nazionale Monza
+                  Circuit de Spa-Francorchamps
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -50,7 +50,7 @@ const Schedule: React.FC = () => {
                   Track Length
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  5.793km (3.600 mi)
+                  7.004 km (4.352 mi)
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -58,7 +58,7 @@ const Schedule: React.FC = () => {
                   Turns
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  11 turns
+                  19 turns
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -66,17 +66,17 @@ const Schedule: React.FC = () => {
                   Race Distance
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  53 laps (306.72 km)
+                  44 laps (308.052 km)
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
                 <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1'>
                   Lap Record
                 </div>
-                <div className='mt-1 text-sm leading-5 sm:leading-7 text-gray-800 sm:mt-0 sm:col-span-2 ferrari'>
-                  Rubens Barrichello (<span className='text'>Ferrari</span>){' '}
+                <div className='mt-1 text-sm leading-5 sm:leading-7 text-gray-800 sm:mt-0 sm:col-span-2 mercedes'>
+                  Valtteri Bottas (<span className='text'>Mercedes</span>){' '}
                   <br />
-                  1:21.046 (2004)
+                  1:46.286 (2018)
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-b sm:border-gray-200'>
@@ -88,7 +88,7 @@ const Schedule: React.FC = () => {
                     <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block ferrari'>
                       Charles Leclerc (<span className='text'>Ferrari</span>){' '}
                       <br />
-                      1:15:26.665
+                      1:23:45.710
                     </div>
                   </div>
                 </div>
@@ -105,24 +105,24 @@ const Schedule: React.FC = () => {
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2 self-start'>
                   <div className='inine-block pb-4'>
-                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block alphatauri'>
-                      Pierre Gasly (<span className='text'>Alpha Tauri</span>){' '}
+                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block mercedes'>
+                      Lewis Hamilton (<span className='text'>Mercedes</span>){' '}
                       <br />
-                      1:47:06:056
+                      1:24:08.761
                     </div>
                   </div>
                   <div className='inine-block pb-4'>
-                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block mclaren'>
-                      Carlos Sainz (<span className='text'>McLaren</span>){' '}
+                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block mercedes'>
+                      Valtteri Bottas (<span className='text'>Mercedes</span>){' '}
                       <br />
-                      +0.415s
+                      +8.448s
                     </div>
                   </div>
                   <div className='inine-block pb-4'>
-                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block racingpoint'>
-                      Lance Stroll (<span className='text'>Racing Point</span>){' '}
+                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block redbull'>
+                      Max Verstappen(<span className='text'>Red Bull</span>){' '}
                       <br />
-                      +3.358s
+                      +15.455s
                     </div>
                   </div>
                 </div>
@@ -142,21 +142,21 @@ const Schedule: React.FC = () => {
                     <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block mercedes'>
                       Lewis Hamilton (<span className='text'>Mercedes</span>){' '}
                       <br />
-                      1:18.887
+                      1:41.252
                     </div>
                   </div>
                   <div className='inine-block pb-4'>
                     <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block mercedes'>
                       Valtteri Bottas (<span className='text'>Mercedes</span>){' '}
                       <br />
-                      1:18.956
+                      1:41.763
                     </div>
                   </div>
                   <div className='inine-block pb-4'>
-                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block mclaren'>
-                      Carlos Sainz (<span className='text'>McLaren</span>){' '}
+                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block redbull'>
+                      Max Verstappen(<span className='text'>Red Bull</span>){' '}
                       <br />
-                      1:19.695
+                      1:41.778
                     </div>
                   </div>
                 </div>
@@ -164,7 +164,7 @@ const Schedule: React.FC = () => {
             </div>
           </div>
           <p className='my-2 pr-4 text-base leading-normal text-gray-700 text-right'>
-            <ContentLink href='/monza' target='_self'>
+            <ContentLink href='/spa-francorchamps' target='_self'>
               More Details...
             </ContentLink>
           </p>

@@ -4,6 +4,7 @@ import Race from '../components/race/quick-look'
 import Qualifying from 'components/qualifying/quick-look'
 import Schedule from '../components/schedule'
 import Recent from '../components/schedule/recent'
+import Belgian from '../components/schedule/belgian'
 import Spanish from '../components/schedule/spanish'
 import Anniversary from '../components/schedule/70-anniversary'
 import British from '../components/schedule/british'
@@ -28,6 +29,7 @@ const IndexPage = () => (
             <Driver />
             <Team />
             <Recent />
+            <Belgian />
             <Spanish />
             <Anniversary />
             <British />

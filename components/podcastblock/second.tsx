@@ -7,14 +7,14 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=8fZDDua4S88'
+        href='https://www.youtube.com/watch?v=_XLMJ1MnRvQ'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/8fZDDua4S88/sddefault.jpg'
-              alt='2020 Belgian GP Race Review | WTF1 Podcast'
+              src='https://img.youtube.com/vi/_XLMJ1MnRvQ/sddefault.jpg'
+              alt='GASLY WINS INCREDIBLE ITALIAN GP - Unbiased F1 Podcast'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -29,19 +29,18 @@ const Second: React.FC = () => {
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-2 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            Interview
+            Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=8fZDDua4S88'
+            href='https://www.youtube.com/watch?v=_XLMJ1MnRvQ'
             target='_blank'>
-            How will the Concorde Agreement affect Formula One? | Chase Carey
-            Interview
+            GASLY WINS INCREDIBLE ITALIAN GP - Unbiased F1 Podcast
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Martin Brundle sits down with Chase Carey to discuss what the future
-            holds for F1 now the Concorde Agreement has been signed, what the
-            new financial regulations mean for teams, will the grid become much
-            closer and if he’s happy with the deal.
+            Who said F1 is boring? GASLY WINS IN AN ALPHA TAURI AT #MONZA! 12
+            Years after the same team won this very race with Sebastian Vettel
+            in the Scuderia Toro Rosso, Pierre becomes the first French driver
+            to win since Panis over 20 years ago - at the 2020 #ItalianGP.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
