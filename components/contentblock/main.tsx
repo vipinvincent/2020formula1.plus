@@ -1,6 +1,6 @@
 import React from 'react'
 import H1 from 'components/heading/H1'
-import ActionLink from 'components/link/ActionLink'
+// import ActionLink from 'components/link/ActionLink'
 
 const Main: React.FC = () => {
   return (
@@ -77,11 +77,11 @@ const Main: React.FC = () => {
             Qualifying results
           </p> */}
         </div>
-        <div className='flex flex-col md:flex-row justify-start border-t border-gray-200 pb-2 md:py-3 px-4 text-sm md:text-lg text-center md:text-left'>
+        {/*  <div className='flex flex-col md:flex-row justify-start border-t border-gray-200 pb-2 md:py-3 px-4 text-sm md:text-lg text-center md:text-left'>
           <div className='w-full text-sm md:w-3/12 pb-4 md:pb-0 md:pr-4 leading-tight pt-2 md:pt-4'>
             Follow this topic on -
           </div>
-          {/*   <div className='w-full flex flex-row justify-center md:justify-start md:w-9/12'>
+           <div className='w-full flex flex-row justify-center md:justify-start md:w-9/12'>
             <div className='mr-2'>
               <ActionLink
                 href='https://www.formula1.com/en/latest/article.fp3-bottas-leads-hamilton-and-perez-as-verstappen-spins-in-final-practice.4eRTHeO9GkMMYh9vxRnOmc.html'
@@ -93,7 +93,7 @@ const Main: React.FC = () => {
                 />
               </ActionLink>
             </div> */}
-          {/* <div className='mr-2'>
+        {/* <div className='mr-2'>
               <ActionLink
                 href='https://www.bbc.com/sport/formula1/53449276'
                 target='_blank'>
@@ -104,7 +104,7 @@ const Main: React.FC = () => {
                 />
               </ActionLink>
             </div> */}
-          <div className='mr-2'>
+        {/* <div className='mr-2'>
             <ActionLink
               href='https://www.motorsport.com/f1/news/horner-one-stop-races-boring/4866469/'
               target='_blank'>
@@ -114,8 +114,8 @@ const Main: React.FC = () => {
                 alt='motorsport.com'
               />
             </ActionLink>
-          </div>
-          {/*  <div className='mr-2'>
+          </div> */}
+        {/*  <div className='mr-2'>
               <ActionLink
                 href='https://www.skysports.com/f1/news/12433/12031161/hungarian-gp-practice-three-valtteri-bottas-fastest-from-lewis-hamilton'
                 target='_blank'>
@@ -126,7 +126,7 @@ const Main: React.FC = () => {
                 />
               </ActionLink>
             </div>*/}
-          <div className='mr-2'>
+        {/* <div className='mr-2'>
             <ActionLink
               href='https://www.autosport.com/f1/news/151806/horner-onestop-races-to-blame-for-dull-f1'
               target='_blank'>
@@ -136,8 +136,8 @@ const Main: React.FC = () => {
                 alt='autosport.com'
               />
             </ActionLink>
-          </div>
-          {/* <div className='mr-2'>
+          </div> */}
+        {/* <div className='mr-2'>
               <ActionLink
                 href='https://www.espn.in/f1/story/_/id/29438233/mugello-host-first-f1-race-sochi-added-2020-calendar'
                 target='_blank'>
@@ -148,7 +148,7 @@ const Main: React.FC = () => {
                 />
               </ActionLink>
             </div>*/}
-          {/* <div className='mr-2'>
+        {/* <div className='mr-2'>
               <ActionLink
                 href='https://the-race.com/formula-1/hamilton-tops-first-hungary-practice-while-red-bull-toils/'
                 target='_blank'>
@@ -159,7 +159,7 @@ const Main: React.FC = () => {
                 />
               </ActionLink>
             </div> */}
-          {/* <div className='mr-2'>
+        {/* <div className='mr-2'>
               <ActionLink
                 href='https://www.grandprix247.com/2020/07/15/report-vettel-in-negotiations-with-aston-martin/'
                 target='_blank'>
@@ -170,7 +170,7 @@ const Main: React.FC = () => {
                 />
               </ActionLink>
             </div>*/}
-          <div className='mr-2'>
+        {/* <div className='mr-2'>
             <ActionLink
               href='https://www.planetf1.com/news/christian-horner-boring-one-stops/'
               target='_blank'>
@@ -181,7 +181,7 @@ const Main: React.FC = () => {
               />
             </ActionLink>
           </div>
-        </div>
+        </div> */}
       </div>
     </div>
   )

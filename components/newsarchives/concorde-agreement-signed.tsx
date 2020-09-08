@@ -8,7 +8,7 @@ const Right: React.FC = () => {
       <div className='h-40 xl:h-48 w-full'>
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
-          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1595851663/contentImages/content/race-grid_xnnuqd.jpg'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1599594485/contentImages/content/f1-race_start_ukicks.jpg'
           alt='Concorde Agreement signed; All 10 TEAMS commit to F1 until 2025'
         />
       </div>

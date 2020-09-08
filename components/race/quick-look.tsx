@@ -7,7 +7,7 @@ const Race: React.FC = () => {
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
         Italian GP 2020 - Race Results
       </div>
-      <div className='w-full grid sm:flex sm:flex-col justify-around py-2 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow-xs mb-0'>
+      <div className='w-full grid sm:flex sm:flex-col justify-around py-2 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow-xs mb-4'>
         <div className='align-middle min-w-full overflow-x-auto rounded-tl-xxl rounded-br-xl'>
           <table className='w-full table'>
             <thead>
