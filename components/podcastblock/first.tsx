@@ -7,14 +7,14 @@ const First: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=eemg1Yj3vx4'
+        href='https://www.youtube.com/watch?v=wfu3hq83Yq8'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/eemg1Yj3vx4/sddefault.jpg'
-              alt='Italian Grand Prix practice reaction'
+              src='https://img.youtube.com/vi/wfu3hq83Yq8/sddefault.jpg'
+              alt='9 factors that led to Pierre Gasly winning F1s crazy Italian GP'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,18 +32,23 @@ const First: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=eemg1Yj3vx4'
+            href='https://www.youtube.com/watch?v=wfu3hq83Yq8'
             target='_blank'>
-            Italian Grand Prix practice reaction
+            9 factors that led to Pierre Gasly winning F1’s crazy Italian GP
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Join me, Luke Murphy and Frank Parker for live reaction to today's
-            practice session and the big stories from Monza!
+            Pierre Gasly and AlphaTauri celebrated an unlikely victory in the
+            2020 Italian Grand Prix, holding off Carlos Sainz Jr’s McLaren in a
+            dramatic battle to the finish. But how many things needed to fall
+            into place to put Gasly into a race-winning position? We’ve come up
+            with 9, which includes making sure we give the man in question
+            credit for the way he performed once the chance to grab a victory
+            presented itself
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='http://www.formulaspy.com' target='_blank'>
-              Thomas Maher
+            <ContentLink href='http://the-race.com/' target='_blank'>
+              THE RACE
             </ContentLink>
           </p>
         </div>

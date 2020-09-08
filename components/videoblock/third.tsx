@@ -7,14 +7,14 @@ const Third: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=5Eh7PwuJNBM'
+        href='https://www.youtube.com/watch?v=nDtqD12thcA'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/5Eh7PwuJNBM/sddefault.jpg'
-              alt='Horner Finds Hamiltons Comments "Ironic"'
+              src='https://img.youtube.com/vi/nDtqD12thcA/sddefault.jpg'
+              alt='The Weird Sequence Of Events That Derailed Lewiss Race'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,16 +32,19 @@ const Third: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=5Eh7PwuJNBM'
+            href='https://www.youtube.com/watch?v=nDtqD12thcA'
             target='_blank'>
-            Horner Finds Hamilton’s Comments "Ironic"
+            The Weird Sequence Of Events That Derailed Lewis's Race
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Mercedes’ Lewis Hamilton had recently suggested that Red Bull’s Max
-            Verstappen isn’t getting enough support from his teammate Alex Albon
-            in the fight for the constructors’ title. Red Bull team principal
-            Christian Horner and Alex Albon have now responded to this
-            criticism.
+            After a poor start to the race for Mercedes’ Valtteri Bottas,
+            teammate Lewis Hamilton seemed all set to cruise to another victory.
+            However, a retirement for Haas driver Kevin Magnussen just before
+            the pit entry bought out the safety car. Lewis Hamilton chose to pit
+            but it was soon revealed that he had done so while the pit lane was
+            closed. This earned him a race-ruining stop-go penalty. Team
+            principal Toto Wolff has now gone into the details of what many saw
+            as a rare mistake from the championship leaders
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}

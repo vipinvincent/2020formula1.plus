@@ -7,14 +7,14 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=Z9ZA2wa9h4o'
+        href='https://www.youtube.com/watch?v=ZEcJJk_UrZw'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/Z9ZA2wa9h4o/sddefault.jpg'
-              alt='Ted reveals who at Mercedes knew the pitlane was shut & speaks to Pierre Gasly! | The Notebook Italy'
+              src='https://img.youtube.com/vi/ZEcJJk_UrZw/sddefault.jpg'
+              alt=' WINNERS VLOG! Pierre Gaslys Italian Grand Prix Victory'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,23 +32,24 @@ const Second: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=Z9ZA2wa9h4o'
+            href='https://www.youtube.com/watch?v=ZEcJJk_UrZw'
             target='_blank'>
-            Ted reveals who at Mercedes knew the pitlane was shut & speaks to
-            Pierre Gasly! | The Notebook Italy
+            WINNER'S VLOG! Pierre Gasly's Italian Grand Prix Victory
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Ted Kravitz brings you all the news and views from the paddock
-            following a dramatic Italian Grand Prix. Ted reveals who from the
-            Mercedes team spotted that the pit-lane had shut (but too late for
-            Lewis Hamilton), what the mood was like in the Williams garage as
-            Claire Williams departs F1, and speaks to surprise race winner
-            Pierre Gasly!
+            Formula 1 has a new winner! Pierre Gasly becomes the 109th F1 Race
+            Winner at the 2020 Italian Grand Prix, and the first Frenchman to
+            win a Grand Prix since Olivier Panis won the 1996 Monaco Grand Prix!
+            We spent time with Pierre after all of the commotions started to die
+            down, and got his thoughts on what must be the best day of his life
+            (once his phone stopped buzzing!)
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='https://www.skysports.com/f1' target='_blank'>
-              Sky Sports F1
+            <ContentLink
+              href='https://www.scuderiaalphatauri.com/en/'
+              target='_blank'>
+              Scuderia AlphaTauri
             </ContentLink>
           </p>
         </div>
