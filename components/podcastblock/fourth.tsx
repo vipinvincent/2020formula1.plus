@@ -7,14 +7,14 @@ const Fourth: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=0sgVusvLbkU'
+        href='https://www.youtube.com/watch?v=fjZxX5JAHg0'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/0sgVusvLbkU/sddefault.jpg'
-              alt='2020 Italian GP Race Review | WTF1 Podcast'
+              src='https://img.youtube.com/vi/fjZxX5JAHg0/sddefault.jpg'
+              alt='Should F1 Have REVERSE Grid Races?'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,14 +32,14 @@ const Fourth: React.FC = () => {
             PODCAST
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=0sgVusvLbkU'
+            href='https://www.youtube.com/watch?v=fjZxX5JAHg0'
             target='_blank'>
-            2020 Italian GP Race Review | WTF1 Podcast
+            Should F1 Have REVERSE Grid Races?
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            DID THAT REALLY HAPPEN? Matt and Tommy are back for another podcast
-            discussing the crazy Italian Grand Prix and wondering what a race
-            victory might mean for Pierre Gasly's future....
+            Sky pundit (and F1 World Champion) Jenson Button joins Matt and
+            Tommy after a chaotic Italian Grand Prix to discuss whether reverse
+            grid races could work in the future.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}

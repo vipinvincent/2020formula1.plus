@@ -7,14 +7,14 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=ZEcJJk_UrZw'
+        href='https://www.youtube.com/watch?v=3_GCN8VNX_s'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/ZEcJJk_UrZw/sddefault.jpg'
-              alt=' WINNERS VLOG! Pierre Gaslys Italian Grand Prix Victory'
+              src='https://img.youtube.com/vi/3_GCN8VNX_s/sddefault.jpg'
+              alt='F1 Plans to Push For Reverse Grid Races In 2021'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,9 +32,9 @@ const Second: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=ZEcJJk_UrZw'
+            href='https://www.youtube.com/watch?v=3_GCN8VNX_s'
             target='_blank'>
-            WINNER'S VLOG! Pierre Gasly's Italian Grand Prix Victory
+            F1 Plans to Push For Reverse Grid Races In 2021
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             Formula 1 has a new winner! Pierre Gasly becomes the 109th F1 Race
@@ -46,10 +46,8 @@ const Second: React.FC = () => {
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink
-              href='https://www.scuderiaalphatauri.com/en/'
-              target='_blank'>
-              Scuderia AlphaTauri
+            <ContentLink href='https://formula.world/' target='_blank'>
+              Formula World
             </ContentLink>
           </p>
         </div>
