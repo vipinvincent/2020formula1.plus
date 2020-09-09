@@ -31,16 +31,16 @@ const Main: React.FC = () => {
           Latest Podcasts from Youtube
         </div>
         <div className='w-full flex flex-wrap'>
-          <div className='w-full mt-4 md:mt-0 md:pl-4'>
+          <div className='w-full mt-4 md:mt-0'>
             <FirstPodcast />
           </div>
-          <div className='w-full mt-4 sm:pl-4'>
+          <div className='w-full mt-4'>
             <SecondPodcast />
           </div>
-          <div className='w-full mt-4 md:pl-4'>
+          <div className='w-full mt-4'>
             <ThirdPodcast />
           </div>
-          <div className='w-full mt-4 sm:pl-4'>
+          <div className='w-full mt-4'>
             <FourthPodcast />
           </div>
         </div>
