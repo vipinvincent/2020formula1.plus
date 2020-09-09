@@ -7,14 +7,14 @@ const Third: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=EfK1aqTUWQ4'
+        href='https://www.youtube.com/watch?v=D9FSyFEJYvA'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/EfK1aqTUWQ4/sddefault.jpg'
-              alt='Why going back to Red Bull would be damaging for Gaslys F1 career'
+              src='https://img.youtube.com/vi/D9FSyFEJYvA/sddefault.jpg'
+              alt='How F1s new team can succeed where Renault failed'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,18 +32,19 @@ const Third: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=EfK1aqTUWQ4'
+            href='https://www.youtube.com/watch?v=D9FSyFEJYvA'
             target='_blank'>
-            Why going back to Red Bull would be damaging for Gasly's F1 career
+            How F1’s ‘new’ team can succeed where Renault failed
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Pierre Gasly's shock win in the Italian Grand Prix at Monza
-            immediately prompted talk of if Red Bull should put him back into
-            its senior team in place of Alex Albon. Edd Straw and Scott Mitchell
-            join Glenn Freeman to discuss what Red Bull should do and when it
-            should consider another shuffling of its pack, as well as weighing
-            up the development of Gasly and Albon since they swapped places in
-            the middle of 2019.
+            The Renault F1 Team will be no-more after 2020. Fortunately, unlike
+            the last time Renault took its name down from above the door at the
+            Enstone factory, this time it will retain ownership, but next year
+            it will be rebranded as Alpine. Why is it doing that, what does it
+            all mean, and perhaps most importantly what is Alpine? Scott
+            Mitchell explores the thinking behind this decision, looking at why
+            a niche brand may be a better identity for the team, and how the way
+            F1 is set up for the future could make this a good time for a change
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}

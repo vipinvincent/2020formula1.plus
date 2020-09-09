@@ -14,7 +14,7 @@ const First: React.FC = () => {
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
               src='https://img.youtube.com/vi/wfu3hq83Yq8/sddefault.jpg'
-              alt='9 factors that led to Pierre Gasly winning F1s crazy Italian GP'
+              alt='Why going back to Red Bull would be damaging for Gaslys F1 career'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -34,16 +34,16 @@ const First: React.FC = () => {
           <ContentLink
             href='https://www.youtube.com/watch?v=wfu3hq83Yq8'
             target='_blank'>
-            9 factors that led to Pierre Gasly winning F1’s crazy Italian GP
+            Why going back to Red Bull would be damaging for Gasly's F1 career
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Pierre Gasly and AlphaTauri celebrated an unlikely victory in the
-            2020 Italian Grand Prix, holding off Carlos Sainz Jr’s McLaren in a
-            dramatic battle to the finish. But how many things needed to fall
-            into place to put Gasly into a race-winning position? We’ve come up
-            with 9, which includes making sure we give the man in question
-            credit for the way he performed once the chance to grab a victory
-            presented itself
+            Pierre Gasly's shock win in the Italian Grand Prix at Monza
+            immediately prompted talk of if Red Bull should put him back into
+            its senior team in place of Alex Albon. Edd Straw and Scott Mitchell
+            join Glenn Freeman to discuss what Red Bull should do and when it
+            should consider another shuffling of its pack, as well as weighing
+            up the development of Gasly and Albon since they swapped places in
+            the middle of 2019.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
