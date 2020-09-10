@@ -8,8 +8,8 @@ const Main: React.FC = () => {
       <div className='h-48 md:h-64 xl:h-104 w-full'>
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
-          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1599029109/contentImages/content/redbull-pitcrew_vsebkx.jpg'
-          alt='One-stop races are making F1 boring - Christian Horner'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594993321/contentImages/content/vettel-perez_niloot.jpg'
+          alt='Vettel to join rebranded Aston Martin team in 2021 as Perez announces Racing Point F1 exit'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
@@ -17,55 +17,67 @@ const Main: React.FC = () => {
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
             News
           </div>
-          <H1>"One-stop races are making F1 boring" - Christian Horner</H1>
+          <H1>
+            Vettel to join rebranded Aston Martin team in 2021 as Perez
+            announces Racing Point F1 exit
+          </H1>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Red Bull boss Christian Horner has joined Lewis Hamilton in
-            revealing one-stop races could be a reason why Formula 1 is becoming
-            boring. Formula 1 needs to move away from one-stop races if it is to
-            avoid boring spectacles like 2020 Belgian Grand Prix. The early
-            safety car period turned 2020 Belgian GP in to a tyre management
-            phenomenon once drivers were forced to switch to the hard compound.
-            Eventually, the Belgian GP followed the Spanish GP became another
-            dull display dominated by Hamilton, who led from start to finish
-            each time. Race winner Lewis Hamilton and podium finisher Max
-            Verstappen later said that they had a "pretty boring" owing to tyre
-            management for the cockpit, as they had to focus more on keeping
-            their tyres alive rather than real racing.
+            Four-time world champion Sebastian Vettel will remain in Formula 1
+            and confirmed his switch to Racing Point, rebranded as Aston Martin
+            Racing Formula 1 team for the 2021 season. This move has been
+            suspected for a while, but it’s now been confirmed by Racing Point
+            that Sebastian Vettel will join them for next season.“I am pleased
+            to finally share this exciting news about my future.” said Vettel as
+            he looks to the future with a new team after six years with Ferrari.
+            He’ll team up with Lance Stroll, son of team owner Lawrence Stroll,
+            for the team’s rebrand to Aston Martin after Stroll’s purchase of
+            the British car manufacturer. Meanwhile, the tenure of Vettel’s
+            contract has not yet been revealed.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Horner thinks that races where the one-stop is the fastest strategy
-            inevitably lead to situations where drivers go into tyre
-            conservation mode which is not good for entertainment. Red Bull team
-            principal Horner has also weighed in on the matter after his driver
-            Max Verstappen, who finished third at Spa, described the race as
-            “boring” and “not enjoyable”. "I think one stop races are always
-            boring," said Horner. "I think that you need to have two to
-            three-stop races. I think that mixes the order up, it mixes the
-            strategy up. “I think we’ve always seen that one-stop races, where
-            drivers are driving under the tyre, trying to conserve the tyre,
-            it’s very tough. “I think you need some more variability of strategy
-            in order to create offsets between the cars, and that the most
-            fundamental thing we need to do is to increase the amount of
-            strategies that you can go into a race with. “Pretty much everyone
-            elected to take a one-stop strategy in Belgium and that’s never
-            going to produce an exciting grand prix.” Horner said.
+            Earlier on Wednesday evening, Sergio Perez has revealed that he will
+            be moving out of Racing Point, formerly Force India at the end of
+            this season. In the statement he said: "Everything in life always
+            has a beginning and an end, and after seven years together, my time
+            with the team will come to an end after this season. The Mexican
+            driver said the 2020 season would be his last with racing Point team
+            despite the fact that he signed a three-year contract just last
+            year. He also added that he has no "Plan B" in terms of a drive for
+            2021, and "It hurts a bit as I bet on the team during very rough
+            times; we managed to overcome obstacles and I am very proud of
+            saving the jobs of several of my team mates."
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Quoting if the best way to achieve what he wanted was with Pirelli
-            being more aggressive with its tyre compound choices, Horner said:
-            "In an ideal world. I think the most fundamental thing that we need
-            to do is to increase the amount of strategies that you can go into a
-            race with. F1 race director Michael Masi is also not as convinced
-            one-stops are necessarily the cause of the problem though. "I think
-            it's probably a bit harsh connecting one-stop races and boring
-            races, because I think we've seen some exciting one-stop races," he
-            said. "We've also seen some boring two-stop races and some exciting
-            two-stop races. So I think from that perspective, that is not a
-            notion I would support. "But having said that, the FIA together with
-            Pirelli, F1, the teams and obviously the input of the drivers work
-            together to try and fulfil a number of criteria each year, and it's
-            no secret that Pirelli have been working closely with all of those
-            parties.
+            Moreover, Lance Stroll, son of team owner Lawrence, likely to be in
+            the team, it was anyone’s guess that Vettel did join, Perez could be
+            the one who has to make the way. Team Principal Otmar Szafnauer said
+            “Everybody at Silverstone is hugely excited by this news. Sebastian
+            is a proven champion and brings a winning mentality that matches our
+            own ambitions for the future as Aston Martin F1 Team. "On a Saturday
+            or Sunday afternoon, Sebastian is one of the best in the world, and
+            I can’t think of a better driver to help take us into this new era.
+            He will play a significant role in taking this team to the next
+            level.”
+          </p>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
+            {' '}
+            But the real question is “has Racing Point/Aston Martin really done
+            the right thing in ditching Perez for 2021, as Vettel continues to
+            struggle in 2020 season?” Vettel is currently 13th in the drivers’
+            championship, with just 16 points and a best finish of sixth in
+            eight races this year as he has struggled for pace in what has been
+            an uncompetitive Ferrari. Meanwhile Sergio Perez is in eleventh
+            position with more than double the points of Vettel and two races
+            less done. The signing of a four-time world champion is further
+            proof that Racing Point means business. It is a definite fact that
+            Vettel will bring a wealth of experience and financial aids to the
+            new team. But Perez has frequently proven himself to be one of the
+            best in F1 in the front end or in the mid field. He has been an
+            instrumental figure in making Racing Point from the ashes of Force
+            India to what it is today. As such, while Vettel joining what will
+            become Racing Point’s huge leap for a team that was originally
+            established as Jordan in 1991, it is also a chance for Vettel to
+            rebuild his reputation in a new environment.
           </p>
           {/* <p className='mt-1 text-base leading-normal text-gray-700'>
             View the complete {' '}
