@@ -7,14 +7,14 @@ const Third: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=7yaAkcX_Tuk'
+        href='https://www.youtube.com/watch?v=8-tlRzv9wcA'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/7yaAkcX_Tuk/sddefault.jpg'
-              alt='Antonio Giovinazzi Interview | Beyond The Grid | F1 Official Podcast'
+              src='https://img.youtube.com/vi/8-tlRzv9wcA/sddefault.jpg'
+              alt='I have more to give | Sebastian Vettel reacts to joining Aston Martin for the 2021 season'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,20 +32,22 @@ const Third: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=7yaAkcX_Tuk'
+            href='https://www.youtube.com/watch?v=8-tlRzv9wcA'
             target='_blank'>
-            Antonio Giovinazzi Interview | Beyond The Grid | F1 Official Podcast
+            'I have more to give' | Sebastian Vettel reacts to joining Aston
+            Martin for the 2021 season
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Think you know Antonio Giovinazzi? Think again. On this week’s
-            episode of Beyond the Grid, we get to know Kimi Raikkonen’s team
-            mate a little better, finding out about his unique path to F1 via a
-            stint in China and much more.
+            Sebastian Vettel joined us to discuss his big move to Aston Martin
+            for the 2021 season and why he believes the growing team can become
+            title challengers in years to come
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href=' http://www.formula1.com' target='_blank'>
-              Formula1.com
+            <ContentLink
+              href='https://www.skysports.com/f1/news'
+              target='_blank'>
+              Sky Sports F1
             </ContentLink>
           </p>
         </div>

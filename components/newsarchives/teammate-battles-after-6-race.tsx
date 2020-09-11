@@ -1,7 +1,7 @@
 import React from 'react'
 import H1 from 'components/heading/H1'
 
-const Second: React.FC = () => {
+const Archive37: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <div className='h-48 md:h-64 xl:h-104 w-full'>
@@ -780,4 +780,4 @@ const Second: React.FC = () => {
     </div>
   )
 }
-export default Second
+export default Archive37

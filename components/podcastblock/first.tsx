@@ -7,14 +7,14 @@ const First: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=xl0a0H9KDAw'
+        href='https://www.youtube.com/watch?v=e2ah3xt_TxA'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/xl0a0H9KDAw/sddefault.jpg'
-              alt='Lando Norris discusses the key to his improvements this season & future teammate Daniel Ricciardo '
+              src='https://img.youtube.com/vi/e2ah3xt_TxA/sddefault.jpg'
+              alt='Hiding In Plain Sight: The Secret Behind Sainz s Magical 2019 F1 Season'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,24 +32,23 @@ const First: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=xl0a0H9KDAw'
+            href='https://www.youtube.com/watch?v=e2ah3xt_TxA'
             target='_blank'>
-            Lando Norris discusses the key to his improvements this season &
-            future teammate Daniel Ricciardo
+            Hiding In Plain Sight: The Secret Behind Sainz's Magical 2019 F1
+            Season
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Pierre Gasly's shock win in the Italian Grand Prix at Monza
-            immediately prompted talk of if Red Bull should put him back into
-            its senior team in place of Alex Albon. Edd Straw and Scott Mitchell
-            join Glenn Freeman to discuss what Red Bull should do and when it
-            should consider another shuffling of its pack, as well as weighing
-            up the development of Gasly and Albon since they swapped places in
-            the middle of 2019.
+            Why is Carlos Sainz being beaten by Lando Norris in 2020? Why did I
+            think this in the season predictions? In this video I lay out all
+            the data that proved this was a long time coming. Sainz is
+            phenomenal, but the data had a secret.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='https://www.skysports.com/f1/' target='_blank'>
-              Sky Sports F1
+            <ContentLink
+              href='https://www.youtube.com/c/CrankyYankeeF1/'
+              target='_blank'>
+              CrankyYankeeF1
             </ContentLink>
           </p>
         </div>

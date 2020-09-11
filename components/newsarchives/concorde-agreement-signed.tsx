@@ -2,7 +2,7 @@ import React from 'react'
 import H1 from 'components/heading/H1'
 // import ActionLink from 'components/link/ActionLink'
 
-const Right: React.FC = () => {
+const Archive29: React.FC = () => {
   return (
     <div className='relative'>
       <div className='h-40 xl:h-48 w-full'>
@@ -171,4 +171,4 @@ const Right: React.FC = () => {
     </div>
   )
 }
-export default Right
+export default Archive29

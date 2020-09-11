@@ -1,5 +1,10 @@
 import React from 'react'
 
+// import Archive39 from 'components/newsarchives/qualifying-report-italian-gp'
+// import Archive38 from 'components/newsarchives/fp3-report-italian-gp'
+import Archive37 from 'components/newsarchives/teammate-battles-after-6-race'
+// import Archive36 from 'components/newsarchives/fp2-report-italian-gp'
+// import Archive35 from 'components/newsarchives/fp1-report-italian-gp'
 import Archive34 from 'components/newsarchives/race-report-belgian-gp'
 import Archive33 from 'components/newsarchives/qualifying-report-belgian-gp'
 import Archive32 from 'components/newsarchives/fp3-report-belgian-gp'
@@ -41,7 +46,26 @@ const Main: React.FC = () => {
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mt-0 mb-1 px-2 '>
         Archived News
       </div>
+      {/* <div className='w-100 flex flex-col xl:flex-row'>
+        <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 mt-4 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
+          <Archive39 />
+        </div>
+        <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 mt-4 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
+          <Archive38 />
+        </div>
+      </div>
+      <div className='w-100 flex flex-col xl:flex-row'>
+        <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 mt-4 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
+          <Archive36 />
+        </div>
+        <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 mt-4 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
+          <Archive35 />
+        </div>
+      </div> */}
       <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-0'>
+        <Archive37 />
+      </div>
+      <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-4'>
         <Archive34 />
       </div>
       <div className='w-100 flex flex-col xl:flex-row'>
@@ -54,10 +78,10 @@ const Main: React.FC = () => {
       </div>
       <div className='w-100 flex flex-col xl:flex-row'>
         <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 mt-4 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
-          <Archive30 />
+          <Archive31 />
         </div>
         <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 mt-4 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
-          <Archive31 />
+          <Archive30 />
         </div>
       </div>
       <div className='w-100 flex flex-col xl:flex-row'>

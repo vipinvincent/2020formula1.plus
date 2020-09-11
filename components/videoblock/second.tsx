@@ -7,14 +7,14 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=Dm3TJBxaPXM'
+        href='https://www.youtube.com/watch?v=I5HR_hL8VUY'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/Dm3TJBxaPXM/sddefault.jpg'
-              alt='Perez To Leave Racing Point'
+              src='https://img.youtube.com/vi/I5HR_hL8VUY/sddefault.jpg'
+              alt='How To Fix Ferrari'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,20 +32,22 @@ const Second: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=Dm3TJBxaPXM'
+            href='https://www.youtube.com/watch?v=I5HR_hL8VUY'
             target='_blank'>
-            Perez To Leave Racing Point
+            How To Fix Ferrari
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            It’s been rumoured for a while, but Sergio Perez has announced that
-            he will be leaving Racing Point at the end of this F1 season. What
-            now for the Mexican? And will it be Sebastian Vettel who takes his
-            seat?
+            For Ferrari, the Italian GP was certainly an eventful one, in all
+            the wrong ways. This is a common thread for them in 2020, as their
+            results have been sub-par compared to the 2019 season. Vettel may
+            have confirmed that he'll be racing with Aston Martin in 2021, but
+            for LeClerc and Sainz and the rest of the team, there's some
+            problems to solve.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='https://www.gptoday.net/en/ ' target='_blank'>
-              The F1 Word
+            <ContentLink href='https://www.autosport.com/' target='_blank'>
+              Autosport
             </ContentLink>
           </p>
         </div>

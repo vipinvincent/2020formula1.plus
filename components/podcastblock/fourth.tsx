@@ -7,14 +7,14 @@ const Fourth: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=fjZxX5JAHg0'
+        href='https://www.youtube.com/watch?v=ee9OF7HggD0'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/fjZxX5JAHg0/sddefault.jpg'
-              alt='Should F1 Have REVERSE Grid Races?'
+              src='https://img.youtube.com/vi/ee9OF7HggD0/sddefault.jpg'
+              alt='I found out officially last night | Sergio Perez discusses Racing Point Exit'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,9 +32,10 @@ const Fourth: React.FC = () => {
             PODCAST
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=fjZxX5JAHg0'
+            href='https://www.youtube.com/watch?v=ee9OF7HggD0'
             target='_blank'>
-            Should F1 Have REVERSE Grid Races?
+            'I found out officially last night' | Sergio Perez discusses Racing
+            Point Exit
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             Sky pundit (and F1 World Champion) Jenson Button joins Matt and
@@ -43,8 +44,10 @@ const Fourth: React.FC = () => {
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='http://www.wtf1.com' target='_blank'>
-              WTF1
+            <ContentLink
+              href='https://www.skysports.com/f1/news'
+              target='_blank'>
+              Sky Sports F1
             </ContentLink>
           </p>
         </div>
