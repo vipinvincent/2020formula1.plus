@@ -19,7 +19,7 @@ import Archive38 from 'components/newsarchives/fp3-report-italian-gp'
 import Archive36 from 'components/newsarchives/fp2-report-italian-gp'
 import Archive35 from 'components/newsarchives/fp1-report-italian-gp'
 
-// import MainContent from 'components/contentblock/main'
+import MainContent from 'components/contentblock/main'
 import FirstContent from 'components/contentblock/first'
 // import SecondContent from 'components/contentblock/left'
 // import ThirdContent from 'components/contentblock/right'
@@ -36,10 +36,10 @@ const Main: React.FC = () => {
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
         Latest News
       </div>
-      {/* <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-0'>
-        <MainContent />
-      </div> */}
       <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-0'>
+        <MainContent />
+      </div>
+      <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-4'>
         <FirstContent />
       </div>
       <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-4'>

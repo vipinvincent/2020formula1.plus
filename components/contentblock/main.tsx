@@ -8,76 +8,58 @@ const Main: React.FC = () => {
       <div className='h-48 md:h-64 xl:h-104 w-full'>
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
-          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594993321/contentImages/content/vettel-perez_niloot.jpg'
-          alt='Vettel to join rebranded Aston Martin team in 2021 as Perez announces Racing Point F1 exit'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1595072621/contentImages/content/valtteri_-bottas_m5dgbs.jpg'
+          alt='FP1 REPORT - Tuscan GP 2020'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-4 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            News
+            FP1 REPORT - Tuscan GP 2020
           </div>
-          <H1>
-            Vettel to join rebranded Aston Martin team in 2021 as Perez
-            announces Racing Point F1 exit
-          </H1>
+          <H1>Bottas leads in FP1 from Verstappen and Leclerc at Mugello</H1>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Four-time world champion Sebastian Vettel will remain in Formula 1
-            and confirmed his switch to Racing Point, rebranded as Aston Martin
-            Racing Formula 1 team for the 2021 season. This move has been
-            suspected for a while, but it’s now been confirmed by Racing Point
-            that Sebastian Vettel will join them for next season.“I am pleased
-            to finally share this exciting news about my future.” said Vettel as
-            he looks to the future with a new team after six years with Ferrari.
-            He’ll team up with Lance Stroll, son of team owner Lawrence Stroll,
-            for the team’s rebrand to Aston Martin after Stroll’s purchase of
-            the British car manufacturer. Meanwhile, the tenure of Vettel’s
-            contract has not yet been revealed.
+            Valtteri Bottas continues his top form in Friday with fifth
+            consecutive top position in FP1 session at Mugello for Mercedes. In
+            the first ever FP1 session at Mugello Red Bull’s Max Verstappen
+            finished second and Ferrari’s Charles Leclerc in third, as Scuderia
+            Ferrari celebrates their 1000th World Championship race in this
+            weekend's Tuscan Grand Prix. All the top drivers set their fast time
+            on soft tyres and it was Bottas who was the first person to cut the
+            1m 17m barrier, set his fastest time of 1m17.879s which was just
+            0.048s quicker than Verstappen’s. Meanwhile retro-liveried Ferrari
+            of Leclerc, managed to lap faster than Lewis Hamilton who finished
+            fourth, managed to take third spot in an encouraging session for the
+            Italian team ahead of their anniversary race. Leclerc finished
+            0.307s off Bottas’s table-topping time and Hamilton was half a
+            second behind his team mate. Last week’s Italian Grand Prix winner
+            AlphaTauri ‘s Pierre Gasly took fifth who was 0.797s off the top
+            rounded top5 list.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Earlier on Wednesday evening, Sergio Perez has revealed that he will
-            be moving out of Racing Point, formerly Force India at the end of
-            this season. In the statement he said: "Everything in life always
-            has a beginning and an end, and after seven years together, my time
-            with the team will come to an end after this season. The Mexican
-            driver said the 2020 season would be his last with racing Point team
-            despite the fact that he signed a three-year contract just last
-            year. He also added that he has no "Plan B" in terms of a drive for
-            2021, and "It hurts a bit as I bet on the team during very rough
-            times; we managed to overcome obstacles and I am very proud of
-            saving the jobs of several of my team mates."
+            Esteban Ocon for Renault finished sixth with the second AlphaTauri
+            of Daniil Kvyat was Seventh who was the last driver within a second
+            of Bottas. Best of McLaren was Lando Norris, finished Eighth, just
+            under a tenth ahead of Red Bull’s Alex Albon. Daniel Ricciardo
+            rounded out the top 10 in his Renault. Kimi Raikkonen, who is
+            celebrating the 20th anniversary of his maiden F1 test at this very
+            track, finished in 11th who was in third position for a brief
+            moment, fastest of all the Ferrari-powered cars. Romain Grosjean for
+            Haas finished in 12th and Sebastian Vettel of the second Ferrari
+            crossed the line in 13th with more than 1.3s slower than his team
+            mate.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Moreover, Lance Stroll, son of team owner Lawrence, likely to be in
-            the team, it was anyone’s guess that Vettel did join, Perez could be
-            the one who has to make the way. Team Principal Otmar Szafnauer said
-            “Everybody at Silverstone is hugely excited by this news. Sebastian
-            is a proven champion and brings a winning mentality that matches our
-            own ambitions for the future as Aston Martin F1 Team. "On a Saturday
-            or Sunday afternoon, Sebastian is one of the best in the world, and
-            I can’t think of a better driver to help take us into this new era.
-            He will play a significant role in taking this team to the next
-            level.”
-          </p>
-          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            {' '}
-            But the real question is “has Racing Point/Aston Martin really done
-            the right thing in ditching Perez for 2021, as Vettel continues to
-            struggle in 2020 season?” Vettel is currently 13th in the drivers’
-            championship, with just 16 points and a best finish of sixth in
-            eight races this year as he has struggled for pace in what has been
-            an uncompetitive Ferrari. Meanwhile Sergio Perez is in eleventh
-            position with more than double the points of Vettel and two races
-            less done. The signing of a four-time world champion is further
-            proof that Racing Point means business. It is a definite fact that
-            Vettel will bring a wealth of experience and financial aids to the
-            new team. But Perez has frequently proven himself to be one of the
-            best in F1 in the front end or in the mid field. He has been an
-            instrumental figure in making Racing Point from the ashes of Force
-            India to what it is today. As such, while Vettel joining what will
-            become Racing Point’s huge leap for a team that was originally
-            established as Jordan in 1991, it is also a chance for Vettel to
-            rebuild his reputation in a new environment.
+            Last week’s podium finisher Carlos Sainz was 15th for McLaren as
+            Sainz’s MCL35 was testing a new design with a new nose in FP1.
+            Williams’ George Russell finished in P16 as he was the only driver
+            to set his fastest lap on medium tyres. Kevin Magnussen in the
+            second Haas , who has a new engine for the weekend crossed the line
+            in P17. The Racing Point pair of Lance Stroll and outgoing Sergio
+            Perez were P18 and P19 respectively, as their fastest laps were set
+            on hard tyres, concentrating on race like simulation in FP1.
+            Williams’ Latifi had a late spin and was the only yellow flag in the
+            session, finished last.
           </p>
           {/* <p className='mt-1 text-base leading-normal text-gray-700'>
             View the complete {' '}
