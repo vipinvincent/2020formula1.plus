@@ -5,19 +5,19 @@ import H1 from 'components/heading/H1'
 const Right: React.FC = () => {
   return (
     <div className='relative'>
-      <div className='h-40 xl:h-48 w-full'>
+      {/* <div className='h-40 xl:h-48 w-full'>
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
           src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1595072621/contentImages/content/valtteri_-bottas_m5dgbs.jpg'
           alt='FP1 REPORT - Tuscan GP 2020'
         />
-      </div>
+      </div> */}
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-2 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
             FP1 REPORT - Tuscan GP 2020
           </div>
-          <H1>Bottas leads in FP1 from Verstappen and Leclerc at Mugello</H1>
+          <H1>Bottas leads FP1 from Verstappen and Leclerc at Mugello</H1>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             Valtteri Bottas continues his top form in Friday with fifth
             consecutive top position in FP1 session at Mugello for Mercedes. In

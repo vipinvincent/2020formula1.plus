@@ -15,7 +15,7 @@ const Left: React.FC = () => {
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-4 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            FP2 REPORT - Tuscan GP 2020
+            Qualifying REPORT - Tuscan GP 2020
           </div>
           <H1>
             Bottas heads FP2 with Mercedes 1-2 as Raikkonen becomes the fastest

@@ -18,7 +18,7 @@ const Main: React.FC = () => {
             FP3 REPORT - Tuscan GP 2020
           </div>
           <H1>
-            Bottas with the with the fastest lap time leads final practice with
+            Bottas with the fastest lap time leads final practice with
             Verstappen splitting Mercedes duo at Mugello
           </H1>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
