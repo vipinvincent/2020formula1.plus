@@ -7,14 +7,14 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=LQHBGdtikec'
+        href='https://www.youtube.com/watch?v=a4LjTe9Tt2M'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/LQHBGdtikec/sddefault.jpg'
-              alt='Is Aston Martin the Right Place for Sebastian Vettel?'
+              src='https://img.youtube.com/vi/a4LjTe9Tt2M/sddefault.jpg'
+              alt='How Bad is Valtteri Bottas (in 2020...)'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,14 +32,19 @@ const Second: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=LQHBGdtikec'
+            href='https://www.youtube.com/watch?v=a4LjTe9Tt2M'
             target='_blank'>
-            Is Aston Martin the Right Place for Sebastian Vettel?
+            How Bad is Valtteri Bottas (in 2020...)
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             So the breaking news of Sergio Perez leaving Racing Point last night
             has paved the way for Sebastian Vettel to sign for Aston Martin in
-            2021. Here I give my thoughts on it all!
+            2021. Here I give my thoughts on it all!So with the 2020 season
+            being so one sided from a constructors point of view, I thought it
+            would be interesting to look into Valtteri Bottas' start to the
+            year, and investigate as to why he hasn't managed to keep up his
+            strong performance from the start of the year... Let me know your
+            thoughts on it all in the comments...
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
