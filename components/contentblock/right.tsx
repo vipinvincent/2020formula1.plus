@@ -55,6 +55,14 @@ const Right: React.FC = () => {
             finished last with a brake-by-wire issue keeping him in the garage
             after a one out lap.
           </p>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
+            That marks the end of practice sessions for the inaugural Tuscan
+            Grand Prix at Mugello. As we heads for the qualifying, the only
+            question remains is can Bottas convert the form from practice
+            sessions into pole, or will Hamilton find some speed to nail his
+            95th pole?
+          </p>
+
           {/* <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
             <ContentLink
