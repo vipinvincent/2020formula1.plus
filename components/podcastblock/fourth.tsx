@@ -7,14 +7,14 @@ const Fourth: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=ee9OF7HggD0'
+        href='https://www.youtube.com/watch?v=D7RqZy6nz6k'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/ee9OF7HggD0/sddefault.jpg'
-              alt='I found out officially last night | Sergio Perez discusses Racing Point Exit'
+              src='https://img.youtube.com/vi/D7RqZy6nz6k/sddefault.jpg'
+              alt='How to Master the Mugello F1 Track | Nico Rosberg'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,22 +32,25 @@ const Fourth: React.FC = () => {
             PODCAST
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=ee9OF7HggD0'
+            href='https://www.youtube.com/watch?v=D7RqZy6nz6k'
             target='_blank'>
-            'I found out officially last night' | Sergio Perez discusses Racing
-            Point Exit
+            How to Master the Mugello F1 Track | Nico Rosberg
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Sky pundit (and F1 World Champion) Jenson Button joins Matt and
-            Tommy after a chaotic Italian Grand Prix to discuss whether reverse
-            grid races could work in the future.
+            My next F1 Fridays episode! I was really looking forward to the
+            Mugello F1 track – I’m testing it together with you. The speed in
+            Mugello is phenomenal – we can look forward to an interesting 2020
+            Tuscan Grand Prix in Italy. Check out my in-depth analysis of the
+            Tuscan GP Track – of course also showing how to master the top speed
+            corners in Mugello! This time I started with a warm up lap, followed
+            by a hot lap and closing the track action in Mugello before sharing
+            my analysis with you. Of course closing the video by answering your
+            F1 questions!
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink
-              href='https://www.skysports.com/f1/news'
-              target='_blank'>
-              Sky Sports F1
+            <ContentLink href=' http://www.nicorosberg.com' target='_blank'>
+              Nico Rosberg
             </ContentLink>
           </p>
         </div>
