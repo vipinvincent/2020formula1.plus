@@ -42,7 +42,7 @@ const Race: React.FC = () => {
                   </div>
                 </td>
                 <td className='p-4 whitespace-no-wrap table-cell text-center'>
-                  Leader
+                  2:19.35.060
                 </td>
                 <td className='p-4 whitespace-no-wrap table-cell text-center'>
                   59
