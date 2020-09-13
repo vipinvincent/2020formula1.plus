@@ -11,6 +11,7 @@ const data = {
     'Spain',
     'Belgium',
     'Italy',
+    'Tuscan',
   ],
   datasets: [
     {
@@ -32,7 +33,7 @@ const data = {
       pointHoverBorderWidth: 2,
       pointRadius: 3,
       pointHitRadius: 10,
-      data: [12, 37, 63, 88, 107, 132, 157, 164],
+      data: [12, 37, 63, 88, 107, 132, 157, 164, 190],
     },
     {
       label: ' Valtteri Bottas',
@@ -53,7 +54,7 @@ const data = {
       pointHoverBorderWidth: 2,
       pointRadius: 3,
       pointHitRadius: 10,
-      data: [25, 43, 58, 58, 73, 89, 107, 117],
+      data: [25, 43, 58, 58, 73, 89, 107, 117, 135],
     },
     {
       label: '  Max Verstappen',
@@ -74,7 +75,7 @@ const data = {
       pointHoverBorderWidth: 2,
       pointRadius: 3,
       pointHitRadius: 10,
-      data: [0, 15, 33, 52, 77, 95, 110, 110],
+      data: [0, 15, 33, 52, 77, 95, 110, 110, 110],
     },
     {
       label: '  Alex Albon',
@@ -95,7 +96,7 @@ const data = {
       pointHoverBorderWidth: 2,
       pointRadius: 3,
       pointHitRadius: 10,
-      data: [0, 12, 22, 26, 36, 40, 48, 48],
+      data: [0, 12, 22, 26, 36, 40, 48, 48, 63],
     },
     {
       label: ' Lando Norris',
@@ -116,7 +117,7 @@ const data = {
       pointHoverBorderWidth: 2,
       pointRadius: 3,
       pointHitRadius: 10,
-      data: [16, 26, 26, 36, 38, 39, 45, 57],
+      data: [16, 26, 26, 36, 38, 39, 45, 57, 65],
     },
     {
       label: ' Carlos Sainz Jr.',
@@ -137,7 +138,7 @@ const data = {
       pointHoverBorderWidth: 2,
       pointRadius: 3,
       pointHitRadius: 10,
-      data: [10, 13, 15, 15, 15, 23, 23, 41],
+      data: [10, 13, 15, 15, 15, 23, 23, 41, 41],
     },
     {
       label: ' Sergio Perez',
@@ -158,7 +159,7 @@ const data = {
       pointHoverBorderWidth: 2,
       pointRadius: 3,
       pointHitRadius: 10,
-      data: [8, 16, 22, 22, 22, 32, 33, 34],
+      data: [8, 16, 22, 22, 22, 32, 33, 34, 44],
     },
     {
       label: ' Lance Stroll',
@@ -179,7 +180,7 @@ const data = {
       pointHoverBorderWidth: 2,
       pointRadius: 3,
       pointHitRadius: 10,
-      data: [0, 6, 18, 20, 28, 40, 42, 57],
+      data: [0, 6, 18, 20, 28, 40, 42, 57, 57],
     },
     {
       label: ' Nico Hulkenberg',
@@ -200,7 +201,7 @@ const data = {
       pointHoverBorderWidth: 2,
       pointRadius: 3,
       pointHitRadius: 10,
-      data: [0, 0, 0, 0, 6, 6, 6, 6],
+      data: [0, 0, 0, 0, 6, 6, 6, 6, 6],
     },
     {
       label: ' Charles Leclerc',
@@ -221,7 +222,7 @@ const data = {
       pointHoverBorderWidth: 2,
       pointRadius: 3,
       pointHitRadius: 10,
-      data: [18, 18, 18, 33, 45, 45, 45, 45],
+      data: [18, 18, 18, 33, 45, 45, 45, 45, 49],
     },
     {
       label: ' Sebastian Vettel',
@@ -242,7 +243,7 @@ const data = {
       pointHoverBorderWidth: 2,
       pointRadius: 3,
       pointHitRadius: 10,
-      data: [1, 1, 9, 10, 10, 16, 16, 16],
+      data: [1, 1, 9, 10, 10, 16, 16, 16, 17],
     },
     {
       label: ' Daniel Ricciardo',
@@ -263,7 +264,7 @@ const data = {
       pointHoverBorderWidth: 2,
       pointRadius: 3,
       pointHitRadius: 10,
-      data: [0, 4, 8, 20, 20, 20, 33, 41],
+      data: [0, 4, 8, 20, 20, 20, 33, 41, 53],
     },
     {
       label: ' Esteban Ocon',
@@ -284,7 +285,7 @@ const data = {
       pointHoverBorderWidth: 2,
       pointRadius: 3,
       pointHitRadius: 10,
-      data: [4, 4, 4, 12, 16, 16, 26, 30],
+      data: [4, 4, 4, 12, 16, 16, 26, 30, 30],
     },
     {
       label: ' Pierre Gasly',
@@ -305,7 +306,7 @@ const data = {
       pointHoverBorderWidth: 2,
       pointRadius: 3,
       pointHitRadius: 10,
-      data: [6, 6, 6, 12, 12, 14, 18, 43],
+      data: [6, 6, 6, 12, 12, 14, 18, 43, 43],
     },
     {
       label: ' Daniil Kvyat',
@@ -326,7 +327,7 @@ const data = {
       pointHoverBorderWidth: 2,
       pointRadius: 3,
       pointHitRadius: 10,
-      data: [0, 1, 1, 1, 2, 2, 2, 4],
+      data: [0, 1, 1, 1, 2, 2, 2, 4, 10],
     },
     {
       label: ' Antonio Giovinazzi',
@@ -347,29 +348,29 @@ const data = {
       pointHoverBorderWidth: 2,
       pointRadius: 3,
       pointHitRadius: 10,
-      data: [2, 2, 2, 2, 2, 2, 2, 2],
+      data: [2, 2, 2, 2, 2, 2, 2, 2, 2],
     },
-    // {
-    //   label: ' Kimi Räikkönen',
-    //   fill: false,
-    //   lineTension: 0.1,
-    //   backgroundColor: 'white',
-    //   borderColor: '#960000',
-    //   borderCapStyle: 'round',
-    //   borderDash: [1],
-    //   borderDashOffset: 0.0,
-    //   borderJoinStyle: 'round',
-    //   pointBorderColor: '#960000',
-    //   pointBackgroundColor: '#960000',
-    //   pointBorderWidth: 5,
-    //   pointHoverRadius: 7,
-    //   pointHoverBackgroundColor: '#960000',
-    //   pointHoverBorderColor: '#960000',
-    //   pointHoverBorderWidth: 2,
-    //   pointRadius: 3,
-    //   pointHitRadius: 10,
-    //   data: [0, 0, 0, 0]
-    // },
+    {
+      label: ' Kimi Räikkönen',
+      fill: false,
+      lineTension: 0.1,
+      backgroundColor: 'white',
+      borderColor: '#960000',
+      borderCapStyle: 'round',
+      borderDash: [1],
+      borderDashOffset: 0.0,
+      borderJoinStyle: 'round',
+      pointBorderColor: '#960000',
+      pointBackgroundColor: '#960000',
+      pointBorderWidth: 5,
+      pointHoverRadius: 7,
+      pointHoverBackgroundColor: '#960000',
+      pointHoverBorderColor: '#960000',
+      pointHoverBorderWidth: 2,
+      pointRadius: 3,
+      pointHitRadius: 10,
+      data: [0, 0, 0, 0, 0, 0, 0, 0, 2],
+    },
     {
       label: ' Kevin Magnussen',
       fill: false,
@@ -389,7 +390,7 @@ const data = {
       pointHoverBorderWidth: 2,
       pointRadius: 3,
       pointHitRadius: 10,
-      data: [0, 0, 1, 1, 1, 1, 1],
+      data: [0, 0, 1, 1, 1, 1, 1, 1, 1],
     },
     // {
     //   label: ' Romain Grosjean',

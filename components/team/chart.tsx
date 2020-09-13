@@ -11,6 +11,7 @@ const data = {
     'Spain',
     'Belgium',
     'Italy',
+    'Tuscan',
   ],
   datasets: [
     {
@@ -32,7 +33,7 @@ const data = {
       pointHoverBorderWidth: 2,
       pointRadius: 3,
       pointHitRadius: 10,
-      data: [37, 80, 121, 146, 180, 221, 264, 281],
+      data: [37, 80, 121, 146, 180, 221, 264, 281, 325],
     },
     {
       label: '  Red Bull',
@@ -53,7 +54,7 @@ const data = {
       pointHoverBorderWidth: 2,
       pointRadius: 3,
       pointHitRadius: 10,
-      data: [0, 37, 55, 78, 113, 135, 158, 158],
+      data: [0, 37, 55, 78, 113, 135, 158, 158, 173],
     },
     {
       label: ' McLaren',
@@ -74,7 +75,7 @@ const data = {
       pointHoverBorderWidth: 2,
       pointRadius: 3,
       pointHitRadius: 10,
-      data: [26, 39, 41, 51, 53, 62, 68, 98],
+      data: [26, 39, 41, 51, 53, 62, 68, 98, 106],
     },
     {
       label: ' Racing Point',
@@ -95,7 +96,7 @@ const data = {
       pointHoverBorderWidth: 2,
       pointRadius: 3,
       pointHitRadius: 10,
-      data: [8, 22, 40, 42, 41, 63, 66, 82],
+      data: [8, 22, 40, 42, 41, 63, 66, 82, 92],
     },
     {
       label: ' Ferrari',
@@ -116,7 +117,7 @@ const data = {
       pointHoverBorderWidth: 2,
       pointRadius: 3,
       pointHitRadius: 10,
-      data: [19, 19, 27, 43, 55, 61, 61, 61],
+      data: [19, 19, 27, 43, 55, 61, 61, 61, 66],
     },
     {
       label: ' Renault',
@@ -137,7 +138,7 @@ const data = {
       pointHoverBorderWidth: 2,
       pointRadius: 3,
       pointHitRadius: 10,
-      data: [4, 8, 12, 32, 36, 36, 59, 71],
+      data: [4, 8, 12, 32, 36, 36, 59, 71, 83],
     },
     {
       label: ' AlphaTauri',
@@ -158,7 +159,7 @@ const data = {
       pointHoverBorderWidth: 2,
       pointRadius: 3,
       pointHitRadius: 10,
-      data: [6, 7, 7, 13, 14, 16, 20, 47],
+      data: [6, 7, 7, 13, 14, 16, 20, 47, 53],
     },
     {
       label: ' Alfa Romeo',
@@ -179,7 +180,7 @@ const data = {
       pointHoverBorderWidth: 2,
       pointRadius: 3,
       pointHitRadius: 10,
-      data: [2, 2, 2, 2, 2, 2, 2, 2],
+      data: [2, 2, 2, 2, 2, 2, 2, 2, 4],
     },
     {
       label: ' Haas',
@@ -200,7 +201,7 @@ const data = {
       pointHoverBorderWidth: 2,
       pointRadius: 3,
       pointHitRadius: 10,
-      data: [0, 0, 1, 1, 1, 1, 1, 1],
+      data: [0, 0, 1, 1, 1, 1, 1, 1, 1],
     },
     {
       label: ' Williams',
@@ -221,7 +222,7 @@ const data = {
       pointHoverBorderWidth: 2,
       pointRadius: 3,
       pointHitRadius: 10,
-      data: [0, 0, 0, 0, 0, 0, 0, 0],
+      data: [0, 0, 0, 0, 0, 0, 0, 0, 0],
     },
   ],
 }
