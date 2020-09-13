@@ -8,64 +8,66 @@ const RaceReport: React.FC = () => {
       <div className='h-48 md:h-64 xl:h-104 w-full'>
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
-          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1599411244/contentImages/content/italian-gp_ehffi0.jpg'
-          alt='Race REPORT - BELGIAN GP 2020'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1600015739/contentImages/content/albon-podium_btdchl.jpg'
+          alt='Race REPORT - Tuscan GP 2020'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-2 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            Race REPORT - Italian GP 2020
+            Race REPORT - Tuscan GP 2020
           </div>
           <H1>
-            Pierre Gasly for Alpha Tauri takes his maiden win in “Sprint Race”
-            like Italian GP with Sainz in second and Stroll in third
+            After two red flag stoppages at Mugello, Hamilton wins the first
+            ever Tuscan GP with Bottas in second as Alex Albon secures his
+            maiden podium.
           </H1>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            AlphaTauri’s Pierre Gasly claim his maiden Formula 1 victory at an
-            eventful 2020 Italian Grand Prix. In one of the most remarkable F1
-            races ever had, McLaren’s Carlos Sainz finished second, with Racing
-            Point’s Lance Stroll completing the podium. The eventful scenes of
-            Italian Grand Prix started by a Safety Car brought out as Kevin
-            Magnussen retired his car just outside the pit lane. Meanwhile Lewis
-            Hamilton and Antonio Giovinazzi dived into the pit lane when it was
-            closed, whereas rest of the drivers stayed in the race. Later
-            Hamilton and Giovinazzi was handed stop and go penalty. This helped
-            Gasly at the head of the field, as he had pitted just before the
-            Safety Car was brought out. But on Lap 24, Charles Leclerc had a
-            huge crashed at the Parabolica, which brought 25-minute red flag
-            period. Leclerc was able to climb from his car for every one’s
-            relief. But when the race got underway with a second start, the
-            Frenchman hold his place brilliantly to take a sensational maiden
-            win in Formula 1 at AlphaTauri’s home race.
+            Lewis Hamilton take victory at Mugello in an absolute thriller with
+            Mercedes team scored yet another Merceres 1-2 in Ferrari’s 1000 GP
+            race. The action-packed race witnessed multi-car crashes within the
+            first 10 laps, two red flag stoppages and an exciting sprint race
+            like finish helped Alex Albon score his first F1 podium. Valtheri
+            Bottas for Mercedes only could manage a second, after a great start
+            in the be first stint and eventually finised +4.880s behind
+            Hamilton. Meanwhile, Albon pulled off a fantastic move on Renault’s
+            Daniel Ricciardo in the last part of the race to claim an important
+            third for Red Bull, after his team mate retired the race in the
+            first lap incident. Ricciardo come home in fourth, tantalisingly
+            close to his first podium with Renaultas Sergio Perez finished fifth
+            for Racing Point.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Lando Norris finished a brilliant fourth for McLaren, holding off
-            the leading Mercedes of Valtteri Bottas in P5, The Finn had a poor
-            start that left him sixth at the end of Lap 1. Ricciardo for Renault
-            took sixth ahead of Hamilton, who recovered well from his penalty to
-            take P7 from the last spot. The Second Renault of Esteban Ocon
-            crossed eight,as the second AlphaTauri of Daniil Kvyat in P9 and the
-            Racing Point of Sergio Perez rounding out the top 10. Nicholas
-            Latifi finished just outside the points in P11. There were high
-            emotions in the Williams garage ahead of the Italian Grand Prix, as
-            outgoing Deputy Team Principal Claire Williams, on her family’s
-            final race with their historic team waves out Nicholas Latifi into
-            the pit lane before the race.
+            Lando Norris finished in sixth for McLaren, ahead of the AlphaTauri
+            of Daniil Kvyat in P7. Ferrari’s Charles Leclerc classified eighth
+            at the team’s 1000th GP. Alfa Romeo’s Kimi Raikkonen crossed the
+            line in eighth but classified as ninth after receiving a five-second
+            race penalty for crossing the line at pit entry. The second Ferrari
+            of Sebastian Vettel finished in points rounding out the top 10.
+            Williams’ George Russell finished in 11th, agonizingly close to the
+            team’s first point finish of the year, as he was running ninth in
+            the last restart after the second red flag of the race. Haas’ Romain
+            Grosjean finished 12th of the 12 runners classified.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Romain Grosjean for Haas finished 12th ahead of Alfa Romeo’s Kimi
-            Räikkönen, who was at P4 during restart after the red flag, while
-            having been P3, Raikkonen fell as far as 13th by the end of the
-            race. George Russell in second Williams finished P14. Alexander
-            Albon was the sole RedBull finisher, only could manage P15 as he was
-            handed a five-second race penalty for squeezing Romain Grosjean’s
-            Haas into Turn 1. The second Alfa Romeo of Antonio Giovinazzi
-            rounded off the finishers list in P16. As both Ferraris had to
-            retire from their home race, RedBull’s Max Verstappen also forced to
-            retire on Lap 31, as the team spotted an issue on the PU. So, the
-            2020 Italian GP has become the first race in the turbo-hybrid era
-            that a Mercedes, Red Bull and Ferrari hasn’t finished on the podium.
+            Racing Point’s Lance Stroll went off at Arrabbiata 2 while holding
+            fourth place on lap 43 and crashed into the tyre barriers which
+            brings out the Safety Car and later red flagged as the barriers
+            needs to be checked and repaired. Replays show that Stroll may have
+            picked up a rear tyre puncture, the Canadian helpless as the rear
+            slides away and he flies through the gravel and into the barriers.
+            Earlier, in the beginning of the race Verstappen dropped back after
+            just a poor start, and behind Gasly was squeezed between a Raikkonen
+            and Grosjean sandwich. Those three battling came up to the Red Bull
+            to punt him out the race. Last week’s race winner Gasly also had to
+            retire early after the incident with Max as he too wound up in the
+            gravel. This brings the first safety car and the race restarted on 7
+            as Sainz, Giovinazzi and Magnussen have all collided and are parked
+            up on the main straight on the restart brining red flags. Replays
+            show that Magnussen was going very slowly at the restart. Giovinazzi
+            was straight in the back of him, and then those two collected Sainz
+            and Latifi. Esteban also had to retire his car due to brake
+            overheating during red flag period.
           </p>
           {/* <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             Check out the positions of Top-5 drivers at the time Hamilton

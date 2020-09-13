@@ -8,7 +8,7 @@ const Race: React.FC = () => {
         Tuscan GP 2020 - Race Results
       </div>
       <div className='w-full grid sm:flex sm:flex-col justify-around py-3 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow-xs mb-4'>
-        <div className='align-middle min-w-full overflow-x-auto rounded-tl-xxl rounded-br-xl'>
+        <div className='align-middle min-w-full overflow-x-auto '>
           <table className='w-full table'>
             <thead>
               <tr className='bg-white-100 border-b border-gray-200'>
@@ -247,7 +247,7 @@ const Race: React.FC = () => {
             </tbody>
           </table>
         </div>
-        <p className='my-3 pr-4 text-base leading-normal text-gray-590 text-right'>
+        <p className='my-2 pr-4 text-base leading-normal text-gray-590 text-right'>
           <ContentLink href='/race-results' target='_self'>
             View Race Results...
           </ContentLink>
