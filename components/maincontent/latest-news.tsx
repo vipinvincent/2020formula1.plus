@@ -37,6 +37,9 @@ const Main: React.FC = () => {
   return (
     <div className='flex flex-col'>
       <div className='w-100 mb-0 mt-0'>
+        <Race />
+      </div>
+      <div className='w-100 mb-0 mt-0'>
         <Qualifying />
       </div>
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
@@ -66,9 +69,6 @@ const Main: React.FC = () => {
       </div>
       <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-4'>
         <FourthContent />
-      </div>
-      <div className='w-100 mb-0 mt-4'>
-        <Race />
       </div>
       <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-0'>
         <Archive40 />
