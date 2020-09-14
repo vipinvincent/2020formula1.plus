@@ -7,14 +7,14 @@ const Fourth: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=D7RqZy6nz6k'
+        href='https://www.youtube.com/watch?v=0h1dLX8wkVY'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/D7RqZy6nz6k/sddefault.jpg'
-              alt='How to Master the Mugello F1 Track | Nico Rosberg'
+              src='https://img.youtube.com/vi/0h1dLX8wkVY/sddefault.jpg'
+              alt='ABSOLUTE CARNAGE!! F1 2020 Tuscan GP Review'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,25 +32,20 @@ const Fourth: React.FC = () => {
             PODCAST
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=D7RqZy6nz6k'
+            href='https://www.youtube.com/watch?v=0h1dLX8wkVY'
             target='_blank'>
-            How to Master the Mugello F1 Track | Nico Rosberg
+            ABSOLUTE CARNAGE!! F1 2020 Tuscan GP Review
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            My next F1 Fridays episode! I was really looking forward to the
-            Mugello F1 track – I’m testing it together with you. The speed in
-            Mugello is phenomenal – we can look forward to an interesting 2020
-            Tuscan Grand Prix in Italy. Check out my in-depth analysis of the
-            Tuscan GP Track – of course also showing how to master the top speed
-            corners in Mugello! This time I started with a warm up lap, followed
-            by a hot lap and closing the track action in Mugello before sharing
-            my analysis with you. Of course closing the video by answering your
-            F1 questions!
+            Well I was NOT expecting that!! What a race! that's two in a row
+            now!! here are my thoughts on it all!
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href=' http://www.nicorosberg.com' target='_blank'>
-              Nico Rosberg
+            <ContentLink
+              href='https://www.youtube.com/channel/UCihjJgRm3Th-quKmTW-9AwQ'
+              target='_blank'>
+              FP1 - Formula Podcast One
             </ContentLink>
           </p>
         </div>

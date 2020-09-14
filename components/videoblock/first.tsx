@@ -7,14 +7,14 @@ const First: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=URJcgCWxl9M'
+        href='https://www.youtube.com/watch?v=q28Rnfmnlak'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/URJcgCWxl9M/sddefault.jpg'
-              alt='James Allison: r/Formula1 Ask Me Anything'
+              src='https://img.youtube.com/vi/q28Rnfmnlak/sddefault.jpg'
+              alt='What Was To Blame For The Lap 7 Crash At Mugello? | 2020 Tuscan Grand Prix'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,23 +32,20 @@ const First: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=URJcgCWxl9M'
+            href='https://www.youtube.com/watch?v=q28Rnfmnlak'
             target='_blank'>
-            James Allison: r/Formula1 Ask Me Anything
+            What Was To Blame For The Lap 7 Crash At Mugello? | 2020 Tuscan
+            Grand Prix
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Recently, we did an Ask Me Anything on r/Formula1 with our Technical
-            Director, James Allison. Thanks for all of your questions, Reddit!
-            Here's the result of that AMA, as James tackles topics such as F1's
-            biggest tech misunderstandings, data analytics and how he got
-            involved in the sport.
+            On F1 TV's Post-Race Show, Rosanna Tennant and Sam Collins unpick
+            exactly what led to the frightening crash during the 2020 Tuscan
+            Grand Prix at Mugello.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink
-              href='https://www.mercedesamgf1.com/en/'
-              target='_blank'>
-              Mercedes-AMG Petronas F1 Team
+            <ContentLink href='http://www.formula1.com' target='_blank'>
+              Formula1
             </ContentLink>
           </p>
         </div>

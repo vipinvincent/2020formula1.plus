@@ -7,14 +7,14 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=a4LjTe9Tt2M'
+        href='https://www.youtube.com/watch?v=d0U1Rxp4sNo'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/a4LjTe9Tt2M/sddefault.jpg'
-              alt='How Bad is Valtteri Bottas (in 2020...)'
+              src='https://img.youtube.com/vi/d0U1Rxp4sNo/sddefault.jpg'
+              alt='Tuscan Grand Prix: Race Reaction'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,26 +32,19 @@ const Second: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=a4LjTe9Tt2M'
+            href='https://www.youtube.com/watch?v=d0U1Rxp4sNo'
             target='_blank'>
-            How Bad is Valtteri Bottas (in 2020...)
+            Tuscan Grand Prix: Race Reaction
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            So the breaking news of Sergio Perez leaving Racing Point last night
-            has paved the way for Sebastian Vettel to sign for Aston Martin in
-            2021. Here I give my thoughts on it all!So with the 2020 season
-            being so one sided from a constructors point of view, I thought it
-            would be interesting to look into Valtteri Bottas' start to the
-            year, and investigate as to why he hasn't managed to keep up his
-            strong performance from the start of the year... Let me know your
-            thoughts on it all in the comments...
+            Join us for some instant reaction to the 2020 Tuscan Grand Prix. Did
+            the race at Mugello deliver? Or was it the snooze fest many
+            predicted?
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink
-              href='https://www.youtube.com/channel/UCihjJgRm3Th-quKmTW-9AwQ'
-              target='_blank'>
-              FP1 - Formula Podcast One
+            <ContentLink href='https://www.gptoday.net/en/ ' target='_blank'>
+              The F1 Word
             </ContentLink>
           </p>
         </div>

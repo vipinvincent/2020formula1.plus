@@ -7,13 +7,13 @@ const First: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=e2ah3xt_TxA'
+        href='https://www.youtube.com/watch?v=R0adQKQ1yYA'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/e2ah3xt_TxA/sddefault.jpg'
+              src='https://img.youtube.com/vi/R0adQKQ1yYA/sddefault.jpg'
               alt='Hiding In Plain Sight: The Secret Behind Sainz s Magical 2019 F1 Season'
             />
           </div>
@@ -32,23 +32,19 @@ const First: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=e2ah3xt_TxA'
+            href='https://www.youtube.com/watch?v=R0adQKQ1yYA'
             target='_blank'>
-            Hiding In Plain Sight: The Secret Behind Sainz's Magical 2019 F1
-            Season
+            Formula 1 Tuscan Grand Prix Post Race Chinwag
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Why is Carlos Sainz being beaten by Lando Norris in 2020? Why did I
-            think this in the season predictions? In this video I lay out all
-            the data that proved this was a long time coming. Sainz is
-            phenomenal, but the data had a secret.
+            Mugello was pretty decent. Lets talk about it.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
             <ContentLink
-              href='https://www.youtube.com/c/CrankyYankeeF1/'
+              href='https://www.youtube.com/c/TommoF1/'
               target='_blank'>
-              CrankyYankeeF1
+              Tommo F1
             </ContentLink>
           </p>
         </div>

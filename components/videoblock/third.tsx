@@ -7,14 +7,14 @@ const Third: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=D9FSyFEJYvA'
+        href='https://www.youtube.com/watch?v=8TV_mdnkan0'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/D9FSyFEJYvA/sddefault.jpg'
-              alt='How F1s new team can succeed where Renault failed'
+              src='https://img.youtube.com/vi/8TV_mdnkan0/sddefault.jpg'
+              alt='Behind The Charge With Alex Albon and Max Verstappen'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,24 +32,20 @@ const Third: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=D9FSyFEJYvA'
+            href='https://www.youtube.com/watch?v=8TV_mdnkan0'
             target='_blank'>
-            How F1’s ‘new’ team can succeed where Renault failed
+            Behind The Charge With Alex Albon and Max Verstappen
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The Renault F1 Team will be no-more after 2020. Fortunately, unlike
-            the last time Renault took its name down from above the door at the
-            Enstone factory, this time it will retain ownership, but next year
-            it will be rebranded as Alpine. Why is it doing that, what does it
-            all mean, and perhaps most importantly what is Alpine? Scott
-            Mitchell explores the thinking behind this decision, looking at why
-            a niche brand may be a better identity for the team, and how the way
-            F1 is set up for the future could make this a good time for a change
+            Go 'Behind The Charge' as we roll the cameras to lift the lid on a
+            typical day for Max Verstappen and Alex Albon over a race weekend!
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='https://the-race.com/formula-1/' target='_blank'>
-              The Race
+            <ContentLink
+              href='https://redbullracing.redbull.com/'
+              target='_blank'>
+              Aston Martin Red Bull Racing
             </ContentLink>
           </p>
         </div>

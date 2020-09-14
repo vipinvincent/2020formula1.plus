@@ -7,14 +7,14 @@ const Third: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=Jgi6JWo4ieI'
+        href='https://www.youtube.com/watch?v=EO10XjJRII0'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/Jgi6JWo4ieI/sddefault.jpg'
-              alt='Should Gasly Return To Red Bull? | Is It Just Me? Podcast'
+              src='https://img.youtube.com/vi/EO10XjJRII0/sddefault.jpg'
+              alt='Tuscan Grand Prix Review - Hamilton beats Bottas, Albons podium and THAT crash'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,19 +32,19 @@ const Third: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=Jgi6JWo4ieI'
+            href='https://www.youtube.com/watch?v=EO10XjJRII0'
             target='_blank'>
-            Should Gasly Return To Red Bull? | Is It Just Me? Podcast
+            Tuscan Grand Prix Review - Hamilton beats Bottas, Albon's podium and
+            THAT crash
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            After Gasly's epic 2020 Italian GP win, Jess and Luke discuss your
-            opinions, and the pros and cons of Pierre Gasly potenitally
-            returning to the senior Red Bull F1 team.
+            Tuscan Grand Prix Review - Hamilton beats Bottas, Albon's podium and
+            THAT crash
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='https://www.autosport.com/' target='_blank'>
-              Autosport
+            <ContentLink href='http://www.formulaspy.com' target='_blank'>
+              Thomas Maher
             </ContentLink>
           </p>
         </div>
