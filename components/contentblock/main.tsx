@@ -17,7 +17,7 @@ const Main: React.FC = () => {
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
             News
           </div>
-          <H1>How’s drivers market shaping up at mid of 2020 season</H1>
+          <H1>How is the driver's market shaping up at mid of 2020 season</H1>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             As the 2020 season proceeds to the second half, the driver’s market
             is shaping up interestingly. Most of the teams has already finalized

@@ -7,13 +7,13 @@ const Third: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=EO10XjJRII0'
+        href='https://www.youtube.com/watch?v=TewRFe-vPIY'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/EO10XjJRII0/sddefault.jpg'
+              src='https://img.youtube.com/vi/TewRFe-vPIY/sddefault.jpg'
               alt='Tuscan Grand Prix Review - Hamilton beats Bottas, Albons podium and THAT crash'
             />
           </div>
@@ -32,14 +32,19 @@ const Third: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=EO10XjJRII0'
+            href='https://www.youtube.com/watch?v=TewRFe-vPIY'
             target='_blank'>
-            Tuscan Grand Prix Review - Hamilton beats Bottas, Albon's podium and
-            THAT crash
+            Red Bull addressing Verstappen’s Honda concerns as ‘exit clause’
+            details emerge
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Tuscan Grand Prix Review - Hamilton beats Bottas, Albon's podium and
-            THAT crash
+            Red Bull say they will explain to Max Verstappen what Honda have
+            done to address their reliability issues, as details of the Dutch
+            driver’s ‘exit clause’ have emerged. Max Verstappen retired from the
+            Tuscan Grand Prix on the first lap, after being caught up in an
+            early accident. He was driving slowly and falling back in the pack
+            at the time, having encountered a power unit issue that he said was
+            likely to have forced him to retire from the race anyway.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}

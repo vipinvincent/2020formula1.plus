@@ -7,14 +7,14 @@ const Third: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=8TV_mdnkan0'
+        href='https://www.youtube.com/watch?v=O03luSdexOI'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/8TV_mdnkan0/sddefault.jpg'
-              alt='Behind The Charge With Alex Albon and Max Verstappen'
+              src='https://img.youtube.com/vi/O03luSdexOI/sddefault.jpg'
+              alt='Factory Friday: Mike Elliott Answers Your Questions! '
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,20 +32,20 @@ const Third: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=8TV_mdnkan0'
+            href='https://www.youtube.com/watch?v=O03luSdexOI'
             target='_blank'>
-            Behind The Charge With Alex Albon and Max Verstappen
+            Factory Friday: Mike Elliott Answers Your Questions!
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Go 'Behind The Charge' as we roll the cameras to lift the lid on a
-            typical day for Max Verstappen and Alex Albon over a race weekend!
+            Challenges of triple-headers, new regulations, upside down F1 cars
+            and more! We're back with our special edition of #FactoryFriday Q&A
+            series! This time, we sat down with Mike Elliott, our Technology
+            Director, to answer some of the best questions you sent in!
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink
-              href='https://redbullracing.redbull.com/'
-              target='_blank'>
-              Aston Martin Red Bull Racing
+            <ContentLink href='http://www.mercedesamgf1.com/' target='_blank'>
+              Mercedes-AMG Petronas F1
             </ContentLink>
           </p>
         </div>

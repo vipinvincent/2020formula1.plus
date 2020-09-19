@@ -7,14 +7,14 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=d0U1Rxp4sNo'
+        href='https://www.youtube.com/watch?v=kv56dw3v3M8'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/d0U1Rxp4sNo/sddefault.jpg'
-              alt='Tuscan Grand Prix: Race Reaction'
+              src='https://img.youtube.com/vi/kv56dw3v3M8/sddefault.jpg'
+              alt='Why any new F1 team has to pay $200million to the current grid to enter'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,19 +32,26 @@ const Second: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=d0U1Rxp4sNo'
+            href='https://www.youtube.com/watch?v=kv56dw3v3M8'
             target='_blank'>
-            Tuscan Grand Prix: Race Reaction
+            Why any new F1 team has to pay $200million to the current grid to
+            enter
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Join us for some instant reaction to the 2020 Tuscan Grand Prix. Did
-            the race at Mugello deliver? Or was it the snooze fest many
-            predicted?
+            Under the terms of F1's new Concorde Agreement, any new team wanting
+            to enter F1 now has to pay $200million which will then be shared
+            evenly amongst the 10 existing entries. In this video Scott Mitchell
+            explains the thinking behind the move, and how it is designed to
+            prevent 'chancers' trying to join F1, as well as offering more
+            protection to the current teams in a US sports-style franchise
+            model.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='https://www.gptoday.net/en/ ' target='_blank'>
-              The F1 Word
+            <ContentLink
+              href='https://the-race.com/formula-1/new-f1-squads-must-now-pay-existing-teams-200m-to-enter/'
+              target='_blank'>
+              The Race
             </ContentLink>
           </p>
         </div>
