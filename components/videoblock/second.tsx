@@ -7,14 +7,14 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=M_uZTUllmrk'
+        href='https://www.youtube.com/watch?v=YCZv4WeSUcc'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/M_uZTUllmrk/sddefault.jpg'
-              alt='Lando Norris VS Lance Stroll: Who Is The Most IMPROVED Driver In 2020'
+              src='https://img.youtube.com/vi/YCZv4WeSUcc/sddefault.jpg'
+              alt='Why F1s Flexi-Wings Were Banned... Kind Of'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,26 +32,25 @@ const Second: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=M_uZTUllmrk'
+            href='https://www.youtube.com/watch?v=YCZv4WeSUcc'
             target='_blank'>
-            Lando Norris VS Lance Stroll: Who Is The Most IMPROVED Driver In
-            2020
+            Why F1's Flexi-Wings Were Banned... Kind Of
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Lando Norris and Lance Stroll are the two drivers who I think have
-            improved the most since 2019. They were comfortably beaten by their
-            more experienced teammates last year but this season, they are both
-            higher than their respective teammates in the championship
-            standings. They both have a podium this season and have been in some
-            fantastic wheel-to-wheel battles. But who do I think has improved
-            the most?
+            If you've ever looked at a Formula 1 car up close, you'll notice
+            that the bodywork isn't as rigid as you may think. Thanks to
+            aeroelasticity, F1 cars since the late 90s have made use of this
+            flexibility to create what is known as "Flexi-Wings", with instances
+            of this cropping up multiple times over the last 2 decades. As
+            always with this series, the FIA aren't a fan of these flexible
+            wings, so we're taking a closer look at the many ways F1 teams have
+            made use of flexible bodyparts, and how the FIA have put a stop to
+            the practise... kind of.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink
-              href='https://www.youtube.com/c/BMPHF1'
-              target='_blank'>
-              BMPHF1
+            <ContentLink href='https://www.autosport.com/' target='_blank'>
+              Autosport
             </ContentLink>
           </p>
         </div>

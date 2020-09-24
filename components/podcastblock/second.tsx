@@ -7,14 +7,14 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=kv56dw3v3M8'
+        href='https://www.youtube.com/watch?v=Y2ag7rFAyjE'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/kv56dw3v3M8/sddefault.jpg'
-              alt='Why any new F1 team has to pay $200million to the current grid to enter'
+              src='https://img.youtube.com/vi/Y2ag7rFAyjE/sddefault.jpg'
+              alt='When will Mercedes dominance end? | Questions from our YouTube audience | The Race F1 Podcast'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,19 +32,20 @@ const Second: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=kv56dw3v3M8'
+            href='https://www.youtube.com/watch?v=Y2ag7rFAyjE'
             target='_blank'>
-            Why any new F1 team has to pay $200million to the current grid to
-            enter
+            When will Mercedes' dominance end? | Questions from our YouTube
+            audience | The Race F1 Podcast
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Under the terms of F1's new Concorde Agreement, any new team wanting
-            to enter F1 now has to pay $200million which will then be shared
-            evenly amongst the 10 existing entries. In this video Scott Mitchell
-            explains the thinking behind the move, and how it is designed to
-            prevent 'chancers' trying to join F1, as well as offering more
-            protection to the current teams in a US sports-style franchise
-            model.
+            For this special episode of The Race F1 Podcast we asked you, our
+            dear YouTube audience, for questions about the 2020 F1 season so
+            far. We received far more questions than we could answer, but we did
+            our best to pick up on the main topics that kept coming up! You can
+            listen to our main F1 podcast every week by searching for 'The Race
+            F1 Podcast' on your platform of choice, but as these questions came
+            from you, we're uploading this episode onto our YouTube channel as a
+            special thank you.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}

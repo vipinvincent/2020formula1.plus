@@ -7,14 +7,14 @@ const Fourth: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=-50jOiJPbRU'
+        href='https://www.youtube.com/watch?v=mgh3OxoCPd4'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/-50jOiJPbRU/sddefault.jpg'
-              alt='New driver line-up at Haas in 2021?'
+              src='https://img.youtube.com/vi/mgh3OxoCPd4/sddefault.jpg'
+              alt='Does Daniil Kvyat Deserve his Alpha Tauri Seat in 2021?'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,20 +32,23 @@ const Fourth: React.FC = () => {
             PODCAST
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=-50jOiJPbRU'
+            href='https://www.youtube.com/watch?v=mgh3OxoCPd4'
             target='_blank'>
-            New driver line-up at Haas in 2021?
+            Does Daniil Kvyat Deserve his Alpha Tauri Seat in 2021?
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            American team Haas may not be at its 2018 peak right now, but its
-            future in F1 has been confirmed with the squad inking the Concorde
-            Agreement last month that will bind the sport’s stakeholders until
-            2025.
+            The Russian has been outclassed by Pierre gasly in 2020 and with
+            several Red Bull Juniors on the rise, his seat next year at Alpha
+            Tauri is definitely in doubt for next year. So today I thought we'd
+            take a look back over the Russian's career and deduce whether he
+            deserves to stay, and if so what teams that could be at...
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='https://unbeaten.com/formula1' target='_blank'>
-              The Inside Line
+            <ContentLink
+              href='https://www.youtube.com/c/FP1FormulaPodcastOne/'
+              target='_blank'>
+              FP1 - Formula Podcast One
             </ContentLink>
           </p>
         </div>

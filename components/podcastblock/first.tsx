@@ -7,14 +7,14 @@ const First: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=WxBkmgtr7ZA'
+        href='https://www.youtube.com/watch?v=IANdbT-lwz4'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/WxBkmgtr7ZA/sddefault.jpg'
-              alt='Is Lewis Hamilton ACTUALLY a Hypocrite?'
+              src='https://img.youtube.com/vi/IANdbT-lwz4/sddefault.jpg'
+              alt='How Bad Is Ferraris 2020 Season? Stories Behind The Worst Ferrari Failures EXPLAINED [TOP 5]'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,21 +32,23 @@ const First: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=WxBkmgtr7ZA'
+            href='https://www.youtube.com/watch?v=IANdbT-lwz4'
             target='_blank'>
-            Is Lewis Hamilton ACTUALLY a Hypocrite?
+            How Bad Is Ferrari's 2020 Season? Stories Behind The Worst Ferrari
+            Failures EXPLAINED [TOP 5]
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Lewis Hamilton is not afraid to put his views out there. He catches
-            a lot of stick for it, and one of the most common criticisms
-            levelled at him, is that he's a "hypocrite".
+            Ferrari's 2020 F1 season has not been pretty - but is it as bad
+            people make it out to be? In this video we'll cover the stories of 5
+            Formula 1 seasons much worse than 2020 to put things into
+            perspective.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
             <ContentLink
-              href='https://www.youtube.com/c/TommoF1/'
+              href='https://www.youtube.com/c/CrankyYankeeF1'
               target='_blank'>
-              Tommo F1
+              CrankyYankeeF1
             </ContentLink>
           </p>
         </div>

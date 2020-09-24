@@ -7,14 +7,14 @@ const First: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=DvgQxc8nOQU'
+        href='https://www.youtube.com/watch?v=ovpD_ET8VUw'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/DvgQxc8nOQU/sddefault.jpg'
-              alt='How Racing Point is moving away from its Pink Mercedes F1 design'
+              src='https://img.youtube.com/vi/ovpD_ET8VUw/sddefault.jpg'
+              alt='What putting a Ferrari man in charge means for F1'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,19 +32,20 @@ const First: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=DvgQxc8nOQU'
+            href='https://www.youtube.com/watch?v=ovpD_ET8VUw'
             target='_blank'>
-            How Racing Point is moving away from its Pink Mercedes F1 design
+            What putting a 'Ferrari man' in charge means for F1
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Racing Point's RP20 F1 car has been in the spotlight since it first
-            rolled out of the garage in pre-season testing. But the
-            controversial design - which is no longer under protest from rivals
-            - is now being evolved in a way that isn't as simple as just copying
-            what Mercedes does. In this video we explain the latest updates the
-            team has introduced, what makes the new parts different to what
-            Mercedes has done, and why Racing Point wouldn't be able to copy
-            some of the key changes Mercedes made for this year anyway.
+            Ex-Ferrari team boss Stefano Domenicali is set to replace Chase
+            Carey as the CEO of Formula 1. The upcoming move will mark a return
+            to the championship for Domenicali, who walked away from Ferrari in
+            2014 and has since held roles at Audi and Lamborghini among others.
+            In this video Scott Mitchell looks at what Domenicali will bring to
+            the role, how he will differ from his predecessor Carey, what he can
+            achieve alongside his old Ferrari colleague Ross Brawn, and if
+            anyone should be concerned about a self-confessed "Ferrari man"
+            being in charge of F1 itself.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
