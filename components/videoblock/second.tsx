@@ -7,14 +7,14 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=YCZv4WeSUcc'
+        href='https://www.youtube.com/watch?v=72-Ote_fF0w'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/YCZv4WeSUcc/sddefault.jpg'
-              alt='Why F1s Flexi-Wings Were Banned... Kind Of'
+              src='https://img.youtube.com/vi/72-Ote_fF0w/sddefault.jpg'
+              alt='Why 2020 Is A CHARACTER-BUILDING Season For Charles Leclerc'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,25 +32,23 @@ const Second: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=YCZv4WeSUcc'
+            href='https://www.youtube.com/watch?v=72-Ote_fF0w'
             target='_blank'>
-            Why F1's Flexi-Wings Were Banned... Kind Of
+            Why 2020 Is A CHARACTER-BUILDING Season For Charles Leclerc
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            If you've ever looked at a Formula 1 car up close, you'll notice
-            that the bodywork isn't as rigid as you may think. Thanks to
-            aeroelasticity, F1 cars since the late 90s have made use of this
-            flexibility to create what is known as "Flexi-Wings", with instances
-            of this cropping up multiple times over the last 2 decades. As
-            always with this series, the FIA aren't a fan of these flexible
-            wings, so we're taking a closer look at the many ways F1 teams have
-            made use of flexible bodyparts, and how the FIA have put a stop to
-            the practise... kind of.
+            Charles Leclerc has been one of the standout performers in 2020 so
+            far. In a car that is running in the lower half of the midfield,
+            Leclerc has managed to take 2 podiums and start as high as fourth in
+            the first Silverstone race. Here's why I think this year is a
+            particularly important year for his career moving forward.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='https://www.autosport.com/' target='_blank'>
-              Autosport
+            <ContentLink
+              href='https://www.youtube.com/c/BMPHF1'
+              target='_blank'>
+              BMPHF1
             </ContentLink>
           </p>
         </div>

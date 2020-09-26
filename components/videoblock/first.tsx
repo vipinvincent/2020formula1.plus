@@ -7,14 +7,14 @@ const First: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=ovpD_ET8VUw'
+        href='https://www.youtube.com/watch?v=M1oiNbUMbow'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/ovpD_ET8VUw/sddefault.jpg'
-              alt='What putting a Ferrari man in charge means for F1'
+              src='https://img.youtube.com/vi/M1oiNbUMbow/sddefault.jpg'
+              alt='What Hamiltons team ownership move tells us about his career after F1'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,20 +32,17 @@ const First: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=ovpD_ET8VUw'
+            href='https://www.youtube.com/watch?v=M1oiNbUMbow'
             target='_blank'>
-            What putting a 'Ferrari man' in charge means for F1
+            What Hamilton's team ownership move tells us about his career after
+            F1
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Ex-Ferrari team boss Stefano Domenicali is set to replace Chase
-            Carey as the CEO of Formula 1. The upcoming move will mark a return
-            to the championship for Domenicali, who walked away from Ferrari in
-            2014 and has since held roles at Audi and Lamborghini among others.
-            In this video Scott Mitchell looks at what Domenicali will bring to
-            the role, how he will differ from his predecessor Carey, what he can
-            achieve alongside his old Ferrari colleague Ross Brawn, and if
-            anyone should be concerned about a self-confessed "Ferrari man"
-            being in charge of F1 itself.
+            Lewis Hamilton is now a team owner. While that sinks in for a
+            moment, this video explains what his new 'X44' team is all about,
+            how he hopes it can help improve diversity in motorsport, and how
+            his choice of championship fits with his push for better
+            environmental awareness around the world.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
