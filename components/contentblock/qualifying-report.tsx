@@ -1,65 +1,75 @@
 import React from 'react'
 import H1 from 'components/heading/H1'
 
-const FP3Report: React.FC = () => {
+const QualifyingReport: React.FC = () => {
   return (
     <div className='relative'>
       <div className='h-48 md:h-64 xl:h-104 w-full'>
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
           src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1597490309/contentImages/content/lewis-hamilton_oavnow.jpg'
-          alt='FP3 REPORT - Russian GP 2020'
+          alt='Qualifying REPORT - Russian GP 2020'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-2 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            FP3 REPORT - Russian GP 2020
+            Qualifying REPORT - Russian GP 2020
           </div>
           <H1>
             Hamilton finishes P1 in final practice with his Mercedes teammate
             Bottas in P2 and Sainz in P3 for McLaren
           </H1>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Lewis Hamilton tops the final practice and looks well set for
-            qualifying as his teammate Valtteri Bottas only could manage a P2
-            0.776s slower after topped both practice sessions on Friday for
-            Mercedes. McLaren’s Carlos Sainz impressed with a late flyer,
-            finished third 0.817s off the lead time narrowly behind Bottas and
-            more than a tenth ahead of Renault’s Esteban Ocon. Racing Point’s
-            Sergio Perez within a second of Hamilton rounded off top 5. Max
-            Verstappen for Red Bull only could manage P6 after spending most of
-            the session on soft tyres had to slow down by traffic on his last
-            flying lap. Sebastian Vettel ended seventh for Ferrari with a
-            brilliant flying effort, but damaged his floor going wide on the
-            last corner.
+            Lewis Hamilton grabs pole position with a new track record at Monza
+            in the Russian Grand Prix qualifying ahead of Valtteri Bottas
+            claiming yet another 1-2 for Mercedes. It was a private affair for
+            pole position at Monza between the two Mercedes cars as Lewis
+            Hamilton, leading his team mate Valtteri Bottas only by 0.069s as
+            Ferrari failed to get a car in the top 10 at their home race for the
+            first time in 36 years. Carlos Sainz for McLaren was the best of the
+            rest with an impressive third, which was McLaren’s third of the
+            season, with Sergio Perez in the Racing Point at fourth. It’s also
+            McLaren’s first top-three start at Monza since they locked out the
+            front row in 2012. Perez will start fourth for the eighth time in
+            his F1 career, with Max Verstappen pushed down to fifth. Since the
+            turbo hybrid era began in 2014, this is for the first time Red Bull
+            have failed to start on the front two rows of the grid at Monza.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Lance Stroll in the second Racing Point finished P8 just behind
-            Vettel after a difficult FP2 on Friday afternoon. Daniil Kvyat
-            impressed for Alpha Tauri as he finished ahead of his teammate in P9
-            which is 1.5s slower than the lead driver. Renault's Daniel
-            Ricciardo, only manage Tenth as he was slowed by a problem with his
-            right wing mirror. Pierre Gasly in second Alpha Tauri finished P11,
-            only after spinning early on and then encountering traffic late in
-            the session. Charles Leclerc managed P12, as he couldn’t match his
-            Ferrari team mate Vettel.
+            The second McLaren of Lando Norris crossed the line in sixth with
+            Daniel Ricciardo in seventh. Lance Stroll in the second Racing point
+            finished eighth and Alexander Albon, who had three laps deleted for
+            exceeding track limits finished in ninth. AlphaTauri’s Pierre Gasly
+            rounded out the top 10 as his teammate Daniil Kvyat finished 11th.
+            Meanwhile, Esteban Ocon had to settle for P12 as he got knocked out
+            despite running behind teammate Ricciardo early in his final Q2 lap
+            to try and take advantage of the tow. But, Ricciardo made a mistake
+            and put his left-side wheels off into the gravel as he was exiting
+            the second chicane and he later slowed and abandoned his lap, with
+            Ocon not improving his final flyer in Q2.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            George Russell of Williams finished in P13 ahead of Romain Grosjean
-            in Haas who had a late spin at Turn 15, but ended the session a
-            solid 14th for Haas despite repeated radio calls to him engineer
-            complaining of problems with the car. His team mate Kevin Magnussen
-            took 16th with Williams’ Nicholas Latifi between them on the board.
-            The Alfa Romeo pair followed Magnussen on the timesheets with
-            Antonio Giovinazzi leading his teammate Kimi Raikkonen. Alex Albon
-            had his fastest time deleted for overstepping track limits, leaving
-            him down in 19th, ahead of McLaren’s Lando Norris who was unable to
-            get a clean lap in through the session.
+            Charles Leclerc of Ferrari ended up in P13, calling his Q2 lap "the
+            best I can do", as Ferrari was again exposed by its straightline
+            speed issues with the SF100. Kimi Raikkonen for Alfa Romeo and Kevin
+            Magnussen for Haas made it through to Q2, but Magnussen ran very
+            wide into the gravel as he flew through the second Lesmo, which
+            ruined his final lap in the middle segment as they finished 14th and
+            15th respectively. The second Haas of Romain Grosjean ended up in
+            P16, ahead of Vettel, who abandoned his final Q1 run, as there were
+            race-like scenes on the final runs in the opening segment, where
+            backing-up at the Parabolica meant several drivers including Vettel
+            fought for space at the right-hander and down the main straight.
+            Behind Vettel came Antonio Giovinazzi and George Russell, who
+            criticized his Williams team over his radio for getting involved in
+            the chaotic scenes. Meanwhile the second Williams driver Nicholas
+            Latifi, who was also involved, was the only driver to set a personal
+            best, although he still ended up 20th and last.{' '}
           </p>
         </div>
       </div>
     </div>
   )
 }
-export default FP3Report
+export default QualifyingReport
