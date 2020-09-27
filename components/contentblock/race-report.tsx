@@ -15,7 +15,7 @@ const RaceReport: React.FC = () => {
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-2 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            Race REPORT - Tuscan GP 2020
+            Race REPORT - Russian GP 2020
           </div>
           <H1>
             After two red flag stoppages at Mugello, Hamilton wins the first

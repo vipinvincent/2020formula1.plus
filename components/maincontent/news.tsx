@@ -1,4 +1,5 @@
 import React from 'react'
+import Archive46 from 'components/newsarchives/race-report-tuscan-gp'
 import Archive45 from 'components/newsarchives/one-stop-races-are-boring'
 import Archive44 from 'components/newsarchives/qualifying-report-tuscan-gp'
 import Archive43 from 'components/newsarchives/fp3-report-tuscan-gp'
@@ -53,6 +54,9 @@ const Main: React.FC = () => {
       </div>
       <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-0'>
         <Archive45 />
+      </div>
+      <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-4'>
+        <Archive46 />
       </div>
       <div className='w-100 flex flex-col xl:flex-row'>
         <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 mt-4 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
