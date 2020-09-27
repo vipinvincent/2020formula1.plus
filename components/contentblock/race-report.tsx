@@ -8,7 +8,7 @@ const RaceReport: React.FC = () => {
       <div className='h-48 md:h-64 xl:h-104 w-full'>
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
-          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1600015739/contentImages/content/albon-podium_btdchl.jpg'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1601214934/contentImages/content/bottas_bw5vun.jpg'
           alt='Race REPORT - Tuscan GP 2020'
         />
       </div>
@@ -18,56 +18,57 @@ const RaceReport: React.FC = () => {
             Race REPORT - Russian GP 2020
           </div>
           <H1>
-            After two red flag stoppages at Mugello, Hamilton wins the first
-            ever Tuscan GP with Bottas in second as Alex Albon secures his
-            maiden podium.
+            Mercedes’ Valtteri Bottas wins in Sochi with Verstappen in Second
+            and Hamilton in third
           </H1>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Lewis Hamilton take victory at Mugello in an absolute thriller with
-            Mercedes team scored yet another Merceres 1-2 in Ferrari’s 1000 GP
-            race. The action-packed race witnessed multi-car crashes within the
-            first 10 laps, two red flag stoppages and an exciting sprint race
-            like finish helped Alex Albon score his first F1 podium. Valtheri
-            Bottas for Mercedes only could manage a second, after a great start
-            in the be first stint and eventually finised +4.880s behind
-            Hamilton. Meanwhile, Albon pulled off a fantastic move on Renault’s
-            Daniel Ricciardo in the last part of the race to claim an important
-            third for Red Bull, after his team mate retired the race in the
-            first lap incident. Ricciardo come home in fourth, tantalisingly
-            close to his first podium with Renaultas Sergio Perez finished fifth
-            for Racing Point.
+            Mercedes’ Valtteri Bottas claimed his second victory of 2020 at the
+            Russian Grand Prix, as a ten second penalty for the pole setter
+            Lewis Hamilton forced him to third. Meanwhile, Max Verstappen scored
+            Red Bull’s first ever podium at Sochi in P2. Hamilton started the
+            race with the investigation on for a pair of practice start
+            infringements on his laps to the grid. Later 5 seconds penalty for
+            each incident was handed to Hamilton during mid-race, ruling him out
+            of contention for the win. Incidentally, Hamilton will get a licence
+            penalty point for each of the two time penalties received in this
+            race. This will take his penalty tally to 10,two short of a race
+            ban. Earlier, Bottas had passed Verstappen for second at the race
+            start, and Verstappen himself plunged to fourth later recovered to
+            third from where both enjoyed a trouble free race to the chequered
+            flag. This would have been an confidence booster for Bottas, who
+            needs to be fighting for the championship with Hamilton and
+            Verstappen too after two DNFs.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Lando Norris finished in sixth for McLaren, ahead of the AlphaTauri
-            of Daniil Kvyat in P7. Ferrari’s Charles Leclerc classified eighth
-            at the team’s 1000th GP. Alfa Romeo’s Kimi Raikkonen crossed the
-            line in eighth but classified as ninth after receiving a five-second
-            race penalty for crossing the line at pit entry. The second Ferrari
-            of Sebastian Vettel finished in points rounding out the top 10.
-            Williams’ George Russell finished in 11th, agonizingly close to the
-            team’s first point finish of the year, as he was running ninth in
-            the last restart after the second red flag of the race. Haas’ Romain
-            Grosjean finished 12th of the 12 runners classified.
+            Racing Point’s Sergio Perez came home with fourth behind the podium
+            positions. Renault’s Daniel Ricciardo, after a 5 second penalty had
+            enough pace in hand to maintain P5 at the flag, ahead of the Ferrari
+            of Charles Leclerc in sixth. Esteban Ocon in the second Renault, who
+            let his team mate pass in race after failing to overtake Leclerc,
+            crossed the line in P7. Home hero Daniil Kvyat impressed in his
+            AlphaTauri with P8 finish ahead of his teammate of Pierre Gasly.
+            Pierre Gasly himself had a personal moment in the race with the Red
+            Bull of Alex Albon, who came home P10, having started P15 after
+            receiving a five-place penalty for changing his gearbox.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Racing Point’s Lance Stroll went off at Arrabbiata 2 while holding
-            fourth place on lap 43 and crashed into the tyre barriers which
-            brings out the Safety Car and later red flagged as the barriers
-            needs to be checked and repaired. Replays show that Stroll may have
-            picked up a rear tyre puncture, the Canadian helpless as the rear
-            slides away and he flies through the gravel and into the barriers.
-            Earlier, in the beginning of the race Verstappen dropped back after
-            just a poor start, and behind Gasly was squeezed between a Raikkonen
-            and Grosjean sandwich. Those three battling came up to the Red Bull
-            to punt him out the race. Last week’s race winner Gasly also had to
-            retire early after the incident with Max as he too wound up in the
-            gravel. This brings the first safety car and the race restarted on 7
-            as Sainz, Giovinazzi and Magnussen have all collided and are parked
-            up on the main straight on the restart brining red flags. Replays
-            show that Magnussen was going very slowly at the restart. Giovinazzi
-            was straight in the back of him, and then those two collected Sainz
-            and Latifi. Esteban also had to retire his car due to brake
-            overheating during red flag period.
+            Antonio Giovinazzi in Alfa Romeo crossed eleventh ahead of Kevin
+            Magnussen in Haas. Sebastian Vettel in the second Ferrari
+            disappoints again with a P13 finish who had few interesting battles
+            with two Renault cars in between the race. Behind Vettel, Alfa
+            Romeo’s Kimi Raikkonen finished P14 as he matched Rubens
+            Barrichello’s tally of 322 F1 starts. This means the Finn is set to
+            make a record his own at the upcoming Eifel Grand Prix at Germany.
+            Lando Norris in McLaren on could manage P15 as Willams’ Nicholas
+            Latifi finished in P16. Romain Grosjean in the second Haas and
+            George Russell in the second Willams rounded off the race finishers.
+            Meanwhile, McLaren’s Carlos Sainz who ripped the front right corner
+            off his car while trying to re-join the track at Turn 3, and Racing
+            Point’s Lance Stroll who was tagged by Charles Leclerc at Turn 4,
+            are the two DNFs of the race. These two events invoked the safety
+            car in the first lap which were the only incidents, otherwise a
+            trouble free race event, after the double red flagged races in
+            Italy.
           </p>
           {/* <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             Check out the positions of Top-5 drivers at the time Hamilton
