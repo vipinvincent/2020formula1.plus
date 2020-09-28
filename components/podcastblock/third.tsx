@@ -7,14 +7,14 @@ const Third: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=Eco_KhyBOm8'
+        href='https://www.youtube.com/watch?v=Uh5KP5y5XtQ'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/Eco_KhyBOm8/sddefault.jpg'
-              alt='Setting Up F1 Cars For The Russian GP Track'
+              src='https://img.youtube.com/vi/Uh5KP5y5XtQ/sddefault.jpg'
+              alt='Russian Grand Prix Review - Bottas wins as Hamilton picks up controversial penalty'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,21 +32,20 @@ const Third: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=Eco_KhyBOm8'
+            href='https://www.youtube.com/watch?v=Uh5KP5y5XtQ'
             target='_blank'>
-            Setting Up F1 Cars For The Russian GP Track
+            Russian Grand Prix Review - Bottas wins as Hamilton picks up
+            controversial penalty
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Taking a detailed look at the F1 engineering and setup challenges of
-            the Sochi Autodrome ahead of the Russian Grand Prix. What exactly is
-            an F1 car doing on its way around a lap of this track?
+            Russian Grand Prix – Mercedes’ Valtteri Bottas has taken an easy win
+            at the Sochi Autodrom, after time penalties prevented from Lewis
+            Hamilton from challenging.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink
-              href='https://www.youtube.com/c/F1Elvis'
-              target='_blank'>
-              Marc Priestley F1 Elvis
+            <ContentLink href='https://formulaspy.com/f1' target='_blank'>
+              Thomas Maher
             </ContentLink>
           </p>
         </div>

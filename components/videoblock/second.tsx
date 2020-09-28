@@ -7,14 +7,14 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=72-Ote_fF0w'
+        href='https://www.youtube.com/watch?v=3tQ7zu3sOQ0'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/72-Ote_fF0w/sddefault.jpg'
-              alt='Why 2020 Is A CHARACTER-BUILDING Season For Charles Leclerc'
+              src='https://img.youtube.com/vi/3tQ7zu3sOQ0/sddefault.jpg'
+              alt='Toto Wolff on his future at Mercedes, not going for the F1 top job & being starstruck by Schumacher!'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,22 +32,20 @@ const Second: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=72-Ote_fF0w'
+            href='https://www.youtube.com/watch?v=3tQ7zu3sOQ0'
             target='_blank'>
-            Why 2020 Is A CHARACTER-BUILDING Season For Charles Leclerc
+            Toto Wolff on his future at Mercedes, not going for the F1 top job &
+            being starstruck by Schumacher!
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Charles Leclerc has been one of the standout performers in 2020 so
-            far. In a car that is running in the lower half of the midfield,
-            Leclerc has managed to take 2 podiums and start as high as fourth in
-            the first Silverstone race. Here's why I think this year is a
-            particularly important year for his career moving forward.
+            In this extended interview, Toto Wolff speaks to Natalie Pinkham
+            about his future as team principal of Mercedes, his reasons for not
+            going for the F1 CEO job, and what it was like when he first met
+            Michael Schumacher.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink
-              href='https://www.youtube.com/c/BMPHF1'
-              target='_blank'>
+            <ContentLink href='https://www.skysports.com/f1' target='_blank'>
               BMPHF1
             </ContentLink>
           </p>
