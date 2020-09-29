@@ -7,13 +7,13 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=Y2ag7rFAyjE'
+        href='https://www.youtube.com/watch?v=M-aiKdduFqA'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/Y2ag7rFAyjE/sddefault.jpg'
+              src='https://img.youtube.com/vi/M-aiKdduFqA/sddefault.jpg'
               alt='When will Mercedes dominance end? | Questions from our YouTube audience | The Race F1 Podcast'
             />
           </div>
@@ -32,27 +32,19 @@ const Second: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=Y2ag7rFAyjE'
+            href='https://www.youtube.com/watch?v=M-aiKdduFqA'
             target='_blank'>
-            When will Mercedes' dominance end? | Questions from our YouTube
-            audience | The Race F1 Podcast
+            2020 Russian GP Race Review | WTF1 Podcast
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            For this special episode of The Race F1 Podcast we asked you, our
-            dear YouTube audience, for questions about the 2020 F1 season so
-            far. We received far more questions than we could answer, but we did
-            our best to pick up on the main topics that kept coming up! You can
-            listen to our main F1 podcast every week by searching for 'The Race
-            F1 Podcast' on your platform of choice, but as these questions came
-            from you, we're uploading this episode onto our YouTube channel as a
-            special thank you.
+            Was Lewis Hamilton's penalty fair? Is Sochi's Turn 2 dangerous?
+            Could Sergio Perez be Red Bull's best option for 2021? Join Matt and
+            Tommy as they discuss the 2020 Russian Grand Prix.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink
-              href='https://the-race.com/formula-1/new-f1-squads-must-now-pay-existing-teams-200m-to-enter/'
-              target='_blank'>
-              The Race
+            <ContentLink href='http://www.wtf1.com' target='_blank'>
+              WTF1
             </ContentLink>
           </p>
         </div>

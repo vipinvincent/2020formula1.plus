@@ -7,14 +7,14 @@ const Fourth: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=mgh3OxoCPd4'
+        href='https://www.youtube.com/watch?v=6sBk0ycJRy4'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/mgh3OxoCPd4/sddefault.jpg'
-              alt='Does Daniil Kvyat Deserve his Alpha Tauri Seat in 2021?'
+              src='https://img.youtube.com/vi/6sBk0ycJRy4/sddefault.jpg'
+              alt='Explaining Controversial F1 Race Directors Notes'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,23 +32,22 @@ const Fourth: React.FC = () => {
             PODCAST
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=mgh3OxoCPd4'
+            href='https://www.youtube.com/watch?v=6sBk0ycJRy4'
             target='_blank'>
-            Does Daniil Kvyat Deserve his Alpha Tauri Seat in 2021?
+            Explaining Controversial F1 Race Director's Notes
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The Russian has been outclassed by Pierre gasly in 2020 and with
-            several Red Bull Juniors on the rise, his seat next year at Alpha
-            Tauri is definitely in doubt for next year. So today I thought we'd
-            take a look back over the Russian's career and deduce whether he
-            deserves to stay, and if so what teams that could be at...
+            The F1 Race Director's Event Notes have been at the centre of a
+            number of controversial F1 penalties recently, so this video takes a
+            closer look at exactly what's contained in this ever changing, but
+            critically important document.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
             <ContentLink
-              href='https://www.youtube.com/c/FP1FormulaPodcastOne/'
+              href='https://www.youtube.com/c/F1Elvis'
               target='_blank'>
-              FP1 - Formula Podcast One
+              Marc Priestley F1 Elvis
             </ContentLink>
           </p>
         </div>
