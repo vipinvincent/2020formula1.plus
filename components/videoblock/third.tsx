@@ -7,14 +7,14 @@ const Third: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=ia5p6fJ71R0'
+        href='https://www.youtube.com/watch?v=DbtMON8IYWY'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/ia5p6fJ71R0/sddefault.jpg'
-              alt='HARSH PENALTIES: 2020 Russian Grand Prix Analysis '
+              src='https://img.youtube.com/vi/DbtMON8IYWY/sddefault.jpg'
+              alt='How McLarens Updates Are Just The Beginning - F1s Russian GP Tech'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,24 +32,21 @@ const Third: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=ia5p6fJ71R0'
+            href='https://www.youtube.com/watch?v=DbtMON8IYWY'
             target='_blank'>
-            HARSH PENALTIES: 2020 Russian Grand Prix Analysis
+            How McLaren's Updates Are Just The Beginning - F1's Russian GP Tech
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Sochi Autodrom is a Mercedes stronghold, its seven-straight wins
-            there since 2014 now a record for the most consecutive at one track
-            but 2020’s edition was bittersweet for the marque… … with Valtteri
-            Bottas claiming victory in Russia - his first since Austria’s season
-            opener, second in Sochi, and ninth overall. The Finn carried the can
-            for the Silver Arrows, after Lewis Hamilton finished third following
-            two five-second time penalties for pre-race practice starts in the
-            wrong place.
+            Formula 1 returned to Sochi for yet another time and failed to
+            disappoint, and while the battle for top is currently a war between
+            Hamilton, Bottas and Verstappen, it's F1's midfield battle which is
+            a much closer fight, and many teams decided to race in Russia with
+            new tech to bolster their arsenal.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='https://unbeaten.com/formula1' target='_blank'>
-              Unbeaten F1
+            <ContentLink href='https://www.autosport.com/' target='_blank'>
+              Autosport
             </ContentLink>
           </p>
         </div>
