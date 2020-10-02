@@ -7,14 +7,14 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=M-aiKdduFqA'
+        href='https://www.youtube.com/watch?v=rse-NNabpkI'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/M-aiKdduFqA/sddefault.jpg'
-              alt='When will Mercedes dominance end? | Questions from our YouTube audience | The Race F1 Podcast'
+              src='https://img.youtube.com/vi/rse-NNabpkI/sddefault.jpg'
+              alt='Is Max Verstappens talent being wasted at Red Bull?'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,19 +32,20 @@ const Second: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=M-aiKdduFqA'
+            href='https://www.youtube.com/watch?v=rse-NNabpkI'
             target='_blank'>
-            2020 Russian GP Race Review | WTF1 Podcast
+            Is Max Verstappen's talent being wasted at Red Bull?
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Was Lewis Hamilton's penalty fair? Is Sochi's Turn 2 dangerous?
-            Could Sergio Perez be Red Bull's best option for 2021? Join Matt and
-            Tommy as they discuss the 2020 Russian Grand Prix.
+            Max Verstappen is undoubtedly one of the most gifted drivers to ever
+            race in the Formula One World Championship. The 22-year-old Dutchman
+            is now an experienced assassin, and as a nine-time Grand Prix winner
+            is more than ready to challenge for the title.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='http://www.wtf1.com' target='_blank'>
-              WTF1
+            <ContentLink href='https://unbeaten.com/formula1' target='_blank'>
+              Unbeaten F1
             </ContentLink>
           </p>
         </div>

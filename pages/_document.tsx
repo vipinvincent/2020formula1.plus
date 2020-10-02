@@ -19,10 +19,10 @@ export default class MyDocument extends Document {
             name='keywords'
             content='f1.plus, f1plus, formula1plus, formula1.plus, f1-plus, formula1-plus, f1, formula1, formula 1, formula-1, f1 insights, f1 news, f1 schedule, f1 standings, f1 drivers, f1 teams, f1 results, formula1 insights, formula1 news, formula1 schedule, formula1 standings, formula1 drivers, formula1 teams, formula1 results '
           />
-          <meta
+          {/* <meta
             name='viewport'
             content='initial-scale=1.0, width=device-width'
-          />
+          /> */}
           <meta property='og:logo' content='images/logo.png' />
           <link
             rel='apple-touch-icon'

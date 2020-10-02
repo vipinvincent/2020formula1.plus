@@ -7,14 +7,14 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=ElHmrQuzeUg'
+        href='https://www.youtube.com/watch?v=zLAeuvZfUnA'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/ElHmrQuzeUg/sddefault.jpg'
-              alt='Red Flags and Race Suspensions - the rules'
+              src='https://img.youtube.com/vi/zLAeuvZfUnA/sddefault.jpg'
+              alt='Breaking News: Honda To Leave F1 At The End Of Next Season'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,18 +32,21 @@ const Second: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=ElHmrQuzeUg'
+            href='https://www.youtube.com/watch?v=zLAeuvZfUnA'
             target='_blank'>
-            Red Flags and Race Suspensions - the rules
+            Breaking News: Honda To Leave F1 At The End Of Next Season
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Red Flags bring F1 races to a stop, but come with lots of strange
-            caveats...
+            Honda has announced that it will withdraw from Formula One at the
+            end of the 2021 season. Here’s the breaking news and my reaction.
+            What now for Red Bull?
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='http://www.chainbear.me ' target='_blank'>
-              Chain Bear
+            <ContentLink
+              href='https://www.youtube.com/user/seanculli'
+              target='_blank'>
+              The F1 Word
             </ContentLink>
           </p>
         </div>
