@@ -7,14 +7,14 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=zLAeuvZfUnA'
+        href='https://www.youtube.com/watch?v=GhCdTyUYANA'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/zLAeuvZfUnA/sddefault.jpg'
-              alt='Breaking News: Honda To Leave F1 At The End Of Next Season'
+              src='https://img.youtube.com/vi/GhCdTyUYANA/sddefault.jpg'
+              alt='2021 F1 Driver Line-Up Predictions'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,14 +32,15 @@ const Second: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=zLAeuvZfUnA'
+            href='https://www.youtube.com/watch?v=GhCdTyUYANA'
             target='_blank'>
-            Breaking News: Honda To Leave F1 At The End Of Next Season
+            2021 F1 Driver Line-Up Predictions
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Honda has announced that it will withdraw from Formula One at the
-            end of the 2021 season. Here’s the breaking news and my reaction.
-            What now for Red Bull?
+            The F1 driver market is starting to get very interesting again. So,
+            it’s time for me to make my 2021 driver line-up predictions. Will
+            Lewis Hamilton stay at Mercedes? Could Ferrari give Mick Schumacher
+            a chance? And will Sergio Perez find a seat for next season?
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}

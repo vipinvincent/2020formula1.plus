@@ -7,14 +7,14 @@ const First: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=Mf1cJ_jiYvY'
+        href='https://www.youtube.com/watch?v=K1KSESCdxkM'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/Mf1cJ_jiYvY/sddefault.jpg'
-              alt='Why F1s reverse-grid race hopes could be over'
+              src='https://img.youtube.com/vi/K1KSESCdxkM/sddefault.jpg'
+              alt='Why Hondas leaving F1 and what it means for Verstappen'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,16 +32,18 @@ const First: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=Mf1cJ_jiYvY'
+            href='https://www.youtube.com/watch?v=K1KSESCdxkM'
             target='_blank'>
-            Why F1's reverse-grid race hopes could be over
+            Why Honda's leaving F1 and what it means for Verstappen
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Reverse grids have been on and off the Formula 1 agenda all season
-            long, but looked like they'd inevitably become part of the 2021
-            season in some way. However, fresh opposition means Ross Brawn's
-            grand plan might be scuppered. Scott Mitchell explains the twist,
-            and why some teams and so many drivers are against it.
+            Honda will withdraw from Formula 1 at the end of the 2021 season,
+            leaving Red Bull without an engine partner and putting the team’s
+            rivals on full alert regarding its lead driver Max Verstappen. But
+            why now? And what will the consequences be? Scott Mitchell explains
+            the full seismic story in this video - let us know your thoughts on
+            what the next steps for Red Bull and Verstappen should be in the
+            comments below.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}

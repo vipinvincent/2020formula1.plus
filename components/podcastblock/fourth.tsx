@@ -7,14 +7,14 @@ const Fourth: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=6sBk0ycJRy4'
+        href='https://www.youtube.com/watch?v=nqPM12aUa14'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/6sBk0ycJRy4/sddefault.jpg'
-              alt='Explaining Controversial F1 Race Directors Notes'
+              src='https://img.youtube.com/vi/nqPM12aUa14/sddefault.jpg'
+              alt='What Does Honda Leaving F1 Mean For Red Bull?'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,22 +32,20 @@ const Fourth: React.FC = () => {
             PODCAST
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=6sBk0ycJRy4'
+            href='https://www.youtube.com/watch?v=nqPM12aUa14'
             target='_blank'>
-            Explaining Controversial F1 Race Director's Notes
+            What Does Honda Leaving F1 Mean For Red Bull?
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The F1 Race Director's Event Notes have been at the centre of a
-            number of controversial F1 penalties recently, so this video takes a
-            closer look at exactly what's contained in this ever changing, but
-            critically important document.
+            Honda have announced that after 2021 they are leaving Formula 1
+            which leaves Red Bull and Alpha Tauri without an engine supplier.
+            What does this mean for Red Bull? Have their title hopes for 2022
+            vanished?
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink
-              href='https://www.youtube.com/c/F1Elvis'
-              target='_blank'>
-              Marc Priestley F1 Elvis
+            <ContentLink href='http://www.wtf1.com' target='_blank'>
+              WTF1
             </ContentLink>
           </p>
         </div>
