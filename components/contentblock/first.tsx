@@ -15,24 +15,26 @@ const First: React.FC = () => {
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-4 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            News
+            FP1 & FP2 REPORT - Eifel GP 2020
           </div>
           <H1>
-            Eifel Grand Prix FP1 cancelled due to bad weather at Nurburgring
+            Eifel Grand Prix FP1 and FP2 cancelled due to bad weather at
+            Nurburgring
           </H1>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             The start of the Round 11 of the 2020 season from the Nurburgring,
             Germany has been called off due to the weather. This means the Eifel
-            Grand Prix weekend will be delayed till FP2. Due to a fog and misty
+            Grand Prix weekend will be delayed till FP3. Due to a fog and misty
             condition at the Nurburgring on Friday morning, it looked too bad
             for the medical helicopter to be able to fly in case needed, which
             means that the Race Control would not allow cars on track. Even
             though the FP1 session did technically start at 11am local time, the
             Race Control advised the teams that the pit lane would remain
-            closed. After waiting for 60 more minutes, the race control informed
-            that the pit lane would remain closed as the conditions were not
-            changing. With rain expected throughout the day, attention will now
-            turn to Free Practice 2 and whether conditions of the race weekend.
+            closed. After waiting for 60 more minutes in both sessions, the race
+            control informed that the pit lane would remain closed as the
+            conditions were not changing. With rain expected throughout the day,
+            attention will now turn to Free Practice 3 and whether conditions of
+            the race weekend.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             "With the fog that's come in, the medical helicopter is not able to
