@@ -9,13 +9,13 @@ const Left: React.FC = () => {
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
           src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1597490683/contentImages/content/lewis-hamilton2_x4c01p.jpg'
-          alt='Qualifying REPORT - Russian GP 2020'
+          alt='Qualifying REPORT - Eifel GP 2020'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-4 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            Qualifying REPORT - Russian GP 2020
+            Qualifying REPORT - Eifel GP 2020
           </div>
           <H1>
             Hamilton grabs pole in Sochi, with Verstappen in P2 and Bottas in P3

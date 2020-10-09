@@ -7,14 +7,14 @@ const First: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=59xDAIgBlV0'
+        href='https://www.youtube.com/watch?v=VRPgRkoUqNo'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/59xDAIgBlV0/sddefault.jpg'
-              alt='Will Norris and Ricciardo Take McLaren Back to the Top?'
+              src='https://img.youtube.com/vi/VRPgRkoUqNo/sddefault.jpg'
+              alt='Eifel Grand Prix: Preview and Predictions'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,23 +32,23 @@ const First: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=59xDAIgBlV0'
+            href='https://www.youtube.com/watch?v=VRPgRkoUqNo'
             target='_blank'>
-            Will Norris and Ricciardo Take McLaren Back to the Top?
+            Eifel Grand Prix: Preview and Predictions
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            So one pairing I think everyone is excited about is of course Lando
-            Norris and Daniel Ricciardo at McLaren in 2021. Today I take a
-            closer look at that matchup and the team in general, and discuss
-            whether this is the lineup that will take them back to the top of
-            Formula One!
+            For the first time since 2013, Formula One is heading to the
+            Nurburgring for the 2020 Eifel Grand Prix. In this weeks’ preview: I
+            look back at the last time F1 visited the track, look at the state
+            of play ahead of the weekend and go over some track stats. Plus,
+            strategy and weather information and some predictions.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
             <ContentLink
-              href='https://www.youtube.com/channel/UCihjJgRm3Th-quKmTW-9AwQ'
+              href='https://www.youtube.com/user/seanculli'
               target='_blank'>
-              FP1 - Formula Podcast One
+              The F1 Word
             </ContentLink>
           </p>
         </div>

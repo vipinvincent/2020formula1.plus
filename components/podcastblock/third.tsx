@@ -7,14 +7,14 @@ const Third: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=eMkdM2CTO4k'
+        href='https://www.youtube.com/watch?v=WGWAC0BzrgM'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/eMkdM2CTO4k/sddefault.jpg'
-              alt='McLaren F1s Brilliant, Yet Terrible, Pitstop Trick'
+              src='https://img.youtube.com/vi/WGWAC0BzrgM/sddefault.jpg'
+              alt='Setting Up F1 Cars For A Wet Nurburgring'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,14 +32,14 @@ const Third: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=eMkdM2CTO4k'
+            href='https://www.youtube.com/watch?v=WGWAC0BzrgM'
             target='_blank'>
-            McLaren F1's Brilliant, Yet Terrible, Pitstop Trick
+            Setting Up F1 Cars For A Wet Nurburgring
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Another F1 Tales From The Treehouse video, this time looking into
-            the brilliant, yet at times comical, pioneering tech development
-            behind McLaren elite human performance program.
+            Taking a close look at the Nurburgring track as F1 heads back for
+            the 1st time since 2013. It's going to be cold and wet, so what
+            could that mean for the cars?
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}

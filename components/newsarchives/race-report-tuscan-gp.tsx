@@ -2,7 +2,7 @@ import React from 'react'
 import H1 from 'components/heading/H1'
 // import Zoom from 'react-medium-image-zoom'
 
-const Archive46: React.FC = () => {
+const Archive47: React.FC = () => {
   return (
     <div className='relative'>
       <div className='relative max-w-screen-xl mx-auto'>
@@ -67,4 +67,4 @@ const Archive46: React.FC = () => {
     </div>
   )
 }
-export default Archive46
+export default Archive47

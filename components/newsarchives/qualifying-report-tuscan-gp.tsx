@@ -1,7 +1,7 @@
 import React from 'react'
 import H1 from 'components/heading/H1'
 
-const Archive44: React.FC = () => {
+const Archive46: React.FC = () => {
   return (
     <div className='relative'>
       <div className='relative max-w-screen-xl mx-auto'>
@@ -56,4 +56,4 @@ const Archive44: React.FC = () => {
     </div>
   )
 }
-export default Archive44
+export default Archive46

@@ -9,13 +9,13 @@ const Left: React.FC = () => {
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
           src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1599834663/contentImages/content/valteri-bottas_kvx19p.jpg'
-          alt='FP2 REPORT - Russian GP 2020'
+          alt='FP2 REPORT - Eifel GP 2020'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-4 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            FP2 REPORT - Russian GP 2020
+            FP2 REPORT - Eifel GP 2020
           </div>
           <H1>
             Bottas heads FP2 with Mercedes 1-2 as Hamilton finishes second with
@@ -59,12 +59,12 @@ const Left: React.FC = () => {
             tricky Turn 13 during the session.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Traditionally at Sochi circuit, the pole sitter have won every
-            Russian Grand Prix since the race’s inauguration in 2014, Mercedes
-            guarantee a top spot in Sochi. Meanwhile, It is looking good for a
-            race victory for Bottas, as he favours Sochi track, where he scored
-            his first win in 2017, which will boost his confidence and will help
-            him to keep track of the championship battle for 2020.
+            Traditionally at Sochi circuit, the pole sitter have won every Eifel
+            Grand Prix since the race’s inauguration in 2014, Mercedes guarantee
+            a top spot in Sochi. Meanwhile, It is looking good for a race
+            victory for Bottas, as he favours Sochi track, where he scored his
+            first win in 2017, which will boost his confidence and will help him
+            to keep track of the championship battle for 2020.
           </p>
           {/* <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}

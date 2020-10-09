@@ -7,14 +7,14 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=rse-NNabpkI'
+        href='https://www.youtube.com/watch?v=YZpDJ_L_ctM'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/rse-NNabpkI/sddefault.jpg'
-              alt='Is Max Verstappens talent being wasted at Red Bull?'
+              src='https://img.youtube.com/vi/YZpDJ_L_ctM/sddefault.jpg'
+              alt='Hondas History Of Leaving Formula 1 & Why It Matters This Time'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,20 +32,22 @@ const Second: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=rse-NNabpkI'
+            href='https://www.youtube.com/watch?v=YZpDJ_L_ctM'
             target='_blank'>
-            Is Max Verstappen's talent being wasted at Red Bull?
+            Honda's History Of Leaving Formula 1 & Why It Matters This Time
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Max Verstappen is undoubtedly one of the most gifted drivers to ever
-            race in the Formula One World Championship. The 22-year-old Dutchman
-            is now an experienced assassin, and as a nine-time Grand Prix winner
-            is more than ready to challenge for the title.
+            Formula 1 is set to lose another engine for 2022. But why is Honda
+            leaving this time? Have they done this before? Why? Does this one
+            mean more? What are Red Bull's Options? Get all those answers in
+            this video.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='https://unbeaten.com/formula1' target='_blank'>
-              Unbeaten F1
+            <ContentLink
+              href='https://www.youtube.com/c/CrankyYankeeF1'
+              target='_blank'>
+              CrankyYankeeF1
             </ContentLink>
           </p>
         </div>

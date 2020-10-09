@@ -7,14 +7,14 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=GhCdTyUYANA'
+        href='https://www.youtube.com/watch?v=MKGk2b1VBdw'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/GhCdTyUYANA/sddefault.jpg'
-              alt='2021 F1 Driver Line-Up Predictions'
+              src='https://img.youtube.com/vi/MKGk2b1VBdw/sddefault.jpg'
+              alt='Everything You Need To Know About The Nürburgring GP Circuit'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,22 +32,19 @@ const Second: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=GhCdTyUYANA'
+            href='https://www.youtube.com/watch?v=MKGk2b1VBdw'
             target='_blank'>
-            2021 F1 Driver Line-Up Predictions
+            Everything You Need To Know About The Nürburgring GP Circuit
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The F1 driver market is starting to get very interesting again. So,
-            it’s time for me to make my 2021 driver line-up predictions. Will
-            Lewis Hamilton stay at Mercedes? Could Ferrari give Mick Schumacher
-            a chance? And will Sergio Perez find a seat for next season?
+            F1 returns to the Nurburgring this weekend for the 2020 Eifel Grand
+            Prix. Here’s everything you need to know about this legendary
+            circuit.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink
-              href='https://www.youtube.com/user/seanculli'
-              target='_blank'>
-              The F1 Word
+            <ContentLink href='https://www.autosport.com/' target='_blank'>
+              Autosport
             </ContentLink>
           </p>
         </div>

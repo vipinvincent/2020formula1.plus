@@ -15,7 +15,7 @@ const Right: React.FC = () => {
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-2 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            FP3 REPORT - Russian GP 2020
+            FP3 REPORT - Eifel GP 2020
           </div>
           <H1>
             Hamilton finishes P1 in final practice with his Mercedes teammate
@@ -58,7 +58,7 @@ const Right: React.FC = () => {
             him down in 19th, ahead of McLaren’s Lando Norris who was unable to
             get a clean lap in through the session. Since the Practice sessions
             are wrapped up, now all eyes will be in Qualifying to know the pole
-            sitter, who subsequently have won every Russian Grand Prix since the
+            sitter, who subsequently have won every Eifel Grand Prix since the
             race’s inauguration in 2014.
           </p>
 

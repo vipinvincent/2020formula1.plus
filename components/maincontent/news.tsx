@@ -1,14 +1,22 @@
 import React from 'react'
-import Archive46 from 'components/newsarchives/race-report-tuscan-gp'
-import Archive45 from 'components/newsarchives/one-stop-races-are-boring'
-import Archive44 from 'components/newsarchives/qualifying-report-tuscan-gp'
-import Archive43 from 'components/newsarchives/fp3-report-tuscan-gp'
-import Archive42 from 'components/newsarchives/fp2-report-tuscan-gp'
-import Archive41 from 'components/newsarchives/fp1-report-tuscan-gp'
-import Archive40 from 'components/newsarchives/race-report-italian-gp'
-import Archive39 from 'components/newsarchives/qualifying-report-italian-gp'
-import Archive38 from 'components/newsarchives/fp3-report-italian-gp'
-import Archive37 from 'components/newsarchives/teammate-battles-after-6-race'
+// import Archive53 from 'components/newsarchives/race-report-russian-gp'
+// import Archive52 from 'components/newsarchives/qualifying-report-russian-gp'
+// import Archive51 from 'components/newsarchives/fp3-report-russian-gp'
+// import Archive50 from 'components/newsarchives/fp2-report-russian-gp'
+// import Archive49 from 'components/newsarchives/fp1-report-russian-gp'
+
+import Archive48 from 'components/newsarchives/race-report-tuscan-gp'
+import Archive47 from 'components/newsarchives/qualifying-report-tuscan-gp'
+import Archive46 from 'components/newsarchives/fp3-report-tuscan-gp'
+import Archive45 from 'components/newsarchives/fp2-report-tuscan-gp'
+import Archive44 from 'components/newsarchives/fp1-report-tuscan-gp'
+import Archive43 from 'components/newsarchives/vettel-join-aston-martin'
+import Archive42 from 'components/newsarchives/reverse-grid-sprint-plan-revisit'
+import Archive41 from 'components/newsarchives/race-report-italian-gp'
+import Archive40 from 'components/newsarchives/qualifying-report-italian-gp'
+import Archive39 from 'components/newsarchives/fp3-report-italian-gp'
+import Archive38 from 'components/newsarchives/teammate-battles-after-6-race'
+import Archive37 from 'components/newsarchives/one-stop-races-are-boring'
 import Archive36 from 'components/newsarchives/fp2-report-italian-gp'
 import Archive35 from 'components/newsarchives/fp1-report-italian-gp'
 import Archive34 from 'components/newsarchives/race-report-belgian-gp'
@@ -52,38 +60,66 @@ const Main: React.FC = () => {
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mt-0 mb-1 px-2 '>
         Archived News
       </div>
-      <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-0'>
-        <Archive45 />
-      </div>
-      <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-4'>
-        <Archive46 />
+      {/* <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-0'>
+        <Archive53 />
       </div>
       <div className='w-100 flex flex-col xl:flex-row'>
         <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 mt-4 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
+          <Archive52 />
+        </div>
+        <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 mt-4 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
+          <Archive51 />
+        </div>
+      </div>
+      <div className='w-100 flex flex-col xl:flex-row'>
+        <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 mt-4 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
+          <Archive50 />
+        </div>
+        <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 mt-4 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
+          <Archive49 />
+        </div>
+      </div> */}
+      <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-0'>
+        <Archive48 />
+      </div>
+      <div className='w-100 flex flex-col xl:flex-row'>
+        <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 mt-4 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
+          <Archive47 />
+        </div>
+        <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 mt-4 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
+          <Archive46 />
+        </div>
+      </div>
+      <div className='w-100 flex flex-col xl:flex-row'>
+        <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 mt-4 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
+          <Archive45 />
+        </div>
+        <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 mt-4 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
           <Archive44 />
         </div>
-        <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 mt-4 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
-          <Archive43 />
-        </div>
+      </div>
+      <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-4'>
+        <Archive43 />
+      </div>
+      <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-4'>
+        <Archive42 />
+      </div>
+      <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-4'>
+        <Archive41 />
       </div>
       <div className='w-100 flex flex-col xl:flex-row'>
         <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 mt-4 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
-          <Archive42 />
+          <Archive40 />
         </div>
         <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 mt-4 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
-          <Archive41 />
+          <Archive39 />
         </div>
       </div>
       <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-4'>
-        <Archive40 />
+        <Archive38 />
       </div>
-      <div className='w-100 flex flex-col xl:flex-row'>
-        <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 mt-4 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
-          <Archive39 />
-        </div>
-        <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 mt-4 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
-          <Archive38 />
-        </div>
+      <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-4'>
+        <Archive37 />
       </div>
       <div className='w-100 flex flex-col xl:flex-row'>
         <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 mt-4 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
@@ -92,9 +128,6 @@ const Main: React.FC = () => {
         <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 mt-4 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
           <Archive35 />
         </div>
-      </div>
-      <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-4'>
-        <Archive37 />
       </div>
       <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-4'>
         <Archive34 />

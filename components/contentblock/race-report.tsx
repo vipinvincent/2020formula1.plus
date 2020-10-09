@@ -9,7 +9,7 @@ const RaceReport: React.FC = () => {
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
           src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1601214934/contentImages/content/bottas_bw5vun.jpg'
-          alt='Race REPORT - Tuscan GP 2020'
+          alt='Race REPORT - Russian GP 2020'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>

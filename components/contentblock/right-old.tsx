@@ -9,13 +9,13 @@ const Right: React.FC = () => {
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
           src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1595072621/contentImages/content/valtteri_-bottas_m5dgbs.jpg'
-          alt='FP1 REPORT - Russian GP 2020'
+          alt='FP1 REPORT - Eifel GP 2020'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-2 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            FP1 REPORT - Russian GP 2020
+            FP1 REPORT - Eifel GP 2020
           </div>
           <H1>
             Bottas leads first practice in Sochi ahead of Ricciardo and
