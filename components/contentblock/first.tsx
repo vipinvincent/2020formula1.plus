@@ -8,8 +8,8 @@ const First: React.FC = () => {
       <div className='h-48 md:h-64 xl:h-104 w-full'>
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
-          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594993321/contentImages/content/vettel-perez_niloot.jpg'
-          alt='Vettel to join rebranded Aston Martin team in 2021 as Perez announces Racing Point F1 exit'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1602239921/contentImages/content/eifel-gp-fp1_oomdvc.jpg'
+          alt='Eifel Grand Prix FP1 cancelled due to bad weather at Nurburgring'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
@@ -18,66 +18,44 @@ const First: React.FC = () => {
             News
           </div>
           <H1>
-            Vettel to join rebranded Aston Martin team in 2021 as Perez
-            announces Racing Point F1 exit
+            Eifel Grand Prix FP1 cancelled due to bad weather at Nurburgring
           </H1>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Four-time world champion Sebastian Vettel will remain in Formula 1
-            and confirmed his switch to Racing Point, rebranded as Aston Martin
-            Racing Formula 1 team for the 2021 season. This move has been
-            suspected for a while, but it’s now been confirmed by Racing Point
-            that Sebastian Vettel will join them for next season.“I am pleased
-            to finally share this exciting news about my future.” said Vettel as
-            he looks to the future with a new team after six years with Ferrari.
-            He’ll team up with Lance Stroll, son of team owner Lawrence Stroll,
-            for the team’s rebrand to Aston Martin after Stroll’s purchase of
-            the British car manufacturer. Meanwhile, the tenure of Vettel’s
-            contract has not yet been revealed.
+            The start of the Round 11 of the 2020 season from the Nurburgring,
+            Germany has been called off due to the weather. This means the Eifel
+            Grand Prix weekend will be delayed till FP2. Due to a fog and misty
+            condition at the Nurburgring on Friday morning, it looked too bad
+            for the medical helicopter to be able to fly in case needed, which
+            means that the Race Control would not allow cars on track. Even
+            though the FP1 session did technically start at 11am local time, the
+            Race Control advised the teams that the pit lane would remain
+            closed. After waiting for 60 more minutes, the race control informed
+            that the pit lane would remain closed as the conditions were not
+            changing. With rain expected throughout the day, attention will now
+            turn to Free Practice 2 and whether conditions of the race weekend.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Earlier on Wednesday evening, Sergio Perez has revealed that he will
-            be moving out of Racing Point, formerly Force India at the end of
-            this season. In the statement he said: "Everything in life always
-            has a beginning and an end, and after seven years together, my time
-            with the team will come to an end after this season. The Mexican
-            driver said the 2020 season would be his last with racing Point team
-            despite the fact that he signed a three-year contract just last
-            year. He also added that he has no "Plan B" in terms of a drive for
-            2021, and "It hurts a bit as I bet on the team during very rough
-            times; we managed to overcome obstacles and I am very proud of
-            saving the jobs of several of my team mates."
+            "With the fog that's come in, the medical helicopter is not able to
+            take off and fly to the hospital," FIA race director Michael Masi
+            said during the session. "The distance by road is too far, should
+            something occur. "With the region that we're in, it's probably not
+            dissimilar to Austria earlier in the year when we had a similar
+            situation. It's just the nature of the area and the location. "The
+            fog's come in, and it's all been going up slightly but coming down
+            more dramatically, so we'll just judge at the time [if it is safe to
+            start]. "From an FIA perspective, the safety of all the participants
+            and the drivers hopefully going out is paramount, and that's not
+            something we will compromise."
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Moreover, Lance Stroll, son of team owner Lawrence, likely to be in
-            the team, it was anyone’s guess that Vettel did join, Perez could be
-            the one who has to make the way. Team Principal Otmar Szafnauer said
-            “Everybody at Silverstone is hugely excited by this news. Sebastian
-            is a proven champion and brings a winning mentality that matches our
-            own ambitions for the future as Aston Martin F1 Team. "On a Saturday
-            or Sunday afternoon, Sebastian is one of the best in the world, and
-            I can’t think of a better driver to help take us into this new era.
-            He will play a significant role in taking this team to the next
-            level.”
-          </p>
-          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            {' '}
-            But the real question is “has Racing Point/Aston Martin really done
-            the right thing in ditching Perez for 2021, as Vettel continues to
-            struggle in 2020 season?” Vettel is currently 13th in the drivers’
-            championship, with just 16 points and a best finish of sixth in
-            eight races this year as he has struggled for pace in what has been
-            an uncompetitive Ferrari. Meanwhile Sergio Perez is in eleventh
-            position with more than double the points of Vettel and two races
-            less done. The signing of a four-time world champion is further
-            proof that Racing Point means business. It is a definite fact that
-            Vettel will bring a wealth of experience and financial aids to the
-            new team. But Perez has frequently proven himself to be one of the
-            best in F1 in the front end or in the mid field. He has been an
-            instrumental figure in making Racing Point from the ashes of Force
-            India to what it is today. As such, while Vettel joining what will
-            become Racing Point’s huge leap for a team that was originally
-            established as Jordan in 1991, it is also a chance for Vettel to
-            rebuild his reputation in a new environment.
+            The cancellation of FP1 will be particularly disappointing for Mick
+            Schumacher and Calum Ilott, the Ferrari junior drivers who were set
+            to make their F1 free practice debuts in this session for Alfa Romeo
+            and Haas respectively. Mick Schumacher, the 21-year-old F2 title
+            leader, was due to drive the Alfa Romeo in place of Antonio
+            Giovinazzi, while Ilott due to run with Haas in place of Romain
+            Grosjean. Currently both are members of the Ferrari Driver Academy
+            and both are potential candidates for a seat in F1 next season.
           </p>
           {/* <p className='mt-1 text-base leading-normal text-gray-700'>
             View the complete {' '}

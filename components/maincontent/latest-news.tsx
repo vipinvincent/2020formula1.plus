@@ -27,7 +27,7 @@ import Archive43 from 'components/newsarchives/vettel-join-aston-martin'
 import Archive42 from 'components/newsarchives/reverse-grid-sprint-plan-revisit'
 
 import MainContent from 'components/contentblock/main'
-// import FirstContent from 'components/contentblock/first'
+import FirstContent from 'components/contentblock/first'
 // import SecondContent from 'components/contentblock/left'
 // import ThirdContent from 'components/contentblock/right'
 // import FifthContent from 'components/contentblock/left-old'
@@ -57,6 +57,9 @@ const Main: React.FC = () => {
         </div>
       </div> */}
       <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-0'>
+        <FirstContent />
+      </div>
+      <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-4'>
         <MainContent />
       </div>
       <div className='w-100 mb-0 mt-4'>
