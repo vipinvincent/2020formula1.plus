@@ -7,81 +7,62 @@ const Fourth: React.FC = () => {
       <div className='h-48 md:h-64 xl:h-104 w-full'>
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
-          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1595851663/contentImages/content/race-grid_xnnuqd.jpg'
-          alt='Italian GP set sparks to revisit reverse grid sprint race plans'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1599834663/contentImages/content/valteri-bottas_kvx19p.jpg'
+          alt='FP3 REPORT - Eifel GP 2020'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-4 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            News
+            FP3 REPORT - Eifel GP 2020
           </div>
           <H1>
-            Italian GP set sparks to revisit reverse grid sprint race plans
+            Bottas leads FP3 from Hamilton and Leclerc with Vettel in P5, as
+            unwell Stroll misses the session
           </H1>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            AlphaTauri driver Pierre Gasly scored his first F1 victory in the
-            dramatic Italian Grand Prix at Monza on Sunday, readdresses new
-            thoughts for reverse grid sprint race plans instead of Saturday
-            qualifying to make F1 more interesting. Formula One's managing
-            director, Ross Brawn believes reverse grid sprint races will be
-            considered, as it glimpses how fascinating reverse grid qualifying
-            races could be. The idea was proposed as an alternative to
-            qualifying at select races in 2020, but Mercedes knock off the move
-            as it required unanimous approval.
+            Valtteri Bottas for Mercedes leads the only practice session at the
+            Nurburgring for the Eifel Grand Prix on Saturday from his teammate
+            Hamilton in P2 and Ferrari’s Charles Leclerc in P3. Having lost both
+            the practice sessions of Friday due to fog and mist, the field made
+            ample use of the final practice session with most of the drivers
+            clocking more than 20 laps. Even though it was a much busier than
+            normal FP3 sessions, the drivers and cars featured a much greater
+            variety of different programmes with several drivers performing
+            multi-lap runs. Meanwhile one driver missed all the actions of FP3
+            was Lance Stroll. Racing Point revealed that Stoll is unwell and
+            will not be participating FP3, just before the session, which raises
+            question marks about whether he will be able to take part in
+            qualifying. It is not confirmed that Nico Hulkenberg is to make yet
+            another last-minute return to as he was drafted in to replace an
+            unwell Lance Stroll at Racing Point for the remainder of the Eifel
+            Grand Prix weekend.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The idea of sprint race like qualifying was to line up the cars in
-            reverse championship order for a short qualifying race on Saturday
-            and use the finishing order of that race to determine the grid for
-            Sunday's full-length grand prix. But there won’t be any points
-            awarded for the qualifying race, but the hope was that it would
-            create unpredictable results, more excitement and a break from the
-            existing race weekend format. The idea needed unanimous support from
-            all 10 teams to be introduced this year, but reigning champions
-            Mercedes made clear it would block the proposal. F1 accepted
-            Mercedes' objections and did not put the idea to a vote, but said it
-            would continue to analyze the idea for future seasons.
+            Max Verstappen only managed P4 after topping the time sheets in the
+            early part of the session. Sebastian Vettel finished P5 in the
+            second Ferrari, which is one of the most encouraging practice
+            showings for the team in some time. McLarens’ Lando Norris finished
+            P6 ahead of Sergio Perez, the Sole Racing Point driver . Daniel
+            Ricciardo finsied P8 in the Reanult, as Alex Albon in the second Red
+            Bull was ninth quickest with Pierre Gasly in AlphaTauri rounded of
+            top 10. Esteban Ocon in the second Renault finished P11 with the
+            second Alpha Tauri of Daniil Kvyat in P12. McLaren’s Carlos Sainz
+            finished P13.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Writing in a column on the official F1 website, Brawn said Sunday's
-            Italian Grand Prix, which was stopped midway through and saw Pierre
-            Gasly emerge as an unlikely winner after Lewis Hamilton was hit with
-            a stop-go penalty, is proof that reverse-grid racing could be
-            exciting. He said that Sunday's race(Italian GP) proved the kind of
-            excitement a mixed-up order could offer, and that it was the perfect
-            opportunity to revisit the proposal for the future. "Monza was a
-            candidate for a reverse grid sprint race when we were considering
-            testing the format this year," Brawn said. "Unfortunately, we could
-            not move forward with it, but the concept is still something we and
-            the FIA want to work through in the coming months and discuss with
-            the teams for next year. "We believe that yesterday's race showed
-            the excitement a mixed-up pack can deliver and with next year's cars
-            remaining the same as this year - our fans could be treated to the
-            similar drama we saw this weekend at Monza. "Of course, with a
-            reverse grid sprint race, teams will set their cars up differently.
-            Right now, Mercedes set their cars up to achieve the fastest lap and
-            then to control the race from the front. "If they know they have to
-            overtake, they will have to change that approach. "We will continue
-            to evaluate new formats with the aim of improving the show but
-            always maintaining the DNA of Formula 1." "It was astonishing how
-            such a dominant car struggled in traffic. It's why we believe the
-            new generation of revolutionary cars, set to arrive in Formula One
-            in 2022, will be so much better for close racing."
-          </p>
-          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            But Brawn believes that there are still difficulties for some cars
-            to overtake due to multiple factors like engine modes, track
-            behavior, track configuration, etc. which will not be solved until
-            F1's new rules package is introduced in 2022. He also said "What was
-            fascinating was watching how the Mercedes -- with such superior
-            aerodynamics over its rivals -- had such difficulties overtaking,"
-            he added. "You could see Lewis Hamilton and Valtteri Bottas'
-            performance was compromised by being out of position in the pack.
-            "It was astonishing how such a dominant car struggled in traffic.
-            It's why we believe the new generation of revolutionary cars, set to
-            arrive in Formula One in 2022, will be so much better for close
-            racing."
+            Kimi Raikkonen in the Alfa Romeo took P14, as he becomes the most
+            experienced F1 driver ever this weekend with his 323rd start. Haas
+            duo, Romain Grosjean and Kevin Magnussen finished 15th and 16th
+            respectively. William’s George Russell managed P17 ahead of Antonio
+            Giovinazzi in the second Alfa Romeo who finished in 18th. Nicholas
+            Latifi in the second Williams finished P19 as he spun late on at the
+            final corner and made a hash of rejoining, rounded of the drivers
+            who participated in FP3. The fog that had hung over the circuit all
+            day on Friday had lifted, but conditions were still chilly when the
+            pit lane exit opened for the first time at this race weekend. It is
+            expected to rain on Sunday, but not during the race, so expecting a
+            clean sunny Sunday race.
           </p>
         </div>
       </div>
