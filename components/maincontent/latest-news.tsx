@@ -20,11 +20,8 @@ import Archive51 from 'components/newsarchives/fp3-report-russian-gp'
 import Archive50 from 'components/newsarchives/fp2-report-russian-gp'
 import Archive49 from 'components/newsarchives/fp1-report-russian-gp'
 import Archive48 from 'components/newsarchives/race-report-tuscan-gp'
-// import Archive47 from 'components/newsarchives/qualifying-report-tuscan-gp'
-// import Archive46 from 'components/newsarchives/fp3-report-tuscan-gp'
 
 import Archive43 from 'components/newsarchives/vettel-join-aston-martin'
-import Archive42 from 'components/newsarchives/reverse-grid-sprint-plan-revisit'
 
 import MainContent from 'components/contentblock/main'
 import FirstContent from 'components/contentblock/first'
@@ -95,9 +92,6 @@ const Main: React.FC = () => {
       </div>
       <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-4'>
         <Archive43 />
-      </div>
-      <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-4'>
-        <Archive42 />
       </div>
       <div className='w-100 flex flex-col md:self-center'>
         <ButtonLink href='/news' target='_self'>
