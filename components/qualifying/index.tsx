@@ -418,7 +418,7 @@ const Qualifying: React.FC = () => {
                 <td className='p-4 whitespace-no-wrap  table-cell'>
                   <div className='flex items-center'>
                     <div className='text-sm leading-5 font-medium text-gray-900 racingpoint'>
-                      Nico Hulkenberg{' '}
+                      Nico Hülkenberg{' '}
                       <span className='text'>(Racing Point)</span>
                     </div>
                   </div>

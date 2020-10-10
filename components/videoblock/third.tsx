@@ -7,14 +7,14 @@ const Third: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=P5ElejQKc2I'
+        href='https://www.youtube.com/watch?v=XCEkOo5yVK8'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/P5ElejQKc2I/sddefault.jpg'
-              alt='Are Ferraris young guns all headed for F1? Schumacher, Ilott and Shwartzmans Fiorano test.'
+              src='https://img.youtube.com/vi/XCEkOo5yVK8/sddefault.jpg'
+              alt='How These 36 Fins Stop F1 Tyres Exploding'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,24 +32,23 @@ const Third: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=P5ElejQKc2I'
+            href='https://www.youtube.com/watch?v=XCEkOo5yVK8'
             target='_blank'>
-            Are Ferrari's young guns all headed for F1? Schumacher, Ilott and
-            Shwartzman's Fiorano test.
+            How These 36 Fins Stop F1 Tyres Exploding
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Ferrari may be out in the cold with its current car, the off-the
-            pace SF1000, which was designed for a much more powerful engine.
-            But, the Ferrari Driver Academy is red hot, especially in feeder
-            series, the FIA F2 championship, with three of its drivers - Mick
-            Schumacher, Callum Ilott and Robert Shwartzman - in the top-five -
-            young guns who will all get their maiden FP1 sessions this year.
-            Watch the video, and tell us what you think in the comments…
+            Mercedes were really struggling to control their tyre temperatures,
+            which isn't good for lap-times, bit more importantly, can become
+            extremely dangerous at high speed. But as ever, the incredible
+            Mercedes engineers got to work and came up with a radical new wheel
+            design. I'm going to show you how they did it and why it's so
+            different to a normal F1 wheel - a bit like the one I have here from
+            a 2007 Renault F1 Car.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='https://unbeaten.com/formula1' target='_blank'>
-              Unbeaten F1
+            <ContentLink href='https://driver61.com/' target='_blank'>
+              Driver61
             </ContentLink>
           </p>
         </div>

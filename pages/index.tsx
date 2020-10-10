@@ -18,8 +18,8 @@ const IndexPage = () => (
             <Main />
           </div>
           <div className='hidden lg:block w-4/12 xl:w-4/12 pl-4'>
-            <Schedule />
             <Grid />
+            <Schedule />
             <Twitter />
             <Driver />
             <Team />
