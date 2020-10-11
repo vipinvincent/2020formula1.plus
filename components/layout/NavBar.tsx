@@ -11,7 +11,7 @@ const NavBar: React.FunctionComponent = () => (
     <div className='w-full flex flex-row justify-between h-12 bg-white-90'>
       <a
         href='/news'
-        className='bg-white-10 hover:bg-white-100 inline-block border border-t-0 border-b-0 border-l-0 border-gray-300'>
+        className='bg-white-10 hover:bg-white-100 inline-block border border-dotted border-b-0 border-l-0 border-primary-on'>
         <div className='h-32 py-2 flex flex-col ferrari'>
           <div className='flex'>
             <News />
@@ -20,7 +20,7 @@ const NavBar: React.FunctionComponent = () => (
       </a>
       <a
         href='/constructor-standings'
-        className='bg-white-10 hover:bg-white-100 inline-block border border-t-0 border-b-0 border-l-0 border-gray-300'>
+        className='bg-white-10 hover:bg-white-100 inline-block border  border-dotted border-b-0 border-l-0 border-primary-on'>
         <div className='h-32 py-2 flex flex-col ferrari'>
           <div className='flex'>
             <Team />
@@ -29,7 +29,7 @@ const NavBar: React.FunctionComponent = () => (
       </a>
       <a
         href='/driver-standings'
-        className='bg-white-10 hover:bg-white-100 inline-block border border-t-0 border-b-0 border-l-0 border-gray-300'>
+        className='bg-white-10 hover:bg-white-100 inline-block border  border-dotted border-b-0 border-l-0 border-primary-on'>
         <div className='h-32 py-2 flex flex-col ferrari'>
           <div className='flex'>
             <Driver />
@@ -38,7 +38,7 @@ const NavBar: React.FunctionComponent = () => (
       </a>
       <a
         href='/circuit-details'
-        className='bg-white-10 hover:bg-white-100 inline-block border border-t-0 border-b-0 border-l-0 border-gray-300'>
+        className='bg-white-10 hover:bg-white-100 inline-block border  border-dotted border-b-0 border-l-0 border-r-0 border-primary-on'>
         <div className='h-32 py-2 flex flex-col ferrari'>
           <div className='flex'>
             <Circuit />
