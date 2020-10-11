@@ -9,13 +9,13 @@ const RaceReport: React.FC = () => {
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
           src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1601214934/contentImages/content/bottas_bw5vun.jpg'
-          alt='Race REPORT - Russian GP 2020'
+          alt='Race REPORT - EIFEL GP 2020'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-2 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            Race REPORT - Russian GP 2020
+            Race REPORT - EIFEL GP 2020
           </div>
           <H1>
             Mercedes’ Valtteri Bottas wins in Sochi with Verstappen in Second
@@ -23,21 +23,21 @@ const RaceReport: React.FC = () => {
           </H1>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             Mercedes’ Valtteri Bottas claimed his second victory of 2020 at the
-            Russian Grand Prix, as a ten second penalty for the pole setter
-            Lewis Hamilton forced him to third. Meanwhile, Max Verstappen scored
-            Red Bull’s first ever podium at Sochi in P2. Hamilton started the
-            race with the investigation on for a pair of practice start
-            infringements on his laps to the grid. Later 5 seconds penalty for
-            each incident was handed to Hamilton during mid-race, ruling him out
-            of contention for the win. Incidentally, Hamilton will get a licence
-            penalty point for each of the two time penalties received in this
-            race. This will take his penalty tally to 10,two short of a race
-            ban. Earlier, Bottas had passed Verstappen for second at the race
-            start, and Verstappen himself plunged to fourth later recovered to
-            third from where both enjoyed a trouble free race to the chequered
-            flag. This would have been an confidence booster for Bottas, who
-            needs to be fighting for the championship with Hamilton and
-            Verstappen too after two DNFs.
+            EIFEL Grand Prix, as a ten second penalty for the pole setter Lewis
+            Hamilton forced him to third. Meanwhile, Max Verstappen scored Red
+            Bull’s first ever podium at Sochi in P2. Hamilton started the race
+            with the investigation on for a pair of practice start infringements
+            on his laps to the grid. Later 5 seconds penalty for each incident
+            was handed to Hamilton during mid-race, ruling him out of contention
+            for the win. Incidentally, Hamilton will get a licence penalty point
+            for each of the two time penalties received in this race. This will
+            take his penalty tally to 10,two short of a race ban. Earlier,
+            Bottas had passed Verstappen for second at the race start, and
+            Verstappen himself plunged to fourth later recovered to third from
+            where both enjoyed a trouble free race to the chequered flag. This
+            would have been an confidence booster for Bottas, who needs to be
+            fighting for the championship with Hamilton and Verstappen too after
+            two DNFs.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             Racing Point’s Sergio Perez came home with fourth behind the podium
