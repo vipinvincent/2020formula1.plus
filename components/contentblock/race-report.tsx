@@ -8,7 +8,7 @@ const RaceReport: React.FC = () => {
       <div className='h-48 md:h-64 xl:h-104 w-full'>
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
-          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1602428319/contentImages/content/hamilton-mick.png'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1602429006/contentImages/content/hamilton-mickschu_c5qey8.jpg'
           alt='Race REPORT - EIFEL GP 2020'
         />
       </div>
