@@ -7,13 +7,13 @@ const Third: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=WGWAC0BzrgM'
+        href='https://www.youtube.com/watch?v=GBg8jxJlv4I'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/WGWAC0BzrgM/sddefault.jpg'
+              src='https://img.youtube.com/vi/GBg8jxJlv4I/sddefault.jpg'
               alt='Setting Up F1 Cars For A Wet Nurburgring'
             />
           </div>
@@ -32,14 +32,13 @@ const Third: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=WGWAC0BzrgM'
+            href='https://www.youtube.com/watch?v=GBg8jxJlv4I'
             target='_blank'>
-            Setting Up F1 Cars For A Wet Nurburgring
+            Shortcut To F1 Success
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Taking a close look at the Nurburgring track as F1 heads back for
-            the 1st time since 2013. It's going to be cold and wet, so what
-            could that mean for the cars?
+            Taking a look at what it takes to 'make it' in F1, whether as a
+            driver, mechanic, or anything else.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}

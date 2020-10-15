@@ -7,14 +7,14 @@ const First: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=VRPgRkoUqNo'
+        href='https://www.youtube.com/watch?v=dgZKycrxmxg'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/VRPgRkoUqNo/sddefault.jpg'
-              alt='Eifel Grand Prix: Preview and Predictions'
+              src='https://img.youtube.com/vi/dgZKycrxmxg/sddefault.jpg'
+              alt='Chase Carey On The 2021 Calendar, F1s Future And More | Beyond The Grid | F1 Official Podcast'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,23 +32,20 @@ const First: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=VRPgRkoUqNo'
+            href='https://www.youtube.com/watch?v=dgZKycrxmxg'
             target='_blank'>
-            Eifel Grand Prix: Preview and Predictions
+            Chase Carey On The 2021 Calendar, F1's Future And More | Beyond The
+            Grid | F1 Official Podcast
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            For the first time since 2013, Formula One is heading to the
-            Nurburgring for the 2020 Eifel Grand Prix. In this weeks’ preview: I
-            look back at the last time F1 visited the track, look at the state
-            of play ahead of the weekend and go over some track stats. Plus,
-            strategy and weather information and some predictions.
+            In our 100th episode of F1 Beyond The Grid, F1 CEO and Executive
+            Chairman Chase Carey discusses the 2021 calendar, the return of fans
+            to race weekends, qualifying races and more...
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink
-              href='https://www.youtube.com/user/seanculli'
-              target='_blank'>
-              The F1 Word
+            <ContentLink href=' http://www.formula1.com' target='_blank'>
+              Formula1.com
             </ContentLink>
           </p>
         </div>

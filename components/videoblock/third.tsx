@@ -7,14 +7,14 @@ const Third: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=XCEkOo5yVK8'
+        href='https://www.youtube.com/watch?v=8tbnCm8itlg'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/XCEkOo5yVK8/sddefault.jpg'
-              alt='How These 36 Fins Stop F1 Tyres Exploding'
+              src='https://img.youtube.com/vi/8tbnCm8itlg/sddefault.jpg'
+              alt='How Did The Cold Affect F1s Nürburgring Race?'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,23 +32,25 @@ const Third: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=XCEkOo5yVK8'
+            href='https://www.youtube.com/watch?v=8tbnCm8itlg'
             target='_blank'>
-            How These 36 Fins Stop F1 Tyres Exploding
+            How Did The Cold Affect F1's Nürburgring Race?
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Mercedes were really struggling to control their tyre temperatures,
-            which isn't good for lap-times, bit more importantly, can become
-            extremely dangerous at high speed. But as ever, the incredible
-            Mercedes engineers got to work and came up with a radical new wheel
-            design. I'm going to show you how they did it and why it's so
-            different to a normal F1 wheel - a bit like the one I have here from
-            a 2007 Renault F1 Car.
+            For the first time in 7 years, F1 finally returned to a frosty
+            Nürburgring for the Eifel GP. Out came the bobble hats, and teams
+            like Ferrari, McLaren and more even brought out some upgrades...
+            though the jury is still out whether they were beneficial or not.
+            Despite this, it's the midfield battle where things were really
+            heating up, with Renault, Racing Point and McLaren all battling it
+            out for 3rd place. But how did the cold weather affect the teams in
+            reality? Jake Boxall-Legge uses our latest 3D animation to take a
+            look at the cold weekend, the tech updates brought out and more.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='https://driver61.com/' target='_blank'>
-              Driver61
+            <ContentLink href=' https://www.autosport.com/' target='_blank'>
+              Autosport
             </ContentLink>
           </p>
         </div>

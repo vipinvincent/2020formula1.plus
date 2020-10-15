@@ -14,7 +14,7 @@ const Schedule: React.FC = () => {
             <img
               className='w-full h-64 sm:h-84 object-contain rounded-tl-xxl rounded-br-xl-t py-4 px-2 text-center'
               src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1601533556/contentImages/circuit/Nu%CC%88rburgring_-_Grand-Prix_ozbjpo.png'
-              alt='2020 German Grand Prix'
+              alt='2020 Eifel Grand Prix'
             />
           </Zoom>
         </div>

@@ -7,14 +7,14 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=YZpDJ_L_ctM'
+        href='https://www.youtube.com/watch?v=ivy1TNroLwk'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/YZpDJ_L_ctM/sddefault.jpg'
-              alt='Hondas History Of Leaving Formula 1 & Why It Matters This Time'
+              src='https://img.youtube.com/vi/ivy1TNroLwk/sddefault.jpg'
+              alt='How Good Was Hulkenberg at Nurburgring?'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,22 +32,21 @@ const Second: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=YZpDJ_L_ctM'
+            href='https://www.youtube.com/watch?v=ivy1TNroLwk'
             target='_blank'>
-            Honda's History Of Leaving Formula 1 & Why It Matters This Time
+            How Good Was Hulkenberg at Nurburgring?
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Formula 1 is set to lose another engine for 2022. But why is Honda
-            leaving this time? Have they done this before? Why? Does this one
-            mean more? What are Red Bull's Options? Get all those answers in
-            this video.
+            Some might say Nico Hulkenburg got kicked out of F1 too early,
+            without really fulfilling his potential. However, this year he’s
+            been given a couple of opportunities to impress - in extremely
+            challenging circumstances, and potentially get another chance at his
+            F1 dream.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink
-              href='https://www.youtube.com/c/CrankyYankeeF1'
-              target='_blank'>
-              CrankyYankeeF1
+            <ContentLink href='https://driver61.com/' target='_blank'>
+              Driver61
             </ContentLink>
           </p>
         </div>

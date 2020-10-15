@@ -7,14 +7,14 @@ const Fourth: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=jIDT-EDprPM'
+        href='https://www.youtube.com/watch?v=rVw411TX40E'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/jIDT-EDprPM/sddefault.jpg'
-              alt='How to Master the Nürburgring F1 Track! | Nico Rosberg'
+              src='https://img.youtube.com/vi/rVw411TX40E/sddefault.jpg'
+              alt='2020 Eifel GP Race Review | WTF1 Podcast'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,25 +32,21 @@ const Fourth: React.FC = () => {
             PODCAST
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=jIDT-EDprPM'
+            href='https://www.youtube.com/watch?v=rVw411TX40E'
             target='_blank'>
-            How to Master the Nürburgring F1 Track! | Nico Rosberg
+            2020 Eifel GP Race Review | WTF1 Podcast
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            My next F1 Fridays episode – this time on a Thursday, as there’s the
-            special surprise Hot Lap video going live on Friday...stay tuned!!
-            F1 is back in Germany for the 2020 Eifel Grand Prix at the
-            Nürburgring! It’s amazing to see the F1 having a GP in Germany again
-            – I’m sure it’s going to be an interesting race weekend. Check out
-            my F1 Q&A answering your questions – right from the Nürburgring! Of
-            course there’s also the simulator hot lap and in-depth analysis of
-            the Nürbugring F1 Track. I’m looking forward to your feedback &
-            don’t forget to subscribe for the Hot Lap video!!
+            An entertaining race at the Nurburgring provided plenty of talk
+            points. Should Nico Hulkenberg be on the grid next year? Is Alex
+            Albon's Red Bull career over? Did the lack of Friday running make
+            for a more entertaining race? Join Matt and Tommy as they discuss
+            the 2020 Eifel Grand Prix.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='http://www.nicorosberg.com/' target='_blank'>
-              Nico Rosberg
+            <ContentLink href='http://www.wtf1.com' target='_blank'>
+              WTF1
             </ContentLink>
           </p>
         </div>
