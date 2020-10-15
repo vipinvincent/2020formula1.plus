@@ -21,8 +21,6 @@ import Archive50 from 'components/newsarchives/fp2-report-russian-gp'
 import Archive49 from 'components/newsarchives/fp1-report-russian-gp'
 import Archive48 from 'components/newsarchives/race-report-tuscan-gp'
 
-import Archive43 from 'components/newsarchives/vettel-join-aston-martin'
-
 import MainContent from 'components/contentblock/main'
 import FirstContent from 'components/contentblock/first'
 import SecondContent from 'components/contentblock/left'
@@ -92,9 +90,6 @@ const Main: React.FC = () => {
       </div>
       <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-4'>
         <Archive48 />
-      </div>
-      <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-4'>
-        <Archive43 />
       </div>
       <div className='w-100 flex flex-col md:self-center'>
         <ButtonLink href='/news' target='_self'>
