@@ -1,7 +1,6 @@
 import React from 'react'
 import ContentLink from 'components/link/ContentLink'
 import Zoom from 'react-medium-image-zoom'
-// import SiderBarLink from 'components/link/SiderBarLink'
 
 const Schedule: React.FC = () => {
   return (
@@ -85,55 +84,6 @@ const Schedule: React.FC = () => {
               luck – the ski season in the resorts around Sochi doesn’t get
               going until December.
             </p>
-            {/*             
-            <p className='mt-2 text-normal leading-normal text-gray-700'>
-              <span className='font-bold italic'>
-                A lap in a Formula One car
-              </span>{' '}
-              would be as follows - Cars approach the first corner at 340
-              kilometres per hour (210 mph) in eighth gear, and brake at about
-              120 metres (390 ft) before the first chicane – the Variante del
-              Rettifilo – entering at 86 km/h (53 mph) in first gear, and
-              exiting at 74 kilometres per hour (46 mph) in second gear. Good
-              traction out of the first corner is imperative for a quick lap.
-              Conservation of speed through the first chicane is made possible
-              by driving the straightest line, as a small mistake here can
-              result in a lot of time being lost through the Curva Grande down
-              to the Variante della Roggia chicane in seventh gear, at 330
-              kilometres per hour (210 mph). The braking point is just under the
-              bridge. The kerbs are very vicious and it is very easy for a car
-              to become unbalanced and a driver to lose control. This chicane is
-              probably the best overtaking chance on the lap, as it is the only
-              one with the "slow corner, long straight, slow corner"; one of the
-              characteristics of modern circuits. The Curve di Lesmo are two
-              corners that are not as fast as they used to be, but are still
-              challenging corners. The first is blind, entered at 264 km/h (164
-              mph) in fifth gear, dropping to fourth gear at 193 km/h (120 mph),
-              and has a slight banking. The second is a fifth gear entry at 260
-              km/h (160 mph), apexing in third gear at 178 kilometres per hour
-              (111 mph), and it is very important that all the kerb is used. A
-              mistake at one of these corners will result in a spin into the
-              gravel, while good exits can set you up for an overtaking move
-              into Variante Ascari. The downhill straight down to Variante
-              Ascari is very bumpy under the bridge. Variante Ascari is a very
-              tricky sequence of corners and is key to the lap time. The final
-              challenge is the Curva Parabolica: approaching at 335 kilometres
-              per hour (208 mph) in seventh gear, cars quickly dance around the
-              corner, apexing in fourth gear at 215 kilometres per hour (134
-              mph) and exiting in fifth gear at 285 kilometres per hour (177
-              mph), accelerating onto the main start/finish straight. A good
-              exit and slipstream off a fellow driver along the main straight
-              can produce an overtaking opportunity under heavy braking into
-              Variante del Rettifilo; however, it is difficult to follow a
-              leading car closely through the Parabolica as the tow will reduce
-              downforce and cornering speed. Maximum speed achieved in a 2019
-              Formula One car is 359.7 km/h (223.5 mph), established at the end
-              of the start/finish straight. They experience a maximum g-force of
-              4.50 during deceleration, as the track has many dramatic high to
-              low speed transitions. Cars are on full throttle for 80% of the
-              lap, and hit their Vmax on the circuit’s 1.1km start/finish
-              straight.
-            </p> */}
           </div>
         </div>
         <p className='my-2 pr-4 text-base leading-normal text-gray-700 text-right'>
@@ -177,21 +127,7 @@ const Schedule: React.FC = () => {
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
                 <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1'>
                   Qualifying
-                  {/* <SiderBarLink
-                    className='text-primart-on'
-                    href='/qualifying-results'
-                    target='_self'>
-                    Qualifying Results
-                  </SiderBarLink> */}
                 </div>
-                {/* <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  <SiderBarLink
-                    className='text-primart-on'
-                    href='/qualifying-results'
-                    target='_self'>
-                    Qualifying Results
-                  </SiderBarLink>
-                </div> */}
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
                   26 - September ( 15:00 - 16:00 )
                 </div>
@@ -199,12 +135,6 @@ const Schedule: React.FC = () => {
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
                 <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1'>
                   Race
-                  {/* <SiderBarLink
-                    className='text-primart-on'
-                    href='/race-results'
-                    target='_self'>
-                    Race Results
-                  </SiderBarLink> */}
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
                   27 - September ( 14:10 - 16:10 )
@@ -286,24 +216,6 @@ const Schedule: React.FC = () => {
                   Mercedes (8)
                 </div>
               </div>
-              {/* <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
-                <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1'>
-                  Most points
-                </div>
-                <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  Lewis Hamilton (73)
-                </div>
-              </div> */}
-              {/* <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
-                <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1'>
-                  Most Wins (constructors)
-                </div>
-                <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  <div className='ferrari'>
-                    <span className='text'> Ferrari (20)</span>
-                  </div>
-                </div>
-              </div> */}
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
                 <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1'>
                   Lap Record
@@ -313,9 +225,10 @@ const Schedule: React.FC = () => {
                   <br /> 1:35.761 (2019)
                 </div>
               </div>
+
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
                 <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1 self-center'>
-                  2019 Qualifying Results
+                  2020 Race Results
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2 self-start'>
                   <div className='inine-block pb-4'>
@@ -324,10 +237,10 @@ const Schedule: React.FC = () => {
                       <br />
                       &nbsp;
                     </div>
-                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block ferrari'>
-                      Charles Leclerc (<span className='text'>Ferrari</span>){' '}
+                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block mercedes'>
+                      Valtteri Bottas (<span className='text'>Mercedes</span>){' '}
                       <br />
-                      1:31.628
+                      1:34:00.364
                     </div>
                   </div>
                   <div className='inine-block pb-4'>
@@ -336,22 +249,65 @@ const Schedule: React.FC = () => {
                       <br />
                       &nbsp;
                     </div>
+                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block redbull'>
+                      Max Verstappen (<span className='text'>Red Bull</span>)
+                      <br />
+                      +7.729s
+                    </div>
+                  </div>
+                  <div className='inine-block'>
+                    <div className='text-primary-on text-lg font-bold leading-5 w-12 inline-block'>
+                      III<sup>rd</sup>
+                      <br />
+                      &nbsp;
+                    </div>
                     <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block mercedes'>
                       Lewis Hamilton (<span className='text'>Mercedes</span>){' '}
                       <br />
-                      1:32.030
+                      +22.729s
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
+                <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1 self-center'>
+                  2020 Qualifying Results
+                </div>
+                <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2 self-start'>
+                  <div className='inine-block pb-4'>
+                    <div className='text-primary-on text-lg font-bold leading-5 w-12 inline-block'>
+                      P1
+                      <br />
+                      &nbsp;
+                    </div>
+                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block mercedes'>
+                      Lewis Hamilton (<span className='text'>Mercedes</span>){' '}
+                      <br />
+                      1:31.304
                     </div>
                   </div>
                   <div className='inine-block pb-4'>
                     <div className='text-primary-on text-lg font-bold leading-5 w-12 inline-block'>
-                      III<sup>st</sup>
+                      P2
                       <br />
                       &nbsp;
                     </div>
-                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block ferrari'>
-                      Sebastian Vettel (<span className='text'>Ferrari</span>){' '}
+                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block redbull'>
+                      Max Verstappen (<span className='text'>Red Bull</span>){' '}
                       <br />
-                      1:32.053
+                      1:31.867
+                    </div>
+                  </div>
+                  <div className='inine-block'>
+                    <div className='text-primary-on text-lg font-bold leading-5 w-12 inline-block'>
+                      P3
+                      <br />
+                      &nbsp;
+                    </div>
+                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block mercedes'>
+                      Valtteri Bottas (<span className='text'>Mercedes</span>){' '}
+                      <br />
+                      1:31.956
                     </div>
                   </div>
                 </div>

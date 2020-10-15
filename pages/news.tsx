@@ -4,6 +4,7 @@ import Race from '../components/race/quick-look'
 import Qualifying from 'components/qualifying/quick-look'
 import Schedule from '../components/schedule'
 import Recent from '../components/schedule/recent'
+import Russian from '../components/schedule/russian'
 import Tuscan from '../components/schedule/tuscan'
 import Italian from '../components/schedule/italian'
 import Belgian from '../components/schedule/belgian'
@@ -31,6 +32,7 @@ const IndexPage = () => (
             <Driver />
             <Team />
             <Recent />
+            <Russian />
             <Tuscan />
             <Italian />
             <Belgian />

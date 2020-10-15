@@ -1,7 +1,6 @@
 import React from 'react'
 import ContentLink from 'components/link/ContentLink'
 import Zoom from 'react-medium-image-zoom'
-// import SiderBarLink from 'components/link/SiderBarLink'
 
 const Schedule: React.FC = () => {
   return (
@@ -110,21 +109,7 @@ const Schedule: React.FC = () => {
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
                 <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1'>
                   Qualifying
-                  {/* <SiderBarLink
-                    className='text-primart-on'
-                    href='/qualifying-results'
-                    target='_self'>
-                    Qualifying Results
-                  </SiderBarLink> */}
                 </div>
-                {/* <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  <SiderBarLink
-                    className='text-primart-on'
-                    href='/qualifying-results'
-                    target='_self'>
-                    Qualifying Results
-                  </SiderBarLink>
-                </div> */}
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
                   08 - August ( 14:00 - 15:00 )
                 </div>
@@ -132,12 +117,6 @@ const Schedule: React.FC = () => {
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
                 <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1'>
                   Race Day
-                  {/* <SiderBarLink
-                    className='text-primart-on'
-                    href='/race-results'
-                    target='_self'>
-                    Race Results
-                  </SiderBarLink> */}
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
                   09 - August ( 14:10 - 16:10 )
@@ -210,22 +189,6 @@ const Schedule: React.FC = () => {
                   Lewis Hamilton (7)
                 </div>
               </div>
-              {/* <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
-                <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1'>
-                  Most Podiums
-                </div>
-                <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  David Coulthard (5)
-                </div>
-              </div> */}
-              {/* <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
-                <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1'>
-                  Most points
-                </div>
-                <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  Lewis Hamilton (73)
-                </div>
-              </div> */}
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
                 <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1'>
                   Most Wins (constructors)
@@ -243,6 +206,92 @@ const Schedule: React.FC = () => {
                 <div className='mt-1 text-sm leading-5 sm:leading-7 text-gray-800 sm:mt-0 sm:col-span-2 redbull'>
                   Max Verstappen (<span className='text'>Red Bull</span>)<br />{' '}
                   1:27.097 (2020)
+                </div>
+              </div>
+              <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
+                <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1 self-center'>
+                  2020 Race Results
+                </div>
+                <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2 self-start'>
+                  <div className='inine-block pb-4'>
+                    <div className='text-primary-on text-lg font-bold leading-5 w-12 inline-block'>
+                      I<sup>st</sup>
+                      <br />
+                      &nbsp;
+                    </div>
+                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block mercedes'>
+                      Lewis Hamilton (<span className='text'>Mercedes</span>){' '}
+                      <br />
+                      1:28:01.283
+                    </div>
+                  </div>
+                  <div className='inine-block pb-4'>
+                    <div className='text-primary-on text-lg font-bold leading-5 w-12 inline-block'>
+                      II<sup>nd</sup>
+                      <br />
+                      &nbsp;
+                    </div>
+                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block redbull'>
+                      Max Verstappen (<span className='text'>Red Bull</span>){' '}
+                      <br />
+                      +5.856s
+                    </div>
+                  </div>
+                  <div className='inine-block'>
+                    <div className='text-primary-on text-lg font-bold leading-5 w-12 inline-block'>
+                      III<sup>rd</sup>
+                      <br />
+                      &nbsp;
+                    </div>
+                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block ferrari'>
+                      Charles Leclerc (<span className='text'>Ferrari</span>)
+                      <br />
+                      +5.856s
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
+                <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1 self-center'>
+                  2020 Qualifying Results
+                </div>
+                <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2 self-start'>
+                  <div className='inine-block pb-4'>
+                    <div className='text-primary-on text-lg font-bold leading-5 w-12 inline-block'>
+                      P1
+                      <br />
+                      &nbsp;
+                    </div>
+                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block mercedes'>
+                      Lewis Hamilton (<span className='text'>Mercedes</span>){' '}
+                      <br />
+                      1:24.303
+                    </div>
+                  </div>
+                  <div className='inine-block pb-4'>
+                    <div className='text-primary-on text-lg font-bold leading-5 w-12 inline-block'>
+                      P2
+                      <br />
+                      &nbsp;
+                    </div>
+                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block mercedes'>
+                      Valtteri Bottas (<span className='text'>Mercedes</span>){' '}
+                      <br />
+                      1:24.616
+                    </div>
+                  </div>
+                  <div className='inine-block'>
+                    <div className='text-primary-on text-lg font-bold leading-5 w-12 inline-block'>
+                      P3
+                      <br />
+                      &nbsp;
+                    </div>
+                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block redbull'>
+                      Max Verstappen (<span className='text'>Red Bull</span>){' '}
+                      <br />
+                      1:25.325
+                    </div>
+                  </div>
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>

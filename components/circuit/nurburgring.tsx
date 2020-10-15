@@ -6,112 +6,112 @@ const Schedule: React.FC = () => {
   return (
     <div className='flex flex-col mb-4'>
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
-        Circuit Facts - Circuit de Spa-Francorchamps
+        Circuit Facts - Nürburgring
       </div>
-      <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mb-4'>
+      <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mb-6'>
         <div className='h-64 sm:h-84 py-4 w-full text-center zoom-image'>
           <Zoom>
             <img
-              className='w-full h-64 sm:h-84 object-contain rounded-tl-xxl rounded-br-xl-t pt-4 text-center'
-              src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1597814913/contentImages/circuit/spa-francorchamps_ghhxjc.png'
-              alt='2020 Belgian Grand Prix'
+              className='w-full h-64 sm:h-84 object-contain rounded-tl-xxl rounded-br-xl-t py-4 px-2 text-center'
+              src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1601533556/contentImages/circuit/Nu%CC%88rburgring_-_Grand-Prix_ozbjpo.png'
+              alt='2020 German Grand Prix'
             />
           </Zoom>
         </div>
         <div className='relative max-w-screen-xl mx-auto'>
           <div className='py-4 text-left px-4'>
             <p className='mt-1 text-normal leading-normal text-gray-700'>
-              Formula 1 Rolex Belgian Grand Prix 2020, 2020 Belgian Grand Prix,
-              which takes place over 44 laps of the 7.004 km Circuit de
-              Spa-Francorchamps on Sunday, August 30.
+              Formula 1 Aramco Grosser Preis Der Eifel 2020, the 2020 Eifel
+              Grand Prix, which takes place over 60 laps of the 5.148-kilometre
+              Nurburgring, former host of the German Grand Prix, on Sunday,
+              October 11th.
             </p>
             <p className='mt-2 text-normal leading-normal text-gray-700'>
-              The Circuit de Spa-Francorchamps is a motor-racing circuit located
-              in Stavelot, Belgium. It is the current venue of the Formula One
-              Belgian Grand Prix, hosting its first Grand Prix in 1925, and has
-              held a Grand Prix every year since 1983 (except 1984, 2003 and
-              2006). Spa also hosts several other international events including
-              the 24 Hours of Spa and the World Endurance Championship 6 Hours
-              of Spa-Francorchamps, and the TCR Spa 500. It is also home to the
-              Uniroyal Fun Cup 25 Hours of Spa, one of the longest motor races
-              in the world.
+              The Nürburgring is a 150,000 person capacity motorsports complex
+              located in the town of Nürburg, Rhineland-Palatinate, Germany. It
+              features a Grand Prix race track built in 1984, and a much longer
+              Nordschleife "North loop" track which was built in the 1920s
+              around the village and medieval castle of Nürburg in the Eifel
+              mountains. The north loop is 20.8 km (12.9 mi) long and has more
+              than 300 metres (1,000 feet) of elevation change from its lowest
+              to highest points. Jackie Stewart nicknamed the old track "The
+              Green Hell".
             </p>
             <p className='mt-2 text-normal leading-normal text-gray-700'>
-              The circuit has undergone several redesigns through its history,
-              most extensively in 1979 when the track was modified and shortened
-              from a 14.10 km (8.76 mi) circuit using public roads to a 6.95 km
-              (4.32 mi) permanent circuit due to safety concerns with the old
-              circuit. Despite its name, the circuit is not in Spa but lies in
-              the vicinity of the town of Francorchamps within the boundaries of
-              the municipality of Stavelot, with a part in the boundaries of
-              Malmedy.
+              Originally, the track featured four configurations: the 28.265 km
+              (17.563 mi)-long Gesamtstrecke ("Whole Course"), which in turn
+              consisted of the 22.810 km (14.173 mi) Nordschleife ("North
+              Loop"), and the 7.747 km (4.814 mi) Südschleife ("South Loop").
+              There also was a 2.281 km (1.417 mi) warm-up loop called
+              Zielschleife ("Finish Loop") or Betonschleife ("Concrete Loop"),
+              around the pit area.
             </p>
             <p className='mt-2 text-normal leading-normal text-gray-700'>
-              The original, triangle-shaped track was built in 1921, with
-              designers Jules de Thier and Henri Langlois van Ophem using public
-              roads between the towns of Francorchamps, Malmedy, and Stavelot to
-              create an amazing 14.9km circuit taking in the forests and rolling
-              hills of the beautiful Ardennes region. The track was redeveloped
-              in 1979, and although the new circuit is only half the original's
-              length, it’s still the longest on the current calendar at 7.004km.
-              Having hosted a non-championship Grand Prix as long ago as 1924,
-              Belgium’s iconic circuit was one of just seven to be part of
-              Formula 1’s maiden championship in 1950. That race was won by the
-              legendary Juan Manuel Fangio, who led home an Alfa Romeo one-two
-              ahead of team mate Nino Farina.
+              In 1907, the first Eifelrennen race was held on the one-off Taunus
+              circuit, a 117 km (73 mi) made up of public roads starting between
+              the towns of Wehrleim and Saalburg just north of Frankfurt. In the
+              early 1920s, ADAC Eifelrennen races were held on the twisty 33.2
+              km (20.6 mi) Nideggen public road circuit near Cologne and Bonn.
+              Sometime around 1925, the construction of a dedicated race track
+              was proposed just south of the Nideggen circuit around the ancient
+              castle of the town of Nürburg, following the examples of Italy's
+              Monza and Targa Florio courses, and Berlin's AVUS, yet with a
+              different character. The layout of the circuit in the mountains
+              was similar to the Targa Florio event, one of the most important
+              motor races at that time. The original Nürburgring was to be a
+              showcase for German automotive engineering and racing talent.
+              Construction of the track, designed by the Eichler Architekturbüro
+              from Ravensburg (led by architect Gustav Eichler), began in
+              October 1925.
             </p>
             <p className='mt-2 text-normal leading-normal text-gray-700'>
-              Spa is among Formula 1 drivers’ most loved tracks, with its mix of
-              long straights and challenging fast corners allowing them to push
-              their cars to the edge of their capabilities – if it’s dry, that
-              is. The size of the track and the nature of Belgian weather means
-              it can sometimes be raining on one part of the track and dry on
-              another, meaning grip can vary from one corner to the next. Keep
-              an eye on the thrilling Eau Rouge, arguably the most famous
-              sequence of corners in the world, as the drivers flick left, right
-              and then up the hill through Raidillon. Since its inception,
-              Spa-Francorchamps has been known for its unpredictable weather. At
-              one stage in its history it had rained at the Belgian Grand Prix
-              for twenty years in a row. Frequently drivers confront a part of
-              the course that is clear and bright while another stretch is rainy
-              and slippery. The Belgian Grand Prix was designated the European
-              Grand Prix six times between 1925 and 1973, when this title was an
-              honorary designation given each year to one Grand Prix race in
-              Europe. It is one of the most popular races on the Formula One
-              calendar, due to the scenic and historical Spa-Francorchamps
-              circuit being a favourite of drivers and fans.
+              The track was completed in spring of 1927, and the ADAC
+              Eifelrennen races were continued there. The first races to take
+              place on 18 June 1927 showed motorcycles and sidecars. The first
+              motorcycle race was won by Toni Ulmen on an English 350 cc
+              Velocette. The cars followed a day later, and Rudolf Caracciola
+              was the winner of the over 5000 cc class in a Mercedes-Benz
+              Compressor. In addition, the track was opened to the public in the
+              evenings and on weekends, as a one-way toll road.[3] The whole
+              track consisted of 174 bends (prior to 1971 changes), and averaged
+              8 to 9 metres (26 to 30 ft) in width. The fastest time ever around
+              the full Gesamtstrecke was by Louis Chiron, at an average speed of
+              112.31 km/h (72 mph) in his Bugatti.
             </p>
             <p className='mt-2 text-normal leading-normal text-gray-700'>
-              The fearsome Eau Rouge/Raidillon corner, arguably the most famous
-              on the current F1 calendar, features an elevation change of 35
-              meters from its lowest to highest point. Of current drivers, Kimi
-              Raikkonen has the best record at Spa with four victories. Lewis
-              Hamilton and Sebastian Vettel have each won three times. In 2019,
-              Charles Leclerc became the first driver to score a maiden Grand
-              Prix Victory at Spa since Michael Schumacher did so in 1992.
-              Fernando Alonso never took a victory at Spa during his F1 career.
-              Max Verstappen was born in Belgium to a Belgian mother, but
-              decided to represent The Netherlands, where his father comes from.
-              Nevertheless, Spa became his defacto ‘home race’ before the Dutch
-              Grand Prix rejoined the calendar for 2020, and thousands of Dutch
-              fans come out to support him here. At 7.004km long, Spa is the
-              longest current F1 circuit. Despite this, it has one of the
-              smaller spectator capacities on the current calendar (70,000 fans)
-              Spa is not only famous for Formula 1. It also holds other popular
-              annual events, including the Spa 24 hours and the 6 Hours of Spa
-              Francorchamps for sportscars. The entry list for races at Spa was
-              usually shorter than those at other events during the early years
-              of Formula 1, largely due to the track’s fearsome nature. Despite
-              taking his first F1 victory at Spa and going on to win the Belgian
-              Grand Prix for four consecutive seasons, Jim Clark detested the
-              track. Bruno Senna set the only fastest lap of his F1 career at
-              the Belgian Grand Prix in 2012. Strangely, that’s something which
-              his Uncle Ayrton never achieved, despite winning six Grands Prix
-              at Spa. Michael Schumacher is the only driver to have won the
-              World Championship at the Spa Francorchamps track. He claimed his
-              seventh and final title here in 2004. 12 of the last 20 Belgian
-              Grands Prix have been won by less than five seconds. The largest
-              win margin here came in 1963, when Jim Clark won by 474 seconds!
+              The big, scary Nordschleife version of the Nurburgring was
+              completed in 1927. But after eventually proving too big and too
+              scary for F1, Niki Lauda’s 1976 horror crash in the German Grand
+              Prix forced a re-think, with the more manageable, more modern
+              Grand Prix circuit opened in 1984, with a star-studded roll-call
+              of F1 drivers – including Ayrton Senna, James Hunt, Lauda and
+              Stirling Moss – racing around the track in Mercedes 190 saloon
+              cars to mark the occasion. The track was completed in spring of
+              1927, and the ADAC Eifelrennen races were continued there. The
+              first races to take place on 18 June 1927 showed motorcycles and
+              sidecars. The first motorcycle race was won by Toni Ulmen on an
+              English 350 cc Velocette. The cars followed a day later, and
+              Rudolf Caracciola was the winner of the over 5000 cc class in a
+              Mercedes-Benz Compressor. In addition, the track was opened to the
+              public in the evenings and on weekends, as a one-way toll road.[3]
+              The whole track consisted of 174 bends (prior to 1971 changes),
+              and averaged 8 to 9 metres (26 to 30 ft) in width. The fastest
+              time ever around the full Gesamtstrecke was by Louis Chiron, at an
+              average speed of 112.31 km/h (72 mph) in his Bugatti.
+            </p>
+            <p className='mt-2 text-normal leading-normal text-gray-700'>
+              The modern circuit got off the mark with the 1984 European Grand
+              Prix and the 1985 German Grand Prix. Falling off the calendar
+              until 1995, it then hosted various races in German, European and
+              Luxembourg Grand Prix guise – up until 2013, before its 2020
+              return. The Nordschleife it ain’t – but then that’s probably for
+              the best. The modern circuit utilises the start-finish straight of
+              the old Sudschleife track, before the drivers then tackle the
+              tight right-hander at Turn 1 (Haug-Haken) and go on an enjoyable
+              high-speed plunge down to the Dunlop-Kehre hairpin. From there,
+              the track shoots back uphill, with some fantastic high-speed
+              corners leading back to the slow, Hungaroring-esque right-hander
+              that ends the lap.
             </p>
           </div>
         </div>
@@ -122,7 +122,7 @@ const Schedule: React.FC = () => {
         </p>
       </div>
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
-        2020 Belgian Grand Prix weekend{' '}
+        2020 German Grand Prix weekend{' '}
         <span className='font-light'>(Track Time)</span>
       </div>
       <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mb-4'>
@@ -134,7 +134,7 @@ const Schedule: React.FC = () => {
                   Practice 1
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  28 - August ( 11:00 - 12:30 )
+                  09 - October ( 11:00 - 12:30 )
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -142,7 +142,7 @@ const Schedule: React.FC = () => {
                   Practice 2
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  28 - August ( 15:00 - 16:30 )
+                  09 - October ( 15:00 - 16:30 )
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -150,7 +150,7 @@ const Schedule: React.FC = () => {
                   Practice 3
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  29 - August ( 12:00 - 13:00 )
+                  10 - October ( 12:00 - 13:00 )
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -158,7 +158,7 @@ const Schedule: React.FC = () => {
                   Qualifying
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  29 - August ( 15:00 - 16:00 )
+                  10 - October ( 15:00 - 16:00 )
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -166,7 +166,7 @@ const Schedule: React.FC = () => {
                   Race
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  30 - August ( 15:10 - 17:10 )
+                  11 - October ( 14:10 - 16:10 )
                 </div>
               </div>
             </div>
@@ -174,7 +174,7 @@ const Schedule: React.FC = () => {
         </div>
       </div>
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
-        Belgian Grand Prix Facts
+        German Grand Prix Facts
       </div>
       <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
         <div className='relative max-w-screen-xl mx-auto'>
@@ -185,7 +185,7 @@ const Schedule: React.FC = () => {
                   Circuit Name
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  Circuit de Spa-Francorchamps
+                  Nürburgring
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -193,7 +193,7 @@ const Schedule: React.FC = () => {
                   Track Length
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  7.004 km (4.352 mi)
+                  5.148 km (3.199 mi)
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -201,7 +201,7 @@ const Schedule: React.FC = () => {
                   Turns
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  19 turns
+                  15 turns
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -209,7 +209,7 @@ const Schedule: React.FC = () => {
                   Race Distance
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  44 laps (307.104 km)
+                  60 laps (308.617 km - 191.766mi)
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -217,7 +217,7 @@ const Schedule: React.FC = () => {
                   F1 Races Held
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  75
+                  78
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -225,34 +225,34 @@ const Schedule: React.FC = () => {
                   First GP held
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  1950
+                  1926
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
                 <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1'>
-                  Most Wins
+                  Most Wins (drivers)
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  Michael Schumacher (6)
+                  Rudolf Caracciola (6)
+                  <br />
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
                 <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1'>
-                  Most Wins (constructors)
+                  Most wins (constructors)
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  <div className='ferrari'>
-                    <span className='text'> Ferrari (18)</span>
-                  </div>
+                  Ferrari (22)
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
                 <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1'>
                   Lap Record
                 </div>
-                <div className='mt-1 text-sm leading-5 sm:leading-7 text-gray-800 sm:mt-0 sm:col-span-2 mercedes'>
-                  Valtteri Bottas (<span className='text'>Mercedes</span>)
-                  <br /> 1:46.286 (2018)
+                <div className='mt-1 text-sm leading-5 sm:leading-7 text-gray-800 sm:mt-0 sm:col-span-2 ferrari'>
+                  Michael Schumacher (<span className='text'>Ferrari</span>){' '}
+                  <br />
+                  1:29.468 (2004)
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -269,7 +269,7 @@ const Schedule: React.FC = () => {
                     <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block mercedes'>
                       Lewis Hamilton (<span className='text'>Mercedes</span>){' '}
                       <br />
-                      1:24:08.761
+                      1:35:49.641
                     </div>
                   </div>
                   <div className='inine-block pb-4'>
@@ -278,10 +278,10 @@ const Schedule: React.FC = () => {
                       <br />
                       &nbsp;
                     </div>
-                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block mercedes'>
-                      Valtteri Bottas (<span className='text'>Mercedes</span>)
+                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block redbull'>
+                      Max Verstappen (<span className='text'>Red Bull</span>)
                       <br />
-                      +8.448s
+                      +4.470s
                     </div>
                   </div>
                   <div className='inine-block'>
@@ -290,10 +290,11 @@ const Schedule: React.FC = () => {
                       <br />
                       &nbsp;
                     </div>
-                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block redbull'>
-                      Max Verstappen (<span className='text'>Red Bull</span>)
+                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block renault'>
+                      Daniel Ricciardo (
+                      <span className='text three-d-text'>Renault</span>)
                       <br />
-                      +15.455s
+                      +14.613s
                     </div>
                   </div>
                 </div>
@@ -310,9 +311,9 @@ const Schedule: React.FC = () => {
                       &nbsp;
                     </div>
                     <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block mercedes'>
-                      Lewis Hamilton (<span className='text'>Mercedes</span>){' '}
+                      Valtteri Bottas (<span className='text'>Mercedes</span>){' '}
                       <br />
-                      1:41.252
+                      1:25.269
                     </div>
                   </div>
                   <div className='inine-block pb-4'>
@@ -322,9 +323,9 @@ const Schedule: React.FC = () => {
                       &nbsp;
                     </div>
                     <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block mercedes'>
-                      Valtteri Bottas (<span className='text'>Mercedes</span>){' '}
+                      Lewis Hamilton (<span className='text'>Mercedes</span>){' '}
                       <br />
-                      1:41.763
+                      1:25.525
                     </div>
                   </div>
                   <div className='inine-block'>
@@ -336,14 +337,14 @@ const Schedule: React.FC = () => {
                     <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block redbull'>
                       Max Verstappen (<span className='text'>Red Bull</span>){' '}
                       <br />
-                      1:41.763
+                      1:25.562
                     </div>
                   </div>
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
                 <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1 self-center'>
-                  2019 Results
+                  2013 Race Results
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2 self-start'>
                   <div className='inine-block pb-4'>
@@ -352,10 +353,10 @@ const Schedule: React.FC = () => {
                       <br />
                       &nbsp;
                     </div>
-                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block ferrari'>
-                      Charles Leclerc (<span className='text'>Ferrari</span>){' '}
+                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block redbull'>
+                      Sebastian Vettel (<span className='text'>Red Bull</span>){' '}
                       <br />
-                      1:23:45.710
+                      1:33:38.992
                     </div>
                   </div>
                   <div className='inine-block pb-4'>
@@ -364,10 +365,10 @@ const Schedule: React.FC = () => {
                       <br />
                       &nbsp;
                     </div>
-                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block mercedes'>
-                      Lewis Hamilton (<span className='text'>Mercedes</span>){' '}
+                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block'>
+                      Kimi Räikkönen (<span className='text'>Lotus</span>){' '}
                       <br />
-                      +0.981s
+                      +1.008s
                     </div>
                   </div>
                   <div className='inine-block pb-4'>
@@ -376,36 +377,12 @@ const Schedule: React.FC = () => {
                       <br />
                       &nbsp;
                     </div>
-                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block mercedes'>
-                      Valtteri Bottas(<span className='text'>Mercedes</span>){' '}
+                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block '>
+                      Romain Grosjean (<span className='text'>Lotus</span>){' '}
                       <br />
-                      +12.585s
+                      +5.830s
                     </div>
                   </div>
-                  {/* <div className='inine-block pb-4'>
-                    <div className='text-primary-on text-lg font-bold leading-5 w-12 inline-block'>
-                      II<sup>nd</sup>
-                      <br />
-                      &nbsp;
-                    </div>
-                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block redbull'>
-                      Max Verstappen (<span className='text'>Red Bull</span>){' '}
-                      <br />
-                      +7.679s
-                    </div>
-                  </div> */}
-                  {/* <div className='inine-block pb-4'>
-                    <div className='text-primary-on text-lg font-bold leading-5 w-12 inline-block'>
-                      III<sup>rd</sup>
-                      <br />
-                      &nbsp;
-                    </div>
-                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block ferrari'>
-                      Charles Leclerc (<span className='text'>Ferrari</span>){' '}
-                      <br />
-                      +30.117s
-                    </div>
-                  </div> */}
                 </div>
               </div>
             </div>

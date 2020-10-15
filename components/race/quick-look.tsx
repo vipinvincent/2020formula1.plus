@@ -5,7 +5,7 @@ const Race: React.FC = () => {
   return (
     <div className='flex flex-col mb-9 flex-grow flex-no-wrap flex-shrink-0'>
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-3 '>
-        Russian GP 2020 - Race Results
+        Eifel GP 2020 - Race Results
       </div>
       <div className='w-full grid sm:flex sm:flex-col justify-around py-3 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mb-4'>
         <div className='align-middle min-w-full overflow-x-auto '>
@@ -20,9 +20,6 @@ const Race: React.FC = () => {
                 </th>
                 <th className='p-4 bg-gray-50 text-center text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider whitespace-no-wrap'>
                   Time
-                </th>
-                <th className='p-4 bg-gray-50 text-center text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider whitespace-no-wrap'>
-                  Laps
                 </th>
                 <th className='pr-4 py-1 bg-gray-50 text-right text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider table-cell whitespace-no-wrap'>
                   Pit
@@ -44,9 +41,6 @@ const Race: React.FC = () => {
                 <td className='p-4 whitespace-no-wrap table-cell text-center'>
                   1:35:49.641
                 </td>
-                <td className='p-4 whitespace-no-wrap table-cell text-center'>
-                  60
-                </td>
                 <td className='pr-6 whitespace-no-wrap table-cell text-right font-semibold'>
                   2
                 </td>
@@ -64,9 +58,6 @@ const Race: React.FC = () => {
                 </td>
                 <td className='p-4 whitespace-no-wrap table-cell text-center'>
                   +4.470s
-                </td>
-                <td className='p-4 whitespace-no-wrap table-cell text-center'>
-                  60
                 </td>
                 <td className='pr-6 whitespace-no-wrap table-cell text-right font-semibold'>
                   2
@@ -87,9 +78,6 @@ const Race: React.FC = () => {
                 <td className='p-4 whitespace-no-wrap table-cell text-center'>
                   +14.613s
                 </td>
-                <td className='p-4 whitespace-no-wrap table-cell text-center'>
-                  60
-                </td>
                 <td className='pr-6 whitespace-no-wrap table-cell text-right font-semibold'>
                   2
                 </td>
@@ -109,9 +97,6 @@ const Race: React.FC = () => {
                 <td className='p-4 whitespace-no-wrap table-cell text-center'>
                   +16.070s
                 </td>
-                <td className='p-4 whitespace-no-wrap table-cell text-center'>
-                  60
-                </td>
                 <td className='pr-6 whitespace-no-wrap table-cell text-right font-semibold'>
                   2
                 </td>
@@ -129,9 +114,6 @@ const Race: React.FC = () => {
                 </td>
                 <td className='p-4 whitespace-no-wrap table-cell text-center'>
                   +21.905s
-                </td>
-                <td className='p-4 whitespace-no-wrap table-cell text-center'>
-                  60
                 </td>
                 <td className='pr-6 whitespace-no-wrap table-cell text-right font-semibold'>
                   2
@@ -151,9 +133,6 @@ const Race: React.FC = () => {
                 <td className='p-4 whitespace-no-wrap table-cell text-center'>
                   +22.766s
                 </td>
-                <td className='p-4 whitespace-no-wrap table-cell text-center'>
-                  60
-                </td>
                 <td className='pr-6 whitespace-no-wrap table-cell text-right font-semibold'>
                   2
                 </td>
@@ -171,9 +150,6 @@ const Race: React.FC = () => {
                 </td>
                 <td className='p-4 whitespace-no-wrap table-cell text-center'>
                   +30.814s
-                </td>
-                <td className='p-4 whitespace-no-wrap table-cell text-center'>
-                  60
                 </td>
                 <td className='pr-6 whitespace-no-wrap table-cell text-right font-semibold'>
                   2
@@ -195,9 +171,6 @@ const Race: React.FC = () => {
                 <td className='p-4 whitespace-no-wrap table-cell text-center'>
                   +32.596s
                 </td>
-                <td className='p-4 whitespace-no-wrap table-cell text-center'>
-                  60
-                </td>
                 <td className='pr-6 whitespace-no-wrap table-cell text-right font-semibold'>
                   2
                 </td>
@@ -215,9 +188,6 @@ const Race: React.FC = () => {
                 </td>
                 <td className='p-4 whitespace-no-wrap table-cell text-center'>
                   +39.081s
-                </td>
-                <td className='p-4 whitespace-no-wrap table-cell text-center'>
-                  60
                 </td>
                 <td className='pr-6 whitespace-no-wrap table-cell text-right font-semibold'>
                   1
@@ -237,9 +207,6 @@ const Race: React.FC = () => {
                 </td>
                 <td className='p-4 whitespace-no-wrap table-cell text-center'>
                   +40.035s
-                </td>
-                <td className='p-4 whitespace-no-wrap table-cell text-center'>
-                  60
                 </td>
                 <td className='pr-6 whitespace-no-wrap table-cell text-right font-semibold'>
                   2
