@@ -7,14 +7,14 @@ const First: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=dgZKycrxmxg'
+        href='https://www.youtube.com/watch?v=LbMiDX4JurA'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/dgZKycrxmxg/sddefault.jpg'
-              alt='Chase Carey On The 2021 Calendar, F1s Future And More | Beyond The Grid | F1 Official Podcast'
+              src='https://img.youtube.com/vi/LbMiDX4JurA/sddefault.jpg'
+              alt='Is The Valtteri Bottas Criticism JUSTIFIED?'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,19 +32,22 @@ const First: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=dgZKycrxmxg'
+            href='https://www.youtube.com/watch?v=LbMiDX4JurA'
             target='_blank'>
-            Chase Carey On The 2021 Calendar, F1's Future And More | Beyond The
-            Grid | F1 Official Podcast
+            Is The Valtteri Bottas Criticism JUSTIFIED?
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            In our 100th episode of F1 Beyond The Grid, F1 CEO and Executive
-            Chairman Chase Carey discusses the 2021 calendar, the return of fans
-            to race weekends, qualifying races and more...
+            In this weeks’ F1 news round-up: Pierre Gasly dismisses some reports
+            and insists he still has a good relationship with Red Bull. Formula
+            One bosses are planning for a more “normal” 2021 calendar, Mercedes
+            is already focusing on 2021 and Fernando Alonso is apparently like a
+            “hungry shark”.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href=' http://www.formula1.com' target='_blank'>
+            <ContentLink
+              href='https://www.youtube.com/c/TheF1Word'
+              target='_blank'>
               Formula1.com
             </ContentLink>
           </p>

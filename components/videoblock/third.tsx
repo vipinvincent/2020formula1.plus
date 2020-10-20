@@ -7,14 +7,14 @@ const Third: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=8tbnCm8itlg'
+        href='https://www.youtube.com/watch?v=lfqkhCCq5sg'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/8tbnCm8itlg/sddefault.jpg'
-              alt='How Did The Cold Affect F1s Nürburgring Race?'
+              src='https://img.youtube.com/vi/lfqkhCCq5sg/sddefault.jpg'
+              alt='Is The Valtteri Bottas Criticism JUSTIFIED?'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,25 +32,18 @@ const Third: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=8tbnCm8itlg'
+            href='https://www.youtube.com/watch?v=lfqkhCCq5sg'
             target='_blank'>
-            How Did The Cold Affect F1's Nürburgring Race?
+            Introduction to Telemetry
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            For the first time in 7 years, F1 finally returned to a frosty
-            Nürburgring for the Eifel GP. Out came the bobble hats, and teams
-            like Ferrari, McLaren and more even brought out some upgrades...
-            though the jury is still out whether they were beneficial or not.
-            Despite this, it's the midfield battle where things were really
-            heating up, with Renault, Racing Point and McLaren all battling it
-            out for 3rd place. But how did the cold weather affect the teams in
-            reality? Jake Boxall-Legge uses our latest 3D animation to take a
-            look at the cold weekend, the tech updates brought out and more.
+            Drivers and teams use telemetry all the time to hone their driving,
+            setup and design choices. But what does it all MEAN?
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href=' https://www.autosport.com/' target='_blank'>
-              Autosport
+            <ContentLink href='http://chainbear.me/' target='_blank'>
+              Chain Bear
             </ContentLink>
           </p>
         </div>

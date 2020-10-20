@@ -7,14 +7,14 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=ivy1TNroLwk'
+        href='https://www.youtube.com/watch?v=3Czm7vUBLQE'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/ivy1TNroLwk/sddefault.jpg'
-              alt='How Good Was Hulkenberg at Nurburgring?'
+              src='https://img.youtube.com/vi/3Czm7vUBLQE/sddefault.jpg'
+              alt='The Fall and Rise of Pierre Gasly'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,21 +32,21 @@ const Second: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=ivy1TNroLwk'
+            href='https://www.youtube.com/watch?v=3Czm7vUBLQE'
             target='_blank'>
-            How Good Was Hulkenberg at Nurburgring?
+            The Fall and Rise of Pierre Gasly
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Some might say Nico Hulkenburg got kicked out of F1 too early,
-            without really fulfilling his potential. However, this year he’s
-            been given a couple of opportunities to impress - in extremely
-            challenging circumstances, and potentially get another chance at his
-            F1 dream.
+            Pierre Gasly, my Driver of the Year. He's had quite the last 2 and a
+            half years. Incredibly high highs, devastatingly low lows. I wanted
+            to just chuck out all my feelings on Pierre's journey to this point,
+            why I think things happened, and what I think the future holds for
+            him.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='https://driver61.com/' target='_blank'>
-              Driver61
+            <ContentLink href='https://tommof1.buzzsprout.com' target='_blank'>
+              Tommo F1
             </ContentLink>
           </p>
         </div>
