@@ -7,14 +7,14 @@ const First: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=LbMiDX4JurA'
+        href='https://www.youtube.com/watch?v=a5JBRrxrhZs'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/LbMiDX4JurA/sddefault.jpg'
-              alt='Is The Valtteri Bottas Criticism JUSTIFIED?'
+              src='https://img.youtube.com/vi/a5JBRrxrhZs/sddefault.jpg'
+              alt='F1 Nation: What Is The Best-Looking F1 Car?'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,22 +32,19 @@ const First: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=LbMiDX4JurA'
+            href='https://www.youtube.com/watch?v=a5JBRrxrhZs'
             target='_blank'>
-            Is The Valtteri Bottas Criticism JUSTIFIED?
+            F1 Nation: What Is The Best-Looking F1 Car?
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            In this weeks’ F1 news round-up: Pierre Gasly dismisses some reports
-            and insists he still has a good relationship with Red Bull. Formula
-            One bosses are planning for a more “normal” 2021 calendar, Mercedes
-            is already focusing on 2021 and Fernando Alonso is apparently like a
-            “hungry shark”.
+            Dario Franchitti starts a debate about the best-looking F1 car ever,
+            a mailbag question accidentally creates an F1 book club and Emanuele
+            Pirro drops by to talk about the conflict of being an F1 steward and
+            more!
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink
-              href='https://www.youtube.com/c/TheF1Word'
-              target='_blank'>
+            <ContentLink href='http://www.Formula1.com' target='_blank'>
               Formula1.com
             </ContentLink>
           </p>
