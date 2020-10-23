@@ -20,7 +20,7 @@ import Archive51 from 'components/newsarchives/fp3-report-russian-gp'
 
 import MainContent from 'components/contentblock/main'
 import FirstContent from 'components/contentblock/first'
-import SecondContent from 'components/contentblock/left'
+// import SecondContent from 'components/contentblock/left'
 import ThirdContent from 'components/contentblock/right'
 import FifthContent from 'components/contentblock/left-old'
 import SixthContent from 'components/contentblock/right-old'
