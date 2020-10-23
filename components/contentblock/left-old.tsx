@@ -8,63 +8,62 @@ const Left: React.FC = () => {
       <div className='h-40 xl:h-48 w-full'>
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
-          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1599834663/contentImages/content/valteri-bottas_kvx19p.jpg'
-          alt='FP2 REPORT - Eifel GP 2020'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1595072621/contentImages/content/valtteri_-bottas_m5dgbs.jpg'
+          alt='Qualifying REPORT - Eifel GP 2020'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-4 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            FP2 REPORT - Eifel GP 2020
+            Qualifying REPORT - Eifel GP 2020
           </div>
           <H1>
-            Bottas heads FP2 with Mercedes 1-2 as Hamilton finishes second with
-            Ricciardo in an impressive third
+            Bottas grabs pole for Mercedes with Hamilton in P2 and Verstappen in
+            P3 as Hulkenberg replaces unwell Stroll
           </H1>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Mercedes’ Valtteri Bottas has a clean sweep on Friday at the Sochi
-            Autodrom, as he finishes top in FP2, 0.267s ahead of his team mate
-            Lewis Hamilton in second. Renault’s Daniel Ricciardo finished third
-            for Renault as the Australian thinks the Sochi was one of the tracks
-            on the calendar where he had the most room for improvement. But
-            after taking P2 in FP1 this morning, the Australian followed it up
-            with an impressive third in FP2, which was 1.058s off Bottas, but a
-            tenth and a half up on his next closest competitor, McLaren’s Carlos
-            Sainz who crashed into the barriers in FP1, His team mate Lando
-            Norris in P5 rounded of top 5. Sergio Perez finished sixth in the
-            old spec Racing Point RP20. Max Verstappen had disappointing session
-            as he clunked the kerb at the exit of Turn 2 on his fastest lap and
-            run wide, leaving him P7, and 1.529s off the lead time.
+            Russian GP winner Valtteri Bottas beats Hamilton to Eifel GP pole as
+            Mercedes continued their 100% pole position record for 2020 at the
+            Eifel Grand Prix. Lewis Hamilton finished P2 which is 0.256s behind
+            his team mate, while Red Bull’s Max Verstappen secured P3 slot on
+            the grid, but just 0.037s off Hamilton. Though Max was in
+            provisional pole before the last stint of Q3, he couldn’t match the
+            pace of Mercedes as he couldn’t find the sweat spot of grip in his
+            last run. The breaking news of Nico Hulkenberg replacing sick Lance
+            Stroll just came few minutes before the Qualifying, as the German
+            was been in town for broadcast work before getting the call up to
+            drive ahead of the session.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Ferrari with new updates shows improvements as Charles Leclerc and
-            Sebastian Vettel ending up eighth and 10th respectively. The second
-            Renault of Esteban Ocon splits the Ferrari in P9, who continued to
-            look less comfortable in the R.S.20 than his team mate Ricciardo.
-            Alex Albon in second Red Bull slid wide at the exit of Turn 14
-            earlier in the session only could manage P12 as he got sandwiched,
-            with the sister Red Bull of two AlphaTauris. Pierre Gasly finished
-            in P11 ahead of home racer Daniil Kvyat in P13. Kimi Räikkönen in
-            Alfa Romeo finished in P14 who was the last driver in 2sec range
-            from the leader.
+            Probably the second big surprise in Qualifying was from Ferrari, as
+            Charles Leclerc splits the two Red Bull cars and finished P4. The
+            performance upgrades to the floor and bargeboards of SF1000 seems to
+            be working for Charles as his team Mate Sebastian Vettel narrowly
+            misses Q3 and could only manage P11. The second Red Bull of Alex
+            Albon finished in P5, ahead of tho reanults of Daniel Ricciardo and
+            Esteban Ocon. McLarens of Lando Norris and Carlos Sainz finishes in
+            eighth and 10th, sandwiching Sergio Perez in the updated RP20 in P9.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Nicholas Latifi after a poor FP1session pipped his team mate George
-            Russell to P15 by 0.012s, with Russell P16, ahead of the second
-            Racing Point of Lance Stroll, who spun innocuously at Turn 13 early
-            in the session, before failing to string a representative qualifying
-            simulation lap together. Kevin Magnussen finished in P18 with his
-            teammate Romain Grosjean in P20 for Haas, with the second Alfa Romeo
-            of Antonio Giovinazzi in P19 as he suffered a big lock-up at the
-            tricky Turn 13 during the session.
+            The Alpha Tauris of Pierre Gasly and Daniil Kvyat also misses out Q2
+            and could only manage P12 and P13 respectively. Antonio Giovinazzi
+            out classed his team mate for the first time in 2020, as he
+            participated in his maiden Q2 in this season, crossed the line in
+            P14. Kevin Magnussen and Romain Grosjean in Haas follows the Alfa
+            Romeo in P15 and P16 respectively as George Russell in Williams only
+            could manage P17. Nicholas Latifi in the second Williams finishes in
+            P18 ahead of Alfa Romeo’s Kimi Räikkönen in P19.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Traditionally at Sochi circuit, the pole sitter have won every Eifel
-            Grand Prix since the race’s inauguration in 2014, Mercedes guarantee
-            a top spot in Sochi. Meanwhile, It is looking good for a race
-            victory for Bottas, as he favours Sochi track, where he scored his
-            first win in 2017, which will boost his confidence and will help him
-            to keep track of the championship battle for 2020.
+            But it was a mega effort from Hulkenberg who has been in the car for
+            just 10 minutes managed a time of 1:28.021 which was only 0.4
+            seconds slower than the Q2 time and only 0.2 seconds from his near
+            rival. Later Hulkenberg revealed that “It was even wilder and
+            crazier than last time,” “I was in Cologne which is an hour from
+            here. I was due to come here this afternoon anyway, I was going to
+            do some TV stuff from RTL tomorrow. I was sat with a friend having a
+            coffee at 11am when I see that Otmar [Racing Point Team Principal]
+            rings me and says ‘Hulkenberg, hurry we need you here’. he said.
           </p>
           {/* <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}

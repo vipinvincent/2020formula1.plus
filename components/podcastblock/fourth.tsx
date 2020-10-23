@@ -7,14 +7,14 @@ const Fourth: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=rVw411TX40E'
+        href='https://www.youtube.com/watch?v=M_Nu3CvEnLI'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/rVw411TX40E/sddefault.jpg'
-              alt='2020 Eifel GP Race Review | WTF1 Podcast'
+              src='https://img.youtube.com/vi/M_Nu3CvEnLI/sddefault.jpg'
+              alt='Portuguese Grand Prix Preview F1 2020'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,21 +32,24 @@ const Fourth: React.FC = () => {
             PODCAST
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=rVw411TX40E'
+            href='https://www.youtube.com/watch?v=M_Nu3CvEnLI'
             target='_blank'>
-            2020 Eifel GP Race Review | WTF1 Podcast
+            Portuguese Grand Prix Preview F1 2020
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            An entertaining race at the Nurburgring provided plenty of talk
-            points. Should Nico Hulkenberg be on the grid next year? Is Alex
-            Albon's Red Bull career over? Did the lack of Friday running make
-            for a more entertaining race? Join Matt and Tommy as they discuss
-            the 2020 Eifel Grand Prix.
+            Formula 1 is back this weekend for the F1 2020 Portuguese Grand
+            Prix! Today we preview the weekend/race, taking a look at last
+            seasons results, the championship so far, a hot lap of the Portimao
+            Circuit, My predictions and a look at the schedule for this weekends
+            F1 and F2! ! With Hamilton now a 6 time champion, can Bottas,
+            Leclerc, Verstappen and Vettel challenge even closer this year?
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='http://www.wtf1.com' target='_blank'>
-              WTF1
+            <ContentLink
+              href='https://www.youtube.com/c/F1Reviews'
+              target='_blank'>
+              F1/E Reviews
             </ContentLink>
           </p>
         </div>

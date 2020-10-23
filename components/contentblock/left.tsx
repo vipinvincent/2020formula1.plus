@@ -9,24 +9,24 @@ const Left: React.FC = () => {
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
           src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1595072621/contentImages/content/valtteri_-bottas_m5dgbs.jpg'
-          alt='Qualifying REPORT - Eifel GP 2020'
+          alt='FP2 REPORT - Portuguese GP 2020'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-4 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            Qualifying REPORT - Eifel GP 2020
+            FP2 REPORT - Portuguese GP 2020
           </div>
           <H1>
             Bottas grabs pole for Mercedes with Hamilton in P2 and Verstappen in
             P3 as Hulkenberg replaces unwell Stroll
           </H1>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Russian GP winner Valtteri Bottas beats Hamilton to Eifel GP pole as
-            Mercedes continued their 100% pole position record for 2020 at the
-            Eifel Grand Prix. Lewis Hamilton finished P2 which is 0.256s behind
-            his team mate, while Red Bull’s Max Verstappen secured P3 slot on
-            the grid, but just 0.037s off Hamilton. Though Max was in
+            Russian GP winner Valtteri Bottas beats Hamilton to Portuguese GP
+            pole as Mercedes continued their 100% pole position record for 2020
+            at the Portuguese Grand Prix. Lewis Hamilton finished P2 which is
+            0.256s behind his team mate, while Red Bull’s Max Verstappen secured
+            P3 slot on the grid, but just 0.037s off Hamilton. Though Max was in
             provisional pole before the last stint of Q3, he couldn’t match the
             pace of Mercedes as he couldn’t find the sweat spot of grip in his
             last run. The breaking news of Nico Hulkenberg replacing sick Lance

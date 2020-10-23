@@ -7,14 +7,14 @@ const Third: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=WtAympaUn2k'
+        href='https://www.youtube.com/watch?v=JhTlgEqQnNY'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/WtAympaUn2k/sddefault.jpg'
-              alt='George Russels F1 Future...'
+              src='https://img.youtube.com/vi/JhTlgEqQnNY/sddefault.jpg'
+              alt='F1s Best Racetrack? Portuguese GP'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,13 +32,14 @@ const Third: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=WtAympaUn2k'
+            href='https://www.youtube.com/watch?v=JhTlgEqQnNY'
             target='_blank'>
-            George Russel's F1 Future...
+            F1's Best Racetrack? Portuguese GP
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            George Russel's F1 Future. Let's talk F1. Let me have any questions
-            you'd like featuring in the show using #AskElvis
+            Taking a detailed look at F1's newest track, The Algarve
+            International Circuit near Portimao, ahead of the Portuguese GP.
+            Could this end up being F1's best racetrack?
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}

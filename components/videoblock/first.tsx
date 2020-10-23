@@ -7,14 +7,14 @@ const First: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=sa2KFTwlHx0'
+        href='https://www.youtube.com/watch?v=SBvsD62knUY'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/sa2KFTwlHx0/sddefault.jpg'
-              alt='How Ferrari is bouncing back from rock bottom in F1'
+              src='https://img.youtube.com/vi/SBvsD62knUY/sddefault.jpg'
+              alt='How will the Haas vacancies affect the F1 2021 Driver Market?'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,24 +32,21 @@ const First: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=sa2KFTwlHx0'
+            href='https://www.youtube.com/watch?v=SBvsD62knUY'
             target='_blank'>
-            How Ferrari is bouncing back from 'rock bottom' in F1
+            How will the Haas vacancies affect the F1 2021 Driver Market?
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Ferrari's terrible 2020 Formula 1 season appears to be showing signs
-            of light at the end of the tunnel. Given how poor the SF1000 car is,
-            any shoots of recovery are unlikely to produce a massive upturn in
-            results, but as Scott Mitchell explains in this video, there are
-            three key factors behind Ferrari recovering from what the team
-            itself has described as "rock bottom"
+            Jon Noble, Motorsport.com F1 Editor, breaks down the Haas news that
+            both drivers, Romain Grosjean and Kevin Magnussen, will be leaving
+            the team at the end of the season. We look at how this big shake up
+            affects the F1 paddock and look at the potential 2021 Team and
+            Driver line ups.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink
-              href='https://the-race.com/formula-1/what-ricciardos-breakthrough-podium-really-says-about-renault/'
-              target='_blank'>
-              The Race
+            <ContentLink href=' https://www.autosport.com/' target='_blank'>
+              Autosport
             </ContentLink>
           </p>
         </div>

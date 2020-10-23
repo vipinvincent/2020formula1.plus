@@ -7,14 +7,14 @@ const First: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=a5JBRrxrhZs'
+        href='https://www.youtube.com/watch?v=0fj8XfaOxSQ'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/a5JBRrxrhZs/sddefault.jpg'
-              alt='F1 Nation: What Is The Best-Looking F1 Car?'
+              src='https://img.youtube.com/vi/0fj8XfaOxSQ/sddefault.jpg'
+              alt='Toto Wolff On His Love Of F1 And Missing Niki Lauda | Beyond The Grid | F1 Official Podcast'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,19 +32,21 @@ const First: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=a5JBRrxrhZs'
+            href='https://www.youtube.com/watch?v=0fj8XfaOxSQ'
             target='_blank'>
-            F1 Nation: What Is The Best-Looking F1 Car?
+            Toto Wolff On His Love Of F1 And Missing Niki Lauda | Beyond The
+            Grid | F1 Official Podcast
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Dario Franchitti starts a debate about the best-looking F1 car ever,
-            a mailbag question accidentally creates an F1 book club and Emanuele
-            Pirro drops by to talk about the conflict of being an F1 steward and
-            more!
+            He’s a workaholic, whose team is about to win a record seventh
+            consecutive constructors’ championship. Yet his desire for more
+            trophies remains all-consuming. This week we welcome back Mercedes
+            boss Toto Wolff for an intimate and relaxed chat at his home in
+            Oxford.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='http://www.Formula1.com' target='_blank'>
+            <ContentLink href='http://www.formula1.com' target='_blank'>
               Formula1.com
             </ContentLink>
           </p>
