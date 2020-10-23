@@ -8,7 +8,7 @@ const Right: React.FC = () => {
       <div className='h-40 xl:h-48 w-full'>
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
-          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1599834663/contentImages/content/valteri-bottas_kvx19p.jpg'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1595072621/contentImages/content/valtteri_-bottas_m5dgbs.jpg'
           alt='FP1 REPORT - Portuguese GP 2020'
         />
       </div>
@@ -55,6 +55,17 @@ const Right: React.FC = () => {
             Renault's Ocon. Esteban Ocon’s session ended with a worrying
             mechanical issue, when smoke was seen coming from the back of his
             car just as the chequered flag was flying.
+          </p>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
+            Even though there was some spots of rain and the sky was dark during
+            the session, the second practice session is predicted to be a clear
+            sky session. The first 30 minutes of Free Practice 2 might be
+            utilised by Pirelli for a blind tyre test of the company’s 2021
+            prototype compounds. This means the laps set using the hard and
+            medium tyres in FP1 session might echo the running simulation for
+            the race day. One this is sure that the relatively new resurfaced
+            race track together with the chances of rain will spice up the 2020
+            Portuguese Grand Prix on Sunday.
           </p>
 
           {/* <p className='mt-1 text-base leading-normal text-gray-700'>

@@ -8,7 +8,7 @@ const Left: React.FC = () => {
       <div className='h-40 xl:h-48 w-full'>
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
-          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1595072621/contentImages/content/valtteri_-bottas_m5dgbs.jpg'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1601214934/contentImages/content/bottas_bw5vun.jpg'
           alt='FP2 REPORT - Portuguese GP 2020'
         />
       </div>
@@ -18,52 +18,53 @@ const Left: React.FC = () => {
             FP2 REPORT - Portuguese GP 2020
           </div>
           <H1>
-            Bottas grabs pole for Mercedes with Hamilton in P2 and Verstappen in
-            P3 as Hulkenberg replaces unwell Stroll
+            Bottas tops an eventful FP2 session at Portimao circuit with
+            Verstappen in P2 and Norris in P3
           </H1>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Russian GP winner Valtteri Bottas beats Hamilton to Portuguese GP
-            pole as Mercedes continued their 100% pole position record for 2020
-            at the Portuguese Grand Prix. Lewis Hamilton finished P2 which is
-            0.256s behind his team mate, while Red Bull’s Max Verstappen secured
-            P3 slot on the grid, but just 0.037s off Hamilton. Though Max was in
-            provisional pole before the last stint of Q3, he couldn’t match the
-            pace of Mercedes as he couldn’t find the sweat spot of grip in his
-            last run. The breaking news of Nico Hulkenberg replacing sick Lance
-            Stroll just came few minutes before the Qualifying, as the German
-            was been in town for broadcast work before getting the call up to
-            drive ahead of the session.
+            Mercedes’ Valtteri Bottas leads the multiple red flag disrupted
+            second practice session on the Friday of the Portuguese Grand Prix.
+            The session got suspended twice after Pierre Gasly’s AlphaTauri
+            caught fire, and an spectacular crash of Max Verstappen and Lance
+            Stroll in Turn 1. But Max Verstappen managed P2 for Red Bull as
+            McLaren’s Lando Norris slotted into P3 towards the end of the
+            session. Both Bottas and Norris was on set of red Softs for their
+            respective fastest laps, while Max set his fastest lap on the medium
+            tyre. Charles Leclerc once again impressed with P4 with the latest
+            updates to the SF1000 proves to be in the right direction for
+            Ferrari. Carlos Sainz finished in P5 near the end of the session in
+            the second McLaren, with 1.173s off Bottas’ pace, as Sebastian
+            Vettel finished encouraging sixth, which is around three-tenths off
+            Leclerc’s pace.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Probably the second big surprise in Qualifying was from Ferrari, as
-            Charles Leclerc splits the two Red Bull cars and finished P4. The
-            performance upgrades to the floor and bargeboards of SF1000 seems to
-            be working for Charles as his team Mate Sebastian Vettel narrowly
-            misses Q3 and could only manage P11. The second Red Bull of Alex
-            Albon finished in P5, ahead of tho reanults of Daniel Ricciardo and
-            Esteban Ocon. McLarens of Lando Norris and Carlos Sainz finishes in
-            eighth and 10th, sandwiching Sergio Perez in the updated RP20 in P9.
+            Gasly finished managed P7 before his car was on fire bringing the
+            red flag halfway through the hour and a half session. Galsly pulled
+            up his AlphaTauri AT01 on the side of the track at the exit of Turn
+            13 only to start splitting flames with the marshals eventually
+            putting the blaze out after it had been burning for around a minute.
+            The reigning champion Lewis Hamilton, who didn’t appear to be happy
+            with his W11 only manage P8 which is 1.368s adrift of his team mate.
+            Top 10 were rounded out by Renault’s Esteban Ocon and the second Red
+            Bull of Alex Albon, as they had their multiple laps got deleted for
+            track limit infringements at Turn 4. George Russell was P11 ahead of
+            the Racing Point of Sergio Perez in P12. Daniel Ricciardo was
+            hampered on his penultimate attempt at a flying lap by a Williams
+            exiting the pits, only managed P13.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The Alpha Tauris of Pierre Gasly and Daniil Kvyat also misses out Q2
-            and could only manage P12 and P13 respectively. Antonio Giovinazzi
-            out classed his team mate for the first time in 2020, as he
-            participated in his maiden Q2 in this season, crossed the line in
-            P14. Kevin Magnussen and Romain Grosjean in Haas follows the Alfa
-            Romeo in P15 and P16 respectively as George Russell in Williams only
-            could manage P17. Nicholas Latifi in the second Williams finishes in
-            P18 ahead of Alfa Romeo’s Kimi Räikkönen in P19.
-          </p>
-          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            But it was a mega effort from Hulkenberg who has been in the car for
-            just 10 minutes managed a time of 1:28.021 which was only 0.4
-            seconds slower than the Q2 time and only 0.2 seconds from his near
-            rival. Later Hulkenberg revealed that “It was even wilder and
-            crazier than last time,” “I was in Cologne which is an hour from
-            here. I was due to come here this afternoon anyway, I was going to
-            do some TV stuff from RTL tomorrow. I was sat with a friend having a
-            coffee at 11am when I see that Otmar [Racing Point Team Principal]
-            rings me and says ‘Hulkenberg, hurry we need you here’. he said.
+            Nicholas Latifi in second Williams finised in P14 as Alfa Romeo’s
+            Kimi Raikkonen crossed the line in P15. Kevin Magnussen finished in
+            16th with AlphaTauri’s Daniil Kvyat finished in 17th after a spin
+            earlier in the session. Romain Grosjean managed P18 as Stroll only
+            could finish in P19. It was indeed a dramatic moment, with 29
+            minutes left to go as drivers keen to get their qualifying
+            simulation laps in, Verstappen and Stroll, on a flying lap, dragged
+            down the main straight as the pair collided at Turn 1, with Stroll
+            appearing not to register Verstappen’s presence on the inside of the
+            corner. The stewards set to investigate the incident which brought
+            the second red flag of the session. Antonio Giovinazzi rounded of
+            the list in P20.
           </p>
           {/* <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
