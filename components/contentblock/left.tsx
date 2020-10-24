@@ -8,7 +8,7 @@ const Left: React.FC = () => {
       <div className='h-40 xl:h-48 w-full'>
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
-          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1601214934/contentImages/content/bottas_bw5vun.jpg'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1597490683/contentImages/content/lewis-hamilton1_bzargd.jpg'
           alt='Qualifying REPORT - Portuguese GP 2020'
         />
       </div>
@@ -18,53 +18,50 @@ const Left: React.FC = () => {
             Qualifying REPORT - Portuguese GP 2020
           </div>
           <H1>
-            Bottas tops an eventful Qualifying session at Portimao circuit with
-            Verstappen in P2 and Norris in P3
+            Hamilton snatches Portuguese GP pole from Bottas on Medium sets with
+            Verstappen in third
           </H1>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Mercedes’ Valtteri Bottas leads the multiple red flag disrupted
-            second practice session on the Friday of the Portuguese Grand Prix.
-            The session got suspended twice after Pierre Gasly’s AlphaTauri
-            caught fire, and an spectacular crash of Max Verstappen and Lance
-            Stroll in Turn 1. But Max Verstappen managed P2 for Red Bull as
-            McLaren’s Lando Norris slotted into P3 towards the end of the
-            session. Both Bottas and Norris was on set of red Softs for their
-            respective fastest laps, while Max set his fastest lap on the medium
-            tyre. Charles Leclerc once again impressed with P4 with the latest
-            updates to the SF1000 proves to be in the right direction for
-            Ferrari. Carlos Sainz finished in P5 near the end of the session in
-            the second McLaren, with 1.173s off Bottas’ pace, as Sebastian
-            Vettel finished encouraging sixth, which is around three-tenths off
-            Leclerc’s pace.
+            Lewis Hamilton delivered his best lap when it matters and grabs
+            last-gasp Portuguese GP pole. Valtteri Bottas on a different
+            strategy could not match his Mercedes team mate in qualifying pace.
+            Mercedes opted for a unique strategy for the final runs, swapping
+            the so called faster Red walled softs to the Yellow walled medium
+            tyres on both cars. However, Hamilton opted to head out early for
+            two flying laps on that compound, while Bottas went for one. For a
+            short instant it seems like the Finn will beat Hamilton with his
+            lap, but the defending world champion made it count to take his 97th
+            career pole position, pushing Bottas to second spot, in an
+            all-Mercedes front row. Max Verstappen took third on the usual soft
+            tyres, as Ferrari’s Charles Leclerc finished an impressive fourth. A
+            splendid performance from Racing Point’s Sergio Perez helped him to
+            finish fifth.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Gasly finished managed P7 before his car was on fire bringing the
-            red flag halfway through the hour and a half session. Galsly pulled
-            up his AlphaTauri AT01 on the side of the track at the exit of Turn
-            13 only to start splitting flames with the marshals eventually
-            putting the blaze out after it had been burning for around a minute.
-            The reigning champion Lewis Hamilton, who didn’t appear to be happy
-            with his W11 only manage P8 which is 1.368s adrift of his team mate.
-            Top 10 were rounded out by Renault’s Esteban Ocon and the second Red
-            Bull of Alex Albon, as they had their multiple laps got deleted for
-            track limit infringements at Turn 4. George Russell was P11 ahead of
-            the Racing Point of Sergio Perez in P12. Daniel Ricciardo was
-            hampered on his penultimate attempt at a flying lap by a Williams
-            exiting the pits, only managed P13.
+            Alex Albon in the second Red Bull finished sixth which was half a
+            second slower than his team mate Verstappen, while Carlos Sainz
+            became the leader driver for McLaren as Lando Norris finished eight
+            which was only just 0.005s slower than his team mate. Pierre Gasly
+            could not keep up his impressive Q1 and Q2 performances and ended up
+            in ninth. Renault’s Daniel Ricciardo completed the top 10 list,
+            albeit without setting a timed lap as he ran off the track at the
+            end of Q2 damaging his rear end of R.S.2.0. His teammate Esteban
+            Ocon finished 11th as Lance Stroll, who got recovered from COVID 19
+            in the second Racing Point only managed P12. Daniil Kvyat in the
+            second AlphaTauri finished P13.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Nicholas Latifi in second Williams finised in P14 as Alfa Romeo’s
-            Kimi Raikkonen crossed the line in P15. Kevin Magnussen finished in
-            16th with AlphaTauri’s Daniil Kvyat finished in 17th after a spin
-            earlier in the session. Romain Grosjean managed P18 as Stroll only
-            could finish in P19. It was indeed a dramatic moment, with 29
-            minutes left to go as drivers keen to get their qualifying
-            simulation laps in, Verstappen and Stroll, on a flying lap, dragged
-            down the main straight as the pair collided at Turn 1, with Stroll
-            appearing not to register Verstappen’s presence on the inside of the
-            corner. The stewards set to investigate the incident which brought
-            the second red flag of the session. Antonio Giovinazzi rounded of
-            the list in P20.
+            Mr. Saturday, George Russel of Williams, impressed gain with his Q1
+            performance and finished P14 ahead of Ferrari’s Sebastian Vettel who
+            once again failed to get into Q3 as his time got deleted for
+            exceeding track limits on his last run. Both Alfa Romeo’s followed
+            their engine supplier with Kimi Räikkönen once gain finished ahead
+            of his teammate Antonio Giovinazzi. The Haas of Romain Grosjean and
+            Kevin Magnussen crossed the line in P17 and P18 respectively with
+            Nicholas Latifi in the second Williams completes the list. The
+            conditions in Portugal looks perfect for Mercedes as they could wrap
+            up the constructors title if they finish first and second in this
+            round.
           </p>
           {/* <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
