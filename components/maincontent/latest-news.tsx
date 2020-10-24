@@ -20,17 +20,17 @@ import Archive55 from 'components/newsarchives/fp1-fp2-report-eifel-gp'
 import Archive54 from 'components/newsarchives/driver-market-at-mid-2020'
 
 import Archive53 from 'components/newsarchives/race-report-russian-gp'
-import Archive52 from 'components/newsarchives/qualifying-report-russian-gp'
-import Archive51 from 'components/newsarchives/fp3-report-russian-gp'
+// import Archive52 from 'components/newsarchives/qualifying-report-russian-gp'
+// import Archive51 from 'components/newsarchives/fp3-report-russian-gp'
 
-// import MainContent from 'components/contentblock/main'
+import MainContent from 'components/contentblock/main'
 // import FirstContent from 'components/contentblock/first'
-import SecondContent from 'components/contentblock/left'
+// import SecondContent from 'components/contentblock/left'
 // import ThirdContent from 'components/contentblock/right'
 import FifthContent from 'components/contentblock/left-old'
 import SixthContent from 'components/contentblock/right-old'
 // import FourthContent from 'components/contentblock/fourth'
-// import Qualifying from 'components/qualifying/quick-look'
+import Qualifying from 'components/qualifying/quick-look'
 import Race from 'components/race/quick-look'
 
 import ButtonLink from 'components/link/ButtonLink'
@@ -42,14 +42,14 @@ const Main: React.FC = () => {
         <QualifyingReport />
       </div> */}
 
-      {/* <div className='w-100 mb-0 mt-0'>
+      <div className='w-100 mb-0 mt-0'>
         <Qualifying />
-      </div> */}
+      </div>
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
         Latest News
       </div>
-      <div className='w-100 mb-0  bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-0'>
-        <SecondContent />
+      <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-0'>
+        <MainContent />
       </div>
       {/* <div className='w-100 flex flex-col xl:flex-row'>
         <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-0'>
@@ -93,14 +93,14 @@ const Main: React.FC = () => {
       <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-4'>
         <Archive53 />
       </div>
-      <div className='w-100 flex flex-col xl:flex-row'>
+      {/* <div className='w-100 flex flex-col xl:flex-row'>
         <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-4'>
           <Archive52 />
         </div>
         <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-4'>
           <Archive51 />
         </div>
-      </div>
+      </div> */}
       <div className='w-100 flex flex-col md:self-center'>
         <ButtonLink href='/news' target='_self'>
           More News...
