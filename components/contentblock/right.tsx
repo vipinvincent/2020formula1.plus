@@ -8,64 +8,59 @@ const Right: React.FC = () => {
       <div className='h-40 xl:h-48 w-full'>
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
-          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1595072621/contentImages/content/valtteri_-bottas_m5dgbs.jpg'
-          alt='FP1 REPORT - Portuguese GP 2020'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1599834663/contentImages/content/valteri-bottas_kvx19p.jpg'
+          alt='FP3 REPORT - Portuguese GP 2020'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-2 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            FP1 REPORT - Portuguese GP 2020
+            FP3 REPORT - Portuguese GP 2020
           </div>
           <H1>
-            Bottas leads Hamilton and Verstappen as Formula 1 revisits Portugal
-            soil since 1996
+            Bottas clean swept all the practice sessions at Portuguese GP ahead
+            of Hamilton and Verstappen
           </H1>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Friday King Valtteri Bottas became the fastest driver in FP1 at
-            Portimao circuit in the first Portuguese Grand Prix weekend since
-            1996. Championship leader Lewis Hamilton comes home in P2 as Red
-            Bull’s Max Verstappen crossed the line P3. Most drivers opted for
-            the hardest component tyres in the first practice session on the
-            resurfaced Portimao circuit. Towards the end of the session both
-            Mercedes drivers fitted with Yellow Medium tyres traded the places
-            on the top of the grid, eventually Bottas pipped Hamilton at the
-            chequered flag. Meanwhile Verstappen stuck with white Hard component
-            tyres, concentrated mostly in long runs. Charles Leclerc in the
-            updated Ferrari SF1000 crossed the line in P4 ahead of Alex Albon in
-            the second Red Bull.
+            Bottas leads the final practice at Portimao and made it a hat-trick
+            of fastest laps in Portuguese GP practice weekend. His Mercedes team
+            mate Lewis Hamilton finished second just ahead of Red Bull's Max
+            Verstappen in third place. Although track limits have been revised
+            after Friday's running, numerous lap times got deleted at Turns 1 at
+            4 including max and his teammate Albon, which might have changed the
+            top 3 list. AlphaTauri's Pierre Gasly impressed with P4 performance
+            from his fire engulfed car in FP2 which is just a tenth off former
+            team mate Verstappen as he was sandwiched between the Red Bulls on
+            the leader board. Alex Albon also had a good session for Red Bull
+            with fifth place, which was only 0.3s off his team mate. Meanwhile
+            the session ended one minute early after a drain cover got uplifted
+            by Vettel who ran over the drain cover at Turn 14, which brought out
+            the red flags. This raised the eyebrows of the stewards regarding
+            the safety of the track and will be inspected after the practice
+            session.he stewards regarding the safety of the track and will be
+            inspected after the practice session.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            McLaren's Carlos Sainz who completed most laps on Friday morning,
-            finished in sixth ahead of Sergio Perez, who took P7 for Racing
-            Point. Veteran Kimi Raikkonen crossed the line in P8 in the dying
-            moments for Alfa Romeo as Renault's Daniel Ricciardo finished P9.
-            Pierre Gasly had a mechanical problem towards late in the session on
-            his AlphaTauri yet managed a stellar P10, ahead of Vettel in second
-            Ferrari in P11.
+            Ferrari continues to impress the Portugal GP as Charles Leclerc
+            finished sixth reflecting the positive signs from the upgraded
+            Ferrari SF1000. But team mate Sebastian Vettel only could manage
+            11th but shows signs of improvement. McLaren's Carlos Sainz finishe
+            din P7, who took a new engine, turbo and MGU-H. Sergio Perez took P8
+            for Racing Point, as the second McLaren of Lando Norris crossed the
+            line in ninth. Esteban Ocon rounded the top ten list for Renault.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            McLaren's Lando Norris finished in P12 just behind Vettel while
-            Daniil Kvyat had a spun towards the end of the session and finished
-            13th for AlphaTauri. Kevin Magnussen in Haas finished in P14 ahead
-            of 15th place Lance Stroll, who looks recovered from the effects of
-            Covid-19. Alfa Romeo’s Antonio Giovinazzi crossed the line in P16 as
-            Romain Grojsean took P17 in second Haas. Williams drivers George
-            Russell finised in 18th and Nicholas Latifi in 20th splitted by
-            Renault's Ocon. Esteban Ocon’s session ended with a worrying
-            mechanical issue, when smoke was seen coming from the back of his
-            car just as the chequered flag was flying.
-          </p>
-          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Even though there was some spots of rain and the sky was dark during
-            the session, the second practice session is predicted to be a clear
-            sky session. The first 30 minutes of Free Practice 2 might be
-            utilised by Pirelli for a blind tyre test of the company’s 2021
-            prototype compounds. This means the laps set using the hard and
-            medium tyres in FP1 session might echo the running simulation for
-            the race day. One this is sure that the relatively new resurfaced
-            race track together with the chances of rain will spice up the 2020
-            Portuguese Grand Prix on Sunday.
+            Daniil Kvyat in second AlphaTauri finised 12th, with Alfa Romeo's
+            Kimi Raikkonen in P13. Renault's Daniel Ricciardo's only could
+            manage P14 as his R.S.20 suffered a DRS failure towards the meid of
+            seesion. But later Ricciardo emerged from pit lane for one final go
+            in FP3 but that red flag towards the end of session aborted his lap.
+            George Russell impressed with P15 for Williams as Racing Point’s
+            Lance Stroll only manged P16. Earlier both Lance and Max got cleared
+            of any penalty for the incident in FP2. Antonio Giovinazzi finished
+            16th in the second Alfa Romeo with Haas drivers Haas Kevin Magnussen
+            and Romain Grosjean sandwiched Nicholas Latifi of Williams rounded
+            of the list.
           </p>
 
           {/* <p className='mt-1 text-base leading-normal text-gray-700'>

@@ -9,16 +9,16 @@ const Left: React.FC = () => {
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
           src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1601214934/contentImages/content/bottas_bw5vun.jpg'
-          alt='FP2 REPORT - Portuguese GP 2020'
+          alt='Qualifying REPORT - Portuguese GP 2020'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-4 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            FP2 REPORT - Portuguese GP 2020
+            Qualifying REPORT - Portuguese GP 2020
           </div>
           <H1>
-            Bottas tops an eventful FP2 session at Portimao circuit with
+            Bottas tops an eventful Qualifying session at Portimao circuit with
             Verstappen in P2 and Norris in P3
           </H1>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
