@@ -11,23 +11,28 @@ import React from 'react'
 // import ESPN from 'components/contentblock/espn'
 // import AutoSport from 'components/contentblock/autosport'
 
-import RaceReport from 'components/contentblock/race-report'
+// import RaceReport from 'components/contentblock/race-report'
 // import QualifyingReport from 'components/contentblock/qualifying-report'
+import Archive58 from 'components/newsarchives/race-report-eifel-gp'
+import Archive57 from 'components/newsarchives/qualifying-report-eifel-gp'
+import Archive56 from 'components/newsarchives/fp3-report-eifel-gp'
+import Archive55 from 'components/newsarchives/fp1-fp2-report-eifel-gp'
+import Archive54 from 'components/newsarchives/driver-market-at-mid-2020'
 
 import Archive53 from 'components/newsarchives/race-report-russian-gp'
 import Archive52 from 'components/newsarchives/qualifying-report-russian-gp'
 import Archive51 from 'components/newsarchives/fp3-report-russian-gp'
 
-import MainContent from 'components/contentblock/main'
-import FirstContent from 'components/contentblock/first'
-import SecondContent from 'components/contentblock/left'
-import ThirdContent from 'components/contentblock/right'
+// import MainContent from 'components/contentblock/main'
+// import FirstContent from 'components/contentblock/first'
+// import SecondContent from 'components/contentblock/left'
+// import ThirdContent from 'components/contentblock/right'
 import FifthContent from 'components/contentblock/left-old'
 import SixthContent from 'components/contentblock/right-old'
 // import FourthContent from 'components/contentblock/fourth'
-
 import Qualifying from 'components/qualifying/quick-look'
 import Race from 'components/race/quick-look'
+
 import ButtonLink from 'components/link/ButtonLink'
 
 const Main: React.FC = () => {
@@ -42,37 +47,37 @@ const Main: React.FC = () => {
       </div>
       <div className='w-100 flex flex-col xl:flex-row'>
         <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-0'>
-          <SecondContent />
-        </div>
-        <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-4 xl:mt-0'>
-          <ThirdContent />
-        </div>
-      </div>
-      <div className='w-100 mb-0 mt-4'>
-        <Race />
-      </div>
-      <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-0'>
-        <RaceReport />
-      </div>
-      <div className='w-100 mb-0 mt-4'>
-        <Qualifying />
-      </div>
-      <div className='w-100 flex flex-col xl:flex-row'>
-        <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-0'>
           <FifthContent />
         </div>
         <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-4 xl:mt-0'>
           <SixthContent />
         </div>
       </div>
+      <div className='w-100 mb-0 mt-4'>
+        <Race />
+      </div>
+      <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-0'>
+        <Archive58 />
+      </div>
+      <div className='w-100 mb-0 mt-4'>
+        <Qualifying />
+      </div>
+      <div className='w-100 flex flex-col xl:flex-row'>
+        <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-0'>
+          <Archive57 />
+        </div>
+        <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-4 xl:mt-0'>
+          <Archive56 />
+        </div>
+      </div>
       {/* <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-0'>
         <FourthContent />
       </div> */}
       <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-4'>
-        <FirstContent />
+        <Archive55 />
       </div>
       <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-4'>
-        <MainContent />
+        <Archive54 />
       </div>
       <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-4'>
         <Archive53 />
