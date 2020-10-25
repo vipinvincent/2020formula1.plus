@@ -52,7 +52,7 @@ const CompleteList: React.FC = () => {
                 </td>
                 <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell text-right mercedes'>
                   <span className='px-2 inline-flex text-base leading-5 font-semibold py-2 text'>
-                    391 (739)
+                    435 (739)
                   </span>
                 </td>
               </tr>
@@ -79,7 +79,7 @@ const CompleteList: React.FC = () => {
                 </td>
                 <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell text-right redbull'>
                   <span className='px-2 inline-flex text-base leading-5 font-semibold py-2 text'>
-                    211 (417)
+                    226 (417)
                   </span>
                 </td>
               </tr>
@@ -104,7 +104,7 @@ const CompleteList: React.FC = () => {
                 </td>
                 <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell text-right racingpoint'>
                   <span className='px-2 inline-flex text-base leading-5 font-semibold py-2 text'>
-                    120 (73)
+                    126 (73)
                   </span>
                 </td>
               </tr>
@@ -129,7 +129,7 @@ const CompleteList: React.FC = () => {
                 </td>
                 <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell text-right mclaren'>
                   <span className='px-2 inline-flex text-base leading-5 font-semibold py-2 text'>
-                    116 (145)
+                    124 (145)
                   </span>
                 </td>
               </tr>
@@ -156,7 +156,7 @@ const CompleteList: React.FC = () => {
                 </td>
                 <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell text-right renault'>
                   <span className='px-2 inline-flex text-base leading-5 font-semibold py-2 text three-d-text'>
-                    114 (91)
+                    120 (91)
                   </span>
                 </td>
               </tr>
@@ -183,7 +183,7 @@ const CompleteList: React.FC = () => {
                 </td>
                 <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell text-right ferrari'>
                   <span className='px-2 inline-flex text-base leading-5 font-semibold py-2 text'>
-                    80 (504)
+                    93 (504)
                   </span>
                 </td>
               </tr>
@@ -208,7 +208,7 @@ const CompleteList: React.FC = () => {
                 </td>
                 <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell text-right '>
                   <span className='px-2 inline-flex text-base leading-5 font-semibold py-2 text'>
-                    67 (85)
+                    77 (85)
                   </span>
                 </td>
               </tr>
