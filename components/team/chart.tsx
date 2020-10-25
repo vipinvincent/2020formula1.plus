@@ -233,9 +233,6 @@ const data = {
 const TeamChart: React.FC = () => {
   return (
     <div className=' hidden md:flex flex-col mb-4'>
-      <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
-        Constructor Standings (2020)
-      </div>
       <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
         <div className='flex flex-col mx-4 mt-4'>
           <div className='pb-4'>

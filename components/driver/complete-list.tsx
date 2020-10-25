@@ -4,12 +4,12 @@ import ContentLink from 'components/link/ContentLink'
 const CompleteList: React.FC = () => {
   return (
     <div className='flex flex-col mb-4 flex-grow flex-no-wrap flex-shrink-0'>
-      <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
+      {/* <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
         Full List 2020 (2019)
-      </div>
+      </div> */}
       <div className='w-full grid sm:flex sm:flex-col justify-around py-2 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow-xs'>
-        <div className='align-middle min-w-full overflow-x-auto rounded-tl-xxl rounded-br-xl'>
-          <table className='w-full table rounded-tl-xxl rounded-br-xl'>
+        <div className='align-middle min-w-full overflow-x-auto rounded-tl-xxl'>
+          <table className='w-full table rounded-tl-xxl'>
             <thead>
               <tr className='bg-white-100'>
                 <th className='p-4 border-b border-gray-200 bg-gray-50 text-left text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider table-cell whitespace-no-wrap'>
