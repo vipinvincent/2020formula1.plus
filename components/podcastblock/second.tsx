@@ -7,14 +7,14 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=NR7GMz_neGU'
+        href='https://www.youtube.com/watch?v=YtUlCiyx7YA'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/NR7GMz_neGU/sddefault.jpg'
-              alt='Who Will Haas Sign For 2021?'
+              src='https://img.youtube.com/vi/YtUlCiyx7YA/sddefault.jpg'
+              alt='Portuguese Grand Prix: Race Reaction'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,15 +32,15 @@ const Second: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=NR7GMz_neGU'
+            href='https://www.youtube.com/watch?v=YtUlCiyx7YA'
             target='_blank'>
-            Who Will Haas Sign For 2021?
+            Portuguese Grand Prix: Race Reaction
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            It’s all change at Haas for 2021 after the team confirmed that
-            Romain Grosjean and Kevin Magnussen would not be kept on next
-            season. So, what are Haas’ 2021 F1 driver options? And who do I
-            think they will sign-up for next year?
+            Join me and Chain Bear as we give some initial reaction to the 2020
+            F1 Portuguese Grand Prix. Could Lewis Hamilton take the record for
+            most career wins? Or was Valtteri Bottas able to take a much needed
+            victory?
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}

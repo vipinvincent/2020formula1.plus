@@ -7,82 +7,91 @@ const Schedule: React.FC = () => {
   return (
     <div className='flex flex-col mb-4'>
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
-        Circuit Facts - Autódromo Internacional do Algarve
+        Circuit Facts - Autodromo Internazionale Enzo e Dino Ferrari
       </div>
       <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mb-6'>
         <div className='h-64 sm:h-84 py-4 w-full text-center zoom-image'>
           <Zoom>
             <img
               className='w-full h-64 sm:h-84 object-contain rounded-tl-xxl rounded-br-xl-t py-4 px-2 text-center'
-              src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1602748565/contentImages/circuit/Auto%CC%81dromo_do_Algarve_alt.svg_uvsatk.png'
-              alt='2020 Portugal Grand Prix'
+              src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1603716743/contentImages/circuit/Imola_xexqmc.png'
+              alt='2020 Emilia Romagna Grand Prix'
             />
           </Zoom>
         </div>
         <div className='relative max-w-screen-xl mx-auto'>
           <div className='py-4 text-left px-4'>
             <p className='mt-1 text-normal leading-normal text-gray-700'>
-              Formula 1 Heineken Grande Prémio De Portugal 2020, the 2020
-              Portuguese Grand Prix, which takes place over 66 laps of the 4.653
-              km (2.891 mi) Autodromo Internacional do Algarve on Sunday,
-              October 25.
+              Formula 1 Emirates Gran Premio Dell'emilia Romagna 2020, the 2020
+              Emilia Romagna Grand Prix, which takes place in Imola, over 63
+              laps of the 4.959-kilometre Autodromo Internazionale Enzo e Dino
+              Ferrari, former home of the San Marino GP, on Sunday, November 1.
             </p>
             <p className='mt-2 text-normal leading-normal text-gray-700'>
-              Algarve International Circuit (Portuguese: Autódromo Internacional
-              do Algarve), commonly referred to as Portimão Circuit, after the
-              port city it sits is a 4.692 km (2.915 mi) race circuit located in
-              Portimão. With a total cost of €195 million (approximately $250
-              million), the project includes a karting track, technology park,
-              five-star hotel, sports complex and apartments was opened in the
-              autumn of 2008, with construction of the permanent facility
-              completed in just seven months.
+              The Autodromo Internazionale Enzo e Dino Ferrari is a race track
+              near the Italian town of Imola, 40 kilometres (24.9 mi) east of
+              Bologna. It is one of the few major international circuits to run
+              in an anti-clockwise direction. The circuit is named after
+              Ferrari's late founder, Enzo Ferrari, and his son, Alfredo
+              Ferrari, who died in 1956 at age 24. The circuit has a FIA Grade
+              One license.
             </p>
             <p className='mt-2 text-normal leading-normal text-gray-700'>
-              Construction was finished in October 2008 and the circuit was
-              homologated by both the FIM on 11 October 2008 and the FIA two
-              days later. The circuit was designed by Ricardo Pina, Arquitectos.
-              In October 2010 the teams agreed to add the Portimão Circuit to
-              the Formula One testing roster along with Bahrain. In September
-              2013, the company that manages the circuit, Parkalgar Serviços,
-              was taken over by Portugal Capital Ventures, which is a Portuguese
-              state-owned venture capitalist, effectively placing the circuit
-              under state management. The sale was forced by the debts
-              accumulated by Parkalgar Serviços, believed to be approximately
-              160 million Euros.
+              It was the venue for the San Marino Grand Prix. For many years,
+              two Grands Prix were held in Italy every year, so the race held at
+              Imola was named after the nearby state. It also hosted the 1980
+              Italian Grand Prix, the Italian Grand Prix usually takes place at
+              the Autodromo Nazionale Monza. When Formula One visits Imola, it
+              is seen as the home circuit of Scuderia Ferrari, and masses of
+              supporters come out to support the local team.
             </p>
             <p className='mt-2 text-normal leading-normal text-gray-700'>
-              In July 2020 it was announced that the circuit would host the
-              Formula One Portuguese Grand Prix from 23 to 25 October 2020, as
-              part of a revised calendar arising from the disruption caused by
-              the COVID-19 pandemic. This marks the first time a Portuguese
-              Grand Prix will be held since the 1996 race which was held at the
-              Autódromo do Estoril.
+              Imola first hosted a non-championship F1 race in 1963, but it
+              would take some politicking with Monza in 1980 before the track
+              was awarded the honour of hosting the Italian Grand Prix for the
+              first time that year. From 1981, the two tracks worked together in
+              perfect harmony, with Imola taking on its famous ‘San Marino’
+              title, and going on to host a total of 27 Grands Prix up until
+              2006.
             </p>
             <p className='mt-2 text-normal leading-normal text-gray-700'>
-              like Mugello, Portimao is yet another track that joined the F1
-              calendar in 2020, has never hosted a Formula 1 World Championship
-              event. The track was used for F1 pre-season testing in the winter
-              of 2008-09, however – while several drivers on the grid, including
-              Daniel Ricciardo, Charles Leclerc and Valtteri Bottas, experienced
-              the Portuguese circuit during their junior careers.
+              The track was inaugurated as a semi-permanent venue in 1953. It
+              had no chicanes, so the runs from Acque Minerali to Rivazza, and
+              from Rivazza all the way to Tosa, through the pits and the
+              Tamburello, were just straights with a few small bends; the
+              circuit remained in this configuration until 1972.
             </p>
             <p className='mt-2 text-normal leading-normal text-gray-700'>
-              Rather like Austin’s Circuit of The Americas, Portimao is a modern
-              venue with elevation change baked into its layout. The Ricardo
-              Pena-designed 4.6-km lap sends drivers swooping up hill and down
-              dale, before culminating in a plunge down to the final
-              right-hander at Galp leading back onto the pit straight.
+              In April 1953, the first motorcycle races took place, while the
+              first car race took place in June 1954. In April 1963, the circuit
+              hosted its first Formula One race, as a non-championship event,
+              won by Jim Clark for Lotus. A further non-championship event took
+              place at Imola in 1979, which was won by Niki Lauda for
+              Brabham-Alfa Romeo. In 1980 Imola officially debuted in the
+              Formula One calendar by hosting the 1980 Italian Grand Prix. It
+              was the first time since the 1948 Edition held at Parco del
+              Valentino that the Autodromo Nazionale Monza did not host the
+              Italian Grand Prix. The race was won by Nelson Piquet and it was
+              such a success that a new race, the San Marino Grand Prix, was
+              established especially for Imola in 1981. The race was held over
+              60 laps of the 5 kilometre circuit for a total race distance of
+              300 kilometres.
             </p>
             <p className='mt-2 text-normal leading-normal text-gray-700'>
-              The circuit is the site of a statue in tribute to Craig Jones,
-              representing Jones on his motorbike after passing the finishing
-              line. This statue will be the main part of a monument, already
-              partially built, which also includes the architectural arrangement
-              of the main access roundabout to the racetrack, created by Paula
-              Hespanha and Portuguese architect Manuel Pedro Ferreira Chaves.
-              This monument is a landscape sculpture, representing the main
-              straight of a racing circuit, which extends up to the car park of
-              the main grandstand.
+              Despite the addition of the chicanes, the circuit was subject to
+              constant safety concerns, mostly regarding the flat-out Tamburello
+              corner, which was very bumpy and had dangerously little room
+              between the track and a concrete wall which protects the Santerno
+              river that runs behind it. In 1987, Nelson Piquet crashed heavily
+              during practice after a tyre failure and missed the race due to
+              injury. In the 1989 San Marino Grand Prix, Gerhard Berger crashed
+              his Ferrari at Tamburello after a front wing failure. Michele
+              Alboreto also had a fiery accident at the Tamburello corner
+              testing his Footwork Arrows at the circuit in 1991 but escaped
+              injury. Riccardo Patrese also had an accident at the Tamburello
+              corner in 1992 while testing for the Williams team. The death of
+              Ayrton Senna on 1 May 1994 sealed the fate of the corner being run
+              flat out ever again.
             </p>
             {/*             
             <p className='mt-2 text-normal leading-normal text-gray-700'>
@@ -142,7 +151,7 @@ const Schedule: React.FC = () => {
         </p>
       </div>
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
-        2020 Portugal Grand Prix weekend{' '}
+        2020 Emilia Romagna Grand Prix weekend{' '}
         <span className='font-light'>(Track Time)</span>
       </div>
       <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mb-4'>
@@ -154,10 +163,10 @@ const Schedule: React.FC = () => {
                   Practice 1
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  23 - October ( 11:00 - 12:30 )
+                  31 - October ( 10:00 - 11:30 )
                 </div>
               </div>
-              <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
+              {/* <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
                 <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1'>
                   Practice 2
                 </div>
@@ -172,7 +181,7 @@ const Schedule: React.FC = () => {
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
                   24 - October ( 11:00 - 12:00 )
                 </div>
-              </div>
+              </div> */}
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
                 <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1'>
                   Qualifying
@@ -192,7 +201,7 @@ const Schedule: React.FC = () => {
                   </SiderBarLink>
                 </div> */}
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  24 - October ( 14:00 - 15:00 )
+                  21 - October ( 14:00 - 15:00 )
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -206,7 +215,7 @@ const Schedule: React.FC = () => {
                   </SiderBarLink> */}
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  25 - October ( 13:10 - 15:10 )
+                  01 - November ( 13:10 - 15:10 )
                 </div>
               </div>
             </div>
@@ -214,7 +223,7 @@ const Schedule: React.FC = () => {
         </div>
       </div>
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
-        Portugal Grand Prix Facts
+        Emilia Romagna Grand Prix Facts
       </div>
       <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
         <div className='relative max-w-screen-xl mx-auto'>
@@ -225,7 +234,7 @@ const Schedule: React.FC = () => {
                   Circuit Name
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  Algarve International Circuit (Portimão Circuit)
+                  Autodromo Internazionale Enzo e Dino Ferrari (Imola Circuit)
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -233,7 +242,7 @@ const Schedule: React.FC = () => {
                   Track Length
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  4.653 km (2.891 mi)
+                  4.909 km (3.050 mi)
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -241,7 +250,7 @@ const Schedule: React.FC = () => {
                   Turns
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  15 turns
+                  19 turns
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -249,15 +258,15 @@ const Schedule: React.FC = () => {
                   Race Distance
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  66 laps (306.826km - 190.653mi)
+                  63 laps (309.049km - 192.034mi)
                 </div>
               </div>
-              {/* <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
+              <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
                 <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1'>
                   F1 Races Held
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  78
+                  27
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -265,10 +274,10 @@ const Schedule: React.FC = () => {
                   First GP held
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  1926
+                  1980
                 </div>
               </div>
-              <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
+              {/*   <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
                 <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1'>
                   Most Wins (drivers)
                 </div>

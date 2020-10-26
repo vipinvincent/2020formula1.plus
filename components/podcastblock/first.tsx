@@ -7,14 +7,14 @@ const First: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=0fj8XfaOxSQ'
+        href='https://www.youtube.com/watch?v=TXDA2hKPxHw'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/0fj8XfaOxSQ/sddefault.jpg'
-              alt='Toto Wolff On His Love Of F1 And Missing Niki Lauda | Beyond The Grid | F1 Official Podcast'
+              src='https://img.youtube.com/vi/TXDA2hKPxHw/sddefault.jpg'
+              alt='Portuguese Grand Prix Post Race Chinwag LIVE'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,22 +32,17 @@ const First: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=0fj8XfaOxSQ'
+            href='https://www.youtube.com/watch?v=TXDA2hKPxHw'
             target='_blank'>
-            Toto Wolff On His Love Of F1 And Missing Niki Lauda | Beyond The
-            Grid | F1 Official Podcast
+            Portuguese Grand Prix Post Race Chinwag LIVE
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            He’s a workaholic, whose team is about to win a record seventh
-            consecutive constructors’ championship. Yet his desire for more
-            trophies remains all-consuming. This week we welcome back Mercedes
-            boss Toto Wolff for an intimate and relaxed chat at his home in
-            Oxford.
+            Discussing all things that occured in Portimao
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='http://www.formula1.com' target='_blank'>
-              Formula1.com
+            <ContentLink href=' https://tommccluskey.co.uk' target='_blank'>
+              Tommo F1
             </ContentLink>
           </p>
         </div>

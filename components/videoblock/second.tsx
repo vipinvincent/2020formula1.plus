@@ -7,14 +7,14 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=Z_n39BfqITA'
+        href='https://www.youtube.com/watch?v=LVV0jzdBMwo'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/Z_n39BfqITA/sddefault.jpg'
-              alt='Preparing for Portimão: Mike Talks Tyres, Tarmac, Set-Up and Simulations!'
+              src='https://img.youtube.com/vi/LVV0jzdBMwo/sddefault.jpg'
+              alt='We know the options that are available to us | Horner on Red Bulls driver lineup for next season'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,20 +32,19 @@ const Second: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=Z_n39BfqITA'
+            href='https://www.youtube.com/watch?v=LVV0jzdBMwo'
             target='_blank'>
-            Preparing for Portimão: Mike Talks Tyres, Tarmac, Set-Up and
-            Simulations!
+            "We know the options that are available to us" | Horner on Red
+            Bull's driver lineup for next season
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Bitumen. Asphalt. Vehicle Dynamics. We're geeking out about F1 tyres
-            with Mike, learning all about the crazy amount of work that goes
-            into preparing for racing at a new track!
+            Christian Horner says everyone is fully behind Alex Albon but admits
+            that Red Bull do have options for next season's driver lineup.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='http://www.mercedesamgf1.com' target=' _blank'>
-              Mercedes-AMG Petronas F1
+            <ContentLink href='https://www.skysports.com/f1' target=' _blank'>
+              Sky Sports F1
             </ContentLink>
           </p>
         </div>

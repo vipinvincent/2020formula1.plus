@@ -7,14 +7,14 @@ const Third: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=lfqkhCCq5sg'
+        href='https://www.youtube.com/watch?v=SfSxwqTayr4'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/lfqkhCCq5sg/sddefault.jpg'
-              alt='Is The Valtteri Bottas Criticism JUSTIFIED?'
+              src='https://img.youtube.com/vi/SfSxwqTayr4/sddefault.jpg'
+              alt='Tyre Pressures – Why F1 teams go low when Pirelli go high'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,13 +32,13 @@ const Third: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=lfqkhCCq5sg'
+            href='https://www.youtube.com/watch?v=SfSxwqTayr4'
             target='_blank'>
-            Introduction to Telemetry
+            Tyre Pressures – Why F1 teams go low when Pirelli go high
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Drivers and teams use telemetry all the time to hone their driving,
-            setup and design choices. But what does it all MEAN?
+            F1 teams are always trying to make their tyre pressures as low as
+            possible. Even though Pirelli say it's dangerous. What's going on?
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
