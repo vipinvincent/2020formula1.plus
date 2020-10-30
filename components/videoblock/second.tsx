@@ -7,14 +7,14 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=LVV0jzdBMwo'
+        href='https://www.youtube.com/watch?v=oF87tTcqoN8'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/LVV0jzdBMwo/sddefault.jpg'
-              alt='We know the options that are available to us | Horner on Red Bulls driver lineup for next season'
+              src='https://img.youtube.com/vi/oF87tTcqoN8/sddefault.jpg'
+              alt='Ricciardo reflects on his first Renault podium & which tattoo he has chosen for Cyril Abiteboul!'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,14 +32,15 @@ const Second: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=LVV0jzdBMwo'
+            href='https://www.youtube.com/watch?v=oF87tTcqoN8'
             target='_blank'>
-            "We know the options that are available to us" | Horner on Red
-            Bull's driver lineup for next season
+            Ricciardo reflects on his first Renault podium & which tattoo he has
+            chosen for Cyril Abiteboul!
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Christian Horner says everyone is fully behind Alex Albon but admits
-            that Red Bull do have options for next season's driver lineup.
+            Daniel Ricciardo reflects on his first podium with Renault, how he
+            felt and more importantly, what tattoo he has chosen for race
+            director Cyril Abiteboul.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}

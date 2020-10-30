@@ -7,14 +7,14 @@ const First: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=TXDA2hKPxHw'
+        href='https://www.youtube.com/watch?v=JqyaUU5nBMk'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/TXDA2hKPxHw/sddefault.jpg'
-              alt='Portuguese Grand Prix Post Race Chinwag LIVE'
+              src='https://img.youtube.com/vi/JqyaUU5nBMk/sddefault.jpg'
+              alt='8 Most Successful Formula 1 Drivers to NEVER Win a Championship'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,12 +32,15 @@ const First: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=TXDA2hKPxHw'
+            href='https://www.youtube.com/watch?v=JqyaUU5nBMk'
             target='_blank'>
-            Portuguese Grand Prix Post Race Chinwag LIVE
+            8 Most Successful Formula 1 Drivers to NEVER Win a Championship
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Discussing all things that occured in Portimao
+            Many an F1 driver has raced. Many have won. Many have come close.
+            But today, we're talking about the nearliest, of the "nearly man".
+            Those who achieved the most success in F1, without ever winning a
+            world drivers title.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}

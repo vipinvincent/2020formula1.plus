@@ -14,7 +14,7 @@ const Third: React.FC = () => {
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
               src='https://img.youtube.com/vi/JhTlgEqQnNY/sddefault.jpg'
-              alt='F1s Best Racetrack? Portuguese GP'
+              alt='Imola F1 Track Guide'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -34,12 +34,12 @@ const Third: React.FC = () => {
           <ContentLink
             href='https://www.youtube.com/watch?v=JhTlgEqQnNY'
             target='_blank'>
-            F1's Best Racetrack? Portuguese GP
+            Imola F1 Track Guide
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Taking a detailed look at F1's newest track, The Algarve
-            International Circuit near Portimao, ahead of the Portuguese GP.
-            Could this end up being F1's best racetrack?
+            Looking close up at the technical details of F1's latest awesome
+            track...Imola. In this video I'm using Project Cars 2 on XBox, with
+            a Playseat and Fanatec wheel and pedals.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}

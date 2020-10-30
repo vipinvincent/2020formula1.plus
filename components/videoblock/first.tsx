@@ -7,14 +7,14 @@ const First: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=RFdpI64AlzU'
+        href='https://www.youtube.com/watch?v=ncYBXyBbgVg'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/RFdpI64AlzU/sddefault.jpg'
-              alt='The Top Grand Prix Winners in F1 History (1950-2020)'
+              src='https://img.youtube.com/vi/ncYBXyBbgVg/sddefault.jpg'
+              alt='Everything You Need To Know About The Imola F1 Circuit'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,15 +32,14 @@ const First: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=RFdpI64AlzU'
+            href='https://www.youtube.com/watch?v=ncYBXyBbgVg'
             target='_blank'>
-            The Top Grand Prix Winners in F1 History (1950-2020)
+            Everything You Need To Know About The Imola F1 Circuit
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Lewis Hamilton has broken Michael Schumacher's record of the most
-            Formula 1 race wins, after winning his 92nd Grand Prix at the 2020
-            Portuguese GP. In this video we take a look back at the previous top
-            record holders from 1950 all the way through to 2020.
+            F1 jumps over to Imola this weekend for the 2020 Emilia Romagna
+            Grand Prix. Here’s everything you need to know about this incredible
+            circuit.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}

@@ -7,14 +7,14 @@ const Fourth: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=xZqjzUo-ixs'
+        href='https://www.youtube.com/watch?v=Q0Xmx4_qqxg'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/xZqjzUo-ixs/sddefault.jpg'
-              alt='Portuguese Grand Prix Race Review F1 2020'
+              src='https://img.youtube.com/vi/Q0Xmx4_qqxg/sddefault.jpg'
+              alt='WHAT YOU NEED TO KNOW: 2020 Emilia Romagna Grand Prix Preview'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,24 +32,18 @@ const Fourth: React.FC = () => {
             PODCAST
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=xZqjzUo-ixs'
+            href='https://www.youtube.com/watch?v=Q0Xmx4_qqxg'
             target='_blank'>
-            Portuguese Grand Prix Race Review F1 2020
+            WHAT YOU NEED TO KNOW: 2020 Emilia Romagna Grand Prix Preview
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The Formula 1 2020 Portuguese Grand Prix season is here! Today we
-            analyse the F1 2020 Portugal Grand Prix, taking a look at the Race
-            Results as well as all the highlights and incidents, both Norris and
-            Verstappens Crashes, Leclerc's performance , and the two Mercedes
-            battle Again! With Hamilton now a 6 time champion, can Leclerc,
-            Verstappen and Norris challenge even closer this year?
+            Check out our latest F1 2020 feature previewing the Emilia Romagna
+            Grand Prix.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink
-              href='https://www.youtube.com/c/F1Reviews'
-              target='_blank'>
-              F1/E Reviews
+            <ContentLink href='https://unbeaten.com/formula1 ' target='_blank'>
+              Unbeaten F1
             </ContentLink>
           </p>
         </div>
