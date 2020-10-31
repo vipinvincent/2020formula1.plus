@@ -5,7 +5,7 @@ const Qualifying: React.FC = () => {
   return (
     <div className='flex flex-col mb-9 flex-grow flex-no-wrap flex-shrink-0'>
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
-        Portuguese GP 2020 - Qualifying Results
+        Emilia Romagna GP 2020 - Qualifying Results
       </div>
       <div className='w-full grid sm:flex sm:flex-col justify-around py-2 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow-xs mb-4'>
         <div className='align-middle min-w-full overflow-x-auto'>
@@ -34,16 +34,16 @@ const Qualifying: React.FC = () => {
                 <td className='p-4 whitespace-no-wrap  table-cell'>
                   <div className='flex items-center'>
                     <div className='text-sm leading-5 font-medium text-gray-900 mercedes'>
-                      Lewis Hamilton <span className='text'>(Mercedes)</span>
+                      Valtteri Bottas <span className='text'>(Mercedes)</span>
                     </div>
                   </div>
                 </td>
                 <td className='p-4 whitespace-no-wrap text-sm leading-5 font-medium text-gray-900 text-center'>
-                  1:16.652 (Q3)
+                  1:13.609 (Q3)
                 </td>
-                <td className='p-4 whitespace-no-wrap table-cell text-right '>
-                  <span className='pl-2 inline-flex text-base leading-8 font-semibold rounded-full bg-black-80 w-8 h-8 text-yellow-500'>
-                    M
+                <td className='p-4 whitespace-no-wrap table-cell text-right'>
+                  <span className='pl-3 inline-flex text-base leading-8 font-semibold rounded-full bg-black-80 w-8 h-8 text-red-600'>
+                    S
                   </span>
                 </td>
               </tr>
@@ -54,16 +54,16 @@ const Qualifying: React.FC = () => {
                 <td className='p-4 whitespace-no-wrap  table-cell'>
                   <div className='flex items-center'>
                     <div className='text-sm leading-5 font-medium text-gray-900 mercedes'>
-                      Valtteri Bottas <span className='text'>(Mercedes)</span>
+                      Lewis Hamilton <span className='text'>(Mercedes)</span>
                     </div>
                   </div>
                 </td>
                 <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-sm leading-5 font-medium text-gray-900 text-center '>
-                  1:16.754 (Q3)
+                  1:13.706 (Q3)
                 </td>
                 <td className='p-4 whitespace-no-wrap table-cell text-right'>
-                  <span className='pl-2 inline-flex text-base leading-8 font-semibold rounded-full bg-black-80 w-8 h-8 text-yellow-500'>
-                    M
+                  <span className='pl-3 inline-flex text-base leading-8 font-semibold rounded-full bg-black-80 w-8 h-8 text-red-600'>
+                    S
                   </span>
                 </td>
               </tr>
@@ -79,7 +79,7 @@ const Qualifying: React.FC = () => {
                   </div>
                 </td>
                 <td className='p-4 whitespace-no-wrap text-sm leading-5 font-medium text-gray-900 text-center'>
-                  1:16.904 (Q3)
+                  1:14.176 (Q3)
                 </td>
                 <td className='p-4 whitespace-no-wrap table-cell text-right'>
                   <span className='pl-3 inline-flex text-base leading-8 font-semibold rounded-full bg-black-80 w-8 h-8 text-red-600'>
@@ -93,15 +93,15 @@ const Qualifying: React.FC = () => {
                 </td>
                 <td className='p-4 whitespace-no-wrap  table-cell'>
                   <div className='flex items-center'>
-                    <div className='text-sm leading-5 font-medium text-gray-900 ferrari'>
-                      Charles Leclerc <span className='text'>(Ferrari)</span>
+                    <div className='text-sm leading-5 font-medium text-gray-900 alphatauri'>
+                      Pierre Gasly <span className='text'>(AlphaTauri)</span>
                     </div>
                   </div>
                 </td>
                 <td className='p-4 whitespace-no-wrap text-sm leading-5 font-medium text-gray-900 text-center'>
-                  1:17.090 (Q3)
+                  1:14.502 (Q3)
                 </td>
-                <td className='p-4 whitespace-no-wrap table-cell text-right mclaren'>
+                <td className='p-4 whitespace-no-wrap table-cell text-right alphatauri'>
                   <span className='pl-3 inline-flex text-base leading-8 font-semibold rounded-full bg-black-80 w-8 h-8 text-red-600'>
                     S
                   </span>
@@ -113,15 +113,16 @@ const Qualifying: React.FC = () => {
                 </td>
                 <td className='p-4 whitespace-no-wrap  table-cell'>
                   <div className='flex items-center'>
-                    <div className='text-sm leading-5 font-medium text-gray-900 racingpoint'>
-                      Sergio Perez <span className='text'>(Racing Point)</span>
+                    <div className='text-sm leading-5 font-medium text-gray-900 renault'>
+                      Daniel Ricciardo{' '}
+                      <span className='text three-d-text'>(Renault)</span>
                     </div>
                   </div>
                 </td>
                 <td className='p-4 whitespace-no-wrap text-sm leading-5 font-medium text-gray-900 text-center'>
-                  1:17.223 (Q3)
+                  1:14.520 (Q3)
                 </td>
-                <td className='p-4 whitespace-no-wrap table-cell text-right racingpoint'>
+                <td className='p-4 whitespace-no-wrap table-cell text-right mclaren'>
                   <span className='pl-3 inline-flex text-base leading-8 font-semibold rounded-full bg-black-80 w-8 h-8 text-red-600'>
                     S
                   </span>
@@ -139,7 +140,7 @@ const Qualifying: React.FC = () => {
                   </div>
                 </td>
                 <td className='p-4 whitespace-no-wrap text-sm leading-5 font-medium text-gray-900 text-center'>
-                  1:17.437 (Q3)
+                  1:14.572 (Q3)
                 </td>
                 <td className='p-4 whitespace-no-wrap table-cell text-right'>
                   <span className='pl-3 inline-flex text-base leading-8 font-semibold rounded-full bg-black-80 w-8 h-8 text-red-600'>
@@ -147,21 +148,22 @@ const Qualifying: React.FC = () => {
                   </span>
                 </td>
               </tr>
+
               <tr className='odd:bg-gray-100 bg-white-100 border-b border-gray-200'>
                 <td className='p-4 whitespace-no-wrap text-left table-cell'>
                   7
                 </td>
                 <td className='p-4 whitespace-no-wrap  table-cell'>
                   <div className='flex items-center'>
-                    <div className='text-sm leading-5 font-medium text-gray-900 mclaren'>
-                      Carlos Sainz <span className='text'>(McLaren)</span>
+                    <div className='text-sm leading-5 font-medium text-gray-900 ferrari'>
+                      Charles Leclerc <span className='text'>(Ferrari)</span>
                     </div>
                   </div>
                 </td>
                 <td className='p-4 whitespace-no-wrap text-sm leading-5 font-medium text-gray-900 text-center'>
-                  1:17.520 (Q3)
+                  1:14.616 (Q3)
                 </td>
-                <td className='p-4 whitespace-no-wrap table-cell text-right redbull'>
+                <td className='p-4 whitespace-no-wrap table-cell text-right mclaren'>
                   <span className='pl-3 inline-flex text-base leading-8 font-semibold rounded-full bg-black-80 w-8 h-8 text-red-600'>
                     S
                   </span>
@@ -173,15 +175,15 @@ const Qualifying: React.FC = () => {
                 </td>
                 <td className='p-4 whitespace-no-wrap  table-cell'>
                   <div className='flex items-center'>
-                    <div className='text-sm leading-5 font-medium text-gray-900 mclaren'>
-                      Lando Norris <span className='text'>(McLaren)</span>
+                    <div className='text-sm leading-5 font-medium text-gray-900 alphatauri'>
+                      Daniil Kvyat <span className='text'>(AlphaTauri)</span>
                     </div>
                   </div>
                 </td>
                 <td className='p-4 whitespace-no-wrap text-sm leading-5 font-medium text-gray-900 text-center'>
-                  1:17.525 (Q3)
+                  1:14.696 (Q3)
                 </td>
-                <td className='p-4 whitespace-no-wrap table-cell text-right redbull'>
+                <td className='p-4 whitespace-no-wrap table-cell text-right alphatauri'>
                   <span className='pl-3 inline-flex text-base leading-8 font-semibold rounded-full bg-black-80 w-8 h-8 text-red-600'>
                     S
                   </span>
@@ -193,15 +195,15 @@ const Qualifying: React.FC = () => {
                 </td>
                 <td className='p-4 whitespace-no-wrap  table-cell'>
                   <div className='flex items-center'>
-                    <div className='text-sm leading-5 font-medium text-gray-900 alphatauri'>
-                      Pierre Gasly <span className='text'>(AlphaTauri)</span>
+                    <div className='text-sm leading-5 font-medium text-gray-900 mclaren'>
+                      Lando Norris <span className='text'>(McLaren)</span>
                     </div>
                   </div>
                 </td>
                 <td className='p-4 whitespace-no-wrap text-sm leading-5 font-medium text-gray-900 text-center'>
-                  1:17.803 (Q3)
+                  1:14.814 (Q3)
                 </td>
-                <td className='p-4 whitespace-no-wrap table-cell text-right alphatauri'>
+                <td className='p-4 whitespace-no-wrap table-cell text-right redbull'>
                   <span className='pl-3 inline-flex text-base leading-8 font-semibold rounded-full bg-black-80 w-8 h-8 text-red-600'>
                     S
                   </span>
@@ -213,37 +215,36 @@ const Qualifying: React.FC = () => {
                 </td>
                 <td className='p-4 whitespace-no-wrap  table-cell'>
                   <div className='flex items-center'>
-                    <div className='text-sm leading-5 font-medium text-gray-900 renault'>
-                      Daniel Ricciardo{' '}
-                      <span className='text three-d-text'>(Renault)</span>
+                    <div className='text-sm leading-5 font-medium text-gray-900 mclaren'>
+                      Carlos Sainz <span className='text'>(McLaren)</span>
                     </div>
                   </div>
                 </td>
                 <td className='p-4 whitespace-no-wrap text-sm leading-5 font-medium text-gray-900 text-center'>
-                  1:17.481 (Q2)
+                  1:14.911 (Q3)
                 </td>
-                <td className='p-4 whitespace-no-wrap table-cell text-right mclaren'>
+                <td className='p-4 whitespace-no-wrap table-cell text-right redbull'>
                   <span className='pl-3 inline-flex text-base leading-8 font-semibold rounded-full bg-black-80 w-8 h-8 text-red-600'>
                     S
                   </span>
                 </td>
               </tr>
+
               <tr className='odd:bg-gray-100 bg-white-100 border-b border-gray-200'>
                 <td className='p-4 whitespace-no-wrap text-left table-cell'>
                   11
                 </td>
                 <td className='p-4 whitespace-no-wrap  table-cell'>
                   <div className='flex items-center'>
-                    <div className='text-sm leading-5 font-medium text-gray-900 renault'>
-                      Esteban Ocon{' '}
-                      <span className='text three-d-text'>(Renault)</span>
+                    <div className='text-sm leading-5 font-medium text-gray-900 racingpoint'>
+                      Sergio Perez <span className='text'>(Racing Point)</span>
                     </div>
                   </div>
                 </td>
                 <td className='p-4 whitespace-no-wrap text-sm leading-5 font-medium text-gray-900 text-center'>
-                  1:17.614 (Q2)
+                  1:15.061 (Q2)
                 </td>
-                <td className='p-4 whitespace-no-wrap table-cell text-right mclaren'>
+                <td className='p-4 whitespace-no-wrap table-cell text-right racingpoint'>
                   <span className='pl-3 inline-flex text-base leading-8 font-semibold rounded-full bg-black-80 w-8 h-8 text-red-600'>
                     S
                   </span>
@@ -255,44 +256,24 @@ const Qualifying: React.FC = () => {
                 </td>
                 <td className='p-4 whitespace-no-wrap  table-cell'>
                   <div className='flex items-center'>
-                    <div className='text-sm leading-5 font-medium text-gray-900 racingpoint'>
-                      Lance Stroll <span className='text'>(Racing Point)</span>
+                    <div className='text-sm leading-5 font-medium text-gray-900 renault'>
+                      Esteban Ocon{' '}
+                      <span className='text three-d-text'>(Renault)</span>
                     </div>
                   </div>
                 </td>
                 <td className='p-4 whitespace-no-wrap text-sm leading-5 font-medium text-gray-900 text-center'>
-                  1:17.626 (Q2)
+                  1:15.201 (Q2)
                 </td>
-                <td className='p-4 whitespace-no-wrap table-cell text-right racingpoint'>
+                <td className='p-4 whitespace-no-wrap table-cell text-right mclaren'>
                   <span className='pl-3 inline-flex text-base leading-8 font-semibold rounded-full bg-black-80 w-8 h-8 text-red-600'>
                     S
                   </span>
                 </td>
               </tr>
-
               <tr className='odd:bg-gray-100 bg-white-100 border-b border-gray-200'>
                 <td className='p-4 whitespace-no-wrap text-left table-cell'>
                   13
-                </td>
-                <td className='p-4 whitespace-no-wrap  table-cell'>
-                  <div className='flex items-center'>
-                    <div className='text-sm leading-5 font-medium text-gray-900 alphatauri'>
-                      Daniil Kvyat <span className='text'>(AlphaTauri)</span>
-                    </div>
-                  </div>
-                </td>
-                <td className='p-4 whitespace-no-wrap text-sm leading-5 font-medium text-gray-900 text-center'>
-                  1:17.728 (Q2)
-                </td>
-                <td className='p-4 whitespace-no-wrap table-cell text-right alphatauri'>
-                  <span className='pl-3 inline-flex text-base leading-8 font-semibold rounded-full bg-black-80 w-8 h-8 text-red-600'>
-                    S
-                  </span>
-                </td>
-              </tr>
-              <tr className='odd:bg-gray-100 bg-white-100 border-b border-gray-200'>
-                <td className='p-4 whitespace-no-wrap text-left table-cell'>
-                  14
                 </td>
                 <td className='p-4 whitespace-no-wrap  table-cell'>
                   <div className='flex items-center'>
@@ -302,7 +283,7 @@ const Qualifying: React.FC = () => {
                   </div>
                 </td>
                 <td className='p-4 whitespace-no-wrap text-sm leading-5 font-medium text-gray-900 text-center'>
-                  1:17.788 (Q2)
+                  1:15.323 (Q2)
                 </td>
                 <td className='p-4 whitespace-no-wrap table-cell text-right'>
                   <span className='pl-3 inline-flex text-base leading-8 font-semibold rounded-full bg-black-80 w-8 h-8 text-red-600'>
@@ -313,7 +294,7 @@ const Qualifying: React.FC = () => {
 
               <tr className='odd:bg-gray-100 bg-white-100 border-b border-gray-200'>
                 <td className='p-4 whitespace-no-wrap text-left table-cell'>
-                  15
+                  14
                 </td>
                 <td className='p-4 whitespace-no-wrap  table-cell'>
                   <div className='flex items-center'>
@@ -323,11 +304,31 @@ const Qualifying: React.FC = () => {
                   </div>
                 </td>
                 <td className='p-4 whitespace-no-wrap text-sm leading-5 font-medium text-gray-900 text-center'>
-                  1:17.919 (Q2)
+                  1:15.385 (Q2)
                 </td>
-                <td className='p-4 whitespace-no-wrap table-cell text-right mclaren'>
-                  <span className='pl-2 inline-flex text-base leading-8 font-semibold rounded-full bg-black-80 w-8 h-8 text-yellow-500'>
-                    M
+                <td className='p-4 whitespace-no-wrap table-cell text-right'>
+                  <span className='pl-3 inline-flex text-base leading-8 font-semibold rounded-full bg-black-80 w-8 h-8 text-red-600'>
+                    S
+                  </span>
+                </td>
+              </tr>
+              <tr className='odd:bg-gray-100 bg-white-100 border-b border-gray-200'>
+                <td className='p-4 whitespace-no-wrap text-left table-cell'>
+                  15
+                </td>
+                <td className='p-4 whitespace-no-wrap  table-cell'>
+                  <div className='flex items-center'>
+                    <div className='text-sm leading-5 font-medium text-gray-900 racingpoint'>
+                      Lance Stroll <span className='text'>(Racing Point)</span>
+                    </div>
+                  </div>
+                </td>
+                <td className='p-4 whitespace-no-wrap text-sm leading-5 font-medium text-gray-900 text-center'>
+                  1:15.494 (Q2)
+                </td>
+                <td className='p-4 whitespace-no-wrap table-cell text-right racingpoint'>
+                  <span className='pl-3 inline-flex text-base leading-8 font-semibold rounded-full bg-black-80 w-8 h-8 text-red-600'>
+                    S
                   </span>
                 </td>
               </tr>
@@ -335,15 +336,35 @@ const Qualifying: React.FC = () => {
                 <td className='p-4 whitespace-no-wrap text-left table-cell'>
                   16
                 </td>
-                <td className='p-4 whitespace-no-wrap table-cell'>
+                <td className='p-4 whitespace-no-wrap  table-cell'>
                   <div className='flex items-center'>
-                    <div className='text-sm leading-5 font-medium text-gray-900 alfaromeo'>
-                      Kimi Räikkönen <span className='text'>(Alfa Romeo)</span>
+                    <div className='text-sm leading-5 font-medium text-gray-900 haas'>
+                      Romain Grosjean <span className='text'>(Haas)</span>
                     </div>
                   </div>
                 </td>
-                <td className='p-4 whitespace-no-wrap text-sm leading-5 font-medium text-gray-900 text-center '>
-                  1:18.201 (Q1)
+                <td className='p-4 whitespace-no-wrap text-sm leading-5 font-medium text-gray-900 text-center'>
+                  1:15.918 (Q1)
+                </td>
+                <td className='p-4 whitespace-no-wrap table-cell text-right'>
+                  <span className='pl-3 inline-flex text-base leading-8 font-semibold rounded-full bg-black-80 w-8 h-8 text-red-600'>
+                    S
+                  </span>
+                </td>
+              </tr>
+              <tr className='odd:bg-gray-100 bg-white-100 border-b border-gray-200'>
+                <td className='p-4 whitespace-no-wrap text-left table-cell'>
+                  17
+                </td>
+                <td className='p-4 whitespace-no-wrap  table-cell'>
+                  <div className='flex items-center'>
+                    <div className='text-sm leading-5 font-medium text-gray-900 haas'>
+                      Kevin Magnussen <span className='text'>(Haas)</span>
+                    </div>
+                  </div>
+                </td>
+                <td className='p-4 whitespace-no-wrap text-sm leading-5 font-medium text-gray-900 text-center'>
+                  1:15.939 (Q1)
                 </td>
                 <td className='p-4 whitespace-no-wrap table-cell text-right'>
                   <span className='pl-3 inline-flex text-base leading-8 font-semibold rounded-full bg-black-80 w-8 h-8 text-red-600'>
@@ -354,38 +375,17 @@ const Qualifying: React.FC = () => {
 
               <tr className='odd:bg-gray-100 bg-white-100 border-b border-gray-200'>
                 <td className='p-4 whitespace-no-wrap text-left table-cell'>
-                  17
+                  18
                 </td>
                 <td className='p-4 whitespace-no-wrap table-cell'>
                   <div className='flex items-center'>
                     <div className='text-sm leading-5 font-medium text-gray-900 alfaromeo'>
-                      Antonio Giovinazzi{' '}
-                      <span className='text'>(Alfa Romeo)</span>
+                      Kimi Räikkönen <span className='text'>(Alfa Romeo)</span>
                     </div>
                   </div>
                 </td>
                 <td className='p-4 whitespace-no-wrap text-sm leading-5 font-medium text-gray-900 text-center '>
-                  1:18.323 (Q1)
-                </td>
-                <td className='p-4 whitespace-no-wrap table-cell text-right'>
-                  <span className='pl-3 inline-flex text-base leading-8 font-semibold rounded-full bg-black-80 w-8 h-8 text-red-600'>
-                    S
-                  </span>
-                </td>
-              </tr>
-              <tr className='odd:bg-gray-100 bg-white-100 border-b border-gray-200'>
-                <td className='p-4 whitespace-no-wrap text-left table-cell'>
-                  18
-                </td>
-                <td className='p-4 whitespace-no-wrap  table-cell'>
-                  <div className='flex items-center'>
-                    <div className='text-sm leading-5 font-medium text-gray-900 haas'>
-                      Romain Grosjean <span className='text'>(Haas)</span>
-                    </div>
-                  </div>
-                </td>
-                <td className='p-4 whitespace-no-wrap text-sm leading-5 font-medium text-gray-900 text-center'>
-                  1:18.364 (Q1)
+                  1:15.953 (Q1)
                 </td>
                 <td className='p-4 whitespace-no-wrap table-cell text-right'>
                   <span className='pl-3 inline-flex text-base leading-8 font-semibold rounded-full bg-black-80 w-8 h-8 text-red-600'>
@@ -399,13 +399,13 @@ const Qualifying: React.FC = () => {
                 </td>
                 <td className='p-4 whitespace-no-wrap  table-cell'>
                   <div className='flex items-center'>
-                    <div className='text-sm leading-5 font-medium text-gray-900 haas'>
-                      Kevin Magnussen <span className='text'>(Haas)</span>
+                    <div className='text-sm leading-5 font-medium text-gray-900 williams'>
+                      Nicholas Latifi <span className='text'>(Williams)</span>
                     </div>
                   </div>
                 </td>
                 <td className='p-4 whitespace-no-wrap text-sm leading-5 font-medium text-gray-900 text-center'>
-                  1:18.508 (Q1)
+                  1:15.987 (Q1)
                 </td>
                 <td className='p-4 whitespace-no-wrap table-cell text-right'>
                   <span className='pl-3 inline-flex text-base leading-8 font-semibold rounded-full bg-black-80 w-8 h-8 text-red-600'>
@@ -417,15 +417,16 @@ const Qualifying: React.FC = () => {
                 <td className='p-4 whitespace-no-wrap text-left table-cell'>
                   20
                 </td>
-                <td className='p-4 whitespace-no-wrap  table-cell'>
+                <td className='p-4 whitespace-no-wrap table-cell'>
                   <div className='flex items-center'>
-                    <div className='text-sm leading-5 font-medium text-gray-900 williams'>
-                      Nicholas Latifi <span className='text'>(Williams)</span>
+                    <div className='text-sm leading-5 font-medium text-gray-900 alfaromeo'>
+                      Antonio Giovinazzi{' '}
+                      <span className='text'>(Alfa Romeo)</span>
                     </div>
                   </div>
                 </td>
-                <td className='p-4 whitespace-no-wrap text-sm leading-5 font-medium text-gray-900 text-center'>
-                  1:18.777 (Q1)
+                <td className='p-4 whitespace-no-wrap text-sm leading-5 font-medium text-gray-900 text-center '>
+                  1:16.208 (Q1)
                 </td>
                 <td className='p-4 whitespace-no-wrap table-cell text-right'>
                   <span className='pl-3 inline-flex text-base leading-8 font-semibold rounded-full bg-black-80 w-8 h-8 text-red-600'>
