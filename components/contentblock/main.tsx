@@ -19,10 +19,10 @@ const Main: React.FC = () => {
           </div>
           <H1>
             Hamilton leads the solitary Imola practice session with Verstappen
-            in P2 with Bottas in P3
+            in P2 and Bottas in P3
           </H1>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            BMerecedes’ Lewis Hamilton heads the timing chart in the only
+            Merecedes’ Lewis Hamilton heads the timing chart in the only
             practice session of Emilia Romagna Grand Prix as F1 returns to Imola
             for the first time since 2006. Since it is a two day race weekend at
             Imola, with no Friday practices, the teams and drivers had only 90
