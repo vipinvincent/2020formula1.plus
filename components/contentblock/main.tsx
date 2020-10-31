@@ -8,59 +8,56 @@ const Main: React.FC = () => {
       <div className='h-48 md:h-64 xl:h-104 w-full'>
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
-          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1599834663/contentImages/content/valteri-bottas_kvx19p.jpg'
-          alt='FP3 REPORT - Portuguese GP 2020'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1597490683/contentImages/content/lewis-hamilton3_za9deq.jpg'
+          alt='FP REPORT - Emilia Romagna GP 2020'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-4 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            FP3 REPORT - Portuguese GP 2020
+            FP REPORT - Emilia Romagna GP 2020
           </div>
           <H1>
-            Bottas clean swept all the practice sessions at Portuguese GP ahead
-            of Hamilton and Verstappen
+            Hamilton leads the solitary Imola practice session with Verstappen
+            in P2 with Bottas in P3
           </H1>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Bottas leads the final practice at Portimao and made it a hat-trick
-            of fastest laps in Portuguese GP practice weekend. His Mercedes team
-            mate Lewis Hamilton finished second just ahead of Red Bull's Max
-            Verstappen in third place. Although track limits have been revised
-            after Friday's running, numerous lap times got deleted at Turns 1 at
-            4 including max and his teammate Albon, which might have changed the
-            top 3 list. AlphaTauri's Pierre Gasly impressed with P4 performance
-            from his fire engulfed car in FP2 which is just a tenth off former
-            team mate Verstappen as he was sandwiched between the Red Bulls on
-            the leader board. Alex Albon also had a good session for Red Bull
-            with fifth place, which was only 0.3s off his team mate. Meanwhile
-            the session ended one minute early after a drain cover got uplifted
-            by Vettel who ran over the drain cover at Turn 14, which brought out
-            the red flags. This raised the eyebrows of the stewards regarding
-            the safety of the track and will be inspected after the practice
-            session.he stewards regarding the safety of the track and will be
-            inspected after the practice session.
+            BMerecedes’ Lewis Hamilton heads the timing chart in the only
+            practice session of Emilia Romagna Grand Prix as F1 returns to Imola
+            for the first time since 2006. Since it is a two day race weekend at
+            Imola, with no Friday practices, the teams and drivers had only 90
+            minute session before qualifying to get to know about the Autodromo
+            Internazionale Enzo e Dino Ferrari (Imola) Circuit. Red Bull's Max
+            Verstappen became the second quickest driver after leading the
+            session for the early part on medium and hard componds. Valtteri
+            Bottas in the second Mercedes crossed the line third. Pierre Gasly
+            finished an impressive fourth towards the end of the session ahead
+            of Charles Leclerc in Ferrari.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Ferrari continues to impress the Portugal GP as Charles Leclerc
-            finished sixth reflecting the positive signs from the upgraded
-            Ferrari SF1000. But team mate Sebastian Vettel only could manage
-            11th but shows signs of improvement. McLaren's Carlos Sainz finishe
-            din P7, who took a new engine, turbo and MGU-H. Sergio Perez took P8
-            for Racing Point, as the second McLaren of Lando Norris crossed the
-            line in ninth. Esteban Ocon rounded the top ten list for Renault.
+            Renault duo Daniel Ricciardo and Esteban Ocon finished in P6 and P7
+            respectively with Gasly’s team mate Daniil Kvyat in a strong eight
+            who never has qualified inn top ten in this season. Alex Albon
+            disappoints again in the second Red Bull only could manage P9 which
+            was, 1.335s off Hamilton's pace. Lance Stroll and Sergio Perez in
+            Racing Point follows in tenth and eleventh. The struggling Ferrari
+            of Sebastian Vettel managed 12th, which was over a second slower
+            than his teammate Charles. Romain Grosjean for Haas finished 13th
+            ahead of McLaren's Carlos Sainz.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Daniil Kvyat in second AlphaTauri finised 12th, with Alfa Romeo's
-            Kimi Raikkonen in P13. Renault's Daniel Ricciardo's only could
-            manage P14 as his R.S.20 suffered a DRS failure towards the meid of
-            seesion. But later Ricciardo emerged from pit lane for one final go
-            in FP3 but that red flag towards the end of session aborted his lap.
-            George Russell impressed with P15 for Williams as Racing Point’s
-            Lance Stroll only manged P16. Earlier both Lance and Max got cleared
-            of any penalty for the incident in FP2. Antonio Giovinazzi finished
-            16th in the second Alfa Romeo with Haas drivers Haas Kevin Magnussen
-            and Romain Grosjean sandwiched Nicholas Latifi of Williams rounded
-            of the list.
+            Antonio Giovinazzi, who earlier in the weekend got confirmed by Alfa
+            Romeo crossed the line in 14h ahead of Lando Norris in the second
+            McLaren, as his fastest lap on the softs got deleted for
+            overstepping track limits toward the end of the session. Last week’s
+            firt lap hero, Kimi Räikkönen, who also got retained by Alfa Romeo
+            for 2020 season finished P17. George Russell in Williams finished
+            18th as his team mate Nicholas Latifi spend much time in pits with a
+            brake-by-wire failure with around an hour remaining, but emerged
+            again to take for 20th overall. Haas's Kevin Magnussen crossed the
+            line P19. So after the one and only practice session of Emilia
+            Romagna Grand Prix completed, teams and drivers will have enough
+            information for the Qualifying which is scheduled for the evening.
           </p>
           {/* <p className='mt-1 text-base leading-normal text-gray-700'>
             View the complete {' '}

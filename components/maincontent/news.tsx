@@ -1,9 +1,9 @@
 import React from 'react'
-// import Archive58 from 'components/newsarchives/race-report-eifel-gp'
-// import Archive57 from 'components/newsarchives/qualifying-report-eifel-gp'
-// import Archive56 from 'components/newsarchives/fp3-report-eifel-gp'
-// import Archive55 from 'components/newsarchives/fp1-fp2-report-eifel-gp'
-// import Archive54 from 'components/newsarchives/driver-market-at-mid-2020'
+import Archive58 from 'components/newsarchives/race-report-eifel-gp'
+import Archive57 from 'components/newsarchives/qualifying-report-eifel-gp'
+import Archive56 from 'components/newsarchives/fp3-report-eifel-gp'
+import Archive55 from 'components/newsarchives/fp1-fp2-report-eifel-gp'
+import Archive54 from 'components/newsarchives/driver-market-at-mid-2020'
 import Archive53 from 'components/newsarchives/race-report-russian-gp'
 import Archive52 from 'components/newsarchives/qualifying-report-russian-gp'
 import Archive51 from 'components/newsarchives/fp3-report-russian-gp'
@@ -65,6 +65,23 @@ const Main: React.FC = () => {
         Archived News
       </div>
       <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-0'>
+        <Archive58 />
+      </div>
+      <div className='w-100 flex flex-col xl:flex-row'>
+        <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-4'>
+          <Archive57 />
+        </div>
+        <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-4'>
+          <Archive56 />
+        </div>
+      </div>
+      <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-4'>
+        <Archive55 />
+      </div>
+      <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-4'>
+        <Archive54 />
+      </div>
+      <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-4'>
         <Archive53 />
       </div>
       <div className='w-100 flex flex-col xl:flex-row'>

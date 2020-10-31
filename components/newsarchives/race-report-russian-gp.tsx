@@ -5,13 +5,13 @@ import H1 from 'components/heading/H1'
 const Archive53: React.FC = () => {
   return (
     <div className='relative'>
-      <div className='h-48 md:h-64 xl:h-104 w-full'>
+      {/* <div className='h-48 md:h-64 xl:h-104 w-full'>
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
           src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1601214934/contentImages/content/bottas_bw5vun.jpg'
           alt='Race REPORT - Russian GP 2020'
         />
-      </div>
+      </div> */}
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-2 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
