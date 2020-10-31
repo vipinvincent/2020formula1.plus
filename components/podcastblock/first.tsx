@@ -7,14 +7,14 @@ const First: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=JqyaUU5nBMk'
+        href='https://www.youtube.com/watch?v=lpNkpVCptIQ'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/JqyaUU5nBMk/sddefault.jpg'
-              alt='8 Most Successful Formula 1 Drivers to NEVER Win a Championship'
+              src='https://img.youtube.com/vi/lpNkpVCptIQ/sddefault.jpg'
+              alt='How to Master the Imola F1 Track | Nico Rosberg'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,20 +32,23 @@ const First: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=JqyaUU5nBMk'
+            href='https://www.youtube.com/watch?v=lpNkpVCptIQ'
             target='_blank'>
-            8 Most Successful Formula 1 Drivers to NEVER Win a Championship
+            How to Master the Imola F1 Track | Nico Rosberg
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Many an F1 driver has raced. Many have won. Many have come close.
-            But today, we're talking about the nearliest, of the "nearly man".
-            Those who achieved the most success in F1, without ever winning a
-            world drivers title.
+            It’s the third Formula race in Italy this year – we can be very
+            excited about this track! The 2020 Imola Grand Prix will surely be
+            exciting as the Imola F1 Track is super special – the former home of
+            the San Marino GP! This year it’s the 2020 Emilia Romagna Grand Prix
+            – I’m taking you again on a slow lap to analyse every details of the
+            racing track in Imola. Followed by my Imola Hot Lap and of course
+            the Q&A where I also share my personal F1 experience in Imola.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href=' https://tommccluskey.co.uk' target='_blank'>
-              Tommo F1
+            <ContentLink href='http://www.nicorosberg.com' target='_blank'>
+              Nico Rosberg
             </ContentLink>
           </p>
         </div>

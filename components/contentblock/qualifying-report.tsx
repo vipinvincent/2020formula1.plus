@@ -7,7 +7,7 @@ const QualifyingReport: React.FC = () => {
       <div className='h-48 md:h-64 xl:h-104 w-full'>
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
-          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1597490309/contentImages/content/lewis-hamilton_oavnow.jpg'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1599834663/contentImages/content/valteri-bottas_kvx19p.jpg'
           alt='Qualifying REPORT - Emilia Romagna GP 2020'
         />
       </div>
@@ -17,55 +17,46 @@ const QualifyingReport: React.FC = () => {
             Qualifying REPORT - Emilia Romagna GP 2020
           </div>
           <H1>
-            Hamilton finishes P1 in final practice with his Mercedes teammate
-            Bottas in P2 and Sainz in P3 for McLaren
+            Bottas snatches pole from Hamilton at Imola with Verstappen in third
           </H1>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Lewis Hamilton grabs pole position with a new track record at Monza
-            in the Russian Grand Prix qualifying ahead of Valtteri Bottas
-            claiming yet another 1-2 for Mercedes. It was a private affair for
-            pole position at Monza between the two Mercedes cars as Lewis
-            Hamilton, leading his team mate Valtteri Bottas only by 0.069s as
-            Ferrari failed to get a car in the top 10 at their home race for the
-            first time in 36 years. Carlos Sainz for McLaren was the best of the
-            rest with an impressive third, which was McLaren’s third of the
-            season, with Sergio Perez in the Racing Point at fourth. It’s also
-            McLaren’s first top-three start at Monza since they locked out the
-            front row in 2012. Perez will start fourth for the eighth time in
-            his F1 career, with Max Verstappen pushed down to fifth. Since the
-            turbo hybrid era began in 2014, this is for the first time Red Bull
-            have failed to start on the front two rows of the grid at Monza.
+            Mercedes’ Valtteri Bottas beats Hamilton to take a sensational pole
+            position at Autodromo Internazionale Enzo e Dino Ferrari (Imola)
+            Circuit for the Emilia Romagna GP. Bottas with only a slender lead
+            of 0.097s just managed to out class his team mate and rival Lewis
+            Hamilton in his final run in qualifying. Max Verstappen, after
+            surviving Q2 scare took 3rd which was incidentally more than half a
+            second behind the silver cars. Red Bull mechanics once again rose to
+            the occasion, as they turn around an improbable solution after
+            encountering a power unit/spark plug issue in Q2 within few minutes.
+            The home runners Alfa Tauri impressed the most with both cars in Q3.
+            Pierre Gasly, who was in scintillating form finished fourth to equal
+            his career best start ahead of Renault’s Daniel Ricciardo in fifth.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The second McLaren of Lando Norris crossed the line in sixth with
-            Daniel Ricciardo in seventh. Lance Stroll in the second Racing point
-            finished eighth and Alexander Albon, who had three laps deleted for
-            exceeding track limits finished in ninth. AlphaTauri’s Pierre Gasly
-            rounded out the top 10 as his teammate Daniil Kvyat finished 11th.
-            Meanwhile, Esteban Ocon had to settle for P12 as he got knocked out
-            despite running behind teammate Ricciardo early in his final Q2 lap
-            to try and take advantage of the tow. But, Ricciardo made a mistake
-            and put his left-side wheels off into the gravel as he was exiting
-            the second chicane and he later slowed and abandoned his lap, with
-            Ocon not improving his final flyer in Q2.
+            Alexander Albon with having many laps deleted throughout the
+            qualifying session, but found a way to slot his car into top six,
+            which is 0.4s adrift of team mate Verstappen. Charles Leclerc who
+            seemed unhappy with the car, only managed seventh with Daniil Kvyat
+            making a rare appearance in Q3 for AlphaTauri. Even though both the
+            McLarens qualified to Q3, didn’t have the pace to compete in the
+            final shootout, with Lando Norris edging ahead of team mate Carlos
+            Sainz to complete the top 10. Sergio Perez missed out Q3 and
+            finished eleventh as both racing Points struggled to reach Q3.
+            Esteban Ocon in the second Renault also missed out in Q2 finished
+            twelfth.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Charles Leclerc of Ferrari ended up in P13, calling his Q2 lap "the
-            best I can do", as Ferrari was again exposed by its straightline
-            speed issues with the SF100. Kimi Raikkonen for Alfa Romeo and Kevin
-            Magnussen for Haas made it through to Q2, but Magnussen ran very
-            wide into the gravel as he flew through the second Lesmo, which
-            ruined his final lap in the middle segment as they finished 14th and
-            15th respectively. The second Haas of Romain Grosjean ended up in
-            P16, ahead of Vettel, who abandoned his final Q1 run, as there were
-            race-like scenes on the final runs in the opening segment, where
-            backing-up at the Parabolica meant several drivers including Vettel
-            fought for space at the right-hander and down the main straight.
-            Behind Vettel came Antonio Giovinazzi and George Russell, who
-            criticized his Williams team over his radio for getting involved in
-            the chaotic scenes. Meanwhile the second Williams driver Nicholas
-            Latifi, who was also involved, was the only driver to set a personal
-            best, although he still ended up 20th and last.{' '}
+            George Russell continues his Saturday form and qualified again for
+            Q2, eventully finishe din thirteenth ahead of struggling Sebastian
+            Vettel in Ferrari. Lance Stroll finishes in 15th also missed the
+            final top ten shoot out. Romain Grosjean and Kevin Magnussen in Haas
+            finished P16 and P17 respectively ahead of Kimi Räikkönen in Alfa
+            Romeo. Kimi, after his impressive drive in Q1 with the best time
+            good for Q2 qualification, got deleted for track limit
+            infringements. Nicholas Latifi inn the second Williams finished P19
+            with Antonio Giovinazzi in second Alfa Romeo rounded up the 20
+            drivers list.
           </p>
         </div>
       </div>

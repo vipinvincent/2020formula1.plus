@@ -18,7 +18,7 @@ const Left: React.FC = () => {
             Qualifying REPORT - Portuguese GP 2020
           </div>
           <H1>
-            Hamilton snatches Portuguese GP pole from Bottas on Medium sets with
+            Hamilton grabs Portuguese GP pole from Bottas on Medium sets with
             Verstappen in third
           </H1>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>

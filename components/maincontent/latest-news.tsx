@@ -12,7 +12,7 @@ import React from 'react'
 // import AutoSport from 'components/contentblock/autosport'
 
 import RaceReport from 'components/contentblock/race-report'
-// import QualifyingReport from 'components/contentblock/qualifying-report'
+import QualifyingReport from 'components/contentblock/qualifying-report'
 import Archive58 from 'components/newsarchives/race-report-eifel-gp'
 import Archive54 from 'components/newsarchives/driver-market-at-mid-2020'
 
@@ -37,10 +37,18 @@ const Main: React.FC = () => {
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
         Latest News
       </div>
-      {/* <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-0'>
-        <QualifyingReport />
+      {/* <div className='w-100 flex flex-col xl:flex-row'>
+        <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-0'>
+          <QualifyingReport />
+        </div>
+        <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-4 xl:mt-0'>
+          <MainContent />
+        </div>
       </div> */}
       <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-0'>
+        <QualifyingReport />
+      </div>
+      <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-4'>
         <MainContent />
       </div>
       <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-4'>
