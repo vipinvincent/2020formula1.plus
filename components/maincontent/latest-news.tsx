@@ -16,7 +16,7 @@ import QualifyingReport from 'components/contentblock/qualifying-report'
 import Archive58 from 'components/newsarchives/race-report-eifel-gp'
 
 import MainContent from 'components/contentblock/main'
-// import FirstContent from 'components/contentblock/first'
+import FirstContent from 'components/contentblock/first'
 import SecondContent from 'components/contentblock/left'
 import ThirdContent from 'components/contentblock/right'
 import FifthContent from 'components/contentblock/left-old'
@@ -33,25 +33,14 @@ const Main: React.FC = () => {
       <div className='w-100 mb-0 mt-0'>
         <Race />
       </div>
-      {/* <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
-        Latest News
-      </div> */}
-      {/* <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-0'>
-        <FourthContent />
-      </div> */}
-      <div className='w-100 mb-0 mt-0'>
-        <Qualifying />
-      </div>
-      {/* <div className='w-100 flex flex-col xl:flex-row'>
-        <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-0'>
-          <FourthContent />
-        </div>
-        <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-4 xl:mt-0'>
-          <MainContent />
-        </div>
-      </div> */}
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
         Latest News
+      </div>
+      <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-0'>
+        <FirstContent />
+      </div>
+      <div className='w-100 mb-0 mt-4'>
+        <Qualifying />
       </div>
       <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-0'>
         <QualifyingReport />
@@ -62,12 +51,11 @@ const Main: React.FC = () => {
       <div className='w-100 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-4'>
         <RaceReport />
       </div>
-
       <div className='w-100 flex flex-col xl:flex-row'>
-        <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-0'>
+        <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-4'>
           <SecondContent />
         </div>
-        <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-4 xl:mt-0'>
+        <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-4'>
           <ThirdContent />
         </div>
       </div>

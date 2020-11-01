@@ -8,56 +8,60 @@ const First: React.FC = () => {
       <div className='h-48 md:h-64 xl:h-104 w-full'>
         <img
           className='w-full h-full object-cover rounded-tl-xxl'
-          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1602239921/contentImages/content/eifel-gp-fp1_oomdvc.jpg'
-          alt='Eifel Grand Prix FP1 cancelled due to bad weather at Nurburgring'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1604241595/contentImages/content/mercedes-1-2_zvey6e.jpg'
+          alt='Race REPORT - EMILIA ROMAGNA  GP 2020'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-4 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            FP1 & FP2 REPORT - Eifel GP 2020
+            Race REPORT - EMILIA ROMAGNA GP 2020
           </div>
           <H1>
-            Eifel Grand Prix FP1 and FP2 cancelled due to bad weather at
-            Nurburgring
+            Hamilton wins in Imola as Mercedes clinches their seventh straight
+            constructors' championship
           </H1>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The start of the Round 11 of the 2020 season from the Nurburgring,
-            Germany has been called off due to the weather. This means the Eifel
-            Grand Prix weekend will be delayed till FP3. Due to a fog and misty
-            condition at the Nurburgring on Friday morning, it looked too bad
-            for the medical helicopter to be able to fly in case needed, which
-            means that the Race Control would not allow cars on track. Even
-            though the FP1 session did technically start at 11am local time, the
-            Race Control advised the teams that the pit lane would remain
-            closed. After waiting for 60 more minutes in both sessions, the race
-            control informed that the pit lane would remain closed as the
-            conditions were not changing. With rain expected throughout the day,
-            attention will now turn to Free Practice 3 and whether conditions of
-            the race weekend.
+            Mercedes claims their record seventh consecutive constructors’ title
+            at the Emilia Romagna Grand Prix, as Lewis Hamilton wins in Imola
+            with his team mate Valtteri Bottas finishing second ensuring
+            Mercedes 1-2 on the historic day for F1. Meanwhile Renault’s Daniel
+            Ricciardo secured the second podium of the season for Renault as Red
+            Bull’s Max Verstappen retired from P2 after a tyre issue on lap 51.
+            AlphaTauri’s Daniil Kvyat, who is yet to confirm a seat in 2020
+            surprises every one with a brilliant fourth with Ferrari’s Charles
+            Leclerc in fifth. Along with a better team strategy and a brilliant
+            drive helped Charles to hold off the Racing Point of Sergio Perez,
+            who missed the trick with a late stop under the Safety Car.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            "With the fog that's come in, the medical helicopter is not able to
-            take off and fly to the hospital," FIA race director Michael Masi
-            said during the session. "The distance by road is too far, should
-            something occur. "With the region that we're in, it's probably not
-            dissimilar to Austria earlier in the year when we had a similar
-            situation. It's just the nature of the area and the location. "The
-            fog's come in, and it's all been going up slightly but coming down
-            more dramatically, so we'll just judge at the time [if it is safe to
-            start]. "From an FIA perspective, the safety of all the participants
-            and the drivers hopefully going out is paramount, and that's not
-            something we will compromise."
+            The McLaren and Alfa Romeo duos rounded of the top ten list with
+            Carlos Sainz and Lando Norris claimed P7 and P8, Kimi Raikkonen
+            leading Antonio Giovinazzi in P9 and P10. Aided by a brilliant
+            strategy with an extended 49-lap stint medium tyre management from
+            Kimi helped Alfa Romeo took their first double points finish of the
+            year. Nicholas Latifi finished eleventh agonisingly close to points
+            for Williams. Struggling Sebastian Vettel, thanks to a horrible pit
+            stop by Ferrari spoiled the race for him and only could manage a
+            disappointing twelfth. Lance Stroll, after the first lap tangle and
+            a broken front wing managed thirteenth spot in the list.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The cancellation of FP1 will be particularly disappointing for Mick
-            Schumacher and Calum Ilott, the Ferrari junior drivers who were set
-            to make their F1 free practice debuts in this session for Alfa Romeo
-            and Haas respectively. Mick Schumacher, the 21-year-old F2 title
-            leader, was due to drive the Alfa Romeo in place of Antonio
-            Giovinazzi, while Ilott due to run with Haas in place of Romain
-            Grosjean. Currently both are members of the Ferrari Driver Academy
-            and both are potential candidates for a seat in F1 next season.
+            Romain Grosjean for Hass crossed the line in fourteenth while his
+            team mate, Kevin Magnussen had to retire the race in lap 50 after a
+            terrible head ache. Alexander Albon disappoints again for Red Bull
+            after a silly driver error forced the Thai driver to spin towards
+            the last stint on the race became the last person of the finished
+            drivers. An unusual mistake from George Russell, forced him spinning
+            and ending up on the barriers as he tries to warm his tyres during
+            the safety car. Esteban Ocon in the second Renault forced to park
+            his car on the green in lap 29 with a a suspected gearbox issue.
+            Meanwhile, after a brilliant qualification on Saturday, AlphaTauri’s
+            Pierre Gasly suffered a coolant leak that forced him to retire from
+            the race on Lap 8. With Mercedes wrapping up the constructors’ title
+            of 2020 it is now matter of time to decide on the drivers’
+            championship as it is looks like another Mercedes driver to crown
+            the champion in 2020.
           </p>
           {/* <p className='mt-1 text-base leading-normal text-gray-700'>
             View the complete {' '}
