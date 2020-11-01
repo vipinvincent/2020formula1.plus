@@ -33,7 +33,7 @@ const Team: React.FC = () => {
                     </td>
                     <td className='px-6 py-4 whitespace-no-wrap border-b border-gray-200 text-right mercedes'>
                       <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-gray-100 text'>
-                        435
+                        479
                       </span>
                     </td>
                   </tr>
@@ -54,14 +54,14 @@ const Team: React.FC = () => {
                   <tr>
                     <td className='px-6 py-4 whitespace-no-wrap border-b border-gray-200'>
                       <div className='flex items-center'>
-                        <div className='text-sm leading-5 font-medium text-gray-900 racingpoint'>
-                          <span className='text'>Racing Point</span>
+                        <div className='text-sm leading-5 font-medium text-gray-900 renault '>
+                          <span className='text three-d-text'>Renault</span>
                         </div>
                       </div>
                     </td>
-                    <td className='px-6 py-4 whitespace-no-wrap border-b border-gray-200 text-right racingpoint'>
-                      <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-gray-100 text'>
-                        126
+                    <td className='px-6 py-4 whitespace-no-wrap border-b border-gray-200 text-right renault'>
+                      <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-gray-100 text three-d-text'>
+                        135
                       </span>
                     </td>
                   </tr>
@@ -75,24 +75,25 @@ const Team: React.FC = () => {
                     </td>
                     <td className='px-6 py-4 whitespace-no-wrap border-b border-gray-200 text-right mclaren'>
                       <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-gray-100 text'>
-                        124
+                        134
                       </span>
                     </td>
                   </tr>
                   <tr>
                     <td className='px-6 py-4 whitespace-no-wrap border-b border-gray-200'>
                       <div className='flex items-center'>
-                        <div className='text-sm leading-5 font-medium text-gray-900 renault '>
-                          <span className='text three-d-text'>Renault</span>
+                        <div className='text-sm leading-5 font-medium text-gray-900 racingpoint'>
+                          <span className='text'>Racing Point</span>
                         </div>
                       </div>
                     </td>
-                    <td className='px-6 py-4 whitespace-no-wrap border-b border-gray-200 text-right renault'>
-                      <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-gray-100 text three-d-text'>
-                        120
+                    <td className='px-6 py-4 whitespace-no-wrap border-b border-gray-200 text-right racingpoint'>
+                      <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-gray-100 text'>
+                        134
                       </span>
                     </td>
                   </tr>
+
                   <tr>
                     <td className='px-6 py-4 whitespace-no-wrap border-b border-gray-200'>
                       <div className='flex items-center'>
@@ -103,7 +104,7 @@ const Team: React.FC = () => {
                     </td>
                     <td className='px-6 py-4 whitespace-no-wrap border-b border-gray-200 text-right ferrari'>
                       <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-gray-100 text'>
-                        93
+                        103
                       </span>
                     </td>
                   </tr>
@@ -117,7 +118,7 @@ const Team: React.FC = () => {
                     </td>
                     <td className='px-6 py-4 whitespace-no-wrap border-b border-gray-200 text-right alphatauri'>
                       <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-gray-100 text'>
-                        77
+                        89
                       </span>
                     </td>
                   </tr>
@@ -131,7 +132,7 @@ const Team: React.FC = () => {
                     </td>
                     <td className='px-6 py-4 whitespace-no-wrap border-b border-gray-200 text-right alfaromeo'>
                       <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-gray-100 text'>
-                        5
+                        8
                       </span>
                     </td>
                   </tr>
