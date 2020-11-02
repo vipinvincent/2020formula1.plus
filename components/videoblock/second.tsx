@@ -7,14 +7,14 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=CfVKKwiIL3k'
+        href='https://www.youtube.com/watch?v=34vq7A0nyLE'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/CfVKKwiIL3k/sddefault.jpg'
-              alt='We need a sport that represents the outer world | Lewis Hamilton: My Race | Full interview'
+              src='https://img.youtube.com/vi/34vq7A0nyLE/sddefault.jpg'
+              alt='Ted Kravitz takes a look back at the Emilia-Romagna Grand Prix | The Notebook'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,10 +32,10 @@ const Second: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=CfVKKwiIL3k'
+            href='https://www.youtube.com/watch?v=34vq7A0nyLE'
             target='_blank'>
-            "We need a sport that represents the outer world" | Lewis Hamilton:
-            My Race | Full interview
+            Ted Kravitz takes a look back at the Emilia-Romagna Grand Prix | The
+            Notebook
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             Lewis Hamilton has just become Formula 1's new record holder for
