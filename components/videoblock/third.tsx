@@ -7,14 +7,14 @@ const Third: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=iVm3-nxdt2U'
+        href='https://www.youtube.com/watch?v=7cCOR8AIbRo'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/iVm3-nxdt2U/sddefault.jpg'
-              alt='Why Hamiltons hinted at leaving F1 after 2020'
+              src='https://img.youtube.com/vi/7cCOR8AIbRo/sddefault.jpg'
+              alt='Red Bulls F1 quit threat over engine stand-off explained'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,27 +32,25 @@ const Third: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=iVm3-nxdt2U'
+            href='https://www.youtube.com/watch?v=7cCOR8AIbRo'
             target='_blank'>
-            Why Hamilton's hinted at leaving F1 after 2020
+            Red Bull's F1 quit threat over engine stand-off explained
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Could Lewis Hamilton really walk away from Formula 1 at the end of
-            this season, or will “no guarantee” that he continues in 2021 turn
-            into a new Mercedes deal after all? All expectations points towards
-            the latter but Hamilton’s comments in the wake of his Emilia Romagna
-            Grand Prix victory, coupled with the fact the six-time world
-            champion is still unemployed for next season with only four races of
-            2020 remaining, mean the prospect of an abrupt end to his F1 career
-            does have the smallest of chances of being realised. In this video
-            we explore the world champion's comments, what Mercedes had to say
-            about them, and ponder what reasons could be behind Hamilton’s
-            contract delay.
+            Red Bull's hopes of taking over Honda's F1 engine project when the
+            manufacturer leaves after 2021 have hit trouble. Rivals Ferrari and
+            Renault are not keen on bringing forward F1's engine freeze to 2022
+            just to help Red Bull out, so now it faces a big decision about what
+            to do next - and it's even claimed it could walk away from F1
+            entirely if it doesn't get what it wants. In this video Scott
+            Mitchell outlines why Red Bull's Plan A doesn't have the support it
+            needs, what its alternatives are, and if it could really pull the
+            plug on the two teams it owns on the grid.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
             <ContentLink
-              href='https://the-race.com/formula-1/gasly-to-stay-at-alphatauri-last-red-bull-hope-extinguished/'
+              href='https://the-race.com/formula-1/red-bulls-engine-freeze-bid-tipped-to-fail-so-what-next/'
               target='_blank'>
               The Race
             </ContentLink>

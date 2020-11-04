@@ -7,14 +7,14 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=I8TBG2sFzxY'
+        href='https://www.youtube.com/watch?v=0e2-c2qruVc'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/I8TBG2sFzxY/sddefault.jpg'
-              alt='2020 Portuguese GP Race Review | WTF1 Podcast'
+              src='https://img.youtube.com/vi/0e2-c2qruVc/sddefault.jpg'
+              alt='2020 Imola GP Race Review | WTF1 Podcast'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,15 +32,15 @@ const Second: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=I8TBG2sFzxY'
+            href='https://www.youtube.com/watch?v=0e2-c2qruVc'
             target='_blank'>
-            2020 Portuguese GP Race Review | WTF1 Podcast
+            2020 Imola GP Race Review | WTF1 Podcast
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Portimao certainly did not fail to deliver did it?! Join Matt, Tommy
-            & new addition Katy as they dive into the crazy first few laps, the
-            circuit being one that HAS to stay on the F1 calendar, as well as
-            Hamilton’s record achievement.
+            F1's return to Imola threw up plenty of talking points! Join Matt,
+            Tommy & Katy as they look at whether the circuit is suited for
+            modern F1, George Russell crashing out of the points and whether
+            Lewis Hamilton is thinking about calling it a day.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}

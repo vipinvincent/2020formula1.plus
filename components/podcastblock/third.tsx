@@ -7,14 +7,14 @@ const Third: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=JhTlgEqQnNY'
+        href='https://www.youtube.com/watch?v=m5TdhCA4hi8'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/JhTlgEqQnNY/sddefault.jpg'
-              alt='Imola F1 Track Guide'
+              src='https://img.youtube.com/vi/m5TdhCA4hi8/sddefault.jpg'
+              alt='Champions Crowned At Imola'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,14 +32,12 @@ const Third: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=JhTlgEqQnNY'
+            href='https://www.youtube.com/watch?v=m5TdhCA4hi8'
             target='_blank'>
-            Imola F1 Track Guide
+            Champions Crowned At Imola
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Looking close up at the technical details of F1's latest awesome
-            track...Imola. In this video I'm using Project Cars 2 on XBox, with
-            a Playseat and Fanatec wheel and pedals.
+            Champions Crowned At Imola
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}

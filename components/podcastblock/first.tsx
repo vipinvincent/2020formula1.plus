@@ -7,14 +7,14 @@ const First: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=lpNkpVCptIQ'
+        href='https://www.youtube.com/watch?v=zwxY88N6yBE'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/lpNkpVCptIQ/sddefault.jpg'
-              alt='How to Master the Imola F1 Track | Nico Rosberg'
+              src='https://img.youtube.com/vi/zwxY88N6yBE/sddefault.jpg'
+              alt='F1 Nation: Why You Should Never Ignore Daniel Ricciardo'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,23 +32,19 @@ const First: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=lpNkpVCptIQ'
+            href='https://www.youtube.com/watch?v=zwxY88N6yBE'
             target='_blank'>
-            How to Master the Imola F1 Track | Nico Rosberg
+            F1 Nation: Why You Should Never Ignore Daniel Ricciardo
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            It’s the third Formula race in Italy this year – we can be very
-            excited about this track! The 2020 Imola Grand Prix will surely be
-            exciting as the Imola F1 Track is super special – the former home of
-            the San Marino GP! This year it’s the 2020 Emilia Romagna Grand Prix
-            – I’m taking you again on a slow lap to analyse every details of the
-            racing track in Imola. Followed by my Imola Hot Lap and of course
-            the Q&A where I also share my personal F1 experience in Imola.
+            After a historic weekend at Imola, Tom Clarkson and Alex Jacques
+            discuss another stellar drive from Daniel Ricciardo, Mercedes
+            seventh straight title and much more.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='http://www.nicorosberg.com' target='_blank'>
-              Nico Rosberg
+            <ContentLink href='http://www.Formula1.com' target='_blank'>
+              Formula 1
             </ContentLink>
           </p>
         </div>

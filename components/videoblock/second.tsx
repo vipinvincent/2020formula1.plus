@@ -7,14 +7,14 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=34vq7A0nyLE'
+        href='https://www.youtube.com/watch?v=3-xI7sp27Og'
         target='_blank'>
         <div className='h-full w-full rounded-tl-xxl relative flex'>
           <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
-              src='https://img.youtube.com/vi/34vq7A0nyLE/sddefault.jpg'
-              alt='Ted Kravitz takes a look back at the Emilia-Romagna Grand Prix | The Notebook'
+              src='https://img.youtube.com/vi/3-xI7sp27Og/sddefault.jpg'
+              alt='The F1 Calendar Headache - the seasons too long AND theres not enough tracks on it'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,20 +32,20 @@ const Second: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=34vq7A0nyLE'
+            href='https://www.youtube.com/watch?v=3-xI7sp27Og'
             target='_blank'>
-            Ted Kravitz takes a look back at the Emilia-Romagna Grand Prix | The
-            Notebook
+            The F1 Calendar Headache - the season's too long AND there's not
+            enough tracks on it
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Lewis Hamilton has just become Formula 1's new record holder for
-            race victories and could, within a space of the next fortnight, also
-            equal the record number of championships with a seventh world title.
+            The F1 Calendar is getting VERY long. 23 races in 2021? Lots of
+            boring Tilkedromes and not enough classic awesome tracks? How can we
+            have it all? Let's chat.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='https://www.skysports.com/f1' target=' _blank'>
-              Sky Sports F1
+            <ContentLink href='http://chainbear.me/' target=' _blank'>
+              Chain Bear
             </ContentLink>
           </p>
         </div>
