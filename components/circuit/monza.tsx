@@ -9,11 +9,11 @@ const Schedule: React.FC = () => {
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
         Circuit Facts - Autodromo Nazionale Monza
       </div>
-      <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mb-6'>
+      <div className='relative bg-white-100 rounded-md mb-6'>
         <div className='h-64 sm:h-84 py-4 w-full text-center zoom-image'>
           <Zoom>
             <img
-              className='w-full h-64 sm:h-84 object-contain rounded-tl-xxl rounded-br-xl-t py-4 px-2 text-center'
+              className='w-full h-64 sm:h-84 object-contain rounded-t-md rounded-b-md py-4 px-2 text-center'
               src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1598967600/contentImages/circuit/monza_nlwdfu.png'
               alt='2020 Italian Grand Prix'
             />
@@ -166,11 +166,11 @@ const Schedule: React.FC = () => {
         2020 Italian Grand Prix weekend{' '}
         <span className='font-light'>(Track Time)</span>
       </div>
-      <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mb-4'>
-        <div className='relative max-w-screen-xl mx-auto rounded-tl-xxl rounded-br-xl'>
+      <div className='relative bg-white-100 rounded-md mb-4'>
+        <div className='relative max-w-screen-xl mx-auto rounded-t-md rounded-b-md'>
           <div className='bg-white overflow-hidden'>
             <div className='px-4 py-5 sm:p-0 text-left'>
-              <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200 rounded-tl-xxl rounded-br-xl'>
+              <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200 rounded-t-md rounded-b-md'>
                 <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1'>
                   Practice 1
                 </div>
@@ -217,7 +217,7 @@ const Schedule: React.FC = () => {
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
         Italian Grand Prix Facts
       </div>
-      <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
+      <div className='relative bg-white-100 rounded-md'>
         <div className='relative max-w-screen-xl mx-auto'>
           <div className='bg-white overflow-hidden'>
             <div className='px-4 py-5 sm:p-0 text-left'>

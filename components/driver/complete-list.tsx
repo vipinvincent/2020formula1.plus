@@ -7,9 +7,9 @@ const CompleteList: React.FC = () => {
       {/* <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
         Full List 2020 (2019)
       </div> */}
-      <div className='w-full grid sm:flex sm:flex-col justify-around py-2 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow-xs'>
-        <div className='align-middle min-w-full overflow-x-auto rounded-tl-xxl'>
-          <table className='w-full table rounded-tl-xxl'>
+      <div className='w-full grid sm:flex sm:flex-col justify-around py-2 bg-white-100 rounded-md -xs'>
+        <div className='align-middle min-w-full overflow-x-auto rounded-t-md  '>
+          <table className='w-full table rounded-t-md  '>
             <thead>
               <tr className='bg-white-100'>
                 <th className='p-4 border-b border-gray-200 bg-gray-50 text-left text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider table-cell whitespace-no-wrap'>

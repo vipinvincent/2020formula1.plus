@@ -4,10 +4,10 @@ import ContentLink from 'components/link/ContentLink'
 
 const ESPN: React.FC = () => {
   return (
-    <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-4'>
+    <div className='relative bg-white-100 rounded-md mt-4'>
       <div className='h-32 sm:h-40 w-full'>
         <img
-          className='w-full h-full object-contain rounded-tl-xxl bg-espn'
+          className='w-full h-full object-contain rounded-md bg-espn'
           src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826931/contentImages/logo/espn_av2iv1.png'
           alt='espn.com'
         />

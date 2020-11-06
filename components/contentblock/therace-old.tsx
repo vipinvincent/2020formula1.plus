@@ -4,10 +4,10 @@ import ContentLink from 'components/link/ContentLink'
 
 const TheRace: React.FC = () => {
   return (
-    <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow mt-4'>
+    <div className='relative bg-white-100 rounded-md mt-4'>
       <div className='h-32 sm:h-40 lg:absolute lg:left-0 lg:h-full lg:w-1/3'>
         <img
-          className='w-full h-full object-contain rounded-tl-xxl bg-gray-800 px-8 py-8'
+          className='w-full h-full object-contain rounded-md bg-gray-800 px-8 py-8'
           src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1594826932/contentImages/logo/therace_cq3ao6.png'
           alt='the-race.com'
         />

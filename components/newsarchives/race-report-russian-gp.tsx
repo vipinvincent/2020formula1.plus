@@ -5,9 +5,9 @@ import H1 from 'components/heading/H1'
 const Archive53: React.FC = () => {
   return (
     <div className='relative'>
-      {/* <div className='h-48 md:h-64 xl:h-104 w-full'>
+      {/* <div className='h-48 md:h-64 xl:h-104  w-full'>
         <img
-          className='w-full h-full object-cover rounded-tl-xxl'
+          className='w-full h-full object-cover rounded-t-md  '
           src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1601214934/contentImages/content/bottas_bw5vun.jpg'
           alt='Race REPORT - Russian GP 2020'
         />

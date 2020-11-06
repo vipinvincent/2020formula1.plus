@@ -5,14 +5,14 @@ import ThumbnailLink from 'components/link/ThumbnailLink'
 
 const Second: React.FC = () => {
   return (
-    <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
+    <div className='relative bg-white-100 rounded-md'>
       <ThumbnailLink
         href='https://www.youtube.com/watch?v=0e2-c2qruVc'
         target='_blank'>
-        <div className='h-full w-full rounded-tl-xxl relative flex'>
-          <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
+        <div className='h-full w-full rounded-md relative flex'>
+          <div className='h-full w-full bg-black-100 rounded-t-md  '>
             <img
-              className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
+              className='w-full h-48 lg:h-64 object-cover rounded-t-md  '
               src='https://img.youtube.com/vi/0e2-c2qruVc/sddefault.jpg'
               alt='2020 Imola GP Race Review | WTF1 Podcast'
             />

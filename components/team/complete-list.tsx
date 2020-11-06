@@ -8,8 +8,8 @@ const CompleteList: React.FC = () => {
       {/* <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
         Detailed View
       </div> */}
-      <div className='w-full grid sm:flex sm:flex-col justify-around py-2 bg-white-100 rounded-tl-xxl rounded-br-xxl shadow-xs'>
-        <div className='align-middle min-w-full overflow-x-auto rounded-tl-xxl rounded-br-xl'>
+      <div className='w-full grid sm:flex sm:flex-col justify-around py-2 bg-white-100 rounded-md -xs'>
+        <div className='align-middle min-w-full overflow-x-auto rounded-t-md rounded-b-md'>
           <table className='w-full table'>
             <thead>
               <tr className='bg-white-100'>
@@ -31,7 +31,7 @@ const CompleteList: React.FC = () => {
               </tr>
             </thead>
             <tbody className='bg-white'>
-              <tr className='odd:bg-gray-200 bg-white-100'>
+              <tr className='odd:bg-gray-100 bg-white-100'>
                 <td className='p-4 whitespace-no-wrap border-b border-gray-200 table-cell text-left'>
                   1
                 </td>
@@ -56,7 +56,7 @@ const CompleteList: React.FC = () => {
                   </span>
                 </td>
               </tr>
-              <tr className='odd:bg-gray-200 bg-white-100'>
+              <tr className='odd:bg-gray-100 bg-white-100'>
                 <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-left table-cell'>
                   2
                 </td>
@@ -83,7 +83,7 @@ const CompleteList: React.FC = () => {
                   </span>
                 </td>
               </tr>
-              <tr className='odd:bg-gray-200 bg-white-100'>
+              <tr className='odd:bg-gray-100 bg-white-100'>
                 <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-left table-cell'>
                   3
                 </td>
@@ -110,7 +110,7 @@ const CompleteList: React.FC = () => {
                   </span>
                 </td>
               </tr>
-              <tr className='odd:bg-gray-200 bg-white-100'>
+              <tr className='odd:bg-gray-100 bg-white-100'>
                 <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-left table-cell'>
                   4
                 </td>
@@ -135,7 +135,7 @@ const CompleteList: React.FC = () => {
                   </span>
                 </td>
               </tr>
-              <tr className='odd:bg-gray-200 bg-white-100'>
+              <tr className='odd:bg-gray-100 bg-white-100'>
                 <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-left table-cell'>
                   5
                 </td>
@@ -161,7 +161,7 @@ const CompleteList: React.FC = () => {
                 </td>
               </tr>
 
-              <tr className='odd:bg-gray-200 bg-white-100'>
+              <tr className='odd:bg-gray-100 bg-white-100'>
                 <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-left table-cell'>
                   6
                 </td>
@@ -188,7 +188,7 @@ const CompleteList: React.FC = () => {
                   </span>
                 </td>
               </tr>
-              <tr className='odd:bg-gray-200 bg-white-100'>
+              <tr className='odd:bg-gray-100 bg-white-100'>
                 <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-left table-cell'>
                   7
                 </td>
@@ -213,7 +213,7 @@ const CompleteList: React.FC = () => {
                   </span>
                 </td>
               </tr>
-              <tr className='odd:bg-gray-200 bg-white-100'>
+              <tr className='odd:bg-gray-100 bg-white-100'>
                 <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-left table-cell'>
                   8
                 </td>
@@ -238,7 +238,7 @@ const CompleteList: React.FC = () => {
                   </span>
                 </td>
               </tr>
-              <tr className='odd:bg-gray-200 bg-white-100'>
+              <tr className='odd:bg-gray-100 bg-white-100'>
                 <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-left table-cell'>
                   9
                 </td>
@@ -263,7 +263,7 @@ const CompleteList: React.FC = () => {
                   </span>
                 </td>
               </tr>
-              <tr className='odd:bg-gray-200 bg-white-100 rounded-tl-xxl rounded-br-xl-b'>
+              <tr className='odd:bg-gray-100 bg-white-100 rounded-t-md rounded-b-md-b'>
                 <td className='p-4 whitespace-no-wrap border-b border-gray-200 text-left table-cell'>
                   10
                 </td>

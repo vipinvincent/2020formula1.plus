@@ -5,9 +5,9 @@ import ContentLink from 'components/link/ContentLink'
 const F1: React.FC = () => {
   return (
     <div className='relative  mt-0'>
-      <div className='h-32 sm:h-84 w-full bg-white-100 rounded-tl-xxl '>
+      <div className='h-32 sm:h-84 w-full bg-white-100 rounded-md '>
         <img
-          className='w-full h-full object-contain rounded-tl-xxl'
+          className='w-full h-full object-contain rounded-t-md  '
           src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1596777189/contentImages/content/f170_iwh29t.jpg'
           alt='F1.com'
         />

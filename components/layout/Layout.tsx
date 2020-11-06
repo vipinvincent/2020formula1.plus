@@ -23,12 +23,12 @@ const Layout: React.FunctionComponent<Props> = ({
         <div className='w-full flex flex-row justify-start 4xl:flex-col flex-grow bg-white-100 container '>
           <div
             role='navigation'
-            className='flex flex-col flex-grow 4xl:flex-grow-0 justify-between bg-white-90 md:shadow-md h-full'>
+            className='flex flex-col flex-grow 4xl:flex-grow-0 justify-between bg-white-90 md:-md h-full'>
             <Navigation />
           </div>
           <div
             role='main'
-            className='flex flex-col flex-grow justify-between w-full main-content bg-black-10 mt-16 xs:mt-0'>
+            className='flex flex-col flex-grow justify-between w-full main-content bg-gray-200 mt-16 xs:mt-0'>
             {children}
           </div>
         </div>

@@ -11,7 +11,7 @@ const NavLink: React.FC<
   return (
     <Link href={href} prefetch={prefetch}>
       <a
-        className='border-transparent border border-dotted hover:border-primary-on text-primary-on hover:text-primary-hover hover:bg-black-5 focus:outline-none focus:border-secondary-focus focus:border-dotted active:outline-none active:shadow-none px-2 rounded-tl-xxl rounded-br-xxl '
+        className='border-transparent border border-dotted hover:border-primary-on text-primary-on hover:text-primary-hover hover:bg-black-5 focus:outline-none focus:border-secondary-focus focus:border-dotted active:outline-none active:-none px-2 rounded-md '
         href={href}
         target={target}>
         {children}

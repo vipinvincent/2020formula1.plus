@@ -6,8 +6,8 @@ const Race: React.FC = () => {
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
         Starting Grid - Emilia Romagna GP 2020
       </div>
-      <div className='w-full grid sm:flex sm:flex-col justify-around py-0 bg-green-600 rounded-tl-xxl rounded-br-xxl mb-4'>
-        <div className='align-middle min-w-full overflow-x-auto rounded-tl-xxl rounded-br-xl shadow bg-green-600 px-8'>
+      <div className='w-full grid sm:flex sm:flex-col justify-around py-0 bg-green-600 rounded-md mb-4'>
+        <div className='align-middle min-w-full overflow-x-auto rounded-t-md rounded-b-md  bg-green-600 px-8'>
           <div className='grid grid-cols-3 gap-4 pt-4 pb-4 bg-gray-700 border-l-8 border-r-8 border-white-100'>
             <div className='col-span-3 h-1 flex items-center justify-center border-dashed border-b-4  border-white-100'></div>
             <div className='col-span-2 bg-transparent h-12 flex items-center justify-center ml-2 mr-4 mb-2 pl-2 rounded-tl-lg border-l-2 border-t-2 border-white-100'>

@@ -3,10 +3,10 @@ import H1 from 'components/heading/H1'
 
 const Fourth: React.FC = () => {
   return (
-    <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
-      <div className='h-48 md:h-64 xl:h-104 w-full'>
+    <div className='relative bg-white-100 rounded-md'>
+      <div className='h-48 md:h-64 xl:h-104  w-full'>
         <img
-          className='w-full h-full object-cover rounded-tl-xxl'
+          className='w-full h-full object-cover rounded-t-md  '
           src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1599834663/contentImages/content/valteri-bottas_kvx19p.jpg'
           alt='FP3 REPORT - Eifel GP 2020'
         />

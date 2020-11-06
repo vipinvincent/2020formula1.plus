@@ -102,12 +102,12 @@ module.exports = {
       },
       borderRadius: {
         xl: '.75rem',
-        xxl: '1rem',
+        xxl: '.5rem',
       },
     },
   },
   variants: {
-    boxShadow: ['responsive', 'hover', 'focus', 'active'],
+    box: ['responsive', 'hover', 'focus', 'active'],
     border: ['responsive', 'hover', 'focus', 'active'],
     borderRadius: ['responsive', 'hover', 'focus'],
     textColor: ['responsive', 'hover', 'focus', 'active'],

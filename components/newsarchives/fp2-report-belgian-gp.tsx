@@ -6,7 +6,7 @@ const Archive31: React.FC = () => {
     <div className='relative'>
       {/* <div className='h-40 xl:h-48 w-full'>
         <img
-          className='w-full h-full object-cover rounded-tl-xxl'
+          className='w-full h-full object-cover rounded-t-md  '
           src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1598629313/contentImages/content/max-verstappen-red-bull-racing_qufnjn.jpg'
           alt='FP2 REPORT - Belgian GP 2020'
         />

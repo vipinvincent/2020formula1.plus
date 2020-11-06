@@ -5,14 +5,14 @@ import ThumbnailLink from 'components/link/ThumbnailLink'
 
 const Fourth: React.FC = () => {
   return (
-    <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
+    <div className='relative bg-white-100 rounded-md'>
       <ThumbnailLink
         href='https://www.youtube.com/watch?v=usmCWtj8-IA'
         target='_blank'>
-        <div className='h-full w-full rounded-tl-xxl relative flex'>
-          <div className='h-full w-full bg-black-100 rounded-tl-xxl'>
+        <div className='h-full w-full rounded-md relative flex'>
+          <div className='h-full w-full bg-black-100 rounded-t-md  '>
             <img
-              className='w-full h-48 lg:h-64 object-cover rounded-tl-xxl'
+              className='w-full h-48 lg:h-64 object-cover rounded-t-md  '
               src='https://img.youtube.com/vi/usmCWtj8-IA/sddefault.jpg'
               alt='F1 IN 10 | LATEST NEWS | Mercedesrecord, Piastris F1 test, and Alfa Romeo'
             />

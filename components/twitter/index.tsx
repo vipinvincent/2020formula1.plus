@@ -4,7 +4,7 @@ import { ErrorBoundary } from 'react-error-boundary'
 
 function ErrorFallback() {
   return (
-    <div className='w-100 h-32 flex flex-col justify-center text-white-100 font-medium text-lg px-4 bg-blue-500 shadow'>
+    <div className='w-100 h-32 flex flex-col justify-center text-white-100 font-medium text-lg px-4 bg-blue-500 '>
       <h3 className='text-xl font-semibold pb-4'>
         <img
           className='h-6 inline mr-2'
@@ -25,8 +25,8 @@ const Twitter: React.FC = () => {
         <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
           Tweets from formula 1 world
         </div>
-        <div className='w-full grid sm:flex sm:flex-col justify-around py-0 bg-white-100 rounded-tl-xxl rounded-br-xxl mb-4'>
-          <div className='align-middle min-w-full overflow-x-auto rounded-tl-xxl rounded-br-xl bg-white-100 shadow'>
+        <div className='w-full grid sm:flex sm:flex-col justify-around py-0 bg-white-100 rounded-md mb-4'>
+          <div className='align-middle min-w-full overflow-x-auto rounded-t-md rounded-b-md bg-white-100 '>
             <TwitterTimelineEmbed
               sourceType='list'
               ownerScreenName='formula1_plus'

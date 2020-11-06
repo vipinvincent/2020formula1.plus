@@ -42,9 +42,9 @@ const PlanetF1: React.FC = () => {
             Ultimately though a first Renault podium still eludes Ricciardo, as
             does Renault boss Cyril Abiteboul’s tattoo should Ricciardo visit
             the podium before his contract expires at the end of the season. “I
-            feel our podium this year, if it happens, will be overshadowed by
-            the tattoo!,” he told Sky F1. But P4 may not have been possible if
-            the Aussie had have risked it all against Verstappen at the start,
+            feel our podium this year, if it happens, will be overed by the
+            tattoo!,” he told Sky F1. But P4 may not have been possible if the
+            Aussie had have risked it all against Verstappen at the start,
             though that is something he wasn’t prepared to do.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>

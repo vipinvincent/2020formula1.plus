@@ -4,10 +4,10 @@ import H1 from 'components/heading/H1'
 
 const Main: React.FC = () => {
   return (
-    <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
+    <div className='relative bg-white-100 rounded-md'>
       <div className='h-48 md:h-64 xl:h-84 w-full'>
         <img
-          className='w-full h-full object-cover rounded-tl-xxl'
+          className='w-full h-full object-cover rounded-t-md  '
           src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1595179123/contentImages/content/hamilton_zjzo65.jpg'
           alt='Bottas leads  thetime sheet with Hamilton and Perez second and third in the final practice session in Hungary'
         />

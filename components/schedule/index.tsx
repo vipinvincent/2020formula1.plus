@@ -9,10 +9,10 @@ const Schedule: React.FC = () => {
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
         Upcoming Race
       </div>
-      <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
+      <div className='relative bg-white-100 rounded-md'>
         <div className='h-32 sm:h-48 py-4 w-full text-center'>
           <img
-            className='w-full h-full object-contain rounded-tl-xxl rounded-br-xl-t pt-2 px-8 text-center'
+            className='w-full h-full object-contain rounded-t-md rounded-b-md pt-2 px-8 text-center'
             src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1604485992/contentImages/circuit/Istanbul_park_tvltgy.png'
             alt='2020 Turkish Grand Prix'
           />

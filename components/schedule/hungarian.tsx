@@ -9,10 +9,10 @@ const Schedule: React.FC = () => {
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
         Round 3 - Hungarian GP
       </div>
-      <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
+      <div className='relative bg-white-100 rounded-md'>
         <div className='h-32 sm:h-40 w-full text-center'>
           <img
-            className='w-full h-full object-contain rounded-tl-xxl rounded-br-xl-t pt-4 text-center'
+            className='w-full h-full object-contain rounded-t-md rounded-b-md pt-4 text-center'
             src='https://upload.wikimedia.org/wikipedia/commons/thumb/9/91/Hungaroring.svg/228px-Hungaroring.svg.png'
             alt='2020 Austrian Grand Prix'
           />

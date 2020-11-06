@@ -7,7 +7,7 @@ const Left: React.FC = () => {
     <div className='relative'>
       <div className='h-40 xl:h-48 w-full'>
         <img
-          className='w-full h-full object-cover rounded-tl-xxl'
+          className='w-full h-full object-cover rounded-t-md  '
           src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1601214934/contentImages/content/bottas_bw5vun.jpg'
           alt='FP2 REPORT - Portuguese GP 2020'
         />

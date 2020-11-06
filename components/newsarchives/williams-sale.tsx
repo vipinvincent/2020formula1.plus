@@ -7,7 +7,7 @@ const Archive28: React.FC = () => {
     <div className='relative'>
       <div className='h-40 xl:h-48 w-full'>
         <img
-          className='w-full h-full object-cover rounded-tl-xxl'
+          className='w-full h-full object-cover rounded-t-md  '
           src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1598076171/contentImages/content/williams_azo6ch.jpg'
           alt='Williams announces the ale of F1 team to US investment company'
         />

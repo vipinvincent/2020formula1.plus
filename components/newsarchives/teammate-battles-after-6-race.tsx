@@ -3,10 +3,10 @@ import H1 from 'components/heading/H1'
 
 const Archive37: React.FC = () => {
   return (
-    <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
-      <div className='h-48 md:h-64 xl:h-104 w-full'>
+    <div className='relative bg-white-100 rounded-md'>
+      <div className='h-48 md:h-64 xl:h-104  w-full'>
         <img
-          className='w-full h-full object-contain rounded-tl-xxl bg-black-100'
+          className='w-full h-full object-contain rounded-md bg-black-100'
           src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1598167515/contentImages/content/team-battle_zseipx.jpg'
           alt='Team-mate battles in 2020 after 6 races!!!'
         />
@@ -26,7 +26,7 @@ const Archive37: React.FC = () => {
           </p>
 
           <ul className='grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3'>
-            <li className='col-span-1 bg-black-5 rounded-lg shadow-md border border-gray-200'>
+            <li className='col-span-1 bg-black-5 rounded-lg -md border border-gray-200'>
               <div className='w-full flex items-center justify-between p-2 space-x-6'>
                 <div className='flex-1 '>
                   <div className='flex justify-center space-x-3'>
@@ -49,7 +49,7 @@ const Archive37: React.FC = () => {
                 </div>
               </div>
             </li>
-            <li className='col-span-1 bg-black-5 rounded-lg shadow-md border border-gray-200'>
+            <li className='col-span-1 bg-black-5 rounded-lg -md border border-gray-200'>
               <div className='w-full flex items-center justify-between p-2 space-x-6'>
                 <div className='flex-1 '>
                   <div className='flex justify-center space-x-3'>
@@ -72,7 +72,7 @@ const Archive37: React.FC = () => {
                 </div>
               </div>
             </li>
-            <li className='col-span-1 bg-mercedes rounded-lg shadow-md border border-gray-200'>
+            <li className='col-span-1 bg-mercedes rounded-lg -md border border-gray-200'>
               <div className='w-full flex items-center justify-between p-2 space-x-6'>
                 <div className='flex-1 '>
                   <div className='flex justify-center space-x-3'>
@@ -103,7 +103,7 @@ const Archive37: React.FC = () => {
           </p>
 
           <ul className='grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3'>
-            <li className='col-span-1 bg-black-5 rounded-lg shadow-md border border-gray-200'>
+            <li className='col-span-1 bg-black-5 rounded-lg -md border border-gray-200'>
               <div className='w-full flex items-center justify-between p-2 space-x-6'>
                 <div className='flex-1 '>
                   <div className='flex justify-center space-x-3'>
@@ -126,7 +126,7 @@ const Archive37: React.FC = () => {
                 </div>
               </div>
             </li>
-            <li className='col-span-1 bg-black-5 rounded-lg shadow-md border border-gray-200'>
+            <li className='col-span-1 bg-black-5 rounded-lg -md border border-gray-200'>
               <div className='w-full flex items-center justify-between p-2 space-x-6'>
                 <div className='flex-1 '>
                   <div className='flex justify-center space-x-3'>
@@ -149,7 +149,7 @@ const Archive37: React.FC = () => {
                 </div>
               </div>
             </li>
-            <li className='col-span-1 bg-redbull rounded-lg shadow-md border border-gray-200'>
+            <li className='col-span-1 bg-redbull rounded-lg -md border border-gray-200'>
               <div className='w-full flex items-center justify-between p-2 space-x-6'>
                 <div className='flex-1 '>
                   <div className='flex justify-center space-x-3'>
@@ -179,7 +179,7 @@ const Archive37: React.FC = () => {
           </p>
 
           <ul className='grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3'>
-            <li className='col-span-1 bg-black-5 rounded-lg shadow-md border border-gray-200'>
+            <li className='col-span-1 bg-black-5 rounded-lg -md border border-gray-200'>
               <div className='w-full flex items-center justify-between p-2 space-x-6'>
                 <div className='flex-1 '>
                   <div className='flex justify-center space-x-3'>
@@ -202,7 +202,7 @@ const Archive37: React.FC = () => {
                 </div>
               </div>
             </li>
-            <li className='col-span-1 bg-black-5 rounded-lg shadow-md border border-gray-200'>
+            <li className='col-span-1 bg-black-5 rounded-lg -md border border-gray-200'>
               <div className='w-full flex items-center justify-between p-2 space-x-6'>
                 <div className='flex-1 '>
                   <div className='flex justify-center space-x-3'>
@@ -225,7 +225,7 @@ const Archive37: React.FC = () => {
                 </div>
               </div>
             </li>
-            <li className='col-span-1 bg-racingpoint rounded-lg shadow-md border border-gray-200'>
+            <li className='col-span-1 bg-racingpoint rounded-lg -md border border-gray-200'>
               <div className='w-full flex items-center justify-between p-2 space-x-6'>
                 <div className='flex-1 '>
                   <div className='flex justify-center space-x-3'>
@@ -255,7 +255,7 @@ const Archive37: React.FC = () => {
           </p>
 
           <ul className='grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3'>
-            <li className='col-span-1 bg-black-5 rounded-lg shadow-md border border-gray-200'>
+            <li className='col-span-1 bg-black-5 rounded-lg -md border border-gray-200'>
               <div className='w-full flex items-center justify-between p-2 space-x-6'>
                 <div className='flex-1 '>
                   <div className='flex justify-center space-x-3'>
@@ -278,7 +278,7 @@ const Archive37: React.FC = () => {
                 </div>
               </div>
             </li>
-            <li className='col-span-1 bg-black-5 rounded-lg shadow-md border border-gray-200'>
+            <li className='col-span-1 bg-black-5 rounded-lg -md border border-gray-200'>
               <div className='w-full flex items-center justify-between p-2 space-x-6'>
                 <div className='flex-1 '>
                   <div className='flex justify-center space-x-3'>
@@ -301,7 +301,7 @@ const Archive37: React.FC = () => {
                 </div>
               </div>
             </li>
-            <li className='col-span-1 bg-mclaren rounded-lg shadow-md border border-gray-200'>
+            <li className='col-span-1 bg-mclaren rounded-lg -md border border-gray-200'>
               <div className='w-full flex items-center justify-between p-2 space-x-6'>
                 <div className='flex-1 '>
                   <div className='flex justify-center space-x-3'>
@@ -329,7 +329,7 @@ const Archive37: React.FC = () => {
           </p>
 
           <ul className='grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3'>
-            <li className='col-span-1 bg-black-5 rounded-lg shadow-md border border-gray-200'>
+            <li className='col-span-1 bg-black-5 rounded-lg -md border border-gray-200'>
               <div className='w-full flex items-center justify-between p-2 space-x-6'>
                 <div className='flex-1 '>
                   <div className='flex justify-center space-x-3'>
@@ -352,7 +352,7 @@ const Archive37: React.FC = () => {
                 </div>
               </div>
             </li>
-            <li className='col-span-1 bg-black-5 rounded-lg shadow-md border border-gray-200'>
+            <li className='col-span-1 bg-black-5 rounded-lg -md border border-gray-200'>
               <div className='w-full flex items-center justify-between p-2 space-x-6'>
                 <div className='flex-1 '>
                   <div className='flex justify-center space-x-3'>
@@ -375,7 +375,7 @@ const Archive37: React.FC = () => {
                 </div>
               </div>
             </li>
-            <li className='col-span-1 bg-ferrari rounded-lg shadow-md border border-gray-200'>
+            <li className='col-span-1 bg-ferrari rounded-lg -md border border-gray-200'>
               <div className='w-full flex items-center justify-between p-2 space-x-6'>
                 <div className='flex-1 '>
                   <div className='flex justify-center space-x-3'>
@@ -405,7 +405,7 @@ const Archive37: React.FC = () => {
           </p>
 
           <ul className='grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3'>
-            <li className='col-span-1 bg-black-5 rounded-lg shadow-md border border-gray-200'>
+            <li className='col-span-1 bg-black-5 rounded-lg -md border border-gray-200'>
               <div className='w-full flex items-center justify-between p-2 space-x-6'>
                 <div className='flex-1 '>
                   <div className='flex justify-center space-x-3'>
@@ -428,7 +428,7 @@ const Archive37: React.FC = () => {
                 </div>
               </div>
             </li>
-            <li className='col-span-1 bg-black-5 rounded-lg shadow-md border border-gray-200'>
+            <li className='col-span-1 bg-black-5 rounded-lg -md border border-gray-200'>
               <div className='w-full flex items-center justify-between p-2 space-x-6'>
                 <div className='flex-1 '>
                   <div className='flex justify-center space-x-3'>
@@ -451,7 +451,7 @@ const Archive37: React.FC = () => {
                 </div>
               </div>
             </li>
-            <li className='col-span-1 bg-renault rounded-lg shadow-md border border-gray-200'>
+            <li className='col-span-1 bg-renault rounded-lg -md border border-gray-200'>
               <div className='w-full flex items-center justify-between p-2 space-x-6'>
                 <div className='flex-1 '>
                   <div className='flex justify-center space-x-3'>
@@ -481,7 +481,7 @@ const Archive37: React.FC = () => {
           </p>
 
           <ul className='grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3'>
-            <li className='col-span-1 bg-black-5 rounded-lg shadow-md border border-gray-200'>
+            <li className='col-span-1 bg-black-5 rounded-lg -md border border-gray-200'>
               <div className='w-full flex items-center justify-between p-2 space-x-6'>
                 <div className='flex-1 '>
                   <div className='flex justify-center space-x-3'>
@@ -504,7 +504,7 @@ const Archive37: React.FC = () => {
                 </div>
               </div>
             </li>
-            <li className='col-span-1 bg-black-5 rounded-lg shadow-md border border-gray-200'>
+            <li className='col-span-1 bg-black-5 rounded-lg -md border border-gray-200'>
               <div className='w-full flex items-center justify-between p-2 space-x-6'>
                 <div className='flex-1 '>
                   <div className='flex justify-center space-x-3'>
@@ -527,7 +527,7 @@ const Archive37: React.FC = () => {
                 </div>
               </div>
             </li>
-            <li className='col-span-1 bg-alphatauri rounded-lg shadow-md border border-gray-200'>
+            <li className='col-span-1 bg-alphatauri rounded-lg -md border border-gray-200'>
               <div className='w-full flex items-center justify-between p-2 space-x-6'>
                 <div className='flex-1 '>
                   <div className='flex justify-center space-x-3'>
@@ -555,7 +555,7 @@ const Archive37: React.FC = () => {
           </p>
 
           <ul className='grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3'>
-            <li className='col-span-1 bg-black-5 rounded-lg shadow-md border border-gray-200'>
+            <li className='col-span-1 bg-black-5 rounded-lg -md border border-gray-200'>
               <div className='w-full flex items-center justify-between p-2 space-x-6'>
                 <div className='flex-1 '>
                   <div className='flex justify-center space-x-3'>
@@ -578,7 +578,7 @@ const Archive37: React.FC = () => {
                 </div>
               </div>
             </li>
-            <li className='col-span-1 bg-black-5 rounded-lg shadow-md border border-gray-200'>
+            <li className='col-span-1 bg-black-5 rounded-lg -md border border-gray-200'>
               <div className='w-full flex items-center justify-between p-2 space-x-6'>
                 <div className='flex-1 '>
                   <div className='flex justify-center space-x-3'>
@@ -601,7 +601,7 @@ const Archive37: React.FC = () => {
                 </div>
               </div>
             </li>
-            <li className='col-span-1 bg-alfaromeo rounded-lg shadow-md border border-gray-200'>
+            <li className='col-span-1 bg-alfaromeo rounded-lg -md border border-gray-200'>
               <div className='w-full flex items-center justify-between p-2 space-x-6'>
                 <div className='flex-1 '>
                   <div className='flex justify-center space-x-3'>
@@ -631,7 +631,7 @@ const Archive37: React.FC = () => {
           </p>
 
           <ul className='grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3'>
-            <li className='col-span-1 bg-black-5 rounded-lg shadow-md border border-gray-200'>
+            <li className='col-span-1 bg-black-5 rounded-lg -md border border-gray-200'>
               <div className='w-full flex items-center justify-between p-2 space-x-6'>
                 <div className='flex-1 '>
                   <div className='flex justify-center space-x-3'>
@@ -654,7 +654,7 @@ const Archive37: React.FC = () => {
                 </div>
               </div>
             </li>
-            <li className='col-span-1 bg-black-5 rounded-lg shadow-md border border-gray-200'>
+            <li className='col-span-1 bg-black-5 rounded-lg -md border border-gray-200'>
               <div className='w-full flex items-center justify-between p-2 space-x-6'>
                 <div className='flex-1 '>
                   <div className='flex justify-center space-x-3'>
@@ -677,7 +677,7 @@ const Archive37: React.FC = () => {
                 </div>
               </div>
             </li>
-            <li className='col-span-1 bg-haas rounded-lg shadow-md border border-gray-200'>
+            <li className='col-span-1 bg-haas rounded-lg -md border border-gray-200'>
               <div className='w-full flex items-center justify-between p-2 space-x-6'>
                 <div className='flex-1 '>
                   <div className='flex justify-center space-x-3'>
@@ -708,7 +708,7 @@ const Archive37: React.FC = () => {
           </p>
 
           <ul className='grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3'>
-            <li className='col-span-1 bg-black-5 rounded-lg shadow-md border border-gray-200'>
+            <li className='col-span-1 bg-black-5 rounded-lg -md border border-gray-200'>
               <div className='w-full flex items-center justify-between p-2 space-x-6'>
                 <div className='flex-1 '>
                   <div className='flex justify-center space-x-3'>
@@ -731,7 +731,7 @@ const Archive37: React.FC = () => {
                 </div>
               </div>
             </li>
-            <li className='col-span-1 bg-black-5 rounded-lg shadow-md border border-gray-200'>
+            <li className='col-span-1 bg-black-5 rounded-lg -md border border-gray-200'>
               <div className='w-full flex items-center justify-between p-2 space-x-6'>
                 <div className='flex-1 '>
                   <div className='flex justify-center space-x-3'>
@@ -754,7 +754,7 @@ const Archive37: React.FC = () => {
                 </div>
               </div>
             </li>
-            <li className='col-span-1 bg-williams rounded-lg shadow-md border border-gray-200'>
+            <li className='col-span-1 bg-williams rounded-lg -md border border-gray-200'>
               <div className='w-full flex items-center justify-between p-2 space-x-6'>
                 <div className='flex-1 '>
                   <div className='flex justify-center space-x-3'>

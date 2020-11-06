@@ -234,7 +234,7 @@ const data = {
 const TeamChart: React.FC = () => {
   return (
     <div className=' hidden md:flex flex-col mb-4'>
-      <div className='relative bg-white-100 rounded-tl-xxl rounded-br-xxl shadow'>
+      <div className='relative bg-white-100 rounded-md'>
         <div className='flex flex-col mx-4 mt-4'>
           <div className='pb-4'>
             <Line data={data} />

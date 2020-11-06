@@ -12,7 +12,7 @@ const F1Plus = dynamic(() => import('components/f1plus/animation'))
 const Header: React.FC = () => {
   return (
     <header
-      className='w-full bg-white-100 fixed xs:relative top-0 right-0 left-0 lg:flex lg:items-center lg:justify-between mx-auto py-1 header container z-20 shadow'
+      className='w-full bg-white-100 fixed xs:relative top-0 right-0 left-0 lg:flex lg:items-center lg:justify-between mx-auto py-1 header container z-20 border border-b border-gray-200'
       id='top'>
       <div className='hidden lg:flex justify-end lg:order-2 w-8/12 pr-4 h-10 xs:h-20 whitespace-no-wrap'>
         <NavLink href='/news' target='_self'>
@@ -77,7 +77,7 @@ const Header: React.FC = () => {
           <NavLink
             target='_self'
             href={'/'}
-            className='border-transparent border border-dotted focus:outline-none focus:border-primary-focus focus:border-dotted active:outline-none active:shadow-none block px-2 grow'>
+            className='border-transparent border border-dotted focus:outline-none focus:border-primary-focus focus:border-dotted active:outline-none active:-none block px-2 grow'>
             <F1Plus />
           </NavLink>
         </div>
