@@ -1,7 +1,6 @@
 import React from 'react'
 import ContentLink from 'components/link/ContentLink'
 import Zoom from 'react-medium-image-zoom'
-// import SiderBarLink from 'components/link/SiderBarLink'
 
 const Schedule: React.FC = () => {
   return (

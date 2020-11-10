@@ -336,7 +336,7 @@ const Schedule: React.FC = () => {
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2 self-start'>
                   <div className='inine-block pb-4'>
                     <div className='text-primary-on text-lg font-bold leading-5 w-12 inline-block'>
-                      I<sup>st</sup>
+                      P1
                       <br />
                       &nbsp;
                     </div>
@@ -348,7 +348,7 @@ const Schedule: React.FC = () => {
                   </div>
                   <div className='inine-block pb-4'>
                     <div className='text-primary-on text-lg font-bold leading-5 w-12 inline-block'>
-                      II<sup>nd</sup>
+                      P2
                       <br />
                       &nbsp;
                     </div>
@@ -360,7 +360,7 @@ const Schedule: React.FC = () => {
                   </div>
                   <div className='inine-block pb-4'>
                     <div className='text-primary-on text-lg font-bold leading-5 w-12 inline-block '>
-                      III<sup>st</sup>
+                      P3
                       <br />
                       &nbsp;
                     </div>
@@ -403,7 +403,7 @@ const Schedule: React.FC = () => {
                   </div>
                   <div className='inine-block pb-4'>
                     <div className='text-primary-on text-lg font-bold leading-5 w-12 inline-block'>
-                      III<sup>st</sup>
+                      III<sup>rd</sup>
                       <br />
                       &nbsp;
                     </div>

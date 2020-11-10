@@ -1,7 +1,6 @@
 import React from 'react'
 import ContentLink from 'components/link/ContentLink'
 import Zoom from 'react-medium-image-zoom'
-// import SiderBarLink from 'components/link/SiderBarLink'
 
 const Schedule: React.FC = () => {
   return (
@@ -338,6 +337,49 @@ const Schedule: React.FC = () => {
                       Valtteri Bottas (<span className='text'>Mercedes</span>){' '}
                       <br />
                       +18.960s
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
+                <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1 self-center'>
+                  2019 Qualifying Results
+                </div>
+                <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2 self-start'>
+                  <div className='inine-block pb-4'>
+                    <div className='text-primary-on text-lg font-bold leading-5 w-12 inline-block'>
+                      P1
+                      <br />
+                      &nbsp;
+                    </div>
+                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block ferrari'>
+                      Charles Leclerc (<span className='text'>Ferrari</span>){' '}
+                      <br />
+                      1:03.003
+                    </div>
+                  </div>
+                  <div className='inine-block pb-4'>
+                    <div className='text-primary-on text-lg font-bold leading-5 w-12 inline-block'>
+                      P2
+                      <br />
+                      &nbsp;
+                    </div>
+                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block mercedes'>
+                      Lewis Hamilton (<span className='text'>Mercedes</span>){' '}
+                      <br />
+                      1:03.262
+                    </div>
+                  </div>
+                  <div className='inine-block'>
+                    <div className='text-primary-on text-lg font-bold leading-5 w-12 inline-block'>
+                      P3
+                      <br />
+                      &nbsp;
+                    </div>
+                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block redbull'>
+                      Max Verstappen (<span className='text'>Red Bull</span>){' '}
+                      <br />
+                      1:03.439
                     </div>
                   </div>
                 </div>
