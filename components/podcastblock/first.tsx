@@ -7,14 +7,14 @@ const First: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-md'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=zwxY88N6yBE'
+        href='https://www.youtube.com/watch?v=Q1y7YSAfxUg'
         target='_blank'>
         <div className='h-full w-full rounded-md relative flex'>
           <div className='h-full w-full bg-black-100 rounded-t-md  '>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-t-md  '
-              src='https://img.youtube.com/vi/zwxY88N6yBE/sddefault.jpg'
-              alt='F1 Nation: Why You Should Never Ignore Daniel Ricciardo'
+              src='https://img.youtube.com/vi/Q1y7YSAfxUg/sddefault.jpg'
+              alt='Eric Boullier Interview | Beyond The Grid | Official F1 Podcast'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,14 +32,15 @@ const First: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=zwxY88N6yBE'
+            href='https://www.youtube.com/watch?v=Q1y7YSAfxUg'
             target='_blank'>
-            F1 Nation: Why You Should Never Ignore Daniel Ricciardo
+            Eric Boullier Interview | Beyond The Grid | Official F1 Podcast
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            After a historic weekend at Imola, Tom Clarkson and Alex Jacques
-            discuss another stellar drive from Daniel Ricciardo, Mercedes
-            seventh straight title and much more.
+            Eric Boullier has enjoyed a wonderfully varied career in Formula 1,
+            as Team Principal with Renault and then Lotus, Racing Director at
+            McLaren and Managing Director of the French Grand Prix. Here, he
+            talks about his memorable moments during his stay in the sport.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}

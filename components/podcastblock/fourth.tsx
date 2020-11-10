@@ -7,14 +7,14 @@ const Fourth: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-md'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=usmCWtj8-IA'
+        href='https://www.youtube.com/watch?v=LhrWfcvWKLg'
         target='_blank'>
         <div className='h-full w-full rounded-md relative flex'>
           <div className='h-full w-full bg-black-100 rounded-t-md  '>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-t-md  '
-              src='https://img.youtube.com/vi/usmCWtj8-IA/sddefault.jpg'
-              alt='F1 IN 10 | LATEST NEWS | Mercedesrecord, Piastris F1 test, and Alfa Romeo'
+              src='https://img.youtube.com/vi/LhrWfcvWKLg/sddefault.jpg'
+              alt='I Created My PERFECT 2020 Formula 1 Driver'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,22 +32,18 @@ const Fourth: React.FC = () => {
             PODCAST
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=usmCWtj8-IA'
+            href='https://www.youtube.com/watch?v=LhrWfcvWKLg'
             target='_blank'>
-            F1 IN 10 | LATEST NEWS | Mercedes' record, Piastri's F1 test, and
-            Alfa Romeo
+            I Created My PERFECT 2020 Formula 1 Driver
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            - Hamilton set for seventh title - Piastri gets Bahrain test -
-            Stability at Alfa Romeo - Gasly gets 2021 AlphaTauri nod - Massa
-            keen for another slice of Turkey - Saudi race plan meets opposition
-            - Driver salary cap coming - Reverse-grid quali races blocked again
-            - Ferrari world finals postponed - Bottas tyre decision defended
+            So during a livestream, I had a brain wave. Why not create my dream
+            F1 driver, based on all the specific traits that make one up?
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='https://unbeaten.com/formula1 ' target='_blank'>
-              Unbeaten F1
+            <ContentLink href='https://tommccluskey.co.uk' target='_blank'>
+              Tommo F1
             </ContentLink>
           </p>
         </div>

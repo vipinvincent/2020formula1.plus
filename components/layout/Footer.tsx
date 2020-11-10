@@ -4,8 +4,8 @@ import ThumbnailLink from 'components/link/ThumbnailLink'
 const Footer: React.FunctionComponent = () => (
   <footer className='w-full flex flex-col justify-center mx-auto footer container pb-12 lg:pb-0 bg-white-100 container border-t border-gray-300'>
     <p className='text-center text-gray-700 text-xs font-normal leading-normal pt-4 px-4'>
-      ©2020
-      <span className='text-xs'>formula1.plus</span>
+      © 2020
+      <span className='text-xs pl-1'>formula1.plus</span>
     </p>
     <div className='mt-0 flex justify-center'>
       <ThumbnailLink href='https://twitter.com/formula1_plus' target='_blank'>

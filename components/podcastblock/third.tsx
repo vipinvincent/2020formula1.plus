@@ -7,14 +7,14 @@ const Third: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-md'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=m5TdhCA4hi8'
+        href='https://www.youtube.com/watch?v=dxAkLt3JouA'
         target='_blank'>
         <div className='h-full w-full rounded-md relative flex'>
           <div className='h-full w-full bg-black-100 rounded-t-md  '>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-t-md  '
-              src='https://img.youtube.com/vi/m5TdhCA4hi8/sddefault.jpg'
-              alt='Champions Crowned At Imola'
+              src='https://img.youtube.com/vi/dxAkLt3JouA/sddefault.jpg'
+              alt='How Will Alonso Do In F1 2021? '
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,12 +32,12 @@ const Third: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=m5TdhCA4hi8'
+            href='https://www.youtube.com/watch?v=dxAkLt3JouA'
             target='_blank'>
-            Champions Crowned At Imola
+            How Will Alonso Do In F1 2021?
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Champions Crowned At Imola
+            How Will Alonso Do In F1 2021? AskElvis
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}

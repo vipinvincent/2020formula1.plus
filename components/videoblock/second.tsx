@@ -7,14 +7,14 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-md'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=3-xI7sp27Og'
+        href='https://www.youtube.com/watch?v=yM17OzqSBCU'
         target='_blank'>
         <div className='h-full w-full rounded-md relative flex'>
           <div className='h-full w-full bg-black-100 rounded-t-md  '>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-t-md  '
-              src='https://img.youtube.com/vi/3-xI7sp27Og/sddefault.jpg'
-              alt='The F1 Calendar Headache - the seasons too long AND theres not enough tracks on it'
+              src='https://img.youtube.com/vi/yM17OzqSBCU/sddefault.jpg'
+              alt='F1s new rules to stop copycat cars explained'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,20 +32,24 @@ const Second: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=3-xI7sp27Og'
+            href='https://www.youtube.com/watch?v=yM17OzqSBCU'
             target='_blank'>
-            The F1 Calendar Headache - the season's too long AND there's not
-            enough tracks on it
+            F1’s new rules to stop copycat cars explained
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The F1 Calendar is getting VERY long. 23 races in 2021? Lots of
-            boring Tilkedromes and not enough classic awesome tracks? How can we
-            have it all? Let's chat.
+            Formula 1’s mission to eliminate a repeat of the Racing Point ‘Pink
+            Mercedes’ controversy from 2020 have come together in the form of
+            extensive new rules aimed at preventing a team from repeating the
+            tricks Racing Point used in the future. In this video Edd Straw
+            talks you through what’s changed, what teams are still allowed to
+            do, and how the FIA can possibly hope to police it.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='http://chainbear.me/' target=' _blank'>
-              Chain Bear
+            <ContentLink
+              href='https://the-race.com/formula-1/red-bulls-engine-freeze-bid-tipped-to-fail-so-what-next/'
+              target='_blank'>
+              The Race
             </ContentLink>
           </p>
         </div>

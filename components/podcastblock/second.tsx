@@ -7,14 +7,14 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-md'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=0e2-c2qruVc'
+        href='https://www.youtube.com/watch?v=NhmxWQOmcuY'
         target='_blank'>
         <div className='h-full w-full rounded-md relative flex'>
           <div className='h-full w-full bg-black-100 rounded-t-md  '>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-t-md  '
-              src='https://img.youtube.com/vi/0e2-c2qruVc/sddefault.jpg'
-              alt='2020 Imola GP Race Review | WTF1 Podcast'
+              src='https://img.youtube.com/vi/NhmxWQOmcuY/sddefault.jpg'
+              alt='Daniel Ricciardo: The Difference Maker For Renault'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,20 +32,24 @@ const Second: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=0e2-c2qruVc'
+            href='https://www.youtube.com/watch?v=NhmxWQOmcuY'
             target='_blank'>
-            2020 Imola GP Race Review | WTF1 Podcast
+            Daniel Ricciardo: The Difference Maker For Renault
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            F1's return to Imola threw up plenty of talking points! Join Matt,
-            Tommy & Katy as they look at whether the circuit is suited for
-            modern F1, George Russell crashing out of the points and whether
-            Lewis Hamilton is thinking about calling it a day.
+            Daniel Ricciardo has been one of the standout performers in the 2020
+            F1 season. He and the team have gone on a superb run of form
+            recently, comfortably fighting at the forefront of the midfield.
+            After scoring two podiums so far, I have decided to take a look at
+            the phenomenal season Ricciardo is having, and what I think his
+            performance this season means going forward.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='http://www.wtf1.com' target='_blank'>
-              WTF1
+            <ContentLink
+              href='https://www.youtube.com/c/BMPHF1/'
+              target='_blank'>
+              BMPHF1
             </ContentLink>
           </p>
         </div>

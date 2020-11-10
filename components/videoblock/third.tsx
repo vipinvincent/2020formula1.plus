@@ -7,14 +7,14 @@ const Third: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-md'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=7cCOR8AIbRo'
+        href='https://www.youtube.com/watch?v=b7gt9P-gdKM'
         target='_blank'>
         <div className='h-full w-full rounded-md relative flex'>
           <div className='h-full w-full bg-black-100 rounded-t-md  '>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-t-md  '
-              src='https://img.youtube.com/vi/7cCOR8AIbRo/sddefault.jpg'
-              alt='Red Bulls F1 quit threat over engine stand-off explained'
+              src='https://img.youtube.com/vi/b7gt9P-gdKM/sddefault.jpg'
+              alt='Whats Inside a $5000 F1 Helmet?'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,27 +32,25 @@ const Third: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=7cCOR8AIbRo'
+            href='https://www.youtube.com/watch?v=b7gt9P-gdKM'
             target='_blank'>
-            Red Bull's F1 quit threat over engine stand-off explained
+            What's Inside a $5000 F1 Helmet?
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Red Bull's hopes of taking over Honda's F1 engine project when the
-            manufacturer leaves after 2021 have hit trouble. Rivals Ferrari and
-            Renault are not keen on bringing forward F1's engine freeze to 2022
-            just to help Red Bull out, so now it faces a big decision about what
-            to do next - and it's even claimed it could walk away from F1
-            entirely if it doesn't get what it wants. In this video Scott
-            Mitchell outlines why Red Bull's Plan A doesn't have the support it
-            needs, what its alternatives are, and if it could really pull the
-            plug on the two teams it owns on the grid.
+            F1 Helmets have to be unbelievably strong to protect the driver's
+            head at over 200mph and resist high speed impacts. So today we are
+            going to cut one open and see how they are constructed to be so
+            strong, impact resistant and still extremely light. I take my
+            F1-grade helmet that I've been using for the last 8 years and cut it
+            open. We examine the carbon fibre lay-up as well as how it's
+            constructed to pass the various rigorous safety standards. Such as a
+            projectile being shot at it at over 250kph and being heated to over
+            700ºC!
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink
-              href='https://the-race.com/formula-1/red-bulls-engine-freeze-bid-tipped-to-fail-so-what-next/'
-              target='_blank'>
-              The Race
+            <ContentLink href='https://driver61.com/' target='_blank'>
+              Driver61
             </ContentLink>
           </p>
         </div>
