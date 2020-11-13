@@ -7,14 +7,14 @@ const Fourth: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-md'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=LhrWfcvWKLg'
+        href='https://www.youtube.com/watch?v=DTE8gHT0GAA'
         target='_blank'>
         <div className='h-full w-full rounded-md relative flex'>
           <div className='h-full w-full bg-black-100 rounded-t-md  '>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-t-md  '
-              src='https://img.youtube.com/vi/LhrWfcvWKLg/sddefault.jpg'
-              alt='I Created My PERFECT 2020 Formula 1 Driver'
+              src='https://img.youtube.com/vi/DTE8gHT0GAA/sddefault.jpg'
+              alt='2021 Formula 1 Calendar Reaction'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,13 +32,12 @@ const Fourth: React.FC = () => {
             PODCAST
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=LhrWfcvWKLg'
+            href='https://www.youtube.com/watch?v=DTE8gHT0GAA'
             target='_blank'>
-            I Created My PERFECT 2020 Formula 1 Driver
+            2021 Formula 1 Calendar Reaction
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            So during a livestream, I had a brain wave. Why not create my dream
-            F1 driver, based on all the specific traits that make one up?
+            The 2021 F1 Calendar is now confirmed, lets take a look!
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}

@@ -1,4 +1,9 @@
 import React from 'react'
+// import Archive63 from 'components/newsarchives/race-report-portuguese-gp'
+// import Archive62 from 'components/newsarchives/qualifying-report-portuguese-gp'
+// import Archive61 from 'components/newsarchives/fp3-report-portuguese-gp'
+// import Archive60 from 'components/newsarchives/fp2-report-portuguese-gp'
+// import Archive59 from 'components/newsarchives/fp1-report-portuguese-gp'
 import Archive58 from 'components/newsarchives/race-report-eifel-gp'
 import Archive57 from 'components/newsarchives/qualifying-report-eifel-gp'
 import Archive56 from 'components/newsarchives/fp3-report-eifel-gp'
@@ -64,6 +69,25 @@ const Main: React.FC = () => {
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mt-0 mb-1 px-2 '>
         Archived News
       </div>
+      {/* <div className='w-100 bg-white-100 rounded-md mt-0'>
+        <Archive63 />
+      </div>
+      <div className='w-100 flex flex-col xl:flex-row'>
+        <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 mt-4 bg-white-100 rounded-md '>
+          <Archive62 />
+        </div>
+        <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 mt-4 bg-white-100 rounded-md '>
+          <Archive61 />
+        </div>
+      </div>
+      <div className='w-100 flex flex-col xl:flex-row'>
+        <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 mt-4 bg-white-100 rounded-md '>
+          <Archive60 />
+        </div>
+        <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 mt-4 bg-white-100 rounded-md '>
+          <Archive59 />
+        </div>
+      </div> */}
       <div className='w-100 bg-white-100 rounded-md mt-0'>
         <Archive58 />
       </div>

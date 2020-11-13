@@ -7,14 +7,14 @@ const Third: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-md'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=b7gt9P-gdKM'
+        href='https://www.youtube.com/watch?v=NhRcqrrghp4'
         target='_blank'>
         <div className='h-full w-full rounded-md relative flex'>
           <div className='h-full w-full bg-black-100 rounded-t-md  '>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-t-md  '
-              src='https://img.youtube.com/vi/b7gt9P-gdKM/sddefault.jpg'
-              alt='Whats Inside a $5000 F1 Helmet?'
+              src='https://img.youtube.com/vi/NhRcqrrghp4/sddefault.jpg'
+              alt='Turkish Grand Prix Preview F1 2020'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,25 +32,24 @@ const Third: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=b7gt9P-gdKM'
+            href='https://www.youtube.com/watch?v=NhRcqrrghp4'
             target='_blank'>
-            What's Inside a $5000 F1 Helmet?
+            Turkish Grand Prix Preview F1 2020
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            F1 Helmets have to be unbelievably strong to protect the driver's
-            head at over 200mph and resist high speed impacts. So today we are
-            going to cut one open and see how they are constructed to be so
-            strong, impact resistant and still extremely light. I take my
-            F1-grade helmet that I've been using for the last 8 years and cut it
-            open. We examine the carbon fibre lay-up as well as how it's
-            constructed to pass the various rigorous safety standards. Such as a
-            projectile being shot at it at over 250kph and being heated to over
-            700ºC!
+            Formula 1 is back this weekend for the F1 2020 Turkish Grand Prix!
+            Today we preview the weekend/race, taking a look at last seasons
+            results, the championship so far, a hot lap of the Istanbul Circuit,
+            My predictions and a look at the schedule for this weekends F1 and
+            F2! ! With Hamilton now a 6 time champion, can Bottas, Leclerc,
+            Verstappen and Vettel challenge even closer this year?
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='https://driver61.com/' target='_blank'>
-              Driver61
+            <ContentLink
+              href='https://www.youtube.com/c/F1Reviews/'
+              target='_blank'>
+              F1/E Reviews
             </ContentLink>
           </p>
         </div>

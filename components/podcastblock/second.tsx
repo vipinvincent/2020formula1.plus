@@ -7,14 +7,14 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-md'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=NhmxWQOmcuY'
+        href='https://www.youtube.com/watch?v=05bJ5ddWut0'
         target='_blank'>
         <div className='h-full w-full rounded-md relative flex'>
           <div className='h-full w-full bg-black-100 rounded-t-md  '>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-t-md  '
-              src='https://img.youtube.com/vi/NhmxWQOmcuY/sddefault.jpg'
-              alt='Daniel Ricciardo: The Difference Maker For Renault'
+              src='https://img.youtube.com/vi/05bJ5ddWut0/sddefault.jpg'
+              alt='Turkish Grand Prix Preview - Is 23 races simply too many?'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,24 +32,18 @@ const Second: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=NhmxWQOmcuY'
+            href='https://www.youtube.com/watch?v=05bJ5ddWut0'
             target='_blank'>
-            Daniel Ricciardo: The Difference Maker For Renault
+            Turkish Grand Prix Preview - Is 23 races simply too many?
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Daniel Ricciardo has been one of the standout performers in the 2020
-            F1 season. He and the team have gone on a superb run of form
-            recently, comfortably fighting at the forefront of the midfield.
-            After scoring two podiums so far, I have decided to take a look at
-            the phenomenal season Ricciardo is having, and what I think his
-            performance this season means going forward.
+            The biggest stories in F1 today - Turkish Grand Prix Preview - Is 23
+            races simply too many?
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink
-              href='https://www.youtube.com/c/BMPHF1/'
-              target='_blank'>
-              BMPHF1
+            <ContentLink href='http://www.formulaspy.com' target='_blank'>
+              Thomas Maher
             </ContentLink>
           </p>
         </div>
