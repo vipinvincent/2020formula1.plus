@@ -8,64 +8,52 @@ const Right: React.FC = () => {
       <div className='h-40 xl:h-48 w-full'>
         <img
           className='w-full h-full object-cover rounded-t-md  '
-          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1595072621/contentImages/content/valtteri_-bottas_m5dgbs.jpg'
-          alt='FP1 REPORT - Portuguese GP 2020'
+          src='https://res.cloudinary.com/f1plus/image/upload/v1605276462/contentImages/content/max-v_hjrfgd.jpg'
+          alt='FP1 REPORT - Turkish GP 2020'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-2 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            FP1 REPORT - Portuguese GP 2020
+            FP1 REPORT - Turkish GP 2020
           </div>
           <H1>
-            Bottas leads Hamilton and Verstappen as Formula 1 revisits Portugal
-            soil since 1996
+            Verstappen quickest in FP1 with Albon in second and Leclerc in third
+            as drivers find the resurfaced Istanbul Park “icy”
           </H1>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Friday King Valtteri Bottas became the fastest driver in FP1 at
-            Portimao circuit in the first Portuguese Grand Prix weekend since
-            1996. Championship leader Lewis Hamilton comes home in P2 as Red
-            Bull’s Max Verstappen crossed the line P3. Most drivers opted for
-            the hardest component tyres in the first practice session on the
-            resurfaced Portimao circuit. Towards the end of the session both
-            Mercedes drivers fitted with Yellow Medium tyres traded the places
-            on the top of the grid, eventually Bottas pipped Hamilton at the
-            chequered flag. Meanwhile Verstappen stuck with white Hard component
-            tyres, concentrated mostly in long runs. Charles Leclerc in the
-            updated Ferrari SF1000 crossed the line in P4 ahead of Alex Albon in
-            the second Red Bull.
+            F1 is back in Turkey since 2011, as the new “Hybrid” Formula 1 cars
+            struggles to find the grip in the recently re-laid asphalt at
+            Turkey’s Istanbul Park. RedBulls’s Max Verstappen takes the P1 spot
+            with his teammate Alex Albon come home in second making Red Bull
+            one-two. Surprisingly both Mercedes cars couldn’t find the top 5
+            spots in a session, which is quite rare. Ferrari’s Charles Leclerc
+            finished P3 as his team mate Sebastian Vettel in P5 sandwiching
+            AlfaTauri’s Pierre Gasly in P4. Daniil Kvyat in the second AlfaTauri
+            finished P6 bringing all the Honda powered in top 10 list.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            McLaren's Carlos Sainz who completed most laps on Friday morning,
-            finished in sixth ahead of Sergio Perez, who took P7 for Racing
-            Point. Veteran Kimi Raikkonen crossed the line in P8 in the dying
-            moments for Alfa Romeo as Renault's Daniel Ricciardo finished P9.
-            Pierre Gasly had a mechanical problem towards late in the session on
-            his AlphaTauri yet managed a stellar P10, ahead of Vettel in second
-            Ferrari in P11.
+            Birthday boy Lando Norris managed P7 in Mclaren with Antonio
+            Giovinazzi surprised every one with P8 performance in P8. The best
+            of Merecdes was Valtteri Bottas who crossed the line in P9 with
+            Esteban Ocon inn P10 for Renault rounding off the top 10 list.
+            Nicholas Latifi impressed everyone with P11 with the Racing Point
+            duo Sergio Perez and Lance Stroll in P12 and P13 respectively.
+            Romain Grosjean for Hass comes next with current world champion
+            Lewis Hamilton only scrapped P15.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            McLaren's Lando Norris finished in P12 just behind Vettel while
-            Daniil Kvyat had a spun towards the end of the session and finished
-            13th for AlphaTauri. Kevin Magnussen in Haas finished in P14 ahead
-            of 15th place Lance Stroll, who looks recovered from the effects of
-            Covid-19. Alfa Romeo’s Antonio Giovinazzi crossed the line in P16 as
-            Romain Grojsean took P17 in second Haas. Williams drivers George
-            Russell finised in 18th and Nicholas Latifi in 20th splitted by
-            Renault's Ocon. Esteban Ocon’s session ended with a worrying
-            mechanical issue, when smoke was seen coming from the back of his
-            car just as the chequered flag was flying.
-          </p>
-          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Even though there was some spots of rain and the sky was dark during
-            the session, the second practice session is predicted to be a clear
-            sky session. The first 30 minutes of Free Practice 2 might be
-            utilised by Pirelli for a blind tyre test of the company’s 2021
-            prototype compounds. This means the laps set using the hard and
-            medium tyres in FP1 session might echo the running simulation for
-            the race day. One this is sure that the relatively new resurfaced
-            race track together with the chances of rain will spice up the 2020
-            Portuguese Grand Prix on Sunday.
+            Kimi Räikkönen and Kevin Magnussen follows in P16 and P17 as
+            Renault’s Daniel Ricciardo only managed P18. McLaren’s Carlos Sainz
+            had to park his MCL35 in the green as the team discovered a small
+            electrical issue with his power unit. George Russell rounded off the
+            list in P20. But the session charts do not represent the actual
+            performances of the cars/drivers as the re-laid track along with the
+            wetness made the session tricky. More over the session was briefly
+            red-flagged after Charles Leclerc knocked over a bollard. However,
+            the lack of grip down in part to the surface having only been
+            re-laid a few weeks ago and Pirelli bringing their hardest tyre
+            compounds, the Sunday race might bring some surprises.
           </p>
 
           {/* <p className='mt-1 text-base leading-normal text-gray-700'>

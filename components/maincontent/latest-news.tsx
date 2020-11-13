@@ -18,8 +18,8 @@ import MainContent from 'components/contentblock/main'
 // import FirstContent from 'components/contentblock/first'
 // import SecondContent from 'components/contentblock/left'
 // import ThirdContent from 'components/contentblock/right'
-// import FifthContent from 'components/contentblock/left-old'
-// import SixthContent from 'components/contentblock/right-old'
+import FifthContent from 'components/contentblock/left-old'
+import SixthContent from 'components/contentblock/right-old'
 // import FourthContent from 'components/contentblock/fourth'
 import Qualifying from 'components/qualifying/quick-look'
 import Race from 'components/race/quick-look'
@@ -37,8 +37,19 @@ const Main: React.FC = () => {
       {/* <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
         Latest News
       </div> */}
-      <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
-        ROUND 12 - EMILIA ROMAGNA GP 2020
+      <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 mt-0'>
+        ROUND 14 - Turkish GP
+      </div>
+      <div className='w-100 flex flex-col xl:flex-row'>
+        <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 bg-white-100 rounded-md mt-0'>
+          <FifthContent />
+        </div>
+        <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 bg-white-100 rounded-md mt-4 xl:mt-0'>
+          <SixthContent />
+        </div>
+      </div>
+      <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 mt-4'>
+        ROUND 13 - EMILIA ROMAGNA GP 2020
       </div>
       <div className='w-100 bg-white-100 rounded-md mt-0'>
         <RaceReport />
@@ -55,7 +66,7 @@ const Main: React.FC = () => {
       <div className='w-100 bg-white-100 rounded-md mt-4'>
         <MainContent />
       </div>
-      <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 mt-2'>
+      <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 mt-4'>
         ROUND 12 - PORTUGUESE GP
       </div>
       <div className='w-100 bg-white-100 rounded-md mt-0'>

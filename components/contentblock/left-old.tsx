@@ -8,63 +8,54 @@ const Left: React.FC = () => {
       <div className='h-40 xl:h-48 w-full'>
         <img
           className='w-full h-full object-cover rounded-t-md  '
-          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1601214934/contentImages/content/bottas_bw5vun.jpg'
-          alt='FP2 REPORT - Portuguese GP 2020'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1598629313/contentImages/content/max-verstappen-red-bull-racing_qufnjn.jpg'
+          alt='FP2 REPORT - Turkish GP 2020'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-4 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            FP2 REPORT - Portuguese GP 2020
+            FP2 REPORT - Turkish GP 2020
           </div>
           <H1>
-            Bottas tops an eventful FP2 session at Portimao circuit with
-            Verstappen in P2 and Norris in P3
+            Verstappen clean sweep the Friday sessions with Leclerc in second
+            and Bottas in third
           </H1>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Mercedes’ Valtteri Bottas leads the multiple red flag disrupted
-            second practice session on the Friday of the Portuguese Grand Prix.
-            The session got suspended twice after Pierre Gasly’s AlphaTauri
-            caught fire, and an spectacular crash of Max Verstappen and Lance
-            Stroll in Turn 1. But Max Verstappen managed P2 for Red Bull as
-            McLaren’s Lando Norris slotted into P3 towards the end of the
-            session. Both Bottas and Norris was on set of red Softs for their
-            respective fastest laps, while Max set his fastest lap on the medium
-            tyre. Charles Leclerc once again impressed with P4 with the latest
-            updates to the SF1000 proves to be in the right direction for
-            Ferrari. Carlos Sainz finished in P5 near the end of the session in
-            the second McLaren, with 1.173s off Bottas’ pace, as Sebastian
-            Vettel finished encouraging sixth, which is around three-tenths off
-            Leclerc’s pace.
+            Red Bull’s Max Verstappen heads the FP2 session in Istambul park, as
+            Formula 1 revisits Turkey, RedBull’s one of the favourite circuits
+            since 2011 Ferrari’s Charles Leclerc good run continues as he
+            finised P2 after having finished P3 this morning highlighting the
+            Ferrari’s come back. The best Mercedes was Valtteri Bottas which is
+            0.575s adrift of Verstappen but ahead of Lewis Hamilton in P4.Having
+            let the timesheets for most of the time in FP2, Red Bull’s Alex
+            Albon, eventully finished in P5, the Thai driver finishing ahead of
+            the AlphaTauri pair of Daniil Kvyat and Pierre Gasly in sixth and
+            seventh, as the Italian team once again confirmed the strong
+            performance in an AT01 for which the team have brought new barge
+            boards and a new floor this weekend.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Gasly finished managed P7 before his car was on fire bringing the
-            red flag halfway through the hour and a half session. Galsly pulled
-            up his AlphaTauri AT01 on the side of the track at the exit of Turn
-            13 only to start splitting flames with the marshals eventually
-            putting the blaze out after it had been burning for around a minute.
-            The reigning champion Lewis Hamilton, who didn’t appear to be happy
-            with his W11 only manage P8 which is 1.368s adrift of his team mate.
-            Top 10 were rounded out by Renault’s Esteban Ocon and the second Red
-            Bull of Alex Albon, as they had their multiple laps got deleted for
-            track limit infringements at Turn 4. George Russell was P11 ahead of
-            the Racing Point of Sergio Perez in P12. Daniel Ricciardo was
-            hampered on his penultimate attempt at a flying lap by a Williams
-            exiting the pits, only managed P13.
+            Sebastian Vettel in second Ferrari once again slotted in top ten
+            list as he finished P8 ahead of Lance Stroll and Lando Norris in
+            Racing Point and McLaren. Sergio Perez in the second Racing Point
+            was P11 with Esteban Ocon in Reanult once again out performed his
+            teammate on Friday. Antonio Giovinazzi comes next in P13 with Carlos
+            Sainz in second McLaren in P14. Daniel Ricciardo for Reanult only
+            managed P15 as he finds it difficult to find the sweet spot in his
+            R.S.2.0.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Nicholas Latifi in second Williams finised in P14 as Alfa Romeo’s
-            Kimi Raikkonen crossed the line in P15. Kevin Magnussen finished in
-            16th with AlphaTauri’s Daniil Kvyat finished in 17th after a spin
-            earlier in the session. Romain Grosjean managed P18 as Stroll only
-            could finish in P19. It was indeed a dramatic moment, with 29
-            minutes left to go as drivers keen to get their qualifying
-            simulation laps in, Verstappen and Stroll, on a flying lap, dragged
-            down the main straight as the pair collided at Turn 1, with Stroll
-            appearing not to register Verstappen’s presence on the inside of the
-            corner. The stewards set to investigate the incident which brought
-            the second red flag of the session. Antonio Giovinazzi rounded of
-            the list in P20.
+            Veteran Kimi Räikkönen comes next at P16 in the second Alfa Romeo
+            ahead of George Russell in Williams. The Haas duo Romain Grosjean
+            and Kevin Magnussen finishes P18 and P19 ahead of the second Willams
+            of Nicholas Latifi who completes the list. As both the sessions in
+            Friday comes to an end, it is advantage to Red Bull. The return of
+            Ferrari to the top ten list indicates the upgrades are finally
+            working for them and the prospect of the Ferrari coming back to the
+            “best of the rest” battle in constructor standings. But the biggest
+            surprise was from the second Italian team, AlfaTauri as they could
+            slot both their car in top ten list.
           </p>
           {/* <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
