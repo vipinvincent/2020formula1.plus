@@ -27,7 +27,7 @@ const IndexPage = () => (
           <div className='flex flex-col lg:w-8/12 xl:w-8/12 pt-2 pb-2 sm:pb-4 pr-2 sm:pr-4 lg:pr-0'>
             <News />
           </div>
-          <div className='hidden lg:block w-4/12 xl:w-4/12 pl-4 bg-black-5 pt-2 pb-2 sm:pb-4 pr-4'>
+          <div className='hidden lg:block w-4/12 xl:w-4/12 pl-4 pt-2 pb-2 sm:pb-4 pr-4'>
             <Schedule />
             <Race />
             <Qualifying />

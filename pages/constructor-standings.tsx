@@ -18,7 +18,7 @@ const IndexPage = () => (
             </div>
             <CompleteList />
           </div>
-          <div className='hidden lg:block w-1/3 pl-4 bg-black-5 pt-2 pb-2 sm:pb-4 pr-4'>
+          <div className='hidden lg:block w-1/3 pl-4 pt-2 pb-2 sm:pb-4 pr-4'>
             <Schedule />
             <Driver />
           </div>

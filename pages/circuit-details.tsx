@@ -11,7 +11,7 @@ const IndexPage = () => (
           <div className='flex flex-col w-full lg:w-2/3 pt-2 pb-2 sm:pb-4 pr-2 sm:pr-4 lg:pr-0'>
             <Circuit />
           </div>
-          <div className='hidden lg:block w-1/3 pl-4 bg-black-5 pt-2 pb-2 sm:pb-4 pr-4'>
+          <div className='hidden lg:block w-1/3 pl-4 pt-2 pb-2 sm:pb-4 pr-4'>
             <Driver />
             <Team />
           </div>
