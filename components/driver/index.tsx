@@ -28,7 +28,9 @@ const Driver: React.FC = () => {
                       <div className='flex items-center'>
                         <div className='text-sm leading-5 font-medium text-gray-900 mercedes'>
                           Lewis Hamilton{' '}
-                          <span className='text'>(Mercedes)</span>
+                          <span className='text hidden xl:inline'>
+                            (Mercedes)
+                          </span>
                         </div>
                       </div>
                     </td>
@@ -43,7 +45,9 @@ const Driver: React.FC = () => {
                       <div className='flex items-center'>
                         <div className='text-sm leading-5 font-medium text-gray-900 mercedes'>
                           Valtteri Bottas{' '}
-                          <span className='text'>(Mercedes)</span>
+                          <span className='text hidden xl:inline'>
+                            (Mercedes)
+                          </span>
                         </div>
                       </div>
                     </td>
@@ -58,7 +62,9 @@ const Driver: React.FC = () => {
                       <div className='flex items-center'>
                         <div className='text-sm leading-5 font-medium text-gray-900 redbull'>
                           Max Verstappen{' '}
-                          <span className='text'>(Red Bull)</span>
+                          <span className='text hidden xl:inline'>
+                            (Red Bull)
+                          </span>
                         </div>
                       </div>
                     </td>
@@ -73,7 +79,9 @@ const Driver: React.FC = () => {
                       <div className='flex items-center'>
                         <div className='text-sm leading-5 font-medium text-gray-900 renault'>
                           Daniel Ricciardo{' '}
-                          <span className='text three-d-text'>(Renault)</span>
+                          <span className='text three-d-text hidden xl:inline'>
+                            (Renault)
+                          </span>
                         </div>
                       </div>
                     </td>
@@ -88,7 +96,9 @@ const Driver: React.FC = () => {
                       <div className='flex items-center'>
                         <div className='text-sm leading-5 font-medium text-gray-900 ferrari'>
                           Charles Leclerc{' '}
-                          <span className='text'>(Ferrari)</span>
+                          <span className='text hidden xl:inline'>
+                            (Ferrari)
+                          </span>
                         </div>
                       </div>
                     </td>
@@ -103,7 +113,9 @@ const Driver: React.FC = () => {
                       <div className='flex items-center'>
                         <div className='text-sm leading-5 font-medium text-gray-900 racingpoint'>
                           Sergio Perez{' '}
-                          <span className='text'>(Racing Point)</span>
+                          <span className='text hidden xl:inline'>
+                            (Racing Point)
+                          </span>
                         </div>
                       </div>
                     </td>
@@ -117,7 +129,10 @@ const Driver: React.FC = () => {
                     <td className='pl-6 py-4 whitespace-no-wrap border-b border-gray-200'>
                       <div className='flex items-center'>
                         <div className='text-sm leading-5 font-medium text-gray-900 mclaren'>
-                          Lando Norris <span className='text'>(McLaren)</span>
+                          Lando Norris{' '}
+                          <span className='text hidden xl:inline'>
+                            (McLaren)
+                          </span>
                         </div>
                       </div>
                     </td>
@@ -131,7 +146,10 @@ const Driver: React.FC = () => {
                     <td className='pl-6 py-4 whitespace-no-wrap border-b border-gray-200'>
                       <div className='flex items-center'>
                         <div className='text-sm leading-5 font-medium text-gray-900 mclaren'>
-                          Carlos Sainz <span className='text'>(McLaren)</span>
+                          Carlos Sainz{' '}
+                          <span className='text hidden xl:inline'>
+                            (McLaren)
+                          </span>
                         </div>
                       </div>
                     </td>
@@ -146,7 +164,9 @@ const Driver: React.FC = () => {
                       <div className='flex items-center'>
                         <div className='text-sm leading-5 font-medium text-gray-900 redbull'>
                           Alexander Albon{' '}
-                          <span className='text'>(Red Bull)</span>
+                          <span className='text hidden xl:inline'>
+                            (Red Bull)
+                          </span>
                         </div>
                       </div>
                     </td>
@@ -162,7 +182,9 @@ const Driver: React.FC = () => {
                       <div className='flex items-center'>
                         <div className='text-sm leading-5 font-medium text-gray-900 alphatauri'>
                           Pierre Gasly{' '}
-                          <span className='text'>(Alpha Tauri)</span>
+                          <span className='text hidden xl:inline'>
+                            (Alpha Tauri)
+                          </span>
                         </div>
                       </div>
                     </td>

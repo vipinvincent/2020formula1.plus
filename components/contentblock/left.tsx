@@ -8,60 +8,59 @@ const Left: React.FC = () => {
       <div className='h-40 xl:h-48 w-full'>
         <img
           className='w-full h-full object-cover rounded-t-md  '
-          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1597490683/contentImages/content/lewis-hamilton1_bzargd.jpg'
-          alt='Qualifying REPORT - Portuguese GP 2020'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1605364436/contentImages/content/lance-stroll_fsvfip.jpg'
+          alt='Qualifying REPORT - Turkish GP 2020'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-4 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            Qualifying REPORT - Portuguese GP 2020
+            Qualifying REPORT - Turkish GP 2020
           </div>
           <H1>
-            Hamilton grabs Portuguese GP pole from Bottas on Medium sets with
-            Verstappen in third
+            Lance Stroll secures an incredible maiden pole for Racing Point at
+            2020 Turkish GP
           </H1>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Lewis Hamilton delivered his best lap when it matters and grabs
-            last-gasp Portuguese GP pole. Valtteri Bottas on a different
-            strategy could not match his Mercedes team mate in qualifying pace.
-            Mercedes opted for a unique strategy for the final runs, swapping
-            the so called faster Red walled softs to the Yellow walled medium
-            tyres on both cars. However, Hamilton opted to head out early for
-            two flying laps on that compound, while Bottas went for one. For a
-            short instant it seems like the Finn will beat Hamilton with his
-            lap, but the defending world champion made it count to take his 97th
-            career pole position, pushing Bottas to second spot, in an
-            all-Mercedes front row. Max Verstappen took third on the usual soft
-            tyres, as Ferrari’s Charles Leclerc finished an impressive fourth. A
-            splendid performance from Racing Point’s Sergio Perez helped him to
-            finish fifth.
+            Stroll takes an exhilarating maiden pole in a chaotic wet qualifying
+            at the Intercity Istanbul Park for Turkey GP. Racing Point's
+            jubilation got doubled as Sergio Perez finished third as it was
+            their their first-ever pole under this banner, just four races
+            before they become Aston Martin, and their first since Giancarlo
+            Fisichella took P1 at the 2009 Belgian Grand Prix when the team was
+            racing as Force India. But a disappointed Max Verstappen manged
+            front grid position as he clean swept all the practice sessions with
+            P1 and looked good for his third P1 spot. But it was Sergio Perez
+            who set the time sheets on fire with a blistering lap on the
+            intermediate tyres, while all others were battling on wets to set a
+            time. Inspired by the pace of Perez, the rest of grid start opting
+            for intermediates; but none except Red Bulls could manage a better
+            time as Albon goes fourth.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Alex Albon in the second Red Bull finished sixth which was half a
-            second slower than his team mate Verstappen, while Carlos Sainz
-            became the leader driver for McLaren as Lando Norris finished eight
-            which was only just 0.005s slower than his team mate. Pierre Gasly
-            could not keep up his impressive Q1 and Q2 performances and ended up
-            in ninth. Renault’s Daniel Ricciardo completed the top 10 list,
-            albeit without setting a timed lap as he ran off the track at the
-            end of Q2 damaging his rear end of R.S.2.0. His teammate Esteban
-            Ocon finished 11th as Lance Stroll, who got recovered from COVID 19
-            in the second Racing Point only managed P12. Daniil Kvyat in the
-            second AlphaTauri finished P13.
+            Renault’s Daniel Ricciardo slotted into fifth for the second
+            consecutive race on wets, ahead of championship leader Lewis
+            Hamilton. Daniel’s teammate Esteban Ocon managed seventh on wets as
+            Renault dint opt for the gambling on intermediates. The next big
+            surprise was from Alfa Romeo, as the team managed to slot bot their
+            cars in Q3 with Kimi Raikkonen in P8 with team mate Antonio
+            Giovinazzi 10th marking Alfa Romeo’s best qualifying performance
+            since Brazil 2019, on the occasion of Sauber’s 500th Grand Prix. The
+            second Mercedes of Valtteri Bottas only managed P9, as Mercedes
+            seems to be struggling throughout in the wet conditions.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Mr. Saturday, George Russel of Williams, impressed gain with his Q1
-            performance and finished P14 ahead of Ferrari’s Sebastian Vettel who
-            once again failed to get into Q3 as his time got deleted for
-            exceeding track limits on his last run. Both Alfa Romeo’s followed
-            their engine supplier with Kimi Räikkönen once gain finished ahead
-            of his teammate Antonio Giovinazzi. The Haas of Romain Grosjean and
-            Kevin Magnussen crossed the line in P17 and P18 respectively with
-            Nicholas Latifi in the second Williams completes the list. The
-            conditions in Portugal looks perfect for Mercedes as they could wrap
-            up the constructors title if they finish first and second in this
-            round.
+            Both the McLarens of Lando Norris and Carlos Sainz couldn’t promote
+            themselves to Q3 as they finished in P11 and P13 sandwiching
+            Sebastian Vettel in P12. His Ferrai team mate Charles Leclerc, who
+            had blistering practice session couldn’t replicate the performace in
+            the wets and ended up in P14. The AlphaTauri’s of Pierre Gasly and
+            Daniil Kvyat also struggled in damp conditions as they only managed
+            P15 and P17 respectively. Kevin Magnussen in Haas, who had issues
+            with mist in helmet only managed P16 as his team mate Romain
+            Grosjean in P19. The Williams duo of George Russell and Nicholas
+            Latifi classified P18 and P20 as Russell will be required to start
+            his race from the back for using additional power unit elements.
           </p>
           {/* <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}

@@ -8,59 +8,64 @@ const Right: React.FC = () => {
       <div className='h-40 xl:h-48 w-full'>
         <img
           className='w-full h-full object-cover rounded-t-md  '
-          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1599834663/contentImages/content/valteri-bottas_kvx19p.jpg'
-          alt='FP3 REPORT - Portuguese GP 2020'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1605276462/contentImages/content/max_wubeqo.jpg'
+          alt='FP3 REPORT - Turkish GP 2020'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-2 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            FP3 REPORT - Portuguese GP 2020
+            FP3 REPORT - Turkish GP 2020
           </div>
           <H1>
-            Bottas clean swept all the practice sessions at Portuguese GP ahead
-            of Hamilton and Verstappen
+            FP3 session interrupted by heavy rain as Verstappen goes quickest
+            with Leclerc in second and Albon in third
           </H1>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Bottas leads the final practice at Portimao and made it a hat-trick
-            of fastest laps in Portuguese GP practice weekend. His Mercedes team
-            mate Lewis Hamilton finished second just ahead of Red Bull's Max
-            Verstappen in third place. Although track limits have been revised
-            after Friday's running, numerous lap times got deleted at Turns 1 at
-            4 including max and his teammate Albon, which might have changed the
-            top 3 list. AlphaTauri's Pierre Gasly impressed with P4 performance
-            from his fire engulfed car in FP2 which is just a tenth off former
-            team mate Verstappen as he was sandwiched between the Red Bulls on
-            the leader board. Alex Albon also had a good session for Red Bull
-            with fifth place, which was only 0.3s off his team mate. Meanwhile
-            the session ended one minute early after a drain cover got uplifted
-            by Vettel who ran over the drain cover at Turn 14, which brought out
-            the red flags. This raised the eyebrows of the stewards regarding
-            the safety of the track and will be inspected after the practice
-            session.he stewards regarding the safety of the track and will be
-            inspected after the practice session.
+            Red Bull’s Max Verstappen heads the timesheets in the rain
+            intervened FP3 session as many drivers failed to perform the quali
+            like simulations. Some of the drivers only managed few out laps with
+            only 3 drivers could make more than 10 laps in the final practice
+            session. Ferrari’s Charles Leclarc managed secons as Max’s teammate
+            Alex Albon finished in third with his 5 hands laps in the session.
+            Renault’s Esteban Ocon who tipped Leclerc causing him to spin in
+            early session, finished fourth fastest with McLaren’s Lando Norris
+            finished fifth. The second Ferrari of Sebastian Vettel managed P6 as
+            he managed the most mileage in his SF1000 in the FP3 session with 14
+            laps. Sergio Perez became the best of the Racing Points with seventh
+            place finish.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Ferrari continues to impress the Portugal GP as Charles Leclerc
-            finished sixth reflecting the positive signs from the upgraded
-            Ferrari SF1000. But team mate Sebastian Vettel only could manage
-            11th but shows signs of improvement. McLaren's Carlos Sainz finishe
-            din P7, who took a new engine, turbo and MGU-H. Sergio Perez took P8
-            for Racing Point, as the second McLaren of Lando Norris crossed the
-            line in ninth. Esteban Ocon rounded the top ten list for Renault.
+            The best of Mercedes was Valtteri Bottas who managed 4 laps 1 better
+            than his teammate Lewis Hamilton who failed to post a meaningful
+            time in the session classified last in the leaders chart. Bottas is
+            followed by Kevin Magnussen in Hass and Lance Stroll in the second
+            Racing Point with P9 and P10 positions. Daniel Ricciardo of Renault
+            managed eleventh who is the last driver in 10 second margin from the
+            leader. The second McLaren of Carlos Sainz finished P12 as Antonio
+            Giovinazzi of Alfa Romeo finished P13.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Daniil Kvyat in second AlphaTauri finised 12th, with Alfa Romeo's
-            Kimi Raikkonen in P13. Renault's Daniel Ricciardo's only could
-            manage P14 as his R.S.20 suffered a DRS failure towards the meid of
-            seesion. But later Ricciardo emerged from pit lane for one final go
-            in FP3 but that red flag towards the end of session aborted his lap.
-            George Russell impressed with P15 for Williams as Racing Point’s
-            Lance Stroll only manged P16. Earlier both Lance and Max got cleared
-            of any penalty for the incident in FP2. Antonio Giovinazzi finished
-            16th in the second Alfa Romeo with Haas drivers Haas Kevin Magnussen
-            and Romain Grosjean sandwiched Nicholas Latifi of Williams rounded
-            of the list.
+            Pierre Gasly was the highest-placed AlphaTauri, just behind
+            Giovinazzi while his team mate Daniil Kvyat was 17th, who spun
+            numerous times. And was the last driver to cross the linen with
+            wets. Romain Grosjean who remarked to run rental cars on track for
+            laying some rubber on the surface on Friday night, that’s exactly
+            what happened, albeit in vain thanks to the deluge that followed
+            this morning finished P15. Kimi Räikkönen in Alfa Romeo managed the
+            second best mileage of 13 laps corssed the line on P16 with the
+            Williams Duo George Russell and Nicholas Latifi only managed one
+            installation lap also couldn’t post a meaningful time.
+          </p>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
+            {' '}
+            As there are predictions for rain in qualifying sessions in the
+            evening which will big implications for the re-laid circuit, since
+            drivers were finding it even difficult to get the best grip out of
+            the slicks. It looks like the drivers will be doubtful for
+            unleashing the full wrath of the modern hybrid f1 cars on Saturday
+            afternoon. Still the Turkish GP will be in history as the current
+            world champion could claim his seventh drivers’ title on Sunday
           </p>
 
           {/* <p className='mt-1 text-base leading-normal text-gray-700'>
