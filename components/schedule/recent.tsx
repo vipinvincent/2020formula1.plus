@@ -6,7 +6,7 @@ const Schedule: React.FC = () => {
   return (
     <div className='flex flex-col mb-4'>
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
-        Recent Race
+        ROUND 13 - EMILIA ROMAGNA GP 2020
       </div>
       <div className='relative bg-white-100 rounded-md'>
         <div className='h-32 sm:h-48 py-4 w-full text-center'>
