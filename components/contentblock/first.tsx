@@ -8,60 +8,53 @@ const First: React.FC = () => {
       <div className='h-48 md:h-64 xl:h-104  w-full'>
         <img
           className='w-full h-full object-cover rounded-t-md  '
-          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1604241595/contentImages/content/mercedes-1-2_zvey6e.jpg'
-          alt='Race REPORT - EMILIA ROMAGNA  GP 2020'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1605447260/contentImages/content/lewis-hamilton_jt3fbq.jpg'
+          alt='Race REPORT - Turkish  GP 2020'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-4 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            Race REPORT - EMILIA ROMAGNA GP 2020
+            Race REPORT - Turkish GP 2020
           </div>
           <H1>
-            Hamilton wins in Imola as Mercedes clinches their seventh straight
-            constructors' championship
+            Lewis Hamilton wins 2020 Turkish GP and clinches the 2020 Formula 1
+            world title, equalling the record of Michael Schumacher
           </H1>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Mercedes claims their record seventh consecutive constructors’ title
-            at the Emilia Romagna Grand Prix, as Lewis Hamilton wins in Imola
-            with his team mate Valtteri Bottas finishing second ensuring
-            Mercedes 1-2 on the historic day for F1. Meanwhile Renault’s Daniel
-            Ricciardo secured the second podium of the season for Renault as Red
-            Bull’s Max Verstappen retired from P2 after a tyre issue on lap 51.
-            AlphaTauri’s Daniil Kvyat, who is yet to confirm a seat in 2020
-            surprises every one with a brilliant fourth with Ferrari’s Charles
-            Leclerc in fifth. Along with a better team strategy and a brilliant
-            drive helped Charles to hold off the Racing Point of Sergio Perez,
-            who missed the trick with a late stop under the Safety Car.
+            Lewis Hamilton claimed the record equalling seventh drivers title
+            with a stunning win in a wet and wild Turkish Grand Prix. Starting
+            from sixth on the grid, Hamilton with his gut instincts and
+            dominating driving shown the world how champions are made. After
+            leading the race for most of the laps the pole sitter Lance Stroll
+            couldn’t convert his P1 to a race win and eventually ended his race
+            in ninth position. Behind Hamilton, Sergio Perez and Sebastian
+            Vettel claimed their first podium of the season. A dramatic last lap
+            saw Ferrari’s Charles Leclerc overtook Perez for P2, but got it
+            wrong at Turn 12, with Perez retaking second as Vettel made it
+            through on his team mate and finished third.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The McLaren and Alfa Romeo duos rounded of the top ten list with
-            Carlos Sainz and Lando Norris claimed P7 and P8, Kimi Raikkonen
-            leading Antonio Giovinazzi in P9 and P10. Aided by a brilliant
-            strategy with an extended 49-lap stint medium tyre management from
-            Kimi helped Alfa Romeo took their first double points finish of the
-            year. Nicholas Latifi finished eleventh agonisingly close to points
-            for Williams. Struggling Sebastian Vettel, thanks to a horrible pit
-            stop by Ferrari spoiled the race for him and only could manage a
-            disappointing twelfth. Lance Stroll, after the first lap tangle and
-            a broken front wing managed thirteenth spot in the list.
+            Leclerc crossed the line in fourth position ahead of the McLaren of
+            Carlos Sainz. Red Bull on their 300 race start only managed P5 and
+            P6 with Max Verstappen leading his team mate Alex Albon at the flag.
+            Max and Alex who was in podium places during the first stint on race
+            later got it wrong during the tricky second pit stop time, assisted
+            with multiple spins. The second McLaren of Lando Norris finished P7
+            after a brave drive with multiple brave overtaking manoeuvres. The
+            Renault duo Riccardo and Ocon behind Norris in P10 and P11.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Romain Grosjean for Hass crossed the line in fourteenth while his
-            team mate, Kevin Magnussen had to retire the race in lap 50 after a
-            terrible head ache. Alexander Albon disappoints again for Red Bull
-            after a silly driver error forced the Thai driver to spin towards
-            the last stint on the race became the last person of the finished
-            drivers. An unusual mistake from George Russell, forced him spinning
-            and ending up on the barriers as he tries to warm his tyres during
-            the safety car. Esteban Ocon in the second Renault forced to park
-            his car on the green in lap 29 with a a suspected gearbox issue.
-            Meanwhile, after a brilliant qualification on Saturday, AlphaTauri’s
-            Pierre Gasly suffered a coolant leak that forced him to retire from
-            the race on Lap 8. With Mercedes wrapping up the constructors’ title
-            of 2020 it is now matter of time to decide on the drivers’
-            championship as it is looks like another Mercedes driver to crown
-            the champion in 2020.
+            Daniil Kvyat and Pierre Gasly of Alfa Tauri crosses the line next in
+            P12 and P13 ahead of Valtteri Bottas, who had a terrible race with
+            multiple spins. Kimi Räikkönen and Geroge Russel in P15 and P16
+            rounds off the classified drivers in 2020 Turkey GP. Both Haas
+            drivers Kevin Magnussen and Romain Grosjean after suffering mid race
+            collisions and multiple spins forced them to retire the race along
+            with William’s’ Nicholas Latifi. Giovinazzi is the fisrt person to
+            retire the race due to a mechanical issue which bought two-lap
+            Virtual Safety Car out on Lap 13, surprisingly was the only VSC/SC
+            incident of the race.
           </p>
           {/* <p className='mt-1 text-base leading-normal text-gray-700'>
             View the complete {' '}

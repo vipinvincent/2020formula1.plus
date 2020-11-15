@@ -15,7 +15,7 @@ import RaceReport from 'components/contentblock/race-report'
 import QualifyingReport from 'components/contentblock/qualifying-report'
 
 import MainContent from 'components/contentblock/main'
-// import FirstContent from 'components/contentblock/first'
+import FirstContent from 'components/contentblock/first'
 import SecondContent from 'components/contentblock/left'
 import ThirdContent from 'components/contentblock/right'
 import FifthContent from 'components/contentblock/left-old'
@@ -40,7 +40,10 @@ const Main: React.FC = () => {
       <div className='w-100 mb-0 mt-0'>
         <Race />
       </div>
-      <div className='w-100 mb-0 mt-0'>
+      <div className='w-100 bg-white-100 rounded-md mt-0'>
+        <FirstContent />
+      </div>
+      <div className='w-100 mb-0 mt-4'>
         <Qualifying />
       </div>
       {/* <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 mt-0'>
@@ -68,7 +71,7 @@ const Main: React.FC = () => {
       <div className='w-100 bg-white-100 rounded-md mt-0'>
         <RaceReport />
       </div>
-      <div className='w-100 bg-white-100 rounded-md mt-0'>
+      <div className='w-100 bg-white-100 rounded-md mt-4'>
         <QualifyingReport />
       </div>
       <div className='w-100 bg-white-100 rounded-md mt-4'>
