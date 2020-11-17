@@ -1,128 +1,110 @@
 import React from 'react'
 import ContentLink from 'components/link/ContentLink'
 import Zoom from 'react-medium-image-zoom'
-// import SiderBarLink from 'components/link/SiderBarLink'
 
 const Schedule: React.FC = () => {
   return (
     <div className='flex flex-col mb-4'>
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
-        Circuit Facts - Bahrain International Circuit
+        Circuit Facts - Intercity Istanbul Park
       </div>
       <div className='relative bg-white-100 rounded-md mb-6'>
         <div className='h-64 sm:h-84 py-4 w-full text-center zoom-image'>
           <Zoom>
             <img
               className='w-full h-64 sm:h-84 object-contain rounded-t-md rounded-b-md py-4 px-2 text-center'
-              src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1605591844/contentImages/circuit/Bahrain_International_Circuit--Grand_Prix_Layout_xxzdy4.png'
-              alt='2020 Bahrain Grand Prix'
+              src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1604485992/contentImages/circuit/Istanbul_park_tvltgy.png'
+              alt='2020 Turkish Grand Prix'
             />
           </Zoom>
         </div>
         <div className='relative max-w-screen-xl mx-auto'>
           <div className='py-4 text-left px-4'>
             <p className='mt-1 text-normal leading-normal text-gray-700'>
-              Formula 1 Gulf Air Bahrain Grand Prix 2020, the 2020 Bahrain Grand
-              Prix, which takes place over 57 laps of the 5.412-kilometre
-              Bahrain International Circuit in Sakhir on Sunday, November 29.
+              Formula 1 DHL Turkish Grand Prix 2020, the 2020 Turkish Grand
+              Prix, which takes place over 58 laps of the 5.338-kilometre
+              Intercity Istanbul Park circuit on Sunday, November 15.
             </p>
             <p className='mt-1 text-normal leading-normal text-gray-700'>
-              The Bahrain International Circuit is a motorsport venue opened in
-              2004 and used for drag racing, GP2 Series and the annual Bahrain
-              Grand Prix. The 2004 Grand Prix was the first held in the Middle
-              East. Beginning in 2006, Australian V8 Supercars raced at the BIC,
-              with the event known as the Desert 400. However, the V8 Supercars
-              did not return for the 2011 V8 Supercar season. 24 Hour endurance
-              races are also hosted at BIC. The circuit has a FIA Grade 1
-              license.
+              Intercity Istanbul Park (İstanbul Park), also known as the
+              Istanbul Racing Circuit, or initially as the Istanbul Otodrom, is
+              a motor sports race track in Tuzla, east of Istanbul, Turkey. It
+              was designed by the well-known racetrack architect Hermann Tilke
+              and was inaugurated on 21 August 2005. It has been called "the
+              best race track in the world" by former Formula One Chief
+              Executive Bernie Ecclestone, who held the managing rights of the
+              circuit between 2007 and 2011. The circuit is currently managed by
+              the Turkish company Intercity.
             </p>
             <p className='mt-2 text-normal leading-normal text-gray-700'>
-              The construction of the Bahrain circuit was a national objective
-              for Bahrain, initiated by the Crown Prince, Shaikh Salman bin
-              Hamad Al Khalifa. The Crown Prince is the Honorary President of
-              the Bahrain Motor Federation. TRL was asked to build the circuit,
-              headed by Patrick Brogan. Race organizers were worried that the
-              circuit would not be complete in time for the 2004 Bahrain Grand
-              Prix and attempted to cancel the event; however, Formula One
-              supremo Bernie Ecclestone refused this request. In the end, the
-              circuit was not quite fully complete, but was good enough for the
-              grand prix to go ahead.
+              The venue of the Turkish Grand Prix is located in crossing of
+              boundaries of Pendik and Tuzla districts on the Asian side of
+              Istanbul, close to the junction of Kurtköy on the north side of
+              the O-4 motorway, linking Istanbul to Ankara. It is adjacent to
+              the newly constructed Sabiha Gökçen International Airport and is
+              surrounded by forests and fields. The Istanbul Park racing circuit
+              is running anticlockwise. The circuit is 5.338 km (3.317 mi) long,
+              with an average width of 15 m (49 ft) ranging from 14 to 21.5 m
+              (46 to 71 ft), and covers over 2.215 million square metres (547
+              acres). With a total of 14 corners, the sharpest with a radius of
+              merely 15 m (49 ft), the circuit runs over four different ground
+              levels with a start/finish straight over 650 m (2,133 ft) in
+              length. The total race distance of the Turkish Grand Prix is
+              309.356 km (192.225 mi) over 58 laps.
             </p>
             <p className='mt-2 text-normal leading-normal text-gray-700'>
-              After the 2004 race and ahead of the 2005 race the track was
-              realigned at turn four, decreasing the circuit's overall length by
-              5 metres. In 2007 the circuit became the first Grand Prix circuit
-              to be awarded the distinguished FIA Institute Centre of Excellence
-              award, given for excellent safety, race marshal, and medical
-              facilities, and for the high standards of technology required to
-              maintain these. At the 2009 Grand Prix, BIC announced a
-              collaboration with @bahrain to develop land next to the circuit.
-              @bahrain is part of the Mumtalakat group of companies. @bahrain
-              will dedicate more than 1 million square meters of business,
-              entertainment and educational space with a value in excess of
-              US$2bn (BHD 850million), making it one of the largest investment
-              projects to take place in Bahrain in the past five years.
+              The Turkish Grand Prix was first held on 21 August 2005 as part of
+              the 2005 Formula One season and last held on 8 May 2011 as part of
+              the 2011 Formula One season. The circuit had not hosted a Formula
+              One race in nine years before being announced to return for the
+              2020 Formula One World Championship after major schedule changes
+              as a result of the COVID-19 pandemic. There’s no doubt that
+              Istanbul is one of the best tracks ever penned by Tilke, with
+              parts of the circuit having been compared over the years to
+              similar features at Spa-Francorchamps, Interlagos and Laguna Seca.
+              The crown jewel of Intercity Istanbul Park, however, remains Turn
+              8, an incredibly fast, bumpy, multi-apex downhill left-hander
+              that’s a proper test of drivers’ commitment.
             </p>
             <p className='mt-2 text-normal leading-normal text-gray-700'>
-              The circuit was designed by German architect Hermann Tilke, the
-              same architect who designed the Sepang International Circuit in
-              Malaysia. The main contractor for the project was Cebarco-WCT. The
-              circuit cost approximately 56.2 million Bahraini Dinars (US$150
-              million) to construct. It has six separate tracks, including a
-              test oval and a drag strip. The circuit posed a unique problem.
-              Positioned in the middle of a desert, there were worries that sand
-              would blow onto the circuit and disrupt the race. However,
-              organizers were able to keep the sand off the track by spraying an
-              adhesive on the sand around the track.
+              Turn 8 (nicknamed "Diabolica" by some in reference to Monza's
+              Curva Parabolica) particularly caught the imagination. The corner
+              is a fast, sweeping corner with four apexes, similar to one of the
+              multi-apex sections of the old Nürburgring. Spectators and drivers
+              alike raved about Turn 8, comparing it to legendary corners such
+              as Eau Rouge and 130R. The corner eventually became the basis of
+              turns 17 and 18 at the Circuit of the Americas. Another notable
+              corner is Turn 1, a sharp downhill left-hander immediately after
+              the front straight. This corner has been nicknamed by some as the
+              "Turkish Corkscrew" in reference to the famous Corkscrew at
+              WeatherTech Raceway Laguna Seca. Both the 2006 F1 and MotoGP races
+              at the circuit featured multiple incidents at this corner. A third
+              noteworthy area is the uphill kink in the middle of the back
+              straight; due to its similarity to Eau Rouge, it has been jokingly
+              referred to as "Faux Rouge".
             </p>
             <p className='mt-2 text-normal leading-normal text-gray-700'>
-              The surface of the track is made of graywacke aggregate, shipped
-              to Bahrain from Bayston Hill quarry in Shropshire, England. The
-              surface material is highly acclaimed by circuit bosses and Formula
-              1 drivers for the high level of grip it offers. The same aggregate
-              material is used at the Yas Marina Circuit, venue of the Abu Dhabi
-              Grand Prix.
+              The circuit is not, however, without its critics. After
+              qualifying, Jenson Button claimed that the track was getting
+              bumpier as the weekend went on, particularly at Turn 8, which was
+              what caused so many drivers to spin off. This harks back to
+              another circuit designed by Hermann Tilke, Shanghai International
+              Circuit, which is said to be sinking in places because it was
+              built on the site of a former swamp. Jarno Trulli was notable for
+              his lukewarm feeling towards the circuit, saying that he felt the
+              circuit was easy to learn, and that good performance was down more
+              to the car than the driver.
             </p>
             <p className='mt-2 text-normal leading-normal text-gray-700'>
-              It was 2004 when the drivers first lined up under an unusually
-              cloudy sky for the inaugural Bahrain Grand Prix. The race was
-              dominated (like many in 2004) by the two Ferraris, with Michael
-              Schumacher winning out from Rubens Barrichello, while the crowds
-              were also treated to a fantastic dog-fight between the Jaguar of
-              Mark Webber and the Renault of Fernando Alonso.
-            </p>
-
-            <p className='mt-2 text-normal leading-normal text-gray-700'>
-              <span className='font-bold italic'>
-                A lap in a Formula One car -
-              </span>{' '}
-              The DRS zone is on the pit straight at the Bahrain Grand Prix
-              (starting 2012), so turn 1 ("Michael Schumacher turn") is the
-              prime overtaking opportunity. The corner itself is incredibly
-              tight; a typical F1 car must brake approximately 100 metres before
-              the corner and shift right down to gear one. The width of the
-              track further adds to the overtaking possibilities.[14] Turns 2
-              and 3 are flat out and gaining a good exit can set up an
-              overtaking opportunity into turn 4. The straight leading to turn 4
-              is very long with a DRS zone, and the track at the corner itself
-              is incredibly wide, at about thirty metres.[14] Turns 5, 6 and 7
-              make up a high-speed left-right-left "S" section that leads into
-              turn 8, a right-hand hairpin where taking a wide line can avoid
-              the bump on the apex which unsettles the car.[15] Turns 9 and 10
-              are very challenging as they are two blind left-handers where cars
-              must brake, downshift and turn simultaneously – they go from 205
-              km/h in gear 5 down to 63 km/h in gear 1 whilst trying to avoid
-              locking up their inside front tyres.[14] The back straight leads
-              down into turns 11, 12 and 13, a medium-speed complex of corners.
-              Turn 11 is a fourth-gear left hander that leads immediately into
-              the flat-out right hander of 12, then the third gear right-hander
-              of turn 13 which requires a good exit to gain speed down the
-              following straight. It is worth braking quite early for turn 14 to
-              gain speed down the main straight.[15] If you brake about 100
-              metres before the apex then it is easy to keep it tidy through the
-              slow right hander and you can also put the power down early, and
-              gain speed all the way through turn 15 and the main straight
-              (which is the DRS zone).
+              The first Grand Prix of Turkey took place in 2005. Due to
+              financial disagreement, the last Turkish Grand Prix took place in
+              2011, despite earlier agreements concerning Istanbul Park. The top
+              speed measured of an F1 car measured by the speed trap was 329.5
+              km/h (204.8 mph) in 2005. F1 cars equipped with the smaller
+              2.4-litre V8 engines (instead of the 3.0-litre V10s of previous
+              years) reached 320 km/h (200 mph) in 2006. Felipe Massa has an
+              affinity with this circuit, with the Brazilian winning three of
+              the seven Grands Prix held at Istanbul Park.
             </p>
           </div>
         </div>
@@ -133,7 +115,7 @@ const Schedule: React.FC = () => {
         </p>
       </div>
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
-        2020 Bahrain Grand Prix weekend{' '}
+        2020 Turkish Grand Prix weekend{' '}
         <span className='font-light'>(Track Time)</span>
       </div>
       <div className='relative bg-white-100 rounded-md mb-4'>
@@ -145,7 +127,7 @@ const Schedule: React.FC = () => {
                   Practice 1
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  27 - November ( 14:00 - 15:30 )
+                  13 - November ( 11:00 - 12:30 )
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -153,7 +135,7 @@ const Schedule: React.FC = () => {
                   Practice 2
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  27 - November ( 18:00 - 19:30 )
+                  13 - November ( 15:00 - 16:30 )
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -161,35 +143,23 @@ const Schedule: React.FC = () => {
                   Practice 3
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  28 - November ( 14:00 - 15:00)
+                  14 - November ( 12:00 - 13:00 )
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
                 <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1'>
                   Qualifying
-                  {/* <SiderBarLink
-                    className='text-primart-on'
-                    href='/qualifying-results'
-                    target='_self'>
-                    Qualifying Results
-                  </SiderBarLink> */}
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  28 - November ( 17:00 - 18:00 )
+                  14 - November ( 15:00 - 16:00 )
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
                 <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1'>
                   Race
-                  {/* <SiderBarLink
-                    className='text-primart-on'
-                    href='/race-results'
-                    target='_self'>
-                    Race Results
-                  </SiderBarLink> */}
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  29 - November ( 17:10 - 19:10 )
+                  15 - November ( 13:10 - 15:10 )
                 </div>
               </div>
             </div>
@@ -197,7 +167,7 @@ const Schedule: React.FC = () => {
         </div>
       </div>
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
-        Bahrain Grand Prix Facts
+        Turkish Grand Prix Facts
       </div>
       <div className='relative bg-white-100 rounded-md'>
         <div className='relative max-w-screen-xl mx-auto'>
@@ -208,7 +178,7 @@ const Schedule: React.FC = () => {
                   Circuit Name
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  Bahrain International Circuit
+                  Intercity Istanbul Park
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -216,7 +186,7 @@ const Schedule: React.FC = () => {
                   Track Length
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  5.412km (3.363mi)
+                  5.338 km (3.317 mi)
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -224,7 +194,7 @@ const Schedule: React.FC = () => {
                   Turns
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  15 turns
+                  14 turns
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -232,7 +202,7 @@ const Schedule: React.FC = () => {
                   Race Distance
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  57 laps (308.405km -191.634mi)
+                  58 laps (309.396km - 192.250mi)
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -240,7 +210,7 @@ const Schedule: React.FC = () => {
                   F1 Races Held
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  15
+                  7
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -248,7 +218,7 @@ const Schedule: React.FC = () => {
                   First GP held
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  2004
+                  2005
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -256,7 +226,7 @@ const Schedule: React.FC = () => {
                   Most Wins (drivers)
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  Sebastian Vettel (4)
+                  Felipe Massa (3)
                   <br />
                 </div>
               </div>
@@ -264,41 +234,23 @@ const Schedule: React.FC = () => {
                 <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1'>
                   Most wins (constructors)
                 </div>
-                <div className='mt-1 text-sm leading-5  sm:mt-0 sm:col-span-2 ferrari'>
-                  <span className='text'> Ferrari (6)</span>
+                <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
+                  Ferrari (3)
                 </div>
               </div>
-              {/* <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
-                <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1'>
-                  Most points
-                </div>
-                <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  Lewis Hamilton (73)
-                </div>
-              </div>
-              <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
-                <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1'>
-                  Most Points (constructors)
-                </div>
-                <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  <div className='ferrari'>
-                    <span className='text'> Ferrari (20)</span>
-                  </div>
-                </div>
-              </div> */}
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
                 <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1'>
                   Lap Record
                 </div>
                 <div className='mt-1 text-sm leading-5 sm:leading-7 text-gray-800 sm:mt-0 sm:col-span-2 mclaren'>
-                  Pedro de la Rosa (<span className='text'>McLaren</span>){' '}
+                  Juan Pablo Montoya (<span className='text'>McLaren</span>){' '}
                   <br />
-                  1:31.447 (2005)
+                  1:24.770 (2005)
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
                 <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1 self-center'>
-                  2019 Qualifying Results
+                  2020 Qualifying Results
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2 self-start'>
                   <div className='inine-block pb-4'>
@@ -307,10 +259,10 @@ const Schedule: React.FC = () => {
                       <br />
                       &nbsp;
                     </div>
-                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block ferrari'>
-                      Charles Leclerc (<span className='text'>Ferrari</span>){' '}
+                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block racingpoint'>
+                      Lance Stroll (<span className='text'>Racing Point</span>){' '}
                       <br />
-                      1:27.866
+                      1:47.765
                     </div>
                   </div>
                   <div className='inine-block pb-4'>
@@ -319,10 +271,10 @@ const Schedule: React.FC = () => {
                       <br />
                       &nbsp;
                     </div>
-                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block ferrari'>
-                      Sebastian Vettel (<span className='text'>Ferrari</span>){' '}
+                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block redbull'>
+                      Max Verstappen (<span className='text'>Red Bull</span>){' '}
                       <br />
-                      1:28.160
+                      1:48.055
                     </div>
                   </div>
                   <div className='inine-block pb-4'>
@@ -331,17 +283,17 @@ const Schedule: React.FC = () => {
                       <br />
                       &nbsp;
                     </div>
-                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block mercedes'>
-                      Lewis Hamilton (<span className='text'>Mercedes</span>){' '}
+                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block racingpoint'>
+                      Sergio Perez (<span className='text'>Racing Point</span>){' '}
                       <br />
-                      1:28.190
+                      1:49.321
                     </div>
                   </div>
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
                 <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1 self-center'>
-                  2019 Race Results
+                  2020 Race Results
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2 self-start'>
                   <div className='inine-block pb-4'>
@@ -353,7 +305,7 @@ const Schedule: React.FC = () => {
                     <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block mercedes'>
                       Lewis Hamilton (<span className='text'>Mercedes</span>){' '}
                       <br />
-                      1:34:21.295
+                      1:42:19.313
                     </div>
                   </div>
                   <div className='inine-block pb-4'>
@@ -362,10 +314,10 @@ const Schedule: React.FC = () => {
                       <br />
                       &nbsp;
                     </div>
-                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block mercedes'>
-                      Valtteri Bottas (<span className='text'>Mercedes</span>){' '}
+                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block racingpoint'>
+                      Sergio Perez (<span className='text'>Racing Point</span>){' '}
                       <br />
-                      +2.980s
+                      +31.633s
                     </div>
                   </div>
                   <div className='inine-block pb-4'>
@@ -375,9 +327,95 @@ const Schedule: React.FC = () => {
                       &nbsp;
                     </div>
                     <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block ferrari'>
-                      Charles Leclerc (<span className='text'>Ferrari</span>){' '}
+                      Sebastian Vettel (<span className='text'>Ferrari</span>){' '}
                       <br />
-                      +6.131s
+                      +31.960s
+                    </div>
+                  </div>
+                </div>
+              </div>{' '}
+              <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
+                <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1 self-center'>
+                  2011 Qualifying Results
+                </div>
+                <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2 self-start'>
+                  <div className='inine-block pb-4'>
+                    <div className='text-primary-on text-lg font-bold leading-5 w-12 inline-block'>
+                      P1
+                      <br />
+                      &nbsp;
+                    </div>
+                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block redbull'>
+                      Sebastian Vettel (<span className='text'>Red Bull</span>){' '}
+                      <br />
+                      1:25.049
+                    </div>
+                  </div>
+                  <div className='inine-block pb-4'>
+                    <div className='text-primary-on text-lg font-bold leading-5 w-12 inline-block'>
+                      P2
+                      <br />
+                      &nbsp;
+                    </div>
+                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block redbull'>
+                      Mark Webber (<span className='text'>Red Bull</span>){' '}
+                      <br />
+                      1:25.454
+                    </div>
+                  </div>
+                  <div className='inine-block pb-4'>
+                    <div className='text-primary-on text-lg font-bold leading-5 w-12 inline-block '>
+                      P3
+                      <br />
+                      &nbsp;
+                    </div>
+                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block mercedes'>
+                      Nico Rosberg (<span className='text'>Mercedes</span>){' '}
+                      <br />
+                      1:25.574
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
+                <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1 self-center'>
+                  2011 Race Results
+                </div>
+                <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2 self-start'>
+                  <div className='inine-block pb-4'>
+                    <div className='text-primary-on text-lg font-bold leading-5 w-12 inline-block'>
+                      I<sup>st</sup>
+                      <br />
+                      &nbsp;
+                    </div>
+                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block redbull'>
+                      Sebastian Vettel (<span className='text'>Red Bull</span>){' '}
+                      <br />
+                      1:30:17.558
+                    </div>
+                  </div>
+                  <div className='inine-block pb-4'>
+                    <div className='text-primary-on text-lg font-bold leading-5 w-12 inline-block'>
+                      II<sup>nd</sup>
+                      <br />
+                      &nbsp;
+                    </div>
+                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block redbull'>
+                      Mark Webber (<span className='text'>Red Bull</span>){' '}
+                      <br />
+                      +8.807s
+                    </div>
+                  </div>
+                  <div className='inine-block pb-4'>
+                    <div className='text-primary-on text-lg font-bold leading-5 w-12 inline-block'>
+                      III<sup>rd</sup>
+                      <br />
+                      &nbsp;
+                    </div>
+                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block ferrari'>
+                      Fernando Alonso (<span className='text'>Ferrari</span>){' '}
+                      <br />
+                      +10.075s
                     </div>
                   </div>
                 </div>
