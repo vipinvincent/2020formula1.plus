@@ -7,14 +7,14 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-md'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=4b3Os-jXTzw'
+        href='https://www.youtube.com/watch?v=R229xcKOJGA'
         target='_blank'>
         <div className='h-full w-full rounded-md relative flex'>
           <div className='h-full w-full bg-black-100 rounded-t-md  '>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-t-md  '
-              src='https://img.youtube.com/vi/4b3Os-jXTzw/sddefault.jpg'
-              alt='The divisive idea that could accidentally spice up F1s driver market'
+              src='https://img.youtube.com/vi/R229xcKOJGA/sddefault.jpg'
+              alt='The vicious circle that trapped Vettel and how he briefly escaped'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,18 +32,19 @@ const Second: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=4b3Os-jXTzw'
+            href='https://www.youtube.com/watch?v=R229xcKOJGA'
             target='_blank'>
-            The divisive idea that could accidentally spice up F1's driver
-            market
+            The vicious circle that trapped Vettel and how he briefly escaped
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Formula 1 is progressing with plans to introduce a salary cap for
-            drivers by 2023. The idea has the support of the teams, but it's an
-            unconventional move outside of US sports where salary limits have
-            become more accepted. In this video Scott Mitchell explains how F1's
-            approach to the idea would work, and the consequences of it that
-            would likely lead to a shake-up in how teams play the driver market.
+            Sebastian Vettel's 2020 F1 season has been mostly miserable so far,
+            but he was briefly released from that downward spiral at the Turkish
+            Grand Prix, where he put in an accomplished performance to take an
+            unexpected podium finish. In this video Scott Mitchell explains
+            what's been going wrong for Vettel this year, leaving him trapped
+            with no obvious way out, and why he was able to take advantage of
+            the circumstances at Istanbul Park to get a brief release from his
+            problems.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}

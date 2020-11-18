@@ -7,14 +7,15 @@ const Fourth: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-md'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=DTE8gHT0GAA'
+        href='https://www.youtube.com/watch?v=66jR_R-Flhg'
         target='_blank'>
         <div className='h-full w-full rounded-md relative flex'>
           <div className='h-full w-full bg-black-100 rounded-t-md  '>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-t-md  '
-              src='https://img.youtube.com/vi/DTE8gHT0GAA/sddefault.jpg'
-              alt='2021 Formula 1 Calendar Reaction'
+              src='https://img.youtube.com/vi/66jR_R-Flhg/sddefault.jpg'
+              alt='F1 IN 10 | LATEST NEWS | Hamiltons seventh, Pirellis Mario Isola, and Red Bulls Bosphorus run
+'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,17 +33,21 @@ const Fourth: React.FC = () => {
             PODCAST
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=DTE8gHT0GAA'
+            href='https://www.youtube.com/watch?v=66jR_R-Flhg'
             target='_blank'>
-            2021 Formula 1 Calendar Reaction
+            F1 IN 10
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The 2021 F1 Calendar is now confirmed, lets take a look!
+            - Hamilton wants to stay in F1 - Isola tests positive for COVID-19 -
+            Bulls take Istanbul - Sauber hits huge milestone - Interlagos set
+            for long-term deal - Bahrain to host pre-season? - Australia hoping
+            for fans - Sustainable fuel future - W Series joins F1 in 2021 -
+            Ferrari World Finals rescheduled
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='https://tommccluskey.co.uk' target='_blank'>
-              Tommo F1
+            <ContentLink href='https://unbeaten.com/formula1' target='_blank'>
+              Unbeaten F1
             </ContentLink>
           </p>
         </div>

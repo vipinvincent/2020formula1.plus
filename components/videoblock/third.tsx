@@ -7,14 +7,14 @@ const Third: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-md'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=NhRcqrrghp4'
+        href='https://www.youtube.com/watch?v=DXwlhmJBkIY'
         target='_blank'>
         <div className='h-full w-full rounded-md relative flex'>
           <div className='h-full w-full bg-black-100 rounded-t-md  '>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-t-md  '
-              src='https://img.youtube.com/vi/NhRcqrrghp4/sddefault.jpg'
-              alt='Turkish Grand Prix Preview F1 2020'
+              src='https://img.youtube.com/vi/DXwlhmJBkIY/sddefault.jpg'
+              alt='Lewis Reflects on his Seventh F1 Title '
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,24 +32,19 @@ const Third: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=NhRcqrrghp4'
+            href='https://www.youtube.com/watch?v=DXwlhmJBkIY'
             target='_blank'>
-            Turkish Grand Prix Preview F1 2020
+            Lewis Reflects on his Seventh F1 Title
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Formula 1 is back this weekend for the F1 2020 Turkish Grand Prix!
-            Today we preview the weekend/race, taking a look at last seasons
-            results, the championship so far, a hot lap of the Istanbul Circuit,
-            My predictions and a look at the schedule for this weekends F1 and
-            F2! ! With Hamilton now a 6 time champion, can Bottas, Leclerc,
-            Verstappen and Vettel challenge even closer this year?
+            “Thank you for helping me achieve my dream. I hope your realise that
+            we’ve created #HIS7ORY together.” ❤️ The lowdown from Lewis
+            #HAMIL7ON on the day he was crowned a SEVEN-time F1 World Champion!
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink
-              href='https://www.youtube.com/c/F1Reviews/'
-              target='_blank'>
-              F1/E Reviews
+            <ContentLink href='https://www.mercedesamgf1.com/' target='_blank'>
+              Mercedes-AMG Petronas F1
             </ContentLink>
           </p>
         </div>

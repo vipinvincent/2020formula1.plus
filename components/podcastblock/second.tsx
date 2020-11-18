@@ -7,14 +7,14 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-md'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=05bJ5ddWut0'
+        href='https://www.youtube.com/watch?v=RmAZkBD4y10'
         target='_blank'>
         <div className='h-full w-full rounded-md relative flex'>
           <div className='h-full w-full bg-black-100 rounded-t-md  '>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-t-md  '
-              src='https://img.youtube.com/vi/05bJ5ddWut0/sddefault.jpg'
-              alt='Turkish Grand Prix Preview - Is 23 races simply too many?'
+              src='https://img.youtube.com/vi/RmAZkBD4y10/sddefault.jpg'
+              alt='Has Hamilton Silenced The Car VS Driver Debate? With Paddy Lowe'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,18 +32,22 @@ const Second: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=05bJ5ddWut0'
+            href='https://www.youtube.com/watch?v=RmAZkBD4y10'
             target='_blank'>
-            Turkish Grand Prix Preview - Is 23 races simply too many?
+            Has Hamilton Silenced The Car VS Driver Debate? With Paddy Lowe
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The biggest stories in F1 today - Turkish Grand Prix Preview - Is 23
-            races simply too many?
+            After securing his 7th World Championship in dominant fashion, many
+            now feel Lewis Hamilton is the greatest F1 driver of all time.
+            However, some still argue that his success has only come from being
+            in the best car. Jon Noble and Luke Smith are joined by former
+            Mercedes F1 team Technical Director, Paddy Lowe, to discuss if
+            Hamilton is really the difference-maker.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='http://www.formulaspy.com' target='_blank'>
-              Thomas Maher
+            <ContentLink href='https://www.autosport.com/' target='_blank'>
+              Autosport
             </ContentLink>
           </p>
         </div>
