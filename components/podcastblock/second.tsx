@@ -7,14 +7,14 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-md'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=RmAZkBD4y10'
+        href='https://www.youtube.com/watch?v=w6LsvmFE2xI'
         target='_blank'>
         <div className='h-full w-full rounded-md relative flex'>
           <div className='h-full w-full bg-black-100 rounded-t-md  '>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-t-md  '
-              src='https://img.youtube.com/vi/RmAZkBD4y10/sddefault.jpg'
-              alt='Has Hamilton Silenced The Car VS Driver Debate? With Paddy Lowe'
+              src='https://img.youtube.com/vi/w6LsvmFE2xI/sddefault.jpg'
+              alt='The 2021 Formula 1 Driver Draft'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,22 +32,21 @@ const Second: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=RmAZkBD4y10'
+            href='https://www.youtube.com/watch?v=w6LsvmFE2xI'
             target='_blank'>
-            Has Hamilton Silenced The Car VS Driver Debate? With Paddy Lowe
+            The 2021 Formula 1 Driver Draft
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            After securing his 7th World Championship in dominant fashion, many
-            now feel Lewis Hamilton is the greatest F1 driver of all time.
-            However, some still argue that his success has only come from being
-            in the best car. Jon Noble and Luke Smith are joined by former
-            Mercedes F1 team Technical Director, Paddy Lowe, to discuss if
-            Hamilton is really the difference-maker.
+            Was suggested this cracking video idea, changing up the 2021 Driver
+            Market by adopting the American Draft based system. In this version,
+            each team picks a driver, starting with the worst performing team,
+            and ending with the best. There's some proper interesting pairings
+            here, some more cursed than others.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='https://www.autosport.com/' target='_blank'>
-              Autosport
+            <ContentLink href='https://www.tommccluskey.co.uk/' target='_blank'>
+              Tommo F1
             </ContentLink>
           </p>
         </div>

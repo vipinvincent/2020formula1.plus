@@ -7,14 +7,14 @@ const First: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-md'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=IdblyNkIsvw'
+        href='https://www.youtube.com/watch?v=NlQkr5fV3bY'
         target='_blank'>
         <div className='h-full w-full rounded-md relative flex'>
           <div className='h-full w-full bg-black-100 rounded-t-md  '>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-t-md  '
-              src='https://img.youtube.com/vi/IdblyNkIsvw/sddefault.jpg'
-              alt='Lewis Hamiltons Seventh Title, George Russell On Fitness And More | F1 Nation Podcast'
+              src='https://img.youtube.com/vi/NlQkr5fV3bY/sddefault.jpg'
+              alt='Lord Hesketh On James Hunt And Formula 1 In The 1970s | Beyond The Grid | F1 Official Podcast'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,21 +32,20 @@ const First: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=IdblyNkIsvw'
+            href='https://www.youtube.com/watch?v=NlQkr5fV3bY'
             target='_blank'>
-            Lewis Hamilton's Seventh Title, George Russell On Fitness And More |
-            F1 Nation Podcast
+            Lord Hesketh On James Hunt And Formula 1 In The 1970s | Beyond The
+            Grid | F1 Official Podcast
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Lots on the menu on this week's F1 Nation podcast - George Russell
-            pops in to talk about his fitness regime and a rollercoaster month
-            on the track, we go behind the scenes for Lewis Hamilton's
-            title-clinching win in Istanbul and co-host Tom Clarkson shares a
-            story about hitting the gym with Chase Carey!
+            Lord Alexander Hesketh is the latest esteemed guest on Beyond The
+            Grid! He's here to discuss managing Hesketh Racing, who burst onto
+            the Formula 1 scene in the 1970s with future world champion James
+            Hunt at the wheel.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='http://www.Formula1.com' target='_blank'>
+            <ContentLink href='http://www.formula1.com' target='_blank'>
               Formula 1
             </ContentLink>
           </p>

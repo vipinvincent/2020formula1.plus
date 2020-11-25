@@ -14,7 +14,7 @@ const Third: React.FC = () => {
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-t-md  '
               src='https://img.youtube.com/vi/g1jsNP-l65k/sddefault.jpg'
-              alt='2020 Turkish GP Race Review | WTF1 Podcast'
+              alt='The F1 Season That Gave Us 7 Winners In 7 Races'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -34,13 +34,12 @@ const Third: React.FC = () => {
           <ContentLink
             href='https://www.youtube.com/watch?v=g1jsNP-l65k'
             target='_blank'>
-            2020 Turkish GP Race Review | WTF1 Podcast
+            The F1 Season That Gave Us 7 Winners In 7 Races
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            F1 returned to Istanbul Park for the Turkish Grand Prix and WHAT A
-            RACE IT WAS! Matt, Tommy & Katy discuss whether Hamilton's drive was
-            the best of his career, if F1 is better slower and what caused
-            another dodgy decision from the FIA race director.
+            We take a look back at the incredible start to the 2012 Formula One
+            season that saw seven different drivers win the first seven races,
+            including a very unlikely winner!
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}

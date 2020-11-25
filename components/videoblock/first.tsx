@@ -7,14 +7,14 @@ const First: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-md'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=KBzAARLgxec'
+        href='https://www.youtube.com/watch?v=y3SSeS6sHG0'
         target='_blank'>
         <div className='h-full w-full rounded-md relative flex'>
           <div className='h-full w-full bg-black-100 rounded-t-md  '>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-t-md  '
-              src='https://img.youtube.com/vi/KBzAARLgxec/sddefault.jpg'
-              alt='Hamilton is an all-time great | Nico Rosberg congratulates his ex-Mercedes team-mate'
+              src='https://img.youtube.com/vi/y3SSeS6sHG0/sddefault.jpg'
+              alt='The Secret To Hamiltons F1 Success'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,20 +32,20 @@ const First: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=KBzAARLgxec'
+            href='https://www.youtube.com/watch?v=y3SSeS6sHG0'
             target='_blank'>
-            'Hamilton is an all-time great' | Nico Rosberg congratulates his
-            ex-Mercedes team-mate
+            The Secret To Hamilton's F1 Success
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Former F1 world champion Nico Rosberg says ex-Mercedes team-mate
-            Lewis Hamilton is now an all-time great after winning a
-            record-equalling seventh world title.
+            Lewis Hamilton is now the winningest F1 driver of all time. He has
+            more victories and more pole positions than any other driver in
+            history; and it seems almost inevitable that he will go on to beat
+            the seven title record that he shares with Michael Schumacher.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='https://www.skysports.com/f1/' target='_blank'>
-              Sky Sports F1
+            <ContentLink href='https://www.autosport.com/' target='_blank'>
+              Autosport
             </ContentLink>
           </p>
         </div>

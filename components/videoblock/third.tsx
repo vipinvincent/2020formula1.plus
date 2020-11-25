@@ -7,14 +7,14 @@ const Third: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-md'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=DXwlhmJBkIY'
+        href='https://www.youtube.com/watch?v=ZnSitgH1ECE'
         target='_blank'>
         <div className='h-full w-full rounded-md relative flex'>
           <div className='h-full w-full bg-black-100 rounded-t-md  '>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-t-md  '
-              src='https://img.youtube.com/vi/DXwlhmJBkIY/sddefault.jpg'
-              alt='Lewis Reflects on his Seventh F1 Title '
+              src='https://img.youtube.com/vi/ZnSitgH1ECE/sddefault.jpg'
+              alt='5 Things Still To Be Decided In 2020 '
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,9 +32,9 @@ const Third: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=DXwlhmJBkIY'
+            href='https://www.youtube.com/watch?v=ZnSitgH1ECE'
             target='_blank'>
-            Lewis Reflects on his Seventh F1 Title
+            5 Things Still To Be Decided In 2020
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             “Thank you for helping me achieve my dream. I hope your realise that
@@ -43,8 +43,10 @@ const Third: React.FC = () => {
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='https://www.mercedesamgf1.com/' target='_blank'>
-              Mercedes-AMG Petronas F1
+            <ContentLink
+              href='https://www.youtube.com/c/TheF1Word'
+              target='_blank'>
+              The F1 Word
             </ContentLink>
           </p>
         </div>

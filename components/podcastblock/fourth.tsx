@@ -7,13 +7,13 @@ const Fourth: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-md'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=66jR_R-Flhg'
+        href='https://www.youtube.com/watch?v=yFIuXnAo_ks'
         target='_blank'>
         <div className='h-full w-full rounded-md relative flex'>
           <div className='h-full w-full bg-black-100 rounded-t-md  '>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-t-md  '
-              src='https://img.youtube.com/vi/66jR_R-Flhg/sddefault.jpg'
+              src='https://img.youtube.com/vi/yFIuXnAo_ks/sddefault.jpg'
               alt='F1 IN 10 | LATEST NEWS | Hamiltons seventh, Pirellis Mario Isola, and Red Bulls Bosphorus run
 '
             />
@@ -33,16 +33,16 @@ const Fourth: React.FC = () => {
             PODCAST
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=66jR_R-Flhg'
+            href='https://www.youtube.com/watch?v=yFIuXnAo_ks'
             target='_blank'>
             F1 IN 10
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            - Hamilton wants to stay in F1 - Isola tests positive for COVID-19 -
-            Bulls take Istanbul - Sauber hits huge milestone - Interlagos set
-            for long-term deal - Bahrain to host pre-season? - Australia hoping
-            for fans - Sustainable fuel future - W Series joins F1 in 2021 -
-            Ferrari World Finals rescheduled
+            - Renault excited for Alonso return - Hamilton deflects knighthood
+            calls - Albon given time to shine - Schumacher to race smart -
+            Ilott/Schumacher get F1 tests - Macau won by proud local - Safety
+            car duties to be shared? - Nissany and Aitken get seat time - Merc
+            questions low-grip pace
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
