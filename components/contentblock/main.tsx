@@ -8,7 +8,7 @@ const Main: React.FC = () => {
       <div className='h-48 md:h-64 xl:h-104  w-full'>
         <img
           className='w-full h-full object-cover rounded-t-md  '
-          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1597490683/contentImages/content/lewis-hamilton3_za9deq.jpg'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1597490683/contentImages/content/lewis-hamilton1_bzargd.jpg'
           alt='FP1 REPORT - Bahrain GP 2020'
         />
       </div>
