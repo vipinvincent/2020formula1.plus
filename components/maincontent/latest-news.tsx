@@ -14,7 +14,7 @@ import React from 'react'
 // import RaceReport from 'components/contentblock/race-report'
 // import QualifyingReport from 'components/contentblock/qualifying-report'
 
-// import MainContent from 'components/contentblock/main'
+import MainContent from 'components/contentblock/main'
 import FirstContent from 'components/contentblock/first'
 import SecondContent from 'components/contentblock/left'
 import ThirdContent from 'components/contentblock/right'
@@ -37,10 +37,13 @@ import ButtonLink from 'components/link/ButtonLink'
 const Main: React.FC = () => {
   return (
     <div className='flex flex-col'>
-      {/* <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
+      <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
         Latest News
-      </div> */}
-      <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 mt-0'>
+      </div>
+      <div className='w-100 bg-white-100 rounded-md mt-0'>
+        <MainContent />
+      </div>
+      <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 mt-4'>
         ROUND 14 - Turkish GP
       </div>
       <div className='w-100 bg-white-100 rounded-md mt-0'>
