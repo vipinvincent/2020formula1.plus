@@ -11,10 +11,10 @@ import React from 'react'
 // import ESPN from 'components/contentblock/espn'
 // import AutoSport from 'components/contentblock/autosport'
 
-import RaceReport from 'components/contentblock/race-report'
-import QualifyingReport from 'components/contentblock/qualifying-report'
+// import RaceReport from 'components/contentblock/race-report'
+// import QualifyingReport from 'components/contentblock/qualifying-report'
 
-import MainContent from 'components/contentblock/main'
+// import MainContent from 'components/contentblock/main'
 import FirstContent from 'components/contentblock/first'
 import SecondContent from 'components/contentblock/left'
 import ThirdContent from 'components/contentblock/right'
@@ -23,6 +23,9 @@ import SixthContent from 'components/contentblock/right-old'
 // import FourthContent from 'components/contentblock/fourth'
 import Qualifying from 'components/qualifying/quick-look'
 import Race from 'components/race/quick-look'
+import Archive66 from 'components/newsarchives/race-report-emilia-romagna-gp'
+import Archive65 from 'components/newsarchives/qualifying-report-emilia-romagna-gp'
+import Archive64 from 'components/newsarchives/fp-report-emilia-romagna-gp'
 import Archive63 from 'components/newsarchives/race-report-portuguese-gp'
 import Archive62 from 'components/newsarchives/qualifying-report-portuguese-gp'
 import Archive61 from 'components/newsarchives/fp3-report-portuguese-gp'
@@ -69,19 +72,27 @@ const Main: React.FC = () => {
         ROUND 13 - EMILIA ROMAGNA GP 2020
       </div>
       <div className='w-100 bg-white-100 rounded-md mt-0'>
-        <RaceReport />
+        <Archive66 />
       </div>
       <div className='w-100 bg-white-100 rounded-md mt-4'>
-        <QualifyingReport />
+        <Archive65 />
       </div>
       <div className='w-100 bg-white-100 rounded-md mt-4'>
-        <MainContent />
+        <Archive64 />
       </div>
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 mt-4'>
         ROUND 12 - PORTUGUESE GP
       </div>
       <div className='w-100 bg-white-100 rounded-md mt-0'>
         <Archive63 />
+      </div>
+      <div className='w-100 flex flex-col xl:flex-row'>
+        <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 mt-4 bg-white-100 rounded-md '>
+          <Archive62 />
+        </div>
+        <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 mt-4 bg-white-100 rounded-md '>
+          <Archive61 />
+        </div>
       </div>
       <div className='w-100 flex flex-col md:self-center'>
         <ButtonLink href='/news' target='_self'>
