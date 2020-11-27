@@ -7,14 +7,14 @@ const First: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-md'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=y3SSeS6sHG0'
+        href='https://www.youtube.com/watch?v=LLVM70-TUpc'
         target='_blank'>
         <div className='h-full w-full rounded-md relative flex'>
           <div className='h-full w-full bg-black-100 rounded-t-md  '>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-t-md  '
-              src='https://img.youtube.com/vi/y3SSeS6sHG0/sddefault.jpg'
-              alt='The Secret To Hamiltons F1 Success'
+              src='https://img.youtube.com/vi/LLVM70-TUpc/sddefault.jpg'
+              alt='Is Alonso Wasting His Time Testing A 2018 F1 Car?'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,15 +32,17 @@ const First: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=y3SSeS6sHG0'
+            href='https://www.youtube.com/watch?v=LLVM70-TUpc'
             target='_blank'>
-            The Secret To Hamilton's F1 Success
+            Is Alonso Wasting His Time Testing A 2018 F1 Car?
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Lewis Hamilton is now the winningest F1 driver of all time. He has
-            more victories and more pole positions than any other driver in
-            history; and it seems almost inevitable that he will go on to beat
-            the seven title record that he shares with Michael Schumacher.
+            In preparation for his full time return to F1 in 2021, Fernando
+            Alonso has been testing Renault's 2018 challenger, to try and fully
+            acclimatise himself with the new regulations and re-solidify his
+            place with his former team. But is he really going to get something
+            out of these recent test sessions? Jon Noble takes a look at if
+            Alonso is wasting his time.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}

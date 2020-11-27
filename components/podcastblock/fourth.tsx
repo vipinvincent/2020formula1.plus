@@ -7,14 +7,14 @@ const Fourth: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-md'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=yFIuXnAo_ks'
+        href='https://www.youtube.com/watch?v=qguY_T0cnQM'
         target='_blank'>
         <div className='h-full w-full rounded-md relative flex'>
           <div className='h-full w-full bg-black-100 rounded-t-md  '>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-t-md  '
-              src='https://img.youtube.com/vi/yFIuXnAo_ks/sddefault.jpg'
-              alt='F1 IN 10 | LATEST NEWS | Hamiltons seventh, Pirellis Mario Isola, and Red Bulls Bosphorus run
+              src='https://img.youtube.com/vi/qguY_T0cnQM/sddefault.jpg'
+              alt='Can Ferrari save itself from embarrassment? | LATEST NEWS | Hamiltons seventh, Pirellis Mario Isola, and Red Bulls Bosphorus run
 '
             />
           </div>
@@ -33,16 +33,18 @@ const Fourth: React.FC = () => {
             PODCAST
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=yFIuXnAo_ks'
+            href='https://www.youtube.com/watch?v=qguY_T0cnQM'
             target='_blank'>
-            F1 IN 10
+            Can Ferrari save itself from embarrassment?
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            - Renault excited for Alonso return - Hamilton deflects knighthood
-            calls - Albon given time to shine - Schumacher to race smart -
-            Ilott/Schumacher get F1 tests - Macau won by proud local - Safety
-            car duties to be shared? - Nissany and Aitken get seat time - Merc
-            questions low-grip pace
+            Racing Point heads to the Kingdom of Bahrain with momentum behind
+            it, having overtaken its midfield rivals for third place in the
+            standings, which it’ll have to work hard to keep. … with the minnow
+            Silverstone squad just five points up on McLaren, and 18 ahead of
+            Renault in fifth: a comfort for now, as the French marque has scored
+            just five double points finishes this year. Watch the video, and
+            tell us what you think in the comments…
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}

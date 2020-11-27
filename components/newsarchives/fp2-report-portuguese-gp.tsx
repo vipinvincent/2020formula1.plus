@@ -1,6 +1,5 @@
 import React from 'react'
 import H1 from 'components/heading/H1'
-// import ActionLink from 'components/link/ActionLink'
 
 const Archive60: React.FC = () => {
   return (

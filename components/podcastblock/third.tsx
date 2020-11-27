@@ -7,14 +7,14 @@ const Third: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-md'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=g1jsNP-l65k'
+        href='https://www.youtube.com/watch?v=HoZzm8SkNOc'
         target='_blank'>
         <div className='h-full w-full rounded-md relative flex'>
           <div className='h-full w-full bg-black-100 rounded-t-md  '>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-t-md  '
-              src='https://img.youtube.com/vi/g1jsNP-l65k/sddefault.jpg'
-              alt='The F1 Season That Gave Us 7 Winners In 7 Races'
+              src='https://img.youtube.com/vi/HoZzm8SkNOc/sddefault.jpg'
+              alt='Bahrain Grand Prix Preview F1 2020'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,19 +32,24 @@ const Third: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=g1jsNP-l65k'
+            href='https://www.youtube.com/watch?v=HoZzm8SkNOc'
             target='_blank'>
-            The F1 Season That Gave Us 7 Winners In 7 Races
+            Bahrain Grand Prix Preview F1 2020
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            We take a look back at the incredible start to the 2012 Formula One
-            season that saw seven different drivers win the first seven races,
-            including a very unlikely winner!
+            Formula 1 is back this weekend for the F1 2020 Bahrian Grand Prix!
+            Today we preview the weekend/race, taking a look at last seasons
+            results, the championship so far, a hot lap of the Sehkir Circuit,
+            My predictions and a look at the schedule for this weekends F1 and
+            F2! ! With Hamilton now a 7 time champion, can Bottas, Leclerc,
+            Verstappen and Vettel challenge even closer this year?
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='http://www.wtf1.com' target='_blank'>
-              WTF1
+            <ContentLink
+              href='https://www.youtube.com/c/F1Reviews/'
+              target='_blank'>
+              F1/E Reviews
             </ContentLink>
           </p>
         </div>

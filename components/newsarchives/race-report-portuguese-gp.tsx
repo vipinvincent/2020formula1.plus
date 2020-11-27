@@ -1,6 +1,5 @@
 import React from 'react'
 import H1 from 'components/heading/H1'
-// import Zoom from 'react-medium-image-zoom'
 
 const Archive63: React.FC = () => {
   return (

@@ -7,14 +7,14 @@ const First: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-md'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=NlQkr5fV3bY'
+        href='https://www.youtube.com/watch?v=2hQqNipYsZU'
         target='_blank'>
         <div className='h-full w-full rounded-md relative flex'>
           <div className='h-full w-full bg-black-100 rounded-t-md  '>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-t-md  '
-              src='https://img.youtube.com/vi/NlQkr5fV3bY/sddefault.jpg'
-              alt='Lord Hesketh On James Hunt And Formula 1 In The 1970s | Beyond The Grid | F1 Official Podcast'
+              src='https://img.youtube.com/vi/2hQqNipYsZU/sddefault.jpg'
+              alt='Bahrain Grand Prix: Preview and Predictions'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,21 +32,24 @@ const First: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=NlQkr5fV3bY'
+            href='https://www.youtube.com/watch?v=2hQqNipYsZU'
             target='_blank'>
-            Lord Hesketh On James Hunt And Formula 1 In The 1970s | Beyond The
-            Grid | F1 Official Podcast
+            Bahrain Grand Prix: Preview and Predictions
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Lord Alexander Hesketh is the latest esteemed guest on Beyond The
-            Grid! He's here to discuss managing Hesketh Racing, who burst onto
-            the Formula 1 scene in the 1970s with future world champion James
-            Hunt at the wheel.
+            14 races down, 3 to go as F1 returns to Sakhir for the 2020 Bahrain
+            Grand Prix. It was a thrilling race in the rain at Turkey…but what
+            will we get in the heat of Bahrain? More Mercedes domination? Or
+            could someone spring a surprise? In this preview, a look back at
+            last year’s race, the usual track and tyre info, and I make some
+            midfield predictions.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='http://www.formula1.com' target='_blank'>
-              Formula 1
+            <ContentLink
+              href='https://www.youtube.com/c/TheF1Word/'
+              target='_blank'>
+              The F1 Word
             </ContentLink>
           </p>
         </div>
