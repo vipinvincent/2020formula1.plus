@@ -83,29 +83,6 @@ const Main: React.FC = () => {
       <div className='w-100 bg-white-100 rounded-md mt-0'>
         <Archive63 />
       </div>
-      <div className='w-100 flex flex-col xl:flex-row'>
-        <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 bg-white-100 rounded-md mt-4'>
-          <Archive62 />
-        </div>
-        <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 bg-white-100 rounded-md mt-4'>
-          <Archive61 />
-        </div>
-      </div>
-      {/*   <div className='w-100 flex flex-col xl:flex-row'>
-        <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 bg-white-100 rounded-md mt-4'>
-          <Archive60 />
-        </div>
-        <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 bg-white-100 rounded-md mt-4'>
-          <Archive59 />
-        </div>
-      </div> */}
-
-      {/* <div className='w-100 bg-white-100 rounded-md mt-0'>
-        <FourthContent />
-      </div> */}
-      {/* <div className='w-100 bg-white-100 rounded-md mt-4'>
-        <Archive55 />
-      </div> */}
       <div className='w-100 flex flex-col md:self-center'>
         <ButtonLink href='/news' target='_self'>
           More News...

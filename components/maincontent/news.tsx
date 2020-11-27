@@ -1,4 +1,7 @@
 import React from 'react'
+import Archive66 from 'components/newsarchives/race-report-emilia-romagna-gp'
+import Archive65 from 'components/newsarchives/qualifying-report-emilia-romagna-gp'
+import Archive64 from 'components/newsarchives/fp-report-emilia-romagna-gp'
 import Archive63 from 'components/newsarchives/race-report-portuguese-gp'
 import Archive62 from 'components/newsarchives/qualifying-report-portuguese-gp'
 import Archive61 from 'components/newsarchives/fp3-report-portuguese-gp'
@@ -70,6 +73,15 @@ const Main: React.FC = () => {
         Archived News
       </div>
       <div className='w-100 bg-white-100 rounded-md mt-0'>
+        <Archive66 />
+      </div>
+      <div className='w-100 bg-white-100 rounded-md mt-4'>
+        <Archive65 />
+      </div>
+      <div className='w-100 bg-white-100 rounded-md mt-4'>
+        <Archive64 />
+      </div>
+      <div className='w-100 bg-white-100 rounded-md mt-4'>
         <Archive63 />
       </div>
       <div className='w-100 flex flex-col xl:flex-row'>
