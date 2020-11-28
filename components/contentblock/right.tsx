@@ -8,64 +8,57 @@ const Right: React.FC = () => {
       <div className='h-40 xl:h-48 w-full'>
         <img
           className='w-full h-full object-cover rounded-t-md  '
-          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1605276462/contentImages/content/max_wubeqo.jpg'
-          alt='FP3 REPORT - Turkish GP 2020'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1598629313/contentImages/content/max-verstappen-red-bull-racing_qufnjn.jpg'
+          alt='FP3 REPORT - Bahrain GP 2020'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-2 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            FP3 REPORT - Turkish GP 2020
+            FP3 REPORT - Bahrain GP 2020
           </div>
           <H1>
-            FP3 session interrupted by heavy rain as Verstappen goes quickest
-            with Leclerc in second and Albon in third
+            Verstappen goes fastest in the final practice session ahead of
+            Hamilton and Bottas
           </H1>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Red Bull’s Max Verstappen heads the timesheets in the rain
-            intervened FP3 session as many drivers failed to perform the quali
-            like simulations. Some of the drivers only managed few out laps with
-            only 3 drivers could make more than 10 laps in the final practice
-            session. Ferrari’s Charles Leclarc managed secons as Max’s teammate
-            Alex Albon finished in third with his 5 hands laps in the session.
-            Renault’s Esteban Ocon who tipped Leclerc causing him to spin in
-            early session, finished fourth fastest with McLaren’s Lando Norris
-            finished fifth. The second Ferrari of Sebastian Vettel managed P6 as
-            he managed the most mileage in his SF1000 in the FP3 session with 14
-            laps. Sergio Perez became the best of the Racing Points with seventh
-            place finish.
+            Red Bull’s Max Verstappen set the fastest lap of FP3 in Bahrain,
+            ahead of Mercedes duo Lewis Hamilton in P2 and Valtteri Bottas in
+            P3. Ahead of evening qualification, all teams and drivers opted to
+            run on red softs rather than any other compounds. At mid-session,
+            Verstappen went to the lead and set the benchmark time of 1m28.355s.
+            Hamilton managed P2 and finished 0.263s off Verstappen, and just a
+            tenth faster than his Mercedes team mate Bottas. Once again a big
+            job by the top class red Bull mechanics rebuilding Alex Albon’s
+            RB16, who had a chassis change overnight after crashing heavily out
+            of FP2 on Friday. The Thai driver finished in P4 with six-tenths
+            behind his team mate. Fifth fastest was McLaren's Carlos Sainz,
+            while his team mate Lando Norris was seventh.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The best of Mercedes was Valtteri Bottas who managed 4 laps 1 better
-            than his teammate Lewis Hamilton who failed to post a meaningful
-            time in the session classified last in the leaders chart. Bottas is
-            followed by Kevin Magnussen in Hass and Lance Stroll in the second
-            Racing Point with P9 and P10 positions. Daniel Ricciardo of Renault
-            managed eleventh who is the last driver in 10 second margin from the
-            leader. The second McLaren of Carlos Sainz finished P12 as Antonio
-            Giovinazzi of Alfa Romeo finished P13.
+            Sandwiched by McLarens, AlphaTauri's Pierre Gasly finished P6 with
+            his team mate Daniil Kvyat in eighth making all the Honda powered
+            card in top 10 list. Kvyat had a power unit change, though he is
+            still within his limit for the season so won't get a grid penalty.
+            Racing Point followed up in ninth and 10th with Lance Stroll ahead
+            of Sergio Perez who made clear that the team would sacrifice one-lap
+            pace for race gains. Behind Perez, both Renaults placed both their
+            cars with Daniel Ricciardo in 11th and Esteban Ocon 12th
+            respectively. Last year’s pole sitter Ferrari were out of the top
+            10, with Sebastian Vettel 13th and his team mate Charles Leclerc
+            15th.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Pierre Gasly was the highest-placed AlphaTauri, just behind
-            Giovinazzi while his team mate Daniil Kvyat was 17th, who spun
-            numerous times. And was the last driver to cross the linen with
-            wets. Romain Grosjean who remarked to run rental cars on track for
-            laying some rubber on the surface on Friday night, that’s exactly
-            what happened, albeit in vain thanks to the deluge that followed
-            this morning finished P15. Kimi Räikkönen in Alfa Romeo managed the
-            second best mileage of 13 laps corssed the line on P16 with the
-            Williams Duo George Russell and Nicholas Latifi only managed one
-            installation lap also couldn’t post a meaningful time.
-          </p>
-          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            {' '}
-            As there are predictions for rain in qualifying sessions in the
-            evening which will big implications for the re-laid circuit, since
-            drivers were finding it even difficult to get the best grip out of
-            the slicks. It looks like the drivers will be doubtful for
-            unleashing the full wrath of the modern hybrid f1 cars on Saturday
-            afternoon. Still the Turkish GP will be in history as the current
-            world champion could claim his seventh drivers’ title on Sunday
+            Alfa Romeo's Antonio Giovinazzi splits the Ferraris, taking P14 with
+            his veteran team mate Kimi Raikkonen only managed P19. Giovinazzi
+            was followed by the Williams of George Russell in 16th. Haas
+            finished in 17th and 18th with Romain Grosjean just in front of
+            Kevin Magnussen. Russell's team mate Nicholas Latifi finished 20th,
+            with his power unit's fuel system replaced overnight as the Williams
+            mechanics burned the midnight oil. As the practice sessions drawn
+            close with Verstappen ahead of the Mercedes in the final practice
+            session of Bahrain, qualifying will be interesting along with the
+            battle for the third spot in the constructors title.
           </p>
 
           {/* <p className='mt-1 text-base leading-normal text-gray-700'>
