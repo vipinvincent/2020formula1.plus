@@ -4,7 +4,7 @@ const Race: React.FC = () => {
   return (
     <div className='flex flex-col mb-9 flex-grow flex-no-wrap flex-shrink-0'>
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
-        Starting Grid - TURKISH GP 2020
+        Starting Grid - Bahrain GP 2020
       </div>
       <div className='w-full grid sm:flex sm:flex-col justify-around py-0 bg-green-600 rounded-md mb-4'>
         <div className='align-middle min-w-full overflow-x-auto rounded-t-md rounded-b-md  bg-green-600 px-8'>
