@@ -33,7 +33,7 @@ const Team: React.FC = () => {
                     </td>
                     <td className='px-6 py-4 whitespace-no-wrap border-b border-gray-200 text-right mercedes'>
                       <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-gray-100 text'>
-                        504
+                        533
                       </span>
                     </td>
                   </tr>
@@ -47,7 +47,21 @@ const Team: React.FC = () => {
                     </td>
                     <td className='px-6 py-4 whitespace-no-wrap border-b border-gray-200 text-right redbull'>
                       <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-gray-100 text'>
-                        240
+                        274
+                      </span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td className='px-6 py-4 whitespace-no-wrap border-b border-gray-200'>
+                      <div className='flex items-center'>
+                        <div className='text-sm leading-5 font-medium text-gray-900 mclaren'>
+                          <span className='text'>McLaren</span>
+                        </div>
+                      </div>
+                    </td>
+                    <td className='px-6 py-4 whitespace-no-wrap border-b border-gray-200 text-right mclaren'>
+                      <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-gray-100 text'>
+                        171
                       </span>
                     </td>
                   </tr>
@@ -68,20 +82,6 @@ const Team: React.FC = () => {
                   <tr>
                     <td className='px-6 py-4 whitespace-no-wrap border-b border-gray-200'>
                       <div className='flex items-center'>
-                        <div className='text-sm leading-5 font-medium text-gray-900 mclaren'>
-                          <span className='text'>McLaren</span>
-                        </div>
-                      </div>
-                    </td>
-                    <td className='px-6 py-4 whitespace-no-wrap border-b border-gray-200 text-right mclaren'>
-                      <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-gray-100 text'>
-                        149
-                      </span>
-                    </td>
-                  </tr>
-                  <tr>
-                    <td className='px-6 py-4 whitespace-no-wrap border-b border-gray-200'>
-                      <div className='flex items-center'>
                         <div className='text-sm leading-5 font-medium text-gray-900 renault '>
                           <span className='text three-d-text'>Renault</span>
                         </div>
@@ -89,7 +89,7 @@ const Team: React.FC = () => {
                     </td>
                     <td className='px-6 py-4 whitespace-no-wrap border-b border-gray-200 text-right renault'>
                       <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-gray-100 text three-d-text'>
-                        136
+                        144
                       </span>
                     </td>
                   </tr>
@@ -103,7 +103,7 @@ const Team: React.FC = () => {
                     </td>
                     <td className='px-6 py-4 whitespace-no-wrap border-b border-gray-200 text-right ferrari'>
                       <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-gray-100 text'>
-                        130
+                        131
                       </span>
                     </td>
                   </tr>
@@ -117,7 +117,7 @@ const Team: React.FC = () => {
                     </td>
                     <td className='px-6 py-4 whitespace-no-wrap border-b border-gray-200 text-right alphatauri'>
                       <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-gray-100 text'>
-                        89
+                        97
                       </span>
                     </td>
                   </tr>

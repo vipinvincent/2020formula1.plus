@@ -237,7 +237,7 @@ const Qualifying: React.FC = () => {
         </div>
         <p className='my-2 pr-4 text-base leading-normal text-gray-700 text-right'>
           <ContentLink href='/qualifying-results' target='_self'>
-            View Full Qualifying Results...
+            View Full Results...
           </ContentLink>
         </p>
       </div>
