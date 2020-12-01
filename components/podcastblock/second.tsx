@@ -7,14 +7,14 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-md'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=w6LsvmFE2xI'
+        href='https://www.youtube.com/watch?v=0-9PCtiCoB0'
         target='_blank'>
         <div className='h-full w-full rounded-md relative flex'>
           <div className='h-full w-full bg-black-100 rounded-t-md  '>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-t-md  '
-              src='https://img.youtube.com/vi/w6LsvmFE2xI/sddefault.jpg'
-              alt='The 2021 Formula 1 Driver Draft'
+              src='https://img.youtube.com/vi/0-9PCtiCoB0/sddefault.jpg'
+              alt='Why Romain Grosjean surviving the crash wasnt JUST luck'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,21 +32,20 @@ const Second: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=w6LsvmFE2xI'
+            href='https://www.youtube.com/watch?v=0-9PCtiCoB0'
             target='_blank'>
-            The 2021 Formula 1 Driver Draft
+            Why Romain Grosjean surviving the crash wasn't JUST luck
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Was suggested this cracking video idea, changing up the 2021 Driver
-            Market by adopting the American Draft based system. In this version,
-            each team picks a driver, starting with the worst performing team,
-            and ending with the best. There's some proper interesting pairings
-            here, some more cursed than others.
+            We were all so relieved to see Romain Grosjean walk away from the
+            wreckage and a lot of people called it a miracle. This video
+            explains how far safety has come in F1 and why the Haas driver
+            wasn't just lucky. Get well soon, Romain!
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='https://www.tommccluskey.co.uk/' target='_blank'>
-              Tommo F1
+            <ContentLink href='http://www.wtf1.com' target='_blank'>
+              WTF1
             </ContentLink>
           </p>
         </div>

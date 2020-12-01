@@ -7,14 +7,14 @@ const Fourth: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-md'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=qguY_T0cnQM'
+        href='https://www.youtube.com/watch?v=E54m1inikIY'
         target='_blank'>
         <div className='h-full w-full rounded-md relative flex'>
           <div className='h-full w-full bg-black-100 rounded-t-md  '>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-t-md  '
-              src='https://img.youtube.com/vi/qguY_T0cnQM/sddefault.jpg'
-              alt='Can Ferrari save itself from embarrassment? | LATEST NEWS | Hamiltons seventh, Pirellis Mario Isola, and Red Bulls Bosphorus run
+              src='https://img.youtube.com/vi/E54m1inikIY/sddefault.jpg'
+              alt='How to Master the Bahrain GP 2020 | Nico Rosberg | LATEST NEWS | Hamiltons seventh, Pirellis Mario Isola, and Red Bulls Bosphorus run
 '
             />
           </div>
@@ -33,23 +33,23 @@ const Fourth: React.FC = () => {
             PODCAST
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=qguY_T0cnQM'
+            href='https://www.youtube.com/watch?v=E54m1inikIY'
             target='_blank'>
-            Can Ferrari save itself from embarrassment?
+            How to Master the Bahrain GP 2020 | Nico Rosberg
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Racing Point heads to the Kingdom of Bahrain with momentum behind
-            it, having overtaken its midfield rivals for third place in the
-            standings, which it’ll have to work hard to keep. … with the minnow
-            Silverstone squad just five points up on McLaren, and 18 ahead of
-            Renault in fifth: a comfort for now, as the French marque has scored
-            just five double points finishes this year. Watch the video, and
-            tell us what you think in the comments…
+            We are back in Bahrain for the 2020 Bahrain GP. A special race track
+            for me with my first Bahrain GP victory in 2016...and of course also
+            the very special battle vs. Let's see if we have the first rainy
+            race in Bahrain this year! Friday's practice session was already
+            quite interesting...we can all look forward to an interesting F1
+            race weekend. Check out my Hot Lap and analysis of the Bahrain
+            International Circuit. Of course followed by an F1 Fan Q&A.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='https://unbeaten.com/formula1' target='_blank'>
-              Unbeaten F1
+            <ContentLink href='http://www.nicorosberg.com' target='_blank'>
+              Nico Rosberg
             </ContentLink>
           </p>
         </div>

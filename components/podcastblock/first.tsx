@@ -7,14 +7,14 @@ const First: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-md'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=2hQqNipYsZU'
+        href='https://www.youtube.com/watch?v=ISQutse9JPI'
         target='_blank'>
         <div className='h-full w-full rounded-md relative flex'>
           <div className='h-full w-full bg-black-100 rounded-t-md  '>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-t-md  '
-              src='https://img.youtube.com/vi/2hQqNipYsZU/sddefault.jpg'
-              alt='Bahrain Grand Prix: Preview and Predictions'
+              src='https://img.youtube.com/vi/ISQutse9JPI/sddefault.jpg'
+              alt='What Saved Grosjeans Life?'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,24 +32,20 @@ const First: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=2hQqNipYsZU'
+            href='https://www.youtube.com/watch?v=ISQutse9JPI'
             target='_blank'>
-            Bahrain Grand Prix: Preview and Predictions
+            What Saved Grosjean's Life?
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            14 races down, 3 to go as F1 returns to Sakhir for the 2020 Bahrain
-            Grand Prix. It was a thrilling race in the rain at Turkey…but what
-            will we get in the heat of Bahrain? More Mercedes domination? Or
-            could someone spring a surprise? In this preview, a look back at
-            last year’s race, the usual track and tyre info, and I make some
-            midfield predictions.
+            Roman Grosjean had a horrific accident on the first lap of the 2020
+            Bahrain Grand Prix, going straight into a barrier at over 130mph.
+            Jon Noble, Luke Smith and Jake Boxall-Legge analyse what happened,
+            and what saved Romain Grosjean's life.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink
-              href='https://www.youtube.com/c/TheF1Word/'
-              target='_blank'>
-              The F1 Word
+            <ContentLink href='https://www.autosport.com/' target='_blank'>
+              Autosport
             </ContentLink>
           </p>
         </div>

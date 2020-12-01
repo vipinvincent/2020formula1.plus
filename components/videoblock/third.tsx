@@ -7,14 +7,14 @@ const Third: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-md'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=IR68jU6Fuz8'
+        href='https://www.youtube.com/watch?v=t2u0HVUotRQ'
         target='_blank'>
         <div className='h-full w-full rounded-md relative flex'>
           <div className='h-full w-full bg-black-100 rounded-t-md  '>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-t-md  '
-              src='https://img.youtube.com/vi/IR68jU6Fuz8/sddefault.jpg'
-              alt='The Genius Aero Trick That F1 Copied from Concorde '
+              src='https://img.youtube.com/vi/t2u0HVUotRQ/sddefault.jpg'
+              alt='Haas Sign Nikita Mazepin for F1 2021 Season '
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,9 +32,9 @@ const Third: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=IR68jU6Fuz8'
+            href='https://www.youtube.com/watch?v=t2u0HVUotRQ'
             target='_blank'>
-            The Genius Aero Trick That F1 Copied from Concorde
+            Haas Sign Nikita Mazepin for F1 2021 Season
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
             Look at these strange vapour trails coming off the rear wing of
@@ -46,8 +46,10 @@ const Third: React.FC = () => {
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='https://driver61.com/' target='_blank'>
-              Driver61
+            <ContentLink
+              href='https://www.youtube.com/c/F1Reviews'
+              target='_blank'>
+              F1/E Reviews
             </ContentLink>
           </p>
         </div>
