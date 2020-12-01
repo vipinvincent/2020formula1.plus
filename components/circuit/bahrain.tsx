@@ -7,38 +7,24 @@ const Schedule: React.FC = () => {
   return (
     <div className='flex flex-col mb-4'>
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
-        Circuit Facts - Bahrain International Circuit (Outer Circuit )
+        Circuit Facts - Bahrain International Circuit
       </div>
       <div className='relative bg-white-100 rounded-md mb-6'>
         <div className='h-64 sm:h-84 py-4 w-full text-center zoom-image'>
           <Zoom>
             <img
               className='w-full h-64 sm:h-84 object-contain rounded-t-md rounded-b-md py-4 px-2 text-center'
-              src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1606804906/contentImages/circuit/Bahrain_International_Circuit--Outer_Circuit_tpgznv.png'
-              alt='2020 Sakhir Grand Prix'
+              src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1605591844/contentImages/circuit/Bahrain_International_Circuit--Grand_Prix_Layout_xxzdy4.png'
+              alt='2020 Bahrain Grand Prix'
             />
           </Zoom>
         </div>
         <div className='relative max-w-screen-xl mx-auto'>
           <div className='py-4 text-left px-4'>
             <p className='mt-1 text-normal leading-normal text-gray-700'>
-              Formula 1 Rolex Sakhir Grand Prix 2020, the 2020 Sakhir Grand
-              Prix, which takes place over 87 laps of the Bahrain International
-              Circuit's 3.543-kilometre Outer Track layout, on Sunday, December
-              6.
-            </p>
-            <p className='mt-2 text-normal leading-normal text-gray-700'>
-              The 2020 Sakhir Grand Prix (officially known as the Formula 1
-              Rolex Sakhir Grand Prix 2020) is a Formula One motor race that is
-              scheduled to take place over 87 laps on 6 December 2020 on the
-              'Outer Circuit' configuration at the Bahrain International Circuit
-              in Sakhir, Bahrain. This is the first Formula One race on the this
-              track configuration. The race will be the sixteenth and
-              penultimate round in the 2020 Formula One World Championship and
-              the second of two back-to-back races in Bahrain to take place
-              during the season with the Bahrain Grand Prix having taken place
-              at the same venue the week before, but on a different layout. The
-              race also marks the first running of the Sakhir Grand Prix.
+              Formula 1 Gulf Air Bahrain Grand Prix 2020, the 2020 Bahrain Grand
+              Prix, which takes place over 57 laps of the 5.412-kilometre
+              Bahrain International Circuit in Sakhir on Sunday, November 29.
             </p>
             <p className='mt-1 text-normal leading-normal text-gray-700'>
               The Bahrain International Circuit is a motorsport venue opened in
@@ -49,33 +35,6 @@ const Schedule: React.FC = () => {
               did not return for the 2011 V8 Supercar season. 24 Hour endurance
               races are also hosted at BIC. The circuit has a FIA Grade 1
               license.
-            </p>
-            <p className='mt-1 text-normal leading-normal text-gray-700'>
-              2020 Sakhir Grand Prix will use the 'Outer Circuit' layout, the
-              first Formula One race to be held on this layout. At a length of
-              3.543 km (2.202 mi) it is a shorter layout than the 5.412 km
-              (3.363 mi) 'Grand Prix' layout, which aside from some minor tweaks
-              to the exit of turn 4 ahead of 2005 event is otherwise the same
-              circuit that has been used reguarly for Formula One races since
-              the inaugural Bahrain Formula One race in 2004 except at the 2010
-              Bahrain Grand Prix where a longer 6.299 km (3.914 mi) 'Endurance
-              Circuit' configuration was used. As a result, the race is due to
-              be contested over 87 laps to exceed the 305 km (190 mi) race
-              distance mandated by the regulations. According to simulations lap
-              times are expected to be under one minute. If achieved, this would
-              only be the second Grand Prix weekend in history to see sub one
-              minute lap times after the 1974 French Grand Prix at Dijon-Prenois
-              where Niki Lauda set a pole position qualifying time of 58.79
-              seconds in a Ferrari 312B3-74. Prior to the event many drivers
-              suggested they were looking forward to the challenges of the Outer
-              Circuit with McLaren driver Lando Norris likening the circuits
-              high speed nature as similar to Thruxton Circuit in England,
-              whilst Williams driver George Russell said the circuit was
-              "definitely gonna be bonkers, for sure" when asked his opinion on
-              the layout. Renault driver Daniel Ricciardo expressed his hope
-              that the circuit would provide good overtaking opportunities, with
-              Carlos Sainz Jr. of McLaren suggesting that choosing the correct
-              setup – particularly downforce levels – would be difficult.
             </p>
             <p className='mt-2 text-normal leading-normal text-gray-700'>
               The construction of the Bahrain circuit was a national objective
@@ -133,7 +92,7 @@ const Schedule: React.FC = () => {
               Mark Webber and the Renault of Fernando Alonso.
             </p>
 
-            {/* <p className='mt-2 text-normal leading-normal text-gray-700'>
+            <p className='mt-2 text-normal leading-normal text-gray-700'>
               <span className='font-bold italic'>
                 A lap in a Formula One car -
               </span>{' '}
@@ -164,7 +123,7 @@ const Schedule: React.FC = () => {
               slow right hander and you can also put the power down early, and
               gain speed all the way through turn 15 and the main straight
               (which is the DRS zone).
-            </p> */}
+            </p>
           </div>
         </div>
         <p className='my-2 pr-4 text-base leading-normal text-gray-700 text-right'>
@@ -174,7 +133,7 @@ const Schedule: React.FC = () => {
         </p>
       </div>
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
-        2020 Sakhir Grand Prix weekend{' '}
+        2020 Bahrain Grand Prix weekend{' '}
         <span className='font-light'>(Track Time)</span>
       </div>
       <div className='relative bg-white-100 rounded-md mb-4'>
@@ -186,7 +145,7 @@ const Schedule: React.FC = () => {
                   Practice 1
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  27 - November ( 16:30 - 18:00 )
+                  27 - November ( 14:00 - 15:30 )
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -194,7 +153,7 @@ const Schedule: React.FC = () => {
                   Practice 2
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  27 - November ( 20:30 - 22:00 )
+                  27 - November ( 18:00 - 19:30 )
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -202,7 +161,7 @@ const Schedule: React.FC = () => {
                   Practice 3
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  28 - November ( 17:00 - 18:00 )
+                  28 - November ( 14:00 - 15:00)
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -216,7 +175,7 @@ const Schedule: React.FC = () => {
                   </SiderBarLink> */}
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  28 - November ( 20:00 - 21:00 )
+                  28 - November ( 17:00 - 18:00 )
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -230,7 +189,7 @@ const Schedule: React.FC = () => {
                   </SiderBarLink> */}
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  29 - November ( 20:10 - 22:10 )
+                  29 - November ( 17:10 - 19:10 )
                 </div>
               </div>
             </div>
@@ -238,7 +197,7 @@ const Schedule: React.FC = () => {
         </div>
       </div>
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
-        Sakhir Grand Prix Facts
+        Bahrain Grand Prix Facts
       </div>
       <div className='relative bg-white-100 rounded-md'>
         <div className='relative max-w-screen-xl mx-auto'>
@@ -249,7 +208,7 @@ const Schedule: React.FC = () => {
                   Circuit Name
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  Bahrain International Circuit (Outer Circuit )
+                  Bahrain International Circuit
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -257,7 +216,7 @@ const Schedule: React.FC = () => {
                   Track Length
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  3.543 km (2.202 mi)
+                  5.412km (3.363mi)
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -265,7 +224,7 @@ const Schedule: React.FC = () => {
                   Turns
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  11 turns
+                  15 turns
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -273,10 +232,10 @@ const Schedule: React.FC = () => {
                   Race Distance
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  87 laps (307.995km - 191.379mi)
+                  57 laps (308.405km -191.634mi)
                 </div>
               </div>
-              {/* <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
+              <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
                 <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1'>
                   F1 Races Held
                 </div>
@@ -308,7 +267,7 @@ const Schedule: React.FC = () => {
                 <div className='mt-1 text-sm leading-5  sm:mt-0 sm:col-span-2 ferrari'>
                   <span className='text'> Ferrari (6)</span>
                 </div>
-              </div> */}
+              </div>
               {/* <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
                 <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1'>
                   Most points
@@ -327,7 +286,7 @@ const Schedule: React.FC = () => {
                   </div>
                 </div>
               </div> */}
-              {/* <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
+              <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
                 <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1'>
                   Lap Record
                 </div>
@@ -337,6 +296,92 @@ const Schedule: React.FC = () => {
                   1:31.447 (2005)
                 </div>
               </div>
+              <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
+                <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1 self-center'>
+                  2020 Qualifying Results
+                </div>
+                <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2 self-start'>
+                  <div className='inine-block pb-4'>
+                    <div className='text-primary-on text-lg font-bold leading-5 w-12 inline-block'>
+                      P1
+                      <br />
+                      &nbsp;
+                    </div>
+                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block mercedes'>
+                      Lewis Hamilton (<span className='text'>Mercedes</span>){' '}
+                      <br />
+                      1:27.264
+                    </div>
+                  </div>
+                  <div className='inine-block pb-4'>
+                    <div className='text-primary-on text-lg font-bold leading-5 w-12 inline-block'>
+                      P2
+                      <br />
+                      &nbsp;
+                    </div>
+                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block mercedes'>
+                      Valtteri Bottas (<span className='text'>Mercedes</span>){' '}
+                      <br />
+                      1:27.553
+                    </div>
+                  </div>
+                  <div className='inine-block pb-4'>
+                    <div className='text-primary-on text-lg font-bold leading-5 w-12 inline-block '>
+                      P3
+                      <br />
+                      &nbsp;
+                    </div>
+                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block redbull '>
+                      Max Verstappen (<span className='text'>Red Bull </span>){' '}
+                      <br />
+                      1:27.678
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
+                <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1 self-center'>
+                  2020 Race Results
+                </div>
+                <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2 self-start'>
+                  <div className='inine-block pb-4'>
+                    <div className='text-primary-on text-lg font-bold leading-5 w-12 inline-block'>
+                      I<sup>st</sup>
+                      <br />
+                      &nbsp;
+                    </div>
+                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block mercedes'>
+                      Lewis Hamilton (<span className='text'>Mercedes</span>){' '}
+                      <br />
+                      2:59:47.515
+                    </div>
+                  </div>
+                  <div className='inine-block pb-4'>
+                    <div className='text-primary-on text-lg font-bold leading-5 w-12 inline-block'>
+                      II<sup>nd</sup>
+                      <br />
+                      &nbsp;
+                    </div>
+                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block redbull'>
+                      Max Verstappen (<span className='text'>Red Bull</span>){' '}
+                      <br />
+                      +1.254s
+                    </div>
+                  </div>
+                  <div className='inine-block pb-4'>
+                    <div className='text-primary-on text-lg font-bold leading-5 w-12 inline-block'>
+                      III<sup>rd</sup>
+                      <br />
+                      &nbsp;
+                    </div>
+                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block redbull'>
+                      Alexander Albon (<span className='text'>Red Bull</span>){' '}
+                      <br />
+                      +8.005s
+                    </div>
+                  </div>
+                </div>
+              </div>{' '}
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
                 <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1 self-center'>
                   2019 Qualifying Results
@@ -422,7 +467,7 @@ const Schedule: React.FC = () => {
                     </div>
                   </div>
                 </div>
-              </div> */}
+              </div>
             </div>
           </div>
         </div>
