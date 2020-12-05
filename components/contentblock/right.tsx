@@ -9,20 +9,20 @@ const Right: React.FC = () => {
         <img
           className='w-full h-full object-cover rounded-t-md  '
           src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1598629313/contentImages/content/max-verstappen-red-bull-racing_qufnjn.jpg'
-          alt='FP3 REPORT - Bahrain GP 2020'
+          alt='FP3 REPORT - SAKHIR GP 2020'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-2 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            FP3 REPORT - Bahrain GP 2020
+            FP3 REPORT - SAKHIR GP 2020
           </div>
           <H1>
             Verstappen goes fastest in the final practice session ahead of
             Hamilton and Bottas
           </H1>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Red Bull’s Max Verstappen set the fastest lap of FP3 in Bahrain,
+            Red Bull’s Max Verstappen set the fastest lap of FP3 in SAKHIR,
             ahead of Mercedes duo Lewis Hamilton in P2 and Valtteri Bottas in
             P3. Ahead of evening qualification, all teams and drivers opted to
             run on red softs rather than any other compounds. At mid-session,
@@ -57,7 +57,7 @@ const Right: React.FC = () => {
             with his power unit's fuel system replaced overnight as the Williams
             mechanics burned the midnight oil. As the practice sessions drawn
             close with Verstappen ahead of the Mercedes in the final practice
-            session of Bahrain, qualifying will be interesting along with the
+            session of SAKHIR, qualifying will be interesting along with the
             battle for the third spot in the constructors title.
           </p>
 

@@ -9,23 +9,23 @@ const Left: React.FC = () => {
         <img
           className='w-full h-full object-cover rounded-t-md  '
           src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1597490683/contentImages/content/lewis-hamilton3_za9deq.jpg'
-          alt='Qualifying REPORT - Bahrain GP 2020'
+          alt='QUALIFYING REPORT - SAKHIR GP 2020'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-4 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            Qualifying REPORT - Bahrain GP 2020
+            QUALIFYING REPORT - SAKHIR GP 2020
           </div>
           <H1>
-            Lewis Hamilton grabs his third pole in Bahrain with Bottas in second
+            Lewis Hamilton grabs his third pole in SAKHIR with Bottas in second
             and Verstappen in third
           </H1>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Hamilton beats Bottas and Verstappen and takes 98th pole at Bahrain
+            Hamilton beats Bottas and Verstappen and takes 98th pole at SAKHIR
             International Circuit with a new track record. His team mate
             Valtteri Bottas finished second ensuring a Mercedes 1-2 finish at
-            Bahrain. Red Bull’s Max Verstappen stood no chance in front of
+            SAKHIR. Red Bull’s Max Verstappen stood no chance in front of
             Mercedes power and had to settle for third. Alex Albon in the second
             Red Bull manages a second row start with a P4 finish with half a
             second behind his team mate Max and nearly 1 second behind the pole

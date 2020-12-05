@@ -15,25 +15,24 @@ import React from 'react'
 // import QualifyingReport from 'components/contentblock/qualifying-report'
 
 // import MainContent from 'components/contentblock/main'
-import FirstContent from 'components/contentblock/first'
-import SecondContent from 'components/contentblock/left'
-import ThirdContent from 'components/contentblock/right'
+// import FirstContent from 'components/contentblock/first'
+// import SecondContent from 'components/contentblock/left'
+// import ThirdContent from 'components/contentblock/right'
 import FifthContent from 'components/contentblock/left-old'
 import SixthContent from 'components/contentblock/right-old'
 // import FourthContent from 'components/contentblock/fourth'
 import Qualifying from 'components/qualifying/quick-look'
 import Race from 'components/race/quick-look'
-
+import Archive76 from 'components/newsarchives/race-report-bahrain-gp'
+import Archive75 from 'components/newsarchives/qualifying-report-bahrain-gp'
+import Archive74 from 'components/newsarchives/fp3-report-bahrain-gp'
+import Archive73 from 'components/newsarchives/fp2-report-bahrain-gp'
+import Archive72 from 'components/newsarchives/fp1-report-bahrain-gp'
 import Archive71 from 'components/newsarchives/race-report-turkish-gp'
 import Archive70 from 'components/newsarchives/qualifying-report-turkish-gp'
 import Archive69 from 'components/newsarchives/fp3-report-turkish-gp'
 import Archive68 from 'components/newsarchives/fp1-report-turkish-gp'
 import Archive67 from 'components/newsarchives/fp2-report-turkish-gp'
-
-import Archive66 from 'components/newsarchives/race-report-emilia-romagna-gp'
-import Archive65 from 'components/newsarchives/qualifying-report-emilia-romagna-gp'
-import Archive64 from 'components/newsarchives/fp-report-emilia-romagna-gp'
-import Archive63 from 'components/newsarchives/race-report-portuguese-gp'
 
 import ButtonLink from 'components/link/ButtonLink'
 
@@ -43,29 +42,43 @@ const Main: React.FC = () => {
       {/* <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
         Latest News
       </div> */}
-      <div className='w-100 mb-0 mt-0'>
-        <Race />
+      <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 mt-0'>
+        ROUND 16 - Sakhir GP
+      </div>
+      <div className='w-100 flex flex-col xl:flex-row'>
+        <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 bg-white-100 rounded-md mt-0'>
+          <FifthContent />
+        </div>
+        <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 bg-white-100 rounded-md mt-4 xl:mt-0'>
+          <SixthContent />
+        </div>
+      </div>
+      <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 mt-4'>
+        ROUND 15 - Bahrain GP
       </div>
       <div className='w-100 bg-white-100 rounded-md mt-0'>
-        <FirstContent />
+        <Archive76 />
       </div>
-      <div className='w-100 mb-0 mt-2'>
+      <div className='w-100 mb-0 mt-4'>
+        <Race />
+      </div>
+      <div className='w-100 mb-0 mt-0'>
         <Qualifying />
       </div>
       <div className='w-100 flex flex-col xl:flex-row'>
         <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 bg-white-100 rounded-md mt-0'>
-          <SecondContent />
+          <Archive75 />
         </div>
         <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 bg-white-100 rounded-md mt-4 xl:mt-0'>
-          <ThirdContent />
+          <Archive74 />
         </div>
       </div>
       <div className='w-100 flex flex-col xl:flex-row'>
         <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 bg-white-100 rounded-md mt-4'>
-          <FifthContent />
+          <Archive73 />
         </div>
         <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 bg-white-100 rounded-md mt-4'>
-          <SixthContent />
+          <Archive72 />
         </div>
       </div>
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 mt-4'>
@@ -89,24 +102,6 @@ const Main: React.FC = () => {
         <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 bg-white-100 rounded-md mt-4'>
           <Archive67 />
         </div>
-      </div>
-      <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 mt-4'>
-        ROUND 13 - EMILIA ROMAGNA GP 2020
-      </div>
-      <div className='w-100 bg-white-100 rounded-md mt-0'>
-        <Archive66 />
-      </div>
-      <div className='w-100 bg-white-100 rounded-md mt-4'>
-        <Archive65 />
-      </div>
-      <div className='w-100 bg-white-100 rounded-md mt-4'>
-        <Archive64 />
-      </div>
-      <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 mt-4'>
-        ROUND 12 - PORTUGUESE GP
-      </div>
-      <div className='w-100 bg-white-100 rounded-md mt-0'>
-        <Archive63 />
       </div>
       <div className='w-100 flex flex-col md:self-center'>
         <ButtonLink href='/news' target='_self'>

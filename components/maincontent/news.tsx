@@ -1,7 +1,19 @@
 import React from 'react'
-// import Archive66 from 'components/newsarchives/race-report-emilia-romagna-gp'
-// import Archive65 from 'components/newsarchives/qualifying-report-emilia-romagna-gp'
-// import Archive64 from 'components/newsarchives/fp-report-emilia-romagna-gp'
+// import Archive76 from 'components/newsarchives/race-report-bahrain-gp'
+// import Archive75 from 'components/newsarchives/qualifying-report-bahrain-gp'
+// import Archive74 from 'components/newsarchives/fp3-report-bahrain-gp'
+// import Archive73 from 'components/newsarchives/fp2-report-bahrain-gp'
+// import Archive72 from 'components/newsarchives/fp1-report-bahrain-gp'
+
+// import Archive71 from 'components/newsarchives/race-report-turkish-gp'
+// import Archive70 from 'components/newsarchives/qualifying-report-turkish-gp'
+// import Archive69 from 'components/newsarchives/fp3-report-turkish-gp'
+// import Archive68 from 'components/newsarchives/fp1-report-turkish-gp'
+// import Archive67 from 'components/newsarchives/fp2-report-turkish-gp'
+
+import Archive66 from 'components/newsarchives/race-report-emilia-romagna-gp'
+import Archive65 from 'components/newsarchives/qualifying-report-emilia-romagna-gp'
+import Archive64 from 'components/newsarchives/fp-report-emilia-romagna-gp'
 import Archive63 from 'components/newsarchives/race-report-portuguese-gp'
 import Archive62 from 'components/newsarchives/qualifying-report-portuguese-gp'
 import Archive61 from 'components/newsarchives/fp3-report-portuguese-gp'
@@ -72,7 +84,7 @@ const Main: React.FC = () => {
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mt-0 mb-1 px-2 '>
         Archived News
       </div>
-      {/* <div className='w-100 bg-white-100 rounded-md mt-0'>
+      <div className='w-100 bg-white-100 rounded-md mt-0'>
         <Archive66 />
       </div>
       <div className='w-100 bg-white-100 rounded-md mt-4'>
@@ -80,8 +92,8 @@ const Main: React.FC = () => {
       </div>
       <div className='w-100 bg-white-100 rounded-md mt-4'>
         <Archive64 />
-      </div> */}
-      <div className='w-100 bg-white-100 rounded-md mt-0'>
+      </div>
+      <div className='w-100 bg-white-100 rounded-md mt-4'>
         <Archive63 />
       </div>
       <div className='w-100 flex flex-col xl:flex-row'>

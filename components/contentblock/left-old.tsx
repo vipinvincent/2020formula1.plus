@@ -8,58 +8,56 @@ const Left: React.FC = () => {
       <div className='h-40 xl:h-48 w-full'>
         <img
           className='w-full h-full object-cover rounded-t-md  '
-          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1597490309/contentImages/content/lewis-hamilton_oavnow.jpg'
-          alt='FP2 REPORT - Bahrain GP 2020'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1607165475/contentImages/content/russel_je5nfb.jpg'
+          alt='FP2 REPORT - SAKHIR GP 2020'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-4 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            FP2 REPORT - Bahrain GP 2020
+            FP2 REPORT - SAKHIR GP 2020
           </div>
           <H1>
-            Hamilton heads the second practice session un der lights with
-            Verstappen in second and Bottas in Third
+            Mercedes sub Russell completed a clean sweep on Friday practice
+            sessions at Sakhir GP
           </H1>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Mercedes’ Lewis Hamilton continues his impeccable form to Friday
-            night at Bahrain International Circuit as he sets the fastest time
-            in the second practice session. Red Bull’s Max Verstappen finishes
-            second +0.347s behind the leader with Medium compounds, as most of
-            the fast runners opted for softs. The second Mercedes of Valtteri
-            Bottas managed second which is a couple hundredth from the
-            Verstappen’s time. Sergio Perez for racing point finishes fourth
-            ahead of Renault’s Daniel Ricaardo and keeps third place battle in
-            the constructors title alive. Pierre Gasly for AlphaTauri was sixth
-            with his team mate Danil Kvyat in ninth. Lando Norris finished
-            seventh after improving his performace from the first practice
-            session.
+            George Russell in place for Lewis Hamilton continued his impressive
+            performance for Mercedes at the Sakhir Grand Prix, leading the
+            second straight session of Friday with a time of 54.713s ,
+            two-tenths slower than FP1 time. Red Bull’s Max Verstappen once
+            again took second place which was 0.128s slower than Russel, ahead
+            of the Racing Point of Sergio Perez. Esteban Ocon for Renualt
+            finished an impressive fourth ahead of Alexander Albon in the second
+            Red Bull. Daniil Kvyat for AlphaTauri once again outpaced his
+            teammate and finished sixth, with Pierre Gasly finished in ninth. In
+            the final moments of the session, Gasly suffering a scare after
+            being struck painfully on the finger by some flying gravel.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Lance Stroll in the second Racing Point crossed the line in eight as
-            Racing Point managed slotting both their cars in top ten. Alex Albon
-            in the second Red Bull crashes heavily through the final corner
-            during the session bringing the red flags. Albon, who fortunately
-            emerged seemingly unhurt from the incident managed tenth spot before
-            the accident has given the Red Bull mechanics a long night with the
-            front and rear wing and right-side wheels ripped from the car. After
-            a red flag stoppage, followed by another one when a dog found its
-            way onto the track, many drivers rushed to complete their
-            interrupted qualifying simulations.
+            Behind Kvyat, the second Racing Point of Lance Stroll finished in
+            seventh and the second Renault of Daniel Ricciardo in eight. Carlos
+            Sainz of McLaren rounded off the top ten list with Valtteri Bottas
+            in second Mercedes only manged P11 on hard compounds. Valtteri
+            Bottas’s performance looks a in bit worrying in FP2, as the Finn was
+            not looking comfortable around the shorter circuit configuration.
+            Behind Bottas, both Alfa Romeos finished in eleventh and twelfth
+            with Kimi Raikkonen leading his Alfa Romeo team mate Antonio
+            Giovinazzi.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Renault’s Esteban Ocon was 11th, finishing narrowly ahead of the
-            Ferrari of Sebastian Vettel, with the McLaren of Carlos Sainz in
-            13th. Charles Leclerc found himself outpaced by Ferrari team mate
-            Vettel after a small error on his fastest lap, finishing 14th and
-            ahead of the Alfa Romeo of Antonio Giovinazzi and the Haas of Kevin
-            Magnussen, who also set his best time on the mediums. Kimi Raikkonen
-            was back in his Alfa Romeo, having given it to Robert Kubica this
-            morning, going 17th fastest on the mediums, ahead of the Williams of
-            Nicholas Latifi. Romain Grosjean finished P19 in an “undriveable”
-            Haas, as per the Frenchmen ahead of the second Williams of George
-            Russell in P20. Earlier the Briton had missed his FP1 session
-            allowing Roy Nissany another F1 practice run.
+            Haas’ Kevin Magnussen was 14th, ahead of the Williams of Nichol
+            Latifi in 15th. Meanwhile, It was a forgettable session for Ferrari
+            on Friday night as Sebastian Vettel ended up 16th, with multiple
+            spins on his first flying lap in the qualifying simulations, before
+            then running wide on another. His team mate Charles Leclerc
+            suffering a driveshaft issue after just two laps, and failing to set
+            a time. Lando Norris ended up P17 was also having issues, running
+            over a kerb and damaging his floor early on, forcing his McLaren
+            team to carry out repairs, before then suffering an issue that sent
+            him back to the pits. F1 debutants, Haas’ Pietro Fittipaldi and
+            Williams’ Jack Aitken, who both kept their noses clean in FP2, with
+            Fittipaldi leading Aitken.
           </p>
           {/* <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
