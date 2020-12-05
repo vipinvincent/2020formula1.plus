@@ -7,15 +7,14 @@ const Fourth: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-md'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=E54m1inikIY'
+        href='https://www.youtube.com/watch?v=6IuXuCLWyks'
         target='_blank'>
         <div className='h-full w-full rounded-md relative flex'>
           <div className='h-full w-full bg-black-100 rounded-t-md  '>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-t-md  '
-              src='https://img.youtube.com/vi/E54m1inikIY/sddefault.jpg'
-              alt='How to Master the Bahrain GP 2020 | Nico Rosberg | LATEST NEWS | Hamiltons seventh, Pirellis Mario Isola, and Red Bulls Bosphorus run
-'
+              src='https://img.youtube.com/vi/6IuXuCLWyks/sddefault.jpg'
+              alt='F1 Car Setup For Bahrains Outer Track'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -33,23 +32,22 @@ const Fourth: React.FC = () => {
             PODCAST
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=E54m1inikIY'
+            href='https://www.youtube.com/watch?v=6IuXuCLWyks'
             target='_blank'>
-            How to Master the Bahrain GP 2020 | Nico Rosberg
+            F1 Car Setup For Bahrain's Outer Track
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            We are back in Bahrain for the 2020 Bahrain GP. A special race track
-            for me with my first Bahrain GP victory in 2016...and of course also
-            the very special battle vs. Let's see if we have the first rainy
-            race in Bahrain this year! Friday's practice session was already
-            quite interesting...we can all look forward to an interesting F1
-            race weekend. Check out my Hot Lap and analysis of the Bahrain
-            International Circuit. Of course followed by an F1 Fan Q&A.
+            In this video I'm taking a closer look at the Bahrain Outer Track
+            ahead of F1's Sakhir GP. What are the biggest differences to the
+            previous layout? What does it mean for car setup? Who will it favour
+            & who will suffer most?
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='http://www.nicorosberg.com' target='_blank'>
-              Nico Rosberg
+            <ContentLink
+              href='https://www.youtube.com/c/F1Elvis/'
+              target='_blank'>
+              Marc Priestley F1 Elvis
             </ContentLink>
           </p>
         </div>

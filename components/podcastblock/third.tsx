@@ -7,14 +7,14 @@ const Third: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-md'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=Z5E1NMMy_XM'
+        href='https://www.youtube.com/watch?v=UsWiTkyv3XU'
         target='_blank'>
         <div className='h-full w-full rounded-md relative flex'>
           <div className='h-full w-full bg-black-100 rounded-t-md  '>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-t-md  '
-              src='https://img.youtube.com/vi/Z5E1NMMy_XM/sddefault.jpg'
-              alt='Does Lance Stroll Deserve More Respect?'
+              src='https://img.youtube.com/vi/UsWiTkyv3XU/sddefault.jpg'
+              alt='Sakhir Grand Prix: Preview and Predictions'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,22 +32,23 @@ const Third: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=Z5E1NMMy_XM'
+            href='https://www.youtube.com/watch?v=UsWiTkyv3XU'
             target='_blank'>
-            Does Lance Stroll Deserve More Respect?
+            Sakhir Grand Prix: Preview and Predictions
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Lance Stroll's pole position at the Turkish Grand Prix came as a
-            shock to many in the F1 community. Given his recent struggles and
-            his reputation as being a pay driver, he has done well to silence
-            those who doubted him. But does he deserve more respect?
+            This weekend’s Sakhir Grand Prix will see F1 cars take on the
+            Bahrain Outer Loop circuit for the first time…but that’s not the
+            only significant change this weekend. In this preview, I take a look
+            at the circuit stats, make my predictions, go over the driver
+            changes and Tom takes you on a virtual lap of the new track.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
             <ContentLink
-              href='https://www.youtube.com/c/BMPHF1/'
+              href='https://www.youtube.com/c/TheF1Word/'
               target='_blank'>
-              BMPHF1
+              The F1 Word
             </ContentLink>
           </p>
         </div>

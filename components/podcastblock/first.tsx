@@ -7,14 +7,14 @@ const First: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-md'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=ISQutse9JPI'
+        href='https://www.youtube.com/watch?v=GF5hXGJJnI0'
         target='_blank'>
         <div className='h-full w-full rounded-md relative flex'>
           <div className='h-full w-full bg-black-100 rounded-t-md  '>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-t-md  '
-              src='https://img.youtube.com/vi/ISQutse9JPI/sddefault.jpg'
-              alt='What Saved Grosjeans Life?'
+              src='https://img.youtube.com/vi/GF5hXGJJnI0/sddefault.jpg'
+              alt='2020 Bahrain GP Race Review | WTF1 Podcast'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,20 +32,19 @@ const First: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=ISQutse9JPI'
+            href='https://www.youtube.com/watch?v=GF5hXGJJnI0'
             target='_blank'>
-            What Saved Grosjean's Life?
+            2020 Bahrain GP Race Review | WTF1 Podcast
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Roman Grosjean had a horrific accident on the first lap of the 2020
-            Bahrain Grand Prix, going straight into a barrier at over 130mph.
-            Jon Noble, Luke Smith and Jake Boxall-Legge analyse what happened,
-            and what saved Romain Grosjean's life.
+            Matt, Tommy and Katy are back for another podcast to discuss the
+            Bahrain Grand Prix, Lewis Hamilton's positive covid test and Haas
+            announcing Nikita Mazepin.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='https://www.autosport.com/' target='_blank'>
-              Autosport
+            <ContentLink href=' http://www.wtf1.com' target='_blank'>
+              WTF1
             </ContentLink>
           </p>
         </div>

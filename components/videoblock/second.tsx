@@ -7,14 +7,14 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-md'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=UtQ2zISb7So'
+        href='https://www.youtube.com/watch?v=zQ-3CB4me6s'
         target='_blank'>
         <div className='h-full w-full rounded-md relative flex'>
           <div className='h-full w-full bg-black-100 rounded-t-md  '>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-t-md  '
-              src='https://img.youtube.com/vi/UtQ2zISb7So/sddefault.jpg'
-              alt='F1 Wheelbases | Merc go long, Red Bull go short'
+              src='https://img.youtube.com/vi/zQ-3CB4me6s/sddefault.jpg'
+              alt='Behind The Charge In The Red Bull Racing Garage'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,18 +32,20 @@ const Second: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=UtQ2zISb7So'
+            href='https://www.youtube.com/watch?v=zQ-3CB4me6s'
             target='_blank'>
-            F1 Wheelbases | Merc go long, Red Bull go short
+            Behind The Charge In The Red Bull Racing Garage
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Why do some teams choose to make their cars so long and others
-            prefer a shorter car? What difference does it make?
+            With unrivalled access to the Team we take you Behind The Charge and
+            follow some key personnel throughout our 300th race weekend.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='http://chainbear.me/' target='_blank'>
-              Chain Bear
+            <ContentLink
+              href='https://redbullracing.redbull.com/'
+              target='_blank'>
+              Red Bull Racing
             </ContentLink>
           </p>
         </div>

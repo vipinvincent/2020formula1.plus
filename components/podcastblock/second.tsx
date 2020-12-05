@@ -7,14 +7,14 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-md'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=0-9PCtiCoB0'
+        href='https://www.youtube.com/watch?v=eg5y73vIt40'
         target='_blank'>
         <div className='h-full w-full rounded-md relative flex'>
           <div className='h-full w-full bg-black-100 rounded-t-md  '>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-t-md  '
-              src='https://img.youtube.com/vi/0-9PCtiCoB0/sddefault.jpg'
-              alt='Why Romain Grosjean surviving the crash wasnt JUST luck'
+              src='https://img.youtube.com/vi/eg5y73vIt40/sddefault.jpg'
+              alt='George Russell on standing in for Lewis Hamilton at Mercedes'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,20 +32,19 @@ const Second: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=0-9PCtiCoB0'
+            href='https://www.youtube.com/watch?v=eg5y73vIt40'
             target='_blank'>
-            Why Romain Grosjean surviving the crash wasn't JUST luck
+            George Russell on standing in for Lewis Hamilton at Mercedes
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            We were all so relieved to see Romain Grosjean walk away from the
-            wreckage and a lot of people called it a miracle. This video
-            explains how far safety has come in F1 and why the Haas driver
-            wasn't just lucky. Get well soon, Romain!
+            George Russell believes he has the "hardest shoes ever to fill" by
+            standing in for Lewis Hamilton in the world championship-winning
+            Mercedes at the Sakhir GP.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='http://www.wtf1.com' target='_blank'>
-              WTF1
+            <ContentLink href='https://www.skysports.com/f1' target='_blank'>
+              Sky Sports F1
             </ContentLink>
           </p>
         </div>
