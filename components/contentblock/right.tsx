@@ -18,47 +18,54 @@ const Right: React.FC = () => {
             FP3 REPORT - SAKHIR GP 2020
           </div>
           <H1>
-            Verstappen goes fastest in the final practice session ahead of
-            Hamilton and Bottas
+            Verstappen leads the final practice session ahead of Bottas and
+            Gasly
           </H1>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Red Bull’s Max Verstappen set the fastest lap of FP3 in SAKHIR,
-            ahead of Mercedes duo Lewis Hamilton in P2 and Valtteri Bottas in
-            P3. Ahead of evening qualification, all teams and drivers opted to
-            run on red softs rather than any other compounds. At mid-session,
-            Verstappen went to the lead and set the benchmark time of 1m28.355s.
-            Hamilton managed P2 and finished 0.263s off Verstappen, and just a
-            tenth faster than his Mercedes team mate Bottas. Once again a big
-            job by the top class red Bull mechanics rebuilding Alex Albon’s
-            RB16, who had a chassis change overnight after crashing heavily out
-            of FP2 on Friday. The Thai driver finished in P4 with six-tenths
-            behind his team mate. Fifth fastest was McLaren's Carlos Sainz,
-            while his team mate Lando Norris was seventh.
+            Red Bull’s Max Verstappen set the fastest lap of FP3 in Sakhir, and
+            denied Mercedes a clean sweep. Incidentally, the time set by Max in
+            FP3 became the fastest time was 54.064s of the weekend so far which
+            glimpses the close race that we could expect for the weekend.
+            Merecdes’ manages P2 and AlphaTauri’s Pierre Gasly impressed with a
+            P3 performance in the race like conditions under lights. Bottas was
+            0.206s behind the leader on this short track, whereas Gasly was
+            0.363s off top spot. FP1 and FP2 leader George Russell could only
+            manage seventh, locking up heavily on a late soft-tyred run. Another
+            person who impressed in FP3 was Renault’s Esteban Ocon with a P4
+            finish in FP3 , just 0.026s behind Gasly. McLaren’s Lando Norris
+            rounding out the top five list, half a second adrift from the
+            leader.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Sandwiched by McLarens, AlphaTauri's Pierre Gasly finished P6 with
-            his team mate Daniil Kvyat in eighth making all the Honda powered
-            card in top 10 list. Kvyat had a power unit change, though he is
-            still within his limit for the season so won't get a grid penalty.
-            Racing Point followed up in ninth and 10th with Lance Stroll ahead
-            of Sergio Perez who made clear that the team would sacrifice one-lap
-            pace for race gains. Behind Perez, both Renaults placed both their
-            cars with Daniel Ricciardo in 11th and Esteban Ocon 12th
-            respectively. Last year’s pole sitter Ferrari were out of the top
-            10, with Sebastian Vettel 13th and his team mate Charles Leclerc
-            15th.
+            Alex Albon in the second Red Bull only managed P6 which was half a
+            second off his team mate at the top. Behind Russel, both Racing
+            Points finished in top 10 with Sergio Perez leading Lance Stroll in
+            P8 and P9 respectively. Carlos Sainz in the second McLaren finished
+            in P10 which was by just over a tenth second from his the teammate
+            Norris. Antonio Giovinazzi in Alfa Romeo managed a P11 finish ahead
+            of Daniil Kvyat in the second AlphaTauri. Ferrari finished 13th and
+            15th, with Charles Leclerc ahead of Sebastian Vettel. The two were
+            split by 0.004s as they appear to be neck-and-neck ahead of
+            qualifying. Leclerc spun on his final lap of the session, ruining
+            hopes of an improvement from P13. Unfortunately, Vettel’s session
+            ended early as he encountered a power unit failure with around 15
+            minutes left. His engineers are now left with the task of changing
+            his engine, as a precaution, before qualifying.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Alfa Romeo's Antonio Giovinazzi splits the Ferraris, taking P14 with
-            his veteran team mate Kimi Raikkonen only managed P19. Giovinazzi
-            was followed by the Williams of George Russell in 16th. Haas
-            finished in 17th and 18th with Romain Grosjean just in front of
-            Kevin Magnussen. Russell's team mate Nicholas Latifi finished 20th,
-            with his power unit's fuel system replaced overnight as the Williams
-            mechanics burned the midnight oil. As the practice sessions drawn
-            close with Verstappen ahead of the Mercedes in the final practice
-            session of SAKHIR, qualifying will be interesting along with the
-            battle for the third spot in the constructors title.
+            Between the Ferraris Daniel Ricciardo finished in P14 as he had a
+            scary moment on a late run at sector 2 and might have damaged his
+            floor, as he went over the kerbs. Alfa Romeo's veteran Kimi
+            Raikkonen could only finish 16th, while Haas’ Kevin Magnussen
+            finished 17th. Williams finished 18th and 20th with Nicholas Latifi
+            ahead of Jack Aitken, who is in for George Russell this weekend.
+            Haas’ Pietro Fittipaldi standing in for the injured Romain Grosjean
+            ended up 19th, but will start his race in the back as the Haas
+            debutant, this weekend, will be hit with a grid penalty as he’s
+            taken new control electronics and energy store this weekend
+            exceeding his car's allocation. Notably, in the FP3 the whole field
+            split by just 1.606s which shows how short and pacey the track will
+            be for the Sunday race.
           </p>
 
           {/* <p className='mt-1 text-base leading-normal text-gray-700'>

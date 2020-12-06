@@ -8,7 +8,7 @@ const Left: React.FC = () => {
       <div className='h-40 xl:h-48 w-full'>
         <img
           className='w-full h-full object-cover rounded-t-md  '
-          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1597490683/contentImages/content/lewis-hamilton3_za9deq.jpg'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1599834663/contentImages/content/valteri-bottas_kvx19p.jpg'
           alt='QUALIFYING REPORT - SAKHIR GP 2020'
         />
       </div>
@@ -18,48 +18,54 @@ const Left: React.FC = () => {
             QUALIFYING REPORT - SAKHIR GP 2020
           </div>
           <H1>
-            Lewis Hamilton grabs his third pole in SAKHIR with Bottas in second
-            and Verstappen in third
+            Bottas secures the pole in Sakhir with Russel in second and
+            Verstappen in third
           </H1>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Hamilton beats Bottas and Verstappen and takes 98th pole at SAKHIR
-            International Circuit with a new track record. His team mate
-            Valtteri Bottas finished second ensuring a Mercedes 1-2 finish at
-            SAKHIR. Red Bull’s Max Verstappen stood no chance in front of
-            Mercedes power and had to settle for third. Alex Albon in the second
-            Red Bull manages a second row start with a P4 finish with half a
-            second behind his team mate Max and nearly 1 second behind the pole
-            sitter. Racing Point's Sergio Perez managed a respectful fifth with
-            both Renault cars of Daniel Ricciardo and Esteban Ocon in P6 and P7
-            respectvely.
+            Valtteri Bottas of Merecdes became the fastest driver in Saturday
+            qualifying for Sakhir GP at Bahrain International circuit. His team
+            mate George Russell, finished P2 agonisingly close to his maiden
+            pole position by just 0.026s, but endured another Mercedes 1-2. Red
+            Bull’s Max Verstappen, the next best challenger finished in P3,
+            which was 0.030s further back, in what was an incredibly close
+            session on F1’s shortest circuit. Charles Leclerc did just one run
+            surprised everyone and his team but it was good enough for a
+            remarkable fourth for the fourth time this season. Sergio Perez in
+            racing point, who is running an old spec engine after suffering a
+            failure that cost him a podium last time out in Bahrain, qualified
+            P5 for the second successive week, one place ahead of AlphaTauri’s
+            Daniil Kvyat whose P6 is his best since the 2019 Azerbaijan Grand
+            Prix.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Both Alpha Tauris managed a top ten finish with Pierre Gasly
-            finishing ahead of Daniil Kvyat in P8 and P10 respectively,
-            sandwiching McLaren’s Lando Norris in P9. Both Ferrari’s got knocked
-            out in Q2 and only managed P11 and P12 with Sebastian Vettel
-            finishing ahead of his team mate Charles Leclerc. Last race pole
-            sitter Lance Stroll only manged P13 as the team got it wrong by
-            using the used set of medium for the red flag interpreted Q2
-            session. Mr. Saturday, George Russell once gain outclassed his team
-            mate and ensured yet another Q2 appearance with a P14 finish. Carlos
-            Sainz in second McLaren suffered a mechanical problem that caused a
-            spin and ended his qualifying early in Q2 and will start in
-            fifteenth, without a time plotted against him in Q2.
+            Daniel Ricciardo was the best-placed Renault in P7, just edging out
+            Carlos Sainz , the only McLaren in top ten. Pierre Gasly in the
+            second AlphaTauri’s finished P9 with the second Racing Point of
+            Lance Stroll rounding out the top 10. Esteban Ocon who showed good
+            pace in practice sessions, but missed out Q3 and only managed P11.
+            Alexander Albon in the struggling second Red Bull ended up four
+            tenths off the time of the Dutchman team mate and finished in 12th.
+            Sebastian Vettel with his new engine, swapped in between FP3 and
+            qualifying managed P13, which was his usual position for 2020
+            season.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Both Alfa Romeos and Haas couldn’t make into Q3 with Antonio
-            Giovinazzi finishing ahead of his veteran team mate Kimi Raikkonen
-            in p16 and P17 respectively. Kevin Magnussen finished ahead of
-            Romain Grosjean again in the season with the Danish driver in P18
-            and the French driver in P19. Nicholas Latifi of Williams rounded of
-            the classified driver list in P20. With Mercedes locking the front
-            row of the grid and the Red Bull with better tyre management, the
-            race on Sunday seems to be the battle of strategies as the track is
-            bound to fill with overtakes and action packed racing. With tyre
-            degradation expected to be crucial on Sunday evening, the team with
-            better tyre management will fancy their chances to alter the race
-            results.
+            Antonio Giovinazzi became the fastest Alfa Romeo with P14 finish
+            with Lando Norris in the second McLaren. The Briton was disappointed
+            with himself on team radio, apologising for making a mistake on his
+            second run, leaving him 15th, 11 places behind Sainz. Kevin
+            Magnussen on Haas finished P16 ahead of both Williams of Nicholas
+            Latifi and the debutant Jack Aitken in P17 and P18 respectively.
+            Alfa Romeo’s Kimi Raikkonen disappoints with a P19 finish struggling
+            to find pace in the outer short circuit layout. Pietro Fittipaldi
+            the substitute for injured Roman Grosjean, rounded of the classified
+            drivers list.
+          </p>
+          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
+            As the qualifying comes to an end, now the focus shift to the “new”
+            short outer layout circuit of Bahrain. With but one minute laps
+            expected in the race, it will be huge traffic for the drivers to
+            manage with high pace and confusing back markers.
           </p>
           {/* <p className='mt-1 text-base leading-normal text-gray-700'>
             Visit{' '}
