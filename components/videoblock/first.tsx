@@ -7,13 +7,13 @@ const First: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-md'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=pu0YOjpe8i4'
+        href='https://www.youtube.com/watch?v=4BgICCdV68k'
         target='_blank'>
         <div className='h-full w-full rounded-md relative flex'>
           <div className='h-full w-full bg-black-100 rounded-t-md  '>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-t-md  '
-              src='https://img.youtube.com/vi/pu0YOjpe8i4/sddefault.jpg'
+              src='https://img.youtube.com/vi/4BgICCdV68k/sddefault.jpg'
               alt='Should Mercedes replace Bottas with Russell for F1 2021?'
             />
           </div>
@@ -32,7 +32,7 @@ const First: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=pu0YOjpe8i4'
+            href='https://www.youtube.com/watch?v=4BgICCdV68k'
             target='_blank'>
             Should Mercedes replace Bottas with Russell for F1 2021?
           </ContentLink>
