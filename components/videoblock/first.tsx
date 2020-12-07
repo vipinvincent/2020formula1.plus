@@ -7,14 +7,14 @@ const First: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-md'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=bkfMVc9ACCE'
+        href='https://www.youtube.com/watch?v=pu0YOjpe8i4'
         target='_blank'>
         <div className='h-full w-full rounded-md relative flex'>
           <div className='h-full w-full bg-black-100 rounded-t-md  '>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-t-md  '
-              src='https://img.youtube.com/vi/bkfMVc9ACCE/sddefault.jpg'
-              alt='Norris Strong Words Against Alonsos "Young" Driver Test'
+              src='https://img.youtube.com/vi/pu0YOjpe8i4/sddefault.jpg'
+              alt='Should Mercedes replace Bottas with Russell for F1 2021?'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,24 +32,26 @@ const First: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=bkfMVc9ACCE'
+            href='https://www.youtube.com/watch?v=pu0YOjpe8i4'
             target='_blank'>
-            Norris' Strong Words Against Alonso's "Young" Driver Test
+            Should Mercedes replace Bottas with Russell for F1 2021?
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The post-season Abu Dhabi young drivers test scheduled for later
-            this month is meant for drivers who have raced in no more than two
-            F1 races. With 314 F1 races under his belt, future Renault driver
-            Fernando Alonso definitely does not qualify for this test. However,
-            the FIA has given Alonso special permission upon request from his
-            future team to take part in this test. McLaren driver Lando Norris
-            and current Renault driver Daniel Ricciardo have given their
-            thoughts on this{' '}
+            George Russell’s stunning debut F1 weekend with Mercedes ended in
+            heartbreak, but it can only have boosted his long-term career
+            prospects. A call-up to Mercedes for 2022 seems inevitable, but
+            should the team be looking to get the young Brit in the car sooner
+            than that? Scott Mitchell joins Glenn Freeman to discuss the case
+            for Russell, what his performance means for Bottas, and if Mercedes
+            is even open to the idea of making an unexpected switch ahead of
+            schedule
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href='https://formula.world/' target='_blank'>
-              Formula World
+            <ContentLink
+              href='https://the-race.com/formula-1/should-mercedes-swap-russell-and-bottas-for-2021-our-verdict/'
+              target='_blank'>
+              The Race
             </ContentLink>
           </p>
         </div>
