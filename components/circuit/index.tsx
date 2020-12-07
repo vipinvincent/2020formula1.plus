@@ -7,137 +7,125 @@ const Schedule: React.FC = () => {
   return (
     <div className='flex flex-col mb-4'>
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
-        Circuit Facts - Bahrain International Circuit (Outer Circuit )
+        Circuit Facts - Yas Marina Circuit
       </div>
       <div className='relative bg-white-100 rounded-md mb-6'>
         <div className='h-64 sm:h-84 py-4 w-full text-center zoom-image'>
           <Zoom>
             <img
               className='w-full h-64 sm:h-84 object-contain rounded-t-md rounded-b-md py-4 px-2 text-center'
-              src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1606804906/contentImages/circuit/Bahrain_International_Circuit--Outer_Circuit_tpgznv.png'
-              alt='2020 Sakhir Grand Prix'
+              src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1607325175/contentImages/circuit/Yasmarina-circuit_ydy7md.png'
+              alt='2020 Abu Dhabi Grand Prix'
             />
           </Zoom>
         </div>
         <div className='relative max-w-screen-xl mx-auto'>
           <div className='py-4 text-left px-4'>
             <p className='mt-1 text-normal leading-normal text-gray-700'>
-              Formula 1 Rolex Sakhir Grand Prix 2020, the 2020 Sakhir Grand
-              Prix, which takes place over 87 laps of the Bahrain International
-              Circuit's 3.543-kilometre Outer Track layout, on Sunday, December
-              6.
+              Formula 1 Etihad Airways Abu Dhabi Grand Prix 2020, the 2020 Abu
+              Dhabi Grand Prix, which takes place over 55 laps of the
+              5.554-kilometre Yas Marina Circuit on Yas Island on Sunday,
+              December 13.
             </p>
             <p className='mt-2 text-normal leading-normal text-gray-700'>
-              The 2020 Sakhir Grand Prix (officially known as the Formula 1
-              Rolex Sakhir Grand Prix 2020) is a Formula One motor race that is
-              scheduled to take place over 87 laps on 6 December 2020 on the
-              'Outer Circuit' configuration at the Bahrain International Circuit
-              in Sakhir, Bahrain. This is the first Formula One race on the this
-              track configuration. The race will be the sixteenth and
-              penultimate round in the 2020 Formula One World Championship and
-              the second of two back-to-back races in Bahrain to take place
-              during the season with the Bahrain Grand Prix having taken place
-              at the same venue the week before, but on a different layout. The
-              race also marks the first running of the Sakhir Grand Prix.
+              The 2020 Abu Dhabi Grand Prix is scheduled to take place at the
+              Yas Marina Circuit in Yas Island, Abu Dhabi, UAE. The Abu Dhabi
+              Grand Prix was announced in early 2007 at the Abu Dhabi F1
+              Festival in the United Arab Emirates. The first race took place on
+              1 November 2009, held at the Hermann Tilke designed Yas Marina
+              Circuit. On 25 June 2008 the FIA announced the provisional 2009
+              Formula One calendar including the Abu Dhabi Grand Prix as the
+              19th and final race of the season on 15 November. On 5 November
+              2008, however, it was announced that the race would be held as the
+              season finale on 1 November, two weeks before the initially
+              planned date, as the 17th and final race. The inaugural race was
+              Formula One's first ever day–night race, starting at 17:00 local
+              time. Floodlights used to illuminate the circuit were switched on
+              from the start of the event to ensure a seamless transition from
+              daylight to darkness. Subsequent Abu Dhabi Grands Prix have also
+              been day–night races.
             </p>
             <p className='mt-1 text-normal leading-normal text-gray-700'>
-              The Bahrain International Circuit is a motorsport venue opened in
-              2004 and used for drag racing, GP2 Series and the annual Bahrain
-              Grand Prix. The 2004 Grand Prix was the first held in the Middle
-              East. Beginning in 2006, Australian V8 Supercars raced at the BIC,
-              with the event known as the Desert 400. However, the V8 Supercars
-              did not return for the 2011 V8 Supercar season. 24 Hour endurance
-              races are also hosted at BIC. The circuit has a FIA Grade 1
-              license.
+              The circuit was designed by Hermann Tilke, and is situated on Yas
+              Island, about 30 minutes from the capital of the UAE, Abu Dhabi.
+              Yas Marina is the second Formula One track in the Middle East,
+              with the first being in Abu Dhabi. A two-day GP2 Asia Series test
+              was held to officially open the circuit, which was held a week
+              before the 2009 Abu Dhabi Grand Prix. It also hosted the opening
+              event for the Australian V8 Supercars series, the Yas V8 400, in
+              February 2010. Outside motorsport the circuit was used for the
+              final stage of the inaugural Abu Dhabi Tour cycle race in 2015.
+              The circuit has FIA Grade 1 license.
             </p>
             <p className='mt-1 text-normal leading-normal text-gray-700'>
-              2020 Sakhir Grand Prix will use the 'Outer Circuit' layout, the
-              first Formula One race to be held on this layout. At a length of
-              3.543 km (2.202 mi) it is a shorter layout than the 5.412 km
-              (3.363 mi) 'Grand Prix' layout, which aside from some minor tweaks
-              to the exit of turn 4 ahead of 2005 event is otherwise the same
-              circuit that has been used reguarly for Formula One races since
-              the inaugural Bahrain Formula One race in 2004 except at the 2010
-              Bahrain Grand Prix where a longer 6.299 km (3.914 mi) 'Endurance
-              Circuit' configuration was used. As a result, the race is due to
-              be contested over 87 laps to exceed the 305 km (190 mi) race
-              distance mandated by the regulations. According to simulations lap
-              times are expected to be under one minute. If achieved, this would
-              only be the second Grand Prix weekend in history to see sub one
-              minute lap times after the 1974 French Grand Prix at Dijon-Prenois
-              where Niki Lauda set a pole position qualifying time of 58.79
-              seconds in a Ferrari 312B3-74. Prior to the event many drivers
-              suggested they were looking forward to the challenges of the Outer
-              Circuit with McLaren driver Lando Norris likening the circuits
-              high speed nature as similar to Thruxton Circuit in England,
-              whilst Williams driver George Russell said the circuit was
-              "definitely gonna be bonkers, for sure" when asked his opinion on
-              the layout. Renault driver Daniel Ricciardo expressed his hope
-              that the circuit would provide good overtaking opportunities, with
-              Carlos Sainz Jr. of McLaren suggesting that choosing the correct
-              setup – particularly downforce levels – would be difficult.
+              The twenty-one corners twist through Yas Island off the Abu Dhabi
+              coast, passing by the marina and through the Yas Hotel Abu Dhabi
+              designed by New York-based architects Hani Rashid and Lise Anne
+              Couture of Asymptote Architecture with a striking facade lighting
+              design by Rogier van der Heide, and winding its way through
+              several long straights and tight corners. The marina-based
+              development includes a theme park, a water park, as well as
+              residential areas, hotels and beaches.
             </p>
             <p className='mt-2 text-normal leading-normal text-gray-700'>
-              The construction of the Bahrain circuit was a national objective
-              for Bahrain, initiated by the Crown Prince, Shaikh Salman bin
-              Hamad Al Khalifa. The Crown Prince is the Honorary President of
-              the Bahrain Motor Federation. TRL was asked to build the circuit,
-              headed by Patrick Brogan. Race organizers were worried that the
-              circuit would not be complete in time for the 2004 Bahrain Grand
-              Prix and attempted to cancel the event; however, Formula One
-              supremo Bernie Ecclestone refused this request. In the end, the
-              circuit was not quite fully complete, but was good enough for the
-              grand prix to go ahead.
+              The circuit has five grandstand areas (Main Grandstand, West
+              Grandstand, North Grandstand, South Grandstand and Marina
+              Grandstand (aka Support)) and part of its pit lane exit runs
+              underneath the track. It also houses a team building behind the
+              pit building, Media Center, Dragster Track and VIP Tower.
+              Additionally, one of the run-off areas runs underneath the West
+              grandstand. Seating Capacity is 41,093 spanned under Area of
+              161.9HA. the track length s 5.5 km with the longest straight being
+              1.14km (1,246.72yd). The change of elevation is about 10.7m.
             </p>
             <p className='mt-2 text-normal leading-normal text-gray-700'>
-              After the 2004 race and ahead of the 2005 race the track was
-              realigned at turn four, decreasing the circuit's overall length by
-              5 metres. In 2007 the circuit became the first Grand Prix circuit
-              to be awarded the distinguished FIA Institute Centre of Excellence
-              award, given for excellent safety, race marshal, and medical
-              facilities, and for the high standards of technology required to
-              maintain these. At the 2009 Grand Prix, BIC announced a
-              collaboration with @bahrain to develop land next to the circuit.
-              @bahrain is part of the Mumtalakat group of companies. @bahrain
-              will dedicate more than 1 million square meters of business,
-              entertainment and educational space with a value in excess of
-              US$2bn (BHD 850million), making it one of the largest investment
-              projects to take place in Bahrain in the past five years.
-            </p>
-            <p className='mt-2 text-normal leading-normal text-gray-700'>
-              The circuit was designed by German architect Hermann Tilke, the
-              same architect who designed the Sepang International Circuit in
-              Malaysia. The main contractor for the project was Cebarco-WCT. The
-              circuit cost approximately 56.2 million Bahraini Dinars (US$150
-              million) to construct. It has six separate tracks, including a
-              test oval and a drag strip. The circuit posed a unique problem.
-              Positioned in the middle of a desert, there were worries that sand
-              would blow onto the circuit and disrupt the race. However,
-              organizers were able to keep the sand off the track by spraying an
-              adhesive on the sand around the track.
+              The circuit was built by main contractor Cebarco-WCT WLL, under
+              contract from developer Aldar Properties. Among the
+              sub-contractors involved were KOH AH HING (KAHBINA) from Malaysia
+              (structural contractor), as well as specialised subcontractors
+              like Voltas (MEP), PKE-Siemens (MEP), Able-Middle East
+              (earthworks), Hamilton International (interior) and Bau Bickhardt
+              (track) to name a few. The circuit was constructed with a
+              permanent lighting system provided by Musco Lighting, similar to
+              that also installed at the Losail Circuit in Qatar. Yas Marina
+              Circuit is the largest permanent sports venue lighting project in
+              the world; previously that title was held by Losail.
             </p>
             <p className='mt-2 text-normal leading-normal text-gray-700'>
               The surface of the track is made of graywacke aggregate, shipped
-              to Bahrain from Bayston Hill quarry in Shropshire, England. The
-              surface material is highly acclaimed by circuit bosses and Formula
-              1 drivers for the high level of grip it offers. The same aggregate
-              material is used at the Yas Marina Circuit, venue of the Abu Dhabi
-              Grand Prix.
+              to Abu Dhabi from a Bayston Hill quarry in Shropshire, England.
+              The surface material is highly acclaimed by circuit bosses and
+              Formula One drivers for the high level of grip it offers. The same
+              aggregate material is used at the Abu Dhabi International Circuit
+              for the Abu Dhabi Grand Prix. On 7 October 2009, the circuit was
+              granted final approval to hold Formula One races by the FIA. Bruno
+              Senna was the first driver to complete a test run on the circuit.
+              GP3 visited Abu Dhabi for the first time at the end of the 2013
+              season.
             </p>
             <p className='mt-2 text-normal leading-normal text-gray-700'>
-              It was 2004 when the drivers first lined up under an unusually
-              cloudy sky for the inaugural Bahrain Grand Prix. The race was
-              dominated (like many in 2004) by the two Ferraris, with Michael
-              Schumacher winning out from Rubens Barrichello, while the crowds
-              were also treated to a fantastic dog-fight between the Jaguar of
-              Mark Webber and the Renault of Fernando Alonso.
+              After the first practice sessions at the 2009 Abu Dhabi Grand
+              Prix, the circuit was welcomed by the drivers, with Nico Rosberg
+              commenting that every corner was 'unique', while double World
+              Champion Fernando Alonso echoed his sentiments, stating that it
+              was enjoyable because there was always something to do. Force
+              India's Adrian Sutil rated the circuit as being better than
+              Formula One's other night race in Singapore as he felt there was
+              too much light at Marina Bay. Not all of the drivers were
+              complimentary, with Giancarlo Fisichella expressing a particular
+              dislike of the pit exit, which dips under the main circuit by way
+              of a tunnel. Although the pit exit remained free of incidents for
+              the early practice sessions, Fisichella claimed that it was both
+              very difficult and dangerous. Kimi Räikkönen notoriously gave his
+              thoughts on the circuit, stating "the first few turns are quite
+              good, but the rest of it is shit".
             </p>
 
             {/* <p className='mt-2 text-normal leading-normal text-gray-700'>
               <span className='font-bold italic'>
                 A lap in a Formula One car -
               </span>{' '}
-              The DRS zone is on the pit straight at the Bahrain Grand Prix
+              The DRS zone is on the pit straight at the Abu Dhabi Grand Prix
               (starting 2012), so turn 1 ("Michael Schumacher turn") is the
               prime overtaking opportunity. The corner itself is incredibly
               tight; a typical F1 car must brake approximately 100 metres before
@@ -174,7 +162,7 @@ const Schedule: React.FC = () => {
         </p>
       </div>
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
-        2020 Sakhir Grand Prix weekend{' '}
+        2020 Abu Dhabi Grand Prix weekend{' '}
         <span className='font-light'>(Track Time)</span>
       </div>
       <div className='relative bg-white-100 rounded-md mb-4'>
@@ -186,7 +174,7 @@ const Schedule: React.FC = () => {
                   Practice 1
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  27 - November ( 16:30 - 18:00 )
+                  11 - December ( 13:00 - 14:30 )
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -194,7 +182,7 @@ const Schedule: React.FC = () => {
                   Practice 2
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  27 - November ( 20:30 - 22:00 )
+                  11 - December ( 17:00 - 18:30 )
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -202,7 +190,7 @@ const Schedule: React.FC = () => {
                   Practice 3
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  28 - November ( 17:00 - 18:00 )
+                  12 - December ( 14:00 - 15:00 )
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -216,7 +204,7 @@ const Schedule: React.FC = () => {
                   </SiderBarLink> */}
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  28 - November ( 20:00 - 21:00 )
+                  12 - December ( 17:00 - 18:00 )
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -230,7 +218,7 @@ const Schedule: React.FC = () => {
                   </SiderBarLink> */}
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  29 - November ( 20:10 - 22:10 )
+                  13 - December ( 17:10 - 19:10 )
                 </div>
               </div>
             </div>
@@ -238,7 +226,7 @@ const Schedule: React.FC = () => {
         </div>
       </div>
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
-        Sakhir Grand Prix Facts
+        Abu Dhabi Grand Prix Facts
       </div>
       <div className='relative bg-white-100 rounded-md'>
         <div className='relative max-w-screen-xl mx-auto'>
@@ -249,7 +237,7 @@ const Schedule: React.FC = () => {
                   Circuit Name
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  Bahrain International Circuit (Outer Circuit )
+                  Yas Marina Circuit
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -257,7 +245,7 @@ const Schedule: React.FC = () => {
                   Track Length
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  3.543 km (2.202 mi)
+                  5.554 km (3.451 mi)
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -265,7 +253,7 @@ const Schedule: React.FC = () => {
                   Turns
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  11 turns
+                  21 turns
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -273,15 +261,15 @@ const Schedule: React.FC = () => {
                   Race Distance
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  87 laps (307.995km - 191.379mi)
+                  55 laps (305.355km - 189.739mi)
                 </div>
               </div>
-              {/* <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
+              <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
                 <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1'>
                   F1 Races Held
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  15
+                  11
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -289,7 +277,7 @@ const Schedule: React.FC = () => {
                   First GP held
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  2004
+                  2009
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -297,7 +285,7 @@ const Schedule: React.FC = () => {
                   Most Wins (drivers)
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2'>
-                  Sebastian Vettel (4)
+                  Lewis Hamilton (5)
                   <br />
                 </div>
               </div>
@@ -305,10 +293,10 @@ const Schedule: React.FC = () => {
                 <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1'>
                   Most wins (constructors)
                 </div>
-                <div className='mt-1 text-sm leading-5  sm:mt-0 sm:col-span-2 ferrari'>
-                  <span className='text'> Ferrari (6)</span>
+                <div className='mt-1 text-sm leading-5  sm:mt-0 sm:col-span-2 mercedes'>
+                  <span className='text'> Mercedes (6)</span>
                 </div>
-              </div> */}
+              </div>
               {/* <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
                 <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1'>
                   Most points
@@ -327,14 +315,13 @@ const Schedule: React.FC = () => {
                   </div>
                 </div>
               </div> */}
-              {/* <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
+              <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
                 <div className='text-sm leading-5 font-medium text-gray-500 sm:col-span-1'>
                   Lap Record
                 </div>
-                <div className='mt-1 text-sm leading-5 sm:leading-7 text-gray-800 sm:mt-0 sm:col-span-2 mclaren'>
-                  Pedro de la Rosa (<span className='text'>McLaren</span>){' '}
-                  <br />
-                  1:31.447 (2005)
+                <div className='mt-1 text-sm leading-5 sm:leading-7 text-gray-800 sm:mt-0 sm:col-span-2 mercedes'>
+                  Lewis Hamilton (<span className='text'>Mercedes</span>) <br />
+                  1:39.283 (2019)
                 </div>
               </div>
               <div className='sm:grid sm:grid-cols-3 sm:gap-4 sm:px-4 pt-0 pb-4 sm:pt-5 sm:pb-5 sm:border-t sm:border-gray-200'>
@@ -348,10 +335,10 @@ const Schedule: React.FC = () => {
                       <br />
                       &nbsp;
                     </div>
-                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block ferrari'>
-                      Charles Leclerc (<span className='text'>Ferrari</span>){' '}
+                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block mercedes'>
+                      Lewis Hamilton (<span className='text'>Mercedes</span>){' '}
                       <br />
-                      1:27.866
+                      1:34.779
                     </div>
                   </div>
                   <div className='inine-block pb-4'>
@@ -360,10 +347,10 @@ const Schedule: React.FC = () => {
                       <br />
                       &nbsp;
                     </div>
-                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block ferrari'>
-                      Sebastian Vettel (<span className='text'>Ferrari</span>){' '}
+                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block mercedes'>
+                      Valtteri Bottas (<span className='text'>Mercedes</span>){' '}
                       <br />
-                      1:28.160
+                      1:34.973
                     </div>
                   </div>
                   <div className='inine-block pb-4'>
@@ -372,10 +359,10 @@ const Schedule: React.FC = () => {
                       <br />
                       &nbsp;
                     </div>
-                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block mercedes'>
-                      Lewis Hamilton (<span className='text'>Mercedes</span>){' '}
+                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block redbull'>
+                      Max Verstappen(<span className='text'>Red Bull</span>){' '}
                       <br />
-                      1:28.190
+                      1:35.139
                     </div>
                   </div>
                 </div>
@@ -394,7 +381,7 @@ const Schedule: React.FC = () => {
                     <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block mercedes'>
                       Lewis Hamilton (<span className='text'>Mercedes</span>){' '}
                       <br />
-                      1:34:21.295
+                      1:34:05.715
                     </div>
                   </div>
                   <div className='inine-block pb-4'>
@@ -403,10 +390,10 @@ const Schedule: React.FC = () => {
                       <br />
                       &nbsp;
                     </div>
-                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block mercedes'>
-                      Valtteri Bottas (<span className='text'>Mercedes</span>){' '}
+                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block redbull'>
+                      Max Verstappen(<span className='text'>Red Bull</span>){' '}
                       <br />
-                      +2.980s
+                      +16.772s
                     </div>
                   </div>
                   <div className='inine-block pb-4'>
@@ -418,11 +405,11 @@ const Schedule: React.FC = () => {
                     <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block ferrari'>
                       Charles Leclerc (<span className='text'>Ferrari</span>){' '}
                       <br />
-                      +6.131s
+                      +43.435s
                     </div>
                   </div>
                 </div>
-              </div> */}
+              </div>
             </div>
           </div>
         </div>

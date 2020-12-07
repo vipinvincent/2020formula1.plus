@@ -29,25 +29,27 @@ import Archive74 from 'components/newsarchives/fp3-report-bahrain-gp'
 import Archive73 from 'components/newsarchives/fp2-report-bahrain-gp'
 import Archive72 from 'components/newsarchives/fp1-report-bahrain-gp'
 import Archive71 from 'components/newsarchives/race-report-turkish-gp'
+import Archive70 from 'components/newsarchives/qualifying-report-turkish-gp'
+import Archive69 from 'components/newsarchives/fp3-report-turkish-gp'
 
 import ButtonLink from 'components/link/ButtonLink'
 
 const Main: React.FC = () => {
   return (
     <div className='flex flex-col'>
-      {/* <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
+      <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
         Latest News
-      </div> */}
+      </div>
       {/* <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 mt-0'>
         ROUND 16 - Sakhir GP
       </div> */}
-      <div className='w-100 mb-0 mt-0'>
-        <Race />
-      </div>
       <div className='w-100 bg-white-100 rounded-md mt-0'>
         <FirstContent />
       </div>
       <div className='w-100 mb-0 mt-4'>
+        <Race />
+      </div>
+      <div className='w-100 mb-0 mt-0'>
         <Qualifying />
       </div>
       <div className='w-100 flex flex-col xl:flex-row'>
@@ -93,6 +95,14 @@ const Main: React.FC = () => {
       </div>
       <div className='w-100 bg-white-100 rounded-md mt-0'>
         <Archive71 />
+      </div>
+      <div className='w-100 flex flex-col xl:flex-row'>
+        <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 bg-white-100 rounded-md mt-4'>
+          <Archive70 />
+        </div>
+        <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 bg-white-100 rounded-md mt-4'>
+          <Archive69 />
+        </div>
       </div>
       <div className='w-100 flex flex-col md:self-center'>
         <ButtonLink href='/news' target='_self'>
