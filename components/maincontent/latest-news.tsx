@@ -29,10 +29,6 @@ import Archive74 from 'components/newsarchives/fp3-report-bahrain-gp'
 import Archive73 from 'components/newsarchives/fp2-report-bahrain-gp'
 import Archive72 from 'components/newsarchives/fp1-report-bahrain-gp'
 import Archive71 from 'components/newsarchives/race-report-turkish-gp'
-import Archive70 from 'components/newsarchives/qualifying-report-turkish-gp'
-import Archive69 from 'components/newsarchives/fp3-report-turkish-gp'
-import Archive68 from 'components/newsarchives/fp1-report-turkish-gp'
-import Archive67 from 'components/newsarchives/fp2-report-turkish-gp'
 
 import ButtonLink from 'components/link/ButtonLink'
 
