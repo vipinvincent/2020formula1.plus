@@ -5,11 +5,11 @@ import React from 'react'
 // import Archive73 from 'components/newsarchives/fp2-report-bahrain-gp'
 // import Archive72 from 'components/newsarchives/fp1-report-bahrain-gp'
 
-// import Archive71 from 'components/newsarchives/race-report-turkish-gp'
-// import Archive70 from 'components/newsarchives/qualifying-report-turkish-gp'
-// import Archive69 from 'components/newsarchives/fp3-report-turkish-gp'
-// import Archive68 from 'components/newsarchives/fp1-report-turkish-gp'
-// import Archive67 from 'components/newsarchives/fp2-report-turkish-gp'
+import Archive71 from 'components/newsarchives/race-report-turkish-gp'
+import Archive70 from 'components/newsarchives/qualifying-report-turkish-gp'
+import Archive69 from 'components/newsarchives/fp3-report-turkish-gp'
+import Archive68 from 'components/newsarchives/fp1-report-turkish-gp'
+import Archive67 from 'components/newsarchives/fp2-report-turkish-gp'
 
 import Archive66 from 'components/newsarchives/race-report-emilia-romagna-gp'
 import Archive65 from 'components/newsarchives/qualifying-report-emilia-romagna-gp'
@@ -85,6 +85,25 @@ const Main: React.FC = () => {
         Archived News
       </div>
       <div className='w-100 bg-white-100 rounded-md mt-0'>
+        <Archive71 />
+      </div>
+      <div className='w-100 flex flex-col xl:flex-row'>
+        <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 mt-4 bg-white-100 rounded-md '>
+          <Archive70 />
+        </div>
+        <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 mt-4 bg-white-100 rounded-md '>
+          <Archive69 />
+        </div>
+      </div>
+      <div className='w-100 flex flex-col xl:flex-row'>
+        <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 mt-4 bg-white-100 rounded-md '>
+          <Archive68 />
+        </div>
+        <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 mt-4 bg-white-100 rounded-md '>
+          <Archive67 />
+        </div>
+      </div>
+      <div className='w-100 bg-white-100 rounded-md mt-4'>
         <Archive66 />
       </div>
       <div className='w-100 bg-white-100 rounded-md mt-4'>

@@ -2,8 +2,9 @@ import Layout from '../components/layout/Layout'
 import News from '../components/maincontent/news'
 import Race from '../components/race/quick-look'
 import Qualifying from 'components/qualifying/quick-look'
-import Schedule from '../components/schedule'
+// import Schedule from '../components/schedule'
 import Recent from '../components/schedule/recent'
+import Bahrain from '../components/schedule/bahrain'
 import Turkish from '../components/schedule/turkish'
 import Imola from '../components/schedule/imola'
 import Portugal from '../components/schedule/portugal'
@@ -30,12 +31,13 @@ const IndexPage = () => (
             <News />
           </div>
           <div className='hidden lg:block w-4/12 xl:w-4/12 pl-4 pt-2 pb-2 sm:pb-4 pr-4'>
-            <Schedule />
+            {/* <Schedule /> */}
             <Race />
             <Qualifying />
             <Driver />
             <Team />
             <Recent />
+            <Bahrain />
             <Turkish />
             <Imola />
             <Portugal />

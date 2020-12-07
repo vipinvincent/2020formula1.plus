@@ -8,10 +8,10 @@ const IndexPage = () => (
     <div className='w-auto flex flex-col items-center content-center justify-center '>
       <div className='w-full h-full rounded-md text-center text-black-70 my-2 sm:my-4 px-2 sm:px-4 pb-0'>
         <div className='flex flex-row'>
-          <div className='flex flex-col w-full lg:w-8/12 xl:w-8/12'>
+          <div className='flex flex-col w-full lg:w-8/12 xl:w-8/12 -mt-2'>
             <Race />
           </div>
-          <div className='hidden lg:block w-4/12 xl:w-4/12 pl-4'>
+          <div className='hidden lg:block w-4/12 xl:w-4/12 pl-4 -mt-2'>
             <Driver />
             <Team />
           </div>

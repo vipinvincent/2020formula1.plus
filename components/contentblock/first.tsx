@@ -8,68 +8,62 @@ const First: React.FC = () => {
       <div className='h-48 md:h-64 xl:h-104  w-full'>
         <img
           className='w-full h-full object-cover rounded-t-md  '
-          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1606721136/contentImages/content/lh_si26yn.jpg'
-          alt='Race REPORT - Bahrain  GP 2020'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1607319180/contentImages/content/sergio-perez_vj1ilf.jpg'
+          alt='Race Report - Sakhir  GP 2020'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-4 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            Race REPORT - Bahrain GP 2020
+            Race Report - Sakhir GP 2020
           </div>
           <H1>
-            Hamilton wins Bahrain GP as Grosjean survives a fiery accident
+            Sergio Perez claims his maiden win in Sakhir GP after dropping to
+            last place in lap 1 with Ocon in second and Stroll in third
           </H1>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Seven time champion Lewis Hamilton took his 11th victory of his
-            title-winning Formula 1 2020 season, which was eclipsed by Romain
-            Grosjean's horrific accident and Sergio’s late heartbreak. The Red
-            Bull pair of Max Verstappen and Alex Albon grabs the rest of podium
-            places. Racing Point’s Sergio Prerez was crusing smoothly to his
-            first consecutive second podium of his career behind the leading
-            pair, before the Mexican’s Racing Point expired spectacularly with a
-            suspected power unit issue three laps from the end, which promoted
-            Albon up to third. McLaren duo claimed fourth and fifth with Lando
-            Norris leading home Carlos Sainz, while their 22 point finish saw
-            them move ahead of the point-less Racing Point to P3 in the
-            constructors’ standings.
+            Sergio Perez takes a sensational first ever Formula 1 victory in
+            Sakhir GP after Mercedes’ nightmare pitstop saga. Perez on his 190th
+            F1 start, had been forced to pit at the end of Lap 1 after getting
+            caught up in a Turn 4 crash that eliminated Ferrari’s Charles
+            Leclerc and Red Bull’s Max Verstappen, dropping him to last place.
+            The Mexican keeps on improving by overtaking multiple cars in the
+            Sakhir Outer circuit and eventually allowed him to benefit from
+            Mercedes’ pit error which messed up the strategy and podium finishes
+            for both their drivers, to sensationally claim his and Racing
+            Point’s first ever victory, a week after an MGU-K failure had robbed
+            him of a podium. After a difficult return to F1, Renault’s Ocon
+            claimed his first ever podium finish in second, with Stroll holding
+            off a charging Carlos Sainz to take his second third of the year.
+            McLaren driver Carlos Sainz finished in fourth and Renault's Daniel
+            Ricciardo in P5.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Earlier on Lap 1, Grosjean’s Haas car plunged into the barriers at
-            Turn 3 after clipping Daniil Kvyat's Alpha Tauri. The car speared
-            between layers of the barrier, splitting the car into two with the
-            Frenchman in one half with engulfing in fire. Miraculously, Grosjean
-            could lean out of the inferno within several seconds of his cockpit
-            as the medical crews and the marshals rushed to help. He managed to
-            extricate himself and was helped over the barrier by FIA doctor Ian
-            Stewart, who was in the medical car that rushed to the scene. Shaken
-            by the accident, Grosjean initially seated in the medical car before
-            being helped into an ambulance and then flown swiftly transported to
-            the Bahrain Defence Force Hospital, where he stayed overnight for
-            treatment. Luckily, he had not suffered any fractures, but has few
-            burns on the back of both of his hands and some minor injuries.
-            Later Grosjean said, “I’m okay, well, sort of okay,” holding up
-            bandages covering his burnt hands. "I wasn’t for the halo some years
-            ago but I think it’s the greatest thing we brought to Formula 1 and
-            without it I wouldn’t be able to speak to you today. “Thanks to all
-            the medical staff at the circuit, at the hospital, and hopefully I
-            can soon write you quite some messages and tell you how it’s going.”
+            Alex Albon, the sole surviving Red Bull finished in sixth, ahead of
+            the AlphaTauri of Daniil Kvyat in P7. The Mercedes pair of Bottas
+            and Russell eventually ended up in P8 and P9 positions after leading
+            the race for 3 quarter of the entire race. It had initially looked
+            as though George Russell was set to pull off an incredible maiden
+            victory on his first outing for Mercedes, having aced the start to
+            lead pole-sitter Valtteri Bottas for the majority of the Grand Prix.
+            But Mercedes gave Russell the wrong tyres when he was pitted under a
+            Safety Car on Lap 62 of 87, forcing another pit stop to correct the
+            error. After a while Russell then suffered a puncture that left him
+            P9 at the flag for what was at least his first ever F1 points
+            finish. Lando Norris in the second Mclaren ensured a point finish
+            for the team after been forced to start from back of grid for use of
+            additional power unit elements.
           </p>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            After a lengthy red flag period ensuing as the barriers were
-            repaired after what had been a horrible incident, at the restart
-            Racing Point’s Lance Stroll was rolled over after contact with
-            AlphaTauri’s Daniil Kvyat ending his race. AlphaTauri’s Pierre Gasly
-            with a different but risky statergy, crossed line in a well-deserved
-            P6, ahead of the Renault of Daniel Ricciardo and Mercedes’ Valtteri
-            Bottas who suffered a puncture at the race restart on Lap 3. The top
-            10 was rounded out by the second Renault of Esteban Ocon and the
-            Ferrari of Charles Leclerc in P10. Behind the Ferrari Daniil Kvyat
-            finished Eleventh with George Russell in Williams twelfth and
-            Sebastian Vettel in the second Ferrai in thirteenth. Nicholas Latifi
-            in the second Williams followed by the two Alfa Romeos of Kimi
-            Räikkönen and Antonio Giovinazzi with Kevin Magnussen of Haas
-            rounded of the classified list.
+            Pierre Gasly in the second AlphaTauri finished 11th ahead of the
+            sole surviving Ferrari of Sebastian Vettel. Both Alfa Romeos follows
+            next with Antonio Giovinazzi finishing ahead of Kimi Räikkönen.
+            Haas’ Kevin Magnussen finished in fifteenth ahead of Williams’ Jack
+            Aitken, who replaced George Russell. Pietro Fittipaldi in the Haas
+            was the last classified driver to finish in 17th. On lap 55,
+            Nicholas Latifi of Williams pulled to the side of the track and was
+            out of the race due to mechanical failure was the only retirement
+            other than Charles and Max.
           </p>
           {/* <p className='mt-1 text-base leading-normal text-gray-700'>
             View the complete {' '}

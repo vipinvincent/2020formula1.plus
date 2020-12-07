@@ -15,7 +15,7 @@ import React from 'react'
 // import QualifyingReport from 'components/contentblock/qualifying-report'
 
 // import MainContent from 'components/contentblock/main'
-// import FirstContent from 'components/contentblock/first'
+import FirstContent from 'components/contentblock/first'
 import SecondContent from 'components/contentblock/left'
 import ThirdContent from 'components/contentblock/right'
 import FifthContent from 'components/contentblock/left-old'
@@ -46,6 +46,12 @@ const Main: React.FC = () => {
         ROUND 16 - Sakhir GP
       </div> */}
       <div className='w-100 mb-0 mt-0'>
+        <Race />
+      </div>
+      <div className='w-100 bg-white-100 rounded-md mt-0'>
+        <FirstContent />
+      </div>
+      <div className='w-100 mb-0 mt-4'>
         <Qualifying />
       </div>
       <div className='w-100 flex flex-col xl:flex-row'>
@@ -70,14 +76,11 @@ const Main: React.FC = () => {
       <div className='w-100 bg-white-100 rounded-md mt-0'>
         <Archive76 />
       </div>
-      <div className='w-100 mb-0 mt-4'>
-        <Race />
-      </div>
       <div className='w-100 flex flex-col xl:flex-row'>
-        <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 bg-white-100 rounded-md mt-0'>
+        <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 bg-white-100 rounded-md mt-4'>
           <Archive75 />
         </div>
-        <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 bg-white-100 rounded-md mt-4 xl:mt-0'>
+        <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 bg-white-100 rounded-md mt-4'>
           <Archive74 />
         </div>
       </div>
@@ -94,22 +97,6 @@ const Main: React.FC = () => {
       </div>
       <div className='w-100 bg-white-100 rounded-md mt-0'>
         <Archive71 />
-      </div>
-      <div className='w-100 flex flex-col xl:flex-row'>
-        <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 bg-white-100 rounded-md mt-4'>
-          <Archive70 />
-        </div>
-        <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 bg-white-100 rounded-md mt-4 '>
-          <Archive69 />
-        </div>
-      </div>
-      <div className='w-100 flex flex-col xl:flex-row'>
-        <div className='w-100 xl:w-1/2 mr-0 xl:mr-2 bg-white-100 rounded-md mt-4'>
-          <Archive68 />
-        </div>
-        <div className='w-100 xl:w-1/2 ml-0 xl:ml-2 bg-white-100 rounded-md mt-4'>
-          <Archive67 />
-        </div>
       </div>
       <div className='w-100 flex flex-col md:self-center'>
         <ButtonLink href='/news' target='_self'>

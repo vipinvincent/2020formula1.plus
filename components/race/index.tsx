@@ -5,7 +5,7 @@ const Race: React.FC = () => {
   return (
     <div className='flex flex-col mb-9 flex-grow flex-no-wrap flex-shrink-0'>
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-3 '>
-        Bahrain GP 2020 - Race Results
+        SAKHIR GP 2020 - Race Results
       </div>
       <div className='w-full grid sm:flex sm:flex-col justify-around py-3 bg-white-100 rounded-md -xs mb-4'>
         <div className='align-middle min-w-full overflow-x-auto rounded-t-md rounded-b-md'>
@@ -36,16 +36,16 @@ const Race: React.FC = () => {
                 </td>
                 <td className='p-4 whitespace-no-wrap table-cell'>
                   <div className='flex items-center'>
-                    <div className='text-sm leading-5 font-medium text-gray-900 mercedes'>
-                      Lewis Hamilton <span className='text'>(Mercedes)</span>
+                    <div className='text-sm leading-5 font-medium text-gray-900 racingpoint'>
+                      Sergio Perez <span className='text'>(Racing Point)</span>
                     </div>
                   </div>
                 </td>
                 <td className='p-4 whitespace-no-wrap table-cell text-center'>
-                  2:59:47.515
+                  1:31:15.114
                 </td>
                 <td className='p-4 whitespace-no-wrap table-cell text-center'>
-                  57
+                  87
                 </td>
                 <td className='pr-6 whitespace-no-wrap table-cell text-right font-semibold'>
                   3
@@ -57,67 +57,46 @@ const Race: React.FC = () => {
                 </td>
                 <td className='p-4 whitespace-no-wrap table-cell'>
                   <div className='flex items-center'>
-                    <div className='text-sm leading-5 font-medium text-gray-900 redbull'>
-                      Max Verstappen <span className='text'>(Red Bull)</span>
+                    <div className='text-sm leading-5 font-medium text-gray-900 renault'>
+                      Esteban Ocon{' '}
+                      <span className='text three-d-text'>(Renault)</span>
                     </div>
                   </div>
                 </td>
                 <td className='p-4 whitespace-no-wrap table-cell text-center'>
-                  +1.254s
+                  +10.518s
                 </td>
                 <td className='p-4 whitespace-no-wrap table-cell text-center'>
-                  57
+                  87
                 </td>
                 <td className='pr-6 whitespace-no-wrap table-cell text-right font-semibold'>
-                  4
+                  1
                 </td>
               </tr>
-
-              <tr className='odd:bg-gray-100 bg-white-100 border-b border-gray-200'>
-                <td className='p-4 whitespace-no-wrap text-left table-cell'>
+              <tr className='odd:bg-gray-100 bg-white-100 border-b border-gray-200 font-medium'>
+                <td className='p-4 whitespace-no-wrap table-cell text-left'>
                   3
                 </td>
                 <td className='p-4 whitespace-no-wrap table-cell'>
                   <div className='flex items-center'>
-                    <div className='text-sm leading-5 font-medium text-gray-900 redbull'>
-                      Alexander Albon <span className='text'>(Red Bull)</span>
+                    <div className='text-sm leading-5 font-medium text-gray-900 racingpoint'>
+                      Lance Stroll <span className='text'>(Racing Point)</span>
                     </div>
                   </div>
                 </td>
                 <td className='p-4 whitespace-no-wrap table-cell text-center'>
-                  +8.005s
+                  +11.869s
                 </td>
                 <td className='p-4 whitespace-no-wrap table-cell text-center'>
-                  57
+                  87
                 </td>
                 <td className='pr-6 whitespace-no-wrap table-cell text-right font-semibold'>
-                  3
-                </td>
-              </tr>
-              <tr className='odd:bg-gray-100 bg-white-100 border-b border-gray-200'>
-                <td className='p-4 whitespace-no-wrap text-left table-cell'>
-                  4
-                </td>
-                <td className='p-4 whitespace-no-wrap table-cell'>
-                  <div className='flex items-center'>
-                    <div className='text-sm leading-5 font-medium text-gray-900 mclaren'>
-                      Lando Norris <span className='text'>(McLaren)</span>
-                    </div>
-                  </div>
-                </td>
-                <td className='p-4 whitespace-no-wrap table-cell text-center'>
-                  +11.337s
-                </td>
-                <td className='p-4 whitespace-no-wrap table-cell text-center'>
-                  57
-                </td>
-                <td className='pr-6 whitespace-no-wrap table-cell text-right font-semibold'>
-                  2
+                  1
                 </td>
               </tr>
               <tr className='odd:bg-gray-100 bg-white-100 border-b border-gray-200'>
                 <td className='px-4 py-1 whitespace-no-wrap text-left table-cell'>
-                  5
+                  4
                 </td>
                 <td className='px-4 py-1 whitespace-no-wrap table-cell'>
                   <div className='flex items-center'>
@@ -127,40 +106,19 @@ const Race: React.FC = () => {
                   </div>
                 </td>
                 <td className='p-4 whitespace-no-wrap table-cell text-center'>
-                  +11.787s
+                  +12.580s
                 </td>
                 <td className='p-4 whitespace-no-wrap table-cell text-center'>
-                  57
+                  87
                 </td>
                 <td className='pr-6 whitespace-no-wrap table-cell  text-right font-semibold'>
-                  3
-                </td>
-              </tr>
-              <tr className='odd:bg-gray-100 bg-white-100 border-b border-gray-200'>
-                <td className='p-4 whitespace-no-wrap text-left table-cell'>
-                  6
-                </td>
-                <td className='p-4 whitespace-no-wrap table-cell'>
-                  <div className='flex items-center'>
-                    <div className='text-sm leading-5 font-medium text-gray-900 alphatauri'>
-                      Pierre Gasly <span className='text'>(AlphaTauri)</span>
-                    </div>
-                  </div>
-                </td>
-                <td className='p-4 whitespace-no-wrap table-cell text-center'>
-                  +11.942s
-                </td>
-                <td className='p-4 whitespace-no-wrap table-cell text-center'>
-                  57
-                </td>
-                <td className='pr-6 whitespace-no-wrap table-cell text-right font-semibold'>
                   2
                 </td>
               </tr>
 
               <tr className='odd:bg-gray-100 bg-white-100 border-b border-gray-200'>
                 <td className='p-4 whitespace-no-wrap text-left table-cell'>
-                  7
+                  5
                 </td>
                 <td className='p-4 whitespace-no-wrap table-cell'>
                   <div className='flex items-center'>
@@ -171,13 +129,55 @@ const Race: React.FC = () => {
                   </div>
                 </td>
                 <td className='p-4 whitespace-no-wrap table-cell text-center'>
-                  +19.368s
+                  +13.330s
                 </td>
                 <td className='p-4 whitespace-no-wrap table-cell text-center'>
-                  57
+                  87
                 </td>
                 <td className='pr-6 whitespace-no-wrap table-cell text-right font-semibold'>
-                  3
+                  2
+                </td>
+              </tr>
+              <tr className='odd:bg-gray-100 bg-white-100 border-b border-gray-200'>
+                <td className='p-4 whitespace-no-wrap text-left table-cell'>
+                  6
+                </td>
+                <td className='p-4 whitespace-no-wrap table-cell'>
+                  <div className='flex items-center'>
+                    <div className='text-sm leading-5 font-medium text-gray-900 redbull'>
+                      Alexander Albon <span className='text'>(Red Bull)</span>
+                    </div>
+                  </div>
+                </td>
+                <td className='p-4 whitespace-no-wrap table-cell text-center'>
+                  +13.842s
+                </td>
+                <td className='p-4 whitespace-no-wrap table-cell text-center'>
+                  87
+                </td>
+                <td className='pr-6 whitespace-no-wrap table-cell text-right font-semibold'>
+                  2
+                </td>
+              </tr>
+              <tr className='odd:bg-gray-100 bg-white-100 border-b border-gray-200'>
+                <td className='px-4 py-1 whitespace-no-wrap text-left table-cell'>
+                  7
+                </td>
+                <td className='px-4 py-1 whitespace-no-wrap table-cell'>
+                  <div className='flex items-center'>
+                    <div className='text-sm leading-5 font-medium text-gray-900 alphatauri'>
+                      Daniil Kvyat <span className='text'>(AlphaTauri)</span>
+                    </div>
+                  </div>
+                </td>
+                <td className='p-4 whitespace-no-wrap table-cell text-center'>
+                  +14.534s
+                </td>
+                <td className='p-4 whitespace-no-wrap table-cell text-center'>
+                  87
+                </td>
+                <td className='pr-6 whitespace-no-wrap table-cell  text-right font-semibold'>
+                  2
                 </td>
               </tr>
               <tr className='odd:bg-gray-100 bg-white-100 border-b border-gray-200'>
@@ -192,13 +192,13 @@ const Race: React.FC = () => {
                   </div>
                 </td>
                 <td className='p-4 whitespace-no-wrap table-cell text-center'>
-                  +19.680s
+                  +15.389s
                 </td>
                 <td className='p-4 whitespace-no-wrap table-cell text-center'>
-                  57
+                  87
                 </td>
                 <td className='pr-6 whitespace-no-wrap table-cell text-right font-semibold'>
-                  4
+                  2
                 </td>
               </tr>
               <tr className='odd:bg-gray-100 bg-white-100 border-b border-gray-200'>
@@ -207,20 +207,19 @@ const Race: React.FC = () => {
                 </td>
                 <td className='p-4 whitespace-no-wrap table-cell'>
                   <div className='flex items-center'>
-                    <div className='text-sm leading-5 font-medium text-gray-900 renault'>
-                      Esteban Ocon{' '}
-                      <span className='text three-d-text'>(Renault)</span>
+                    <div className='text-sm leading-5 font-medium text-gray-900 mercedes'>
+                      George Russell <span className='text'>(Mercedes)</span>
                     </div>
                   </div>
                 </td>
                 <td className='p-4 whitespace-no-wrap table-cell text-center'>
-                  +22.803s
+                  +18.556s
                 </td>
                 <td className='p-4 whitespace-no-wrap table-cell text-center'>
-                  57
+                  87
                 </td>
                 <td className='pr-6 whitespace-no-wrap table-cell text-right font-semibold'>
-                  3
+                  4
                 </td>
               </tr>
               <tr className='odd:bg-gray-100 bg-white-100 border-b border-gray-200'>
@@ -229,66 +228,46 @@ const Race: React.FC = () => {
                 </td>
                 <td className='p-4 whitespace-no-wrap table-cell'>
                   <div className='flex items-center'>
-                    <div className='text-sm leading-5 font-medium text-gray-900 ferrari'>
-                      Charles Leclerc <span className='text'>(Ferrari)</span>
+                    <div className='text-sm leading-5 font-medium text-gray-900 mclaren'>
+                      Lando Norris <span className='text'>(McLaren)</span>
                     </div>
                   </div>
                 </td>
                 <td className='p-4 whitespace-no-wrap table-cell text-center'>
-                  +1 lap
+                  +19.541s
                 </td>
                 <td className='p-4 whitespace-no-wrap table-cell text-center'>
-                  56
+                  87
                 </td>
                 <td className='pr-6 whitespace-no-wrap table-cell text-right font-semibold'>
-                  3
+                  2
                 </td>
               </tr>
+
               <tr className='odd:bg-gray-100 bg-white-100 border-b border-gray-200'>
-                <td className='px-4 py-1 whitespace-no-wrap text-left table-cell'>
+                <td className='p-4 whitespace-no-wrap text-left table-cell'>
                   11
                 </td>
-                <td className='px-4 py-1 whitespace-no-wrap table-cell'>
+                <td className='p-4 whitespace-no-wrap table-cell'>
                   <div className='flex items-center'>
                     <div className='text-sm leading-5 font-medium text-gray-900 alphatauri'>
-                      Daniil Kvyat <span className='text'>(AlphaTauri)</span>
+                      Pierre Gasly <span className='text'>(AlphaTauri)</span>
                     </div>
                   </div>
                 </td>
                 <td className='p-4 whitespace-no-wrap table-cell text-center'>
-                  +1 lap
+                  +20.527s
                 </td>
                 <td className='p-4 whitespace-no-wrap table-cell text-center'>
-                  56
+                  87
                 </td>
-                <td className='pr-6 whitespace-no-wrap table-cell  text-right font-semibold'>
-                  3
-                </td>
-              </tr>
-              <tr className='odd:bg-gray-100 bg-white-100 border-b border-gray-200'>
-                <td className='px-4 py-1 whitespace-no-wrap text-left table-cell'>
-                  12
-                </td>
-                <td className='px-4 py-1 whitespace-no-wrap table-cell'>
-                  <div className='flex items-center'>
-                    <div className='text-sm leading-5 font-medium text-gray-900 williams'>
-                      George Russell <span className='text'>(Williams)</span>
-                    </div>
-                  </div>
-                </td>
-                <td className='p-4 whitespace-no-wrap table-cell text-center'>
-                  +1 lap
-                </td>
-                <td className='p-4 whitespace-no-wrap table-cell text-center'>
-                  56
-                </td>
-                <td className='pr-6 whitespace-no-wrap table-cell  text-right font-semibold'>
-                  3
+                <td className='pr-6 whitespace-no-wrap table-cell text-right font-semibold'>
+                  2
                 </td>
               </tr>
               <tr className='odd:bg-gray-100 bg-white-100 border-b border-gray-200'>
                 <td className='p-4 whitespace-no-wrap table-cell text-left'>
-                  13
+                  12
                 </td>
                 <td className='p-4 whitespace-no-wrap table-cell'>
                   <div className='flex items-center'>
@@ -298,31 +277,53 @@ const Race: React.FC = () => {
                   </div>
                 </td>
                 <td className='p-4 whitespace-no-wrap table-cell text-center'>
-                  +1 lap
+                  +22.611s
                 </td>
                 <td className='p-4 whitespace-no-wrap table-cell text-center'>
-                  56
+                  87
                 </td>
                 <td className='pr-6 whitespace-no-wrap table-cell text-right font-semibold'>
                   3
                 </td>
               </tr>
               <tr className='odd:bg-gray-100 bg-white-100 border-b border-gray-200'>
-                <td className='p-4 whitespace-no-wrap table-cell text-left'>
-                  14
+                <td className='p-4 whitespace-no-wrap text-left table-cell'>
+                  13
                 </td>
                 <td className='p-4 whitespace-no-wrap table-cell'>
                   <div className='flex items-center'>
-                    <div className='text-sm leading-5 font-medium text-gray-900 williams'>
-                      Nicholas Latifi <span className='text'>(Williams)</span>
+                    <div className='text-sm leading-5 font-medium text-gray-900 alfaromeo'>
+                      Antonio Giovinazzi{' '}
+                      <span className='text'>(Alfa Romeo)</span>
                     </div>
                   </div>
                 </td>
                 <td className='p-4 whitespace-no-wrap table-cell text-center'>
-                  +1 lap
+                  +24.111s
                 </td>
                 <td className='p-4 whitespace-no-wrap table-cell text-center'>
-                  56
+                  87
+                </td>
+                <td className='pr-6 whitespace-no-wrap table-cell text-right font-semibold'>
+                  2
+                </td>
+              </tr>
+              <tr className='odd:bg-gray-100 bg-white-100 border-b border-gray-200'>
+                <td className='p-4 whitespace-no-wrap text-left table-cell'>
+                  14
+                </td>
+                <td className='p-4 whitespace-no-wrap table-cell'>
+                  <div className='flex items-center'>
+                    <div className='text-sm leading-5 font-medium text-gray-900 alfaromeo'>
+                      Kimi Raikkonen <span className='text'>(Alfa Romeo)</span>
+                    </div>
+                  </div>
+                </td>
+                <td className='p-4 whitespace-no-wrap table-cell text-center'>
+                  +26.153s
+                </td>
+                <td className='p-4 whitespace-no-wrap table-cell text-center'>
+                  87
                 </td>
                 <td className='pr-6 whitespace-no-wrap table-cell text-right font-semibold'>
                   3
@@ -334,40 +335,39 @@ const Race: React.FC = () => {
                 </td>
                 <td className='p-4 whitespace-no-wrap table-cell'>
                   <div className='flex items-center'>
-                    <div className='text-sm leading-5 font-medium text-gray-900 alfaromeo'>
-                      Kimi Raikkonen <span className='text'>(Alfa Romeo)</span>
+                    <div className='text-sm leading-5 font-medium text-gray-900 haas'>
+                      Kevin Magnussen <span className='text'>(Haas)</span>
                     </div>
                   </div>
                 </td>
                 <td className='p-4 whitespace-no-wrap table-cell text-center'>
-                  +1 lap
+                  +32.370s
                 </td>
                 <td className='p-4 whitespace-no-wrap table-cell text-center'>
-                  56
+                  87
                 </td>
                 <td className='pr-6 whitespace-no-wrap table-cell text-right font-semibold'>
-                  3
+                  2
                 </td>
               </tr>
               <tr className='odd:bg-gray-100 bg-white-100 border-b border-gray-200'>
-                <td className='p-4 whitespace-no-wrap text-left table-cell'>
+                <td className='px-4 py-1 whitespace-no-wrap text-left table-cell'>
                   16
                 </td>
-                <td className='p-4 whitespace-no-wrap table-cell'>
+                <td className='px-4 py-1 whitespace-no-wrap table-cell'>
                   <div className='flex items-center'>
-                    <div className='text-sm leading-5 font-medium text-gray-900 alfaromeo'>
-                      Antonio Giovinazzi{' '}
-                      <span className='text'>(Alfa Romeo)</span>
+                    <div className='text-sm leading-5 font-medium text-gray-900 williams'>
+                      Jack Aitken <span className='text'>(Williams)</span>
                     </div>
                   </div>
                 </td>
                 <td className='p-4 whitespace-no-wrap table-cell text-center'>
-                  +1 lap
+                  +33.674s
                 </td>
                 <td className='p-4 whitespace-no-wrap table-cell text-center'>
-                  56
+                  87
                 </td>
-                <td className='pr-6 whitespace-no-wrap table-cell text-right font-semibold'>
+                <td className='pr-6 whitespace-no-wrap table-cell  text-right font-semibold'>
                   3
                 </td>
               </tr>
@@ -378,49 +378,28 @@ const Race: React.FC = () => {
                 <td className='p-4 whitespace-no-wrap table-cell'>
                   <div className='flex items-center'>
                     <div className='text-sm leading-5 font-medium text-gray-900 haas'>
-                      Kevin Magnussen <span className='text'>(Haas)</span>
+                      Pietro Fittipaldi <span className='text'>(Haas)</span>
                     </div>
                   </div>
                 </td>
                 <td className='p-4 whitespace-no-wrap table-cell text-center'>
-                  +1 lap
+                  +36.858s
                 </td>
                 <td className='p-4 whitespace-no-wrap table-cell text-center'>
-                  56
-                </td>
-                <td className='pr-6 whitespace-no-wrap table-cell text-right font-semibold'>
-                  4
-                </td>
-              </tr>
-              <tr className='odd:bg-gray-100 bg-white-100 border-b border-gray-200 font-medium'>
-                <td className='p-4 whitespace-no-wrap table-cell text-left'>
-                  DNF
-                </td>
-                <td className='p-4 whitespace-no-wrap table-cell'>
-                  <div className='flex items-center'>
-                    <div className='text-sm leading-5 font-medium text-gray-900 racingpoint'>
-                      Sergio Perez <span className='text'>(Racing Point)</span>
-                    </div>
-                  </div>
-                </td>
-                <td className='p-4 whitespace-no-wrap table-cell text-center'>
-                  DNF
-                </td>
-                <td className='p-4 whitespace-no-wrap table-cell text-center'>
-                  53
+                  87
                 </td>
                 <td className='pr-6 whitespace-no-wrap table-cell text-right font-semibold'>
                   3
                 </td>
               </tr>
               <tr className='odd:bg-gray-100 bg-white-100 border-b border-gray-200'>
-                <td className='p-4 whitespace-no-wrap text-left table-cell'>
+                <td className='p-4 whitespace-no-wrap table-cell text-left'>
                   DNF
                 </td>
                 <td className='p-4 whitespace-no-wrap table-cell'>
                   <div className='flex items-center'>
-                    <div className='text-sm leading-5 font-medium text-gray-900 racingpoint'>
-                      Lance Stroll <span className='text'>(Racing Point)</span>
+                    <div className='text-sm leading-5 font-medium text-gray-900 williams'>
+                      Nicholas Latifi <span className='text'>(Williams)</span>
                     </div>
                   </div>
                 </td>
@@ -428,21 +407,20 @@ const Race: React.FC = () => {
                   DNF
                 </td>
                 <td className='p-4 whitespace-no-wrap table-cell text-center'>
-                  2
+                  52
                 </td>
                 <td className='pr-6 whitespace-no-wrap table-cell text-right font-semibold'>
                   1
                 </td>
               </tr>
-
               <tr className='odd:bg-gray-100 bg-white-100 border-b border-gray-200'>
                 <td className='p-4 whitespace-no-wrap text-left table-cell'>
                   DNF
                 </td>
                 <td className='p-4 whitespace-no-wrap table-cell'>
                   <div className='flex items-center'>
-                    <div className='text-sm leading-5 font-medium text-gray-900 haas'>
-                      Romain Grosjean <span className='text'>(Haas)</span>
+                    <div className='text-sm leading-5 font-medium text-gray-900 redbull'>
+                      Max Verstappen <span className='text'>(Red Bull)</span>
                     </div>
                   </div>
                 </td>
@@ -450,10 +428,31 @@ const Race: React.FC = () => {
                   DNF
                 </td>
                 <td className='p-4 whitespace-no-wrap table-cell text-center'>
-                  49
+                  0
                 </td>
                 <td className='pr-6 whitespace-no-wrap table-cell text-right font-semibold'>
-                  2
+                  0
+                </td>
+              </tr>
+              <tr className='odd:bg-gray-100 bg-white-100 border-b border-gray-200'>
+                <td className='p-4 whitespace-no-wrap text-left table-cell'>
+                  DNF
+                </td>
+                <td className='p-4 whitespace-no-wrap table-cell'>
+                  <div className='flex items-center'>
+                    <div className='text-sm leading-5 font-medium text-gray-900 ferrari'>
+                      Charles Leclerc <span className='text'>(Ferrari)</span>
+                    </div>
+                  </div>
+                </td>
+                <td className='p-4 whitespace-no-wrap table-cell text-center'>
+                  DNF
+                </td>
+                <td className='p-4 whitespace-no-wrap table-cell text-center'>
+                  0
+                </td>
+                <td className='pr-6 whitespace-no-wrap table-cell text-right font-semibold'>
+                  0
                 </td>
               </tr>
             </tbody>
