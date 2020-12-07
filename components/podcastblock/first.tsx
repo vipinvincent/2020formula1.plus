@@ -7,14 +7,14 @@ const First: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-md'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=GF5hXGJJnI0'
+        href='https://www.youtube.com/watch?v=tXkE01Vl67o'
         target='_blank'>
         <div className='h-full w-full rounded-md relative flex'>
           <div className='h-full w-full bg-black-100 rounded-t-md  '>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-t-md  '
-              src='https://img.youtube.com/vi/GF5hXGJJnI0/sddefault.jpg'
-              alt='2020 Bahrain GP Race Review | WTF1 Podcast'
+              src='https://img.youtube.com/vi/tXkE01Vl67o/sddefault.jpg'
+              alt='Sakhir Grand Prix Race Review F1 2020'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,19 +32,24 @@ const First: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=GF5hXGJJnI0'
+            href='https://www.youtube.com/watch?v=tXkE01Vl67o'
             target='_blank'>
-            2020 Bahrain GP Race Review | WTF1 Podcast
+            Sakhir Grand Prix Race Review F1 2020
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Matt, Tommy and Katy are back for another podcast to discuss the
-            Bahrain Grand Prix, Lewis Hamilton's positive covid test and Haas
-            announcing Nikita Mazepin.
+            The Formula 1 2020 Sakhir Grand Prix season is here! Today we
+            analyse the F1 2020 Sakhir Grand Prix, taking a look at the Race
+            Results as well as all the highlights and incidents, Verstappens's
+            Crash, Perez's First Win, and the two Mercedes misfortunes! With
+            Hamilton now a 7 time champion, can Leclerc, Verstappen and Norris
+            challenge even closer this year?
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink href=' http://www.wtf1.com' target='_blank'>
-              WTF1
+            <ContentLink
+              href='https://www.youtube.com/c/RacingReviews/'
+              target='_blank'>
+              Racing Reviews
             </ContentLink>
           </p>
         </div>

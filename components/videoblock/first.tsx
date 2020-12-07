@@ -7,14 +7,14 @@ const First: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-md'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=pu0YOjpe8i4'
+        href='https://www.youtube.com/watch?v=bkfMVc9ACCE'
         target='_blank'>
         <div className='h-full w-full rounded-md relative flex'>
           <div className='h-full w-full bg-black-100 rounded-t-md  '>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-t-md  '
-              src='https://img.youtube.com/vi/pu0YOjpe8i4/sddefault.jpg'
-              alt='The answers F1 needs as Grosjean crash investigation begins'
+              src='https://img.youtube.com/vi/bkfMVc9ACCE/sddefault.jpg'
+              alt='Norris Strong Words Against Alonsos "Young" Driver Test'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,24 +32,24 @@ const First: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=pu0YOjpe8i4'
+            href='https://www.youtube.com/watch?v=bkfMVc9ACCE'
             target='_blank'>
-            The answers F1 needs as Grosjean crash investigation begins
+            Norris' Strong Words Against Alonso's "Young" Driver Test
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The formal investigation into Romain Grosjean’s fireball crash at
-            the start of the Bahrain Grand Prix will take six to eight weeks
-            before F1’s governing body the FIA will release its findings. As
-            that investigation begins, Scott Mitchell explains how the process
-            will work, and highlights the key questions that need answering
-            based on what we know about the accident and its aftermath so far.
+            The post-season Abu Dhabi young drivers test scheduled for later
+            this month is meant for drivers who have raced in no more than two
+            F1 races. With 314 F1 races under his belt, future Renault driver
+            Fernando Alonso definitely does not qualify for this test. However,
+            the FIA has given Alonso special permission upon request from his
+            future team to take part in this test. McLaren driver Lando Norris
+            and current Renault driver Daniel Ricciardo have given their
+            thoughts on this{' '}
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink
-              href='https://the-race.com/formula-1/grosjean-crash-investigation/'
-              target='_blank'>
-              The Race
+            <ContentLink href='https://formula.world/' target='_blank'>
+              Formula World
             </ContentLink>
           </p>
         </div>

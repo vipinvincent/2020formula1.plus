@@ -7,14 +7,14 @@ const Third: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-md'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=UsWiTkyv3XU'
+        href='https://www.youtube.com/watch?v=q6QIV1tzsPc'
         target='_blank'>
         <div className='h-full w-full rounded-md relative flex'>
           <div className='h-full w-full bg-black-100 rounded-t-md  '>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-t-md  '
-              src='https://img.youtube.com/vi/UsWiTkyv3XU/sddefault.jpg'
-              alt='Sakhir Grand Prix: Preview and Predictions'
+              src='https://img.youtube.com/vi/q6QIV1tzsPc/sddefault.jpg'
+              alt='Sakhir Grand Prix: Race Reaction'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,16 +32,13 @@ const Third: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=UsWiTkyv3XU'
+            href='https://www.youtube.com/watch?v=q6QIV1tzsPc'
             target='_blank'>
-            Sakhir Grand Prix: Preview and Predictions
+            Sakhir Grand Prix: Race Reaction
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            This weekend’s Sakhir Grand Prix will see F1 cars take on the
-            Bahrain Outer Loop circuit for the first time…but that’s not the
-            only significant change this weekend. In this preview, I take a look
-            at the circuit stats, make my predictions, go over the driver
-            changes and Tom takes you on a virtual lap of the new track.
+            Join me and Chain Bear for some immediate reaction to the 2020 F1
+            Sakhir Grand Prix...and what a race it was!
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}

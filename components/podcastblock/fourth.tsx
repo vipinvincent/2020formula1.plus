@@ -14,7 +14,7 @@ const Fourth: React.FC = () => {
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-t-md  '
               src='https://img.youtube.com/vi/6IuXuCLWyks/sddefault.jpg'
-              alt='F1 Car Setup For Bahrains Outer Track'
+              alt='Sakhir Grand Prix Post Race Chinwag'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -34,20 +34,17 @@ const Fourth: React.FC = () => {
           <ContentLink
             href='https://www.youtube.com/watch?v=6IuXuCLWyks'
             target='_blank'>
-            F1 Car Setup For Bahrain's Outer Track
+            Sakhir Grand Prix Post Race Chinwag
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            In this video I'm taking a closer look at the Bahrain Outer Track
-            ahead of F1's Sakhir GP. What are the biggest differences to the
-            previous layout? What does it mean for car setup? Who will it favour
-            & who will suffer most?
+            Sakhir Grand Prix Post Race Chinwag
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
             <ContentLink
-              href='https://www.youtube.com/c/F1Elvis/'
+              href='https://www.youtube.com/c/TommoF1/'
               target='_blank'>
-              Marc Priestley F1 Elvis
+              Tommo F1
             </ContentLink>
           </p>
         </div>
