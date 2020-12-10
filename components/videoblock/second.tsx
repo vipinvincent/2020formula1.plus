@@ -7,14 +7,14 @@ const Second: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-md'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=zQ-3CB4me6s'
+        href='https://www.youtube.com/watch?v=WG7TP1lARDM'
         target='_blank'>
         <div className='h-full w-full rounded-md relative flex'>
           <div className='h-full w-full bg-black-100 rounded-t-md  '>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-t-md  '
-              src='https://img.youtube.com/vi/zQ-3CB4me6s/sddefault.jpg'
-              alt='Behind The Charge In The Red Bull Racing Garage'
+              src='https://img.youtube.com/vi/WG7TP1lARDM/sddefault.jpg'
+              alt='The Double Stack Pit Stop, EXPLAINED | 2020 Sakhir GP F1 Race Debrief'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,20 +32,23 @@ const Second: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=zQ-3CB4me6s'
+            href='https://www.youtube.com/watch?v=WG7TP1lARDM'
             target='_blank'>
-            Behind The Charge In The Red Bull Racing Garage
+            The Double Stack Pit Stop, EXPLAINED | 2020 Sakhir GP F1 Race
+            Debrief
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            With unrivalled access to the Team we take you Behind The Charge and
-            follow some key personnel throughout our 300th race weekend.
+            James Allison answers your Sakhir Grand Prix questions – from what
+            the engine issue was that George reported over the radio, to why we
+            kept Valtteri out longer for the first stint and… of course… what
+            happened in that double stack pit stop.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
             <ContentLink
-              href='https://redbullracing.redbull.com/'
+              href='https://www.mercedesamgf1.com/en/'
               target='_blank'>
-              Red Bull Racing
+              Mercedes-AMG Petronas F1
             </ContentLink>
           </p>
         </div>

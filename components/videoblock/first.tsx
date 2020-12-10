@@ -7,14 +7,14 @@ const First: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-md'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=4BgICCdV68k'
+        href='https://www.youtube.com/watch?v=xSWkDsonGTI'
         target='_blank'>
         <div className='h-full w-full rounded-md relative flex'>
           <div className='h-full w-full bg-black-100 rounded-t-md  '>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-t-md  '
-              src='https://img.youtube.com/vi/4BgICCdV68k/sddefault.jpg'
-              alt='Should Mercedes replace Bottas with Russell for F1 2021?'
+              src='https://img.youtube.com/vi/xSWkDsonGTI/sddefault.jpg'
+              alt='Why theres now no case for Red Bull keeping Albon over Perez for F1 2021'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,24 +32,25 @@ const First: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=4BgICCdV68k'
+            href='https://www.youtube.com/watch?v=xSWkDsonGTI'
             target='_blank'>
-            Should Mercedes replace Bottas with Russell for F1 2021?
+            Why there’s now no case for Red Bull keeping Albon over Perez for F1
+            2021
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            George Russell’s stunning debut F1 weekend with Mercedes ended in
-            heartbreak, but it can only have boosted his long-term career
-            prospects. A call-up to Mercedes for 2022 seems inevitable, but
-            should the team be looking to get the young Brit in the car sooner
-            than that? Scott Mitchell joins Glenn Freeman to discuss the case
-            for Russell, what his performance means for Bottas, and if Mercedes
-            is even open to the idea of making an unexpected switch ahead of
-            schedule
+            Red Bull has been doing all it can to let Alex Albon prove he
+            deserves to keep his F1 drive for 2021… then he finished sixth in a
+            race where the other leading cars were out of contention, and the
+            man who’s in the running to replace him won it. In this video Scott
+            Mitchell explains the case against Albon, looking into the numbers
+            from his season that show a worrying lack of improvement against Max
+            Verstappen. If Red Bull’s 2021 driver decision is based on
+            performance reasons, Sergio Perez has to get the drive
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
             <ContentLink
-              href='https://the-race.com/formula-1/should-mercedes-swap-russell-and-bottas-for-2021-our-verdict/'
+              href='https://the-race.com/formula-1/there-is-now-no-case-for-red-bull-keeping-albon-over-perez/'
               target='_blank'>
               The Race
             </ContentLink>

@@ -7,14 +7,14 @@ const Third: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-md'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=t8_ntaH5nvM'
+        href='https://www.youtube.com/watch?v=iAw-wYl1fXU'
         target='_blank'>
         <div className='h-full w-full rounded-md relative flex'>
           <div className='h-full w-full bg-black-100 rounded-t-md  '>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-t-md  '
-              src='https://img.youtube.com/vi/t8_ntaH5nvM/sddefault.jpg'
-              alt='Carlos Sainz Has Fallen Under The Radar AGAIN'
+              src='https://img.youtube.com/vi/iAw-wYl1fXU/sddefault.jpg'
+              alt='F1s Updated 2021 Rules Explained - Everything You Need To Know'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,24 +32,22 @@ const Third: React.FC = () => {
             Video
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=t8_ntaH5nvM'
+            href='https://www.youtube.com/watch?v=iAw-wYl1fXU'
             target='_blank'>
-            Carlos Sainz Has Fallen Under The Radar AGAIN
+            F1's Updated 2021 Rules Explained - Everything You Need To Know
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            After a troubled start to the 2020 F1 season, Sainz's luck has been
-            slowly but surely showing his class and why Ferrari picked him. His
-            championship position is not representative of the great job he has
-            done all year long. Here, we take a look back at some of those
-            unlucky moments that have plagued his season and how he has dealt
-            with it up to now.
+            The 2021 F1 season is closing in, and while it might not be the
+            massive overhaul we expected, now delayed till 2022, there are still
+            some very interesting updates to the regulations coming into play.
+            Jake Boxall-Legge takes a look at how the FIA's new Formula 1 rules
+            will affect racing in 2021, from car aerodynamics to fuel usage, to
+            copycat teams and even green materials.
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink
-              href='https://www.youtube.com/c/BMPHF1/'
-              target='_blank'>
-              BMPHF1
+            <ContentLink href='https://www.autosport.com/' target='_blank'>
+              Autosport
             </ContentLink>
           </p>
         </div>

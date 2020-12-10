@@ -7,14 +7,14 @@ const First: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-md'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=tXkE01Vl67o'
+        href='https://www.youtube.com/watch?v=-RviIoyPxfo'
         target='_blank'>
         <div className='h-full w-full rounded-md relative flex'>
           <div className='h-full w-full bg-black-100 rounded-t-md  '>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-t-md  '
-              src='https://img.youtube.com/vi/tXkE01Vl67o/sddefault.jpg'
-              alt='Sakhir Grand Prix Race Review F1 2020'
+              src='https://img.youtube.com/vi/-RviIoyPxfo/sddefault.jpg'
+              alt='Mattia Binotto On The Pride And Pressure Of Leading Ferrari | Beyond The Grid | F1 Official Podcast'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,24 +32,26 @@ const First: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=tXkE01Vl67o'
+            href='https://www.youtube.com/watch?v=-RviIoyPxfo'
             target='_blank'>
-            Sakhir Grand Prix Race Review F1 2020
+            Mattia Binotto On The Pride And Pressure Of Leading Ferrari | Beyond
+            The Grid | F1 Official Podcast
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            The Formula 1 2020 Sakhir Grand Prix season is here! Today we
-            analyse the F1 2020 Sakhir Grand Prix, taking a look at the Race
-            Results as well as all the highlights and incidents, Verstappens's
-            Crash, Perez's First Win, and the two Mercedes misfortunes! With
-            Hamilton now a 7 time champion, can Leclerc, Verstappen and Norris
-            challenge even closer this year?
+            The job of Ferrari team principal is arguably the most prestigious
+            in Formula 1, but it’s also the one that undoubtedly carries the
+            most pressure. The man whose task it is to lead the Scuderia right
+            now is Mattia Binotto, who joins us on this week’s show. Binotto is
+            a Ferrari lifer, having joined the team straight out of university
+            and worked numerous roles over his 25 years stay. He tells us all
+            about that journey, which included working as an engineer for
+            Michael Schumacher. Plus there’s also plenty of chat about Leclerc,
+            Sainz and Vettel...
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink
-              href='https://www.youtube.com/c/RacingReviews/'
-              target='_blank'>
-              Racing Reviews
+            <ContentLink href='http://www.formula1.com' target='_blank'>
+              Formula1.com
             </ContentLink>
           </p>
         </div>

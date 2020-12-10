@@ -7,14 +7,14 @@ const Third: React.FC = () => {
   return (
     <div className='relative bg-white-100 rounded-md'>
       <ThumbnailLink
-        href='https://www.youtube.com/watch?v=q6QIV1tzsPc'
+        href='https://www.youtube.com/watch?v=j374RP7aYOg'
         target='_blank'>
         <div className='h-full w-full rounded-md relative flex'>
           <div className='h-full w-full bg-black-100 rounded-t-md  '>
             <img
               className='w-full h-48 lg:h-64 object-cover rounded-t-md  '
-              src='https://img.youtube.com/vi/q6QIV1tzsPc/sddefault.jpg'
-              alt='Sakhir Grand Prix: Race Reaction'
+              src='https://img.youtube.com/vi/j374RP7aYOg/sddefault.jpg'
+              alt='Sakhir GP Review: Bottas/Russell swap, and should Albon be dropped?'
             />
           </div>
           <div className='h-full w-full absolute top-0 left-0 flex justify-center items-center'>
@@ -32,20 +32,17 @@ const Third: React.FC = () => {
             Podcast
           </div>
           <ContentLink
-            href='https://www.youtube.com/watch?v=q6QIV1tzsPc'
+            href='https://www.youtube.com/watch?v=j374RP7aYOg'
             target='_blank'>
-            Sakhir Grand Prix: Race Reaction
+            Sakhir GP Review: Bottas/Russell swap, and should Albon be dropped?
           </ContentLink>
           <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Join me and Chain Bear for some immediate reaction to the 2020 F1
-            Sakhir Grand Prix...and what a race it was!
+            Sakhir GP Review: Bottas/Russell swap, and should Albon be dropped?
           </p>
           <p className='mt-1 text-base leading-normal text-gray-700'>
             View more at{' '}
-            <ContentLink
-              href='https://www.youtube.com/c/TheF1Word/'
-              target='_blank'>
-              The F1 Word
+            <ContentLink href='http://www.formulaspy.com' target='_blank'>
+              Thomas Maher
             </ContentLink>
           </p>
         </div>
