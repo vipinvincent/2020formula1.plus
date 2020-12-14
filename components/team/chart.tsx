@@ -7,7 +7,7 @@ const data = {
     'Styria',
     'Hungary',
     'Britian',
-    '70th Anniversary',
+    '70th',
     'Spain',
     'Belgium',
     'Italy',
@@ -19,6 +19,7 @@ const data = {
     'Turkey',
     'Bahrain',
     'Sakhir',
+    'AbuDhabi',
   ],
   datasets: [
     {
@@ -57,6 +58,7 @@ const data = {
         504,
         533,
         540,
+        573,
       ],
     },
     {
@@ -95,6 +97,7 @@ const data = {
         240,
         274,
         282,
+        319,
       ],
     },
     {
@@ -133,6 +136,7 @@ const data = {
         149,
         171,
         184,
+        202,
       ],
     },
     {
@@ -171,6 +175,7 @@ const data = {
         154,
         154,
         194,
+        195,
       ],
     },
     {
@@ -207,6 +212,7 @@ const data = {
         93,
         103,
         130,
+        131,
         131,
         131,
       ],
@@ -247,6 +253,7 @@ const data = {
         136,
         144,
         172,
+        181,
       ],
     },
     {
@@ -268,7 +275,7 @@ const data = {
       pointHoverBorderWidth: 2,
       pointRadius: 3,
       pointHitRadius: 10,
-      data: [6, 7, 7, 13, 14, 16, 20, 47, 53, 59, 67, 77, 89, 89, 97, 103],
+      data: [6, 7, 7, 13, 14, 16, 20, 47, 53, 59, 67, 77, 89, 89, 97, 103, 107],
     },
     {
       label: ' Alfa Romeo',
@@ -289,7 +296,7 @@ const data = {
       pointHoverBorderWidth: 2,
       pointRadius: 3,
       pointHitRadius: 10,
-      data: [2, 2, 2, 2, 2, 2, 2, 2, 4, 4, 5, 5, 8, 8, 8, 8],
+      data: [2, 2, 2, 2, 2, 2, 2, 2, 4, 4, 5, 5, 8, 8, 8, 8, 8],
     },
     {
       label: ' Haas',
@@ -310,7 +317,7 @@ const data = {
       pointHoverBorderWidth: 2,
       pointRadius: 3,
       pointHitRadius: 10,
-      data: [0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 3, 3, 3, 3, 3, 3],
+      data: [0, 0, 1, 1, 1, 1, 1, 1, 1, 1, 3, 3, 3, 3, 3, 3, 3],
     },
     {
       label: ' Williams',
@@ -331,7 +338,7 @@ const data = {
       pointHoverBorderWidth: 2,
       pointRadius: 3,
       pointHitRadius: 10,
-      data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
+      data: [0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0],
     },
   ],
 }

@@ -7,7 +7,7 @@ const Schedule: React.FC = () => {
   return (
     <div className='flex flex-col mb-4'>
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
-        Upcoming Race
+        ROUND 17 - Abu Dhabi GP 2020
       </div>
       <div className='relative bg-white-100 rounded-md'>
         <div className='h-32 sm:h-48 py-4 w-full text-center'>
@@ -101,28 +101,28 @@ const Schedule: React.FC = () => {
                     target='_self'>
                     Race Results
                   </SiderBarLink> */}
-                  2019 Race
+                  2020 Race
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2 self-start'>
-                  <div className='inine-block pb-4'>
-                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block mercedes'>
-                      Lewis Hamilton (<span className='text'>Mercedes</span>){' '}
-                      <br />
-                      1:34:05.715
-                    </div>
-                  </div>
                   <div className='inine-block pb-4'>
                     <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block redbull'>
                       Max Verstappen (<span className='text'>Red Bull</span>){' '}
                       <br />
-                      +16.772s
+                      1:36:28.645
                     </div>
                   </div>
                   <div className='inine-block pb-4'>
-                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block ferrari'>
-                      Charles Leclerc (<span className='text'>Ferrari</span>){' '}
+                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block mercedes'>
+                      Valtteri Bottas (<span className='text'>Mercedes</span>){' '}
                       <br />
-                      +43.435s
+                      +15.976s
+                    </div>
+                  </div>
+                  <div className='inine-block pb-4'>
+                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block mercedes'>
+                      Lewis Hamilton (<span className='text'>Mercedes</span>){' '}
+                      <br />
+                      +18.415s
                     </div>
                   </div>
                 </div>
@@ -135,28 +135,28 @@ const Schedule: React.FC = () => {
                     target='_self'>
                     Qualifying Results
                   </SiderBarLink> */}
-                  2019 Qualifying
+                  2020 Qualifying
                 </div>
                 <div className='mt-1 text-sm leading-5 text-gray-800 sm:mt-0 sm:col-span-2 self-start'>
                   <div className='inine-block pb-4'>
-                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block mercedes'>
-                      Lewis Hamilton (<span className='text'>Mercedes</span>){' '}
+                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block redbull'>
+                      Max Verstappen (<span className='text'>Red Bull</span>){' '}
                       <br />
-                      1:34.779
+                      1:35.246
                     </div>
                   </div>
                   <div className='inine-block pb-4'>
                     <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block mercedes'>
                       Valtteri Bottas (<span className='text'>Mercedes</span>){' '}
                       <br />
-                      1:34.973
+                      1:35.271
                     </div>
                   </div>
                   <div className='inine-block pb-4'>
-                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block redbull'>
-                      Max Verstappen (<span className='text'>Red Bull</span>){' '}
+                    <div className='text-sm leading-5 sm:leading-7 text-gray-800 inline-block mercedes'>
+                      Lewis Hamilton (<span className='text'>Mercedes</span>){' '}
                       <br />
-                      1:35.139
+                      1:35.332
                     </div>
                   </div>
                 </div>

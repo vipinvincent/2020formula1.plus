@@ -6,64 +6,771 @@ const Fourth: React.FC = () => {
     <div className='relative bg-white-100 rounded-md'>
       <div className='h-48 md:h-64 xl:h-104  w-full'>
         <img
-          className='w-full h-full object-cover rounded-t-md  '
-          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1599834663/contentImages/content/valteri-bottas_kvx19p.jpg'
-          alt='FP3 REPORT - Eifel GP 2020'
+          className='w-full h-full object-contain rounded-md bg-black-100'
+          src='https://res.cloudinary.com/f1plus/image/upload/q_auto/v1598167515/contentImages/content/team-battle_zseipx.jpg'
+          alt='Team-mate battles in 2020'
         />
       </div>
       <div className='relative max-w-screen-xl mx-auto'>
         <div className='px-4 pt-4 pb-4 text-left'>
           <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on'>
-            FP3 REPORT - Eifel GP 2020
+            Feature
           </div>
-          <H1>
-            Bottas leads FP3 from Hamilton and Leclerc with Vettel in P5, as
-            unwell Stroll misses the session
-          </H1>
-          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Valtteri Bottas for Mercedes leads the only practice session at the
-            Nurburgring for the Eifel Grand Prix on Saturday from his teammate
-            Hamilton in P2 and Ferrari’s Charles Leclerc in P3. Having lost both
-            the practice sessions of Friday due to fog and mist, the field made
-            ample use of the final practice session with most of the drivers
-            clocking more than 20 laps. Even though it was a much busier than
-            normal FP3 sessions, the drivers and cars featured a much greater
-            variety of different programmes with several drivers performing
-            multi-lap runs. Meanwhile one driver missed all the actions of FP3
-            was Lance Stroll. Racing Point revealed that Stoll is unwell and
-            will not be participating FP3, just before the session, which raises
-            question marks about whether he will be able to take part in
-            qualifying. It is not confirmed that Nico Hulkenberg is to make yet
-            another last-minute return to as he was drafted in to replace an
-            unwell Lance Stroll at Racing Point for the remainder of the Eifel
-            Grand Prix weekend.
+          <H1>Team-mate battles in 2020 </H1>
+          <p className='mt-1 mb-1 text-base leading-normal text-gray-700 mercedes'>
+            <strong className='italic text'>
+              Mercedes - Lewis Hamilton{' '}
+              <span className='text-gray-500 not-italic pl-1'> Vs</span>{' '}
+              Valtteri Bottas
+            </strong>
           </p>
-          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Max Verstappen only managed P4 after topping the time sheets in the
-            early part of the session. Sebastian Vettel finished P5 in the
-            second Ferrari, which is one of the most encouraging practice
-            showings for the team in some time. McLarens’ Lando Norris finished
-            P6 ahead of Sergio Perez, the Sole Racing Point driver . Daniel
-            Ricciardo finsied P8 in the Reanult, as Alex Albon in the second Red
-            Bull was ninth quickest with Pierre Gasly in AlphaTauri rounded of
-            top 10. Esteban Ocon in the second Renault finished P11 with the
-            second Alpha Tauri of Daniil Kvyat in P12. McLaren’s Carlos Sainz
-            finished P13.
+
+          <ul className='grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3'>
+            <li className='col-span-1 bg-black-5 rounded-lg -md border border-gray-200'>
+              <div className='w-full flex items-center justify-between p-2 space-x-6'>
+                <div className='flex-1 '>
+                  <div className='flex justify-center space-x-3'>
+                    <h3 className='text-gray-700 text-lg leading-5 font-semi-bold text-center'>
+                      Qualification
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div className='border-t border-gray-400 p-3'>
+                <div className='-mt-px flex'>
+                  <div className='w-0 flex-1 flex border-r border-gray-400 justify-center mercedes'>
+                    <span className='ml-3'>Hamilton</span>
+                    <span className='ml-3 text'>(11)</span>
+                  </div>
+                  <div className='-ml-px w-0 flex-1 flex justify-center mercedes'>
+                    <span className='ml-3'>Bottas</span>
+                    <span className='ml-3 text'>(5)</span>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li className='col-span-1 bg-black-5 rounded-lg -md border border-gray-200'>
+              <div className='w-full flex items-center justify-between p-2 space-x-6'>
+                <div className='flex-1 '>
+                  <div className='flex justify-center space-x-3'>
+                    <h3 className='text-gray-700 text-lg leading-5 font-semi-bold text-center'>
+                      Race
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div className='border-t border-gray-400 p-3'>
+                <div className='-mt-px flex'>
+                  <div className='w-0 flex-1 flex border-r border-gray-400 justify-center mercedes'>
+                    <span className='ml-3'>Hamilton</span>
+                    <span className='ml-3 text'>(12)</span>
+                  </div>
+                  <div className='-ml-px w-0 flex-1 flex justify-center mercedes'>
+                    <span className='ml-3'>Bottas</span>
+                    <span className='ml-3 text'>(4)</span>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li className='col-span-1 bg-mercedes rounded-lg -md border border-gray-200'>
+              <div className='w-full flex items-center justify-between p-2 space-x-6'>
+                <div className='flex-1 '>
+                  <div className='flex justify-center space-x-3'>
+                    <h3 className='text-gray-700 text-lg leading-5 font-semi-bold text-center'>
+                      Winner
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div className='border-t border-gray-400 p-3'>
+                <div className='-mt-px flex'>
+                  <div className='w-0 flex-1 flex justify-center text-white-100'>
+                    <span className='text-lg font-bold text'>
+                      Lewis Hamilton
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+
+          <p className='mt-4 mb-1 text-base leading-normal text-gray-700 redbull'>
+            <strong className='italic text'>
+              Red Bull - Max Verstappen{' '}
+              <span className='text-gray-500 not-italic pl-1'> Vs</span> Alex
+              Albon
+            </strong>
           </p>
-          <p className='mt-1 mb-2 text-base leading-normal text-gray-700'>
-            Kimi Raikkonen in the Alfa Romeo took P14, as he becomes the most
-            experienced F1 driver ever this weekend with his 323rd start. Haas
-            duo, Romain Grosjean and Kevin Magnussen finished 15th and 16th
-            respectively. William’s George Russell managed P17 ahead of Antonio
-            Giovinazzi in the second Alfa Romeo who finished in 18th. Nicholas
-            Latifi in the second Williams finished P19 as he spun late on at the
-            final corner and made a hash of rejoining, rounded of the drivers
-            who participated in FP3. The fog that had hung over the circuit all
-            day on Friday had lifted, but conditions were still chilly when the
-            pit lane exit opened for the first time at this race weekend. It is
-            expected to rain on Sunday, but not during the race, so expecting a
-            clean sunny Sunday race.
+
+          <ul className='grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3'>
+            <li className='col-span-1 bg-black-5 rounded-lg -md border border-gray-200'>
+              <div className='w-full flex items-center justify-between p-2 space-x-6'>
+                <div className='flex-1 '>
+                  <div className='flex justify-center space-x-3'>
+                    <h3 className='text-gray-700 text-lg leading-5 font-semi-bold text-center'>
+                      Qualification
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div className='border-t border-gray-400 p-3'>
+                <div className='-mt-px flex'>
+                  <div className='w-0 flex-1 flex border-r border-gray-400 justify-center redbull'>
+                    <span className='ml-3'>Verstappen</span>
+                    <span className='ml-3 text'>(17)</span>
+                  </div>
+                  <div className='-ml-px w-0 flex-1 flex justify-center redbull'>
+                    <span className='ml-3'>Albon</span>
+                    <span className='ml-3 text'>(0)</span>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li className='col-span-1 bg-black-5 rounded-lg -md border border-gray-200'>
+              <div className='w-full flex items-center justify-between p-2 space-x-6'>
+                <div className='flex-1 '>
+                  <div className='flex justify-center space-x-3'>
+                    <h3 className='text-gray-700 text-lg leading-5 font-semi-bold text-center'>
+                      Race
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div className='border-t border-gray-400 p-3'>
+                <div className='-mt-px flex'>
+                  <div className='w-0 flex-1 flex border-r border-gray-400 justify-center redbull'>
+                    <span className='ml-3'>Verstappen</span>
+                    <span className='ml-3 text'>(12)</span>
+                  </div>
+                  <div className='-ml-px w-0 flex-1 flex justify-center redbull'>
+                    <span className='ml-3'>Albon</span>
+                    <span className='ml-3 text'>(4)</span>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li className='col-span-1 bg-redbull rounded-lg -md border border-gray-200'>
+              <div className='w-full flex items-center justify-between p-2 space-x-6'>
+                <div className='flex-1 '>
+                  <div className='flex justify-center space-x-3'>
+                    <h3 className='text-gray-300 text-lg leading-5 font-semi-bold text-center'>
+                      Winner
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div className='border-t border-gray-400 p-3'>
+                <div className='-mt-px flex'>
+                  <div className='w-0 flex-1 flex justify-center text-white-100'>
+                    <span className='text-lg font-bold text'>
+                      Max Verstappen
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <p className='mt-4 mb-1 text-base leading-normal text-gray-700 racingpoint'>
+            <strong className='italic text'>
+              Racing Point - Sergio Perez{' '}
+              <span className='text-gray-500 not-italic pl-1'> Vs</span> Lance
+              Stroll
+            </strong>
           </p>
+
+          <ul className='grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3'>
+            <li className='col-span-1 bg-black-5 rounded-lg -md border border-gray-200'>
+              <div className='w-full flex items-center justify-between p-2 space-x-6'>
+                <div className='flex-1 '>
+                  <div className='flex justify-center space-x-3'>
+                    <h3 className='text-gray-700 text-lg leading-5 font-semi-bold text-center'>
+                      Qualification
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div className='border-t border-gray-400 p-3'>
+                <div className='-mt-px flex'>
+                  <div className='w-0 flex-1 flex border-r border-gray-400 justify-center racingpoint'>
+                    <span className='ml-3'>Perez</span>
+                    <span className='ml-3 text'>(10)</span>
+                  </div>
+                  <div className='-ml-px w-0 flex-1 flex justify-center racingpoint'>
+                    <span className='ml-3'>Stroll</span>
+                    <span className='ml-3 text'>(4)</span>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li className='col-span-1 bg-black-5 rounded-lg -md border border-gray-200'>
+              <div className='w-full flex items-center justify-between p-2 space-x-6'>
+                <div className='flex-1 '>
+                  <div className='flex justify-center space-x-3'>
+                    <h3 className='text-gray-700 text-lg leading-5 font-semi-bold text-center'>
+                      Race
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div className='border-t border-gray-400 p-3'>
+                <div className='-mt-px flex'>
+                  <div className='w-0 flex-1 flex border-r border-gray-400 justify-center racingpoint'>
+                    <span className='ml-3'>Perez</span>
+                    <span className='ml-3 text'>(8)</span>
+                  </div>
+                  <div className='-ml-px w-0 flex-1 flex justify-center racingpoint'>
+                    <span className='ml-3'>Stroll</span>
+                    <span className='ml-3 text'>(5)</span>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li className='col-span-1 bg-racingpoint rounded-lg -md border border-gray-200'>
+              <div className='w-full flex items-center justify-between p-2 space-x-6'>
+                <div className='flex-1 '>
+                  <div className='flex justify-center space-x-3'>
+                    <h3 className='text-gray-700 text-lg leading-5 font-semi-bold text-center'>
+                      Winner
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div className='border-t border-gray-400 p-3'>
+                <div className='-mt-px flex'>
+                  <div className='w-0 flex-1 flex justify-center text-white-100'>
+                    <span className='text-lg font-bold text'>Sergio Perez</span>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <p className='mt-4 mb-1 text-base leading-normal text-gray-700 mclaren'>
+            <strong className='italic text'>
+              McLaren - Carlos Sainz{' '}
+              <span className='text-gray-500 not-italic pl-1'> Vs</span> Lando
+              Norris{' '}
+            </strong>
+          </p>
+
+          <ul className='grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3'>
+            <li className='col-span-1 bg-black-5 rounded-lg -md border border-gray-200'>
+              <div className='w-full flex items-center justify-between p-2 space-x-6'>
+                <div className='flex-1 '>
+                  <div className='flex justify-center space-x-3'>
+                    <h3 className='text-gray-700 text-lg leading-5 font-semi-bold text-center'>
+                      Qualification
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div className='border-t border-gray-400 p-3'>
+                <div className='-mt-px flex'>
+                  <div className='w-0 flex-1 flex border-r border-gray-400 justify-center mclaren'>
+                    <span className='ml-3'>Sainz</span>
+                    <span className='ml-3 text'>(8)</span>
+                  </div>
+                  <div className='-ml-px w-0 flex-1 flex justify-center mclaren'>
+                    <span className='ml-3'>Norris</span>
+                    <span className='ml-3 text'>(9)</span>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li className='col-span-1 bg-black-5 rounded-lg -md border border-gray-200'>
+              <div className='w-full flex items-center justify-between p-2 space-x-6'>
+                <div className='flex-1 '>
+                  <div className='flex justify-center space-x-3'>
+                    <h3 className='text-gray-700 text-lg leading-5 font-semi-bold text-center'>
+                      Race
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div className='border-t border-gray-400 p-3'>
+                <div className='-mt-px flex'>
+                  <div className='w-0 flex-1 flex border-r border-gray-400 justify-center mclaren'>
+                    <span className='ml-3'>Sainz</span>
+                    <span className='ml-3 text'>(8)</span>
+                  </div>
+                  <div className='-ml-px w-0 flex-1 flex justify-center mclaren'>
+                    <span className='ml-3'>Norris</span>
+                    <span className='ml-3 text'>(9)</span>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li className='col-span-1 bg-mclaren rounded-lg -md border border-gray-200'>
+              <div className='w-full flex items-center justify-between p-2 space-x-6'>
+                <div className='flex-1 '>
+                  <div className='flex justify-center space-x-3'>
+                    <h3 className='text-gray-700 text-lg leading-5 font-semi-bold text-center'>
+                      Winner
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div className='border-t border-gray-400 p-3'>
+                <div className='-mt-px flex'>
+                  <div className='w-0 flex-1 flex justify-center text-white-100'>
+                    <span className='text-lg font-bold text'>Lando Norris</span>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <p className='mt-4 mb-1 text-base leading-normal text-gray-700 ferrari'>
+            <strong className='italic text'>
+              Ferrari - Sebastian Vettel{' '}
+              <span className='text-gray-500 not-italic pl-1'> Vs</span> Charles
+              Leclerc{' '}
+            </strong>
+          </p>
+
+          <ul className='grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3'>
+            <li className='col-span-1 bg-black-5 rounded-lg -md border border-gray-200'>
+              <div className='w-full flex items-center justify-between p-2 space-x-6'>
+                <div className='flex-1 '>
+                  <div className='flex justify-center space-x-3'>
+                    <h3 className='text-gray-700 text-lg leading-5 font-semi-bold text-center'>
+                      Qualification
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div className='border-t border-gray-400 p-3'>
+                <div className='-mt-px flex'>
+                  <div className='w-0 flex-1 flex border-r border-gray-400 justify-center ferrari'>
+                    <span className='ml-3'>Vettel</span>
+                    <span className='ml-3 text'>(4)</span>
+                  </div>
+                  <div className='-ml-px w-0 flex-1 flex justify-center ferrari'>
+                    <span className='ml-3'>Leclerc</span>
+                    <span className='ml-3 text'>(13)</span>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li className='col-span-1 bg-black-5 rounded-lg -md border border-gray-200'>
+              <div className='w-full flex items-center justify-between p-2 space-x-6'>
+                <div className='flex-1 '>
+                  <div className='flex justify-center space-x-3'>
+                    <h3 className='text-gray-700 text-lg leading-5 font-semi-bold text-center'>
+                      Race
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div className='border-t border-gray-400 p-3'>
+                <div className='-mt-px flex'>
+                  <div className='w-0 flex-1 flex border-r border-gray-400 justify-center ferrari'>
+                    <span className='ml-3'>Vettel</span>
+                    <span className='ml-3 text'>(5)</span>
+                  </div>
+                  <div className='-ml-px w-0 flex-1 flex justify-center ferrari'>
+                    <span className='ml-3'>Leclerc</span>
+                    <span className='ml-3 text'>(10)</span>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li className='col-span-1 bg-ferrari rounded-lg -md border border-gray-200'>
+              <div className='w-full flex items-center justify-between p-2 space-x-6'>
+                <div className='flex-1 '>
+                  <div className='flex justify-center space-x-3'>
+                    <h3 className='text-gray-700 text-lg leading-5 font-semi-bold text-center'>
+                      Winner
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div className='border-t border-gray-400 p-3'>
+                <div className='-mt-px flex'>
+                  <div className='w-0 flex-1 flex justify-center text-white-100'>
+                    <span className='text-lg font-bold text'>
+                      Charles Leclerc
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <p className='mt-4 mb-1 text-base leading-normal text-gray-700 renault'>
+            <strong className='italic text three-d-text'>
+              Renault - Daniel Ricciardo{' '}
+              <span className='text-gray-500 not-italic pl-1'> Vs</span> Esteban
+              Ocon{' '}
+            </strong>
+          </p>
+
+          <ul className='grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3'>
+            <li className='col-span-1 bg-black-5 rounded-lg -md border border-gray-200'>
+              <div className='w-full flex items-center justify-between p-2 space-x-6'>
+                <div className='flex-1 '>
+                  <div className='flex justify-center space-x-3'>
+                    <h3 className='text-gray-700 text-lg leading-5 font-semi-bold text-center'>
+                      Qualification
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div className='border-t border-gray-400 p-3'>
+                <div className='-mt-px flex'>
+                  <div className='w-0 flex-1 flex border-r border-gray-400 justify-center renault'>
+                    <span className='ml-3'>Ricciardo</span>
+                    <span className='ml-3 text three-d-text'>(15)</span>
+                  </div>
+                  <div className='-ml-px w-0 flex-1 flex justify-center renault'>
+                    <span className='ml-3'>Ocon</span>
+                    <span className='ml-3 text three-d-text'>(2)</span>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li className='col-span-1 bg-black-5 rounded-lg -md border border-gray-200'>
+              <div className='w-full flex items-center justify-between p-2 space-x-6'>
+                <div className='flex-1 '>
+                  <div className='flex justify-center space-x-3'>
+                    <h3 className='text-gray-700 text-lg leading-5 font-semi-bold text-center'>
+                      Race
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div className='border-t border-gray-400 p-3'>
+                <div className='-mt-px flex'>
+                  <div className='w-0 flex-1 flex border-r border-gray-400 justify-center renault'>
+                    <span className='ml-3'>Ricciardo</span>
+                    <span className='ml-3 text three-d-text'>(13)</span>
+                  </div>
+                  <div className='-ml-px w-0 flex-1 flex justify-center renault'>
+                    <span className='ml-3'>Ocon</span>
+                    <span className='ml-3 text three-d-text'>(4)</span>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li className='col-span-1 bg-renault rounded-lg -md border border-gray-200'>
+              <div className='w-full flex items-center justify-between p-2 space-x-6'>
+                <div className='flex-1 '>
+                  <div className='flex justify-center space-x-3'>
+                    <h3 className='text-gray-700 text-lg leading-5 font-semi-bold text-center'>
+                      Winner
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div className='border-t border-gray-400 p-3'>
+                <div className='-mt-px flex'>
+                  <div className='w-0 flex-1 flex justify-center text-gray-600'>
+                    <span className='text-lg font-bold text '>
+                      Daniel Ricciardo
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <p className='mt-4 mb-1 text-base leading-normal text-gray-700 alphatauri'>
+            <strong className='italic text'>
+              AlphaTauri - Pierre Gasly{' '}
+              <span className='text-gray-500 not-italic pl-1'> Vs</span> Daniil
+              Kvyat{' '}
+            </strong>
+          </p>
+
+          <ul className='grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3'>
+            <li className='col-span-1 bg-black-5 rounded-lg -md border border-gray-200'>
+              <div className='w-full flex items-center justify-between p-2 space-x-6'>
+                <div className='flex-1 '>
+                  <div className='flex justify-center space-x-3'>
+                    <h3 className='text-gray-700 text-lg leading-5 font-semi-bold text-center'>
+                      Qualification
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div className='border-t border-gray-400 p-3'>
+                <div className='-mt-px flex'>
+                  <div className='w-0 flex-1 flex border-r border-gray-400 justify-center alphatauri'>
+                    <span className='ml-3'>Gasly</span>
+                    <span className='ml-3 text'>(13)</span>
+                  </div>
+                  <div className='-ml-px w-0 flex-1 flex justify-center alphatauri'>
+                    <span className='ml-3'>Kvyat</span>
+                    <span className='ml-3 text'>(4)</span>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li className='col-span-1 bg-black-5 rounded-lg -md border border-gray-200'>
+              <div className='w-full flex items-center justify-between p-2 space-x-6'>
+                <div className='flex-1 '>
+                  <div className='flex justify-center space-x-3'>
+                    <h3 className='text-gray-700 text-lg leading-5 font-semi-bold text-center'>
+                      Race
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div className='border-t border-gray-400 p-3'>
+                <div className='-mt-px flex'>
+                  <div className='w-0 flex-1 flex border-r border-gray-400 justify-center alphatauri'>
+                    <span className='ml-3'>Gasly</span>
+                    <span className='ml-3 text'>(9)</span>
+                  </div>
+                  <div className='-ml-px w-0 flex-1 flex justify-center alphatauri'>
+                    <span className='ml-3'>Kvyat</span>
+                    <span className='ml-3 text'>(8)</span>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li className='col-span-1 bg-alphatauri rounded-lg -md border border-gray-200'>
+              <div className='w-full flex items-center justify-between p-2 space-x-6'>
+                <div className='flex-1 '>
+                  <div className='flex justify-center space-x-3'>
+                    <h3 className='text-gray-500 text-lg leading-5 font-semi-bold text-center'>
+                      Winner
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div className='border-t border-gray-400 p-3'>
+                <div className='-mt-px flex'>
+                  <div className='w-0 flex-1 flex justify-center text-white-100'>
+                    <span className='text-lg font-bold text'>Pierre Gasly</span>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <p className='mt-4 mb-1 text-base leading-normal text-gray-700 alfaromeo'>
+            <strong className='italic text'>
+              Alfa Romeo - Kimi Raikkonen{' '}
+              <span className='text-gray-500 not-italic pl-1'> Vs</span> Antonio
+              Giovinazzi{' '}
+            </strong>
+          </p>
+
+          <ul className='grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3'>
+            <li className='col-span-1 bg-black-5 rounded-lg -md border border-gray-200'>
+              <div className='w-full flex items-center justify-between p-2 space-x-6'>
+                <div className='flex-1 '>
+                  <div className='flex justify-center space-x-3'>
+                    <h3 className='text-gray-700 text-lg leading-5 font-semi-bold text-center'>
+                      Qualification
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div className='border-t border-gray-400 p-3'>
+                <div className='-mt-px flex'>
+                  <div className='w-0 flex-1 flex border-r border-gray-400 justify-center alfaromeo'>
+                    <span className='ml-3'>Raikkonen</span>
+                    <span className='ml-3 text'>(8)</span>
+                  </div>
+                  <div className='-ml-px w-0 flex-1 flex justify-center alfaromeo'>
+                    <span className='ml-3'>Giovinazzi</span>
+                    <span className='ml-3 text'>(9)</span>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li className='col-span-1 bg-black-5 rounded-lg -md border border-gray-200'>
+              <div className='w-full flex items-center justify-between p-2 space-x-6'>
+                <div className='flex-1 '>
+                  <div className='flex justify-center space-x-3'>
+                    <h3 className='text-gray-700 text-lg leading-5 font-semi-bold text-center'>
+                      Race
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div className='border-t border-gray-400 p-3'>
+                <div className='-mt-px flex'>
+                  <div className='w-0 flex-1 flex border-r border-gray-400 justify-center alfaromeo'>
+                    <span className='ml-3'>Raikkonen</span>
+                    <span className='ml-3 text'>(12)</span>
+                  </div>
+                  <div className='-ml-px w-0 flex-1 flex justify-center alfaromeo'>
+                    <span className='ml-3'>Giovinazzi</span>
+                    <span className='ml-3 text'>(5)</span>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li className='col-span-1 bg-alfaromeo rounded-lg -md border border-gray-200'>
+              <div className='w-full flex items-center justify-between p-2 space-x-6'>
+                <div className='flex-1 '>
+                  <div className='flex justify-center space-x-3'>
+                    <h3 className='text-gray-500 text-lg leading-5 font-semi-bold text-center'>
+                      Winner
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div className='border-t border-gray-400 p-3'>
+                <div className='-mt-px flex'>
+                  <div className='w-0 flex-1 flex justify-center text-white-100'>
+                    <span className='text-lg font-bold text'>
+                      Kimi Raikkonen
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+          <p className='mt-4 mb-1 text-base leading-normal text-gray-700 haas'>
+            <strong className='italic text'>
+              Haas - Romain Grosjean{' '}
+              <span className='text-gray-500 not-italic pl-1'> Vs</span> Kevin
+              Magnussen{' '}
+            </strong>
+          </p>
+
+          <ul className='grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3'>
+            <li className='col-span-1 bg-black-5 rounded-lg -md border border-gray-200'>
+              <div className='w-full flex items-center justify-between p-2 space-x-6'>
+                <div className='flex-1 '>
+                  <div className='flex justify-center space-x-3'>
+                    <h3 className='text-gray-700 text-lg leading-5 font-semi-bold text-center'>
+                      Qualification
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div className='border-t border-gray-400 p-3'>
+                <div className='-mt-px flex'>
+                  <div className='w-0 flex-1 flex border-r border-gray-400 justify-center haas'>
+                    <span className='ml-3'>Grosjean</span>
+                    <span className='ml-3 text'>(7)</span>
+                  </div>
+                  <div className='-ml-px w-0 flex-1 flex justify-center haas'>
+                    <span className='ml-3'>Magnussen</span>
+                    <span className='ml-3 text'>(8)</span>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li className='col-span-1 bg-black-5 rounded-lg -md border border-gray-200'>
+              <div className='w-full flex items-center justify-between p-2 space-x-6'>
+                <div className='flex-1 '>
+                  <div className='flex justify-center space-x-3'>
+                    <h3 className='text-gray-700 text-lg leading-5 font-semi-bold text-center'>
+                      Race
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div className='border-t border-gray-400 p-3'>
+                <div className='-mt-px flex'>
+                  <div className='w-0 flex-1 flex border-r border-gray-400 justify-center haas'>
+                    <span className='ml-3'>Grosjean</span>
+                    <span className='ml-3 text'>(7)</span>
+                  </div>
+                  <div className='-ml-px w-0 flex-1 flex justify-center haas'>
+                    <span className='ml-3'>Magnussen</span>
+                    <span className='ml-3 text'>(6)</span>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li className='col-span-1 bg-haas rounded-lg -md border border-gray-200'>
+              <div className='w-full flex items-center justify-between p-2 space-x-6'>
+                <div className='flex-1 '>
+                  <div className='flex justify-center space-x-3'>
+                    <h3 className='text-gray-900 text-lg leading-5 font-semi-bold text-center'>
+                      Winner
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div className='border-t border-gray-400 p-3'>
+                <div className='-mt-px flex'>
+                  <div className='w-0 flex-1 flex justify-center text-white-100'>
+                    <span className='text-lg font-bold text'>TIE</span>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
+
+          <p className='mt-4 mb-1 text-base leading-normal text-gray-700 williams'>
+            <strong className='italic text'>
+              Williams - George Russell{' '}
+              <span className='text-gray-500 not-italic pl-1'> Vs</span>{' '}
+              Nicholas Latifi{' '}
+            </strong>
+          </p>
+
+          <ul className='grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3'>
+            <li className='col-span-1 bg-black-5 rounded-lg -md border border-gray-200'>
+              <div className='w-full flex items-center justify-between p-2 space-x-6'>
+                <div className='flex-1 '>
+                  <div className='flex justify-center space-x-3'>
+                    <h3 className='text-gray-700 text-lg leading-5 font-semi-bold text-center'>
+                      Qualification
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div className='border-t border-gray-400 p-3'>
+                <div className='-mt-px flex'>
+                  <div className='w-0 flex-1 flex border-r border-gray-400 justify-center williams'>
+                    <span className='ml-3'>Russell</span>
+                    <span className='ml-3 text'>(16)</span>
+                  </div>
+                  <div className='-ml-px w-0 flex-1 flex justify-center williams'>
+                    <span className='ml-3'>Latifi</span>
+                    <span className='ml-3 text'>(0)</span>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li className='col-span-1 bg-black-5 rounded-lg -md border border-gray-200'>
+              <div className='w-full flex items-center justify-between p-2 space-x-6'>
+                <div className='flex-1 '>
+                  <div className='flex justify-center space-x-3'>
+                    <h3 className='text-gray-700 text-lg leading-5 font-semi-bold text-center'>
+                      Race
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div className='border-t border-gray-400 p-3'>
+                <div className='-mt-px flex'>
+                  <div className='w-0 flex-1 flex border-r border-gray-400 justify-center williams'>
+                    <span className='ml-3'>Russell</span>
+                    <span className='ml-3 text'>(10)</span>
+                  </div>
+                  <div className='-ml-px w-0 flex-1 flex justify-center williams'>
+                    <span className='ml-3'>Latifi</span>
+                    <span className='ml-3 text'>(6)</span>
+                  </div>
+                </div>
+              </div>
+            </li>
+            <li className='col-span-1 bg-williams rounded-lg -md border border-gray-200'>
+              <div className='w-full flex items-center justify-between p-2 space-x-6'>
+                <div className='flex-1 '>
+                  <div className='flex justify-center space-x-3'>
+                    <h3 className='text-gray-300 text-lg leading-5 font-semi-bold text-center'>
+                      Winner
+                    </h3>
+                  </div>
+                </div>
+              </div>
+              <div className='border-t border-gray-400 p-3'>
+                <div className='-mt-px flex'>
+                  <div className='w-0 flex-1 flex justify-center text-white-100'>
+                    <span className='text-lg font-bold text'>
+                      George Russell
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
