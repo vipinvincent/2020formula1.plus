@@ -506,8 +506,8 @@ export default function animation() {
                 initial='hidden'
                 animate='visible'
                 transition={{
-                  default: { duration: 4, ease: 'easeInOut' },
-                  fill: { duration: 4, ease: [1, 0, 0.8, 1] },
+                  default: { duration: 2, ease: 'easeInOut' },
+                  fill: { duration: 2, ease: [1, 0, 0.8, 1] },
                 }}></motion.path>
               <motion.path
                 d='M183,637 L416,637 L661,-7.531753e-12 L539,-7.50333129e-12 L436.067665,273.649378 C423.99452,305.746276 393.292443,327 359,327 L359,327 C324.663745,327 293.877912,348.15838 281.572705,380.213961 L183,637 Z'
@@ -517,8 +517,8 @@ export default function animation() {
                 initial='hidden'
                 animate='visible'
                 transition={{
-                  default: { duration: 3, ease: 'easeInOut' },
-                  fill: { duration: 3, ease: [1, 0, 0.8, 1] },
+                  default: { duration: 2, ease: 'easeInOut' },
+                  fill: { duration: 2, ease: [1, 0, 0.8, 1] },
                 }}></motion.path>
             </motion.g>
           </g>
