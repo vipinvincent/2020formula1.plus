@@ -71,12 +71,12 @@ export default function animation() {
           fillRule='evenodd'>
           <g id='f1'>
             <motion.g
-              initial={{ opacity: 0, scale: 0.9, x: 1000, y: -15 }}
-              animate={{ opacity: 1, scale: 1, x: -250, y: -15 }}
-              exit={{ opacity: 1, scale: 1, x: 0, y: 0 }}
+              initial={{ opacity: 0, scale: 0.8, x: 1000, y: -15 }}
+              animate={{ opacity: 1, scale: 0.95, x: -250, y: -15 }}
+              exit={{ opacity: 1, scale: 0.95, x: 0, y: 0 }}
               transition={{
-                delay: 4,
-                duration: 4,
+                delay: 2,
+                duration: 1.5,
                 ease: 'linear',
               }}
               id='car'>
@@ -473,8 +473,8 @@ export default function animation() {
                 initial='hidden'
                 animate='visible'
                 transition={{
-                  default: { duration: 5, ease: 'easeInOut' },
-                  fill: { duration: 5, ease: [1, 0, 0.8, 1] },
+                  default: { duration: 3, ease: 'easeInOut' },
+                  fill: { duration: 3, ease: [1, 0, 0.8, 1] },
                 }}></motion.path>
               <motion.path
                 d='M305.593744,9.95167475e-13 L479,0 L236,637 L0,637 L211.82242,65.2589757 C226.354418,26.0348961 263.764241,1.19693445e-12 305.593744,9.66338121e-13 Z'
@@ -510,7 +510,7 @@ export default function animation() {
                   fill: { duration: 2, ease: [1, 0, 0.8, 1] },
                 }}></motion.path>
               <motion.path
-                d='M183,637 L416,637 L661,-7.531753e-12 L539,-7.50333129e-12 L436.067665,273.649378 C423.99452,305.746276 393.292443,327 359,327 L359,327 C324.663745,327 293.877912,348.15838 281.572705,380.213961 L183,637 Z'
+                d='M183,637 L416,637 L623,101 C627.178006,88.3287423 630.51134,78.995409 633,73 C635.021987,68.1288501 638.873279,58.1100248 644,49 C648.338228,41.2911036 655.32727,33.8224892 657,32 C661.634891,26.9501478 665.107452,23.1582716 670,20 C674.521234,17.0814219 684.243757,10.4647252 693,7 C698.453313,4.84219859 707.453313,2.50886525 720,-8.15703061e-12 L478,-8.37019343e-12 L440,102 C440,101 355.67664,309.12206 357,319 C357.19372,320.445981 354.978449,321.715723 350.354186,322.809227 L350.354186,322.809228 C318.185874,330.416102 291.855016,353.42811 280.008804,384.28799 L183,637 Z'
                 id='-'
                 fill='#FFFFFF'
                 variants={white}
