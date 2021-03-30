@@ -14,7 +14,7 @@ const Header: React.FC = () => {
     <header
       className='w-full bg-white-100 fixed xs:relative top-0 right-0 left-0 lg:flex lg:items-center lg:justify-between mx-auto py-1 header container z-20 border border-b border-gray-200'
       id='top'>
-      <div className='hidden lg:flex justify-end lg:order-2 w-8/12 pr-4 h-10 xs:h-20 whitespace-no-wrap'>
+      <div className='hidden lg:flex justify-end lg:order-2 w-8/12 pr-4 h-10 xs:h-20 whitespace-nowrap'>
         <NavLink href='/news' target='_self'>
           <div className='h-20 pl-2 pr-4 flex flex-row content-center self-center grow'>
             <div className='flex content-center self-center leading-tight text-base'>

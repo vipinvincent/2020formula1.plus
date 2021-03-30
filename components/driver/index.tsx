@@ -14,17 +14,17 @@ const Driver: React.FC = () => {
               <table className='w-full'>
                 <thead>
                   <tr>
-                    <th className='pl-6 py-3 border-b border-gray-200 bg-gray-50 text-left text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider whitespace-no-wrap'>
+                    <th className='pl-6 py-3 border-b border-gray-200 bg-gray-50 text-left text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider whitespace-nowrap'>
                       Driver
                     </th>
-                    <th className='pr-6 py-3 border-b border-gray-200 bg-gray-50 text-right text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider whitespace-no-wrap'>
+                    <th className='pr-6 py-3 border-b border-gray-200 bg-gray-50 text-right text-xs leading-4 font-medium text-gray-500 uppercase tracking-wider whitespace-nowrap'>
                       Points
                     </th>
                   </tr>
                 </thead>
                 <tbody className='bg-white'>
                   <tr>
-                    <td className='pl-6 py-4 whitespace-no-wrap border-b border-gray-200'>
+                    <td className='pl-6 py-4 whitespace-nowrap border-b border-gray-200'>
                       <div className='flex items-center'>
                         <div className='text-sm leading-5 font-medium text-gray-900 mercedes'>
                           Lewis Hamilton{' '}
@@ -34,14 +34,14 @@ const Driver: React.FC = () => {
                         </div>
                       </div>
                     </td>
-                    <td className='pr-6 py-4 whitespace-no-wrap border-b border-gray-200 text-right mercedes'>
+                    <td className='pr-6 py-4 whitespace-nowrap border-b border-gray-200 text-right mercedes'>
                       <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-gray-100 text'>
                         347
                       </span>
                     </td>
                   </tr>
                   <tr>
-                    <td className='pl-6 py-4 whitespace-no-wrap border-b border-gray-200'>
+                    <td className='pl-6 py-4 whitespace-nowrap border-b border-gray-200'>
                       <div className='flex items-center'>
                         <div className='text-sm leading-5 font-medium text-gray-900 mercedes'>
                           Valtteri Bottas{' '}
@@ -51,14 +51,14 @@ const Driver: React.FC = () => {
                         </div>
                       </div>
                     </td>
-                    <td className='pr-6 py-4 whitespace-no-wrap border-b border-gray-200 text-right mercedes'>
+                    <td className='pr-6 py-4 whitespace-nowrap border-b border-gray-200 text-right mercedes'>
                       <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-gray-100 text'>
                         223
                       </span>
                     </td>
                   </tr>
                   <tr>
-                    <td className='pl-6 py-4 whitespace-no-wrap border-b border-gray-200'>
+                    <td className='pl-6 py-4 whitespace-nowrap border-b border-gray-200'>
                       <div className='flex items-center'>
                         <div className='text-sm leading-5 font-medium text-gray-900 redbull'>
                           Max Verstappen{' '}
@@ -68,14 +68,14 @@ const Driver: React.FC = () => {
                         </div>
                       </div>
                     </td>
-                    <td className='pr-6 py-4 whitespace-no-wrap border-b border-gray-200 text-right redbull'>
+                    <td className='pr-6 py-4 whitespace-nowrap border-b border-gray-200 text-right redbull'>
                       <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-gray-100 text'>
                         214
                       </span>
                     </td>
                   </tr>
                   <tr>
-                    <td className='px-6 py-4 whitespace-no-wrap border-b border-gray-200'>
+                    <td className='px-6 py-4 whitespace-nowrap border-b border-gray-200'>
                       <div className='flex items-center'>
                         <div className='text-sm leading-5 font-medium text-gray-900 racingpoint'>
                           Sergio Perez{' '}
@@ -85,14 +85,14 @@ const Driver: React.FC = () => {
                         </div>
                       </div>
                     </td>
-                    <td className='px-6 py-4 whitespace-no-wrap text-right border-b border-gray-200 racingpoint'>
+                    <td className='px-6 py-4 whitespace-nowrap text-right border-b border-gray-200 racingpoint'>
                       <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-gray-100 text'>
                         125
                       </span>
                     </td>
                   </tr>
                   <tr>
-                    <td className='px-6 py-4 whitespace-no-wrap border-b border-gray-200'>
+                    <td className='px-6 py-4 whitespace-nowrap border-b border-gray-200'>
                       <div className='flex items-center'>
                         <div className='text-sm leading-5 font-medium text-gray-900 renault'>
                           Daniel Ricciardo{' '}
@@ -102,14 +102,14 @@ const Driver: React.FC = () => {
                         </div>
                       </div>
                     </td>
-                    <td className='px-6 py-4 whitespace-no-wrap text-right border-b border-gray-200 renault'>
+                    <td className='px-6 py-4 whitespace-nowrap text-right border-b border-gray-200 renault'>
                       <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-gray-100 text three-d-text'>
                         119
                       </span>
                     </td>
                   </tr>
                   <tr>
-                    <td className='pl-6 py-4 whitespace-no-wrap border-b border-gray-200'>
+                    <td className='pl-6 py-4 whitespace-nowrap border-b border-gray-200'>
                       <div className='flex items-center'>
                         <div className='text-sm leading-5 font-medium text-gray-900 mclaren'>
                           Carlos Sainz{' '}
@@ -119,14 +119,14 @@ const Driver: React.FC = () => {
                         </div>
                       </div>
                     </td>
-                    <td className='pr-6 py-4 whitespace-no-wrap border-b border-gray-200 text-right mclaren'>
+                    <td className='pr-6 py-4 whitespace-nowrap border-b border-gray-200 text-right mclaren'>
                       <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-gray-100 text'>
                         105
                       </span>
                     </td>
                   </tr>
                   <tr>
-                    <td className='pl-6 py-4 whitespace-no-wrap border-b border-gray-200'>
+                    <td className='pl-6 py-4 whitespace-nowrap border-b border-gray-200'>
                       <div className='flex items-center'>
                         <div className='text-sm leading-5 font-medium text-gray-900 redbull'>
                           Alexander Albon{' '}
@@ -136,14 +136,14 @@ const Driver: React.FC = () => {
                         </div>
                       </div>
                     </td>
-                    <td className='pr-6 py-4 whitespace-no-wrap border-b border-gray-200 text-right redbull'>
+                    <td className='pr-6 py-4 whitespace-nowrap border-b border-gray-200 text-right redbull'>
                       <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-gray-100 text'>
                         105
                       </span>
                     </td>
                   </tr>
                   <tr>
-                    <td className='pl-6 py-4 whitespace-no-wrap border-b border-gray-200'>
+                    <td className='pl-6 py-4 whitespace-nowrap border-b border-gray-200'>
                       <div className='flex items-center'>
                         <div className='text-sm leading-5 font-medium text-gray-900 ferrari'>
                           Charles Leclerc{' '}
@@ -153,7 +153,7 @@ const Driver: React.FC = () => {
                         </div>
                       </div>
                     </td>
-                    <td className='pr-6 py-4 whitespace-no-wrap border-b border-gray-200 text-right ferrari'>
+                    <td className='pr-6 py-4 whitespace-nowrap border-b border-gray-200 text-right ferrari'>
                       <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-gray-100 text'>
                         98
                       </span>
@@ -161,7 +161,7 @@ const Driver: React.FC = () => {
                   </tr>
 
                   <tr>
-                    <td className='pl-6 py-4 whitespace-no-wrap border-b border-gray-200'>
+                    <td className='pl-6 py-4 whitespace-nowrap border-b border-gray-200'>
                       <div className='flex items-center'>
                         <div className='text-sm leading-5 font-medium text-gray-900 mclaren'>
                           Lando Norris{' '}
@@ -171,14 +171,14 @@ const Driver: React.FC = () => {
                         </div>
                       </div>
                     </td>
-                    <td className='pr-6 py-4 whitespace-no-wrap border-b border-gray-200 text-right mclaren'>
+                    <td className='pr-6 py-4 whitespace-nowrap border-b border-gray-200 text-right mclaren'>
                       <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-gray-100 text'>
                         97
                       </span>
                     </td>
                   </tr>
                   <tr>
-                    <td className='px-6 py-4 whitespace-no-wrap border-b border-gray-200'>
+                    <td className='px-6 py-4 whitespace-nowrap border-b border-gray-200'>
                       <div className='flex items-center'>
                         <div className='text-sm leading-5 font-medium text-gray-900 alphatauri'>
                           Pierre Gasly{' '}
@@ -188,7 +188,7 @@ const Driver: React.FC = () => {
                         </div>
                       </div>
                     </td>
-                    <td className='px-6 py-4 whitespace-no-wrap text-right border-b border-gray-200 alphatauri'>
+                    <td className='px-6 py-4 whitespace-nowrap text-right border-b border-gray-200 alphatauri'>
                       <span className='px-2 inline-flex text-xs leading-5 font-semibold rounded-full bg-gray-100 text'>
                         74
                       </span>

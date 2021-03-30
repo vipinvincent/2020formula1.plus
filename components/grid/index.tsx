@@ -2,7 +2,7 @@ import React from 'react'
 
 const Race: React.FC = () => {
   return (
-    <div className='flex flex-col mb-9 flex-grow flex-no-wrap flex-shrink-0'>
+    <div className='flex flex-col mb-9 flex-grow flex-nowrap flex-shrink-0'>
       <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
         Starting Grid - SAKHIR GP 2020
       </div>

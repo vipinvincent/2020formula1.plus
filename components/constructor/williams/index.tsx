@@ -93,10 +93,10 @@ const Williams: React.FC = () => {
           <div className='flex flex-col justify-between bg-white-100 overflow-hidden  rounded-md border border-gray-100'>
             <div className='px-0'>
               <div className='flex flex-row bg-white-100 items-center'>
-                <div className='h-32 sm:h-40 w-full lg:w-1/3 text-center bg-photobg'>
+                <div className='h-32 sm:h-40 w-full lg:w-1/3 text-center bg-white-100 '>
                   <img
                     className='w-full h-full object-contain rounded-t-md rounded-b-md text-center'
-                    src='https://www.formula1.com/content/fom-website/en/drivers/george-russell/_jcr_content/image.img.320.medium.jpg/1584013014200.jpg'
+                    src='https://res.cloudinary.com/f1plus/image/upload/v1617084696/contentImages/drivers/2020/russel_lhxpzl.jpg'
                     alt='George Russell'
                   />
                 </div>
@@ -150,10 +150,10 @@ const Williams: React.FC = () => {
           <div className='flex flex-col justify-between bg-white-100 overflow-hidden  rounded-md border border-gray-100'>
             <div className='px-0'>
               <div className='flex flex-row bg-white-100 items-center'>
-                <div className='h-32 sm:h-40 w-full lg:w-1/3 text-center bg-photobg'>
+                <div className='h-32 sm:h-40 w-full lg:w-1/3 text-center bg-white-100 '>
                   <img
                     className='w-full h-full object-contain rounded-t-md rounded-b-md text-center'
-                    src='https://www.formula1.com/content/fom-website/en/drivers/nicholas-latifi/_jcr_content/image.img.320.medium.jpg/1584013824254.jpg'
+                    src='https://res.cloudinary.com/f1plus/image/upload/v1617084696/contentImages/drivers/2020/latifi_m1ct19.jpg'
                     alt='Nicholas Latifi'
                   />
                 </div>

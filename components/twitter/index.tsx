@@ -21,7 +21,7 @@ function ErrorFallback() {
 const Twitter: React.FC = () => {
   return (
     <ErrorBoundary FallbackComponent={ErrorFallback}>
-      <div className='flex flex-col mb-9 flex-grow flex-no-wrap flex-shrink-0'>
+      <div className='flex flex-col mb-9 flex-grow flex-nowrap flex-shrink-0'>
         <div className='text-base leading-6 font-semibold uppercase tracking-wider text-secondary-on text-left mb-1 px-2 '>
           Tweets from formula 1 world
         </div>

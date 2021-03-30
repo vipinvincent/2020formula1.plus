@@ -88,10 +88,10 @@ const Haas: React.FC = () => {
           <div className='flex flex-col justify-between bg-white-100 overflow-hidden  rounded-md border border-gray-100'>
             <div className='px-0'>
               <div className='flex flex-row bg-white-100 items-center'>
-                <div className='h-32 sm:h-40 w-full lg:w-1/3 text-center bg-photobg'>
+                <div className='h-32 sm:h-40 w-full lg:w-1/3 text-center bg-white-100 '>
                   <img
                     className='w-full h-full object-contain rounded-t-md rounded-b-md text-center'
-                    src='https://www.formula1.com/content/fom-website/en/drivers/romain-grosjean/_jcr_content/image.img.320.medium.jpg/1584013014200.jpg'
+                    src='https://res.cloudinary.com/f1plus/image/upload/v1617084696/contentImages/drivers/2020/grosjean_acelgi.jpg'
                     alt='Romain Grosjean'
                   />
                 </div>
@@ -145,10 +145,10 @@ const Haas: React.FC = () => {
           <div className='flex flex-col justify-between bg-white-100 overflow-hidden  rounded-md border border-gray-100'>
             <div className='px-0'>
               <div className='flex flex-row bg-white-100 items-center'>
-                <div className='h-32 sm:h-40 w-full lg:w-1/3 text-center bg-photobg'>
+                <div className='h-32 sm:h-40 w-full lg:w-1/3 text-center bg-white-100 '>
                   <img
                     className='w-full h-full object-contain rounded-t-md rounded-b-md text-center'
-                    src='https://www.formula1.com/content/fom-website/en/drivers/kevin-magnussen/_jcr_content/image.img.320.medium.jpg/1584013824254.jpg'
+                    src='https://res.cloudinary.com/f1plus/image/upload/v1617084695/contentImages/drivers/2020/magnussen_spigva.jpg'
                     alt='Kevin Magnussen'
                   />
                 </div>

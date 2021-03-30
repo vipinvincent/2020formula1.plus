@@ -35,7 +35,7 @@ export default function animation() {
                   id='main-body'
                   className='main-body'
                   stroke='#B30402'
-                  stroke-width='2'
+                  strokeWidth='2'
                   fill='url(#linearGradient-1)'
                   fillRule='nonzero'
                   transform='translate(749.878495, 150.558712) scale(-1, 1) translate(-749.878495, -150.558712) '></path>
@@ -44,7 +44,7 @@ export default function animation() {
                   id='side-body'
                   className='side-body'
                   stroke='#860301'
-                  stroke-width='5'
+                  strokeWidth='5'
                   fill='url(#linearGradient-2)'
                   transform='translate(892.062543, 80.625243) scale(1, -1) translate(-892.062543, -80.625243) '></path>
                 <path

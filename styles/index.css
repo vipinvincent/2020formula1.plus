@@ -4,7 +4,7 @@ html,
 body {
   font-family: 'Lato', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
     'Helvetica Neue', Arial, 'Noto Sans', sans-serif, 'Apple Color Emoji',
-    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+    'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji' !important;
   font-size: 16px;
   word-spacing: 1px;
   -ms-text-size-adjust: 100%;
@@ -34,6 +34,7 @@ body {
 .min-container {
   min-width: 320px;
 }
+
 @media (max-width: 1024px) {
   .navigation {
     height: calc(100vh - 48px) !important;
@@ -115,7 +116,7 @@ body {
 }
 
 .haas .rear-wing {
-  fill: #fd2333;
+  fill: #414443;
 }
 
 .haas .text {
@@ -135,7 +136,7 @@ body {
 }
 
 .mclaren .rear-wing {
-  fill: #66bdfc;
+  fill: #414443;
 }
 
 .mclaren .text {
@@ -175,7 +176,7 @@ body {
 }
 
 .redbull .rear-wing {
-  fill: #f8b506;
+  fill: #0600ef;
 }
 
 .redbull .text {
@@ -255,7 +256,7 @@ body {
 }
 
 .racingpoint .rear-wing {
-  fill: #002e6c;
+  fill: #f596c8;
 }
 
 .racingpoint .text {
@@ -368,6 +369,7 @@ body {
   margin-left: 7px !important;
   margin-bottom: 10px !important;
 }
+
 .youtube iframe {
   border-top-left-radius: 1rem;
 }
